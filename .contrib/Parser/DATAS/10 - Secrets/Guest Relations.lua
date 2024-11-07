@@ -268,8 +268,89 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					}),
 				},
 			}),
-			-- End of Chapter 1 --
-			-- Chapter 2: November 4th --
+			-- Chapter 2
+			--Quests in this chain are faction locked, but both cross complete.
+			q(84563, {	-- Toy Trouble [A]
+				["provider"] = { "n", 232404 },	-- Alyx <Volunteer Assistant Guest Relations Manager and Associate Event Coordinator>
+				["sourceQuests"] = { 84336 },	-- Spot The Difference
+				["coord"] = { 63.0, 50.2, TANARIS },
+			}),
+			q(84564, {	-- Toy Trouble [H]
+				["provider"] = { "n", 232404 },	-- Alyx <Volunteer Assistant Guest Relations Manager and Associate Event Coordinator>
+				["sourceQuests"] = { 84336 },	-- Spot The Difference
+				["coord"] = { 63.0, 50.2, TANARIS },
+			}),
+			q(84588, {	-- Operation Toy Rescue [A]
+				["description"] = "Talk to Yennu in Iskaara, find a note in Dragonscale Basecamp, and find their ball near Maruukai then return. Pet Kenshi in Boralus, find the Ball of Yarn in the park, and talk to Kenshi again.",
+				["provider"] = { "n", 226684 },	-- Maru
+				["sourceQuests"] = { 84563 },	-- Toy Trouble [A]
+				["coord"] = { 63.2, 52.4, TANARIS },
+				["g"] = {
+					i(229990),	-- My Journal: Operation Toy Rescue (QI!)
+					n(228634, {	-- Yennu
+						["coord"] = { 13.4, 48.9, THE_AZURE_SPAN },
+					}),
+					o(465234, {	-- Missing Page from Yennu's Snackbook
+						["description"] = "Inside a cart in Dragonscale Basecamp.",
+						["coord"] = { 47.0, 83.5, THE_WAKING_SHORES },
+						["g"] = {
+							i(228791 ),	-- Missing Page from Yennu's Snackbook (QI!)
+						},
+					}),
+					o(465277, {	-- Mound of Dirt
+						["description"] = "By a river by the eastern side of Maruukai.",
+						["coord"] = { 62.0, 37.5, OHNAHRAN_PLAINS },
+						["g"] = {
+							i(228975),	-- Yennu's Toy Ball (QI!)
+						},
+					}),
+					n(142044, {	-- Kenshi
+						["coord"] = { 54.0, 72.8, BORALUS },
+					}),
+					o(467060, {	-- Ball of Yarn
+						["description"] = "By a river by the eastern side of Maruukai.",
+						["coord"] = { 62.0, 37.5, OHNAHRAN_PLAINS },
+						["g"] = {
+							i(229164 ),	-- Ball of Yarn (QI!)
+						},
+					}),
+				},
+			}),
+			q(85025, {	-- Operation Toy Rescue [H]
+			["description"] = "Talk to Yennu in Iskaara, find a note in Dragonscale Basecamp, and find their ball near Maruukai then return. Pet Nuts in Dazar'Alor, follow the fur sheddings to a Plush Toy, and give it to him.",
+				["provider"] = { "n", 226684 },	-- Maru
+				["sourceQuests"] = { 84564 },	-- Toy Trouble [H]
+				["coord"] = { 63.2, 52.4, TANARIS },
+				["g"] = {
+					i(229991),	-- My Journal: Operation Toy Rescue (QI!)
+					n(228634, {	-- Yennu
+						["coord"] = { 13.4, 48.9, THE_AZURE_SPAN },
+					}),
+					o(465277, {	-- Missing Page from Yennu's Snackbook
+						["description"] = "Inside a cart in Dragonscale Basecamp.",
+						["coord"] = { 47.0, 83.5, THE_WAKING_SHORES },
+						["g"] = {
+							i(228791 ),	-- Missing Page from Yennu's Snackbook (QI!)
+						},
+					}),
+					o(465277, {	-- Mound of Dirt
+						["description"] = "By a river by the eastern side of Maruukai.",
+						["coord"] = { 62.0, 37.5, OHNAHRAN_PLAINS },
+						["g"] = {
+							i(228975),	-- Yennu's Toy Ball (QI!)
+						},
+					}),
+					n(54227, {	-- Nuts
+						["coord"] = { 56.3, 31.7, DAZARALOR },
+					}),
+					o(470229, {	-- Plush Toy
+						["coord"] = { 56.4, 21.3, DAZARALOR },
+						["g"] = {
+							i(229908),	-- Plush Toy (QI!)
+						},
+					}),
+				},
+			}),
 		}),
 		header(HEADERS.Achievement, 40871,{
 			ach(40871, {	-- Assistant to the Assistant Guest Relations Manager (automated)
@@ -284,7 +365,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					230838,	-- Alphonse Constant <Apprentice Cartomancer>
 				},
 				["g"] = {
-					i(229919),	-- Six of Frost
+					i(229219),	-- Six of Frost
 				},
 			}),
 			q(84882, {	-- Deck Dismay
@@ -363,7 +444,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					226683,	-- Alyx <Volunteer Assistant Guest Relations Manager>
 					232404,	-- Alyx <Volunteer Assistant Guest Relations Manager and Associate Event Coordinator>
 				},
-				["coord"] = { 63.0, 52.2, TANARIS },
+				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
 			q(83825, {	-- Restoring A Grand Tale
 				["provider"] = { "n", 231433 },	-- Raenie Fizzlebog
