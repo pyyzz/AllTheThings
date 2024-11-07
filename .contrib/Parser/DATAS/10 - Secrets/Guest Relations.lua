@@ -204,7 +204,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			q(84296, {	-- The Trail's Gone Cold
 				["description"] = "1. Locate 3 diary pages around the marked shed and then go to Sholazar Basin.\n2. Interact with the Mounted Spyglass atop the Glimmering Pillar and then head to Icecrown.\n3. Use your Torch of Pyreth at Scrapes.\n4. Summon Rexxar with your Spirit's Whistle and tell him about a shapeshifter.",
 				["sourceQuests"] = { 84278 },	-- Tracking Quest
-				["provider"] = { "n", 226952  },	-- Rexxar
+				["provider"] = { "n", 226952 },	-- Rexxar
 				["coord"] = { 77.3, 46.2, BOREAN_TUNDRA },
 				["crs"] = { 228550 },	-- Rexxar
 				["g"] = {
@@ -317,7 +317,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				},
 			}),
 			q(85025, {	-- Operation Toy Rescue [H]
-			["description"] = "Talk to Yennu in Iskaara, find a note in Dragonscale Basecamp, and find their ball near Maruukai then return. Pet Nuts in Dazar'Alor, follow the fur sheddings to a Plush Toy, and give it to him.",
+				["description"] = "Talk to Yennu in Iskaara, find a note in Dragonscale Basecamp, and find their ball near Maruukai then return. Pet Nuts in Dazar'Alor, follow the fur sheddings to a Plush Toy, and give it to him.",
 				["provider"] = { "n", 226684 },	-- Maru
 				["sourceQuests"] = { 84564 },	-- Toy Trouble [H]
 				["coord"] = { 63.2, 52.4, TANARIS },
