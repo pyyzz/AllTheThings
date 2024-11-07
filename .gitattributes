@@ -86,9 +86,7 @@ setup.cfg export-ignore
 contrib export-ignore
 .contrib export-ignore
 .github export-ignore
-db/Wrath/Categories.lua filter=lfs diff=lfs merge=lfs -text
-db/Cata/Categories.lua filter=lfs diff=lfs merge=lfs -text
-db/Classic/Categories.lua filter=lfs diff=lfs merge=lfs -text
-db/Mists/Categories.lua filter=lfs diff=lfs merge=lfs -text
-db/Retail/Categories.lua filter=lfs diff=lfs merge=lfs -text
-db/TBC/Categories.lua filter=lfs diff=lfs merge=lfs -text
+###############################################################################
+# using for Git LFS (Large File Storage)
+###############################################################################
+*/Categories.lua filter=lfs diff=lfs merge=lfs -text
