@@ -1920,18 +1920,23 @@ i(229418, 465235);	-- Trader's Gilded Brutosaur
 ------------------
 -- PATCH 11.0.7 --
 ------------------
+i(234730, 1214946);	-- Broodling of Sinestra
+i(234740, 1214974);	-- Copper-Maned Quilen
 i(233241, 471696);	-- Hooktalon
 i(0, 473472);		-- Jani's Trashpile
-i(232901, 472253);	-- Lunar Launcher
-i(232926, 472479);	-- Love Witch's Sweeper
+i(234716, 1214920);	-- Nightfall Skyreaver
 i(226042, 457656);	-- Plunderlord's Midnight Crocolisk
 i(233240, 437162);	-- Polly Roger
 i(233242, 254812);	-- Royal Seafeather
-i(233354, 473861);	-- Savage Alabaster Battle Turtle
 i(223313, 448934);	-- Shadow of Doubt
 i(233243, 300154);	-- Silver Tidestallion
-i(233019, 472489);	-- Sky Witch's Sweeper
 i(232991, 472752);	-- The Breaker's Song
+i(234721, 1214940);	-- Ur'zul Fleshripper
+--- UNSORTED ---
+i(232901, 472253);	-- Lunar Launcher
+i(232926, 472479);	-- Love Witch's Sweeper
+i(233354, 473861);	-- Savage Alabaster Battle Turtle
+i(233019, 472489);	-- Sky Witch's Sweeper
 i(232639, 471562);	-- Thrayir, Eyes of the Siren
 i(232624, 471538);	-- Timely Buzzbee
 i(233020, 472488);	-- Twilight Witch's Sweeper

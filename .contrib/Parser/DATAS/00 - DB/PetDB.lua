@@ -4272,5 +4272,11 @@ i(233251, 4426);		-- Bubbles
 i(233248, 4425);		-- Glamrok
 i(233252, 4435);		-- Happy
 --i(0, ???);	-- Parley
---i(232519, ???);	-- Razeshi B
 --i(233247, ???);	-- Sparklesnap
+--- UNSORTED ---
+--i(234397, ???);	-- Fullbelly Rollingpaw
+--i(232531, ???);	-- Grunch
+--i(232519, ???);	-- Razeshi B
+--i(234396, ???);	-- Teatuft Tamer
+--i(233366, ???);	-- Wind-Up Woofer
+--i(233361, ???);	-- Wind-Up Wuffi
