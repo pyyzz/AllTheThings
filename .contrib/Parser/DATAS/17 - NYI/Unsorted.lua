@@ -1006,21 +1006,14 @@ root(ROOTS.Unsorted, {
 			i(232631),	-- Wrapped Spear
 			--
 			i(228911),	-- Xal'atath's Rusty Coin
-
-			i(228938),	-- Area 52 Tabard
 			i(233053),	-- Crown of the Violet Rose
 			i(234413),	-- Satchel of Exotic Mysteries
-
 			--
-			i(44124),	-- Peculiar Key
 			i(118067),	-- Old Chain Link
 			i(228934),	-- Carefully Penned Note
 			i(228935),	-- Unfinished Note
 			i(228936),	-- Hastily Scrawled Note
 			i(228937),	-- Water-Resistant Note
-			i(228938),	-- Peculiar Gem
-			i(228941),	-- Inert Peculiar Key
-			i(234425),	-- Forgotten Folio
 		})),
 		expansion(EXPANSION.TWW, patch(0,2), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 			explorationHeader({
