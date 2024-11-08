@@ -582,13 +582,36 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					}),
 				},
 			}),
+			-- The Loud and Smelly Case
+			q(84583, {	-- A Hozen On My Back
+				["provider"] = { "n", 232406 },	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
+				["coord"] = { 63.0, 50.2, TANARIS },
+			}),
+			q(84595, {	-- The Case of the Fur-Getting Wikket
+				["description"] = "Talk to Riko, then Sully. Visit Gizmo's grave in the Jade Forest, then chase him down to return to Riko. Wait 5 minutes for Riko to send you mail.",
+				["provider"] = { "n", 229749 },	-- Riko
+				["coord"] = { 61.9, 50.5, TANARIS },
+				["g"] = {
+					i(228750),	-- My Journal: The Case of the Fur-Getting Wikket
+					n(229775, {	-- Sully "The Pickle" McLeary
+						["coord"] = { 63.1, 49.4, TANARIS },
+					}),
+					n(229776, {
+						["provider"] = { "i", 208092 },	-- Torch of Pyrreth
+						["coord"] = { 43.4, 68.8, THE_JADE_FOREST },
+						["g"] = {
+							i(228755),	-- Gizmo (QI!)
+						},
+					}),
+					i(228740),	-- Gizmo the Pure (PET!)
+				},
+			}),
 			q(84924),	-- The Case of a Feathered Friend
 			q(84435),	-- The Case of an Old Soul
 			q(84933),	-- The Case of Great Aspirations
 			q(85477),	-- The Case of Missing Mementos
 			q(84469),	-- The Case of Pet Games
 			q(84912),	-- The Case of Staged Disaster
-			q(84595),	-- The Loud and Smelly Case
 		}),
 		header(HEADERS.Achievement, 40979, {	-- No Crate Left Behind
 			ach(40873),		-- Crate Insurance Agent
