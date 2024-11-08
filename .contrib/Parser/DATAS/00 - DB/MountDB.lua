@@ -1803,8 +1803,6 @@ i(223470, 449141);	-- [PH] Alliance Wolf Mount Red
 i(223282, 448845);	-- [PH] Blue Old God Fish Mount
 i(221270, 446352);	-- [PH] Goblin Surfboard - Blue
 i(223460, 449133);	-- [PH] Nightsaber Horde Mount White
-i(223459, 449132);	-- Blackrock Warsaber
-i(223471, 449142);	-- Kaldorei War Wolf
 i(224574, 453255);	-- Savage Ebony Battle Turtle
 i(223284, 448849);	-- Underlight Shorestalker
 
@@ -1907,6 +1905,7 @@ i(223276, 448680);	-- Widow's Undercrawler
 -- PATCH 11.0.5 --
 ------------------
 i(224399, 452645);	-- Amani Hunting Bear
+i(223459, 449132);	-- Blackrock Warsaber
 i(230200, 466838);	-- Chaos-Forged Dreadwing
 i(230184, 466811);	-- Chaos-Forged Gryphon
 i(230185, 466812);	-- Chaos-Forged Hippogryph
@@ -1915,6 +1914,7 @@ i(228760, 463133);	-- Coldflame Tempest
 i(231374, 468353);	-- Enchanted Spellweave Carpet
 i(224398, 452643);	-- Frayfeather Hippogryph
 i(211087, 428067);	-- Hateforged Blazecycle
+i(223471, 449142);	-- Kaldorei War Wolf
 i(229418, 465235);	-- Trader's Gilded Brutosaur
 
 ------------------
