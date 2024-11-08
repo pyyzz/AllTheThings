@@ -363,10 +363,10 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 						}),
 					},
 				}),
-				TolBaradDailyQuest(28661, {	-- The Imprisoned Archmage [A]
+				TolBaradDailyQuest(28118, {	-- The Imprisoned Archmage [A]
 					["qg"] = 48039, -- Commander Stevens
 					["timeline"] = { ADDED_4_0_3 },
-					["races"] = HORDE_ONLY,
+					["races"] = ALLIANCE_ONLY,
 					["isDaily"] = true,
 					["groups"] = {
 						objective(1, {	-- 0/1 Archmage Galus' Staff
@@ -375,10 +375,10 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 						}),
 					},
 				}),
-				TolBaradDailyQuest(28118, {	-- The Imprisoned Archmage [H]
+				TolBaradDailyQuest(28661, {	-- The Imprisoned Archmage [H]
 					["qg"] = 48071, -- Private Garnoth
 					["timeline"] = { ADDED_4_0_3 },
-					["races"] = ALLIANCE_ONLY,
+					["races"] = HORDE_ONLY,
 					["isDaily"] = true,
 					["groups"] = {
 						objective(1, {	-- 0/1 Archmage Galus' Staff
