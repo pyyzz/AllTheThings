@@ -117,7 +117,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 							["lvl"] = 70,
 							["groups"] = {
 								objective(1, {	-- 0/1 Keanna's Log
-									["provider"] = { "i", 24492 },	-- Keanna's Log
+									["providers"] = {
+										{ "i",  24492 },	-- Keanna's Log
+										{ "o", 182199 },	-- Keanna's Log
+									},
 									["description"] = "In the second room on a table in the hall leading to Maiden.",
 								}),
 							},
