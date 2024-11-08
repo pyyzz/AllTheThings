@@ -97,7 +97,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 				}),
 				TolBaradDailyQuest(28658, {	-- Swamp Bait [H]
 					["qg"] = 48069, -- Commander Zanoth
-					["timeline"] = { ADDED_8_0_1 },
+					["timeline"] = { ADDED_4_0_3 },
 					["races"] = HORDE_ONLY,
 					["isDaily"] = true,
 					["groups"] = {
@@ -109,7 +109,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 				}),
 				TolBaradDailyQuest(28162, {	-- Swamp Bait [A]
 					["qg"] = 48066, -- Sergeant Parker
-					["timeline"] = { ADDED_8_0_1 },
+					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isDaily"] = true,
 					["groups"] = {
@@ -121,7 +121,7 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, bubbleDown({ ["timeline"] = { ADDED_4_0_3_L
 				}),
 				TolBaradDailyQuest(28163, {	-- The Leftovers [A]
 					["qg"] = 48066, -- Sergeant Parker
-					["timeline"] = { ADDED_4_0_1 },
+					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isDaily"] = true,
 					["groups"] = {

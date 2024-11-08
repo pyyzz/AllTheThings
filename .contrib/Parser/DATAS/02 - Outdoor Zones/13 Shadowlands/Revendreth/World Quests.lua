@@ -9,7 +9,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["description"] = "Has a chance to be listed as a reward for players of the 'Night Fae' Covenant from Pet Battle World Quests.\n\nSwitch to Night Fae Covenant, and use '/attwq' to see if it's up!",
 					["timeline"] = { ADDED_9_1_5 },
 				}),
-			}), 
+			}),
 		}),
 		n(WORLD_QUESTS, sharedData({
 			["isWorldQuest"] = true,
