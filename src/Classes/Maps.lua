@@ -460,15 +460,21 @@ if app.IsClassic then
 	app.AddEventHandler("OnRecalculate", CheckExplorationForCurrentLocation);
 else
 	app.AddEventHandler("OnRefreshCollections", CheckExplorationForPlayerPosition)
-	-- TEMP/Debugging but triggers on actual Area changes even when explored
-	if app.Debugging then
-		-- app.AddEventRegistration("FOG_OF_WAR_UPDATED", CheckExplorationForPlayerPosition)
-	end
 end
 app.AddEventRegistration("MAP_EXPLORATION_UPDATED", CheckExplorationForCurrentLocation)
 app.AddEventRegistration("UI_INFO_MESSAGE", function(messageID)
 	if messageID == 372 then CheckExplorationForCurrentLocation(); end
 end)
+--
+app.ChatCommands.Add("realtime-exploration-check", function(args)
+	app.AddEventRegistration("FOG_OF_WAR_UPDATED", CheckExplorationForPlayerPosition)
+	app.print("Enabled: realtime-exploration-check")
+	return true
+end, {
+	"Usage : /att realtime-exploration-check",
+	"This enables ATT to perform real-time Exploration checks when the Player visits new sub-zones of maps. This cannot be turned off except by reloading the UI.",
+	"NOTE: This is not intended to be used except by Contribs in order to do fine-tuned testing of Exploration data",
+})
 
 -- Harvesting
 local MAXIMUM_COORDS_PER_AREA = 5;
