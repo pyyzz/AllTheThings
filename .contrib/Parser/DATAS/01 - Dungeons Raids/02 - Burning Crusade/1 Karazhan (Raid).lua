@@ -87,15 +87,15 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 							["lvl"] = 69,
 						}),
 						q(9826, {	-- Contact from Dalaran
-							["qg"] = 17613,	-- Archmage Alturus
+							["providers"] = {
+								{ "n", 17613 },	-- Archmage Alturus
+								{ "i", 24482 },	-- Alturus's Report
+							},
 							["sourceQuests"] = {
 								9824,	-- Arcane Disturbances
 								9825,	-- Restless Activity
 							},
 							["coord"] = { 47.3, 75.2, DEADWIND_PASS },
-							["cost"] = {
-								{ "i", 24482, 1 },	-- Alturus's Report
-							},
 							["lvl"] = 68,
 						}),
 						q(9831, {	-- Entry Into Karazhan
@@ -128,9 +128,13 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 						q(9829, {	-- Khadgar
 							["qg"] = 18165,	-- Archmage Cedric
 							["sourceQuest"] = 9826,	-- Contact from Dalaran
-							-- #if TBC
-							["coord"] = { 15.6, 54.6, ALTERAC_MOUNTAINS },
-							-- #endif
+							["coords"] = { 
+								-- #if AFTER CATA
+								{ 30.8, 30.8, ALTERAC_MOUNTAINS },
+								-- #else
+								{ 15.6, 54.6, ALTERAC_MOUNTAINS },
+								-- #endif
+							},
 							["lvl"] = 68,
 						}),
 						q(9825, {	-- Restless Activity
@@ -155,6 +159,13 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 							["qg"] = 17613,	-- Archmage Alturus
 							["sourceQuest"] = 9844,	-- A Demonic Presence
 							["coord"] = { 47.3, 75.2, DEADWIND_PASS },
+							["maps"] = {
+								-- #if AFTER CATA
+								HILLSBRAD_FOOTHILLS,
+								-- #else
+								ALTERAC_MOUNTAINS,
+								-- #endif
+							},
 							["lvl"] = 70,
 							["groups"] = {
 								i(31113),	-- Violet Badge
@@ -241,13 +252,13 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 						}),
 					}, {	-- Honored
 						q(9631, {	-- A Colleague's Aid
-							["qg"] = 17613,	-- Archmage Alturus
+							["providers"] = {
+								{ "n", 17613 },	-- Archmage Alturus
+								{ "i", 24152 },	-- Charred Bone Fragment
+							},
 							["sourceQuest"] = 9680,	-- Digging Up the Past
 							["coord"] = { 47.3, 75.2, DEADWIND_PASS },
 							["maps"] = { NETHERSTORM },
-							["cost"] = {
-								{ "i", 24152, 1 },	-- Charred Bone Fragment
-							},
 							["lvl"] = 70,
 						}),
 						q(9680, {	-- Digging Up the Past
@@ -257,7 +268,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 							["lvl"] = 70,
 							["groups"] = {
 								objective(1, {	-- 0/1 Charred Bone Fragment
-									["provider"] = { "i", 24152 },	-- Charred Bone Fragment
+									["providers"] = {
+										{ "i",  24152 },	-- Charred Bone Fragment
+										{ "o", 181963 },	-- Charred Bone Fragment
+									},
 									["coord"] = { 45.0, 79.0, DEADWIND_PASS },
 								}),
 							},
