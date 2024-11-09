@@ -233,12 +233,15 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 							}),
 						},
 					}),
-					n(ZULAMAN_TIMED_EVENT, sharedData({["description"] = "Stay with them after their release to get additional loot."}, {
-						n(52941), -- Bakkal'zu
-						n(52939), -- Hazlek
-						n(52945), -- Kasha
-						n(52943), -- Norkani
-					})),
+					n(ZULAMAN_TIMED_EVENT, {
+						["sharedDescription"] = "Stay with them after their release to get additional loot.",
+						["groups"] = {
+							n(52941), -- Bakkal'zu
+							n(52939), -- Hazlek
+							n(52945), -- Kasha
+							n(52943), -- Norkani
+						},
+					}),
 					e(186, {	-- Akil'zon
 						["crs"] = { 23574 },	-- Akil'zon
 						["groups"] = {
