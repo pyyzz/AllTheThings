@@ -781,6 +781,18 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 						}),
 					},
 				}),
+				n(CACHE_OF_MADNESS, sharedData({["description"] = "Not this one."}, {
+					n(52449), -- Ancient Dwarven Artifact
+					n(52451),	-- Ancient Elven Artifact
+					n(52455),	-- Ancient Fossil
+					n(52453), -- Ancient Troll Artifact
+				})),
+				n(CACHE_OF_MADNESS, sharedData({["description"] = "This one!"}, {
+					n(52446), -- Ancient Dwarven Artifact
+					n(52450),	-- Ancient Elven Artifact
+					n(52454),	-- Ancient Fossil
+					n(52452), -- Ancient Troll Artifact
+				})),
 				e(181, {	-- High Priestess Kilnara
 					["crs"] = { 52059 },	-- High Priestess Kilnara
 					["groups"] = {
