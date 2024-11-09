@@ -173,7 +173,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 		pvp(h(ach(13403))),	-- Frontline Slayer (H)
 		pvp(ach(13387, {	-- Frontline Veteran (A)
 			["races"] = ALLIANCE_ONLY,
-			["g"] = bubbleDown({["description"] = "Requires War Mode Active" }, {
+			["g"] = bubbleDown({["sharedDescription"] = "Requires War Mode Active" }, {
 				crit(44016, {		-- A Sound Defense
 					["_quests"] = { 53711 },	-- A Sound Defense (Faction Assault WQ)
 				}),
@@ -196,7 +196,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 		})),
 		pvp(ach(13388, {	-- Frontline Veteran (H)
 			["races"] = HORDE_ONLY,
-			["g"] = bubbleDown({["description"] = "Requires War Mode Active" }, {
+			["g"] = bubbleDown({["sharedDescription"] = "Requires War Mode Active" }, {
 				crit(44022, {		-- Breaching Boralus
 					["_quests"] = { 53939 },	-- Breaching Boralus (Faction Assault WQ)
 				}),
