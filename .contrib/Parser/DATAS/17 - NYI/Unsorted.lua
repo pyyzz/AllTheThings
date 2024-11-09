@@ -171,7 +171,6 @@ root(ROOTS.Unsorted, {
 			i(232934),	-- Ensemble: Twilight Witch's Heartfelt Shoulders
 			i(232946),	-- Verus
 			i(232988),	-- Void Tear
-			i(232991),	-- The Breaker's Song
 			i(233013),	-- Coal Cookie
 			i(233019),	-- Sky Witch's Sweeper
 			i(233020),	-- Twilight Witch's Sweeper

@@ -21,7 +21,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 				40956,	-- I'm On Island Time (!)
 				40957,	-- Maximum Effort (!)
 				13541,	-- Mecha-Done
-				40963,	-- Ny'alotha, the Waking City (!)
+				40963,	-- Ny'alotha, the Waking City
 				40962,	-- The Eternal Palace
 				13994,	-- Through the Depths of Visions
 				14730,	-- To All the Squirrels I Set Sail to See
