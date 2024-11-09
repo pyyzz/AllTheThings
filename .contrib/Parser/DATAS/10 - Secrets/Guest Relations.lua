@@ -288,14 +288,14 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				["coord"] = { 63.2, 52.4, TANARIS },
 				["g"] = {
 					i(229990),	-- My Journal: Operation Toy Rescue (QI!)
-					n(228634, {	-- Yennu
+					n(229847, {	-- Yennu
 						["coord"] = { 13.4, 48.9, THE_AZURE_SPAN },
 					}),
 					o(465234, {	-- Missing Page from Yennu's Snackbook
 						["description"] = "Inside a cart in Dragonscale Basecamp.",
 						["coord"] = { 47.0, 83.5, THE_WAKING_SHORES },
 						["g"] = {
-							i(228791 ),	-- Missing Page from Yennu's Snackbook (QI!)
+							i(228791),	-- Missing Page from Yennu's Snackbook (QI!)
 						},
 					}),
 					o(465277, {	-- Mound of Dirt
@@ -309,7 +309,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 						["coord"] = { 54.0, 72.8, BORALUS },
 						["g"] = {
 							i(232363, {	-- Half-Eaten Mouse
-								["provider"] = { "i", 232362 },	-- Deluxe Tuna
+								["cost"] = { "i", 232362, 1 }, -- Deluxe Tuna
 							}),
 						},
 					}),
@@ -317,7 +317,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 						["description"] = "Near a fence and tree in Boralus Park.",
 						["coord"] = { 42.1, 75.1, BORALUS },
 						["g"] = {
-							i(229164 ),	-- Ball of Yarn (QI!)
+							i(229164),	-- Ball of Yarn (QI!)
 						},
 					}),
 				},
@@ -329,14 +329,14 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				["coord"] = { 63.2, 52.4, TANARIS },
 				["g"] = {
 					i(229991),	-- My Journal: Operation Toy Rescue (QI!)
-					n(228634, {	-- Yennu
+					n(229847, {	-- Yennu
 						["coord"] = { 13.4, 48.9, THE_AZURE_SPAN },
 					}),
 					o(465277, {	-- Missing Page from Yennu's Snackbook
 						["description"] = "Inside a cart in Dragonscale Basecamp.",
 						["coord"] = { 47.0, 83.5, THE_WAKING_SHORES },
 						["g"] = {
-							i(228791 ),	-- Missing Page from Yennu's Snackbook (QI!)
+							i(228791),	-- Missing Page from Yennu's Snackbook (QI!)
 						},
 					}),
 					o(465277, {	-- Mound of Dirt
@@ -358,17 +358,23 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				},
 			}),
 			q(84755, {	-- The Final Toy [A]
-				["provider"] = { "n", 232405 },	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Associate Event Coordinator>
+				["qgs"] = {
+					232404,	-- Alyx <Volunteer Assistant Guest Relations Manager and Associate Event Coordinator>
+					232405,	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Associate Event Coordinator>
+				},
 				["sourceQuests"] = { 84588 },	-- Operation Toy Rescue [A]
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
 			q(85042, {	-- The Final Toy [H]
-				["provider"] = { "n", 232405 },	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Associate Event Coordinator>
+				["qgs"] = {
+					232404,	-- Alyx <Volunteer Assistant Guest Relations Manager and Associate Event Coordinator>
+					232405,	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Associate Event Coordinator>
+				},
 				["sourceQuests"] = { 85025 },	-- Operation Toy Rescue [H]
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
 			q(84756, {	-- The Toy Thief [A]
-				["description"] = "Talk to Maru, suspect a dog, then visit Urban Planner Volrath in Boralus. Collect a chew toy from the mountaintop behind Maruukai in the Ohn'ahran plains, then collect Maru's toy from a cave near Teerakai.",
+				["description"] = "Talk to Maru, suspect a dog, then visit Urban Planner Volrath in Boralus.\nCollect a chew toy from the mountaintop behind Maruukai in the Ohn'ahran plains.\nPlace the Chew Toy in a Toy Box  in Teerakai and follow the Bakar Pup to collect Maru's toy from a nearby cave.",
 				["provider"] = { "n", 226684 },	-- Maru
 				["sourceQuests"] = { 84588 },	-- The Final Toy [A]
 				["coord"] = { 63.2, 52.4, TANARIS },
@@ -377,7 +383,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					n(142178, {	-- Urban Planner Volrath
 						["coord"] = { 43.2, 73.7, BORALUS },
 						["g"] = {
-							i(232564),	-- Bakar Sketch (QI!)
+							i(232364),	-- Bakar Sketch (QI!)
 						},
 					}),
 					o(467293, {	-- Chew Toy
@@ -385,38 +391,51 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 						["coord"] = { 57.9, 31.7, OHNAHRAN_PLAINS },
 						["g"] = {
 							i(229350),	-- Chew Toy (QI!)
-						}
+						},
+					}),
+					o(467305, {	-- Toy Box
+						["description"] = "Place the Chew Toy inside the Toy Box and then hide in the nearby bush.\nAfter Bakar Pup takes the toy, follow him to the cave.",
+						["coord"] = { 39.6, 58.3, OHNAHRAN_PLAINS },
 					}),
 					o(467329, {	-- Maru's Toy
 						["description"] = "Inside a cave near Teerakai",
 						["coord"] = { 38.8, 56.0, OHNAHRAN_PLAINS },
 						["g"] = {
-							i(229358 ),	-- Miniature Tuskarr Boat (QI!)
-						}
+							i(229358),	-- Miniature Tuskarr Boat (QI!)
+						},
 					}),
 				},
 			}),
 			q(85043, {	-- The Toy Thief [H]
-				--["description"] = "",
+				["description"] = "Talk to Maru, suspect a dog, then visit Matan in Dazar'alor.\nCollect a chew toy from the mountaintop behind Maruukai in the Ohn'ahran plains.\nPlace the Chew Toy in a Toy Box  in Teerakai and follow the Bakar Pup to collect Maru's toy from a nearby cave.",
 				["provider"] = { "n", 226684 },	-- Maru
 				["sourceQuests"] = { 85042 },	-- The Final Toy [H]
 				["coord"] = { 63.2, 52.4, TANARIS },
 				["g"] = {
-					-- TODO: write horde side description and source Bakar Sketch
-					i(229196),	-- Bakar Sketch (QI!)
+					i(229997),	-- My Journal: Operation Toy Rescue (QI!)
+					o(472068, {	-- Bakar Sketch
+						["coord"] = { 57.0, 22.2, DAZARALOR },
+						["g"] = {
+							i(229196),	-- Bakar Sketch (QI!)
+						},
+					}),
 					o(467293, {	-- Chew Toy
 						["description"] = "Atop the high mountain peak behind Maruukai.",
 						["coord"] = { 57.9, 31.7, OHNAHRAN_PLAINS },
 						["g"] = {
 							i(229350),	-- Chew Toy (QI!)
-						}
+						},
 					}),
-					o(467329, {	-- Maru's Toy
+					o(467305, {	-- Toy Box
+						["description"] = "Place the Chew Toy inside the Toy Box and then hide in the nearby bush.\nAfter Bakar Pup takes the toy, follow him to the cave.",
+						["coord"] = { 39.6, 58.3, OHNAHRAN_PLAINS },
+					}),
+					o(472077, {	-- Maru's Toy
 						["description"] = "Inside a cave near Teerakai",
 						["coord"] = { 38.8, 56.0, OHNAHRAN_PLAINS },
 						["g"] = {
-							i(229358 ),	-- Miniature Tuskarr Boat (QI!)
-						}
+							i(229358),	-- Miniature Tuskarr Boat (QI!)
+						},
 					}),
 				},
 			}),
@@ -523,21 +542,10 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				["provider"] = { "n", 231433 },	-- Raenie Fizzlebog
 				["sourceQuests"] = { 83832 },	-- Torn Dreams
 				["coord"] = { 63.1, 52.0, TANARIS },
-				["crs"] = {
-					227257,	-- Archavon the Stone Watcher
-					121820,	-- Azuregos
-					167749,	-- Doomwalker
-					121913,	-- Emeriss
-					121821,	-- Lethon
-					121818,	-- Lord Kazzak
-					226646,	-- Sha of Anger
-					121911,	-- Taerar
-					121912,	-- Ysondre
-				},
 				["g"] = {
 					i(226241),	-- Shredded Green Hills of Stranglethorn (QI!)
 					o(456041, {	-- Folded Paper
-						["description"] = "Next to the latrine behind the Fashion Show platform.",
+						["description"] = "Next to the outhouse behind the Fashion Show platform.",
 						["coord"] = { 63.6, 47.8, TANARIS },
 						["g"] = {
 							i(226236),	-- Green Hills of Stranglethorn - Page 21 (QI!)
@@ -584,11 +592,15 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			}),
 			-- The Loud and Smelly Case
 			q(84583, {	-- A Hozen On My Back
-				["provider"] = { "n", 232406 },	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
+				["qgs"] = {
+					226683,	-- Alyx <Volunteer Assistant Guest Relations Manager>
+					232405,	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Associate Event Coordinator>
+					232406,	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
+				},
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
 			q(84595, {	-- The Case of the Fur-Getting Wikket
-				["description"] = "Talk to Riko, then Sully. Visit Gizmo's grave in the Jade Forest, then chase him down to return to Riko. Wait 5 minutes for Riko to send you mail.",
+				["description"] = "Talk to Riko, Shademaster Kiryn, then Sully. Visit Gizmo's grave in the Jade Forest, then chase him down to return to Riko. Wait 5 minutes for Riko to send you mail.",
 				["provider"] = { "n", 229749 },	-- Riko
 				["coord"] = { 61.9, 50.5, TANARIS },
 				["g"] = {
@@ -662,7 +674,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					},
 				}),
 				n(91079, {	-- Vashti the Wandering Merchant <General Goods>
-					["description"] = "Can be found pathing up and down the road between Felblaze Ingress and The Ruined Sanctum in Azsuna.",
+					["description"] = "Can be found pathing up and down the road between Felblaze Ingress and The Ruined Sanctum in Azsuna, Broken Isles.",
 					["coord"] = { 65.2, 36.4, AZSUNA },
 					["g"] = {
 						i(228986, {	-- Aesthetician's Coupon Book
