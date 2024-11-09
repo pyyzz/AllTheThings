@@ -309,7 +309,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 						["coord"] = { 54.0, 72.8, BORALUS },
 						["g"] = {
 							i(232363, {	-- Half-Eaten Mouse
-								["cost"] = { "i", 232362, 1 }, -- Deluxe Tuna
+								["cost"] = {{ "i", 232362, 1 }}, -- Deluxe Tuna
 							}),
 						},
 					}),
