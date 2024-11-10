@@ -2796,6 +2796,130 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 					["coord"] = { 51.3, 60.6, VASHJIR_ABYSSAL_DEPTHS },
 					["timeline"] = { ADDED_4_1_0 },
 				}),
+				candybucket(12331, {	-- Candy Bucket — Teldrassil, Dolanaar, Alliance
+					["provider"] = { "o", 190034 },	-- Candy Bucket, Teldrassil
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 55.4, 52.3, TELDRASSIL },
+						-- #else
+						{ 55.6, 59.85, TELDRASSIL },
+						-- #endif
+					},
+					["timeline"] = { ADDED_2_0_1 },
+				}),
+				candybucket(12356, {	-- Candy Bucket — Terokkar Forest, Allerian Stronghold, Alliance
+					["provider"] = { "o", 190059 },	-- Candy Bucket, Terokkar Forest
+					["coord"] = { 56.6, 53.2, TEROKKAR_FOREST },
+					["timeline"] = { ADDED_2_0_1 },
+				}),
+				candybucket(12337, {	-- Candy Bucket — The Exodar, Seat of the Naaru, Alliance
+					["provider"] = { "o", 190041 },	-- Candy Bucket, The Exodar
+					["coord"] = { 59.3, 19.2, THE_EXODAR },
+					["timeline"] = { ADDED_2_0_1 },
+				}),
+				candybucket(12351, {	-- Candy Bucket — The Hinterlands, Aerie Peak, Alliance
+					["provider"] = { "o", 190054 },	-- Candy Bucket, The Hinterlands
+					["coords"] = {
+						-- #if AFTER CATA
+						{ 14.2, 44.7, THE_HINTERLANDS },
+						-- #else
+						{ 14.1, 41.5, THE_HINTERLANDS },
+						-- #endif
+					},
+					["timeline"] = { ADDED_2_0_1 },
+				}),
+				candybucket(28970, {	-- Candy Bucket — The Hinterlands, Stormfeather Outpost, Alliance
+					["provider"] = { "o", 208127 },	-- Candy Bucket, The Hinterlands
+					["coord"] = { 66.2, 44.4, THE_HINTERLANDS },
+					["timeline"] = { ADDED_4_1_0 },
+				}),
+				candybucket(32049, {	-- Candy Bucket — The Jade Forest, Paw'don Village, Alliance
+					["provider"] = { "o", 215907 },	-- Candy Bucket, The Jade Forest
+					["coord"] = { 44.8, 84.4, THE_JADE_FOREST },
+					["timeline"] = { ADDED_5_0_4 },
+				}),
+				candybucket(32033, {	-- Candy Bucket — The Jade Forest, Pearlfin Village, Alliance
+					["provider"] = { "o", 215891 },	-- Candy Bucket, The Jade Forest
+					["coord"] = { 59.6, 83.2, THE_JADE_FOREST },
+					["timeline"] = { ADDED_5_0_4 },
+				}),
+				candybucket(13448, {	-- Candy Bucket — The Storm Peaks, Frosthold, Alliance
+					["provider"] = { "o", 194063 },	-- Candy Bucket, The Storm Peaks
+					["coord"] = { 28.7, 74.3, THE_STORM_PEAKS },
+					["timeline"] = { ADDED_3_0_2 },
+				}),
+				candybucket(75681, {	-- Candy Bucket — The Waking Shores, Wild Coast
+					["provider"] = { "o", 401735 },	-- Candy Bucket, The Waking Shores
+					["coord"] = { 81.3, 32.0, THE_WAKING_SHORES },
+					["timeline"] = { ADDED_10_1_5 },
+				}),
+				candybucket(54710, {	-- Candy Bucket — Tiragarde Sound, Boralus, Alliance
+					["provider"] = { "o", 316755 },	-- Candy Bucket, Boralus
+					["coord"] = { 73.7, 12.4, BORALUS },
+					["timeline"] = { ADDED_8_0_1 },
+				}),
+				candybucket(28977, {	-- Candy Bucket — Twilight Highlands, Firebeard's Patrol, Alliance
+					["provider"] = { "o", 208128 },	-- Candy Bucket, Twilight Highlands
+					["coord"] = { 60.4, 58.2, TWILIGHT_HIGHLANDS },
+					["timeline"] = { ADDED_4_1_0 },
+				}),
+				candybucket(28980, {	-- Candy Bucket — Twilight Highlands, Highbank, Alliance
+					["provider"] = { "o", 208129 },	-- Candy Bucket, Twilight Highlands
+					["coord"] = { 78.9, 77.8, TWILIGHT_HIGHLANDS },
+					["timeline"] = { ADDED_4_1_0 },
+				}),
+				candybucket(28978, {	-- Candy Bucket — Twilight Highlands, Thundermar, Alliance
+					["provider"] = { "o", 208130 },	-- Candy Bucket, Twilight Highlands
+					["coord"] = { 49.6, 30.4, TWILIGHT_HIGHLANDS },
+					["timeline"] = { ADDED_4_1_0 },
+				}),
+				candybucket(28979, {	-- Candy Bucket — Twilight Highlands, Victor's Point, Alliance
+					["provider"] = { "o", 208131 },	-- Candy Bucket, Twilight Highlands
+					["coord"] = { 43.6, 57.3, TWILIGHT_HIGHLANDS },
+					["timeline"] = { ADDED_4_1_0 },
+				}),
+				candybucket(32052, {	-- Candy Bucket — Vale of Eternal Blossoms, Shrine of Seven Stars, Alliance
+					["provider"] = { "o", 215915 },	-- Candy Bucket, Shrine of Seven Stars
+					["coords"] = {
+						{ 87.0, 68.8, VALE_OF_ETERNAL_BLOSSOMS },
+						{ 37.7, 67.0, 393 },	-- Shrine of Seven Stars
+					},
+					["timeline"] = { ADDED_5_0_4 },
+				}),
+				candybucket(28985, {	-- Candy Bucket — Vashj'ir, Darkbreak Cove, Alliance
+					["provider"] = { "o", 208132 },	-- Candy Bucket, Abyssal Depths
+					["coord"] = { 54.7, 72.2, VASHJIR_ABYSSAL_DEPTHS },
+					["timeline"] = { ADDED_4_1_0 },
+				}),
+				candybucket(28983, {	-- Candy Bucket — Vashj'ir, Tranquil Wash, Alliance
+					["provider"] = { "o", 208133 },	-- Candy Bucket, Shimmering Expanse
+					["coord"] = { 49.7, 57.4, VASHJIR_SHIMMERING_EXPANSE },
+					["timeline"] = { ADDED_4_1_0 },
+				}),
+				candybucket(28988, {	-- Candy Bucket — Western Plaguelands, Chillwind Camp, Alliance
+					["provider"] = { "o", 208134 },	-- Candy Bucket, Western Plaguelands
+					["coord"] = { 43.4, 84.5, WESTERN_PLAGUELANDS },
+					["timeline"] = { ADDED_4_1_0 },
+				}),
+				candybucket(12340, {	-- Candy Bucket — Westfall, Sentinel Hill, Alliance
+					-- #if BEFORE 4.0.3
+					["description"] = "The candy bucket will relocate to Sentinel Tower if the area is phased post Defias attack.",
+					-- #endif
+					["provider"] = { "o", 190047 },	-- Candy Bucket, Westfall
+					["coords"] = {
+						{ 52.9, 53.6, WESTFALL },
+						-- #if AFTER 4.0.3
+						{ 56.8, 47.3, WESTFALL },
+						-- #endif
+					},
+					["timeline"] = { ADDED_2_0_1 },
+				}),
+				candybucket(28991, {	-- Candy Bucket — Wetlands, Greenwarden's Grove, Alliance
+					["provider"] = { "o", 208135 },	-- Candy Bucket, Wetlands
+					["coord"] = { 58.1, 39.2, WETLANDS },
+
+					["timeline"] = { ADDED_4_1_0 },
+				}),
 				candybucket(28987, {	-- Candy Bucket — Western Plaguelands, Andorhal, Horde
 					["provider"] = { "o", 208156 },	-- Candy Bucket, Western Plaguelands
 					["coord"] = { 48.2, 63.7, WESTERN_PLAGUELANDS },

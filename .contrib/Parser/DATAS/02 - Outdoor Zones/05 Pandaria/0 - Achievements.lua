@@ -497,6 +497,9 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_ONE, bubbleDown({ ["ti
 			o(213771, {	-- Statue of Xuen
 				["questID"] = 31416,	-- Statue of Xuen
 				["coord"] = { 72.0, 33.9, KUN_LAI_SUMMIT },
+				["g"] = {
+					i(86422),	-- Statue of Xuen
+				},
 			}),
 			o(213770, {	-- Stolen Sprite Treasure
 				["description"] = "Entrance is at |cFFFFD70059.5 52.9|r.",

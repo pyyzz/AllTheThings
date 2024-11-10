@@ -336,6 +336,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["timeline"] = { ADDED_5_0_4, REMOVED_7_0_3 },
 							["races"] = { DWARF },
 							["classes"] = { MONK },
+							["g"] = {
+								i(85174),	-- Elegant Rune (QI!)
+							},
 						}),
 						q(3113, {	-- Encrypted Memorandum
 							["providers"] = {
