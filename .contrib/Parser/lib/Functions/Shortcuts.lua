@@ -637,6 +637,10 @@ epicurean = function(cost, item)						-- Assign a Epicurean's Award cost to an i
 	applycost(item, { "c", 81, cost });
 	return item;
 end
+fbiron = function(cost, item)						-- Assign a Flame-Blessed Iron cost to an item.
+	if cost > 0 then applycost(item, { "c", 3090, cost }); end
+	return item;
+end
 gold = function(cost, item)								-- Assign a Gold cost to an item.
 	applycost(item, { "g", cost * 10000 });	-- Gold
 	return item;
