@@ -7,6 +7,7 @@ local i = function(itemID)
 end
 -------------------------------------------------------------------- LOADING DOCK --------------------------------------------------------------------
 -- Put items between these two bars if you dont want to sort them /Braghe
+i(804);		-- Large Blue Sack
 i(805);		-- Small Red Pouch
 i(828);		-- Small Blue Pouch
 i(1725);	-- Large Knapsack
@@ -30,6 +31,7 @@ i(187603);	-- The Mad Duke's Tea
 -- DF
 i(195572);	-- Empty Elixir
 i(194742);	-- Worn Book
+i(211768);	-- Hastily Scrawled Satyr Ravings
 -- TWW
 i(221485);	-- Defias Gunpowder
 i(229371);	-- Companion Experience

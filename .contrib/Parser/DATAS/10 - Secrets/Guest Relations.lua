@@ -28,7 +28,6 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					title(571),	-- Detective <Name> (TITLE!)
 				},
 			}),
-
 		}),
 		n(QUESTS, {
 			-- Tutorial Questline
@@ -37,7 +36,6 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
 			q(84144, {	-- Tat Big Meanie
-				["description"] = "Requires Idol of Ohn'ahra. If you don't have it, you need to complete Secrets of Azeroth quest chain in Valdrakken, Dragon Isles.",
 				["provider"] = { "n", 226684 },	-- Maru <Junior Secret Sleuf>
 				["sourceQuests"] = { 84143 },	-- Lost and Busy
 				["coord"] = { 63.2, 52.4, TANARIS },
@@ -60,6 +58,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 						["coord"] = { 63.7, 47.8, TANARIS },
 						["groups"] = { i(227443), },	-- Strange Torch (QI!)
 					}),
+					i(207730),	-- Idol of Ohn'ahra
 				},
 			}),
 			q(84419, {	-- To da Ruins!
@@ -68,10 +67,12 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				["coord"] = { 63.2, 52.4, TANARIS },
 			}),
 			q(84393, {	-- Da Stick of Revealing
-				["description"] = "Requires Torch of Pyrreth. If you don't have it, you need to complete Secrets of Azeroth quest chain in Valdrakken, Dragon Isles.",
 				["provider"] = { "n", 229062 },	-- Maru <Junior Secret Sleuf>
 				["sourceQuests"] = { 84419 },	-- To da Ruins!
 				["coord"] = { 35.1, 78.2, TANARIS },
+				["g"] = {
+					i(208092),	-- Torch of Pyrreth
+				}
 			}),
 			q(84363, {	-- Tweasure Hunt
 				["description"] = "Activate Torch of Pyrreth at each of the Dig Sites.",
@@ -102,7 +103,6 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				},
 			}),
 			q(84521, {	-- Thoughtful Pursuits
-				["description"] = "Requires Tricked-Out Thinking Cap. If you don't have it, you need to complete Secrets of Azeroth quest chain in Valdrakken, Dragon Isles.",
 				["provider"] = { "n", 226766 },	-- Benatauk <Unco Benny>
 				["sourceQuests"] = { 84363 },	-- Tweasure Hunt
 				["coord"] = { 63.3, 52.4, TANARIS },
@@ -120,6 +120,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 						["coord"] = { 61.4, 49.9, TANARIS },
 						["description"] = "Go near Taivan. Maru will find and give you [Benatauk's Downy Helmet Liner].",
 					}),
+					i(206696),	-- Tricked-Out Thinking Cap
 				},
 			}),
 			q(84868, {	-- A Whiff of Help
@@ -203,7 +204,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				},
 			}),
 			q(84296, {	-- The Trail's Gone Cold
-				["description"] = "1. Locate 3 diary pages around the marked shed and then go to Sholazar Basin.\n2. Interact with the Mounted Spyglass atop the Glimmering Pillar and then head to Icecrown.\n3. Use your Torch of Pyreth at Scrapes.\n4. Summon Rexxar with your Spirit's Whistle and tell him about a shapeshifter.",
+				["description"] = "1. Locate 3 diary pages around the marked shed and then go to Sholazar Basin.\n2. Interact with the Mounted Spyglass atop the Glimmering Pillar and then head to Icecrown.\n3. Summon Rexxar with your Spirit's Whistle and tell him about a shapeshifter.",
 				["sourceQuests"] = { 84278 },	-- Tracking Quest
 				["provider"] = { "n", 226952 },	-- Rexxar
 				["coord"] = { 77.3, 46.2, BOREAN_TUNDRA },
@@ -239,7 +240,10 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				},
 			}),
 			q(84334, {	-- Warn the Detective
-				["provider"] = { "n", 226683 },	-- Alyx <Volunteer Assistant Guest Relations Manager>
+				["qgs"] = {
+					226683,	-- Alyx <Volunteer Assistant Guest Relations Manager>
+					232404,	-- Alyx <Volunteer Assistant Guest Relations Manager and Associate Event Coordinator>
+				},
 				["sourceQuests"] = { 84296 },	-- The Trail's Gone Cold
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
@@ -778,12 +782,16 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					{ "i", 228938, 1 },	-- Peculiar Gem
 				},
 			}),
+			o(457130, {	-- Hidden Hatch
+				["description"] = "Behind an energy conduit in an alcove to the right when first entering the Mechanar.",
+			}),
 		}),
 	},
 })));
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
 	n(GUEST_RELATIONS, {
+		q(83831),	-- Triggered on turn in of (84868) A Whiff of Help. For missing secret toys?
 		q(84617, name(HEADERS.Achievement, 40873)),	-- Accepting Harder Puzzles from Alyx. This unlocks notes on the bulletin board next to Alyx.
 		q(83824, name(HEADERS.Item, 226242)),	-- Triggered when restoring the 'Green Hills of Stranglethorn' by gathering all the missing pages.
 	}),

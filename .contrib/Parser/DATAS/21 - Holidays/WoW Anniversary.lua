@@ -2771,7 +2771,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 		n(QUESTS, {
 			q(82672),	-- Another Timely Invitation
 			q(84254, {	-- Meet and Greet
-				["sourceQuests"] = { 82672 },	-- Another Timely Invitation
 				["provider"] = { "n", 223877 },	-- Yllana <Event Coordinator>
 				["coord"] = { 62.9, 50.7, TANARIS },
 			}),
