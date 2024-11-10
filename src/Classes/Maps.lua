@@ -425,7 +425,9 @@ local function GetExplorationBySubzone()
 				end
 			end
 		end
-		PrintDiscordInformationForExploration(app.CreateExploration(AreaIDNameMapper[subzone], { mapID = app.RealMapID, name = subzone}));
+		local e = app.CreateExploration(AreaIDNameMapper[subzone], { mapID = app.RealMapID, name = subzone})
+		PrintDiscordInformationForExploration(e);
+		return e
 	end
 end
 local function CheckExplorationForPlayerPosition()
