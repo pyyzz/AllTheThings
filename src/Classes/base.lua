@@ -149,7 +149,10 @@ local DefaultFields = {
 		end
 		t.AccessibilityScore = score;
 		return score;
-	end
+	end,
+	["creatureID"] = function(t)	-- TODO: Do something about this, it's silly.
+		return t.npcID;
+	end,
 };
 
 if app.IsRetail then
@@ -207,17 +210,6 @@ if app.IsRetail then
 		end,
 		["iconPath"] = function(t)
 			return rawget(t, "icon")
-		end,
-		["creatureID"] = function(t)	-- TODO: Do something about this, it's silly.
-			return t.npcID;
-		end,
-	}) do
-		DefaultFields[fieldName] = fieldMethod;
-	end
-else
-	for fieldName,fieldMethod in pairs({
-		["creatureID"] = function(t)	-- TODO: Do something about this, it's silly.
-			return t.npcID;
 		end,
 	}) do
 		DefaultFields[fieldName] = fieldMethod;
