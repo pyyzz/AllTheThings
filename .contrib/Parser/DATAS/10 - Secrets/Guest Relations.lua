@@ -275,23 +275,57 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			}),
 			-- Chapter 2
 			-- Quests in this chapter are faction locked, but both cross complete.
-			q(84563, {	-- Toy Trouble [A]
+			{	-- Toy Trouble
+					["allianceQuestData"] = q(84563, {	-- Toy Trouble [A]
+				}),
+					["hordeQuestData"] = q(85024, {	-- Toy Trouble [H]
+				}),
 				["provider"] = { "n", 232404 },	-- Alyx <Volunteer Assistant Guest Relations Manager and Associate Event Coordinator>
 				["sourceQuests"] = { 84336 },	-- Spot The Difference
 				["coord"] = { 63.0, 50.2, TANARIS },
-			}),
-			q(85024, {	-- Toy Trouble [H]
-				["provider"] = { "n", 232404 },	-- Alyx <Volunteer Assistant Guest Relations Manager and Associate Event Coordinator>
-				["sourceQuests"] = { 84336 },	-- Spot The Difference
-				["coord"] = { 63.0, 50.2, TANARIS },
-			}),
-			q(84588, {	-- Operation Toy Rescue [A]
-				["description"] = "Talk to Yennu in Iskaara, find a note in Dragonscale Basecamp, and find their ball near Maruukai then return. Pet Kenshi in Boralus, find the Ball of Yarn in the park, and talk to Kenshi again.",
+			},
+			{	-- Operation Toy Rescue
+					["allianceQuestData"] = q(84588, {	-- Operation Toy Rescue [A]
+					["description"] = "Talk to Yennu in Iskaara, find a note in Dragonscale Basecamp, and find their ball near Maruukai then return. Pet Kenshi in Boralus, find the Ball of Yarn in the park, and talk to Kenshi again.",
+					["sourceQuests"] = { 84563 },	-- Toy Trouble [A]
+					["g"] = {
+						n(142044, {	-- Kenshi
+							["coord"] = { 54.0, 72.8, BORALUS },
+							["g"] = {
+								i(232363, {	-- Half-Eaten Mouse
+									["cost"] = {{ "i", 232362, 1 }}, -- Deluxe Tuna
+								}),
+							},
+						}),
+						o(467060, {	-- Ball of Yarn
+							["description"] = "Near a fence and tree in Boralus Park.",
+							["coord"] = { 42.1, 75.1, BORALUS },
+							["g"] = {
+								i(229164),	-- Ball of Yarn (QI!)
+							},
+						}),
+					},
+				}),
+					["hordeQuestData"] = q(85025, {	-- Operation Toy Rescue [H]
+					["description"] = "Talk to Yennu in Iskaara, find a note in Dragonscale Basecamp, and find their ball near Maruukai then return. Pet Nuts in Dazar'Alor, follow the fur sheddings to a Plush Toy, and give it to him.",
+					["sourceQuests"] = { 85024 },	-- Toy Trouble [H]
+					["g"] = {
+						n(54227, {	-- Nuts
+							["coord"] = { 56.3, 31.7, DAZARALOR },
+						}),
+						o(470229, {	-- Plush Toy
+							["coord"] = { 56.4, 21.3, DAZARALOR },
+							["g"] = {
+								i(229908),	-- Plush Toy (QI!)
+							},
+						}),
+					},
+				}),
 				["provider"] = { "n", 226684 },	-- Maru
 				["sourceQuests"] = { 84563 },	-- Toy Trouble [A]
 				["coord"] = { 63.2, 52.4, TANARIS },
 				["g"] = {
-					i(229990),	-- My Journal: Operation Toy Rescue (QI!)
+					i(229991),	-- My Journal: Operation Toy Rescue (QI!)
 					n(229847, {	-- Yennu
 						["coord"] = { 13.4, 48.9, THE_AZURE_SPAN },
 					}),
@@ -306,90 +340,53 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 						["description"] = "By a river by the eastern side of Maruukai.",
 						["coord"] = { 62.0, 37.5, OHNAHRAN_PLAINS },
 						["g"] = {
-							i(228975),	-- Yennu's Toy Ball (QI!)
+							i(228795),	-- Yennu's Toy Ball (QI!)
 						},
 					}),
-					n(142044, {	-- Kenshi
-						["coord"] = { 54.0, 72.8, BORALUS },
+				},
+			},
+			{	-- The Final Toy
+					["allianceQuestData"] = q(84755, {	-- The Final Toy [A]
+					["sourceQuests"] = { 84588 },	-- Operation Toy Rescue [A]
+				}),
+					["hordeQuestData"] = q(85042, {	-- The Final Toy [H]
+					["sourceQuests"] = { 85025 },	-- Operation Toy Rescue [H]
+				}),
+				["qgs"] = {
+					232404,	-- Alyx <Volunteer Assistant Guest Relations Manager and Associate Event Coordinator>
+					232405,	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Associate Event Coordinator>
+				},
+				["coord"] = { 63.0, 50.2, TANARIS },
+			},
+			{	-- The Toy Thief
+					["allianceQuestData"] = q(84756, {	-- The Toy Thief [A]
+					["sourceQuests"] = { 84755 },	-- The Final Toy [A]
+					["description"] = "Talk to Maru, suspect a dog, then visit Urban Planner Volrath in Boralus.\nCollect a chew toy from the mountaintop behind Maruukai in the Ohn'ahran plains.\nPlace the Chew Toy in a Toy Box  in Teerakai and follow the Bakar Pup to collect Maru's toy from a nearby cave.",
 						["g"] = {
-							i(232363, {	-- Half-Eaten Mouse
-								["cost"] = {{ "i", 232362, 1 }}, -- Deluxe Tuna
+							n(142178, {	-- Urban Planner Volrath
+								["coord"] = { 43.2, 73.7, BORALUS },
+								["g"] = {
+									i(232364),	-- Bakar Sketch (QI!)
+								},
 							}),
 						},
-					}),
-					o(467060, {	-- Ball of Yarn
-						["description"] = "Near a fence and tree in Boralus Park.",
-						["coord"] = { 42.1, 75.1, BORALUS },
+				}),
+					["hordeQuestData"] = q(85043, {	-- The Toy Thief [H]
+					["sourceQuests"] = { 85042 },	-- The Final Toy [H]
+					["description"] = "Talk to Maru, suspect a dog, then visit Matan in Dazar'alor.\nCollect a chew toy from the mountaintop behind Maruukai in the Ohn'ahran plains.\nPlace the Chew Toy in a Toy Box  in Teerakai and follow the Bakar Pup to collect Maru's toy from a nearby cave.",
 						["g"] = {
-							i(229164),	-- Ball of Yarn (QI!)
+							o(472068, {	-- Bakar Sketch
+								["coord"] = { 57.0, 22.2, DAZARALOR },
+								["g"] = {
+									i(229196),	-- Bakar Sketch (QI!)
+								},
+							}),
 						},
-					}),
-				},
-			}),
-			q(85025, {	-- Operation Toy Rescue [H]
-				["description"] = "Talk to Yennu in Iskaara, find a note in Dragonscale Basecamp, and find their ball near Maruukai then return. Pet Nuts in Dazar'Alor, follow the fur sheddings to a Plush Toy, and give it to him.",
+				}),
 				["provider"] = { "n", 226684 },	-- Maru
-				["sourceQuests"] = { 85024 },	-- Toy Trouble [H]
-				["coord"] = { 63.2, 52.4, TANARIS },
-				["g"] = {
-					i(229991),	-- My Journal: Operation Toy Rescue (QI!)
-					n(229847, {	-- Yennu
-						["coord"] = { 13.4, 48.9, THE_AZURE_SPAN },
-					}),
-					o(465277, {	-- Missing Page from Yennu's Snackbook
-						["description"] = "Inside a cart in Dragonscale Basecamp.",
-						["coord"] = { 47.0, 83.5, THE_WAKING_SHORES },
-						["g"] = {
-							i(228791),	-- Missing Page from Yennu's Snackbook (QI!)
-						},
-					}),
-					o(465277, {	-- Mound of Dirt
-						["description"] = "By a river by the eastern side of Maruukai.",
-						["coord"] = { 62.0, 37.5, OHNAHRAN_PLAINS },
-						["g"] = {
-							i(228975),	-- Yennu's Toy Ball (QI!)
-						},
-					}),
-					n(54227, {	-- Nuts
-						["coord"] = { 56.3, 31.7, DAZARALOR },
-					}),
-					o(470229, {	-- Plush Toy
-						["coord"] = { 56.4, 21.3, DAZARALOR },
-						["g"] = {
-							i(229908),	-- Plush Toy (QI!)
-						},
-					}),
-				},
-			}),
-			q(84755, {	-- The Final Toy [A]
-				["qgs"] = {
-					232404,	-- Alyx <Volunteer Assistant Guest Relations Manager and Associate Event Coordinator>
-					232405,	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Associate Event Coordinator>
-				},
-				["sourceQuests"] = { 84588 },	-- Operation Toy Rescue [A]
-				["coord"] = { 63.0, 50.2, TANARIS },
-			}),
-			q(85042, {	-- The Final Toy [H]
-				["qgs"] = {
-					232404,	-- Alyx <Volunteer Assistant Guest Relations Manager and Associate Event Coordinator>
-					232405,	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Associate Event Coordinator>
-				},
-				["sourceQuests"] = { 85025 },	-- Operation Toy Rescue [H]
-				["coord"] = { 63.0, 50.2, TANARIS },
-			}),
-			q(84756, {	-- The Toy Thief [A]
-				["description"] = "Talk to Maru, suspect a dog, then visit Urban Planner Volrath in Boralus.\nCollect a chew toy from the mountaintop behind Maruukai in the Ohn'ahran plains.\nPlace the Chew Toy in a Toy Box  in Teerakai and follow the Bakar Pup to collect Maru's toy from a nearby cave.",
-				["provider"] = { "n", 226684 },	-- Maru
-				["sourceQuests"] = { 84588 },	-- The Final Toy [A]
 				["coord"] = { 63.2, 52.4, TANARIS },
 				["g"] = {
 					i(229992),	-- My Journal: Operation Toy Rescue (QI!)
-					n(142178, {	-- Urban Planner Volrath
-						["coord"] = { 43.2, 73.7, BORALUS },
-						["g"] = {
-							i(232364),	-- Bakar Sketch (QI!)
-						},
-					}),
 					o(467293, {	-- Chew Toy
 						["description"] = "Atop the high mountain peak behind Maruukai.",
 						["coord"] = { 57.9, 31.7, OHNAHRAN_PLAINS },
@@ -409,40 +406,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 						},
 					}),
 				},
-			}),
-			q(85043, {	-- The Toy Thief [H]
-				["description"] = "Talk to Maru, suspect a dog, then visit Matan in Dazar'alor.\nCollect a chew toy from the mountaintop behind Maruukai in the Ohn'ahran plains.\nPlace the Chew Toy in a Toy Box  in Teerakai and follow the Bakar Pup to collect Maru's toy from a nearby cave.",
-				["provider"] = { "n", 226684 },	-- Maru
-				["sourceQuests"] = { 85042 },	-- The Final Toy [H]
-				["coord"] = { 63.2, 52.4, TANARIS },
-				["g"] = {
-					i(229997),	-- My Journal: Operation Toy Rescue (QI!)
-					o(472068, {	-- Bakar Sketch
-						["coord"] = { 57.0, 22.2, DAZARALOR },
-						["g"] = {
-							i(229196),	-- Bakar Sketch (QI!)
-						},
-					}),
-					o(467293, {	-- Chew Toy
-						["description"] = "Atop the high mountain peak behind Maruukai.",
-						["coord"] = { 57.9, 31.7, OHNAHRAN_PLAINS },
-						["g"] = {
-							i(229350),	-- Chew Toy (QI!)
-						},
-					}),
-					o(467305, {	-- Toy Box
-						["description"] = "Place the Chew Toy inside the Toy Box and then hide in the nearby bush.\nAfter Bakar Pup takes the toy, follow him to the cave.",
-						["coord"] = { 39.6, 58.3, OHNAHRAN_PLAINS },
-					}),
-					o(472077, {	-- Maru's Toy
-						["description"] = "Inside a cave near Teerakai",
-						["coord"] = { 38.8, 56.0, OHNAHRAN_PLAINS },
-						["g"] = {
-							i(229358),	-- Miniature Tuskarr Boat (QI!)
-						},
-					}),
-				},
-			}),
+			},
 			-- Chapter 3
 			q(85195),	-- Chapter 3
 			-- Chapter 4
