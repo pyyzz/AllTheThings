@@ -355,6 +355,7 @@ local AreaIDNameMapper = setmetatable({}, {__index = function(t,key)
 end})
 local ReportedAreas = {};
 local function PrintDiscordInformationForExploration(o)
+	if not app.Contributor then return end
 	local areaID = o.explorationID;
 	if not areaID or ReportedAreas[areaID] then return; end
 	ReportedAreas[areaID] = o;
@@ -393,7 +394,7 @@ local function PrintDiscordInformationForExploration(o)
 
 	local popupID = "area-" .. areaID;
 	app:SetupReportDialog(popupID, text, info);
-	print("Found Area:", app:Linkify(text, app.Colors.ChatLinkError, "dialog:" .. popupID));
+	app.print("Found New Area:", app:Linkify(text, app.Colors.ChatLinkError, "dialog:" .. popupID));
 end
 local RefreshExplorationData = app.IsClassic and (function(data)
 	app:RefreshDataQuietly("RefreshExploration", true);
