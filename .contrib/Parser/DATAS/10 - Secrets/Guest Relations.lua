@@ -594,6 +594,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			q(84583, {	-- A Hozen On My Back
 				["qgs"] = {
 					226683,	-- Alyx <Volunteer Assistant Guest Relations Manager>
+					232404,	-- Alyx <Volunteer Assistant Guest Relations Manager and Associate Event Coordinator>
 					232405,	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Associate Event Coordinator>
 					232406,	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
 				},
