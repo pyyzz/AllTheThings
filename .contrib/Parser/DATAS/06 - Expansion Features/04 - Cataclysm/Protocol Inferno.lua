@@ -27,6 +27,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_P
 					277,	-- Lost City of the Tol'vir
 					324,	-- The Stonecore
 					322, 323,	-- Throne of the Tides
+					325,	-- The Vortex Pinnacle
 				},
 				["crs"] = {
 					-- Blackrock Caverns
