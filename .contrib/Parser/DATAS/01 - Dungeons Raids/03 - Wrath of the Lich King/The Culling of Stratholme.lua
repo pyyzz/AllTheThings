@@ -352,7 +352,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 			}),
 			-- #if ANYCLASSIC
 			applyclassicphase(WRATH_PHASE_TWO, n(DEFENSE_PROTOCOL_ALPHA, {
-				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(394441, 413078, 424205),	-- TODO: Check Buff SpellIDs
+				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(394444, 412867, 424210),
 				["lvl"] = lvlsquish(80, 80, 30),
 				["groups"] = {
 					e(611, {	-- Meathook
@@ -397,7 +397,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 				},
 			})),
 			applyclassicphase(WRATH_PHASE_THREE, n(DEFENSE_PROTOCOL_BETA, {
-				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(413078, 424205),	-- TODO: Check Buff SpellIDs
+				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(412867, 424210),
 				["lvl"] = lvlsquish(80, 80, 30),
 				["groups"] = {
 					e(611, {	-- Meathook
@@ -436,7 +436,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 				},
 			})),
 			applyclassicphase(WRATH_PHASE_FOUR, n(DEFENSE_PROTOCOL_GAMMA, {
-				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(424205),	-- TODO: Check Buff SpellIDs
+				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(424210),
 				["lvl"] = lvlsquish(80, 80, 30),
 				["groups"] = {
 					e(611, {	-- Meathook
