@@ -797,6 +797,23 @@ root("Achievements", {
 			}},
 			["timeline"] = { ADDED_3_0_2 },
 		}),
+		-- #if ANYCLASSIC
+		applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, ach(41148, {	-- Protocol Inferno: Terminated
+			-- Meta Achievement
+			["sym"] = {{"meta_achievement",
+				41146,	-- Protocol Inferno: Deadmines
+				41147,	-- Protocol Inferno: Shadowfang Keep
+				41139,	-- Protocol Inferno: Blackrock Caverns
+				41143,	-- Protocol Inferno: Grim Batol
+				41144,	-- Protocol Inferno: Halls of Origination
+				41145,	-- Protocol Inferno: Lost City of the Tol'vir
+				41141,	-- Protocol Inferno: The Stonecore
+				41142,	-- Protocol Inferno: The Vortex Pinnacle
+				41140,	-- Protocol Inferno: Throne of the Tides
+			}},
+			["timeline"] = { ADDED_4_0_3 },
+		})),
+		-- #endif
 		ach(4784, {	-- Emblematic [A]
 			["timeline"] = { ADDED_3_3_3, REMOVED_4_0_1 },
 			["races"] = ALLIANCE_ONLY,

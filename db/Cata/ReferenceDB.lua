@@ -17,6 +17,13 @@ _.OnClickDB=
 {
 	["PopoutLinkedAchievement"] = function(row,button)if button=="RightButton" and row.ref.ach then	_:CreateMiniListForGroup(row.ref.ach);return true;end	end,
 }
+_.OnInitDB=
+{
+	["ShouldExcludeFromTooltipForBuffs_394441_413078_424205"] = function(t)local buffs={};for i,id in ipairs({394441,413078,424205})do buffs[id]=1;end	t.ShouldExcludeFromTooltipHelper=function(t)local target=UnitExists("mouseover")and "mouseover" or "target";for i=1,10,1 do	local id=select(10,UnitBuff(target,i));if id then	if buffs[id] then return false;end	else	break;end	end	return true;end	return t;end,
+	["ShouldExcludeFromTooltipForBuffs_413078_424205"] = function(t)local buffs={};for i,id in ipairs({413078,424205})do buffs[id]=1;end	t.ShouldExcludeFromTooltipHelper=function(t)local target=UnitExists("mouseover")and "mouseover" or "target";for i=1,10,1 do	local id=select(10,UnitBuff(target,i));if id then	if buffs[id] then return false;end	else	break;end	end	return true;end	return t;end,
+	["ShouldExcludeFromTooltipForBuffs_424205"] = function(t)local buffs={};for i,id in ipairs({424205})do buffs[id]=1;end	t.ShouldExcludeFromTooltipHelper=function(t)local target=UnitExists("mouseover")and "mouseover" or "target";for i=1,10,1 do	local id=select(10,UnitBuff(target,i));if id then	if buffs[id] then return false;end	else	break;end	end	return true;end	return t;end,
+	["ShouldExcludeFromTooltipForBuffs_470595"] = function(t)local buffs={};for i,id in ipairs({470595})do buffs[id]=1;end	t.ShouldExcludeFromTooltipHelper=function(t)local target=UnitExists("mouseover")and "mouseover" or "target";for i=1,10,1 do	local id=select(10,UnitBuff(target,i));if id then	if buffs[id] then return false;end	else	break;end	end	return true;end	return t;end,
+}
 _.OnTooltipDB=
 {
 	["ForAlteracValley"] = function(t,tooltipInfo)local reputation=t.reputation;if reputation>=0 and reputation<42000 then	local addRepInfo=_.Modules.FactionData.AddReputationTooltipInfo;addRepInfo(tooltipInfo,reputation,"Kill the General",389,42000);addRepInfo(tooltipInfo,reputation,"Kill a Captain",125,42000);addRepInfo(tooltipInfo,reputation,"Kill a Commander",12,42000);addRepInfo(tooltipInfo,reputation,"Kill an Air Master",5,42000);if reputation<21000 then	addRepInfo(tooltipInfo,reputation,"Kill a Guard (To Revered)",5,21000);end	end	end,

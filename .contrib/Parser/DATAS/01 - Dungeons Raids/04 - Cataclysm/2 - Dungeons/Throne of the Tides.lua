@@ -249,8 +249,8 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 					},
 				}),
 				e(104, {	-- Ozumat
-				["crs"] = { 44566 },	-- Ozumat
-				["groups"] = {
+					["crs"] = { 44566 },	-- Ozumat
+					["groups"] = {
 						ach(5061),	-- Heroic: Throne of the Tides
 						ach(5135),	-- Heroic: Throne of the Tides Guild Run
 						ach(5286, {	-- Prince of Tides
@@ -259,6 +259,19 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 					},
 				}),
 			}),
+			-- #endif
+			-- #if ANYCLASSIC
+			applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, n(PROTOCOL_INFERNO, {
+				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(470595),
+				["groups"] = {
+					e(104, {	-- Ozumat
+						["crs"] = { 44566 },	-- Ozumat
+						["groups"] = {
+							ach(41140),	-- Protocol Inferno: Throne of the Tides
+						},
+					}),
+				},
+			})),
 			-- #endif
 		},
 	})),
