@@ -96,6 +96,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 				e(115, {	-- Altairus
 					["crs"] = { 43873 },	-- Altairus
 					["groups"] = {
+						i(63040),	-- Drake of the North Wind (MOUNT!)
 						i(55840),	-- Amulet of Tender Breath
 						i(55841),	-- Axe of the Eclipse
 						i(55835),	-- Hail-Strung Belt
