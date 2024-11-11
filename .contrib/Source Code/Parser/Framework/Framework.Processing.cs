@@ -3701,6 +3701,7 @@ namespace ATT
 
         private static decimal GetEncounterHash(long encounterID, long difficultyID)
         {
+            if (difficultyID < 0) return encounterID + ((Math.Abs(difficultyID) - 1000000) / 10000M);
             // expecting difficultyID to be a positive, 100-999 value
             return encounterID + difficultyID / 1000M;
         }
