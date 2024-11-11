@@ -60,7 +60,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					}),
 				})),
 				applyclassicphase(WRATH_PHASE_FOUR, ach(19438, {	-- Defense Protocol Gamma: The Culling of Stratholme
-					crit(63374, {	-- Meathook
+					crit(63375, {	-- Meathook
 						["_encounter"] = { 611, DEFENSE_PROTOCOL_GAMMA },
 					}),
 					crit(63377, {	-- Salramm the Fleshcrafter

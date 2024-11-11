@@ -59,7 +59,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					crit(63335, {	-- Novos the Summoner
 						["_encounter"] = { 589, DEFENSE_PROTOCOL_GAMMA },
 					}),
-					crit(63334, {	-- King Dred
+					crit(63336, {	-- King Dred
 						["_encounter"] = { 590, DEFENSE_PROTOCOL_GAMMA },
 					}),
 					crit(63337, {	-- The Prophet Tharon'ja
