@@ -47,6 +47,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 				}),
 			}),
 			n(COMMON_BOSS_DROPS, {
+				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(
+					412991, 424196,	-- Arcane Rune Buffs
+					413169, 424203,	-- Blood Rune Buffs
+					412770, 424194,	-- Frost Rune Buffs
+					413573, 424211,	-- Gladiator Rune Buffs
+					412867, 424210,	-- Plague Rune Buffs
+					412470, 424201,	-- Shadow Rune Buffs
+					413078, 424205	-- Titan Rune Buffs
+				),
 				["description"] = "Defeating the final boss encounter on Defense Protocol Beta will reward 1 Sidereal Essence and can also drop T8 tokens.",
 				["maps"] = {
 					AHNKAHET_THE_OLD_KINGDOM,

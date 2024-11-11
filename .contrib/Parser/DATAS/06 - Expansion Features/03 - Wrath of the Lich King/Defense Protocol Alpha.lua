@@ -26,6 +26,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 				}),
 			}),
 			n(COMMON_BOSS_DROPS, {
+				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(
+					394435, 412991, 424196,	-- Arcane Rune Buffs
+					394438, 413169, 424203,	-- Blood Rune Buffs
+					392430, 412770, 424194,	-- Frost Rune Buffs
+					394444, 412867, 424210,	-- Plague Rune Buffs
+					394437, 412470, 424201,	-- Shadow Rune Buffs
+					394441, 413078, 424205	-- Titan Rune Buffs
+				),
 				["description"] = "Defeating the final boss encounter on Defense Protocol Alpha will reward 1 Emblem of Conquest and can also drop T7 tokens for helm, spaulders, and leggings.",
 				["maps"] = {
 					AHNKAHET_THE_OLD_KINGDOM,

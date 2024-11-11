@@ -53,6 +53,15 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WRATH, applyclassicphase(WRATH
 				}),
 			}),
 			n(COMMON_BOSS_DROPS, {
+				["OnInit"] = FUNCTION_TEMPLATES.OnInit.GenerateShouldExcludeFromTooltipForBuffs(
+					424196,	-- Arcane Rune Buff
+					424203,	-- Blood Rune Buff
+					424194,	-- Frost Rune Buff
+					424211,	-- Gladiator Rune Buff
+					424210,	-- Plague Rune Buff
+					424201,	-- Shadow Rune Buff
+					424205	-- Titan Rune Buff
+				),
 				["description"] = "Defeating any boss on Defense Protocol Gamma will reward 1 Defiler's Scourgestone.",
 				["maps"] = {
 					AHNKAHET_THE_OLD_KINGDOM,
