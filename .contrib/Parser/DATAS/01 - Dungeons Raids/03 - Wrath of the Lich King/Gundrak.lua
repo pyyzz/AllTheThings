@@ -110,7 +110,10 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					["lvl"] = lvlsquish(74, 74, 20),
 					["groups"] = {
 						objective(1, {	-- 0/6 Drakkari History Tablet
-							["provider"] = { "i", 43140 },	-- Drakkari History Tablet
+							["providers"] = {
+								{ "i",  43140 },	-- Drakkari History Tablet
+								{ "o", 192826 },	-- Drakkari History Tablet
+							},
 						}),
 						i(43180),	-- Lion's Head Ring
 						i(43178),	-- Ring of Foul Mojo
@@ -124,7 +127,10 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					["lvl"] = lvlsquish(74, 74, 20),
 					["groups"] = {
 						objective(1, {	-- 0/6 Drakkari History Tablet
-							["provider"] = { "i", 43140 },	-- Drakkari History Tablet
+							["providers"] = {
+								{ "i",  43140 },	-- Drakkari History Tablet
+								{ "o", 192826 },	-- Drakkari History Tablet
+							},
 						}),
 						i(43180),	-- Lion's Head Ring
 						i(43178),	-- Ring of Foul Mojo
@@ -138,7 +144,10 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					["lvl"] = lvlsquish(74, 74, 20),
 					["groups"] = {
 						objective(1, {	-- 0/6 Drakkari History Tablet
-							["provider"] = { "i", 43140 },	-- Drakkari History Tablet
+							["providers"] = {
+								{ "i",  43140 },	-- Drakkari History Tablet
+								{ "o", 192826 },	-- Drakkari History Tablet
+							},
 						}),
 						i(43180),	-- Lion's Head Ring
 						i(43178),	-- Ring of Foul Mojo
