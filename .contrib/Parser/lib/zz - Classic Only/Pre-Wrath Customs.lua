@@ -421,9 +421,6 @@ root("Achievements", {
 		})),
 	})),
 	achcat(ACHIEVEMENT_CATEGORY_DUNGEONS_AND_RAIDS, {
-		applyclassicphase(WRATH_PHASE_ONE, ach(1658, bubbleDownSelf({ ["timeline"] = { ADDED_3_0_2 } }, {	-- Champion of the Frozen Wastes
-			title(97),	-- , Champion of the Frozen Wastes
-		}))),
 		ach(1283, {	-- Classic Dungeonmaster
 			-- Meta Achievement
 			["sym"] = {{"meta_achievement",
