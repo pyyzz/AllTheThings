@@ -12,6 +12,22 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_P
 		["groups"] = {
 			n(COMMON_BOSS_DROPS, {
 				["description"] = "If you do every Protocol Inferno Dungeon, you can earn a total of 129 of these per day, as you get 2 for each boss, and 5 for endbosses. If you use the dungeon finder, there is no limit, as you don't get saved that way.",
+				["maps"] = {
+					DEADMINES, 292,	-- Deadmines
+					SHADOWFANG_KEEP,
+					SHADOWFANG_KEEP_LEVEL2,
+					SHADOWFANG_KEEP_LEVEL3,
+					SHADOWFANG_KEEP_LEVEL4,
+					SHADOWFANG_KEEP_LEVEL5,
+					SHADOWFANG_KEEP_LEVEL6,
+					SHADOWFANG_KEEP_LEVEL7,
+					283, 284,	-- Blackrock Caverns
+					293,	-- Grim Batol
+					297, 298, 299,	-- Halls of Origination
+					277,	-- Lost City of the Tol'vir
+					324,	-- The Stonecore
+					322, 323,	-- Throne of the Tides
+				},
 				["crs"] = {
 					-- Blackrock Caverns
 					39665,	-- Rom'ogg Bonecrusher
