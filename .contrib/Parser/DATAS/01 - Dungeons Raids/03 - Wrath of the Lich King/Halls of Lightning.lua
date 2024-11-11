@@ -444,15 +444,6 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 							i(40526),	-- Gown of the Spell-Weaver
 							i(40426),	-- Signet of the Accord
 							i(40488),	-- Ice Spire Scepter
-							i(40616),	-- Helm of the Lost Conqueror
-							i(40617),	-- Helm of the Lost Protector
-							i(40618),	-- Helm of the Lost Vanquisher
-							i(40622),	-- Spaulders of the Lost Conqueror
-							i(40623),	-- Spaulders of the Lost Protector
-							i(40624),	-- Spaulders of the Lost Vanquisher
-							i(40619),	-- Leggings of the Lost Conqueror
-							i(40620),	-- Leggings of the Lost Protector
-							i(40621),	-- Leggings of the Lost Vanquisher
 						},
 					}),
 				},
@@ -485,7 +476,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					e(600, {	-- Loken
 						["creatureID"] = 28923,	-- Loken
 						["groups"] = {
-							currency(SIDEREAL_ESSENCE),
+							i(45680),	-- Armbands of the Construct
 							i(45676),	-- Chestplate of Vicious Potency
 							i(46350),	-- Pillar of Fortitude
 						},

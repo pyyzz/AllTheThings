@@ -17,6 +17,12 @@ _.OnClickDB=
 {
 	["PopoutLinkedAchievement"] = function(row,button)if button=="RightButton" and row.ref.ach then	_:CreateMiniListForGroup(row.ref.ach);return true;end	end,
 }
+_.OnInitDB=
+{
+	["ShouldExcludeFromTooltipForBuffs_394441_413078_424205"] = function(t)local buffs={};for i,id in ipairs({394441,413078,424205})do buffs[id]=1;end	t.ShouldExcludeFromTooltipHelper=function(t)local target=UnitExists("mouseover")and "mouseover" or "target";for i=1,10,1 do	local id=select(10,UnitBuff(target,i));if id then	if buffs[id] then return false;end	else	break;end	end	return true;end	return t;end,
+	["ShouldExcludeFromTooltipForBuffs_413078_424205"] = function(t)local buffs={};for i,id in ipairs({413078,424205})do buffs[id]=1;end	t.ShouldExcludeFromTooltipHelper=function(t)local target=UnitExists("mouseover")and "mouseover" or "target";for i=1,10,1 do	local id=select(10,UnitBuff(target,i));if id then	if buffs[id] then return false;end	else	break;end	end	return true;end	return t;end,
+	["ShouldExcludeFromTooltipForBuffs_424205"] = function(t)local buffs={};for i,id in ipairs({424205})do buffs[id]=1;end	t.ShouldExcludeFromTooltipHelper=function(t)local target=UnitExists("mouseover")and "mouseover" or "target";for i=1,10,1 do	local id=select(10,UnitBuff(target,i));if id then	if buffs[id] then return false;end	else	break;end	end	return true;end	return t;end,
+}
 _.OnTooltipDB=
 {
 	["DesolaceCentaurs"] = function(t,tooltipInfo)local reputation=t.reputation;if reputation>0 and reputation<9000 then	_.Modules.FactionData.AddReputationTooltipInfo(tooltipInfo,reputation,"Kill Centaurs to Honored.",20,9000);end	end,

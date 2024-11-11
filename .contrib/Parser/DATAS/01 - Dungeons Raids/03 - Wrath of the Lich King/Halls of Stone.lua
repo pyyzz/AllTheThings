@@ -335,15 +335,6 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 							i(43993),	-- Greatring of Collision
 							i(40489),	-- Greatstaff of the Nexus
 							i(44659),	-- Pendant of the Dragonsworn
-							i(40616),	-- Helm of the Lost Conqueror
-							i(40617),	-- Helm of the Lost Protector
-							i(40618),	-- Helm of the Lost Vanquisher
-							i(40622),	-- Spaulders of the Lost Conqueror
-							i(40623),	-- Spaulders of the Lost Protector
-							i(40624),	-- Spaulders of the Lost Vanquisher
-							i(40619),	-- Leggings of the Lost Conqueror
-							i(40620),	-- Leggings of the Lost Protector
-							i(40621),	-- Leggings of the Lost Vanquisher
 						},
 					}),
 				},
@@ -363,6 +354,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 						["creatureID"] = 27975,	-- Maiden of Grief
 						["groups"] = {
 							i(45895),	-- Belt of the Blood Pit
+							i(45302),	-- Treads of the Invader
 						},
 					}),
 					e(606, {	-- Tribunal of Ages
@@ -375,7 +367,6 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					e(607, {	-- Sjonnir The Ironshaper
 						["creatureID"] = 27978,	-- Sjonnir The Ironshaper
 						["groups"] = {
-							currency(SIDEREAL_ESSENCE),
 							i(46345),	-- Bracers of Righteous Reformation
 							i(46351),	-- Bloodcrush Cudgel
 							i(46346),	-- Boots of Unsettled Prey

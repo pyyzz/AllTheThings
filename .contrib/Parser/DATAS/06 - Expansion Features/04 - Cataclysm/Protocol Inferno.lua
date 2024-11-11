@@ -10,6 +10,22 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_P
 	n(PROTOCOL_INFERNO, bubbleDownSelf({ ["timeline"] = { ADDED_4_2_0 } }, {
 		["lvl"] = 85,
 		["groups"] = {
+			n(ACHIEVEMENTS, {
+				ach(41148, {	-- Protocol Inferno: Terminated
+					-- Meta Achievement
+					["sym"] = {{"meta_achievement",
+						41146,	-- Protocol Inferno: Deadmines
+						41147,	-- Protocol Inferno: Shadowfang Keep
+						41139,	-- Protocol Inferno: Blackrock Caverns
+						41143,	-- Protocol Inferno: Grim Batol
+						41144,	-- Protocol Inferno: Halls of Origination
+						41145,	-- Protocol Inferno: Lost City of the Tol'vir
+						41141,	-- Protocol Inferno: The Stonecore
+						41142,	-- Protocol Inferno: The Vortex Pinnacle
+						41140,	-- Protocol Inferno: Throne of the Tides
+					}},
+				}),
+			}),
 			n(COMMON_BOSS_DROPS, {
 				["description"] = "If you do every Protocol Inferno Dungeon, you can earn a total of 129 of these per day, as you get 2 for each boss, and 5 for endbosses. If you use the dungeon finder, there is no limit, as you don't get saved that way.",
 				["maps"] = {
