@@ -75,7 +75,6 @@ src\Modules\Vignette.lua
 # src\Modules\Contributor.lua
 
 # Expansion specific localization files
-db\Classic\ExplorationDB.lua
 db\Classic\LocalizationDB.lua
 db\Classic\Season of Discovery\LocalizationDB.lua
 
