@@ -3038,7 +3038,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						["cost"] = {{"c", TIMEWARPED_BADGE, 5000}}
 					}),
 					i(232598, {	-- Bag of Timewarped Badges
-						["cost"] = {{"c", BRONZE_TOKEN, 1}}
+						["cost"] = {{"c", BRONZE_TOKEN, 1}},
+						["g"] = {
+							currency(TIMEWARPED_BADGE),
+						},
 					}),
 					i(228785, {	-- Coldflame Bulwark
 						["cost"] = {{"c", BRONZE_TOKEN, 10}}
