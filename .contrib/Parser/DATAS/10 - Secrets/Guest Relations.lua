@@ -590,7 +590,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			-- The Case of an Old Soul
 			q(84435, {	-- Nola's Last Wish
 				["description"] = "Speak to Lashk by the story time stage, locate Nola's Last Wish south of Tortaka Refuge in Vol'Dun, then used it to summon and speak to Scrollsage Nola's spirit at the underwater Tortollan wedding east of Atal'Dazar.",
-				["provider"] = { "i", 232406 },	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
+				["provider"] = { "n", 232406 },	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
 				["coord"] = { 63.0, 50.2, TANARIS },
 				["g"] = {
 					i(228302),	-- My Journal: Nola's Last Wish (QI!)
