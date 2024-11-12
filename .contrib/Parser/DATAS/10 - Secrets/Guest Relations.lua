@@ -615,8 +615,26 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					})
 				},
 			}),
+			-- The Case of Great Aspirations
+			q(84932, {	-- A Legacy of Destruction
+				["provider"] = { "n", 232406 },	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
+				["coord"] = { 63.0, 50.2, TANARIS },
+			}),
+			q(84933, {	-- From Ashes to Wisdom
+				["description"] = "Summon Voidfire with the provided whistle then talk to him in the following locations:\nNear the Ruins of Thaurissan in the Burning Steppes (61.4, 28.7)\nNear the Scar of the Worldbreaker in the Badlands (33.1, 53.0)\nNear the Twilight Breach north of Victor's Point in the Twilight Highlands (38.3, 49.1)\nIn the Quel'Dormir Gardens by the Ruins of Vash'jir in the Shimmering Expanse (38.8, 66.9)",
+				["provider"] = { "n", 231029 },	-- Voidfire
+				["coords"] = {
+					{ 61.7, 49.8, TANARIS },
+					{ 61.4, 28.7, BURNING_STEPPES },
+					{ 33.1, 53.0, BADLANDS },
+					{ 38.3, 49.1, TWILIGHT_HIGHLANDS },
+					{ 38.8, 66.9, VASHJIR_SHIMMERING_EXPANSE },
+				},
+				["g"] = {
+					i(231292),	-- Whelpling Whistle (QI!)
+				}
+			}),
 			q(84924),	-- The Case of a Feathered Friend
-			q(84933),	-- The Case of Great Aspirations
 			q(85477),	-- The Case of Missing Mementos
 			q(84469),	-- The Case of Pet Games
 			q(84912),	-- The Case of Staged Disaster
@@ -753,6 +771,19 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				}),
 				q(84426, {	-- Waterlogged Celebration Crate
 					["provider"] = { "i", 228212 },	-- Waterlogged Celebration Crate
+				}),
+			}),
+			header(HEADERS.Quest, 84767, {
+				i(228977),	-- Burnt Ransom Note
+				o(466438, {	-- Charred Celebration Crate
+					["description"] = "On the ground by the bear trampoline in the north-western corner of Mount Hyjal.",
+					["coord"] = { 13.6, 33.5, MOUNT_HYJAL },
+					["g"] = {
+						i(228976),	-- Charred Celebration Crate (QS!)
+					},
+				}),
+				q(84767, {	-- Charred Celebration Crate
+					["provider"] = { "i", 228976 },	-- Charred Celebration Crate
 				}),
 			}),
 		}),
