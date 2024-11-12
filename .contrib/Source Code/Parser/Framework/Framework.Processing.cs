@@ -1130,6 +1130,8 @@ namespace ATT
 
         private static void RemoveWrongFilterSources(IDictionary<string, object> data, long ensembleID, List<IDictionary<string, object>> symlinkSources, List<IDictionary<string, object>> rawSources)
         {
+            // as of later 2024, Blizz seems to have fixed their logic for granting all Appearances in Ensembles, even when Class/Armor restricted! Huzzah
+            return;
             Dictionary<long, int> ensembleFilterCount = new Dictionary<long, int>();
             // track the known filters for the sources
             foreach (IDictionary<string, object> source in symlinkSources.Union(rawSources))
