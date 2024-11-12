@@ -769,7 +769,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					{ "i", 228938, 1 },	-- Peculiar Gem
 				},
 			}),
-			o(457130, {	-- Hidden Hatch
+			o(475130, {	-- Hidden Hatch
 				["description"] = "Behind an energy conduit in an alcove to the right when first entering the Mechanar.",
 			}),
 		}),
