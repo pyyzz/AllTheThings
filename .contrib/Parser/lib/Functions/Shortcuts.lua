@@ -1315,12 +1315,12 @@ questobjective = function(id, t)						-- Create a QUEST OBJECTIVE Object
 	t = struct("objectiveID", id, t);
 	if t then
 		-- #if NOT OBJECTIVES
-		ProcessProviderForRetailAsUncollectible(t.provider);
-		if t.providers then
-			for i,provider in ipairs(t.providers) do
-				ProcessProviderForRetailAsUncollectible(provider);
-			end
-		end
+		-- ProcessProviderForRetailAsUncollectible(t.provider);
+		-- if t.providers then
+		-- 	for i,provider in ipairs(t.providers) do
+		-- 		ProcessProviderForRetailAsUncollectible(provider);
+		-- 	end
+		-- end
 		-- #endif
 		if t.itemID then
 			print("INCORRECT OBJECTIVE FORMAT", id, t.itemID);
