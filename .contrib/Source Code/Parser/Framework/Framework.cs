@@ -3704,6 +3704,25 @@ namespace ATT
                     localizationDatabase.AppendLine("end");
                 }
 
+                // Localization header constant debugger
+                localizationDatabase.AppendLine(@"
+
+-- Add a Header & Filter debugger
+setmetatable(_.FilterConstants, {
+	__index = function(t, key)
+		_.print(""MISSING FilterConstant:"", key);
+		rawset(t, key, -9999999999);
+		return -9999999999;
+	end
+});
+setmetatable(_.HeaderConstants, {
+	__index = function(t, key)
+		_.print(""MISSING HeaderConstant:"", key);
+		rawset(t, key, -9999999999);
+		return -9999999999;
+	end
+});");
+
                 // Check to make sure the content is different since Diff tools are dumb as hell.
                 var filename = Path.Combine(addonRootFolder, $"db/{dbRootFolder}LocalizationDB.lua");
                 var localizationDatabaseContent = localizationDatabase.ToString().Replace("\r\n", "\n").Trim();

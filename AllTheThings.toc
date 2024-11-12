@@ -76,7 +76,6 @@ src\Modules\Contributor.lua
 
 # Expansion specific localization files
 db\Retail\LocalizationDB.lua
-db\Presets.lua
 
 # Load object class templates
 src\Classes\base.lua
