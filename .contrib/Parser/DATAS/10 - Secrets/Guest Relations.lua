@@ -430,8 +430,12 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			}),
 			q(84882, {	-- Deck Dismay
 				["description"] = "Speak to Alphonse after having looted the Six of Frost to unlock this quest. Use the Idol of Ohn'ahra to find more cards scattered around the grounds.",
-				["provider"] = { "n", 230838 },	-- Alphonse Constant <Apprentice Cartomancer>
-				["coord"] = { 63.9, 52.3, TANARIS },
+				["providers"] = {
+					{ "n", 230838 },	-- Alphonse Constant <Apprentice Cartomancer>
+					-- Need this here so you can link the source item / object to this quest without using debug mode
+					{ "i", 229219 },	-- Six of Frost
+				},
+				["coord"] = { 63.9, 52.4, TANARIS },
 				["g"] = {
 					o(467083, {	-- Darkmoon Fortune Card
 						["description"] = "Under a bench near the Story Time stage.",
