@@ -3594,6 +3594,18 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CATACLY
 						}),
 					}),
 					filter(COSMETIC, sharedDataSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
+						iensemble(234859, {	-- Ensemble: Twilight Acolyte's Regalia
+							--["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+						}),
+						iensemble(234857, {	-- Ensemble: Twilight Hunter's Guise
+							--["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+						}),
+						iensemble(234856, {	-- Ensemble: Twilight Zealot's Battleplate
+							--["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+						}),
+						iensemble(234855, {	-- Ensemble: Vestments of the Twisted Grove
+							--["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+						}),
 						i(234860, {	-- Explorer's League Deepholm Expedition Tabard
 							["races"] = ALLIANCE_ONLY,
 							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
@@ -5912,11 +5924,67 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_LEGION_
 						}),
 					}),
 					filter(COSMETIC, {
+						i(234943, {	-- Broken Shore Battlemender's Drape
+							--["cost"] = {{ "c", TIMEWARPED_BADGE, 100 }},
+							["timeline"] = { ADDED_11_0_7 },
+						}),
+						i(234954, {	-- Corrupted Knot
+							--["cost"] = {{ "c", TIMEWARPED_BADGE, 100 }},
+							["timeline"] = { ADDED_11_0_7 },
+						}),
+						i(234952, {	-- Crux of Blind Faith
+							--["cost"] = {{ "c", TIMEWARPED_BADGE, 100 }},
+							["timeline"] = { ADDED_11_0_7 },
+						}),
+						i(234941, {	-- Drake Hunter's Drape
+							--["cost"] = {{ "c", TIMEWARPED_BADGE, 100 }},
+							["timeline"] = { ADDED_11_0_7 },
+						}),
+						i(234953, {	-- Edge of the First Blade
+							--["cost"] = {{ "c", TIMEWARPED_BADGE, 100 }},
+							["timeline"] = { ADDED_11_0_7 },
+						}),
+						iensemble(234946, {	-- Ensemble: Broken Shore Battlemender's Gear
+							--["cost"] = {{ "c", TIMEWARPED_BADGE, 500 }},
+							["timeline"] = { ADDED_11_0_7 },
+						}),
+						iensemble(234947, {	-- Ensemble: Drake Hunter's Kit
+							--["cost"] = {{ "c", TIMEWARPED_BADGE, 500 }},
+							["timeline"] = { ADDED_11_0_7 },
+						}),
+						iensemble(234948, {	-- Ensemble: Drekirjar Warrior's Battlegear
+							--["cost"] = {{ "c", TIMEWARPED_BADGE, 500 }},
+							["timeline"] = { ADDED_11_0_7 },
+						}),
+						iensemble(234945, {	-- Ensemble: Invasion Stalker's Guise
+							--["cost"] = {{ "c", TIMEWARPED_BADGE, 500 }},
+							["timeline"] = { ADDED_11_0_7 },
+						}),
 						iensemble(188209, {	-- Ensemble: Ravencrest's Battleplate
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 500 }},
 						}),
+						i(234958, {	-- Fenryr's Bloodstained Fang
+							--["cost"] = {{ "c", TIMEWARPED_BADGE, 100 }},
+							["timeline"] = { ADDED_11_0_7 },
+						}),
+						i(234949, {	-- Howling Echoes
+							--["cost"] = {{ "c", TIMEWARPED_BADGE, 100 }},
+							["timeline"] = { ADDED_11_0_7 },
+						}),
+						i(234942, {	-- Invasion Stalker's Cloak
+							--["cost"] = {{ "c", TIMEWARPED_BADGE, 100 }},
+							["timeline"] = { ADDED_11_0_7 },
+						}),
+						i(234959, {	-- Key to the Halls
+							--["cost"] = {{ "c", TIMEWARPED_BADGE, 100 }},
+							["timeline"] = { ADDED_11_0_7 },
+						}),
 						i(187562, {	-- Replica Aegis of Aggramar
 							["cost"] = {{ "c", TIMEWARPED_BADGE, 3000 }},
+						}),
+						i(234956, {	-- Rod of Crystalline Energies
+							--["cost"] = {{ "c", TIMEWARPED_BADGE, 100 }},
+							["timeline"] = { ADDED_11_0_7 },
 						}),
 					}),
 					filter(MISC, {

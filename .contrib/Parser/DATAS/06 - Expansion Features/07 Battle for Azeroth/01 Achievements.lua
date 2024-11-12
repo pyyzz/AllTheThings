@@ -13,12 +13,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 				12947,	-- Azerothian Diplomat
 				12807,	-- Battle for Azeroth Dungeon Hero
 				40961,	-- Batle of Dazar'alor (!)
-				40959,	-- Black Empire State of Mind (!)
-				41209,	-- Dressed to Kill: Battle for Azeroth (!)
+				40959,	-- Black Empire State of Mind
+				41209,	-- Dressed to Kill: Battle for Azeroth
 				13414,	-- Crucible of Storms
 				13134,	-- Expedition Leader
-				40958,	-- Full Heart, Can't Lose (!)
-				40956,	-- I'm On Island Time (!)
+				40958,	-- Full Heart, Can't Lose
+				40956,	-- I'm On Island Time
 				40957,	-- Maximum Effort (!)
 				13541,	-- Mecha-Done
 				40963,	-- Ny'alotha, the Waking City
@@ -343,6 +343,26 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 				}),
 			},
 		}),
+		ach(40956, bubbleDownSelf({	-- I'm On Island Time
+			["timeline"] = { ADDED_11_0_7 },
+		},{
+			-- Meta Achievement
+			["sym"] = {{"meta_achievement",
+				12988,	-- Battle for Azeroth Explorer
+				41203,	-- Bwon Voyage
+				41204,	-- Dune Squad
+				41202,	-- Hot Tropic
+				12593,	-- Loremaster of Kul Tiras
+				13294,	-- Loremaster of Zandalar
+				41206,	-- Songs of Storms
+				41205,	-- Sound Off
+				41207,	-- When the Drust Settles
+				13144,	-- Wide World of Quests
+			}},
+			["groups"] = {
+				mount(303767),	-- Honeyback Hivemother (MOUNT!)
+			},
+		})),
 		pvp(ach(12861, {	-- Master of Duels
 			["maps"] = {
 				BORALUS,
