@@ -3243,8 +3243,10 @@ namespace ATT
                             break;
 
                         // ignore this thing being forcibly-obtainable due to an 'added' timeline when the parent group contains a 'rwp' beyond the 'awp' of this group
-                        if (parentData.TryGetValue("rwp", out long parentRwp) && parentRwp >= addedPatch)
+                        // if _forcetimeline is specified, then don't let parent's timeline override this timeline
+                        if (!data.ContainsKey("_forcetimeline") && parentData.TryGetValue("rwp", out long parentRwp) && parentRwp >= addedPatch)
                         {
+                            //LogDebug($"INFO: timeline indicates available Thing {addedPatch} within removed Parent {parentRwp}", data);
                             // also inherit the rwp so that further children don't also reverse force-obtainable themselves back over the parent
                             removedPatch = parentRwp;
                             break;
