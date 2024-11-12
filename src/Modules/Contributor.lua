@@ -301,7 +301,7 @@ local function OnQUEST_DETAIL(...)
 	providerid = tonumber(providerid)
 	if not providerid or not guidtype then
 		-- app.print("Unknown Quest Provider",guidtype,providerid,"during Contribute check!")
-		if guidtype ~= "Item" then
+		if not IgnoredQuestChecksByTypes[guidtype].provider() then
 			app.print("No Quest check performed for Quest #", questID,"[ProviderID]")
 		end
 		return
