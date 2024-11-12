@@ -1346,8 +1346,9 @@ local SpecialRoots = {
 		},FILTERFUNC_questID,g)
 	end,
 }
-SpecialRoots[ROOTS.HiddenQuestTriggers] = SpecialRoots.__DropG
 SpecialRoots[ROOTS.HiddenAchievementTriggers] = SpecialRoots.__DropG
+SpecialRoots[ROOTS.HiddenCurrencyTriggers] = SpecialRoots.__DropG
+SpecialRoots[ROOTS.HiddenQuestTriggers] = SpecialRoots.__DropG
 SpecialRoots[ROOTS.NeverImplemented] = SpecialRoots.__DropG
 root = function(category, g)							-- Create a ROOT CATEGORY Object
 	if not g then g = g or {}; end

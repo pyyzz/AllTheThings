@@ -408,6 +408,7 @@ namespace ATT
 
             ProcessingAchievementCategory = container.Key.Contains("Achievement");
             ProcessingUnsortedCategory = container.Key.Contains("HiddenAchievementTriggers") ||
+                                        container.Key.Contains("HiddenCurrencyTriggers") ||
                                         container.Key.Contains("HiddenQuestTriggers") ||
                                         container.Key.Contains("NeverImplemented") ||
                                         container.Key.Contains("Uncollectible") ||
