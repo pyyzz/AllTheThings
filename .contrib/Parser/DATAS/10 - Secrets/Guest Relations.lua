@@ -573,7 +573,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				["provider"] = { "n", 229749 },	-- Riko
 				["coord"] = { 61.9, 50.5, TANARIS },
 				["g"] = {
-					i(228750),	-- My Journal: The Case of the Fur-Getting Wikket
+					i(228750),	-- My Journal: The Case of the Fur-Getting Wikket (QI!)
 					n(229775, {	-- Sully "The Pickle" McLeary
 						["coord"] = { 63.1, 49.4, TANARIS },
 					}),
@@ -587,8 +587,31 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					i(228740),	-- Gizmo the Pure (PET!)
 				},
 			}),
+			-- The Case of an Old Soul
+			q(84435, {	-- Nola's Last Wish
+				["description"] = "Speak to Lashk by the story time stage, locate Nola's Last Wish south of Tortaka Refuge in Vol'Dun, then used it to summon and speak to Scrollsage Nola's spirit at the underwater Tortollan wedding east of Atal'Dazar.",
+				["provider"] = { "i", 232406 },	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
+				["coord"] = { 63.0, 50.2, TANARIS },
+				["g"] = {
+					i(228302),	-- My Journal: Nola's Last Wish (QI!)
+					n(229102, {	-- Lashk
+						["description"] = "Near the story time stage.",
+						["coord"] = { 63.9, 53.5, TANARIS },
+					}),
+					o(463104, {	-- Nola's Last Wish
+						["description"] = "In a pile of scrolls south of Tortaka Refuge in Vol'Dun.",
+						["coord"] = { 64.0, 26.0, VOLDUN },
+						["g"] = {
+							i(228233),	-- Nola's Last Wish (QI!)
+						},
+					}),
+					n(229103, {	-- Scrollsage Nola
+						["description"] = "Use Nola's Last Wish to summon and speak to at the underwater Tortollan wedding east of Atal'Dazar.",
+						["coord"] = { 24.4, 44.4, ZULDAZAR },
+					})
+				},
+			}),
 			q(84924),	-- The Case of a Feathered Friend
-			q(84435),	-- The Case of an Old Soul
 			q(84933),	-- The Case of Great Aspirations
 			q(85477),	-- The Case of Missing Mementos
 			q(84469),	-- The Case of Pet Games
