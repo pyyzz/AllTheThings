@@ -6922,6 +6922,7 @@ local ObjectNames = {
 	[465242] = "Awakened Cache",
 	[465243] = "Awakened Cache",
 	[465277] = "Mound of Dirt",
+	[466438] = "Charred Celebration Crate",
 	[467060] = "Ball of Yarn",
 	[467075] = "Darkmoon Fortune Card",
 	[467083] = "Darkmoon Fortune Card",
