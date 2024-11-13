@@ -1694,7 +1694,7 @@ namespace ATT
 
         private static void Validate_InheritedFields(IDictionary<string, object> data, IDictionary<string, object> parentData)
         {
-            foreach(string inheritedField in InheritingFields)
+            foreach (string inheritedField in InheritingFields)
             {
                 // parent must have the field in order in inherit it
                 if (!parentData.TryGetValue(inheritedField, out object inheritedValue))

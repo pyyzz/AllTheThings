@@ -832,7 +832,6 @@ namespace ATT
                     case "maps":
                     case "qgs":
                     case "crs":
-                    case "providers":
                     case "coords":
                         // is it a list of objects?
                         if (entry.Value is List<object> valList)
