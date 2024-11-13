@@ -632,7 +632,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				},
 				["g"] = {
 					i(231292),	-- Whelpling Whistle (QI!)
-				}
+				},
 			}),
 			q(84924),	-- The Case of a Feathered Friend
 			q(85477),	-- The Case of Missing Mementos

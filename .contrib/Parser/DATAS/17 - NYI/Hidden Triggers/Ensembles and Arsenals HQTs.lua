@@ -1049,7 +1049,7 @@ q(85580),	-- Ensemble: Boulderfist Mystic's Battlegear
 q(),		-- Ensemble: Broken Shore Battlemender's Gear
 q(85575),	-- Ensemble: Cenarion Mender's Battlegear
 q(82261),	-- Ensemble: Cerulean Dredger
-q(85591)	-- Ensemble: Brunnhildar Scout's Kit
+q(85591),	-- Ensemble: Brunnhildar Scout's Kit
 q(85594),	-- Ensemble: Coldarra Spellbinder's Regalia
 q(),		-- Ensemble: Drake Hunter's Kit
 q(85590),	-- Ensemble: Drakkari Stalker's Trappings
