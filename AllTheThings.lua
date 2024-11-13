@@ -6152,7 +6152,7 @@ function app:GetDataCache()
 				db.icon = app.asset(params[2])
 				db.description = params[3]
 				db.g = app.Categories[params[4]]
-				for k, v in pairs(flags or {}) do
+				for k, v in pairs(params[5] or app.EmptyTable) do
 					db[k] = v
 				end
 				tinsert(g, db)
