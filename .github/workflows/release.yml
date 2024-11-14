@@ -37,7 +37,7 @@ jobs:
         with:
             name: db-output  # Artifact name
             path: db/  # File path to upload
-            retention-days: 1
+            retention-days: 7
 
   release-linux:
     runs-on: ubuntu-latest
