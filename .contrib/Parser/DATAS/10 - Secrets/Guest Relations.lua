@@ -433,7 +433,35 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					}),
 				},
 			}),
-			q(85195),	-- Chapter 3
+			q(85208, {	-- A Pirate Missive
+				["provider"] = { "n", 232407 },	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
+				["coord"] = { 63.0, 50.2, TANARIS },
+			}),
+			q(85195, {	-- Pirate Gastronomy
+				["description"] = "Acquire the required ingredients then talk to Bottlenose in Tanaris. Visit Hrothgar's Landing to grab the last ingredient.",
+				["provider"] = { "n", 105637 },	-- Scowling Rosa <Texts and Specialty Goods>
+				["cost"] = {
+					{ "i", 160711, 2 },	-- Aromatic Fish Oil
+					{ "i", 41800, 1 },	-- Deep Sea Monsterbelly
+					{ "i", 6522, 4 },	-- Deviate Fish
+					{ "i", 27439, 3 },	-- Furious Crawdad
+					{ "i", 41813, 2 },	-- Nettlefish
+					{ "i", 4402, 1 },	-- Small Flame Sac
+					{ "i", 2452, 2 },	-- Swiftthistle
+					{ "i", 74846, 2 },	-- Witchberries
+				},
+				["g"] = {
+					i(229968),	-- Boonful Banquet (QI!)
+					i(231263),	-- The Case of the Superstitious and Hungry Pirates (QI!)
+					n(231413, {	-- Bottlenose
+						["coord"] = { 60.9, 44.7, TANARIS },
+					}),
+					o(469985, {	-- Ice Block
+						["description"] = "In the mountains of Hrothgar's Landing in Icecrown, contains the secret ingredient fish and must be visited for quest completion, even if you grab the fish elsewhere.",
+						["coord"] = { 55.4, 10.7, 170 },	-- Hrothgar's Landing
+					}),
+				},
+			}),
 			-- Chapter 4
 			q(85503),	-- Chapter 4
 		}),
@@ -819,18 +847,32 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			}),
 			header(HEADERS.Quest, 85523, {
 				i(231888),	-- Mildewed Ransom Note
+				o(505260, {	-- Potion of Truth
+					["description"] = "found at the top of Thunder Peak behind Lord Magmathar in Ashenvale. The buff will be lost if you encounter any load screens or try to leave Kalimdor.",
+					["coord"] = { 47.9, 38.3, ASHENVALE },
+				}),
 				o(478090, {	-- Mildewed Celebration Crate
-					["description"] = "In a corner within Eldreth Row by the exterior of Dire Maul.\nVisible only with a buff, obtained from the Potion of Truth found at the top of Thunder Peak behind Lord Magmathar in Ashenvale. The buff will be lost if you encounter any load screens or try to leave Kalimdor.",
-					["coords"] = {
-						{ 47.9, 38.3, ASHENVALE },
-						{ 60.4, 35.4, FERALAS },
-					},
+					["description"] = "In a corner within Eldreth Row by the exterior of Dire Maul.\nVisible only with a buff, obtained from the Potion of Truth.",
+					["coord"] = {60.4, 35.4, FERALAS },
 					["g"] = {
 						i(231886),	-- Mildewed Celebration Crate (QS!)
 					},
 				}),
 				q(85523, {	-- Mildewed Celebration Crate
 					["provider"] = { "i", 231886 },	-- Mildewed Celebration Crate
+				}),
+			}),
+			header(HEADERS.Quest, 84773, {
+				i(228985),	-- Shiny Ransom Note
+				o(466512, {	-- Crystalized Celebration Crate
+					["description"] = "Inside Oshu'gun's central chamber in Nagrand (Outland).",
+					["coord"] = {35.3, 74.1, NAGRAND },
+					["g"] = {
+						i(228983),	-- Crystalized Celebration Crate (QS!)
+					},
+				}),
+				q(84773, {	-- Crystalized Celebration Crate
+					["provider"] = { "i", 228983 },	-- Crystalized Celebration Crate
 				}),
 			}),
 		}),
@@ -863,6 +905,13 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(85564),	-- Triggered after talking to Kelsey during (85060) Pirate Foods and Superstitions.
 		q(85565),	-- Triggered after talking to Mrs. Gant during (85060) Pirate Foods and Superstitions.
 		q(83831),	-- Triggered on turn in of (84868) A Whiff of Help. For missing secret toys?
+		q(85414),	-- Acquire 2 Swiftthistle for (85195) Pirate Gastronomy.
+		q(85415),	-- Acquire 2 Witchberries for (85195) Pirate Gastronomy.
+		q(85416),	-- Acquire 1 Small Flame Sac for (85195) Pirate Gastronomy.
+		q(85417),	-- Acquire 2 Aromatic Fish Oil for (85195) Pirate Gastronomy.
+		q(85419),	-- Acquire 4 Deviate Fish for (85195) Pirate Gastronomy.
+		q(85420),	-- Acquire 2 Nettlefish for (85195) Pirate Gastronomy.
+		q(85421),	-- Acquire 3 Furious Crawdads for (85195) Pirate Gastronomy.
 		q(84617, name(HEADERS.Achievement, 40873)),	-- Accepting Harder Puzzles from Alyx. This unlocks notes on the bulletin board next to Alyx.
 		q(83824, name(HEADERS.Item, 226242)),	-- Triggered when restoring the 'Green Hills of Stranglethorn' by gathering all the missing pages.
 	}),
