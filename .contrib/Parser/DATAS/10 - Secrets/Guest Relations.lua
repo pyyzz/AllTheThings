@@ -408,6 +408,25 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				},
 			},
 			-- Chapter 3
+			q(85047, {	-- A Pirate Predicament
+				["provider"] = { "n", 232407 },	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
+				["coord"] = { 63.0, 50.2, TANARIS },
+			}),
+			q(85060, {	-- Pirate Foods and Superstitions
+				["description"] = "Collect the Boonful Banquet from a barrel on lowest level of Booty Bay then show it to Scowling Rosa.",
+				["provider"] = { "n", 231413 },	-- Bonenose
+				["coord"] = { 60.9, 44.7, TANARIS },
+				["g"] = {
+					i(231263),	-- My Journal: The Case of the Superstitious and Hungry Pirates (QI!)
+					o(473934, {	-- Property of Cooktholomew
+						["description"] = "On the bottom floor of a building in Booty Bay by some bunks.",
+						["coord"] = { 60.9, 44.7, THE_CAPE_OF_STRANGLETHORN },
+						["g"] = {
+							i(229968),	-- Boonful Banquet (QI!)
+						},
+					}),
+				},
+			}),
 			q(85195),	-- Chapter 3
 			-- Chapter 4
 			q(85503),	-- Chapter 4
@@ -594,7 +613,10 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			-- The Case of an Old Soul
 			q(84435, {	-- Nola's Last Wish
 				["description"] = "Speak to Lashk by the story time stage, locate Nola's Last Wish south of Tortaka Refuge in Vol'Dun, then used it to summon and speak to Scrollsage Nola's spirit at the underwater Tortollan wedding east of Atal'Dazar.",
-				["provider"] = { "n", 232406 },	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
+				["qgs"] = {
+					226683,	-- Alyx <Volunteer Assistant Guest Relations Manager>
+					232406,	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
+				},
 				["coord"] = { 63.0, 50.2, TANARIS },
 				["g"] = {
 					i(228302),	-- My Journal: Nola's Last Wish (QI!)
@@ -617,7 +639,10 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			}),
 			-- The Case of Great Aspirations
 			q(84932, {	-- A Legacy of Destruction
-				["provider"] = { "n", 232406 },	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
+				["qgs"] = {
+					226683,	-- Alyx <Volunteer Assistant Guest Relations Manager>
+					232406,	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
+				},
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
 			q(84933, {	-- From Ashes to Wisdom
@@ -786,6 +811,22 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					["provider"] = { "i", 228976 },	-- Charred Celebration Crate
 				}),
 			}),
+			header(HEADERS.Quest, 85523, {
+				i(231888),	-- Mildewed Ransom Note
+				o(478090, {	-- Mildewed Celebration Crate
+					["description"] = "In a corner within Eldreth Row by the exterior of Dire Maul.\nVisible only with a buff, obtained from the Potion of Truth found at the top of Thunder Peak behind Lord Magmathar in Ashenvale. The buff will be lost if you encounter any load screens or try to leave Kalimdor.",
+					["coords"] = {
+						{ 47.9, 38.3, ASHENVALE },
+						{ 60.4, 35.4, FERALAS },
+					},
+					["g"] = {
+						i(231886),	-- Mildewed Celebration Crate (QS!)
+					},
+				}),
+				q(85523, {	-- Mildewed Celebration Crate
+					["provider"] = { "i", 231886 },	-- Mildewed Celebration Crate
+				}),
+			}),
 		}),
 		header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 			ach(40967),		-- Ratts' Revenge
@@ -813,6 +854,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
 	n(GUEST_RELATIONS, {
+		--q(85564),	-- Popped during (85060) Pirate Foods and Superstitions
 		q(83831),	-- Triggered on turn in of (84868) A Whiff of Help. For missing secret toys?
 		q(84617, name(HEADERS.Achievement, 40873)),	-- Accepting Harder Puzzles from Alyx. This unlocks notes on the bulletin board next to Alyx.
 		q(83824, name(HEADERS.Item, 226242)),	-- Triggered when restoring the 'Green Hills of Stranglethorn' by gathering all the missing pages.
