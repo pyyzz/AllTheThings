@@ -413,11 +413,17 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
 			q(85060, {	-- Pirate Foods and Superstitions
-				["description"] = "Collect the Boonful Banquet from a barrel on lowest level of Booty Bay then show it to Scowling Rosa.",
+				["description"] = "Talk to Kelsey Yance in the Old Port Authority building or Mrs. Gant in a room on the lowest level of Booty Bay. Collect the Boonful Banquet from a barrel in the same room as Mrs. Gant then show it to Scowling Rosa who paths around the wharf.",
 				["provider"] = { "n", 231413 },	-- Bonenose
 				["coord"] = { 60.9, 44.7, TANARIS },
 				["g"] = {
 					i(231263),	-- My Journal: The Case of the Superstitious and Hungry Pirates (QI!)
+					n(2664, {	-- Kelsey Yance <Cook>
+						["coord"] = { 42.8, 69.0, THE_CAPE_OF_STRANGLETHORN },
+					}),
+					n(54232, {	-- Mrs. Gant <Cooking Trainer & Supplies>
+						["coord"] = { 42.7, 72.7, THE_CAPE_OF_STRANGLETHORN },
+					}),
 					o(473934, {	-- Property of Cooktholomew
 						["description"] = "On the bottom floor of a building in Booty Bay by some bunks.",
 						["coord"] = { 60.9, 44.7, THE_CAPE_OF_STRANGLETHORN },
