@@ -909,6 +909,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(85415),	-- Acquire 2 Witchberries for (85195) Pirate Gastronomy.
 		q(85416),	-- Acquire 1 Small Flame Sac for (85195) Pirate Gastronomy.
 		q(85417),	-- Acquire 2 Aromatic Fish Oil for (85195) Pirate Gastronomy.
+		q(85418),	-- Acquire 5 Bloodfin Catfish for (85195) Pirate Gastronomy.
 		q(85419),	-- Acquire 4 Deviate Fish for (85195) Pirate Gastronomy.
 		q(85420),	-- Acquire 2 Nettlefish for (85195) Pirate Gastronomy.
 		q(85421),	-- Acquire 3 Furious Crawdads for (85195) Pirate Gastronomy.
