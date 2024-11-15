@@ -2583,17 +2583,23 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 				}),
 				Difficulty(DIFFICULTY.RAID.LFR).AddGroups({
 					CommonBossDrops({
-						i(231510),	-- Timewarped Relic Coffer Key
+						i(231510, {	-- Timewarped Relic Coffer Key
+							["description"] = "You can only loot 120 keys per difficulty per character for the entire event.",
+						}),
 					}),
 				}),
 				Difficulty(DIFFICULTY.RAID.NORMAL).AddGroups({
 					CommonBossDrops({
-						i(232365),	-- Timewarped Relic Coffer Key
+						i(232365, {	-- Timewarped Relic Coffer Key
+							["description"] = "You can only loot 120 keys per difficulty per character for the entire event.",
+						}),
 					}),
 				}),
 				Difficulty(DIFFICULTY.RAID.HEROIC).AddGroups({
 					CommonBossDrops({
-						i(232366),	-- Timewarped Relic Coffer Key
+						i(232366, {	-- Timewarped Relic Coffer Key
+							["description"] = "You can only loot 120 keys per difficulty per character for the entire event.",
+						}),
 					}),
 				}),
 			},
