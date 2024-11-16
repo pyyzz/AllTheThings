@@ -405,7 +405,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 			["sym"] = {{"meta_achievement",
 				41189,	-- Azj the World Turns
                 41188,  -- Crystal Chronicled
-                --41133,  -- Isle Remember You (!)
+                41133,  -- Isle Remember You
                 41187,  -- Rage Aside the Machine
                 41186,  -- Slate of the Union
 			}},

@@ -92,7 +92,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						i(232861),	-- Singing Fragments (QI!)
 					}),
 					o(499863, {	-- Runed Storm Cache
-						i(232862),	-- Singing Fragments (QI!) 
+						i(232862),	-- Singing Fragments (QI!)
 					}),
 					--spell(472051),	-- Runecaster's Eye
 					--
@@ -111,7 +111,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						i(232861),	-- Singing Fragments (QI!)
 					}),
 					o(500689, {	-- Seafarer's Cache
-						i(232862),	-- Singing Fragments (QI!) 
+						i(232862),	-- Singing Fragments (QI!)
 					}),
 					--spell(470197),	-- Blessing of the Seadweller
 					--
@@ -150,7 +150,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["g"] = {
 					i(232860),	-- Singing Fragments (QI!)
 					i(232861),	-- Singing Fragments (QI!)
-					i(232862),	-- Singing Fragments (QI!) 
+					i(232862),	-- Singing Fragments (QI!)
 					--spell(470169),	-- Thieves of the Siren
 					--
 					i(229365),	-- Raw Singing Citrine
@@ -281,12 +281,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					o(456869, {	-- Kaja'Cola Stash
 						i(227453),	-- Kaja'Cola Stash (QI!)
 					}),
-					o(457143, {	-- 
+					o(457143, {	--
 						i(227670),	-- Kaja'Cola Can (QI!)
 					}),
 				},
 			}),
-			q(84680, {	-- Rock 'n Stone Revival
+			q(84680, {	-- Rock 'n' Stone Revival
 				-- TODO: Vrykul
 				["sourceQuests"] = { 84725 },	-- The Circlet Calls
 				["provider"] = { "n", 228096 },	-- Dawn
@@ -378,7 +378,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["coord"] = { 71.0, 39.6, SIREN_ISLE },
 				["g"] = {
 					o(499443, {	-- Faded Journal Page
-						i(232651),	-- Faded Journal Page (QI!) 
+						i(232651),	-- Faded Journal Page (QI!)
 					}),
 				},
 			}),
@@ -470,13 +470,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 	m(KHAZ_ALGAR, {
 		m(SIREN_ISLE, {
 			n(QUESTS, {
-				-- Citrine unlocks on vendors
-				q(85707),	-- Legendary Skipper's Citrine unlock (speculation was cross fire with rare kill (84797))
-				q(85708),	-- Seabed Leviathan's Citrine unlock
-				q(85709),	-- Roaring War-Queen's Citrine unlock
-				q(85672),	-- Mariner's Hallowed Citrine unlock (speculation based on questID range, need more data)
-				q(85669),	-- Thunderlord's Crackling Citrine unlock (speculation based on questID range, need more data)
-				q(85675),	-- Windsinger's Runed Citrine unlock (according to spellID should also fire 85765 with spellID 470833 but it is not)				
 				-- Need more data / re-confirmation, questIDs are fires only IF it WAS LOOTED, it doesn't fire if you buy anything from vendor
 				-- plate stuff didn't trigger questIDs on druid:
 				-- Earthen Landlubber's Breastplate
@@ -512,6 +505,20 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				q(85802),	-- Whirling (spellID 471167)
 				-- Snapdragon timer after quest
 				q(86566),	-- [DNT] Snapdragon Progress Update (spellID 1214684)
+
+				-- A Choir of Citrines achievement tracking quests
+				q(85674),	-- Storm Sewer's Citrine
+				q(85673),	-- Old Salt's Bardic Citrine
+				q(85672),	-- Mariner's Hallowed Citrine
+				q(85707),	-- Legendary Skipper's Citrine
+				q(85708),	-- Seabed Leviathan's Citrine
+				q(85709),	-- Roaring War-Queen's Citrine
+				q(85676),	-- Stormbringer's Runed Citrine
+				q(85677),	-- Fathomdweller's Runed Citrine
+				q(85675),	-- Windsinger's Runed Citrine
+				q(85669),	-- Thunderlord's Crackling Citrine
+				q(85670),	-- Undersea Overseer's Citrine
+				q(85671),	-- Squall Sailor's Citrine
 			}),
 		}),
 	}),
