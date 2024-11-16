@@ -20,6 +20,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				},
 			}),
 			]]--
+			-- TODO: All these might need either automation or manual work
+			ach(41185),	-- Siren's Squall
 		}),
 	}),
 })));
