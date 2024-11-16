@@ -388,8 +388,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				["sourceQuests"] = {
 					84756,	-- The Toy Thief [A]
 					85043,	-- The Toy Thief [H]
-				},	-- A Pirate Predicament
-				["sourceQuestNumRequired"] = 1,
+				},
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
 			q(85060, {	-- Pirate Foods and Superstitions
