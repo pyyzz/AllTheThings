@@ -50,7 +50,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.LUNAR_FESTIVAL, n(LUNAR_FESTIVAL_HEADER, 
 				title(43),				-- Elder
 			},
 		}),
-		ach(41130),	-- Elders of Khaz Algar (automated!)
+		ach(41130, {	-- Elders of Khaz Algar (automated!)
+			["timeline"] = { ADDED_11_0_7 },
+		}),
 		ach(17321, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_5 } }, {	-- Elders of the Dragon Isles
 			crit(57843, {
 				["_quests"] = { 73848 },	-- Iskaara Elder Shomkol
