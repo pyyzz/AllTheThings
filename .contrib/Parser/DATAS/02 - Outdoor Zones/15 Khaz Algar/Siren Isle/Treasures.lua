@@ -30,6 +30,17 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					i(228665),	-- Empty Kaja'Cola (QS!)
 				},
 			}),
+			o(505506, {	-- Minnow's Favorite Blade
+				["description"] = "On 2nd floor, at the base of the ceiling. It has big range to interact with it, don't try jump towards it or where it is.",
+				["coord"] = { 39.3, 53.8, SIREN_ISLE },
+				["questID"] = 86767,
+				["g"] = {
+					i(233831), -- Minnow's Favorite Blade (COSMETIC!)
+					--i(191059), -- Dilapidated Parchment: Top Half
+					--i(191058), -- Dilapidated Parchment: Bottom Half
+					--idk, they are same as for workboots and create same Treasure Map: Ohn'ahran Plains (itemID 191087)
+				},
+			}),
 			o(463539, {	-- Pilfered Earthen Chest
 				["coord"] = { 68.4, 94.4, SIREN_ISLE },
 				["questID"] = 84527,
@@ -56,6 +67,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["questID"] = 86732,
 				["g"] = {
 					i(233834),	-- Stone Carver's Scramseax (COSMETIC!)
+				},
+			}),
+			o(500697, {	-- Well Loved Squeaky Toy
+				["coord"] = { 39.3, 54.2, SIREN_ISLE },
+				["g"] = {
+					i(233027),	-- Well Loved Squeaky Toy
 				},
 			}),
 		}),

@@ -2146,6 +2146,7 @@ i(234732);	-- Bloodied Medallion
 i(234722);	-- Carved Stone Fragment
 i(232637);	-- Cracked Pirate Skull
 i(232634);	-- Emptied Turtle Shell
+i(234734);	-- Inscribed Drinking Horn
 i(232638);	-- Loosened Naga Scales
 i(234720);	-- Memoric Residue
 i(234750);	-- Myrmidon's Osminium Bracer

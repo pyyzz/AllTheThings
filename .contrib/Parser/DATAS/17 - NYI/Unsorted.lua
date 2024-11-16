@@ -80,7 +80,6 @@ root(ROOTS.Unsorted, {
 			i(233019),	-- Sky Witch's Sweeper
 			i(233020),	-- Twilight Witch's Sweeper
 			i(233023),	-- [PH]
-			i(233027),	-- Well Loved Squeaky Toy
 			i(233051),	-- G.R.A.V. Glove
 			i(233056),	-- Marmaduke
 			i(233057),	-- Rock Hound Mica
@@ -296,7 +295,6 @@ root(ROOTS.Unsorted, {
 			i(233823),	-- [PH] Arathor Mallet
 			i(233825),	-- [PH] Crafter's Tool
 			i(233827),	-- [PH] Crafter's Mallet
-			i(233831),	-- [PH] Fletcher's Blade
 			i(233835),	-- [PH] Arathor Tongs
 			i(233836),	-- [PH] Arathor Chisel
 			i(233838),	-- [PH] Chest

@@ -12170,6 +12170,7 @@ local ObjectModels = {
 	[500690] = 446671,
 	[505260] = 892744,
 	[505503] = 3718225,
+	[505506] = 960872,
 }; _.ObjectModels = ObjectModels;
 
 -- Consolidated Object Data
@@ -15740,6 +15741,7 @@ L.QUEST_NAMES = {
 	[85680] = "Stay awhile and listen: Adelgonn ",
 	[85681] = "Stay awhile and listen: Moira Thaurissan",
 	[85682] = "Stay awhile and listen: Magni Bronzebeard",
+	[86240] = "Give Marmaduke the Well Loved Squeaky Toy",
 }
 L.SOURCE_NAMES = {
 	[90628] = "Monel-Hardened Breastplate",

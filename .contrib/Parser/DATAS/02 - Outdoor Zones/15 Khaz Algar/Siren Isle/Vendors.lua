@@ -114,18 +114,21 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			n(235407, {	-- Hooded Purveyor
 				["coord"] = { 67.9, 39.3, SIREN_ISLE },
 				["g"] = {
-					fbiron(4000, i(234524)), -- Ensemble: Awakened Ambassador's Uniform
+					fbiron(3000, i(234524)), -- Ensemble: Awakened Ambassador's Uniform
+					fbiron(500, i(224167)), -- Gundargaz Tabard
+					fbiron(500, i(224165)), -- Dornogal Tabard
+					fbiron(500, i(224168)), -- Earthen Expedition Tabard
 					fbiron(350, i(233978)), -- Earthen Soot-Stained Workpack
 					fbiron(350, i(233979)), -- Stonebound Worker's Backpack
 					fbiron(350, i(233980)), -- Noble's Forgegrounds Worksack
 					fbiron(350, i(233981)), -- Underground Machinist Toolbag
-					-- TODO: check on next build if they fix prices for stuff lower
-					fbiron(0, i(233829)), -- Smuggled Councilor's Chalice
-					fbiron(0, i(233824)), -- Smuggled Forgegrounds Hammer
-					fbiron(0, i(233822)), -- Smuggled Meadery Pitcher
-					fbiron(0, i(224167)), -- Gundargaz Tabard
-					fbiron(0, i(224165)), -- Dornogal Tabard
-					fbiron(0, i(224168)), -- Earthen Expedition Tabard
+					fbiron(350, i(235297)), -- Smuggled Councilor's Chalice
+					fbiron(200, i(233829)), -- Smuggled Councilor's Chalice
+					fbiron(350, i(235298)), -- Smuggled Forgegrounds Hammer
+					fbiron(200, i(233824)), -- Smuggled Forgegrounds Hammer
+					fbiron(350, i(235299)), -- Smuggled Meadery Pitcher
+					fbiron(200, i(233822)), -- Smuggled Meadery Pitcher
+					fbiron(750, i(235015)), -- Awakened Supply Crate (TOY!)
 				},
 			}),
 			n(227814, {	-- Sally Boltwrench
@@ -138,13 +141,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["coord"] = { 70.0, 48.4, SIREN_ISLE },
 				["g"] = {
 					fbiron(10000, i(233058)),	-- Soweezi's Vintage Waveshredder (MOUNT!)
-					fbiron(5000, i(221543)),	-- Ensemble: Pink Tropical
+					fbiron(4500, i(221543)),	-- Ensemble: Pink Tropical
 					fbiron(4500, i(222960)),	-- Ensemble: Pink Tropical Swimwear
-					fbiron(2000, i(220655)),	-- Water Blaster P.K. (COSMETIC!)
+					fbiron(1000, i(220655)),	-- Water Blaster P.K. (COSMETIC!)
 					fbiron(2000, i(234523)),	-- Ensemble: Salvage Rig Garments
 					fbiron(2000, i(234522)),	-- Ensemble: Southsea Cruise Loungewear
 					fbiron(2000, i(234521)),	-- Ensemble: Rusty Bruiser's Outfit
-					fbiron(2000, i(234520)),	-- Ensemble: Sun-Soaked Clothing
+					fbiron(1500, i(234520)),	-- Ensemble: Sun-Soaked Clothing
 					fbiron(2000, i(234519)),	-- Ensemble: Paradise Beach Loungewear
 					fbiron(750, i(234473)),	-- Soweezi's Comfy Lawn Chair (TOY!)
 				},
@@ -152,23 +155,25 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			n(233259, {	-- Taljori
 				["coord"] = { 65.7, 41.7, SIREN_ISLE },
 				["g"] = {
-					fbiron(4000, i(234536)), -- Ensemble: Bilgeswabby's Garb
-					fbiron(4000, i(234537)), -- Ensemble: Pilfered Mariner's Garb
-					fbiron(4000, i(234538)), -- Ensemble: Salt-Stained Garb
+					--I suspect missing stuff could be due to bug that citrine is added into vendor and replace cosmetic?
+					--I unlocked 2 for this vendor and 2 items are missing
+					fbiron(3000, i(234536)), -- Ensemble: Bilgeswabby's Garb
+					fbiron(3000, i(234537)), -- Ensemble: Pilfered Mariner's Garb
+					fbiron(3000, i(234538)), -- Ensemble: Salt-Stained Garb
 					fbiron(350, i(233910)), -- Salt-Stained Sweatcap
-					fbiron(350, i(233845)), -- Quilted Sea Tunic
+					fbiron(350, i(233845)), -- Quilted Sea Tunic (TODO: Quilted Long-Sleeved Sea Tunic?)
 					fbiron(350, i(233844)), -- Quilted Sea Vest
 					fbiron(350, i(233892)), -- Quilted Waist Wrap
 					fbiron(350, i(233912)), -- Bilge Rat Pirate Hat
-					fbiron(350, i(233902)), -- Tattered Rat Hat
+					fbiron(350, i(233902)), -- Tattered Rat Hat (missing?)
 					fbiron(350, i(233903)), -- Knife Juggler's Bicorne
 					fbiron(350, i(233911)), -- Bloodstained Rat Cap
-					fbiron(350, i(233916)), -- Ashvane Issued Workboots
-					fbiron(350, i(233915)), -- Plated Sea Boots
-					fbiron(4000, i(234513)), -- Ensemble: Rune Scribe's Vestments
-					fbiron(4000, i(234514)), -- Ensemble: Bloodscout Outfit
-					fbiron(4000, i(234515)), -- Ensemble: Hydraflayer Regalia
-					fbiron(4000, i(234516)), -- Ensemble: Tidecrasher Armor
+					--fbiron(350, i(233916)), -- Ashvane Issued Workboots (TODO: now treasure)
+					fbiron(350, i(233915)), -- Plated Sea Boots (missing?)
+					fbiron(3000, i(234513)), -- Ensemble: Rune Scribe's Vestments
+					fbiron(3000, i(234514)), -- Ensemble: Bloodscout Outfit
+					fbiron(3000, i(234515)), -- Ensemble: Hydraflayer Regalia
+					fbiron(3000, i(234516)), -- Ensemble: Tidecrasher Armor
 					fbiron(350, i(233818)), -- Vrykul Blacksmith's Gavel
 					fbiron(350, i(233819)), -- Stormtouched Blacksmith's Gavel
 					fbiron(350, i(233807)), -- Bloodwake Hullrender

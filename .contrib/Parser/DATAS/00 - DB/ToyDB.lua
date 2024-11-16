@@ -1409,5 +1409,6 @@ i(232308);	-- Unknown
 ------------------
 -- PATCH 11.0.7 --
 ------------------
+i(235015);	-- Awakened Supply Crate
 i(233486);	-- Hallowfall Supply Cache
 i(234473);	-- Soweezi's Comfy Lawn Chair
