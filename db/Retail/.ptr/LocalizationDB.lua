@@ -6983,6 +6983,7 @@ local ObjectNames = {
 	[500690] = "Seafarer's Cache",
 	[505260] = "Potion of Truth",
 	[505503] = "Ashvane Issued Workboots",
+	[505506] = "Minnow's Favorite Blade",
 	[9000000] = "Wind Sculpted Stone",
 	[9000001] = "Ancient Incense Brazier",
 	[9000002] = "Ancient Incense Brazier",
@@ -12170,6 +12171,7 @@ local ObjectModels = {
 	[500690] = 446671,
 	[505260] = 892744,
 	[505503] = 3718225,
+	[505504] = 979399,
 	[505506] = 960872,
 }; _.ObjectModels = ObjectModels;
 

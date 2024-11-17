@@ -394,7 +394,6 @@ root(ROOTS.Unsorted, {
 			i(233953),	-- [PH] Wrist
 			i(233954),	-- [PH] Feet
 			i(233955),	-- [PH] Mining Pick
-			i(233957),	-- [PH] Lumberer's Hatchet
 			i(233970),	-- [PH] Cloak
 			i(233971),	-- [PH] Cloak
 			i(233972),	-- [PH] Cloak

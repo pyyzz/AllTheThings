@@ -15,8 +15,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["questID"] = 86765,
 				["g"] = {
 					i(233916), -- Ashvane Issued Workboots (COSMETIC!)
-					i(191058), -- Dilapidated Parchment: Bottom Half (NYI)
-					i(191059), -- Dilapidated Parchment: Top Half (NYI)
+					--i(191058), -- Dilapidated Parchment: Bottom Half (NYI)
+					--i(191059), -- Dilapidated Parchment: Top Half (NYI)
 				},
 			}),
 			o(464233, {	--  Bilge Rat Supply Chest
@@ -28,6 +28,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["coord"] = { 60.8, 62.9, SIREN_ISLE },
 				["g"] = {
 					i(228665),	-- Empty Kaja'Cola (QS!)
+				},
+			}),
+			o(505504, {	--  Kul Tiran Lumberer's Hatchet
+				-- Naga?
+				["coord"] = { 40.2, 41.8, SIREN_ISLE },
+				["questID"] = 86764,
+				["g"] = {
+					i(233957),	-- Kul Tiran Lumberer's Hatchet (COSMETIC!)
 				},
 			}),
 			o(505506, {	-- Minnow's Favorite Blade
@@ -44,6 +52,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			o(463539, {	-- Pilfered Earthen Chest
 				["coord"] = { 68.4, 94.4, SIREN_ISLE },
 				["questID"] = 84527,
+				--["isWeekly"] = true,	-- repeatble after full circle of theme? naga (this) -> pirates -> vrykul
+				["g"] = {
+					i(229181),	-- Ordained Forge Maul
+				},
 			}),
 			o(499127, {	-- Runemarked Coffer
 				-- TODO: The Forgotten Tomb + storm phase

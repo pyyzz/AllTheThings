@@ -161,7 +161,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					fbiron(3000, i(234537)), -- Ensemble: Pilfered Mariner's Garb
 					fbiron(3000, i(234538)), -- Ensemble: Salt-Stained Garb
 					fbiron(350, i(233910)), -- Salt-Stained Sweatcap
-					fbiron(350, i(233845)), -- Quilted Sea Tunic (TODO: Quilted Long-Sleeved Sea Tunic?)
+					fbiron(350, i(233845)), -- Quilted Long-Sleeved Sea Tunic
 					fbiron(350, i(233844)), -- Quilted Sea Vest
 					fbiron(350, i(233892)), -- Quilted Waist Wrap
 					fbiron(350, i(233912)), -- Bilge Rat Pirate Hat
@@ -169,7 +169,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					fbiron(350, i(233903)), -- Knife Juggler's Bicorne
 					fbiron(350, i(233911)), -- Bloodstained Rat Cap
 					--fbiron(350, i(233916)), -- Ashvane Issued Workboots (TODO: now treasure)
-					fbiron(350, i(233915)), -- Plated Sea Boots (missing?)
+					--fbiron(350, i(233915)), -- Plated Sea Boots (TODO: now in crate)
 					fbiron(3000, i(234513)), -- Ensemble: Rune Scribe's Vestments
 					fbiron(3000, i(234514)), -- Ensemble: Bloodscout Outfit
 					fbiron(3000, i(234515)), -- Ensemble: Hydraflayer Regalia

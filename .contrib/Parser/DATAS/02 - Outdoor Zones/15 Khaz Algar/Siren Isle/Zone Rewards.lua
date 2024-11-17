@@ -17,7 +17,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			i(228634),	-- Thunderlord's Crackling Citrine
 			i(228636),	-- Undersea Overseer's Citrine
 			--
-			i(232372),	-- Crate of Bygone Riches
+			i(232372, {	-- Crate of Bygone Riches
+				i(233915),	-- Plated Sea Boots (COSMETIC!)
+			}),
+			-- Do nothing, placeholder?
 			--i(191087, {	-- Treasure Map: Ohn'ahran Plains (NYI, after use fire questID 65912)
 			--	["cost"] = {
 			--		{ "i", 191058, 1 },	-- Dilapidated Parchment: Bottom Half
