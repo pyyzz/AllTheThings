@@ -406,7 +406,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					}),
 					o(473934, {	-- Property of Cooktholomew
 						["description"] = "On the bottom floor of a building in Booty Bay by some bunks.",
-						["coord"] = { 60.9, 44.7, THE_CAPE_OF_STRANGLETHORN },
+						["coord"] = { 42.9, 72.9, THE_CAPE_OF_STRANGLETHORN },
 						["g"] = { i(229968) },	-- Boonful Banquet (QI!)
 					}),
 				},
@@ -415,6 +415,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				["sourceQuest"] = 85060,	-- Pirate Foods and Superstitions
 				["provider"] = { "n", 232407 },	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
 				["coord"] = { 63.0, 50.2, TANARIS },
+				["isBreadcrumb"] = true,
 			}),
 			q(85195, {	-- Pirate Gastronomy
 				["description"] = "Acquire the required ingredients then talk to Bottlenose in Tanaris. Visit Hrothgar's Landing to grab the last ingredient.",
@@ -422,6 +423,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				["provider"] = { "n", 105637 },	-- Scowling Rosa <Texts and Specialty Goods>
 				["cost"] = {
 					{ "i", 160711, 2 },	-- Aromatic Fish Oil
+					{ "i", 33823, 5 },	-- Bloodfin Catfish
 					{ "i", 41800, 1 },	-- Deep Sea Monsterbelly
 					{ "i", 6522, 4 },	-- Deviate Fish
 					{ "i", 27439, 3 },	-- Furious Crawdad
@@ -872,6 +874,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(85564),	-- Triggered after talking to Kelsey during (85060) Pirate Foods and Superstitions.
 		q(85565),	-- Triggered after talking to Mrs. Gant during (85060) Pirate Foods and Superstitions.
 		q(83831),	-- Triggered on turn in of (84868) A Whiff of Help. For missing secret toys?
+		q(85411),	-- Speaking to Bottlenose second option during (85195) Pirate Gastronomy.
 		q(85414),	-- Acquire 2 Swiftthistle for (85195) Pirate Gastronomy.
 		q(85415),	-- Acquire 2 Witchberries for (85195) Pirate Gastronomy.
 		q(85416),	-- Acquire 1 Small Flame Sac for (85195) Pirate Gastronomy.
