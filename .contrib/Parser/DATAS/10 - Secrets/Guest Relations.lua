@@ -839,7 +839,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				i(228985),	-- Shiny Ransom Note
 				o(466512, {	-- Crystalized Celebration Crate
 					["description"] = "Inside Oshu'gun's central chamber in Nagrand (Outland).",
-					["coord"] = {35.3, 74.1, NAGRAND },
+					["coord"] = {35.3, 74.7, NAGRAND },
 					["g"] = { i(228983) },	-- Crystalized Celebration Crate (QS!)
 				}),
 				q(84773, {	-- Crystalized Celebration Crate
