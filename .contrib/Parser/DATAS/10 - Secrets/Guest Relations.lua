@@ -649,10 +649,14 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			}),
 			-- The Case of a Feathered Friend
 			q(84923, {	-- A Bird's Tale
-				["provider"] = { "n", 232407 },	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
+				["qgs"] = {
+					226683,	-- Alyx <Volunteer Assistant Guest Relations Manager>
+					232407,	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
+				},
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
 			q(84924, {	-- A Bird's Tail
+				["description"] = "Interact with four feathers hidden around Spires of Arak, Shattrath, Nagrand and Frostfire Ridge in Draenor.",
 				["sourceQuest"] = 84923,	-- A Bird's Tale
 				["provider"] = { "n", 228273 },	-- Reshad
 				["coord"] = { 64.2, 51.3, TANARIS },
@@ -680,8 +684,75 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					}),
 				},
 			}),
-			q(85477),	-- The Case of Missing Mementos
-			q(84469),	-- The Case of Pet Games
+			-- The Case of Pet Games
+			q(84506, {	-- Pet Pursuit
+				["qgs"] = {
+					232407,	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
+					232408,	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager, Executive Associate Event Coordinator, and Temporary Service Agent>
+				},
+				["coord"] = { 63.0, 50.2, TANARIS },
+			}),
+			q(84469, {	-- Battle Pet Bingo
+				["description"] = "Interact with the Jumping Spider in the Bamboo Wilds in Jade Forest and the Summit Kid atop Neverest Pinnacl in Kun'Lai Summit.",
+				["sourceQuest"] = 84506,
+				["provider"] = { "n", 228276 },	-- Jepetto Joybuzz
+				["coord"] = { 62.2, 49.7, TANARIS },
+				["g"] = {
+					i(228328),	-- Bingo Card (QI!)
+					o(464213, {	-- Jumping Spider
+						["description"] = "In the Bamboo Wilds, northeast of Pearlfin Village in the Jade Forest.",
+						["coord"] = { 64.0, 80.8, THE_JADE_FOREST },
+					}),
+					o(464218, {	-- Summit Kid
+						["description"] = "Atop Neverest Pinnacle in Kun'Lai Summit.",
+						["coord"] = { 44.4, 52.5, KUN_LAI_SUMMIT },
+					}),
+				},
+			}),
+			-- The Case of Missing Mementos
+			q(85477, {	--  Lost and... Found?
+				["description"] = "Open the Lost & Found box nest to Alyx then return the items to visotrs around the anniversary grounds.",
+				["provider"] = { "n", 232408 },	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager, Executive Associate Event Coordinator, and Temporary Service Agent>
+				["coord"] = { 63.0, 50.2, TANARIS },
+				["g"] = {
+					i(231810),	-- Alyx's Lost & Found Notes (QI!)
+					o(477139, {	-- Lost & Found
+						["coord"] = { 63.0, 50.2, TANARIS },
+						["g"] = {
+							i(231761, {	-- Crude Ivory Locket (QI!)
+								["description"] = "Return this to Mankrik, found by Bartender Bob's stall to the right of the Story Time stage.",
+							}),
+							i(231764, {	-- Jade Amulet (QI!)
+								["description"] = "Return this to John J. Keeshan, found south-east of the Mount Mania stage next to Ariok.",
+							}),
+							i(231763, {	-- Potion Bottle (QI!)
+								["description"] = "Return this to Marin Noggenfogger, who paths around the grounds.",
+							}),
+							i(231762, {	-- Tiny Mechanical Mouse (QI!)
+								["description"] = "Return this to Oglethorpe Obnoticus who paths around the grounds but frequently stops by Moira Thaurissan and the Dark Iron mole machine.",
+							}),
+							i(231765, {	-- Well-Worn Almanac (QI!)
+								["description"] = "Return this to Farmer Yoon, found south of the Mount Mania stage.",
+							}),
+						},
+					}),
+					n(228249, {	-- Mankrik
+						["coord"] = { 63.5, 52.2, TANARIS },
+					}),
+					n(228251, {	-- John J. Keeshan
+						["coord"] = { 63.4, 51.8, TANARIS },
+					}),
+					n(228248, {	-- Marin Noggenfogger
+						["coord"] = { 63.6, 50.9, TANARIS },
+					}),
+					n(228247, {	-- Oglethorpe Obnoticus
+						["coord"] = { 62.9, 49.7, TANARIS },
+					}),
+					n(228262, {	-- Farmer Yoon
+						["coord"] = { 63.1, 52.0, TANARIS },
+					}),
+				},
+			}),
 			q(84912),	-- The Case of Staged Disaster
 		}),
 		header(HEADERS.Achievement, 40979, {	-- No Crate Left Behind

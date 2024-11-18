@@ -281,7 +281,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					o(456869, {	-- Kaja'Cola Stash
 						i(227453),	-- Kaja'Cola Stash (QI!)
 					}),
-					o(457143, {	--
+					o(457143, {	-- Kaja'Cola Can
 						i(227670),	-- Kaja'Cola Can (QI!)
 					}),
 				},
