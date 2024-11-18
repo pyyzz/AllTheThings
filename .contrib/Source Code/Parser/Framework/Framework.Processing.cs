@@ -2951,10 +2951,10 @@ namespace ATT
             // awp & rwp
             if (data.TryGetValue("awp", out long awp) && data.TryGetValue("rwp", out long rwp))
             {
-                // if something is added more recently than it was removed, or known to be removed, then do not mark it as removed
-                if (awp > rwp)
+                // if something is added in the current patch more recently than it was removed, or known to be removed, then do include the 'rwp' value
+                if (awp > rwp && CURRENT_SHORT_RELEASE_VERSION >= awp)
                 {
-                    LogDebug($"INFO Removed 'rwp' {rwp} due to 'awp' {awp} being more recent");
+                    LogDebug($"INFO Removed 'rwp' {rwp} due to 'awp' {awp} (within the current Version {CURRENT_SHORT_RELEASE_VERSION}) being more recent", data);
                     data.Remove("rwp");
                 }
             }
