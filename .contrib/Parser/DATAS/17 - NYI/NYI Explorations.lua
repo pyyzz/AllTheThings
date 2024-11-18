@@ -972,7 +972,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4718),	-- Wellspring Hovel
 	exploration(4719),	-- Familiars
 	exploration(4720),	-- The Lost Isles
-	exploration(4721),	-- Shipwreck Shore
 	exploration(4722),	-- Trial of The Crusader
 	exploration(4723),	-- Trial of The Champion
 	exploration(4724),	-- Ban'ethil Barrow Descent
@@ -1012,22 +1011,13 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4762),	-- Stoneward Prison
 	exploration(4763),	-- Transport: Alliance Gunship
 	exploration(4764),	-- Transport: Horde Gunship
-	exploration(4765),	-- KTC Headquarters
-	exploration(4766),	-- Kaja'mine
-	exploration(4767),	-- Bilgewater Port
-	exploration(4768),	-- Gallywix's Villa
 	exploration(4769),	-- Hrothgar's Landing
-	exploration(4770),	-- First Bank of Kezan
-	exploration(4771),	-- Drudgetown
 	exploration(4772),	-- The Slick
 	exploration(4773),	-- Swindle Street
 	exploration(4774),	-- Gilneas (DO Not Reuse)
 	exploration(4778),	-- Kaja'mite Cavern
-	exploration(4779),	-- Horde Base Camp
 	exploration(4780),	-- The Vicious Vale
 	exploration(4781),	-- Wild Overlook
-	exploration(4782),	-- The Savage Glen
-	exploration(4783),	-- Alliance Beachhead
 	exploration(4784),	-- Vengeance Wake
 	exploration(4785),	-- The Great Sea
 	exploration(4786),	-- Duskhaven
@@ -1060,7 +1050,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4818),	-- Crowley Stable Grounds
 	exploration(4819),	-- The Ancient Grove
 	exploration(4820),	-- Halls of Reflection
-	exploration(4822),	-- Kajaro Field
 	exploration(4823),	-- South Seas
 	exploration(4825),	-- Northern Rocketway Exchange
 	exploration(4826),	-- Storm Cliffs
@@ -1091,13 +1080,9 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4867),	-- Spitescale Cove
 	exploration(4868),	-- The Bradshaw Mill
 	exploration(4869),	-- Wood's End Cabin
-	exploration(4870),	-- Landing Site
 	exploration(4871),	-- Town-In-A-Box
 	exploration(4872),	-- Bael'dun Keep
-	exploration(4873),	-- Raptor Rise
-	exploration(4874),	-- Scorched Gully
 	exploration(4875),	-- Darkspear Isle
-	exploration(4876),	-- Ruins of Vashj'elan
 	exploration(4877),	-- Vashj'elan Spawning Pool
 	exploration(4878),	-- The Thornsnarl
 	exploration(4879),	-- The Battleboar Pen
@@ -1105,7 +1090,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4881),	-- Stonetalon Pass
 	exploration(4882),	-- Marshal's Stand
 	exploration(4883),	-- Mossy Pile
-	exploration(4886),	-- Oomlot Village
 	exploration(4887),	-- Nightmare Scar
 	exploration(4888),	-- The Nightmare Scar
 	exploration(4889),	-- The Frost Queen's Lair
@@ -1122,15 +1106,11 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4900),	-- Oostan Nord
 	exploration(4901),	-- Oostan Sor
 	exploration(4902),	-- Oostan Ost
-	exploration(4903),	-- Oostan
 	exploration(4904),	-- The Dark Approach
 	exploration(4905),	-- Scourgelord's Command
 	exploration(4906),	-- The Shadow Throne
 	exploration(4908),	-- The Hidden Passage
-	exploration(4909),	-- Lost Caldera
 	exploration(4910),	-- Frostmourne
-	exploration(4911),	-- Volcanoth's Lair
-	exploration(4912),	-- Warchief's Lookout
 	exploration(4913),	-- Spitescale Cavern
 	exploration(4914),	-- Tranquil Coast
 	exploration(4915),	-- Rotbrain Encampment
@@ -1160,12 +1140,8 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4947),	-- Twinbraid's Patrol
 	exploration(4949),	-- Spearhead
 	exploration(4950),	-- Grim Batol
-	exploration(4951),	-- Bilgewater Lumber Yard
-	exploration(4952),	-- KTC Oil Platform
 	exploration(4953),	-- Kelp'thar Forest
-	exploration(4954),	-- Gallywix Docks
 	exploration(4955),	-- The Lightless Reaches
-	exploration(4956),	-- The Slave Pits
 	exploration(4958),	-- Verdant Highlands
 	exploration(4968),	-- Quel'Dormir Terrace
 	exploration(4969),	-- Tranquil Wash
