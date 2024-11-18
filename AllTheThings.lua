@@ -4655,7 +4655,7 @@ local function SearchForMissingItemsRecursively(group, listing)
 	end
 end
 
-function app:CreateMiniListForGroup(group)
+function app:CreateMiniListForGroup(group, forceFresh)
 	-- Criteria now show their Source Achievement properly
 	-- Achievements already fill out their Criteria information automatically, don't think this is necessary now - Runaway
 	-- Is this an achievement lacking some achievement information?
@@ -4680,7 +4680,7 @@ function app:CreateMiniListForGroup(group)
 
 	-- Pop Out Functionality! :O
 	local suffix = app.GenerateSourceHash(group);
-	local popout = app.Windows[suffix];
+	local popout = not forceFresh and app.Windows[suffix];
 	-- force data to be re-collected if this is a quest chain since its logic is affected by settings
 	if group.questID or group.sourceQuests then popout = nil; end
 	-- app.PrintDebug("Popout for",suffix,"showing?",showing)
@@ -10900,6 +10900,10 @@ app.Startup = function()
 	-- Cache the Localized Category Data
 	AllTheThingsAD.LocalizedCategoryNames = setmetatable(AllTheThingsAD.LocalizedCategoryNames or {}, { __index = app.CategoryNames });
 	app.CategoryNames = nil;
+
+	-- Clear some keys which got added and shouldn't have been
+	AllTheThingsAD.ExplorationDB = nil
+	AllTheThingsAD.ExplorationAreaPositionDB = nil
 
 	-- Character Data Storage
 	local characterData = LocalizeGlobalIfAllowed("ATTCharacterData", true);
