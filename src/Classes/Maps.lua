@@ -325,6 +325,9 @@ app.CreateExploration = app.CreateClass("Exploration", "explorationID", {
 	or function(t)
 		return app.TypicalCharacterCollected("Exploration", t.explorationID)
 	end,
+	["saved"] = function(t)
+		return app.IsCached("Exploration", t.explorationID)
+	end,
 	["coords"] = function(t)
 		return ExplorationAreaPositionDB[t.explorationID];
 	end,
