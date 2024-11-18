@@ -5950,6 +5950,17 @@ function app:GetDataCache()
 			-- Future Unobtainable
 			app.CreateDynamicHeader("rwp", {
 				dynamic_withsubgroups = true,
+				dynamic_value = app.GameBuildVersion,
+				dynamic_searchcriteria = {
+					SearchValueCriteria = {
+						-- only include 'rwp' search results where the value is >= the current game version
+						function(o,field,value)
+							local rwp = o[field]
+							if not rwp then return end
+							return rwp >= value
+						end
+					}
+				},
 				name = L.FUTURE_UNOBTAINABLE,
 				description = L.FUTURE_UNOBTAINABLE_TOOLTIP,
 				icon = app.asset("Interface_Future_Unobtainable")
@@ -6176,9 +6187,9 @@ local SearchGroups = {};
 local DropFields = {}
 -- A set of Criteria functions which must all be valid for each search result to be included in the response
 local __SearchCriteria = {
-	-- Don't include sourceIgnored groups in searches
+	-- Include only non-sourceIgnored groups
 	function(o) return not o.sourceIgnored end,
-	-- Include unavailable Recipes/content which is not a Recipe
+	-- Include unavailable Recipes or any content which is not a Recipe or meets the BoE filter
 	function(o) return IncludeUnavailableRecipes or not o.spellID or IgnoreBoEFilter(o) end,
 }
 local SearchCriteria = {}
@@ -6192,14 +6203,26 @@ local __SearchValueCriteria = {
 	end
 }
 local SearchValueCriteria = {}
-local function ResetCriterias()
+local function ResetCriterias(criteria)
 	wipe(SearchCriteria)
-	for _,f in ipairs(__SearchCriteria) do
-		SearchCriteria[#SearchCriteria + 1] = f
-	end
 	wipe(SearchValueCriteria)
-	for _,f in ipairs(__SearchValueCriteria) do
-		SearchValueCriteria[#SearchValueCriteria + 1] = f
+	if criteria and criteria.SearchCriteria then
+		for _,f in ipairs(criteria.SearchCriteria) do
+			SearchCriteria[#SearchCriteria + 1] = f
+		end
+	else
+		for _,f in ipairs(__SearchCriteria) do
+			SearchCriteria[#SearchCriteria + 1] = f
+		end
+	end
+	if criteria and criteria.SearchValueCriteria then
+		for _,f in ipairs(criteria.SearchValueCriteria) do
+			SearchValueCriteria[#SearchValueCriteria + 1] = f
+		end
+	else
+		for _,f in ipairs(__SearchValueCriteria) do
+			SearchValueCriteria[#SearchValueCriteria + 1] = f
+		end
 	end
 end
 local function Eval_SearchCriteria(o)
@@ -6283,12 +6306,10 @@ end
 local function AddSearchGroupsByField(groups, field)
 	if groups then
 		for _,group in ipairs(groups) do
-			if Eval_SearchCriteria(group) then
-				if group[field] then
-					tinsert(SearchGroups, group);
-				else
-					AddSearchGroupsByField(group.g, field);
-				end
+			if group[field] ~= nil then
+				tinsert(SearchGroups, group);
+			else
+				AddSearchGroupsByField(group.g, field);
 			end
 		end
 	end
@@ -6297,12 +6318,10 @@ end
 local function AddSearchGroupsByFieldValue(groups, field, value)
 	if groups then
 		for _,group in ipairs(groups) do
-			if Eval_SearchCriteria(group) then
-				if Eval_SearchValueCriteria(group, field, value) then
-					tinsert(SearchGroups, group);
-				else
-					AddSearchGroupsByFieldValue(group.g, field, value);
-				end
+			if Eval_SearchValueCriteria(group, field, value) then
+				tinsert(SearchGroups, group);
+			else
+				AddSearchGroupsByFieldValue(group.g, field, value);
 			end
 		end
 	end
@@ -6324,12 +6343,12 @@ local function BuildSearchResponseViaCacheContainer(cacheContainer, value)
 end
 -- Collects a cloned hierarchy of groups which have the field and/or value within the given field. Specify 'clear' if found groups which match
 -- should additionally clear their contents when being cloned
-function app:BuildSearchResponse(field, value, drop)
-	return app:BuildTargettedSearchResponse(app:GetDataCache(), field, value, drop)
+function app:BuildSearchResponse(field, value, drop, criteria)
+	return app:BuildTargettedSearchResponse(app:GetDataCache(), field, value, drop, criteria)
 end
 -- Collects a cloned hierarchy of groups within the given target 'groups' which have the field and/or value within the given field. Specify 'clear' if found groups which match
 -- should additionally clear their contents when being cloned
-function app:BuildTargettedSearchResponse(groups, field, value, drop)
+function app:BuildTargettedSearchResponse(groups, field, value, drop, criteria)
 	if not groups then return end
 	if groups.g then groups = groups.g end
 	if #groups == 0 then app.PrintDebug("BuildTargettedSearchResponse.FAIL - No groups available") return end
@@ -6349,11 +6368,16 @@ function app:BuildTargettedSearchResponse(groups, field, value, drop)
 		end
 	end
 
-	-- app.PrintDebug("BSR:",field,value,clear)
-	ResetCriterias()
 	SetRescursiveFilters();
-	-- TODO: add custom Criterias from external param
-	local cacheContainer = app.GetRawFieldContainer(field);
+	-- add custom Criterias from external param
+	ResetCriterias(criteria)
+	-- app.PrintDebug("BSR:",field,value)
+	-- app.PrintTable(DropFields)
+	-- app.PrintTable(criteria)
+	-- app.PrintTable(SearchCriteria)
+	-- app.PrintTable(SearchValueCriteria)
+	-- can only do cache searches if there isn't custom criteria provided
+	local cacheContainer = not criteria and app.GetRawFieldContainer(field);
 	if cacheContainer then
 		BuildSearchResponseViaCacheContainer(cacheContainer, value);
 	elseif value ~= nil then
@@ -6361,11 +6385,11 @@ function app:BuildTargettedSearchResponse(groups, field, value, drop)
 		if value == app.SearchNil then
 			value = nil;
 		end
-		-- app.PrintDebug("BSR:FieldValue",#groups,field,value,clear)
+		-- app.PrintDebug("BSR:FieldValue",#groups,field,value)
 		AddSearchGroupsByFieldValue(groups, field, value);
 		BuildClonedHierarchy(SearchGroups);
 	else
-		-- app.PrintDebug("BSR:Field",#groups,field,clear)
+		-- app.PrintDebug("BSR:Field",#groups,field)
 		AddSearchGroupsByField(groups, field);
 		BuildClonedHierarchy(SearchGroups);
 	end
