@@ -1240,18 +1240,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 	n(WOW_ANNIVERSARY_THIRTEEN, bubbleDownSelf({ ["timeline"] = { ADDED_7_2_5 } },{
 		n(QUESTS, {
 			q(47253, {	-- The Originals [Alliance]
-				-- #if BEFORE 11.0.5
 				["qg"] = 110034,	-- Historian Llore
-				-- #else
-				["qg"] = 223882,	-- Izaik Kadarov
-				-- #endif
 				["isDaily"] = true,
-				-- #if BEFORE 11.0.5
 				["races"] = ALLIANCE_ONLY,
 				["coord"] = { 51.5, 38.7, CAVERNS_OF_TIME },
-				-- #else
-				["coord"] = { 62.3, 51.8, TANARIS },
-				-- #endif
+				["timeline"] = { REMOVED_11_0_5 },
 				-- make sure this available timeline doesn't get eaten by matching removed timeline on merged parent Quests
 				["_forcetimeline"] = true,
 				["sym"] = {{"select","npcID",
