@@ -491,8 +491,9 @@ else
 	app.AddEventHandler("OnRefreshCollections", CheckExplorationForPlayerPosition)
 end
 app.AddEventRegistration("MAP_EXPLORATION_UPDATED", CheckExplorationForCurrentLocation)
-app.AddEventRegistration("UI_INFO_MESSAGE", function(messageID)
-	if messageID == 372 then CheckExplorationForCurrentLocation(); end
+app.AddEventRegistration("UI_INFO_MESSAGE", function(messageID, ...)
+	-- app.PrintDebug("UI_INFO_MESSAGE", messageID, ...)
+	if messageID == 372 or messageID == 396 then CheckExplorationForCurrentLocation(); end
 end)
 --
 app.ChatCommands.Add("realtime-exploration-check", function(args)
