@@ -441,12 +441,12 @@ local function CheckExplorationForPlayerPosition()
 	local areaIDs = C_MapExplorationInfo_GetExploredAreaIDsAtPosition(mapID, pos);
 	if not areaIDs then return end;
 
-	local ExplorationDB = app.CurrentCharacter.Exploration
+	local characterExploration = app.CurrentCharacter.Exploration
 	local newAreas = {};
 	local saved = {}
 	for _,areaID in ipairs(areaIDs) do
 		-- app.PrintDebug("CheckPlayerExploration",mapID,pos.x,pos.y,app:SearchLink(app.SearchForObject("explorationID",areaID,"field")))
-		if not ExplorationDB[areaID] then
+		if not characterExploration[areaID] then
 			saved[areaID] = true
 			tinsert(newAreas, areaID);
 		end
@@ -463,11 +463,11 @@ local function CheckExplorationForPlayerPosition()
 		-- app.PrintDebug("SubzoneExplorationFind",mapID,pos.x,pos.y,app:SearchLink(explorationForSubzone))
 		local areaID = explorationForSubzone.explorationID
 		-- don't know how areaID could be nil here...
-		if areaID and not ExplorationDB[areaID] then
+		if areaID and not characterExploration[areaID] then
 			-- app.PrintDebug("Manual cached Exploration by Subzone name")
 			-- we won't use regular caching since we're manually checking instead of the expected API utilization
 			-- maybe eventually blizzard will fix the API
-			ExplorationDB[areaID] = 2
+			characterExploration[areaID] = 2
 		end
 	end
 	if #newAreas > 0 then
