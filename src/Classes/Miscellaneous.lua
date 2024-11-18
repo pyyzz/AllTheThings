@@ -49,7 +49,7 @@ end
 local DynamicCategory_Nested = function(self)
 	-- app.PrintDebug("DC:N",self.dynamic,self.dynamic_value,self.dynamic_withsubgroups)
 	-- pull out all Things which should go into this category based on field & value
-	local groups = app:BuildSearchResponse(self.dynamic, self.dynamic_value, not self.dynamic_withsubgroups);
+	local groups = app:BuildSearchResponse(self.dynamic, self.dynamic_value, {g=not self.dynamic_withsubgroups});
 	NestObjects(self, groups);
 	-- reset indents and such
 	AssignChildren(self);

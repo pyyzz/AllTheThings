@@ -6173,7 +6173,7 @@ local MainRoot
 local ClonedHierarchyGroups = {};
 local ClonedHierarachyMapping = {};
 local SearchGroups = {};
-local KeepFields = {}
+local DropFields = {}
 -- A set of Criteria functions which must all be valid for each search result to be included in the response
 local __SearchCriteria = {
 	-- Don't include sourceIgnored groups in searches
@@ -6268,9 +6268,9 @@ local function BuildClonedHierarchy(sources)
 			parent = MatchOrCloneParentInHierarchy(source.parent);
 			if parent then
 				-- clone the Thing into the cloned parent
-				thing = not KeepFields.g and CreateObject(source, true) or CreateObject(source);
+				thing = DropFields.g and CreateObject(source, true) or CreateObject(source);
 				-- don't copy in any extra data for the thing which can pull things into groups, or reference other groups
-				if not KeepFields.sym then thing.sym = nil; end
+				if DropFields.sym then thing.sym = nil; end
 				thing.sourceParent = nil;
 				-- need to map the cloned Thing also since it may end up being a parent of another Thing
 				ClonedHierarachyMapping[source] = thing;
@@ -6324,12 +6324,12 @@ local function BuildSearchResponseViaCacheContainer(cacheContainer, value)
 end
 -- Collects a cloned hierarchy of groups which have the field and/or value within the given field. Specify 'clear' if found groups which match
 -- should additionally clear their contents when being cloned
-function app:BuildSearchResponse(field, value, clear, keep)
-	return app:BuildTargettedSearchResponse(app:GetDataCache(), field, value, clear, keep)
+function app:BuildSearchResponse(field, value, drop)
+	return app:BuildTargettedSearchResponse(app:GetDataCache(), field, value, drop)
 end
 -- Collects a cloned hierarchy of groups within the given target 'groups' which have the field and/or value within the given field. Specify 'clear' if found groups which match
 -- should additionally clear their contents when being cloned
-function app:BuildTargettedSearchResponse(groups, field, value, clear, keep)
+function app:BuildTargettedSearchResponse(groups, field, value, drop)
 	if not groups then return end
 	if groups.g then groups = groups.g end
 	if #groups == 0 then app.PrintDebug("BuildTargettedSearchResponse.FAIL - No groups available") return end
@@ -6340,18 +6340,19 @@ function app:BuildTargettedSearchResponse(groups, field, value, clear, keep)
 	ClonedHierarchyGroups = {}
 	wipe(ClonedHierarachyMapping);
 	wipe(SearchGroups);
-	wipe(KeepFields)
-	KeepFields.g = not clear
-	if keep then
-		for k,v in pairs(keep) do
-			KeepFields[k] = v
+	wipe(DropFields)
+	-- by default always drop 'sym' from results
+	DropFields.sym = true
+	if drop then
+		for k,v in pairs(drop) do
+			DropFields[k] = v
 		end
 	end
 
 	-- app.PrintDebug("BSR:",field,value,clear)
 	ResetCriterias()
 	SetRescursiveFilters();
-	-- TODO: add custom Criteiras from external param
+	-- TODO: add custom Criterias from external param
 	local cacheContainer = app.GetRawFieldContainer(field);
 	if cacheContainer then
 		BuildSearchResponseViaCacheContainer(cacheContainer, value);
@@ -7337,7 +7338,7 @@ customWindowUpdates.ItemFilter = function(self, force)
 			function self:Search(field, value)
 				value = value or true
 				-- app.PrintDebug("Search",field,value)
-				local results = app:BuildSearchResponse(field, value, true);
+				local results = app:BuildSearchResponse(field, value, {g=true});
 				-- app.PrintDebug("Results",#results)
 				ArrayAppend(self.data.g, results);
 				self.data.text = L.ITEM_FILTER_TEXT..("  [%s=%s]"):format(field,tostring(value));
