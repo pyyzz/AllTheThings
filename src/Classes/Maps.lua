@@ -362,7 +362,7 @@ local function PrintDiscordInformationForExploration(o)
 	if not areaID or ReportedAreas[areaID] then return; end
 	ReportedAreas[areaID] = o;
 
-	local text = o.text;
+	local text = o.text or "???"
 	local mapID = o.mapID;
 	if mapID then text = text .. " (" .. GetMapName(mapID) .. ")"; end
 
@@ -370,8 +370,22 @@ local function PrintDiscordInformationForExploration(o)
 	local info = {
 		"### new-area:" .. areaID,
 		"```elixir",	-- discord fancy box start
-		text or "???",
+		text,
+		"",
 	};
+
+	local position, coord = mapID and C_Map.GetPlayerMapPosition(mapID, "player"), nil;
+	local x,y
+	if position then
+		x,y = position:GetXY();
+		x = math_floor(x * 1000) / 10
+		y = math_floor(y * 1000) / 10
+		coord = x .. ", " .. y;
+	end
+
+	local luaFormat = "exploration_visit(%d,{coord={%.2f,%.2f,%d}}),\t-- %s"
+	tinsert(info, luaFormat:format(areaID,x or 0,y or 0,mapID,text));
+	tinsert(info, "");
 	tinsert(info, "areaID: " .. (areaID or "??"));
 	tinsert(info, "mapID: " .. (mapID or "??"));
 
@@ -381,12 +395,6 @@ local function PrintDiscordInformationForExploration(o)
 		for i,coord in ipairs(coords) do
 			tinsert(info, coord[1] .. ", " .. coord[2]);
 		end
-	end
-
-	local position, coord = mapID and C_Map.GetPlayerMapPosition(mapID, "player"), nil;
-	if position then
-		local x,y = position:GetXY();
-		coord = (math_floor(x * 1000) / 10) .. ", " .. (math_floor(y * 1000) / 10);
 	end
 	tinsert(info, coord and ("playercoord:"..coord) or "playercoord:??");
 
