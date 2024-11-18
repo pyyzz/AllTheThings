@@ -383,7 +383,7 @@ local function PrintDiscordInformationForExploration(o)
 		coord = x .. ", " .. y;
 	end
 
-	local luaFormat = "exploration_visit(%d,{coord={%.2f,%.2f,%d}}),\t-- %s"
+	local luaFormat = "visit_exploration(%d,{coord={%.2f,%.2f,%d}}),\t-- %s"
 	tinsert(info, luaFormat:format(areaID,x or 0,y or 0,mapID,text));
 	tinsert(info, "");
 	tinsert(info, "areaID: " .. (areaID or "??"));
