@@ -2948,6 +2948,17 @@ namespace ATT
                 }
             }
 
+            // awp & rwp
+            if (data.TryGetValue("awp", out long awp) && data.TryGetValue("rwp", out long rwp))
+            {
+                // if something is added more recently than it was removed, or known to be removed, then do not mark it as removed
+                if (awp > rwp)
+                {
+                    LogDebug($"INFO Removed 'rwp' {rwp} due to 'awp' {awp} being more recent");
+                    data.Remove("rwp");
+                }
+            }
+
             // Unobtainable Content with Forcibly-Obtainable Content within
             if (data.TryGetValue("_u", out long forceObtainable) && forceObtainable == 0 && data.TryGetValue("u", out long unob) && unob < 3)
             {
