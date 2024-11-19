@@ -110,11 +110,8 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(358),	-- Brambleblade Ravine
 	exploration(361),	-- Felwood
 	exploration(364),	-- The Den
-	exploration(365),	-- Burning Blade Coven
 	exploration(371),	-- Dustwind Cave
-	exploration(373),	-- Scuttle Coast
 	exploration(377),	-- Southfury River
-	exploration(393),	-- Darkspear Strand
 	exploration(394),	-- Grizzly Hills
 	exploration(399),	-- Skyline Ridge
 	exploration(400),	-- Thousand Needles
@@ -216,7 +213,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(1222),	-- Hetaera's Clutch
 	exploration(1223),	-- Temple of Zin-Malor
 	exploration(1276),	-- The Talondeep Path
-	exploration(1296),	-- Rocktusk Farm
 	exploration(1297),	-- Jaggedswine Farm
 	exploration(1337),	-- Uldaman
 	exploration(1338),	-- Lordamere Lake
@@ -2201,10 +2197,7 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(6743),	-- Throm'var
 	exploration(6745),	-- Grulloc's Grotto
 	exploration(6746),	-- Siege of Orgrimmar (Old DO Not USE)
-	exploration(6747),	-- Razor Hill Outskirts
-	exploration(6748),	-- Sen'jin Village Outskirts
 	exploration(6749),	-- Vault of Y'Shaarj
-	exploration(6750),	-- Razor Hill Watchtower
 	exploration(6751),	-- Big Blossom Excavation
 	exploration(6752),	-- Big Blossom Mine
 	exploration(6753),	-- Deepwind Gorge
@@ -5549,7 +5542,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(13931),	-- Zelthrak Outpost
 	exploration(13933),	-- Kargpaw's Den
 	exploration(13934),	-- Rhonin's Shield
-	exploration(13935),	-- Circle of Thought
 	exploration(13936),	-- Marie Lazar Land
 	exploration(13940),	-- Wild Hatchery
 	exploration(13942),	-- Rubyscale Outpost
@@ -5779,7 +5771,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(14650),	-- Ruins of Drekazera
 	exploration(14654),	-- Slitherdrake Roost
 	exploration(14657),	-- WB New Hires
-	exploration(14659),	-- Dragonscale Camp
 	exploration(14663),	-- Aberrus, the Shadowed Crucible
 	exploration(14667),	-- The Throughway
 	exploration(14668),	-- ZZ_AlexandraDD
@@ -5787,7 +5778,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(14671),	-- Hoard of Shimmermaw
 	exploration(14672),	-- Lost Grotto
 	exploration(14684),	-- Hermit's Hovel
-	exploration(14685),	-- Fanged Pasture
 	exploration(14686),	-- Professions Land
 	exploration(14687),	-- Lake SubZone
 	exploration(14688),	-- Lava Lake SubZone

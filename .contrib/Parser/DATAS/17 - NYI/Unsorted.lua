@@ -829,7 +829,6 @@ root(ROOTS.Unsorted, {
 			i(233053),	-- Crown of the Violet Rose
 			i(234413),	-- Satchel of Exotic Mysteries
 			--
-			i(118067),	-- Old Chain Link
 			i(228934),	-- Carefully Penned Note
 			i(228935),	-- Unfinished Note
 			i(228936),	-- Hastily Scrawled Note
@@ -1257,7 +1256,6 @@ root(ROOTS.Unsorted, {
 					i(219219),	-- Timerunner's Starter Kit
 					i(219220),	-- Catch Up Thread
 					i(224120),	-- Timerunner's Gem Box
-					i(226037),	-- Timeless Neural Silencer
 				}),
 				n(WEAPONS, {
 					i(215508),	-- Shin'ka, the Tyrant's Greataxe

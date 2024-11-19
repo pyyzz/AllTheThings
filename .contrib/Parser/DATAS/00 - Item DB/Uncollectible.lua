@@ -12,12 +12,15 @@ i(805);		-- Small Red Pouch
 i(828);		-- Small Blue Pouch
 i(1725);	-- Large Knapsack
 i(2657);	-- Red Leather Bag
+i(3914);	-- Journeyman's Backpack
 i(5571);	-- Small Black Pouch
 i(5572);	-- Small Green Pouch
-i(3914);	-- Journeyman's Backpack
+i(6457);	-- Rusted Engineering Parts
+i(29570);	-- A Gnmome Effigy
 i(44435);	-- Windle's Lighter
 i(73242);	-- Master's Haversack
 i(102144);	-- Kor'kron Cage Key
+i(118067);	-- Old Chain Link
 i(180786);	-- Empty Binding
 -- Legion
 i(139398);	-- Pant Loaf
@@ -32,6 +35,7 @@ i(187603);	-- The Mad Duke's Tea
 i(195572);	-- Empty Elixir
 i(194742);	-- Worn Book
 i(211768);	-- Hastily Scrawled Satyr Ravings
+i(226037);	-- Timeless Neural Silencer
 -- TWW
 i(221485);	-- Defias Gunpowder
 i(229371);	-- Companion Experience
