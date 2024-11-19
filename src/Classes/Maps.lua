@@ -382,8 +382,9 @@ local function PrintDiscordInformationForExploration(o)
 		y = math_floor(y * 1000) / 10
 		coord = x .. ", " .. y;
 	end
+	if not x or not y then app.PrintDebug("Area has no valid coords on mapID",mapID) return end
 
-	local luaFormat = "visit_exploration(%d,{coord={%.2f,%.2f,%d}}),\t-- %s"
+	local luaFormat = "visit_exploration(%d,{coord={%.1f,%.1f,%d}}),\t-- %s"
 	tinsert(info, luaFormat:format(areaID,x or 0,y or 0,mapID,text));
 	tinsert(info, "");
 	tinsert(info, "areaID: " .. (areaID or "??"));
