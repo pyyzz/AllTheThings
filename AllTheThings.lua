@@ -6246,8 +6246,8 @@ local function ResetCriterias(criteria)
 			SearchValueCriteria[#SearchValueCriteria + 1] = f
 		end
 	end
-	if criteria and criteria.ParentExclusionCriteria then
-		for _,f in ipairs(criteria.ParentExclusionCriteria) do
+	if criteria and criteria.ParentInclusionCriteria then
+		for _,f in ipairs(criteria.ParentInclusionCriteria) do
 			ParentInclusionCriteria[#ParentInclusionCriteria + 1] = f
 		end
 	else
