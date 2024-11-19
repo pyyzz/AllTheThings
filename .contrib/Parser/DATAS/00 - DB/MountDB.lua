@@ -1703,7 +1703,9 @@ i(210141, 424601);	-- [PH] Brown-Furred Spiky Bakar
 i(210143, 424608);	-- [PH] White-Furred Bakar
 i(210144, 424610);	-- [PH] Yellow-Furred Spiky Bakar
 i(210145, 424611);	-- [PH] YellowBlack-Furred Bakar
+-- #if BEFORE 11.0.5
 i(211075, 428013);	-- Deathbringer's Shadowcycle
+-- #endif
 i(211089, 428068);	-- Felreaver Deathcycle
 i(211074, 428005);	-- Jeweled Copper Scarab
 i(211086, 428065);	-- Jeweled Jade Scarab
@@ -1914,6 +1916,7 @@ i(228760, 463133);	-- Coldflame Tempest
 i(231374, 468353);	-- Enchanted Spellweave Carpet
 i(224398, 452643);	-- Frayfeather Hippogryph
 i(211087, 428067);	-- Hateforged Blazecycle
+i(0, 428013);		-- Incognitro, the Indecipherable Felcycle
 i(223471, 449142);	-- Kaldorei War Wolf
 i(229418, 465235);	-- Trader's Gilded Brutosaur
 

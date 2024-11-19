@@ -11,7 +11,6 @@ GUEST_RELATIONS = createHeader({
 		cn = "宾客关系",
 	},
 });
-
 root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
 	["description"] = "***Using Debug Mode is recommended.***\n",
 	["groups"] = {
@@ -125,12 +124,17 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				["provider"] = { "n", 226766 },	-- Benatauk <Unco Benny>
 				["sourceQuest"] = 84521,	-- Thoughtful Pursuits
 				["coord"] = { 63.3, 52.4, TANARIS },
+				["g"] = {
+					hqt(83831, {	-- Triggered on turn in of (84868) A Whiff of Help. Unlocks secret quests accountwide.
+						["name"] = "Complete the Guest Relations tutorial quest chain."
+					}),
+				},
 			}),
 		}),
 		n(VENDORS, {
 			n(226766, {	-- Benatauk <Unco Benny>
 				["description"] = "You need to get up to the quest 'A Whiff of Help' in the chain and accept it in order to buy the items.",
-				["sourceQuests"] = { 84868 },	-- A Whiff of Help (Quest Accepted)
+				["sourceQuest"] = 84868,	-- A Whiff of Help (Quest Accepted)
 				["coord"] = { 63.3, 52.4, TANARIS },
 				["g"] = {
 					i(229351),	-- Spiritual Incense
@@ -145,8 +149,8 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			}),
 			-- Chapter 1
 			q(84236, {	-- The Great Detective
+				["sourceQuest"] = 83831,	-- Guest Relations Intro HQT
 				["provider"] = { "n", 226683 },	-- Alyx <Volunteer Assistant Guest Relations Manager>
-				["sourceQuest"] = 84868,	-- A Whiff of Help
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
 			q(84237, {	-- The "Great" Detective
@@ -455,8 +459,8 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			-- The Case of Misfortune
 			o(467403, {	-- Darkmoon Fortune Card
 				["description"] = "Behind the crate next to Alyx. After looting this, talk with her, she will tell you to Speak to Alphonse.\n\nYou need to obtain 1 card, it does not matter which one, in order to see gossip options and start the quest.\nThis one is just an example as it is located near Alyx, the main quest giver of the event.",
+				["sourceQuest"] = 83831,	-- Guest Relations Intro HQT
 				["coord"] = { 63.0, 50.2, TANARIS },
-				["sourceQuest"] = 84868,	-- A Whiff of Help
 				["crs"] = {
 					226683,	-- Alyx <Volunteer Assistant Guest Relations Manager>
 					230838,	-- Alphonse Constant <Apprentice Cartomancer>
@@ -523,11 +527,11 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			}),
 			-- The Case of a Good Book
 			q(83832, {	-- Torn Dreams
+				["sourceQuest"] = 83831,	-- Guest Relations Intro HQT
 				["qgs"] = {
 					226683,	-- Alyx <Volunteer Assistant Guest Relations Manager>
 					232404,	-- Alyx <Volunteer Assistant Guest Relations Manager and Associate Event Coordinator>
 				},
-				["sourceQuest"] = 84868,	-- A Whiff of Help
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
 			q(83825, {	-- Restoring A Grand Tale
@@ -578,13 +582,13 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			}),
 			-- The Loud and Smelly Case
 			q(84583, {	-- A Hozen On My Back
+				["sourceQuest"] = 83831,	-- Guest Relations Intro HQT
 				["qgs"] = {
 					226683,	-- Alyx <Volunteer Assistant Guest Relations Manager>
 					232404,	-- Alyx <Volunteer Assistant Guest Relations Manager and Associate Event Coordinator>
 					232405,	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Associate Event Coordinator>
 					232406,	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
 				},
-				["sourceQuest"] = 84868,	-- A Whiff of Help
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
 			q(84595, {	-- The Case of the Fur-Getting Wikket
@@ -608,11 +612,11 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			-- The Case of an Old Soul
 			q(84435, {	-- Nola's Last Wish
 				["description"] = "Speak to Lashk by the story time stage, locate Nola's Last Wish south of Tortaka Refuge in Vol'Dun, then used it to summon and speak to Scrollsage Nola's spirit at the underwater Tortollan wedding east of Atal'Dazar.",
+				["sourceQuest"] = 83831,	-- Guest Relations Intro HQT
 				["qgs"] = {
 					226683,	-- Alyx <Volunteer Assistant Guest Relations Manager>
 					232406,	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
 				},
-				["sourceQuest"] = 84868,	-- A Whiff of Help
 				["coord"] = { 63.0, 50.2, TANARIS },
 				["g"] = {
 					i(228302),	-- My Journal: Nola's Last Wish (QI!)
@@ -633,11 +637,11 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			}),
 			-- The Case of Great Aspirations
 			q(84932, {	-- A Legacy of Destruction
+				["sourceQuest"] = 83831,	-- Guest Relations Intro HQT
 				["qgs"] = {
 					226683,	-- Alyx <Volunteer Assistant Guest Relations Manager>
 					232406,	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
 				},
-				["sourceQuest"] = 84868,	-- A Whiff of Help
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
 			q(84933, {	-- From Ashes to Wisdom
@@ -655,11 +659,11 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			}),
 			-- The Case of a Feathered Friend
 			q(84923, {	-- A Bird's Tale
+				["sourceQuest"] = 83831,	-- Guest Relations Intro HQT
 				["qgs"] = {
 					226683,	-- Alyx <Volunteer Assistant Guest Relations Manager>
 					232407,	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
 				},
-				["sourceQuest"] = 84868,	-- A Whiff of Help
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
 			q(84924, {	-- A Bird's Tail
@@ -693,16 +697,17 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			}),
 			-- The Case of Pet Games
 			q(84506, {	-- Pet Pursuit
+				["sourceQuest"] = 83831,	-- Guest Relations Intro HQT
 				["qgs"] = {
+					226683,	-- Alyx <Volunteer Assistant Guest Relations Manager>
 					232407,	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
 					232408,	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager, Executive Associate Event Coordinator, and Temporary Service Agent>
 				},
-				["sourceQuest"] = 84868,	-- A Whiff of Help
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
 			q(84469, {	-- Battle Pet Bingo
 				["description"] = "Interact with the Jumping Spider in the Bamboo Wilds in Jade Forest and the Summit Kid atop Neverest Pinnacl in Kun'Lai Summit.",
-				["sourceQuest"] = 84506,
+				["sourceQuest"] = 84506,	-- Pet Pursuit
 				["provider"] = { "n", 228276 },	-- Jepetto Joybuzz
 				["coord"] = { 62.2, 49.7, TANARIS },
 				["g"] = {
@@ -720,8 +725,11 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			-- The Case of Missing Mementos
 			q(85477, {	--  Lost and... Found?
 				["description"] = "Open the Lost & Found box nest to Alyx then return the items to visitors around the anniversary grounds.",
-				["provider"] = { "n", 232408 },	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager, Executive Associate Event Coordinator, and Temporary Service Agent>
-				["sourceQuest"] = 84868,	-- A Whiff of Help
+				["sourceQuest"] = 83831,	-- Guest Relations Intro HQT
+				["qgs"] = {
+					226683,	-- Alyx <Volunteer Assistant Guest Relations Manager>
+					232408,	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager, Executive Associate Event Coordinator, and Temporary Service Agent>
+				},
 				["coord"] = { 63.0, 50.2, TANARIS },
 				["g"] = {
 					i(231810),	-- Alyx's Lost & Found Notes (QI!)
@@ -767,8 +775,42 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					}),
 				},
 			}),
-			q(84912, {	-- The Case of Staged Disaster
-				["sourceQuest"] = 84868,	-- A Whiff of Help
+			-- The Case of Staged Disaster
+			q(84985, {	-- Not Ready on Set
+				["sourceQuest"] = 83831,	-- Guest Relations Intro HQT
+				["qgs"] = {
+					226683,	-- Alyx <Volunteer Assistant Guest Relations Manager>
+					232408,	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager, Executive Associate Event Coordinator, and Temporary Service Agent>
+				},
+				["coord"] = { 63.0, 50.2, TANARIS },
+			}),
+			q(84912, {	-- The Show Must Go On
+				["description"] = "Collect the Mask of the Trickster and the Play Script from on and behind the stage, and the Prop Sword and Conductor's Baton from near the venue entrance.",
+				["sourceQuest"] = 84985,	-- Not Ready on Set
+				["provider"] = { "n", 171743 },	-- Dapperdew
+				["coord"] = { 41.5, 44.8, ARDENWEALD },
+				["g"] = {
+					o(469334, {	-- Mask of the Trickster
+						["description"] = "Behind a wooden wall onstage near the back.",
+						["coord"] = { 41.3, 43.8, ARDENWEALD },
+						["g"] = { i(229385) },	-- Mask of the Trickster
+					}),
+					o(469327, {	-- Play Script
+						["description"] = "On a table to the right in the back of the stage's balcony area.",
+						["coord"] = { 41.3, 42.8, ARDENWEALD },
+						["g"] = { i(229383) },	-- Play Script
+					}),
+					o(469332, {	-- Prop Sword
+						["description"] = "Under the Winter Queen's throne platform.",
+						["coord"] = { 42.3, 46.8, ARDENWEALD },
+						["g"] = { i(229384) },	-- Prop Sword
+					}),
+					o(469335, {	-- Conductor's Baton
+						["description"] = "Next to some drums to the right of the south venue entrance.",
+						["coord"] = { 43.3, 46.4, ARDENWEALD },
+						["g"] = { i(229386) },	-- Conductor's Baton
+					}),
+				},
 			}),
 		}),
 		header(HEADERS.Achievement, 40979, {	-- No Crate Left Behind
@@ -783,7 +825,8 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					84767,	-- Charred Celebration Crate
 					85523,	-- Mildewed Celebration Crate
 					84773,	-- Crystalized Celebration Crate
-					-- TODO 2 crates left
+					84625,	-- Surprisingly Pristine Celebration Crate
+					-- TODO 1 crate left
 				},
 				["g"] = {
 					ach(40873),	-- Crate Insurance Agent
@@ -888,14 +931,14 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				i(226364),	-- Torn Note (Fiona Caravan)
 				o(456039, {	-- Crumpled Letter
 					["description"] = "Next to the boxes behind Leeroy's tent.",
-					["sourceQuests"] = { 83825 },	-- Restoring A Great Tale
+					["sourceQuest"] = 83825,	-- Restoring A Great Tale
 					["coord"] = { 63.4, 52.4, TANARIS },
 					["questID"] = 83837,
 					["g"] = { i(226365) },	-- Crumpled Letter
 				}),
 				o(456032, {	-- Ruffled Paper
 					["description"] = "Right by Farmer Yoon, near the Mount Mania.",
-					["sourceQuests"] = { 83825 },	-- Restoring A Great Tale
+					["sourceQuest"] = 83825,	-- Restoring A Great Tale
 					["coord"] = { 63.2, 52.0, TANARIS },
 					["questID"] = 83833,
 					["g"] = { i(226361) },	-- Next Week's Mount Competition Listing
@@ -957,6 +1000,26 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					["provider"] = { "i", 228983 },	-- Crystalized Celebration Crate
 				}),
 			}),
+			header(HEADERS.Quest, 84625, {
+				i(228769),	-- Surprisingly Pristine Ransom Note
+				o(465183, {	-- Mysterious Bones
+					["description"] = "Behind Andrestrasz's cave in his cave in Silithus, use Perky Pug or other dog battle pets at the coordinates to dig up the bones.",
+					["provider"] = { "n", 37865 },	-- Perky Pug
+					["coords"] = {
+						{ 40.0, 93.1, KALIMDOR },	-- Cave Entrance
+						{ 44.6, 90.1, AHNQIRAJ_THE_FALLEN_KINGDOM },	-- Mysterious Bones
+					},
+					["g"] = {
+						i(228772, {	-- Mysterious Bones
+							["description"] = "Use the bones at 37.3 47.7 in Stormheim by an Unmarked Grave to receive the crate.",
+							["g"] = { i(228770) },	-- Surprisingly Pristine Celebration Crate (QS!)
+						}),
+					},
+				}),
+				q(84625, {	-- Surprisingly Pristine Celebration Crate
+					["provider"] = { "i", 228770 },	-- Surprisingly Pristine Celebration Crate
+				}),
+			}),
 		}),
 		header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
 			ach(40967),		-- Ratts' Revenge
@@ -966,11 +1029,102 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				["coord"] = { 44.5, 8.0, UNGORO_CRATER },
 				["g"] = { i(228941) },	-- Inert Peculiar Key
 			}),
-			i(228938),	-- Peculiar Gem
+			hqt(84685, {	-- Talk to the Dalaran Survivor while using the Detective Title
+				["name"] = "Talk to the Dalaran Survivor while using the Detective Title",
+				["sourceAchievement"] = 40870,	-- Azeroth's Greatest Detective
+				["coord"] = { 54.9, 28.9, DORNOGAL },
+			}),
+			q(84684, {	-- Ratts' Race
+				["description"] = "Find 3 notes scattered around Azj-Kahet then confront Ratts in Pillar-nest Vosh.",
+				["sourceQuest"]	= 84685,	-- Talk to the Dalaran Survivor with the Detective Title
+				["provider"] = { "n", 230042 },	-- Dalaran Survivor
+				["coord"] = { 54.9, 28.9, DORNOGAL },
+				["g"] = {
+					i(228934),	-- Carefully Penned Note (QI!)
+					o(466118, {	-- Unfinished Note
+						["description"] = "In a cave in Azj'Kahet in the center of 5 Rotglow Settlers.",
+						["coord"] = { 69.3, 93.3, AZJ_KAHET },
+						["g"] = { i(228935) },	-- Unfinished Note (QI!)
+					}),
+					o(466119, {	-- Hastily Scrawled Note
+						["description"] = "High up on a ridge overlooking the City of Threads.",
+						["coord"] = { 31.5, 20.8, NERUBAR },
+						["g"] = { i(228936) },	-- Hastily Scrawled Note (QI!)
+					}),
+					o(466120, {	-- Water-Resistant Note
+						["description"] = "Underwater in the center of a lake on the right side of the Azj-Kahet-Hallowfall transition.",
+						["coord"] = { 50.7, 86.6, HALLOWFALL },
+						["g"] = { i(228937) },	-- Water-Resistant Note (QI!)
+					}),
+					o(466128, {	-- Peculiar Gem
+						["description"] = "To turn in the quest, enter Pillar-nest Vosh to the left of Faerin's advance, navigate toward the back of the cave then turn around to find a wall you can climb, fall into a tunnel hidden in the wall.",
+						["coords"] = {
+							{ 55.1, 19.0, AZJ_KAHET },	-- Cave Entrance
+							{ 56.4, 17.5, AZJ_KAHET },	-- Wall Tunnel
+						},
+					}),
+					i(228938),	-- Peculiar Gem
+				},
+			}),
 			i(44124, {	-- Peculiar Key
+				["description"] = "Once reformed, go to the entrance of the Karazhan Catacombs in Deadwind Pass and use your Torch of Pyrreth by the gate to teleport into a secret scenario.",
 				["cost"] = {
 					{ "i", 228941, 1 }, -- Inert Peculiar Key
 					{ "i", 228938, 1 },	-- Peculiar Gem
+				},
+			}),
+			header(HEADERS.Map, 46, {	-- Karazhan Catacombs
+				["description"] = "Deep into the catacombs the bike is just sitting there out of reach, but is surrounded by 12 basins which can light up with orbs if enough actions are performed.",
+				["coord"] = { 46.3, 69.1, DEADWIND_PASS },
+				["cost"] = {
+					{ "i", 44124, 1 }, -- Peculiar Key
+					{ "i", 208092, 1 },	-- Torch of Pyrreth
+				},
+				["g"] = {
+					--1 O'clock Basin
+					--2 O'clock Basin
+					--3 O'clock Basin
+					--4 O'clock Basin
+					--5 O'clock Basin
+					--6 O'clock Basin
+					--7 O'clock Basin
+					header(HEADERS.Object, 254262, {	-- Owl of the Watchers [4 Orbs confirmed from this step.]
+						["description"] = "On the Isle of the Watchers in Aszuna are 9 Owl of the Watchers statues, on any shard, only 4 of them will be interactable at any given time.\n\nYou need an owl pet, the Fledgling Warden Owl sold by the Wardens quartermaster on the same island is confirmed to work, but other owls may work too.\n\nSummon your owl and don't let it disappear by flying too far away. Find an interactable statue and sit in the aura it creates with your pet until an audible sound cue plays and a secret magnifying glass icon appears over your head. Do that again for 4 different statue auras, Red, Green, Blue and Purple.\nYou'll know you're done when your owl has a distinct white orb above their head. Unlocks 4 orbs at Basin 7.",
+						["provider"] = { "n", 97128 },	-- Fledgling Warden Owl
+						["coords"] = {	-- Likely objectids are 254261 - 254269
+							{ 44.18, 72.41, AZSUNA },
+							{ 40.54, 73.15, AZSUNA },
+							{ 40.52, 75.19, AZSUNA },
+							{ 37.10, 82.16, AZSUNA },
+							{ 43.24, 85.30, AZSUNA },
+							{ 43.66, 87.51, AZSUNA },
+							{ 50.45, 91.67, AZSUNA },
+							{ 47.48, 84.74, AZSUNA },
+							{ 45.97, 84.06, AZSUNA },
+						}, -- TODO: if we REALLY want to, we could source objectids for each statue but it'd be trial and error with coordinates since wowhead is missing data and debugger doesn't report.
+					}),
+					--8 O'clock Basin
+					--9 O'clock Basin
+					--10 O'clock Basin
+					n(230070, {	-- Red Button [2 Orbs confirmed from this step]
+						["description"] = "Interacting with the button starts a 20 second timer, refreshing on clicking again. The orb to the left of the button reports how many times the button has been clicked within that window.",
+						["coord"] = { 47.4, 68.3, 46 },	-- Karazhan Catacombs
+						["g"] = {
+							hqt(84702, {	-- Red Button x100
+								["name"] = "Press the Red Button 100 times, unlocks an orb at Basin 10.",	-- Orb
+							}),
+							hqt(84703, {	-- Red Button x1000
+								["name"] = "Press the Red Button 1000 times, unlocks an orb at Basin 10.",	-- Orb
+							}),
+						},
+					}),
+					--11 O'clock Basin
+					--12 O'clock Basin
+					n(230232, {	-- Northsea Thug
+						["description"] = "In an alcove to the left in the entrance stairwell of the catacombs.",
+						["g"] = { i(35188) },	-- Nesingwary Lackey Ear
+					}),
+					mount(428013),	-- Incognitro, the Indecipherable Felcycle (MOUNT!)
 				},
 			}),
 			o(475130, {	-- Hidden Hatch
@@ -984,7 +1138,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 	n(GUEST_RELATIONS, {
 		q(85564),	-- Triggered after talking to Kelsey during (85060) Pirate Foods and Superstitions.
 		q(85565),	-- Triggered after talking to Mrs. Gant during (85060) Pirate Foods and Superstitions.
-		q(83831),	-- Triggered on turn in of (84868) A Whiff of Help. For missing secret toys?
 		q(85411),	-- Speaking to Bottlenose second option during (85195) Pirate Gastronomy.
 		q(85414),	-- Acquire 2 Swiftthistle for (85195) Pirate Gastronomy.
 		q(85415),	-- Acquire 2 Witchberries for (85195) Pirate Gastronomy.
@@ -996,5 +1149,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(85421),	-- Acquire 3 Furious Crawdads for (85195) Pirate Gastronomy.
 		q(84617, name(HEADERS.Achievement, 40873)),	-- Accepting Harder Puzzles from Alyx. This unlocks notes on the bulletin board next to Alyx.
 		q(83824, name(HEADERS.Item, 226242)),	-- Triggered when restoring the 'Green Hills of Stranglethorn' by gathering all the missing pages.
+		-- Felcycle HQTs
+		q(84718),	-- Flags and unflags CONSTANTLY all over the catacombs.
 	}),
 })));

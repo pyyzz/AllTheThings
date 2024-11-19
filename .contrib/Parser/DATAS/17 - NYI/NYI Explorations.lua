@@ -5858,7 +5858,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(14936),	-- The Nighthold
 	exploration(14955),	-- The Char
 	exploration(14959),	-- Lucid Reef
-	exploration(14960),	-- Central Encampment
 	exploration(14961),	-- Shiversnap Grove
 	exploration(14962),	-- De Other Side
 	exploration(14963),	-- Dev Map - Quest Training

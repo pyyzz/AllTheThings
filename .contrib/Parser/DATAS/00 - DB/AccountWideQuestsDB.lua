@@ -1622,6 +1622,7 @@ ExportDB.AccountWideQuestsDB = {
 	[83180] = true,
 	[83156] = true,
 	[83193] = true,
+	[83831] = true,	-- Completed Guest Relations intro quest finished with (84868) A Whiff of Help.
 	[85757] = true,
 	[79573] = true, -- TWW Campaign Completed
 	-- #ENDIF

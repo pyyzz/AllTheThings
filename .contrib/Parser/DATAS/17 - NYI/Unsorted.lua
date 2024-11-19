@@ -829,10 +829,6 @@ root(ROOTS.Unsorted, {
 			i(233053),	-- Crown of the Violet Rose
 			i(234413),	-- Satchel of Exotic Mysteries
 			--
-			i(228934),	-- Carefully Penned Note
-			i(228935),	-- Unfinished Note
-			i(228936),	-- Hastily Scrawled Note
-			i(228937),	-- Water-Resistant Note
 		})),
 		expansion(EXPANSION.TWW, patch(0,2), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 			explorationHeader({
