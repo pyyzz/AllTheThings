@@ -146,6 +146,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			-- Chapter 1
 			q(84236, {	-- The Great Detective
 				["provider"] = { "n", 226683 },	-- Alyx <Volunteer Assistant Guest Relations Manager>
+				["sourceQuest"] = 84868,	-- A Whiff of Help
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
 			q(84237, {	-- The "Great" Detective
@@ -455,6 +456,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			o(467403, {	-- Darkmoon Fortune Card
 				["description"] = "Behind the crate next to Alyx. After looting this, talk with her, she will tell you to Speak to Alphonse.\n\nYou need to obtain 1 card, it does not matter which one, in order to see gossip options and start the quest.\nThis one is just an example as it is located near Alyx, the main quest giver of the event.",
 				["coord"] = { 63.0, 50.2, TANARIS },
+				["sourceQuest"] = 84868,	-- A Whiff of Help
 				["crs"] = {
 					226683,	-- Alyx <Volunteer Assistant Guest Relations Manager>
 					230838,	-- Alphonse Constant <Apprentice Cartomancer>
@@ -525,6 +527,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					226683,	-- Alyx <Volunteer Assistant Guest Relations Manager>
 					232404,	-- Alyx <Volunteer Assistant Guest Relations Manager and Associate Event Coordinator>
 				},
+				["sourceQuest"] = 84868,	-- A Whiff of Help
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
 			q(83825, {	-- Restoring A Grand Tale
@@ -581,6 +584,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					232405,	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Associate Event Coordinator>
 					232406,	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
 				},
+				["sourceQuest"] = 84868,	-- A Whiff of Help
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
 			q(84595, {	-- The Case of the Fur-Getting Wikket
@@ -608,6 +612,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					226683,	-- Alyx <Volunteer Assistant Guest Relations Manager>
 					232406,	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
 				},
+				["sourceQuest"] = 84868,	-- A Whiff of Help
 				["coord"] = { 63.0, 50.2, TANARIS },
 				["g"] = {
 					i(228302),	-- My Journal: Nola's Last Wish (QI!)
@@ -632,6 +637,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					226683,	-- Alyx <Volunteer Assistant Guest Relations Manager>
 					232406,	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
 				},
+				["sourceQuest"] = 84868,	-- A Whiff of Help
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
 			q(84933, {	-- From Ashes to Wisdom
@@ -653,6 +659,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					226683,	-- Alyx <Volunteer Assistant Guest Relations Manager>
 					232407,	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
 				},
+				["sourceQuest"] = 84868,	-- A Whiff of Help
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
 			q(84924, {	-- A Bird's Tail
@@ -690,6 +697,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					232407,	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
 					232408,	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager, Executive Associate Event Coordinator, and Temporary Service Agent>
 				},
+				["sourceQuest"] = 84868,	-- A Whiff of Help
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
 			q(84469, {	-- Battle Pet Bingo
@@ -711,8 +719,9 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			}),
 			-- The Case of Missing Mementos
 			q(85477, {	--  Lost and... Found?
-				["description"] = "Open the Lost & Found box nest to Alyx then return the items to visotrs around the anniversary grounds.",
+				["description"] = "Open the Lost & Found box nest to Alyx then return the items to visitors around the anniversary grounds.",
 				["provider"] = { "n", 232408 },	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager, Executive Associate Event Coordinator, and Temporary Service Agent>
+				["sourceQuest"] = 84868,	-- A Whiff of Help
 				["coord"] = { 63.0, 50.2, TANARIS },
 				["g"] = {
 					i(231810),	-- Alyx's Lost & Found Notes (QI!)
@@ -738,26 +747,48 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					}),
 					n(228249, {	-- Mankrik
 						["coord"] = { 63.5, 52.2, TANARIS },
+						["provider"] = { "i", 231761 },	-- Crude Ivory Locket
 					}),
 					n(228251, {	-- John J. Keeshan
 						["coord"] = { 63.4, 51.8, TANARIS },
+						["provider"] = { "i", 231764 },	-- Jade Amulet
 					}),
 					n(228248, {	-- Marin Noggenfogger
 						["coord"] = { 63.6, 50.9, TANARIS },
+						["provider"] = { "i", 231763 },	-- Potion Bottle
 					}),
 					n(228247, {	-- Oglethorpe Obnoticus
 						["coord"] = { 62.9, 49.7, TANARIS },
+						["provider"] = { "i", 231762 },	-- Tiny Mechanical Mouse
 					}),
 					n(228262, {	-- Farmer Yoon
 						["coord"] = { 63.1, 52.0, TANARIS },
+						["provider"] = { "i", 231765 },	-- Well-Worn Almanac
 					}),
 				},
 			}),
-			q(84912),	-- The Case of Staged Disaster
+			q(84912, {	-- The Case of Staged Disaster
+				["sourceQuest"] = 84868,	-- A Whiff of Help
+			}),
 		}),
 		header(HEADERS.Achievement, 40979, {	-- No Crate Left Behind
-			ach(40873),		-- Crate Insurance Agent
-			ach(40979),		-- No Crate Left Behind
+			ach(40979, {	-- No Crate Left Behind
+				["sourceQuests"] = {
+					83794,	-- Soggy Celebration Crate
+					85574,	-- Hazy Celebration Crate
+					84624,	-- Sandy Celebration Crate
+					84470,	-- Dirt-Caked Celebration Crate
+					83931,	-- Battered Celebration Crate
+					84426,	-- Waterlogged Celebration Crate
+					84767,	-- Charred Celebration Crate
+					85523,	-- Mildewed Celebration Crate
+					84773,	-- Crystalized Celebration Crate
+					-- TODO 2 crates left
+				},
+				["g"] = {
+					ach(40873),	-- Crate Insurance Agent
+				},
+			}),
 			header(HEADERS.Quest, 83794, {
 				i(228694),	-- Damp Ransom Note
 				n(143029, {	-- Nikto <Master Talekeep>
@@ -806,7 +837,14 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				}),
 				n(91079, {	-- Vashti the Wandering Merchant <General Goods>
 					["description"] = "Can be found pathing up and down the road between Felblaze Ingress and The Ruined Sanctum in Azsuna, Broken Isles.",
-					["coord"] = { 65.2, 36.4, AZSUNA },
+					["coords"] = {
+						-- North stop
+						{ 66.0, 22.2, AZSUNA },
+						-- Middle
+						{ 65.2, 36.4, AZSUNA },
+						-- South stop
+						{ 65.8, 48.2, AZSUNA },
+					},
 					["g"] = {
 						i(228986, {	-- Aesthetician's Coupon Book
 							["cost"] = 5000000,	-- 500g
@@ -819,6 +857,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 							["cost"] = 5000000,	-- 500g
 						}),
 						i(228767, {	-- Sandy Celebration Crate (QS!)
+							["provider"] = { "i", 228768 },	-- Water-Resistant Receipt
 							["cost"] = 5000000,	-- 500g
 						}),
 						i(228987, {	-- Scroll of Fel Binding
@@ -894,11 +933,12 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			header(HEADERS.Quest, 85523, {
 				i(231888),	-- Mildewed Ransom Note
 				o(505260, {	-- Potion of Truth
-					["description"] = "found at the top of Thunder Peak behind Lord Magmathar in Ashenvale. The buff will be lost if you encounter any load screens or try to leave Kalimdor.",
+					["description"] = "Found at the top of Thunder Peak behind Lord Magmathar in Ashenvale. The buff will be lost if you encounter any load screens or try to leave Kalimdor.",
 					["coord"] = { 47.9, 38.3, ASHENVALE },
 				}),
 				o(478090, {	-- Mildewed Celebration Crate
 					["description"] = "In a corner within Eldreth Row by the exterior of Dire Maul.\nVisible only with a buff, obtained from the Potion of Truth.",
+					["provider"] = { "o", 505260 },	-- Potion of Truth
 					["coord"] = {60.4, 35.4, FERALAS },
 					["g"] = { i(231886) },	-- Mildewed Celebration Crate (QS!)
 				}),
