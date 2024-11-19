@@ -185,7 +185,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(876),	-- GM Island
 	exploration(877),	-- Delete ME
 	exploration(878),	-- Southfury River
-	exploration(879),	-- Southfury River
 	exploration(881),	-- Thandol Span
 	exploration(926),	-- Bucklebree Farm
 	exploration(956),	-- The Verdant Fields
@@ -213,7 +212,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(1222),	-- Hetaera's Clutch
 	exploration(1223),	-- Temple of Zin-Malor
 	exploration(1276),	-- The Talondeep Path
-	exploration(1297),	-- Jaggedswine Farm
 	exploration(1337),	-- Uldaman
 	exploration(1338),	-- Lordamere Lake
 	exploration(1339),	-- Lordamere Lake

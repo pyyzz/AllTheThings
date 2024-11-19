@@ -1876,10 +1876,11 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				visit_exploration(365,{coord={54.50,19.20,461}}),    -- Burning Blade Coven
 				visit_exploration(393,{coord={61.20,65.50,1}}),    -- Darkspear Strand
 				exploration(4865),	-- Darkspear Training Grounds
-				exploration(375),	-- Deadeye Shore
+				visit_exploration(375,{coord={58.70,25.40,1}}),	-- Deadeye Shore
 				exploration(370),	-- Drygulch Ravine
 				exploration(6453),	-- Echo Isles
 				exploration(368),	-- Echo Isles
+				visit_exploration(1297,{coord={50.40,19.00,1}}),	-- Jaggedswine Farm
 				exploration(366),	-- Northwatch Foothold
 				exploration(1637),	-- Orgrimmar
 				exploration(362),	-- Razor Hill
@@ -1892,8 +1893,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				exploration(367),	-- Sen'jin Village
 				visit_exploration(6748,{coord={59.20,72.00,1}}),    -- Sen'jin Village Outskirts
 				exploration(817),	-- Skull Rock
+				visit_exploration(879,{coord={37.80,20.70,1}}),	-- Southfury River
 				exploration(4981),	-- Southfury Watershed
-				visit_exploration(4982,{coord={0,0,85}}),    -- The Dranosh'ar Blockade
+				visit_exploration(4982),    -- The Dranosh'ar Blockade
 				exploration(369),	-- Thunder Ridge
 				exploration(372),	-- Tiragarde Keep
 				exploration(2979),	-- Tor'kren Farm

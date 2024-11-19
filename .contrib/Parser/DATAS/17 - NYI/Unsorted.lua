@@ -1185,7 +1185,6 @@ root(ROOTS.Unsorted, {
 				exploration(15339),	-- The Stills
 				exploration(15340),	-- The Buzz Barns
 				exploration(15341),	-- The BEE.E.O. Suite
-				exploration(15346),	-- The Hanging Gateway
 				exploration(15364),	-- The Pulsing Pit
 				exploration(15365),	-- The Congealing Pool
 				exploration(15366),	-- The Ascending Reach

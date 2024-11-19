@@ -368,7 +368,7 @@ local function PrintDiscordInformationForExploration(o)
 
 	-- Create an information object.
 	local info = {
-		"### new-area:" .. areaID,
+		"### unmapped-area:" .. areaID,
 		"```elixir",	-- discord fancy box start
 		text,
 		"",
@@ -404,7 +404,7 @@ local function PrintDiscordInformationForExploration(o)
 
 	local popupID = "area-" .. areaID;
 	app:SetupReportDialog(popupID, text, info);
-	app.print("Found New Area:", app:Linkify(text, app.Colors.ChatLinkError, "dialog:" .. popupID));
+	app.print("Found Unmapped Area:", app:Linkify(text, app.Colors.ChatLinkError, "dialog:" .. popupID));
 end
 local RefreshExplorationData = app.IsClassic and (function(data)
 	app:RefreshDataQuietly("RefreshExploration", true);
@@ -427,7 +427,7 @@ local function GetExplorationBySubzone()
 			for _,o in ipairs(mapObject.g) do
 				if o.headerID == app.HeaderConstants.EXPLORATION and o.g then
 					for _,e in ipairs(o.g) do
-						if e.name == subzone and e.__type == "Exploration" then
+						if e.name == subzone and e.__type == "Exploration" and e.coords then
 							return e
 						end
 					end
