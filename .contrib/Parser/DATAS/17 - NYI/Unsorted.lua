@@ -1052,7 +1052,6 @@ root(ROOTS.Unsorted, {
 				exploration(15103),	-- Cinderbrew Meadery
 				exploration(14753),	-- City of Threads
 				exploration(14979),	-- City of Threads
-				exploration(15158),	-- Coldshadow Cave
 				exploration(15110),	-- Contender's Gate
 				exploration(15172),	-- Councilward's Rise
 				exploration(14952),	-- Crawling Chasm
@@ -1129,7 +1128,6 @@ root(ROOTS.Unsorted, {
 				exploration(15143),	-- Processing Unit
 				exploration(14512),	-- RebornTree
 				exploration(15453),	-- Rock Bottom Inn
-				exploration(15460),	-- Sanctified Grounds
 				exploration(15114),	-- Shadowgrove Vineyards
 				exploration(14820),	-- Shadowvein Point
 				exploration(15169),	-- Shadowvein Power Station

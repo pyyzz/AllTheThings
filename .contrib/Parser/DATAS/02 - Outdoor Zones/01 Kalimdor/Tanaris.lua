@@ -2867,7 +2867,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			}),
 			explorationHeader({
 				exploration(1939),	-- Abyssal Sands
+				visit_exploration(5062,{coord={55.3,59.8,71}}),    -- Bootlegger Outpost
 				exploration(1938),	-- Broken Pillar
+				visit_exploration(1941,{coord={62.8,50.9,71}}),    -- Caverns of Time
 				exploration(2300),	-- Caverns of Time
 				exploration(983),	-- Dunemaul Compound
 				exploration(984),	-- Eastmoon Ruins
@@ -2878,7 +2880,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				exploration(1937),	-- Noonshade Ruins
 				-- #endif
 				exploration(979),	-- Sandsorrow Watch
-				exploration(1940),	-- Southbreak Shore
+				visit_exploration(1940,{coord={62.3,58.9,71}}),    -- Southbreak Shore
 				exploration(992),	-- Southmoon Ruins
 				exploration(977),	-- Steamwheedle Port
 				exploration(981),	-- The Gaping Chasm

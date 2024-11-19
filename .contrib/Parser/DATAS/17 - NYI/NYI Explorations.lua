@@ -259,7 +259,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(1837),	-- Witherbark Caverns
 	exploration(1880),	-- Featherbeard's Hovel
 	exploration(1881),	-- Shindigger's Camp
-	exploration(1941),	-- Caverns of Time
 	exploration(1977),	-- Zul'Gurub
 	exploration(2017),	-- Stratholme
 	exploration(2037),	-- Quel'thalas
@@ -1187,7 +1186,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(5058),	-- Deepmist Grotto
 	exploration(5060),	-- Steelspark Station
 	exploration(5061),	-- Steelspark Station
-	exploration(5062),	-- Bootlegger Outpost
 	exploration(5063),	-- Dunemaul Recruitment Camp
 	exploration(5064),	-- The Anvil of Flame
 	exploration(5065),	-- Tower of Estulan
@@ -4848,7 +4846,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(10964),	-- Mason's Folly
 	exploration(10968),	-- Forgotten Mire
 	exploration(10969),	-- The Thundering Run
-	exploration(10981),	-- Catacombs of Regret
 	exploration(10984),	-- Court of The Harvesters
 	exploration(10987),	-- The Shrouded Asylum
 	exploration(10988),	-- Sanctuary of The Mad
