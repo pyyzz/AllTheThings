@@ -6203,9 +6203,31 @@ local __SearchValueCriteria = {
 	end
 }
 local SearchValueCriteria = {}
+-- A set of Criteria functions which must all be valid for each search result to be included in the response
+local __ParentInclusionCriteria = {
+	-- Exclude heirarchical parents which don't exist, or specify '_nosearch' or are 'sourceIgnored'
+	function(parent)
+		-- check the parent to see if this parent chain will be excluded
+		if not parent then
+			-- app.PrintDebug("Don't capture non-parented",group.text)
+			return
+		end
+		if parent.sourceIgnored then
+			-- app.PrintDebug("Don't capture SourceIgnored",group.text)
+			return
+		end
+		if GetRelativeValue(parent, "_nosearch") then
+			-- app.PrintDebug("Don't capture _nosearch",group.text)
+			return
+		end
+		return true
+	end
+}
+local ParentInclusionCriteria = {}
 local function ResetCriterias(criteria)
 	wipe(SearchCriteria)
 	wipe(SearchValueCriteria)
+	wipe(ParentInclusionCriteria)
 	if criteria and criteria.SearchCriteria then
 		for _,f in ipairs(criteria.SearchCriteria) do
 			SearchCriteria[#SearchCriteria + 1] = f
@@ -6224,6 +6246,15 @@ local function ResetCriterias(criteria)
 			SearchValueCriteria[#SearchValueCriteria + 1] = f
 		end
 	end
+	if criteria and criteria.ParentExclusionCriteria then
+		for _,f in ipairs(criteria.ParentExclusionCriteria) do
+			ParentInclusionCriteria[#ParentInclusionCriteria + 1] = f
+		end
+	else
+		for _,f in ipairs(__ParentInclusionCriteria) do
+			ParentInclusionCriteria[#ParentInclusionCriteria + 1] = f
+		end
+	end
 end
 local function Eval_SearchCriteria(o)
 	for i=1,#SearchCriteria do
@@ -6234,6 +6265,12 @@ end
 local function Eval_SearchValueCriteria(o, field, value)
 	for i=1,#SearchValueCriteria do
 		if not SearchValueCriteria[i](o, field, value) then return end
+	end
+	return true
+end
+local function Eval_ParentInclusionCriteria(o)
+	for i=1,#ParentInclusionCriteria do
+		if not ParentInclusionCriteria[i](o) then return end
 	end
 	return true
 end
@@ -6253,14 +6290,7 @@ local function MatchOrCloneParentInHierarchy(group)
 
 		-- check the parent to see if this parent chain will be excluded
 		local parent = group.parent;
-		if not parent or GetRelativeValue(parent, "_nosearch") then
-			-- app.PrintDebug("Don't capture Unsorted",group.text)
-			return;
-		end
-		if parent.sourceIgnored then
-			-- app.PrintDebug("Don't capture SourceIgnored",group.text)
-			return;
-		end
+		if not Eval_ParentInclusionCriteria(parent) then return end
 
 		-- is this a top-level group?
 		if parent == MainRoot then
