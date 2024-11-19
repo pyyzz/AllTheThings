@@ -6114,6 +6114,7 @@ function app:GetDataCache()
 	-- app.PrintMemoryUsage()
 
 	-- Function to build a hidden window's data
+	local AllHiddenWindows = {}
 	local function BuildHiddenWindowData(name, icon, description, category, flags)
 		if not app.Categories[category] then return end
 
@@ -6127,6 +6128,7 @@ function app:GetDataCache()
 		end
 
 		CacheFields(windowData, true)
+		AllHiddenWindows[#AllHiddenWindows + 1] = windowData
 
 		-- Filter for Never Implemented things
 		if category == "NeverImplemented" then
@@ -6146,6 +6148,32 @@ function app:GetDataCache()
 	BuildHiddenWindowData(L.HIDDEN_CURRENCY_TRIGGERS, "Interface_Vendor", L.HIDDEN_CURRENCY_TRIGGERS_DESC, "HiddenCurrencyTriggers", { _hqt = true, _nosearch = true, Color = app.Colors.ChatLinkHQT })
 	BuildHiddenWindowData(L.HIDDEN_QUEST_TRIGGERS, "Interface_Quest", L.HIDDEN_QUEST_TRIGGERS_DESC, "HiddenQuestTriggers", { _hqt = true, _nosearch = true, Color = app.Colors.ChatLinkHQT })
 	BuildHiddenWindowData(L.SOURCELESS, "WindowIcon_Unsorted", L.SOURCELESS_DESC, "Sourceless", { _missing = true, _unsorted = true, _nosearch = true, Color = app.Colors.TooltipWarning })
+
+	-- a single Unsorted window to collect all base Unsorted windows
+	-- TODO: migrate this logic once Window creation is revised
+	app.ChatCommands.Add("all-hidden", function(args)
+		local window = app:GetWindow("all-hidden")
+		if window and not window.HasPendingUpdate then window:Toggle() return true end
+
+		-- local allHiddenSearch = app:BuildTargettedSearchResponse(AllUnsortedGroups, "_nosearch", true, nil, {ParentInclusionCriteria={},SearchCriteria={},SearchValueCriteria={}})
+
+		local windowData = app.CreateRawText(Colorize("All-Hidden", app.Colors.ChatLinkError), {
+			-- clone all unhidden groups into this window
+			g = CreateObject(AllHiddenWindows),
+			title = "All-Hidden" .. DESCRIPTION_SEPARATOR .. app.Version,
+			icon = app.asset("status-unobtainable"),
+			description = "All Hidden ATT Content",
+			font = "GameFontNormalLarge",
+			AdHoc = true
+		})
+		window:SetData(windowData)
+		window:BuildData()
+		window:Toggle()
+		return true
+	end, {
+		"Usage : /att all-hidden",
+		"Provides a single command to open all Hidden content in a single window",
+	})
 
 	-- StartCoroutine("VerifyRecursionUnsorted", function() app.VerifyCache(); end, 5);
 	-- app.PrintDebug("Finished loading data cache")
