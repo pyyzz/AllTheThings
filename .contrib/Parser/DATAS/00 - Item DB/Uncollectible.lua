@@ -34,6 +34,7 @@ i(187603);	-- The Mad Duke's Tea
 -- DF
 i(195572);	-- Empty Elixir
 i(194742);	-- Worn Book
+i(210438);	-- Wisp Dust
 i(211768);	-- Hastily Scrawled Satyr Ravings
 i(226037);	-- Timeless Neural Silencer
 -- TWW

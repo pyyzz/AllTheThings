@@ -1462,7 +1462,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(5633),	-- Terrace of The Augurs
 	exploration(5634),	-- Sanctum of The South Wind
 	exploration(5635),	-- The Warlord's Garrison
-	exploration(5637),	-- Lion's Pride Inn
 	exploration(5638),	-- Throne of The Four Winds
 	exploration(5642),	-- Tahret Grounds
 	exploration(5644),	-- Seal of The Sun King
@@ -5673,7 +5672,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(14443),	-- Gutshot's Overlook
 	exploration(14444),	-- The Rotwood
 	exploration(14445),	-- Den of Decay
-	exploration(14447),	-- Deadsnare Caverns
 	exploration(14448),	-- Ruby Lifeshrine
 	exploration(14449),	-- Flashfrost Incursion
 	exploration(14450),	-- Infusion Chambers
@@ -5730,7 +5728,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(14516),	-- Lost Canal
 	exploration(14518),	-- The Eastern Glades
 	exploration(14519),	-- 10Zone6-Devland
-	exploration(14524),	-- Uktulut Outpost
 	exploration(14525),	-- Alterac Valley
 	exploration(14526),	-- Frostwolf Keep
 	exploration(14527),	-- Frostwolf Village

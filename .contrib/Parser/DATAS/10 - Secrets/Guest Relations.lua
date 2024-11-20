@@ -313,7 +313,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 						}),
 					},
 				}),
-				["provider"] = { "n", 226684 },	-- Maru
+				["provider"] = { "n", 226684 },	-- Maru <Junior Secret Sleuf>
 				["sourceQuest"] = 84563,	-- Toy Trouble [A]
 				["coord"] = { 63.2, 52.4, TANARIS },
 				["g"] = {
@@ -367,7 +367,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 							}),
 						},
 				}),
-				["provider"] = { "n", 226684 },	-- Maru
+				["provider"] = { "n", 226684 },	-- Maru <Junior Secret Sleuf>
 				["coord"] = { 63.2, 52.4, TANARIS },
 				["g"] = {
 					i(229992),	-- My Journal: Operation Toy Rescue (QI!)
@@ -450,6 +450,40 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				},
 			}),
 			-- Chapter 4
+			q(85475, {	-- Secret in the Sands
+				["sourceQuest"] = 85195,	-- Pirate Gastronomy
+				["provider"] = { "n", 232410 },	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager, Executive Associate Event Coordinator, and Chief Temporary Agent of Timelines and Services>
+				["coord"] = { 63.0, 50.2, TANARIS },
+			}),
+			q(85476, {	-- Buried Tweasure
+				["description"] = "Find clues in the Ruins of Uldum, by a rock to the east of Dunemaul Compound, to the left of Zul'Farakk's entrance, then talk to Yennu in the Gadgetzan inn.",
+				["sourceQuest"] = 85475,	-- Secret in the Sands
+				["provider"] = { "n", 226684 },	-- Maru <Junior Secret Sleuf>
+				["coord"] = { 63.2, 52.4, TANARIS },
+				["g"] = { -- TODO: Test if objects can be skipped by talking to Yennu directly
+					i(231808),	-- Ancient Treasure Notes (QI!)
+					--[[ Need ObjectIDs
+					o(999, {	-- Ancient Treasure Map
+						["description"] = "In the back right of the Ruins of Uldum in the Valley of the Watchers."
+						["coord"] = { 37.6, 84.1, TANARIS },
+					}),
+					o(999, {	-- Ancient Treasure Note
+						["description"] = "By a rock to the south-east of Dunemaul Compound's adjacent mountain.."
+						["coord"] = { 47.5, 56.5, TANARIS },
+					}),
+					o(999, {	-- Ancient Treasure Note
+						["description"] = "Around the wall to the left of Zul'Farakk's entrance.."
+						["coord"] = { 38.8, 22.1, TANARIS },
+					}),
+					]]--
+					n(232863, {	-- Yennu
+						["description"] = "Inside Gadgetzan's Inn.",
+						["coord"] = {  52.7, 26.9, TANARIS },
+					}),
+					i(231819),	-- Celebratory Fireworks (QI!)
+					i(231820),	-- Festive Balloons (QI!)
+				},
+			}),
 			q(85503),	-- Chapter 4
 		}),
 		header(HEADERS.Achievement, 40871, {	-- Assistant to the Assistant Guest Relations Manager
@@ -1084,11 +1118,11 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					--1 O'clock Basin
 					header(HEADERS.Quest, 84676, {	-- The Light of Their Love [Full Basin confirmed from this step.]
 						["description"] = "Acquire The Light of Their Love buff (spellID 153715) 3 times from visiting areas relevant to Oldgra, Mankrik's wife. Stand at these areas with your Torch of Pyrreth until a stack is gained.\n1. The Humble Monument in Borthern Barrens.\n2. Young Olgra in Draenor.\n3. Decimator Olgra in Maldraxxus.\nFully lights up the 1 O'clock basin.",
-						["provider"] = { "n", 208092 },	-- Torch of Pyrreth
+						["provider"] = { "i", 208092 },	-- Torch of Pyrreth
 						["coords"] = {
 							{ 55.0, 40.2, NORTHERN_BARRENS },
 							{ 74.2, 37.5, DRAENOR_NAGRAND },	-- Before (35170) Consumed by Vengence is completed
-							{ 49.2, 48.0, DRAENOR_NAGRAND },	-- After  (35170) Consumed by Vengence is completed
+							{ 49.2, 48.0, DRAENOR_NAGRAND },	-- After (35170) Consumed by Vengence is completed
 							{ 27.3, 61.3, MALDRAXXUS },
 						},
 						["crs"] = {
@@ -1103,25 +1137,23 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 						},
 					}),
 					--2 O'clock Basin
-					header(HEADERS.Quest, 84677, {	-- Pray with Dogg'Saron [Full Basin confirmed from this step.]
-						["description"] = "Requires 1 O'Clock basin to have been completed first\nBuy the Dogg-Saron costume from Vashti the Wandering Merchant in Aszuna or find a friend who has and visit the Ny'Alotha Obelisk above the Seat of Knowledge in the Vale of Eternal Blossoms.\nWith the pet summoned and costumed, /pray to the obelisk to be granted the Key of Shadows.\nFully lights up the 2 O'clock basin",
-						["sourceQuest"] = 84676,	-- The Light of Their Love
+					header(HEADERS.Quest, 84677, {	-- Acquire The Key of Shadows [Full Basin confirmed from this step.]
+						["description"] = "Requires 1 O'Clock basin to have been completed first\nBuy the Dogg-Saron costume from Vashti the Wandering Merchant in Aszuna OR the Yipp-Saron Costume from Hallow's End (also on AH) OR find a friend who has one and visit the Ny'Alotha Obelisk above the Seat of Knowledge in the Vale of Eternal Blossoms (BFA).\nWith the pet summoned and costumed, /pray to the obelisk to be granted the Key of Shadows.\nThere is a 5-15 minute delay even if you do everything right. Everyone within 10 yards should get the key if anyone in range does it correctly.\nFully lights up the 2 O'clock basin",
 						["providers"] = {
 							{ "n", 153297 },	-- Ny'Alotha Obelisk
 							{ "n", 37865 },	-- Perky Pug
 						},
 						["g"] = {
 							n(153297, {	-- Ny'Alotha Obelisk
-								["coords"] = {
-									{ 83.7, 27.6, VALE_OF_ETERNAL_BLOSSOMS },
-									{ 83.7, 27.6, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
-								},
+								["coord"] = { 83.7, 27.6, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 								["cost"] = {
-									{ "i", 229413, 1 }, -- "Dogg-Saron" Costume
-									--{ "i", 168123, 1 },	-- Twitching Eyeball
-								},-- TODO: Disputed whether costume, eyeball toy or both are required to get the key, whole step seems buggy.
+									{ "i", 229413, 1 },	-- "Dogg-Saron" Costume
+									{ "i", 116812, 1 },	-- "Yipp-Saron" Costume
+								},
 								["g"] = {
-									i(53156),	-- Key of Shadows
+									i(53156, {	-- Key of Shadows
+										["description"] = "Opens both doors in the room with the Red Button.",
+									}),
 								},
 							}),
 							hqt(84677, {
@@ -1130,6 +1162,74 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 						},
 					}),
 					--3 O'clock Basin
+					header(HEADERS.Item, 228967, {	-- Header will use HQT once discovered
+						["description"] = "Requires 2 O'Clock basin to have been completed first\n1. Use the Key of Shadows to enter the room to the left of the Red Button. Fish up an Astral key from the bowl on the left bookshelf. Open the Astral chest in the same room, use the goggles.\n2. Interact with any of the consoles around the catacombs until you get a new actionbar. Can't see it? Look in your spellbook for a Number Sequence spell. Click the console again to submit your code.\n3. Enter the codes on adjacent consoles to open each of the chests, each Piece of Hate will give you an orb at the 3 O'clock basin.",
+						["sourceQuest"] = 84677,	-- Acquire The Key of Shadows
+						["provider"] = { "i", 53156 },	-- Key of Shadows
+						["g"] = {
+							i(228965),	-- Astral Key
+							o(466393, {	-- Astral Chest
+								["provider"] = { "i", 228965 },	-- Astral Key
+								["coord"] = { 48.4, 79.5, 46 },	-- Karazhan Catacombs
+								["g"] = { i(228966) },	-- Starry-Eyed Goggles
+							}),
+							o(466400, {	-- Property of Elder Ko'nani
+								["description"] = "Code to open at the adjacent decryption console: 88224646",
+								["coord"] = { 48.9, 80.3, 46 },	-- Karazhan Catacombs
+								["questID"] = 84757,	-- Orb
+								["g"] = { i(228967) },	-- Piece of Hate
+							}),
+							o(466479, {	-- Encrypted Chest
+								["description"] = "Code to open at the adjacent decryption console: 10638",
+								["provider"] = { "i", 228966 },	-- Starry-Eyed Goggles
+								["coord"] = { 49.5, 65.1, 46 },	-- Karazhan Catacombs
+								["questID"] = 84768,	-- Orb
+								["g"] = { i(228967) },	-- Piece of Hate
+							}),
+							o(466495, {	-- Encrypted Chest
+								["description"] = "Code to open at the adjacent decryption console: 19019",
+								["provider"] = { "i", 228966 },	-- Starry-Eyed Goggles
+								["coord"] = { 67.4, 84.3, 46 },	-- Karazhan Catacombs
+								["questID"] = 84771,	-- Orb
+								["g"] = { i(228967) },	-- Piece of Hate
+							}),
+							o(466484, {	-- Encrypted Chest
+								["description"] = "Code to open at the adjacent decryption console: 5661",
+								["provider"] = { "i", 228966 },	-- Starry-Eyed Goggles
+								["coord"] = { 56.3, 62.6, 46 },	-- Karazhan Catacombs
+								["questID"] = 84769,	-- Orb
+								["g"] = { i(228967) },	-- Piece of Hate
+							}),
+							o(466420, {	-- Rubenstein's Safe
+								["description"] = "Code to open at the adjacent decryption console: 52233",
+								["provider"] = { "i", 228966 },	-- Starry-Eyed Goggles
+								["coord"] = { 64.9, 48.3, 46 },	-- Karazhan Catacombs
+								["questID"] = 84766,	-- Orb
+								["g"] = { i(228967) },	-- Piece of Hate
+							}),
+							o(466497, {	-- Encrypted Chest
+								["description"] = "Code to open at the adjacent decryption console: 51567",
+								["provider"] = { "i", 228966 },	-- Starry-Eyed Goggles
+								["coord"] = { 70.3, 55.4, 46 },	-- Karazhan Catacombs
+								["questID"] = 84772,	-- Orb
+								["g"] = { i(228967) },	-- Piece of Hate
+							}),
+							o(466489, {	-- Encrypted Chest
+								["description"] = "Code to open at the console one to the left of the adjacent console: 77777 Bugged?",
+								["provider"] = { "i", 228966 },	-- Starry-Eyed Goggles
+								["coord"] = { 70.3, 55.4, 46 },	-- Karazhan Catacombs
+								["questID"] = 84770,	-- Orb
+								["g"] = { i(228967) },	-- Piece of Hate
+							}),
+							hqt(84786, {
+								["name"] = "Acquire the Piece of Hate from the Lucky slot machine consoles.",
+								["description"] = "In the felcycle room is over a dozen slot machine consoles. Variations of 777, 77777, 777777 etc work but the machines seem to randomly pay out a coin. Some believe holding various 'lucky' items can influence your chances, but no confirmations yet. No chest will spawn, you will be given the Piece of Hate directly.",
+							}),
+							--hqt(999, {
+								--["name"] = "Fully complete Basin 3."
+							--}),
+						},
+					}),
 					--4 O'clock Basin
 					--5 O'clock Basin
 					--6 O'clock Basin
@@ -1167,13 +1267,14 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					--11 O'clock Basin
 					--12 O'clock Basin
 					o(475116, {	-- Ordinary Pebble
-						["description"] = "These pebbles can be found throughout the catacombs.\n1. Halfway down the entrance stairwell, behind a candelabra sitting on the bannister.\n2. Behind the frame of the archway halfway down the entrance stairwell, opposite the skeleton sitting on the other side of the arch.\n3. To the left of the tilted Replica Owl of the Watchers in the first room after the entrance stairs.\n4. On the inside corner of the doorway to the cat room, interactable through the gate.\n5. In the hand of a skeleton in the corner of the hallway leading to the Felcycle.",
+						["description"] = "These pebbles can be found throughout the catacombs.\n1. Halfway down the entrance stairwell, behind a candelabra sitting on the bannister.\n2. Behind the frame of the archway halfway down the entrance stairwell, opposite the skeleton sitting on the other side of the arch.\n3. To the left of the tilted Replica Owl of the Watchers in the first room after the entrance stairs.\n4. On the inside corner of the doorway to the cat room, interactable through the gate.\n5. In the hand of a skeleton in the corner of the hallway leading to the Felcycle.\n6. On a shelf in the back in he Nature statue room.",
 						["coords"] = {
 							{ 70.1, 90.3, 46 },	-- Stair Pebble
 							{ 70.3, 81.0, 46 },	-- Arch Pebble
 							{ 70.5, 61.7, 46 },	-- Statue Pebble
 							{ 56.3, 73.3, 46 },	-- Catgate Pebble
 							{ 70.9, 53.9, 46 },	-- Skelly Pebble
+							{ 47.0, 78.1, 46 },	-- Shelf Pebble
 						},
 					}),
 					n(230232, {	-- Northsea Thug
