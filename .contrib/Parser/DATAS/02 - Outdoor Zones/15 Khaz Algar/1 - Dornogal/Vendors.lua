@@ -8,6 +8,15 @@ local ALGARI_TOKEN_OF_MERIT_S1 = 220769;
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, {
 	m(DORNOGAL, {
 		n(VENDORS, {
+			n(222561, {	-- Agmera <Dungeon Exploration Equipment>
+				["coord"] = { 53.8, 38.2, DORNOGAL },
+				["g"] = {
+					i(225948, {	-- Harbinger's Equipment Chest
+						["timeline"] = { ADDED_11_0_5, REMOVED_11_1_0 },
+						["cost"] = {{ "c", 3008, 350 }},	-- 350x Valorstones
+					}),
+				},
+			}),
 			n(219036, {	-- Ardgaz <Token Exchange>
 				["coord"] = { 54.8, 42.5, DORNOGAL },
 				["g"] = {

@@ -141,6 +141,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.TIMEWALKING, n(TIMEWALKING_HEADER, bubble
 					["timeline"] = { ADDED_9_1_5 },
 					["sym"] = {{ "fill" }},
 				}),
+				i(205208, {	-- Sandy Shalewing (MOUNT!)
+					["cost"] = {{ "c", TIMEWARPED_BADGE, 5000 }},
+					["timeline"] = { ADDED_11_0_7 },
+				}),
 				i(122340, {	-- Timeworn Heirloom Armor Casing
 					["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
 					["sym"] = {{ "fill" }},

@@ -904,9 +904,6 @@ root(ROOTS.Unsorted, {
 			f(MISC, {
 				--- Achievement: Gobblin' with Glublurp ---
 				i(225930),	-- Glimmering Crystal
-				--- Chest ---
-				i(225948),	-- Harbinger's Equipment Chest
-
 				--- Not Sure ---
 				i(226257),	-- Delver's Pouch of Valorstones
 				i(226260),	-- Delver's Pouch of Gold
@@ -916,7 +913,6 @@ root(ROOTS.Unsorted, {
 				i(228416),	-- Steelvein's Manifesto
 				--- Draenei ---
 				i(226524),	-- Partially-Charged Hologem
-
 				--- Delves ---
 				--- Probably NYI ---
 				--- Fungal Folly ---
@@ -925,7 +921,6 @@ root(ROOTS.Unsorted, {
 				i(224767),	-- Giant Candle Parts
 				--- Waterworks ---
 				i(211481),	-- Stomping Shoes
-
 				--- Quest Rewards ---
 				i(220156),	-- Bubbling Wax
 				--- Renown Quest Rewards ---
@@ -934,16 +929,13 @@ root(ROOTS.Unsorted, {
 				--- Attached to Quests via API ---
 				-- i(215359),	-- Very Large Valdrakken Accord Supply Pack
 				-- i(226151),	-- Wax-Coated Coffer Unlocker
-
 				--- Snuffling ---
 				i(224650),	-- Wax-Sealed Pouch
-
 				--- World Quests ---
 				--- Azj ---
 				i(213420),	-- Fungarian Mushroom Cap
 				--- Ringing ---
 				i(224913),	-- Radiant Fuel Cache
-
 				--- Winter Veil ---
 				i(218309),	-- Gently Shaken Gift
 				i(219291),	-- Puntable Baby Greench

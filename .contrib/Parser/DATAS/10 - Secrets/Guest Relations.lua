@@ -1116,7 +1116,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				},
 				["g"] = {
 					--1 O'clock Basin
-					header(HEADERS.Quest, 84676, {	-- The Light of Their Love [Full Basin confirmed from this step.]
+					header(HEADERS.Quest, 84676, {	-- The Light of Their Love
 						["description"] = "Acquire The Light of Their Love buff (spellID 153715) 3 times from visiting areas relevant to Oldgra, Mankrik's wife. Stand at these areas with your Torch of Pyrreth until a stack is gained.\n1. The Humble Monument in Borthern Barrens.\n2. Young Olgra in Draenor.\n3. Decimator Olgra in Maldraxxus.\nFully lights up the 1 O'clock basin.",
 						["provider"] = { "i", 208092 },	-- Torch of Pyrreth
 						["coords"] = {
@@ -1137,7 +1137,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 						},
 					}),
 					--2 O'clock Basin
-					header(HEADERS.Quest, 84677, {	-- Acquire The Key of Shadows [Full Basin confirmed from this step.]
+					header(HEADERS.Quest, 84677, {	-- Acquire The Key of Shadows
 						["description"] = "Requires 1 O'clock basin to have been completed first\nAcquire the Twitching Eyaball or All-Seeing Eyes toys OR find a friend who has one and visit the Ny'Alotha Obelisk above the Seat of Knowledge in the Vale of Eternal Blossoms (BFA).\nHave someone summon a perky pug and use the toys, then /pray to the obelisk to be granted the Key of Shadows.\nThere is a 5-15 minute delay even if you do everything right. Everyone within 10 yards should get the key if anyone in range does it correctly.\nFully lights up the 2 O'clock basin",
 						["providers"] = {
 							{ "n", 153297 },	-- Ny'Alotha Obelisk
@@ -1215,7 +1215,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 								["g"] = { i(228967) },	-- Piece of Hate
 							}),
 							o(466489, {	-- Encrypted Chest
-								["description"] = "Code to open at the console one to the left of the adjacent console: 77777 Bugged?",
+								["description"] = "Code to open at the adjacent decryption console: 115",
 								["provider"] = { "i", 228966 },	-- Starry-Eyed Goggles
 								["coord"] = { 70.3, 55.4, 46 },	-- Karazhan Catacombs
 								["questID"] = 84770,	-- Orb
@@ -1252,7 +1252,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					--8 O'clock Basin
 					--9 O'clock Basin
 					--10 O'clock Basin
-					n(230070, {	-- Red Button [2 Orbs confirmed from this step]
+					n(230070, {	-- Red Button
 						["description"] = "Interacting with the button starts a 20 second timer, refreshing on clicking again. The orb to the left of the button reports how many times the button has been clicked within that window.",
 						["coord"] = { 47.4, 68.3, 46 },	-- Karazhan Catacombs
 						["g"] = {
@@ -1277,11 +1277,6 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 							{ 47.0, 78.1, 46 },	-- Shelf Pebble
 						},
 					}),
-					n(230232, {	-- Northsea Thug
-						["description"] = "In an alcove to the left in the entrance stairwell of the catacombs.",
-						["coord"] = { 67.8, 84.5, 46 },	-- Karazhan Catacombs
-						["g"] = { i(35188) },	-- Nesingwary Lackey Ear
-					}),	-- TODO: Remove if red herring
 					mount(428013),	-- Incognitro, the Indecipherable Felcycle (MOUNT!)
 				},
 			}),
