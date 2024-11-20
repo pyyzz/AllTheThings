@@ -1138,7 +1138,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					}),
 					--2 O'clock Basin
 					header(HEADERS.Quest, 84677, {	-- Acquire The Key of Shadows [Full Basin confirmed from this step.]
-						["description"] = "Requires 1 O'Clock basin to have been completed first\nBuy the Dogg-Saron costume from Vashti the Wandering Merchant in Aszuna OR the Yipp-Saron Costume from Hallow's End (also on AH) OR find a friend who has one and visit the Ny'Alotha Obelisk above the Seat of Knowledge in the Vale of Eternal Blossoms (BFA).\nWith the pet summoned and costumed, /pray to the obelisk to be granted the Key of Shadows.\nThere is a 5-15 minute delay even if you do everything right. Everyone within 10 yards should get the key if anyone in range does it correctly.\nFully lights up the 2 O'clock basin",
+						["description"] = "Requires 1 O'clock basin to have been completed first\nAcquire the Twitching Eyaball or All-Seeing Eyes toys OR find a friend who has one and visit the Ny'Alotha Obelisk above the Seat of Knowledge in the Vale of Eternal Blossoms (BFA).\nHave someone summon a perky pug and use the toys, then /pray to the obelisk to be granted the Key of Shadows.\nThere is a 5-15 minute delay even if you do everything right. Everyone within 10 yards should get the key if anyone in range does it correctly.\nFully lights up the 2 O'clock basin",
 						["providers"] = {
 							{ "n", 153297 },	-- Ny'Alotha Obelisk
 							{ "n", 37865 },	-- Perky Pug
@@ -1147,8 +1147,8 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 							n(153297, {	-- Ny'Alotha Obelisk
 								["coord"] = { 83.7, 27.6, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 								["cost"] = {
-									{ "i", 229413, 1 },	-- "Dogg-Saron" Costume
-									{ "i", 116812, 1 },	-- "Yipp-Saron" Costume
+									{ "i", 175140, 1 },	-- All Seeing Eyes
+									{ "i", 168123, 1 },	-- Twitching Eyeball
 								},
 								["g"] = {
 									i(53156, {	-- Key of Shadows
@@ -1163,7 +1163,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					}),
 					--3 O'clock Basin
 					header(HEADERS.Item, 228967, {	-- Header will use HQT once discovered
-						["description"] = "Requires 2 O'Clock basin to have been completed first\n1. Use the Key of Shadows to enter the room to the left of the Red Button. Fish up an Astral key from the bowl on the left bookshelf. Open the Astral chest in the same room, use the goggles.\n2. Interact with any of the consoles around the catacombs until you get a new actionbar. Can't see it? Look in your spellbook for a Number Sequence spell. Click the console again to submit your code.\n3. Enter the codes on adjacent consoles to open each of the chests, each Piece of Hate will give you an orb at the 3 O'clock basin.",
+						["description"] = "Requires 2 O'clock basin to have been completed first\n1. Use the Key of Shadows to enter the room to the left of the Red Button. Fish up an Astral key from the bowl on the left bookshelf. Open the Astral chest in the same room, use the goggles.\n2. Interact with any of the consoles around the catacombs until you get a new actionbar. Can't see it? Look in your spellbook for a Number Sequence spell. Click the console again to submit your code.\n3. Enter the codes on adjacent consoles to open each of the chests, each Piece of Hate will give you an orb at the 3 O'clock basin.",
 						["sourceQuest"] = 84677,	-- Acquire The Key of Shadows
 						["provider"] = { "i", 53156 },	-- Key of Shadows
 						["g"] = {
@@ -1287,6 +1287,18 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			}),
 			o(475130, {	-- Hidden Hatch
 				["description"] = "Behind an energy conduit in an alcove to the right when first entering the Mechanar.",
+			}),
+			n(230310, {	-- Pointless Treasure Salesman
+				["description"] = "Inside the Booty Bay goblin statue behind chests in the back.",
+				["coord"] = { 33.6, 63.5, THE_CAPE_OF_STRANGLETHORN },
+				["g"] = {
+					i(228996, {	-- Relic of Crystal Connections
+						["cost"] = {
+							{ "i", 228995, 1 },	-- Golden Muffin
+							{ "i", 228967, 9 },	-- Piece of Hate
+						},
+					}),
+				},
 			}),
 		}),
 	},
