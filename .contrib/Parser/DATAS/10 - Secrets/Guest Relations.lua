@@ -1120,8 +1120,19 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					}),
 					--11 O'clock Basin
 					--12 O'clock Basin
+					o(475116, {	-- Ordinary Pebble
+						["description"] = "These pebbles can be found throughout the catacombs.\n1. Halfway down the entrance stairwell, behind a candelabra sitting on the bannister.\n2. Behind the frame of the archway halfway down the entrance stairwell, opposite the skeleton sitting on the other side of the arch.\n3. To the left of the tilted Replica Owl of the Watchers in the first room after the entrance stairs.\n4. On the inside corner of the doorway to the cat room, interactable through the gate.\n5. In the hand of a skeleton in the corner of the hallway leading to the Felcycle.",
+						["coords"] = {
+							{ 70.1, 90.3, 46 },	-- Stair Pebble
+							{ 70.3, 81.0, 46 },	-- Arch Pebble
+							{ 70.5, 61.7, 46 },	-- Statue Pebble
+							{ 56.3, 73.3, 46 },	-- Catgate Pebble
+							{ 70.9, 53.9, 46 },	-- Skelly Pebble
+						},
+					}),
 					n(230232, {	-- Northsea Thug
 						["description"] = "In an alcove to the left in the entrance stairwell of the catacombs.",
+						["coord"] = { 67.8, 84.5, 46 },	-- Karazhan Catacombs
 						["g"] = { i(35188) },	-- Nesingwary Lackey Ear
 					}),
 					mount(428013),	-- Incognitro, the Indecipherable Felcycle (MOUNT!)
@@ -1151,5 +1162,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(83824, name(HEADERS.Item, 226242)),	-- Triggered when restoring the 'Green Hills of Stranglethorn' by gathering all the missing pages.
 		-- Felcycle HQTs
 		q(84718),	-- Flags and unflags CONSTANTLY all over the catacombs.
+		q(85170),	-- Triggered on interacting with an ordinary pebble in the catacombs. Doesn't reliably trigger on first click, or from specific pebble locations.
+		q(85171),	-- Triggered on interacting with an ordinary pebble in the catacombs. Doesn't reliably trigger on first click, or from specific pebble locations.
+		q(85172),	-- Triggered on interacting with an ordinary pebble in the catacombs. Doesn't reliably trigger on first click, or from specific pebble locations.
 	}),
 })));
