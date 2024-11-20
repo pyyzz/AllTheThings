@@ -2978,7 +2978,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(7966),	-- Oculeth's Workshop
 	exploration(7967),	-- Boost Experience [TEMP NAME]
 	exploration(7969),	-- Karazhan
-	exploration(7971),	-- Karazhan Catacombs
 	exploration(7972),	-- Marrowden
 	exploration(7973),	-- The Veiled Isles
 	exploration(7974),	-- Ursoc's Lair
