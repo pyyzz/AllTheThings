@@ -1083,7 +1083,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				["g"] = {
 					--1 O'clock Basin
 					header(HEADERS.Quest, 84676, {	-- The Light of Their Love [Full Basin confirmed from this step.]
-						["description"] = "Acquire The Light of Their Love buff (spellID 153715) 3 times from visiting areas relevant to Oldgra, Mankrik's wife. Stand at these aress with your Torch of Pyrreth until a stack is gained.\n1. The Humble Monument in Borthern Barrens.\n2. Young Olgra in Draenor.\n3. Decimator Olgra in Maldraxxus.\nFully lights up the 1 O'clock basin.",
+						["description"] = "Acquire The Light of Their Love buff (spellID 153715) 3 times from visiting areas relevant to Oldgra, Mankrik's wife. Stand at these areas with your Torch of Pyrreth until a stack is gained.\n1. The Humble Monument in Borthern Barrens.\n2. Young Olgra in Draenor.\n3. Decimator Olgra in Maldraxxus.\nFully lights up the 1 O'clock basin.",
 						["provider"] = { "n", 208092 },	-- Torch of Pyrreth
 						["coords"] = {
 							{ 55.0, 40.2, NORTHERN_BARRENS },
@@ -1104,7 +1104,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					}),
 					--2 O'clock Basin
 					header(HEADERS.Quest, 84677, {	-- Pray with Dogg'Saron [Full Basin confirmed from this step.]
-						["description"] = "Requires 1 O'Clock basin to have been completed first\nBuy the Dogg-Saron costume from Vashti the Wandering Merchant in Aszuna or find a friend who has and visit the Ny'Alotha Obelisk above the Seat of Knowledge in the Vale of Eternal Blossoms.\nWith the pet summoned and costumed, /pray to the Obelisk to be granted the Key of Shadows.\nFully lights up the 2 O'clock basin",
+						["description"] = "Requires 1 O'Clock basin to have been completed first\nBuy the Dogg-Saron costume from Vashti the Wandering Merchant in Aszuna or find a friend who has and visit the Ny'Alotha Obelisk above the Seat of Knowledge in the Vale of Eternal Blossoms.\nWith the pet summoned and costumed, /pray to the obelisk to be granted the Key of Shadows.\nFully lights up the 2 O'clock basin",
 						["sourceQuest"] = 84676,	-- The Light of Their Love
 						["providers"] = {
 							{ "n", 153297 },	-- Ny'Alotha Obelisk
@@ -1118,7 +1118,8 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 								},
 								["cost"] = {
 									{ "i", 229413, 1 }, -- "Dogg-Saron" Costume
-								},
+									--{ "i", 168123, 1 },	-- Twitching Eyeball
+								},-- TODO: Disputed whether costume, eyeball toy or both are required to get the key, whole step seems buggy.
 								["g"] = {
 									i(53156),	-- Key of Shadows
 								},
@@ -1179,7 +1180,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 						["description"] = "In an alcove to the left in the entrance stairwell of the catacombs.",
 						["coord"] = { 67.8, 84.5, 46 },	-- Karazhan Catacombs
 						["g"] = { i(35188) },	-- Nesingwary Lackey Ear
-					}),
+					}),	-- TODO: Remove if red herring
 					mount(428013),	-- Incognitro, the Indecipherable Felcycle (MOUNT!)
 				},
 			}),
