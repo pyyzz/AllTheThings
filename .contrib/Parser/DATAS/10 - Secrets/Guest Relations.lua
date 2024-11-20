@@ -1082,7 +1082,52 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				},
 				["g"] = {
 					--1 O'clock Basin
+					header(HEADERS.Quest, 84676, {	-- The Light of Their Love [Full Basin confirmed from this step.]
+						["description"] = "Acquire The Light of Their Love buff (spellID 153715) 3 times from visiting areas relevant to Oldgra, Mankrik's wife. Stand at these aress with your Torch of Pyrreth until a stack is gained.\n1. The Humble Monument in Borthern Barrens.\n2. Young Olgra in Draenor.\n3. Decimator Olgra in Maldraxxus.\nFully lights up the 1 O'clock basin.",
+						["provider"] = { "n", 208092 },	-- Torch of Pyrreth
+						["coords"] = {
+							{ 55.0, 40.2, NORTHERN_BARRENS },
+							{ 74.2, 37.5, DRAENOR_NAGRAND },	-- Before (35170) Consumed by Vengence is completed
+							{ 49.2, 48.0, DRAENOR_NAGRAND },	-- After  (35170) Consumed by Vengence is completed
+							{ 27.3, 61.3, MALDRAXXUS },
+						},
+						["crs"] = {
+							--195119 OBJECTID	-- Humble Monument
+							82688,	-- Olgra
+							175815,	-- Decimator Olgra
+						},
+						["g"] = {
+							hqt(84676, {
+								["name"] = "Acquire The Light of Their Love buff stacked 3 times."
+							})
+						},
+					}),
 					--2 O'clock Basin
+					header(HEADERS.Quest, 84677, {	-- Pray with Dogg'Saron [Full Basin confirmed from this step.]
+						["description"] = "Requires 1 O'Clock basin to have been completed first\nBuy the Dogg-Saron costume from Vashti the Wandering Merchant in Aszuna or find a friend who has and visit the Ny'Alotha Obelisk above the Seat of Knowledge in the Vale of Eternal Blossoms.\nWith the pet summoned and costumed, /pray to the Obelisk to be granted the Key of Shadows.\nFully lights up the 2 O'clock basin",
+						["sourceQuest"] = 84676,	-- The Light of Their Love
+						["providers"] = {
+							{ "n", 153297 },	-- Ny'Alotha Obelisk
+							{ "n", 37865 },	-- Perky Pug
+						},
+						["g"] = {
+							n(153297, {	-- Ny'Alotha Obelisk
+								["coords"] = {
+									{ 83.7, 27.6, VALE_OF_ETERNAL_BLOSSOMS },
+									{ 83.7, 27.6, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
+								},
+								["cost"] = {
+									{ "i", 229413, 1 }, -- "Dogg-Saron" Costume
+								},
+								["g"] = {
+									i(53156),	-- Key of Shadows
+								},
+							}),
+							hqt(84677, {
+								["name"] = "Acquire The Key of Shadows from the Ny'Alotha Obelisk."
+							}),
+						},
+					}),
 					--3 O'clock Basin
 					--4 O'clock Basin
 					--5 O'clock Basin
