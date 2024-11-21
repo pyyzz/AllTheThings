@@ -460,22 +460,20 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				["sourceQuest"] = 85475,	-- Secret in the Sands
 				["provider"] = { "n", 226684 },	-- Maru <Junior Secret Sleuf>
 				["coord"] = { 63.2, 52.4, TANARIS },
-				["g"] = { -- TODO: Test if objects can be skipped by talking to Yennu directly
+				["g"] = {
 					i(231808),	-- Ancient Treasure Notes (QI!)
-					--[[ Need ObjectIDs
-					o(999, {	-- Ancient Treasure Map
-						["description"] = "In the back right of the Ruins of Uldum in the Valley of the Watchers."
+					o(476815, {	-- Ancient Treasure Map
+						["description"] = "In the back right of the Ruins of Uldum in the Valley of the Watchers.",
 						["coord"] = { 37.6, 84.1, TANARIS },
 					}),
-					o(999, {	-- Ancient Treasure Note
-						["description"] = "By a rock to the south-east of Dunemaul Compound's adjacent mountain.."
+					o(477605, {	-- Ancient Treasure Note
+						["description"] = "By a rock to the south-east of Dunemaul Compound's adjacent mountain.",
 						["coord"] = { 47.5, 56.5, TANARIS },
 					}),
-					o(999, {	-- Ancient Treasure Note
-						["description"] = "Around the wall to the left of Zul'Farakk's entrance.."
+					o(477609, {	-- Ancient Treasure Note
+						["description"] = "Around the wall to the left of Zul'Farakk's entrance.",
 						["coord"] = { 38.8, 22.1, TANARIS },
 					}),
-					]]--
 					n(232863, {	-- Yennu
 						["description"] = "Inside Gadgetzan's Inn.",
 						["coord"] = {  52.7, 26.9, TANARIS },
@@ -1046,6 +1044,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					["g"] = {
 						i(228772, {	-- Mysterious Bones
 							["description"] = "Use the bones at 37.3 47.7 in Stormheim by an Unmarked Grave to receive the crate.",
+							["questID"] = 84625,
 							["g"] = { i(228770) },	-- Surprisingly Pristine Celebration Crate (QS!)
 						}),
 					},
