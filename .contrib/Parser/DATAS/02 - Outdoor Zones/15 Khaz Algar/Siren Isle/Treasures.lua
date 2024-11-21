@@ -9,20 +9,21 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			--o(500683),	-- Seafarer's Cache
 			--o(500686),	-- Seafarer's Cache
 			--
-			o(505503, {	--  Ashvane Issued Workboots
-				-- TODO: unsure if something needed in addition or it just exist here now
-				["coord"] = { 41.6, 45.8, SIREN_ISLE },
-				["questID"] = 86765,
-				["g"] = {
-					i(233916), -- Ashvane Issued Workboots (COSMETIC!)
-					--i(191058), -- Dilapidated Parchment: Bottom Half (NYI)
-					--i(191059), -- Dilapidated Parchment: Top Half (NYI)
-				},
-			}),
+			--o(??, {	--  ??
+			--	-- TODO: unsure if something needed in addition or it just exist here now
+			--	-- TODO: with build 57641 reward for this questID treasure is changed
+			--	["coord"] = { 74.1, 53.4, SIREN_ISLE },
+			--	["questID"] = 86765,
+			--	["g"] = {
+			--		i(233910), -- Salt-Stained Sweatcap (COSMETIC!)
+			--	},
+			--}),
 			o(464233, {	--  Bilge Rat Supply Chest
+				-- Pirates
 				["coord"] = { 62.4, 90.8, SIREN_ISLE },
 				["questID"] = 84529,
 				["cost"] = {{ "i", 228621, 1 }},	-- Bilge Rat Supply Key
+				["isWeekly"] = true,
 			}),
 			o(465272, {	--  Empty Kaja'Cola Can
 				["coord"] = { 60.8, 62.9, SIREN_ISLE },
@@ -50,9 +51,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				},
 			}),
 			o(463539, {	-- Pilfered Earthen Chest
+				-- Naga
 				["coord"] = { 68.4, 94.4, SIREN_ISLE },
 				["questID"] = 84527,
-				--["isWeekly"] = true,	-- repeatble after full circle of theme? naga (this) -> pirates -> vrykul
+				["isWeekly"] = true,
 				["g"] = {
 					i(229181),	-- Ordained Forge Maul
 				},

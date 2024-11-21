@@ -46,7 +46,6 @@ root(ROOTS.Unsorted, {
 			i(229811),	-- Frost-Etched Dagger
 			i(230207),	-- N.U.K.U.L.A.R. Target Painter
 			i(230211),	-- Singing Citrine
-			i(230773),	-- Overcharged Battery
 			i(231751),	-- Earthen Backpack
 			i(232439),	-- Rune-Seared Spear
 			i(232519),	-- Razeshi B.
@@ -292,11 +291,8 @@ root(ROOTS.Unsorted, {
 			i(233815),	-- [PH] Sailor's Mop
 			i(233820),	-- [PH] Iron Mallet
 			i(233821),	-- [PH] Smith's Tongs
-			i(233823),	-- [PH] Arathor Mallet
 			i(233825),	-- [PH] Crafter's Tool
 			i(233827),	-- [PH] Crafter's Mallet
-			i(233835),	-- [PH] Arathor Tongs
-			i(233836),	-- [PH] Arathor Chisel
 			i(233838),	-- [PH] Chest
 			i(233839),	-- [PH] Chest
 			i(233840),	-- [PH] Chest
@@ -442,7 +438,6 @@ root(ROOTS.Unsorted, {
 			i(234313),	-- [DNT] Item
 			i(234328),	-- Torrential Fragment
 			i(234379),	-- Crackleroar
-			i(234395),	-- Skitterbite
 			i(234396),	-- Teatuft Tamer
 			i(234397),	-- Fullbelly Rollingpaw
 			i(234398),	-- Festive Green Holiday Belt

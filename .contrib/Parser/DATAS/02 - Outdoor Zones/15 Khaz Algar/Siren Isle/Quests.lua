@@ -17,7 +17,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			q(84940, {	-- Friendly Competition
 				["sourceQuests"] = { 84720 },	-- To the Siren Isle!
 				["provider"] = { "n", 230235 },	-- Skaggit
-				["coord"] = { 69.2, 48.0, SIREN_ISLE },
+				["coord"] = { 70.3, 52.4, SIREN_ISLE },
 			}),
 			q(84721, {	-- To Scan a Crystal
 				["sourceQuests"] = { 84720 },	-- To the Siren Isle!
@@ -169,8 +169,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				-- TODO: it look like SHOULD BE same as all weekly quests but it is not marked as such in-game
 				["sourceQuests"] = { 84725 },	-- The Circlet Calls
 				["provider"] = { "n", 232255 },	-- Benny Springjet
-				["coord"] = { 41.9, 68.0, SIREN_ISLE },
-				--["isWeekly"] = true,
+				["coord"] = { 42.3, 49.1, SIREN_ISLE },
 				["g"] = {
 					i(230795),	-- Experimental Go-Pack (QI!)
 				},
@@ -377,9 +376,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["provider"] = { "n", 229716 },	-- Stellin Verasa
 				["coord"] = { 71.0, 39.6, SIREN_ISLE },
 				["g"] = {
-					o(499443, {	-- Faded Journal Page
-						i(232651),	-- Faded Journal Page (QI!)
-					}),
+					i(235543),	-- Faded Journal Page (QI!)
+					i(235545),	-- Stained Journal Page (QI!)
+					i(235544),	-- Soggy Journal Page (QI!)
+					i(235546),	-- Torn Journal Page (QI!)
+					i(235547),	-- Weathered Journal Page (QI!)
+					--o(499443, {	-- Faded Journal Page
+					--	i(232651),	-- Faded Journal Page (QI!)
+					--	changed for some reason?
+					--}),
 				},
 			}),
 			q(85572, {	-- A Group Effort
@@ -415,7 +420,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					i(234443),	-- Meaty Ration (QI!)
 				},
 			}),
-			q(86483, {	-- Temper Like A Tempest
+			q(86484, {	-- Temper Like A Tempest
 				["sourceQuests"] = {
 					86483,	-- Snap To It
 					--86486,	-- Hungry, Hungry Snapdragon (TODO: It take 2 (same) dailies for this quest to pop)
@@ -433,6 +438,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["providers"] = {
 					{ "n", 235237 },	-- Growing Snapdragon Runt
 					{ "n", 235243 },	-- Maturing Prismatic Snapdragon
+					{ "n", 235250 },	-- Maturing Prismatic Snapdragon
 				},
 				["coord"] = { 70.9, 48.6, SIREN_ISLE },
 				["isDaily"] = true,
