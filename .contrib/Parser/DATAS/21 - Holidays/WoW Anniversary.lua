@@ -2907,7 +2907,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						i(224561),	-- Commendation of the Hydraxian Waterlords
 						i(224571),	-- Commendation of the Thorium Brotherhood
 						i(224566),	-- Commendation of the Timbermaw Hold
-						i(224565),	-- Commendation of the Wintersaber Trainers
+						i(224565, {	-- Commendation of the Wintersaber Trainers
+							["races"] = ALLIANCE_ONLY,
+						}),
 						i(224570),	-- Commendation of the Zandalar Tribe
 					})),
 					filter(MISC, {	-- Might be unecessary..
@@ -3043,6 +3045,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 					}),
 					i(232598, {	-- Bag of Timewarped Badges
 						["cost"] = {{"c", BRONZE_TOKEN, 1}},
+						["g"] = {
+							currency(TIMEWARPED_BADGE),
+						},
+					}),
+					i(235505, {	-- Satchel of Timewarped Badges
+						["cost"] = {{"c", BRONZE_TOKEN, 5}},
+						["g"] = {
+							currency(TIMEWARPED_BADGE),
+						},
+					}),
+					i(235506, {	-- Box of Timewarped Badges
+						["cost"] = {{"c", BRONZE_TOKEN, 25}},
 						["g"] = {
 							currency(TIMEWARPED_BADGE),
 						},
