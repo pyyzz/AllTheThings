@@ -1138,7 +1138,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					}),
 					--2 O'clock Basin
 					header(HEADERS.Quest, 84677, {	-- Acquire The Key of Shadows
-						["description"] = "Requires 1 O'clock basin to have been completed first\nAcquire the Twitching Eyaball or All-Seeing Eyes toys OR find a friend who has one and visit the Ny'Alotha Obelisk above the Seat of Knowledge in the Vale of Eternal Blossoms (BFA).\nHave someone summon a perky pug and use the toys, then /pray to the obelisk to be granted the Key of Shadows.\nThere is a 5-15 minute delay even if you do everything right. Everyone within 10 yards should get the key if anyone in range does it correctly.\nFully lights up the 2 O'clock basin",
+						["description"] = "Requires 1 O'clock basin to have been completed first\n1. Acquire the Twitching Eyaball or All-Seeing Eyes toys\n2. Acquire a Perky Pug with either the Dogg-Saron costume from Vashti the Wandering Merchant in Aszuna or the Yipp-Saron costume from Hallow's End (or the AH.)\n3. Bring these items OR find a friend who has them and visit the Ny'Alotha Obelisk above the Seat of Knowledge in the Vale of Eternal Blossoms (BFA).\n4. Have someone summon a perky pug and use the toys, then /pray in front of the obelisk to be granted the Key of Shadows.\nThere is a 5-15 minute delay even if you do everything right. Everyone within 10 yards should get the key if anyone in range does it correctly.\nFully lights up the 2 O'clock basin",
 						["providers"] = {
 							{ "n", 153297 },	-- Ny'Alotha Obelisk
 							{ "n", 37865 },	-- Perky Pug
@@ -1148,7 +1148,9 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 								["coord"] = { 83.7, 27.6, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 								["cost"] = {
 									{ "i", 175140, 1 },	-- All Seeing Eyes
+									{ "i", 229413, 1 },	-- "Dogg-Saron" Costume
 									{ "i", 168123, 1 },	-- Twitching Eyeball
+									{ "i", 116812, 1 },	-- "Yipp-Saron" Costume
 								},
 								["g"] = {
 									i(53156, {	-- Key of Shadows
