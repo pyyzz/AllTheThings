@@ -262,6 +262,7 @@ root(ROOTS.Zones, {
 				}),
 				explorationHeader({
 					exploration(3839),	-- Abandoned Armory
+					visit_exploration(3623,{coord={30.3,58.9,NAGRAND}}),    -- Aeris Landing
 					exploration(3610),	-- Burning Blade Ruins
 					exploration(3611),	-- Clan Watch
 					exploration(3636),	-- Elemental Plateau
@@ -285,6 +286,7 @@ root(ROOTS.Zones, {
 					-- #endif
 					exploration(3622),	-- Sunspring Post
 					exploration(3626),	-- Telaar
+					visit_exploration(3705,{coord={52.2,68.7,NAGRAND}}),    -- Telaari Basin
 					exploration(3760),	-- The Barrier Hills
 					exploration(3788),	-- The Low Path
 					exploration(3700),	-- The Ring of Blood

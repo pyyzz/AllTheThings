@@ -2882,7 +2882,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				exploration(979),	-- Sandsorrow Watch
 				visit_exploration(1940,{coord={62.3,58.9,TANARIS}}),    -- Southbreak Shore
 				exploration(992),	-- Southmoon Ruins
-				exploration(977),	-- Steamwheedle Port
+				visit_exploration(977,{coord={64.9,21.8,TANARIS}}),    -- Steamwheedle Port
 				exploration(981),	-- The Gaping Chasm
 				exploration(982),	-- The Noxious Lair
 				exploration(980),	-- Thistleshrub Valley

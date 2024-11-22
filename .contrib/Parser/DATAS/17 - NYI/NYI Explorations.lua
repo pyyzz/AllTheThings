@@ -221,8 +221,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(1477),	-- The Temple of Atal'Hakkar
 	exploration(1518),	-- Not Used Deadmines
 	exploration(1557),	-- Splithoof Hold
-	exploration(1577),	-- The Cape of Stranglethorn
-	exploration(1578),	-- Southern Savage Coast
 	exploration(1579),	-- Unused The Deadmines 002
 	exploration(1580),	-- Unused Ironclad Cove 003
 	exploration(1582),	-- Ironclad Cove
@@ -292,7 +290,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(2274),	-- Mazra'Alor
 	exploration(2278),	-- Scourgehold
 	exploration(2280),	-- DO Not USE
-	exploration(2298),	-- Caer Darrow
 	exploration(2299),	-- Darrowmere Lake
 	exploration(2317),	-- South Seas
 	exploration(2318),	-- The Great Sea
@@ -472,7 +469,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(3618),	-- Gruul's Lair
 	exploration(3619),	-- Auren Ridge
 	exploration(3620),	-- Auren Falls
-	exploration(3623),	-- Aeris Landing
 	exploration(3632),	-- Shamanar
 	exploration(3633),	-- Ancestral Grounds
 	exploration(3635),	-- Unused2
@@ -492,7 +488,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(3701),	-- Arena Floor
 	exploration(3702),	-- Blade's Edge Arena
 	exploration(3704),	-- The Shepherd's Gate
-	exploration(3705),	-- Telaari Basin
 	exploration(3706),	-- The Dark Portal
 	exploration(3707),	-- Alliance Base
 	exploration(3708),	-- Horde Encampment
@@ -1266,7 +1261,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(5299),	-- Lorthuna's Gate
 	exploration(5300),	-- Verlok Stand
 	exploration(5301),	-- Grolluk's Grave
-	exploration(5304),	-- Swiftgear Station
 	exploration(5306),	-- Hull of The Foebreaker
 	exploration(5311),	-- Transport: Onyxia/Nefarian Elevator
 	exploration(5314),	-- Stormwind Lake
@@ -1366,7 +1360,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(5493),	-- The Devouring Breach
 	exploration(5495),	-- Gnomeregan
 	exploration(5497),	-- Fuselight-by-The-Sea
-	exploration(5500),	-- Ramkahen Legion Outpost
 	exploration(5501),	-- Shrine of The Elements
 	exploration(5502),	-- Thundermar Ruins
 	exploration(5503),	-- Altar of Ascension
@@ -1441,7 +1434,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(5581),	-- The Stonecore Entrance
 	exploration(5584),	-- Altar of Twilight
 	exploration(5585),	-- Gate of Hamatep
-	exploration(5586),	-- Vir'naal River
 	exploration(5588),	-- Twilight Aerie
 	exploration(5592),	-- The Hidden Clutch
 	exploration(5593),	-- The Nosebleeds
@@ -1807,7 +1799,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(6175),	-- Seeker's Folly
 	exploration(6176),	-- Coldridge Valley
 	exploration(6179),	-- Owen's Wishing Well
-	exploration(6180),	-- Neverest Pinnacle
 	exploration(6181),	-- Waterspeaker's Sanctuary
 	exploration(6182),	-- Mogu'shan Palace
 	exploration(6184),	-- Seeker's Point
@@ -2010,7 +2001,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(6533),	-- The Skyfire
 	exploration(6534),	-- Twinspire Keep Interior
 	exploration(6535),	-- Den of Defiance
-	exploration(6538),	-- Autumnshade Ridge
 	exploration(6539),	-- Sunblossom Hill
 	exploration(6540),	-- Spiritsong's Rest
 	exploration(6541),	-- Applebloom Tavern
@@ -5759,7 +5749,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(14620),	-- Blue Dragon Choice
 	exploration(14643),	-- Amirdrassil, the Dream's Hope
 	exploration(14645),	-- Deepflayer Nest
-	exploration(14650),	-- Ruins of Drekazera
 	exploration(14654),	-- Slitherdrake Roost
 	exploration(14657),	-- WB New Hires
 	exploration(14663),	-- Aberrus, the Shadowed Crucible
@@ -5791,7 +5780,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(14707),	-- Amy Test Forest
 	exploration(14708),	-- Amy Test Town
 	exploration(14709),	-- Shane Test Area
-	exploration(14710),	-- Gaze of Neltharion
 	exploration(14716),	-- Burning Oasis
 	exploration(14718),	-- Warder's Solace
 	exploration(14719),	-- Ebon Landing
