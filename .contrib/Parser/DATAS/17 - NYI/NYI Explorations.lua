@@ -499,8 +499,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(3715),	-- The Steamvault
 	exploration(3716),	-- The Underbog
 	exploration(3717),	-- The Slave Pens
-	exploration(3721),	-- The Crumbling Waste
-	exploration(3728),	-- The Vortex Fields
 	exploration(3733),	-- The Violet Tower
 	exploration(3735),	-- Voidwind Plateau
 	exploration(3751),	-- Sunfire Point
@@ -521,9 +519,7 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(3809),	-- Southern Rampart
 	exploration(3817),	-- Testing
 	exploration(3820),	-- Eye of The Storm
-	exploration(3824),	-- Bloodmaul Ravine
 	exploration(3825),	-- Dragons' End
-	exploration(3826),	-- Daggermaw Canyon
 	exploration(3834),	-- Ridge of Madness
 	exploration(3835),	-- Dustquill Ravine
 	exploration(3836),	-- Magtheridon's Lair
@@ -537,7 +533,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(3854),	-- Protectorate Watch Post
 	exploration(3855),	-- Circle of Blood Arena
 	exploration(3856),	-- Elrendar Crossing
-	exploration(3862),	-- Churning Gulch
 	exploration(3869),	-- Mage Tower
 	exploration(3870),	-- Blood Elf Tower
 	exploration(3871),	-- Draenei Ruins
@@ -567,7 +562,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(3926),	-- Shattered Plains
 	exploration(3929),	-- The Path of Conquest
 	exploration(3930),	-- Eclipsion Fields
-	exploration(3931),	-- Bladespire Grounds
 	exploration(3936),	-- Deathforge Tower
 	exploration(3937),	-- Slag Watch
 	exploration(3940),	-- The Fetid Pool
@@ -586,9 +580,7 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(3955),	-- Hellfire Basin
 	exploration(3956),	-- The Shadow Stair
 	exploration(3959),	-- Black Temple
-	exploration(3960),	-- Soulgrinder's Barrow
 	exploration(3961),	-- Sorrow Wing Point
-	exploration(3962),	-- Vim'gol's Circle
 	exploration(3963),	-- Dragonspine Ridge
 	exploration(3965),	-- Netherwing Mines
 	exploration(3966),	-- Dragonmaw Base Camp
@@ -1468,7 +1460,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(5659),	-- The Hole
 	exploration(5660),	-- Obsidian Lair
 	exploration(5664),	-- Iso'rath
-	exploration(5665),	-- Sunwatcher's Ridge
 	exploration(5667),	-- Cannon's Inferno
 	exploration(5670),	-- Oasis of Vir'sar
 	exploration(5672),	-- Chamber of The Moon
@@ -1477,7 +1468,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(5675),	-- Arikara's Needle
 	exploration(5676),	-- Irontree Clearing
 	exploration(5678),	-- Sindweller's Rise
-	exploration(5679),	-- Neferset City Outskirts
 	exploration(5680),	-- Wildhammer Flag Room
 	exploration(5681),	-- Dragonmaw Flag Room
 	exploration(5682),	-- Thunderstrike Mountain
@@ -1485,7 +1475,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(5685),	-- Pilgrim's Precipice
 	exploration(5686),	-- Bashal'Aran Collapse
 	exploration(5687),	-- The Howling Oak
-	exploration(5688),	-- Mount Akher
 	exploration(5690),	-- Arsad Trade Post
 	exploration(5691),	-- Darkspear Shore
 	exploration(5692),	-- The Deathknell Graves
@@ -1510,7 +1499,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(5714),	-- Stormglen Village
 	exploration(5715),	-- Vir'naal Oasis
 	exploration(5716),	-- Vir'naal Lake
-	exploration(5717),	-- Vir'naal River Delta
 	exploration(5718),	-- Fortune's Fist
 	exploration(5719),	-- The Commons
 	exploration(5720),	-- Duskmist Shore
@@ -1623,7 +1611,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(5850),	-- Silken Shore
 	exploration(5852),	-- Wreck of The Vanguard
 	exploration(5856),	-- Shrine of Remembrance
-	exploration(5857),	-- Camp Gormal
 	exploration(5859),	-- The Elders' Path
 	exploration(5860),	-- Liang's Retreat
 	exploration(5861),	-- Darkmoon Island
@@ -1734,8 +1721,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(6050),	-- Spiritsong River
 	exploration(6051),	-- Temple of Kotmogu
 	exploration(6052),	-- Scarlet Halls
-	exploration(6053),	-- Ruins Rise
-	exploration(6054),	-- Winterbough Glade
 	exploration(6060),	-- Temple of Kotmogu
 	exploration(6061),	-- Temple of Kotmogu
 	exploration(6066),	-- Scholomance
@@ -1743,7 +1728,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(6069),	-- Inkgill Mere
 	exploration(6071),	-- The Drunken Hozen
 	exploration(6072),	-- Lao & Son's Yakwash
-	exploration(6073),	-- The Autumn Plains
 	exploration(6075),	-- The Golden Gateway
 	exploration(6078),	-- Seat of The Spirit Waker
 	exploration(6079),	-- The Grummle Bazaar
@@ -1799,7 +1783,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(6175),	-- Seeker's Folly
 	exploration(6176),	-- Coldridge Valley
 	exploration(6179),	-- Owen's Wishing Well
-	exploration(6181),	-- Waterspeaker's Sanctuary
 	exploration(6182),	-- Mogu'shan Palace
 	exploration(6184),	-- Seeker's Point
 	exploration(6186),	-- Neverest Basecamp
@@ -1913,7 +1896,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(6424),	-- Sra'vess Rootchamber
 	exploration(6425),	-- Forgotten Mire
 	exploration(6426),	-- Brewmoon Festival
-	exploration(6427),	-- Inkgill Mere
 	exploration(6428),	-- The Ancient Passage
 	exploration(6430),	-- Anglers Expedition
 	exploration(6431),	-- Seaspittle Cove
@@ -1941,7 +1923,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(6462),	-- Path of Conquerors
 	exploration(6463),	-- Dustwallow Marsh
 	exploration(6466),	-- Cavern of Endless Echoes
-	exploration(6467),	-- Mogu'shan Terrace
 	exploration(6468),	-- The Emperor's Reach
 	exploration(6469),	-- Howlingwind Trail
 	exploration(6470),	-- The Gilded Foyer
@@ -2001,7 +1982,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(6533),	-- The Skyfire
 	exploration(6534),	-- Twinspire Keep Interior
 	exploration(6535),	-- Den of Defiance
-	exploration(6539),	-- Sunblossom Hill
 	exploration(6540),	-- Spiritsong's Rest
 	exploration(6541),	-- Applebloom Tavern
 	exploration(6542),	-- Terrace of Gurthan

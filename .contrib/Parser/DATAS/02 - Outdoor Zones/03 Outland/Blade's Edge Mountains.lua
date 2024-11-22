@@ -143,14 +143,18 @@ root(ROOTS.Zones, {
 					-- #if AFTER CATA
 					exploration(3867),	-- Bladed Gulch (Wrath Classic: Can't be collected)
 					-- #endif
+					visit_exploration(3931,{coord={44.6,58.3,BLADES_EDGE_MOUNTAINS}}),    -- Bladespire Grounds
 					exploration(3773),	-- Bladespire Hold
 					exploration(3777),	-- Bloodmaul Camp
 					exploration(3776),	-- Bloodmaul Outpost
+					visit_exploration(3824,{coord={42.0,81.1,BLADES_EDGE_MOUNTAINS}}),    -- Bloodmaul Ravine
 					-- #if AFTER CATA
 					exploration(3863),	-- Broken Wilds (Wrath Classic: Can't be collected)
 					-- #endif
+					visit_exploration(3862,{coord={49.6,42.8,BLADES_EDGE_MOUNTAINS}}),    -- Churning Gulch
 					exploration(3775),	-- Circle of Blood
 					exploration(3865),	-- Crystal Spine
+					visit_exploration(3826,{coord={52.2,39.1,BLADES_EDGE_MOUNTAINS}}),    -- Daggermaw Canyon
 					exploration(3831),	-- Death's Door
 					exploration(3778),	-- Draenethyst Mine
 					exploration(3951),	-- Evergrove
@@ -172,6 +176,7 @@ root(ROOTS.Zones, {
 					exploration(3866),	-- Skald (Wrath Classic: Can't be collected)
 					-- #endif
 					exploration(3964),	-- Skyguard Outpost
+					visit_exploration(3960,{coord={60.4,23.2,BLADES_EDGE_MOUNTAINS}}),    -- Soulgrinder's Barrow
 					exploration(3772),	-- Sylvanaar
 					exploration(3771),	-- The Living Grove
 					exploration(3769),	-- Thunderlord Stronghold
@@ -179,6 +184,7 @@ root(ROOTS.Zones, {
 					exploration(3782),	-- Veil Lashh
 					exploration(3829),	-- Veil Ruuan
 					exploration(3827),	-- Vekhaar Stand
+					visit_exploration(3962,{coord={78.3,27.7,BLADES_EDGE_MOUNTAINS}}),    -- Vim'gol's Circle
 					exploration(3832),	-- Vortex Pinnacle / Vortex Summit [CATA+]
 				}),
 				n(FACTIONS, {

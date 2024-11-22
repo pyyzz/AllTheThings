@@ -114,10 +114,12 @@ root(ROOTS.Zones, {
 					exploration(3742),	-- Socrethar's Seat
 					exploration(3837),	-- Sunfury Hold
 					exploration(3842),	-- Tempest Keep
+					visit_exploration(3721,{coord={37.2,50.3,NETHERSTORM}}),    -- The Crumbling Waste
 					exploration(3729),	-- The Heap
 					exploration(3727),	-- The Scrap Field
 					exploration(3738),	-- The Stormspire
 					exploration(3731),	-- The Tempest Rift
+					visit_exploration(3728,{coord={56.0,64.1,NETHERSTORM}}),    -- The Vortex Fields
 					exploration(3934),	-- Town Square
 					exploration(3935),	-- Wizard Row
 				}),
