@@ -30,15 +30,15 @@
 		},
 	},
 	[477139] = {
-		readable = "Lost &amp; Found",
+		readable = "Lost & Found",
 		model = 196982,
 		text = {
-			en = "Lost &amp; Found",
+			en = "Lost & Found",
 			es = "Objetos perdidos",
 			de = "Fundbüro",
 			fr = "Objets trouvés",
 			it = "Oggetti Smarriti",
-			pt = "Achados &amp; Perdidos",
+			pt = "Achados & Perdidos",
 			ru = "Бюро находок",
 			ko = "유실물",
 			cn = "失物招领",

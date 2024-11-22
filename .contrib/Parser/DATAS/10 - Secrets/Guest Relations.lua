@@ -452,7 +452,10 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			-- Chapter 4
 			q(85475, {	-- Secret in the Sands
 				["sourceQuest"] = 85195,	-- Pirate Gastronomy
-				["provider"] = { "n", 232410 },	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager, Executive Associate Event Coordinator, and Chief Temporary Agent of Timelines and Services>
+				["qgs"] = {
+					232408,	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager, Executive Associate Event Coordinator, and Temporary Service Agent>
+					232410,	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager, Executive Associate Event Coordinator, and Chief Temporary Agent of Timelines and Services>
+				},
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
 			q(85476, {	-- Buried Tweasure
@@ -462,7 +465,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				["coord"] = { 63.2, 52.4, TANARIS },
 				["g"] = {
 					i(231808),	-- Ancient Treasure Notes (QI!)
-					o(476815, {	-- Ancient Treasure Map
+					o(476815, {	-- Ancient Treasure Note
 						["description"] = "In the back right of the Ruins of Uldum in the Valley of the Watchers.",
 						["coord"] = { 37.6, 84.1, TANARIS },
 					}),
@@ -471,7 +474,8 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 						["coord"] = { 47.5, 56.5, TANARIS },
 					}),
 					o(477609, {	-- Ancient Treasure Note
-						["description"] = "Around the wall to the left of Zul'Farakk's entrance.",
+						["description"] = "Around the wall to the left of Zul'Farakk's entrance. Use your Torch of Pyrreth.",
+						["provider"] = { "i", 208092 },	-- Torch of Pyrreth
 						["coord"] = { 38.8, 22.1, TANARIS },
 					}),
 					n(232863, {	-- Yennu
@@ -482,7 +486,43 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					i(231820),	-- Festive Balloons (QI!)
 				},
 			}),
-			q(85503),	-- Chapter 4
+			q(85502, {	-- Festive Reflections
+				["sourceQuest"] = 85476,	-- Buried Tweasure
+				["provider"] = { "n", 232410 },	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager, Executive Associate Event Coordinator, and Chief Temporary Agent of Timelines and Services>
+				["coord"] = { 63.0, 50.2, TANARIS },
+			}),
+			q(85503, {	--  A Surprising Investigation
+				["description"] = "Speak to the time-displaced visitors, toss letters to eventgoers, speak to Bottlenose again, then head a bit north up the beach to celebrate with Alyx.",
+				["sourceQuest"] = 85502,	-- Festive Reflections
+				["provider"] = { "n", 226796 },	-- Athelton Jones
+				["coord"] = { 61.0, 50.7, TANARIS },
+				["g"] = {
+					n(233000, {	-- Big Kinook
+						["description"] = "By the mole machine.",
+						["coord"] = { 63.0, 49.9, TANARIS },
+					}),
+					n(233008, {	-- Jepetto Joybuzz
+						["description"] = "By the Story Time seating.",
+						["coord"] = { 63.8, 51.8, TANARIS },
+					}),
+					n(233002, {	--  Lorewalker Cho
+						["description"] = "By the ice rink.",
+						["coord"] = { 61.6, 51.0, TANARIS },
+					}),
+					n(233006, {	-- Maru <Junior Secret Sleuf>
+						["description"] = "By the pet kennels.",
+						["coord"] = { 61.9, 49.9, TANARIS },
+					}),
+					n(233007, {	-- Reshad
+						["description"] = "On the fashion frenzy stage.",
+						["coord"] = { 63.0, 49.2, TANARIS },
+					}),
+					i(231905), 	-- Letters (QI!)
+					n(231413, {	-- Bottlenose
+						["coord"] = { 60.9, 44.7, TANARIS },
+					}),
+				},
+			}),
 		}),
 		header(HEADERS.Achievement, 40871, {	-- Assistant to the Assistant Guest Relations Manager
 			ach(40871, {	-- Assistant to the Assistant Guest Relations Manager (automated)
@@ -858,7 +898,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					85523,	-- Mildewed Celebration Crate
 					84773,	-- Crystalized Celebration Crate
 					84625,	-- Surprisingly Pristine Celebration Crate
-					-- TODO 1 crate left
+					84909,	-- Ghostly Celebration Crate
 				},
 				["g"] = {
 					ach(40873),	-- Crate Insurance Agent
@@ -1038,19 +1078,30 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					["description"] = "Behind Andrestrasz's cave in his cave in Silithus, use Perky Pug or other dog battle pets at the coordinates to dig up the bones.",
 					["provider"] = { "n", 37865 },	-- Perky Pug
 					["coords"] = {
-						{ 40.0, 93.1, KALIMDOR },	-- Cave Entrance
+						{ 42.1, 93.4, AHNQIRAJ_THE_FALLEN_KINGDOM },	-- Cave Entrance
 						{ 44.6, 90.1, AHNQIRAJ_THE_FALLEN_KINGDOM },	-- Mysterious Bones
 					},
-					["g"] = {
-						i(228772, {	-- Mysterious Bones
-							["description"] = "Use the bones at 37.3 47.7 in Stormheim by an Unmarked Grave to receive the crate.",
-							["questID"] = 84625,
-							["g"] = { i(228770) },	-- Surprisingly Pristine Celebration Crate (QS!)
-						}),
-					},
+					["g"] = { i(228772) },	-- Mysterious Bones
+				}),
+				o(465186, {	-- Unmarked Grave
+					["description"] = "Use the bones at the Unmarked Grave to receive the crate.",
+					["coord"] = { 37.3, 47.7, STORMHEIM },
+					["cost"] = { { "i", 228772, 1 } },	-- Mysterious Bones
+					["g"] = { i(228770) },	-- Surprisingly Pristine Celebration Crate (QS!)
 				}),
 				q(84625, {	-- Surprisingly Pristine Celebration Crate
 					["provider"] = { "i", 228770 },	-- Surprisingly Pristine Celebration Crate
+				}),
+			}),
+			header(HEADERS.Quest, 84909, {
+				i(229369),	-- Ghostly Ransom Note
+				o(467489, {	-- Ghostly Celebration Crate
+					["description"] = "Atop the Seat of the Primus in Maldraxxus, in the back to the right of the portal.",
+					["coord"] = { 50.0, 73.8, MALDRAXXUS },
+					["g"] = { i(229367) },	-- Ghostly Celebration Crate (QS!)
+				}),
+				q(84909, {	-- Ghostly Celebration Crate
+					["provider"] = { "i", 229367 },	-- Ghostly Celebration Crate
 				}),
 			}),
 		}),
@@ -1180,6 +1231,12 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 								["questID"] = 84757,	-- Orb
 								["g"] = { i(228967) },	-- Piece of Hate
 							}),
+							o(466413, {	-- Encrypted Puzzle Box
+								["description"] = "Code to open at the adjacent decryption console: 17112317",
+								["coord"] = { 42.9, 70.6, 46 },	-- Karazhan Catacombs
+								["questID"] = 84758,	-- Orb
+								["g"] = { i(228967) },	-- Piece of Hate
+							}),
 							o(466479, {	-- Encrypted Chest
 								["description"] = "Code to open at the adjacent decryption console: 10638",
 								["provider"] = { "i", 228966 },	-- Starry-Eyed Goggles
@@ -1222,9 +1279,23 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 								["questID"] = 84770,	-- Orb
 								["g"] = { i(228967) },	-- Piece of Hate
 							}),
-							hqt(84786, {
-								["name"] = "Acquire the Piece of Hate from the Lucky slot machine consoles.",
-								["description"] = "In the felcycle room is over a dozen slot machine consoles. Variations of 777, 77777, 777777 etc work but the machines seem to randomly pay out a coin. Some believe holding various 'lucky' items can influence your chances, but no confirmations yet. No chest will spawn, you will be given the Piece of Hate directly.",
+							header(HEADERS.Quest, 84786, {
+								["description"] = "In the felcycle room is over a dozen slot machine consoles around the walls, any of them work for this coin. Variations of 777, 77777, 777777 etc are correct answers but the machines seem to only randomly pay out a coin.\nYour luck can allegedly be increased by obtaining various lucky items, how many items you need is unknown but if you see a 'You feel lucky' emote in chat, you should be good.\nNo chest will spawn, you will be given the Piece of Hate directly.",
+								["providers"] = {
+									{ "i", 5373 },		-- Lucky Charm
+									{ "i", 200265 },	-- Lucky Dragon's Claw
+									{ "i", 198857 },	-- Lucky Duck
+									{ "i", 198400 },	-- Lucky Horseshoe
+									{ "i", 138382 },	-- Lucky Rat's Tooth
+									{ "i", 138385 },	-- Lucky Shirt
+									{ "i", 202046 },	-- Lucky Tortollan Charm
+								},
+								["g"] = {
+									i(228967),	-- Piece of Hate
+									hqt(84786, {	-- Orb
+										["name"] = "Acquire the Piece of Hate from the Lucky slot machine consoles.",
+									}),
+								},
 							}),
 							--hqt(999, {
 								--["name"] = "Fully complete Basin 3."
@@ -1249,6 +1320,12 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 							{ 47.48, 84.74, AZSUNA },
 							{ 45.97, 84.06, AZSUNA },
 						}, -- TODO: if we REALLY want to, we could source objectids for each statue but it'd be trial and error with coordinates since wowhead is missing data and debugger doesn't report.
+					}),
+					o(466943, {	-- Sentry Statue
+						["description"] = "You must first have completed the previous steps with the watcher statues and empowering your owl.\n1. Clear Vault of the Wardens (any difficulty) with your owl pet summoned through to last boss.\n2. Pick up Elune's light from a statue in the corner of Cordana's arena and QUICKLY get back up to the first boss's room.\n3. Backtrack from the first boss room towards the dungeon entrance, enter the newly opened door on your right, the statue will sit in the center.",
+						["provider"] = { "n", 97128 },	-- Fledgling Warden Owl
+						["maps"] = { 710, 711, 712 },	-- Vault of the Wardens
+						["g"] = { i(229046) },	-- Sentry Statue
 					}),
 					--8 O'clock Basin
 					--9 O'clock Basin
@@ -1302,8 +1379,8 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
 	n(GUEST_RELATIONS, {
-		q(85564),	-- Triggered after talking to Kelsey during (85060) Pirate Foods and Superstitions.
-		q(85565),	-- Triggered after talking to Mrs. Gant during (85060) Pirate Foods and Superstitions.
+		q(85564),	-- Talking to Kelsey during (85060) Pirate Foods and Superstitions.
+		q(85565),	-- Talking to Mrs. Gant during (85060) Pirate Foods and Superstitions.
 		q(85411),	-- Speaking to Bottlenose second option during (85195) Pirate Gastronomy.
 		q(85414),	-- Acquire 2 Swiftthistle for (85195) Pirate Gastronomy.
 		q(85415),	-- Acquire 2 Witchberries for (85195) Pirate Gastronomy.
