@@ -612,6 +612,20 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				["coord"] = { 63.1, 52.0, TANARIS },
 				["g"] = {
 					i(226241),	-- Shredded Green Hills of Stranglethorn (QI!)
+					i(226362),	-- Torn Note (Black Market)
+					i(226364),	-- Torn Note (Fiona Caravan)
+					o(456039, {	-- Crumpled Letter
+						["description"] = "Next to the boxes behind Leeroy's tent.",
+						["coord"] = { 63.4, 52.4, TANARIS },
+						["questID"] = 83837,
+						["g"] = { i(226365) },	-- Crumpled Letter
+					}),
+					o(456032, {	-- Ruffled Paper
+						["description"] = "Right by Farmer Yoon, near the Mount Mania.",
+						["coord"] = { 63.2, 52.0, TANARIS },
+						["questID"] = 83833,
+						["g"] = { i(226361) },	-- Next Week's Mount Competition Listing
+					}),
 					o(456041, {	-- Folded Paper
 						["description"] = "Next to the outhouse behind the Fashion Show platform.",
 						["coord"] = { 63.6, 47.8, TANARIS },
@@ -999,23 +1013,8 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				}),
 			}),
 			header(HEADERS.Quest, 83931, {
-				i(226362),	-- Torn Note (Black Market)
-				i(226364),	-- Torn Note (Fiona Caravan)
-				o(456039, {	-- Crumpled Letter
-					["description"] = "Next to the boxes behind Leeroy's tent.",
-					["sourceQuest"] = 83825,	-- Restoring A Great Tale
-					["coord"] = { 63.4, 52.4, TANARIS },
-					["questID"] = 83837,
-					["g"] = { i(226365) },	-- Crumpled Letter
-				}),
-				o(456032, {	-- Ruffled Paper
-					["description"] = "Right by Farmer Yoon, near the Mount Mania.",
-					["sourceQuest"] = 83825,	-- Restoring A Great Tale
-					["coord"] = { 63.2, 52.0, TANARIS },
-					["questID"] = 83833,
-					["g"] = { i(226361) },	-- Next Week's Mount Competition Listing
-				}),
 				o(456061, {	-- Battered Celebration Crate
+					["description"] = "Outside a worg den near Gjalerbron in Howling Fjord.",
 					["coord"] = { 29.4, 6.4, HOWLING_FJORD },
 					["g"] = { i(226375) },	-- Battered Celebration Crate (QS!)
 				}),
@@ -1276,7 +1275,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 							o(466489, {	-- Encrypted Chest
 								["description"] = "Code to open at the adjacent decryption console: 115",
 								["provider"] = { "i", 228966 },	-- Starry-Eyed Goggles
-								["coord"] = { 70.3, 55.4, 46 },	-- Karazhan Catacombs
+								["coord"] = { 66.3, 15.2, 46 },	-- Karazhan Catacombs
 								["questID"] = 84770,	-- Orb
 								["g"] = { i(228967) },	-- Piece of Hate
 							}),

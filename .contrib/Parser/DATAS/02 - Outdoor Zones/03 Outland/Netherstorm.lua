@@ -96,7 +96,7 @@ root(ROOTS.Zones, {
 					exploration(3877),	-- Eco-Dome Midrealm
 					exploration(3875),	-- Eco-Dome Skyperch
 					exploration(3876),	-- Eco-Dome Sutheron
-					exploration(3878),	-- Ethereum Staging Grounds
+					visit_exploration(3878,{coord={54.4,40.0,NETHERSTORM}}),    -- Ethereum Staging Grounds
 					exploration(3740),	-- Forge Base: Gehenna
 					exploration(3739),	-- Forge Base: Oblivion
 					exploration(3868),	-- Gyro-Plank Bridge
@@ -121,6 +121,7 @@ root(ROOTS.Zones, {
 					exploration(3731),	-- The Tempest Rift
 					visit_exploration(3728,{coord={56.0,64.1,NETHERSTORM}}),    -- The Vortex Fields
 					exploration(3934),	-- Town Square
+					visit_exploration(3735,{coord={57.4,47.7,NETHERSTORM}}),    -- Voidwind Plateau
 					exploration(3935),	-- Wizard Row
 				}),
 				n(FLIGHT_PATHS, {

@@ -500,7 +500,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(3716),	-- The Underbog
 	exploration(3717),	-- The Slave Pens
 	exploration(3733),	-- The Violet Tower
-	exploration(3735),	-- Voidwind Plateau
 	exploration(3751),	-- Sunfire Point
 	exploration(3755),	-- The Stair of Doom
 	exploration(3761),	-- The High Path

@@ -279,6 +279,7 @@ root(ROOTS.Zones, {
 					exploration(3673),	-- Nesingwary Safari
 					exploration(3627),	-- Northwind Cleft
 					exploration(3630),	-- Oshu'gun
+					visit_exploration(7273,{coord={74.6,37.9,NAGRAND}}),    -- Silence Pond
 					exploration(3614),	-- Skysong Lake
 					exploration(3629),	-- Southwind Cleft
 					-- #if AFTER CATA
