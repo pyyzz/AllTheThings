@@ -88,9 +88,9 @@ root(ROOTS.Zones, {
 				}),
 				explorationHeader({
 					exploration(3712),	-- Area 52
-					exploration(3723),	-- Arklon Ruins
+					visit_exploration(3723,{coord={43.3,71.2,NETHERSTORM}}),    -- Arklon Ruins
 					exploration(3737),	-- Celestial Ridge
-					exploration(3879),	-- Chapel Yard
+					visit_exploration(3879,{coord={62.1,79.9,NETHERSTORM}}),    -- Chapel Yard
 					exploration(3724),	-- Cosmowrench
 					exploration(3874),	-- Eco-Dome Farfield
 					exploration(3877),	-- Eco-Dome Midrealm
@@ -112,15 +112,16 @@ root(ROOTS.Zones, {
 					exploration(3725),	-- Ruins of Enkaat
 					exploration(3741),	-- Ruins of Farahlon
 					exploration(3742),	-- Socrethar's Seat
-					exploration(3837),	-- Sunfury Hold
+					visit_exploration(3837,{coord={56.7,80.8,NETHERSTORM}}),    -- Sunfury Hold
 					exploration(3842),	-- Tempest Keep
 					visit_exploration(3721,{coord={37.2,50.3,NETHERSTORM}}),    -- The Crumbling Waste
-					exploration(3729),	-- The Heap
+					visit_exploration(3729,{coord={28.8,77.8,NETHERSTORM}}),    -- The Heap
+					visit_exploration(3873,{coord={37.4,63.6,NETHERSTORM}}),    -- The Proving Grounds
 					exploration(3727),	-- The Scrap Field
 					exploration(3738),	-- The Stormspire
 					exploration(3731),	-- The Tempest Rift
 					visit_exploration(3728,{coord={56.0,64.1,NETHERSTORM}}),    -- The Vortex Fields
-					exploration(3934),	-- Town Square
+					visit_exploration(3934,{coord={60.7,88.2,NETHERSTORM}}),    -- Town Square
 					visit_exploration(3735,{coord={57.4,47.7,NETHERSTORM}}),    -- Voidwind Plateau
 					exploration(3935),	-- Wizard Row
 				}),
