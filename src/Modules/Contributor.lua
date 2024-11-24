@@ -137,6 +137,7 @@ local MobileNPCDB = {
 	 [26206] = true,	-- Keristrasza
 	 [29795] = true,	-- Kolitra Deathweaver (Orgrim's Hammer)
 	 [30216] = true,	-- Vile
+	 [34653] = true,	-- Bountiful Table Hostess
 	 [43929] = true,	-- Blingtron 4000
 	 [52234] = true,	-- Bwemba
 	 [55497] = true,	-- Zin'Jun
