@@ -154,7 +154,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
 			q(84237, {	-- The "Great" Detective
-				["description"] = "1. Talk to the members of Team Solid in following order until the quest shows 48% progress.\n- Ellanoir\n- Duryllin\n- Juddson Rakes\n- Ellanoir\n2. Interact with the Abandoned Beach Chair at the Southbreak Shore.\n.3 Use your Torch of Pyrreth at Wavestrider Beach to reveal Herrkrop's body.\n4. Talk to all nearby NPCs.\n5. Talk to Athelton Jones to complete the quest requirements.",
+				["description"] = "1. Talk to the members of Team Solid in following order until the quest shows 48% progress.\n- Ellanoir\n- Duryllin\n- Juddson Rakes\n- Ellanoir\n2. Interact with the Abandoned Beach Chair at the Southbreak Shore.\n3. Use your Torch of Pyrreth at Wavestrider Beach to reveal Herrkrop's body.\n4. Talk to all nearby NPCs.\n5. Talk to Athelton Jones to complete the quest requirements.",
 				["provider"] = { "n", 226796 },	-- Athektin Jones
 				["sourceQuest"] = 84236,	-- The Great Detective
 				["coord"] = { 63.9, 51.7, TANARIS },
@@ -192,8 +192,11 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			}),
 			q(84278, {	-- Tracking Quest
 				["description"] = "Use the Goblin Transport at 68.0, 40.8 to travel to Borean Tundra, then find Rexxar.",
-				["provider"] = { "n", 226683 },	-- Alyx <Volunteer Assistant Guest Relations Manager>
 				["sourceQuest"] = 84237,	-- The 'Great' Detective
+				["providers"] = {
+					{ "n", 226683 },	-- Alyx <Volunteer Assistant Guest Relations Manager>
+					{ "n", 232406 },	-- Alyx <Long af title>
+				},
 				["coord"] = { 63.0, 50.2, TANARIS },
 				["g"] = {
 					i(227551),	-- Note from Rexxar (QI!)
@@ -343,6 +346,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				["qgs"] = {
 					232404,	-- Alyx <Volunteer Assistant Guest Relations Manager and Associate Event Coordinator>
 					232405,	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Associate Event Coordinator>
+					232407,	-- Alyx <Long af title>
 				},
 				["coord"] = { 63.0, 50.2, TANARIS },
 			},
@@ -389,7 +393,10 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			},
 			-- Chapter 3
 			q(85047, {	-- A Pirate Predicament
-				["provider"] = { "n", 232407 },	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
+				["providers"] = {
+					{ "n", 232407 },	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
+					{ "n", 232408 },	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator, and Temporary Service Agent>
+				},
 				["sourceQuests"] = {
 					84756,	-- The Toy Thief [A]
 					85043,	-- The Toy Thief [H]
@@ -1384,6 +1391,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(85564),	-- Talking to Kelsey during (85060) Pirate Foods and Superstitions.
 		q(85565),	-- Talking to Mrs. Gant during (85060) Pirate Foods and Superstitions.
 		q(85411),	-- Speaking to Bottlenose second option during (85195) Pirate Gastronomy.
+		q(85412),	-- Speaking to Bottlenose third option during (85195) Pirate Gastronomy.
 		q(85414),	-- Acquire 2 Swiftthistle for (85195) Pirate Gastronomy.
 		q(85415),	-- Acquire 2 Witchberries for (85195) Pirate Gastronomy.
 		q(85416),	-- Acquire 1 Small Flame Sac for (85195) Pirate Gastronomy.
