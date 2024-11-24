@@ -1195,7 +1195,6 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 							{ 27.3, 61.3, MALDRAXXUS },
 						},
 						["crs"] = {
-							--195119 OBJECTID	-- Humble Monument
 							82688,	-- Olgra
 							175815,	-- Decimator Olgra
 						},
@@ -1298,7 +1297,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 								["questID"] = 84770,	-- Orb
 								["g"] = { i(228967) },	-- Piece of Hate
 							}),
-							header(HEADERS.Quest, 84786, {
+							header(HEADERS.Quest, 84786, {	-- Acquire the Piece of Hate from the Lucky slot machine consoles
 								["description"] = "In the felcycle room is over a dozen slot machine consoles around the walls, any of them work for this coin. Variations of 777, 77777, 777777 etc are correct answers but the machines seem to only randomly pay out a coin.\nYour luck can allegedly be increased by obtaining various lucky items, how many items you need is unknown but if you see a 'You feel lucky' emote in chat, you should be good.\nNo chest will spawn, you will be given the Piece of Hate directly.",
 								["providers"] = {
 									{ "i", 5373 },		-- Lucky Charm
@@ -1321,7 +1320,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					--4 O'clock Basin
 					hqt(84780, {	-- Use the Scroll of Fel Binding at Uther's Tomb
 						["name"] = "Use the Scroll of Fel Binding at Uther's Tomb",
-						["description"] = "1. Use the Scroll of Fel Binding sold by Vashti the Wandering Merchant in Aszuna, Broken Isles right outside Uther's Tomb in the Western Plaugelands.\n2. You will die, return to your corpse and fight the Doomguard while inspecting the writings on the floor of the tomb.\n\nFully lights up the 4 O'clock basin.",
+						["description"] = "1. Use the Scroll of Fel Binding sold by Vashti the Wandering Merchant in Aszuna (Broken Isles) right outside Uther's Tomb in the Western Plaugelands.\n2. You will die, return to your corpse and fight the Doomguard while inspecting the writings on the floor of the tomb. Anyone can summon the demon and writings will stay visible as long as it lives.\n\nFully lights up the 4 O'clock basin.",
 						["cost"] = { { "i", 228987, 1 }	},	-- Scroll of Fel Binding
 						["coord"] = { 52.1, 85.1, WESTERN_PLAGUELANDS },
 					}),
@@ -1354,7 +1353,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					}),
 					--6 O'clock Basin
 					header(HEADERS.Quest, 84811, {	-- Acquire the Ancient Shaman Blood
-						["description"] = "Perform several actions to appease the spirits on each alter of acquisition, an action may require summoning a mount, pet, or toy associated with each spirit, emoting in some way, or changing your transmog.\n\nSomeone in your phase can appease a spirit for you if nearby, but they must fulfill each part of a spirit's appeasement themselves. If one person covers mount, and another covers pet for example, it will not work.\n\nEach appeased spirit will add an orb to the 6 O'clock basin, and looting the final chest will light it fully.",
+						["description"] = "Use your Torch of Pyrreth at various alters to summon a Spirit of Collections. Perform several actions to appease the spirits on each alter of acquisition, an action may require summoning a mount, pet, or toy associated with each spirit, emoting in some way, or changing your transmog.\n\nSomeone in your phase can appease a spirit for you if nearby, but they must fulfill each part of a spirit's appeasement themselves. If one person covers mount, and another covers pet for example, it will not work.\n\nEach appeased spirit will add an orb to the 6 O'clock basin, and looting the final chest will light it fully.",
 						["provider"] = { "i", 208092 },	-- Torch of Pyrreth
 						["g"] = {
 							hqt(84809, {	-- Appease the Spirit of Collections (Blood)
@@ -1364,13 +1363,13 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 								["crs"] = 230430,
 							}),
 							hqt(84807, {	-- Appease the Spirit of Collections (Corruption)
-								["description"] = "Confirmed actions to appease:\nOutfit: Cloak of Overwhelming Corruption (or a cloak with the same appearence)\n\nEmotes: /cower with the spirit targeted\n\nMounts: Any with 'corrupted' in their name\n\nPets: Any with 'corrupted' in their name\n\nToys: Ring of Broken Promises",
+								["description"] = "Confirmed actions to appease:\nOutfit: Cloak of Overwhelming Corruption (or a cloak with the same appearance)\n\nEmotes: /cower with the spirit targeted\n\nMounts: Any with 'corrupted' in their name\n\nPets: Any with 'corrupted' in their name\n\nToys: Ring of Broken Promises",
 								["name"] = "Appease the Spirit of Collections (Corruption)",
 								["coord"] = { 77.5, 43.9, NORTHERN_STRANGLETHORN },
 								["crs"] = 230424,
 							}),
 							hqt(84810, {	-- Appease the Spirit of Collections (Shadow)
-								["description"] = "Confirmed actions to appease:\nOutfit: Cloak of the Black Void (or a cloak with the same appearence)\n\nEmotes: /smirk with the spirit targeted\n\nPets: Lesser Voidcaller\n\nToys: Shadowy Disguise, Void Totem",
+								["description"] = "Confirmed actions to appease:\nOutfit: Cloak of the Black Void (or a cloak with the same appearance)\n\nEmotes: /smirk with the spirit targeted\n\nPets: Lesser Voidcaller\n\nToys: Shadowy Disguise, Void Totem",
 								["name"] = "Appease the Spirit of Collections (Shadow)",
 								["coord"] = { 78.1, 46.3, NORTHERN_STRANGLETHORN },
 								["crs"] = 230440,
@@ -1441,7 +1440,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 							["maps"] = { 710, 711, 712 },	-- Vault of the Wardens
 						}),
 						o(466960, {	-- TODO: chest of the I forgot
-							["description"] = "Once you place the Sentry Statue in the Vault of Mirrors, a grid of watcher statues will appear. You need to make each statue descend into the floor, but each statue you click will toggle the state of 4 other statues.\n\nThere are addons and website tools to solve this, for your sanity, use one.\n\nFully lights up the 7 O'clock basin.",
+							["description"] = "Once you place the Sentry Statue in the Vault of Mirrors, a grid of watcher statues will appear. You need to make each statue descend into the floor, but each statue you click will toggle the state of 4 other statues.\n\nThere are addons and website tools to solve this, for your sanity, use one. You can do this in a group but you must personally place the Sentry Statue for the ending chest to be interactable. That means everyone would have to get the Statue themselves, place it in a solo dungeon, then leave and reset the instance if you want to solve it as a group.\n\nFully lights up the 7 O'clock basin.",
 							["maps"] = { 710, 711, 712 },	-- Vault of the Wardens
 							["crs"] = 109300,	-- Sentry
 							["g"] = {
