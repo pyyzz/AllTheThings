@@ -1327,7 +1327,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					}),
 					--5 O'clock Basin
 					q(84781, {	-- Master of Secrets
-						["description"] = "1. Visit the Timeless isle and find Zarhym in the Cavern of Lost Spirits. Talk to Zarhym, a rare ghostly skull inside the entrance to enter the spirit realm.\n2. Within 5 minutes, Navigate to the back of the cave while avoiding ghosts to find Jeremy Feasel. Stay nearby to him, and you will not exit the spirit realm even if your 5 minutes buff expires.\n3. Defeat Jeremy in a pet battle using only 'secret' pets from the list. If someone in your group beats him in a battle, that also counts and he will grant you the quest too on talking to him.\n\nFully lights up the 5 O'clock basin.\n\nValid pets:\nBaa'l, Bumbles, Glimr, Jenafur, Nelthara, Snowclaw Cub, Spyragos, Sun Darter Hatchling, Taptaf, Terky, Wicker Pup",
+						["description"] = "1. Visit the Timeless isle and find Zarhym in the Cavern of Lost Spirits. Talk to Zarhym, a rare ghostly skull inside the entrance to enter the spirit realm.\n2. Within 5 minutes, Navigate to the back of the cave while avoiding ghosts to find Jeremy Feasel. Stay nearby to him, and you will not exit the spirit realm even if your 5 minutes buff expires.\n3. Defeat Jeremy in a pet battle using only 'secret' pets from the list. If someone in your group beats him in a battle, that also counts and he will grant you the quest too on talking to him. The pets MUST be level 25.\n\nFully lights up the 5 O'clock basin.\n\nValid pets:\nBaa'l, Bumbles, Glimr, Jenafur, Nelthara, Phoenix Wishwing, Snowclaw Cub, Spyragos, Sun Darter Hatchling, Taptaf, Terky, Wicker Pup",
 						["sourceQuest"] = 84780,	-- Use the Scroll of Fel Binding at Uther's Tomb
 						["providers"] = {
 							{ "n", 232048 },	-- Jeremy Feasel
@@ -1354,7 +1354,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					}),
 					--6 O'clock Basin
 					header(HEADERS.Quest, 84811, {	-- Acquire the Ancient Shaman Blood
-						["description"] = "Perform several actions to appease the spirits on each alter of acquisition, an action may require summoning a mount, pet, or toy associated with each spirit, emoting in some way, or changing your transmog. Someone in your phase can appease a spirit for you if nearby.\n\nEach appeased spirit will add an orb to the 6 O'clock basin, and looting the final chest will light it fully.",
+						["description"] = "Perform several actions to appease the spirits on each alter of acquisition, an action may require summoning a mount, pet, or toy associated with each spirit, emoting in some way, or changing your transmog.\n\nSomeone in your phase can appease a spirit for you if nearby, but they must fulfill each part of a spirit's appeasement themselves. If one person covers mount, and another covers pet for example, it will not work.\n\nEach appeased spirit will add an orb to the 6 O'clock basin, and looting the final chest will light it fully.",
 						["provider"] = { "i", 208092 },	-- Torch of Pyrreth
 						["g"] = {
 							hqt(84809, {	-- Appease the Spirit of Collections (Blood)
@@ -1364,13 +1364,13 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 								["crs"] = 230430,
 							}),
 							hqt(84807, {	-- Appease the Spirit of Collections (Corruption)
-								["description"] = "Confirmed actions to appease:\nOutfit: Cloak of Overwhelming Corruption (or a cloak with the same visual id)\n\nEmotes: /cower with the Spirit targeted\n\nMounts: Any with 'corrupted' in their name\n\nPets: Any with 'corrupted' in their name\n\nToys: Ring of Broken Promises",
+								["description"] = "Confirmed actions to appease:\nOutfit: Cloak of Overwhelming Corruption (or a cloak with the same appearence)\n\nEmotes: /cower with the spirit targeted\n\nMounts: Any with 'corrupted' in their name\n\nPets: Any with 'corrupted' in their name\n\nToys: Ring of Broken Promises",
 								["name"] = "Appease the Spirit of Collections (Corruption)",
 								["coord"] = { 77.5, 43.9, NORTHERN_STRANGLETHORN },
 								["crs"] = 230424,
 							}),
 							hqt(84810, {	-- Appease the Spirit of Collections (Shadow)
-								["description"] = "Confirmed actions to appease:\nOutfit: Cloak of the Black Void (or a cloak with the same visual id)\n\nEmotes: /smirk with the Spirit targeted\n\nPets: Lesser Voidcaller\n\nToys: Shadowy Disguise, Void Totem",
+								["description"] = "Confirmed actions to appease:\nOutfit: Cloak of the Black Void (or a cloak with the same appearence)\n\nEmotes: /smirk with the spirit targeted\n\nPets: Lesser Voidcaller\n\nToys: Shadowy Disguise, Void Totem",
 								["name"] = "Appease the Spirit of Collections (Shadow)",
 								["coord"] = { 78.1, 46.3, NORTHERN_STRANGLETHORN },
 								["crs"] = 230440,
@@ -1382,18 +1382,20 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 								["crs"] = 230423,
 							}),
 							hqt(84808, {	-- Appease the Spirit of Collections (Temptation)
-								["description"] = "Confirmed actions to appease:\nOutfit: Be naked\n\nEmotes: /flirt with the Spirit targeted\n\nPets: Sister of Temptation\n\nToys: Moroes' Famous Polish, Steamy Romance Novel Kit",
+								["description"] = "Confirmed actions to appease:\nOutfit: Be naked\n\nEmotes: /flirt with the spirit targeted\n\nPets: Sister of Temptation\n\nToys: Moroes' Famous Polish, Steamy Romance Novel Kit",
 								["name"] = "Appease the Spirit of Collections (Temptation)",
 								["coord"] = { 77.1, 44.9, NORTHERN_STRANGLETHORN },
 								["crs"] = 230425,
 							}),
 							o(466808, {	-- Chest of Acquisitions
+								["description"] ="Appears by the wall nearby the Shadow alter once each spirit has been appeased. Use your goggles to see it.",
 								["sourceQuests"] = {
 									84809,	-- Appease the Spirit of Collections (Blood)
 									84807,	-- Appease the Spirit of Collections (Corruption)
 									84810,	-- Appease the Spirit of Collections (Shadow)
 									84806,	-- Appease the Spirit of Collections (Sin)
 									84808,	-- Appease the Spirit of Collections (Temptation)
+									84781,	-- Master of Secrets
 								},
 								["provider"] = { "i", 228966 },	-- Starry-Eyed Goggles
 								["coord"] = { 78.2, 47.7, NORTHERN_STRANGLETHORN },
