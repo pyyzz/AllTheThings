@@ -122,7 +122,7 @@ root(ROOTS.Promotions, {
 				["timeline"] = { ADDED_11_0_5 },
 				["u"] = REAL_MONEY,
 			}),
-			--i(229366, {	-- Brrrgl (PET!)	Listed under Ingameshop
+			--i(229366),	-- Brrrgl (PET!)	-- Listed under Ingameshop
 			i(223459, {	-- Blackrock Warsaber (MOUNT!)
 				["description"] = "Obtained through watching the official Warcraft 30th Anniversary Direct on Tiktok for 3 Minutes or Twitch/YouTube for 20 minutes between November 13th, 10:00 a.m. & December 11th, 10:00 a.m. PST.\n\nTikTok has a bar along the bottom of the screen that indicates that Game Rewards are live and that you’re earning progress. Once you watched enough on Tiktok, you will receive a code that can be claimed on Battle.Net or on the Battle.Net App.\n\nOn Twitch you have to claim your Reward under Drops & Rewards after watching for 20 minutes.\n\nOn YouTube your account has to say 'connected' and will automatically sent out the rewards after 20 minutes.\n\nYour Twitch/Youtube Account has to be connected with your Battle.net Account.",
 				["timeline"] = { ADDED_11_0_5, },
