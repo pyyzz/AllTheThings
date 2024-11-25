@@ -259,6 +259,10 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, i(68385, {	-- Lil' Ragnaros (PET!)
 			["timeline"] = { ADDED_4_0_3 },
 		})),
+		i(229368, {	-- Gill'el (PET!)
+			["description"] = "Available with the purchase of a Murloc Thrall plushie from the Blizzard Gear Store. The code will be emailed and can be redeemed on Battle.net or the launcher.",
+			["timeline"] = { ADDED_11_0_5 },
+		}),
 		i(190586, {	-- Lil' Ursoc (PET!)
 			["timeline"] = { ADDED_9_2_5 },
 		}),
@@ -543,7 +547,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_5_4_0, REMOVED_8_3_0 },
 		}),
 		i(231290, {	-- Reven's Comfy Carrier
-			["timeline"] = { ADDED_11_0_5, "removed 11.0.5.99999" },	-- Available through January 7, 2025
+			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },	-- Available through January 7, 2025
 		}),
 		i(188260, {	-- Ruby Wings of Awakening
 			["timeline"] = { ADDED_10_2_0 },
