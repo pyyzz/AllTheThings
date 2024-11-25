@@ -75,41 +75,41 @@ root(ROOTS.Promotions, {
 				-- #if AFTER 10.0.2
 				-- #if BEFORE 11.0.2
 				["description"] = "Amazon Prime Gaming reward from October 24th 2023 till November 28th 2023.",
+				-- #endif
+				-- #endif
 				["timeline"] = { ADDED_10_1_7, REMOVED_10_2_0 },
-				-- #endif
-				-- #endif
 			}),
 			i(38313, {	-- Tabard of Fury
 				-- #if AFTER 10.0.2
 				-- #if BEFORE 11.0.2
 				["description"] = "Amazon Prime Gaming reward from November 28th 2023 till December 26th 2023.",
+				-- #endif
+				-- #endif
 				["timeline"] = { ADDED_10_2_0, REMOVED_10_2_0 },
-				-- #endif
-				-- #endif
 			}),
 			i(92724, {	-- Swift Windsteed (MOUNT!)
 				-- #if AFTER 10.0.2
 				-- #if BEFORE 11.0.2
 				["description"] = "Amazon Prime Gaming reward from December 26th 2023 till January 30th 2024.",
+				-- #endif
+				-- #endif
 				["timeline"] = { ADDED_10_2_0, REMOVED_10_2_5 },
-				-- #endif
-				-- #endif
 			}),
 			i(160588, {	-- Cap'n Crackers (PET!)
 				-- #if AFTER 10.0.2
 				-- #if BEFORE 11.0.2
 				["description"] = "Amazon Prime Gaming reward from January 30th 2024 till February 27th 2024.",
+				-- #endif
+				-- #endif
 				["timeline"] = { ADDED_10_2_5, REMOVED_10_2_5 },
-				-- #endif
-				-- #endif
 			}),
 			i(23709, {	-- Tabard of Frost 
 				-- #if AFTER 10.0.2
 				-- #if BEFORE 11.0.2
 				["description"] = "Amazon Prime Gaming reward from February 27th 2024 till March 26th 2024.",
+				-- #endif
+				-- #endif
 				["timeline"] = { ADDED_10_2_5, REMOVED_10_2_6 },
-				-- #endif
-				-- #endif
 			}),
 		},
 	}),
