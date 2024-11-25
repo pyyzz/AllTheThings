@@ -4272,6 +4272,7 @@ i(229993, 4669);	-- Bluedoo
 i(233251, 4426);		-- Bubbles
 i(233248, 4425);		-- Glamrok
 i(233252, 4435);		-- Happy
+i(230834, 4630);		-- Gill'el
 --i(233056, ???);	-- Marmaduke
 --i(0, ???);	-- Parley
 --i(234395, ???);	-- Skitterbite
