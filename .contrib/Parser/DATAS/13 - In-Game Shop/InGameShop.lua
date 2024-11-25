@@ -240,10 +240,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(128424, {	-- Brightpaw (PET!)
 			["timeline"] = { ADDED_6_2_3 },
 		}),
-		i(229366, {	-- Brrrgl (PET!)
-			["description"] = "Available with the purchase of an Ice Murloc Funko Pop from the Blizzard Gear Store to a US/UK mailing address. The code will be emailed and can be redeemed on Battle.net or the launcher.",
-			["timeline"] = { ADDED_11_0_5 },
-		}),
+		--i(229366),	-- Brrrgl (PET!)	-- Under TWW Promos
 		i(92707, {	-- Cinder Kitten (PET!)
 			["timeline"] = { ADDED_5_1_0 },
 		}),
@@ -259,10 +256,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, i(68385, {	-- Lil' Ragnaros (PET!)
 			["timeline"] = { ADDED_4_0_3 },
 		})),
-		i(229368, {	-- Gill'el (PET!)
-			["description"] = "Available with the purchase of a Murloc Thrall plushie from the Blizzard Gear Store. The code will be emailed and can be redeemed on Battle.net or the launcher.",
-			["timeline"] = { ADDED_11_0_5 },
-		}),
+		--i(229368),	-- Gill'el (PET!)	-- Under TWW Promos
 		i(190586, {	-- Lil' Ursoc (PET!)
 			["timeline"] = { ADDED_9_2_5 },
 		}),
