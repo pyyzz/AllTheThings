@@ -17,8 +17,13 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 		n(ACHIEVEMENTS, {
 			ach(14222, {	-- Exile's Reach
 				["sourceQuests"] = {
+					-- #IF BEFORE 10.0.2
+					59641,	-- The Nation of Kul Tiras
+					60361,	-- Battle for Azeroth: Mission Statement
+					-- #ELSE
 					55991,	-- An End to Beginnings [A]
 					59985,	-- An End to Beginnings [H]
+					-- #ENDIF
 				},
 				["sourceQuestNumRequired"] = 1,
 			}),
