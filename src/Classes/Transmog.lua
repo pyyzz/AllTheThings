@@ -42,8 +42,8 @@ local C_TransmogCollection_GetItemInfo, C_TransmogCollection_GetSourceInfo
 	= C_TransmogCollection.GetItemInfo, C_TransmogCollection.GetSourceInfo;
 local C_TransmogCollection_GetAppearanceSourceInfo, C_TransmogCollection_GetAllAppearanceSources
 	= C_TransmogCollection.GetAppearanceSourceInfo, C_TransmogCollection.GetAllAppearanceSources;
-local C_TransmogCollection_PlayerHasTransmogItemModifiedAppearance
-	= C_TransmogCollection.PlayerHasTransmogItemModifiedAppearance;
+local C_TransmogCollection_PlayerHasTransmogItemModifiedAppearance,C_TooltipInfo_GetItemByItemModifiedAppearanceID
+	= C_TransmogCollection.PlayerHasTransmogItemModifiedAppearance,C_TooltipInfo.GetItemByItemModifiedAppearanceID
 
 local ATTAccountWideData, AccountSources, CharacterData
 
@@ -158,6 +158,14 @@ app.DetermineItemLink = function(sourceID)
 	if not GetItemInfo(link) then
 		return RETRIEVING_DATA
 	end
+
+	-- 10.2.7 added a quick lookup of loaded sourceID via tooltip info
+	local tooltipInfoForSource = C_TooltipInfo_GetItemByItemModifiedAppearanceID and C_TooltipInfo_GetItemByItemModifiedAppearanceID(sourceID)
+	if tooltipInfoForSource then
+		link = tooltipInfoForSource.hyperlink
+		-- app.PrintDebug("DetermineItemLink:TooltipInfo",sourceID,link);
+	end
+
 	local checkID, found = GetSourceID(link);
 	if found and checkID == sourceID then return link; end
 
