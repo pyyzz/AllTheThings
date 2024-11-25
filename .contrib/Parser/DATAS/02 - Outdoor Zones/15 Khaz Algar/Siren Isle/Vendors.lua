@@ -161,8 +161,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			n(233259, {	-- Taljori
 				["coord"] = { 65.7, 41.7, SIREN_ISLE },
 				["g"] = {
-					--I suspect missing stuff could be due to bug that citrine is added into vendor and replace cosmetic?
-					--I unlocked 2 for this vendor and 2 items are missing
 					fbiron(3000, i(234536)),	-- Ensemble: Bilgeswabby's Garb
 					fbiron(3000, i(234537)),	-- Ensemble: Pilfered Mariner's Garb
 					fbiron(3000, i(234538)),	-- Ensemble: Salt-Stained Garb
@@ -171,7 +169,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					fbiron(350, i(233844)),	-- Quilted Sea Vest
 					fbiron(350, i(233892)),	-- Quilted Waist Wrap
 					fbiron(350, i(233912)),	-- Bilge Rat Pirate Hat
-					fbiron(350, i(233902)),	-- Tattered Rat Hat (missing?)
+					fbiron(350, i(233902)),	-- Tattered Rat Hat
 					fbiron(350, i(233903)),	-- Knife Juggler's Bicorne
 					fbiron(350, i(233911)),	-- Bloodstained Rat Cap
 					--fbiron(350, i(233916)),	-- Ashvane Issued Workboots (TODO: was treasure, not it is not, again, and missing)
