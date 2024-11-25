@@ -1184,7 +1184,8 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				},
 				["g"] = {
 					--1 O'clock Basin
-					header(HEADERS.Quest, 84676, {	-- The Light of Their Love
+					hqt(84676, {	-- The Light of Their Love
+						["name"] = "Acquire The Light of Their Love buff stacked 3 times",
 						["description"] = "Acquire The Light of Their Love buff (spellID 153715) 3 times from visiting areas relevant to Olgra, Mankrik's wife. Stand at these areas with your Torch of Pyrreth until a stack is gained.\n1. The Humble Monument in Borthern Barrens.\n2. Young Olgra in Draenor.\n3. Decimator Olgra in Maldraxxus.\n\nFully lights up the 1 O'clock basin.",
 						["sourceQuest"] = 84684,	-- Ratts' Race
 						["provider"] = { "i", 208092 },	-- Torch of Pyrreth
@@ -1198,14 +1199,10 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 							82688,	-- Olgra
 							175815,	-- Decimator Olgra
 						},
-						["g"] = {
-							hqt(84676, {
-								["name"] = "Acquire The Light of Their Love buff stacked 3 times"
-							})
-						},
 					}),
 					--2 O'clock Basin
-					header(HEADERS.Quest, 84677, {	-- Acquire the Key of Shadows
+					hqt(84677, {	-- Acquire the Key of Shadows
+						["name"] = "Acquire the Key of Shadows from the Ny'Alotha Obelisk",
 						["description"] = "Requires the 1 O'clock basin to have been completed to see the obelisk personally.\n1. Acquire the Twitching Eyaball or All-Seeing Eyes toys\n2. Acquire a Perky Pug with either the Dogg-Saron costume from Vashti the Wandering Merchant in Aszuna or the Yipp-Saron costume from Hallow's End (or the AH.)\n3. Bring these items OR find a friend who has them and visit the Ny'Alotha Obelisk above the Seat of Knowledge in the Vale of Eternal Blossoms (BFA).\n4. Have someone summon a perky pug and use the toys, then /pray in front of the obelisk to be granted the Key of Shadows.\n\nThere is a 5-15 minute delay even if you do everything right. Everyone within 10 yards should get the key if anyone in range does it correctly.\n\nFully lights up the 2 O'clock basin",
 						["providers"] = {
 							{ "n", 153297 },	-- Ny'Alotha Obelisk
@@ -1226,15 +1223,11 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 									}),
 								},
 							}),
-							hqt(84677, {
-								["name"] = "Acquire the Key of Shadows from the Ny'Alotha Obelisk"
-							}),
 						},
 					}),
 					--3 O'clock Basin
-					header(HEADERS.Item, 228967, {	-- Piece of Hate
+					header(HEADERS.Item, 228967, bubbleDownSelf( {["sourceQuest"] = 84677 }, {	-- Acquire the Key of Shadows
 						["description"] = "1. Use the Key of Shadows to enter the room to the left of the Red Button. Fish up an Astral key from the bowl on the left bookshelf. Open the Astral chest in the same room, use the goggles.\n2. Interact with any of the consoles around the catacombs until you get a new actionbar. Can't see it? Look in your spellbook for a Number Sequence spell. Click the console again to submit your code.\n3. Enter the codes on adjacent consoles to open each of the chests, each Piece of Hate will give you an orb at the 3 O'clock basin, fully lighting with 9 orbs.",
-						["sourceQuest"] = 84677,	-- Acquire the Key of Shadows
 						["provider"] = { "i", 53156 },	-- Key of Shadows
 						["g"] = {
 							i(228965),	-- Astral Key
@@ -1316,7 +1309,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 								},
 							}),
 						},
-					}),
+					})),
 					--4 O'clock Basin
 					hqt(84780, {	-- Use the Scroll of Fel Binding at Uther's Tomb
 						["name"] = "Use the Scroll of Fel Binding at Uther's Tomb",
@@ -1352,7 +1345,8 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 						["g"] = { i(228995) },	-- Golden Muffin
 					}),
 					--6 O'clock Basin
-					header(HEADERS.Quest, 84811, {	-- Acquire the Ancient Shaman Blood
+					hqt(84811, {	-- Acquire the Ancient Shaman Blood
+						["name"] = "Acquire the Ancient Shaman Blood",
 						["description"] = "Use your Torch of Pyrreth at various alters to summon a Spirit of Collections. Perform several actions to appease the spirits on each alter of acquisition, an action may require summoning a mount, pet, or toy associated with each spirit, emoting in some way, or changing your transmog.\n\nSomeone in your phase can appease a spirit for you if nearby, but they must fulfill each part of a spirit's appeasement themselves. If one person covers mount, and another covers pet for example, it will not work.\n\nEach appeased spirit will add an orb to the 6 O'clock basin, and looting the final chest will light it fully.",
 						["provider"] = { "i", 208092 },	-- Torch of Pyrreth
 						["g"] = {
@@ -1398,74 +1392,68 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 								},
 								["provider"] = { "i", 228966 },	-- Starry-Eyed Goggles
 								["coord"] = { 78.2, 47.7, NORTHERN_STRANGLETHORN },
-								["g"] = {
-									i(229007),	-- Ancient Shaman Blood
-									hqt(84811, {	-- Acquire the Ancient Shaman Blood
-										["name"] = "Acquire the Ancient Shaman Blood",
-									}),
-								}
-							})
+								["g"] = { i(229007)	},	-- Ancient Shaman Blood
+							}),
 						},
 					}),
 					--7 O'clock Basin
-					header(HEADERS.Quest, 84823, {	-- Acquire the Warden's Mirror
-						header(HEADERS.Object, 254262, {	-- Owl of the Watchers
-							["description"] = "On the Isle of the Watchers in Aszuna are 9 Owl of the Watchers statues, on any shard, only 4 of them will be interactable at any given time.\n\nYou need an owl pet, the Fledgling Warden Owl sold by the Wardens quartermaster on the same island is confirmed to work, but other owls may work too.\n\nSummon your owl and don't let it disappear by flying too far away. Find an interactable statue and sit in the aura it creates with your pet until an audible sound cue plays and a secret magnifying glass icon appears over your head. Do that again for 4 different statue auras, Red, Green, Blue and Purple.\nYou'll know you're done when your owl has a distinct white orb above their head. Unlocks 4 orbs at Basin 7.",
-							["provider"] = { "n", 97128 },	-- Fledgling Warden Owl
-							["coords"] = {	-- Likely objectids are 254261 - 254269
-								{ 44.18, 72.41, AZSUNA },
-								{ 40.54, 73.15, AZSUNA },
-								{ 40.52, 75.19, AZSUNA },
-								{ 37.10, 82.16, AZSUNA },
-								{ 43.24, 85.30, AZSUNA },
-								{ 43.66, 87.51, AZSUNA },
-								{ 50.45, 91.67, AZSUNA },
-								{ 47.48, 84.74, AZSUNA },
-								{ 45.97, 84.06, AZSUNA },
-							}, -- TODO: if we REALLY want to, we could source objectids for each statue but it'd be trial and error with coordinates since wowhead is missing data and debugger doesn't report.
-						}),
-						o(466943, {	-- Sentry Statue
-							["description"] = "You must first have completed the previous steps with the watcher statues and empowering your owl.\n1. Clear Vault of the Wardens (any difficulty) with your owl pet summoned through to last boss.\n2. Pick up Elune's light from a statue in the corner of Cordana's arena and QUICKLY get back up to the first boss's room.\n3. Backtrack from the first boss room towards the dungeon entrance, enter the newly opened door on your right, the statue will sit in the center.",
-							["provider"] = { "n", 97128 },	-- Fledgling Warden Owl
-							["maps"] = { 710, 711, 712 },	-- Vault of the Wardens
-							["g"] = {
-								i(229046, {	-- Sentry Statue
-									["description"] = "Place in the center platform before the last set of stairs leading to Glazer's platform in the Vault of Mirrors."
-								}),
-							},
-						}),
-						hqt(84916, {	-- Place the Sentry Statue in the Vault of Mirrors
-							["name"] = "Place the Sentry Statue in the Vault of Mirrors",
-							["description"] = "Place in the center platform before the last set of stairs leading to Glazer's platform in the Vault of Mirrors.",
-							["maps"] = { 710, 711, 712 },	-- Vault of the Wardens
-						}),
-						o(466960, {	-- TODO: chest of the I forgot
-							["description"] = "Once you place the Sentry Statue in the Vault of Mirrors, a grid of watcher statues will appear. You need to make each statue descend into the floor, but each statue you click will toggle the state of 4 other statues.\n\nThere are addons and website tools to solve this, for your sanity, use one. You can do this in a group but you must personally place the Sentry Statue for the ending chest to be interactable. That means everyone would have to get the Statue themselves, place it in a solo dungeon, then leave and reset the instance if you want to solve it as a group.\n\nFully lights up the 7 O'clock basin.",
-							["maps"] = { 710, 711, 712 },	-- Vault of the Wardens
-							["crs"] = 109300,	-- Sentry
-							["g"] = {
-								i(229054),	-- Warden's Mirror
-								hqt(84823, {	-- Acquire the Warden's Mirror
-									["name"] = "Acquire the Warden's Mirror",
-								}),
-							},
-						}),
+					hqt(84823, {	-- Acquire the Warden's Mirror
+						["name"] = "Acquire the Warden's Mirror",
+						["description"] = "Empower your owl pet with the Owl statues in Aszuna then enter the Vault of the Wardens to find a Sentry Statue. Use it to solve a puzzle to receive the mirror.\n\nEmpowering your owl will add 4 orbs to the 7 O'clock basin, and solving the sentry puzzle will light it fully.",
+						["maps"] = { AZSUNA, 710, 711, 712 },	-- Vault of the Wardens
+						["g"] = {
+							header(HEADERS.Object, 254262, {	-- Owl of the Watchers
+								["description"] = "On the Isle of the Watchers in Aszuna are 9 Owl of the Watchers statues, on any shard, only 4 of them will be interactable at any given time.\n\nYou need an owl pet, the Fledgling Warden Owl sold by the Wardens quartermaster on the same island is confirmed to work, but other owls may work too.\n\nSummon your owl and don't let it disappear by flying too far away. Find an interactable statue and sit in the aura it creates with your pet until an audible sound cue plays and a secret magnifying glass icon appears over your head. Do that again for 4 different statue auras, Red, Green, Blue and Purple.\nYou'll know you're done when your owl has a distinct white orb above their head. Unlocks 4 orbs at Basin 7.",
+								["provider"] = { "n", 97128 },	-- Fledgling Warden Owl
+								["coords"] = {	-- Likely objectids are 254261 - 254269
+									{ 44.18, 72.41, AZSUNA },
+									{ 40.54, 73.15, AZSUNA },
+									{ 40.52, 75.19, AZSUNA },
+									{ 37.10, 82.16, AZSUNA },
+									{ 43.24, 85.30, AZSUNA },
+									{ 43.66, 87.51, AZSUNA },
+									{ 50.45, 91.67, AZSUNA },
+									{ 47.48, 84.74, AZSUNA },
+									{ 45.97, 84.06, AZSUNA },
+								}, -- TODO: if we REALLY want to, we could source objectids for each statue but it'd be trial and error with coordinates since wowhead is missing data and debugger doesn't report.
+							}),
+							o(466943, {	-- Sentry Statue
+								["description"] = "You must first have completed the previous steps with the watcher statues and empowering your owl.\n1. Clear Vault of the Wardens (any difficulty) with your owl pet summoned through to last boss.\n2. Pick up Elune's light from a statue in the corner of Cordana's arena and QUICKLY get back up to the first boss's room.\n3. Backtrack from the first boss room towards the dungeon entrance, enter the newly opened door on your right, the statue will sit in the center.",
+								["provider"] = { "n", 97128 },	-- Fledgling Warden Owl
+								["maps"] = { 710, 711, 712 },	-- Vault of the Wardens
+								["g"] = {
+									i(229046, {	-- Sentry Statue
+										["description"] = "Place in the center platform before the last set of stairs leading to Glazer's platform in the Vault of Mirrors."
+									}),
+								},
+							}),
+							hqt(84916, {	-- Place the Sentry Statue in the Vault of Mirrors
+								["name"] = "Place the Sentry Statue in the Vault of Mirrors",
+								["description"] = "Place in the center platform before the last set of stairs leading to Glazer's platform in the Vault of Mirrors.",
+								["maps"] = { 710, 711, 712 },	-- Vault of the Wardens
+							}),
+							o(466960, {	-- Treasure of the Wardens
+								["description"] = "Once you place the Sentry Statue in the Vault of Mirrors, a grid of watcher statues will appear. You need to make each statue descend into the floor, but each statue you click will toggle the state of 4 other statues.\n\nThere are addons and website tools to solve this, for your sanity, use one. You can do this in a group but you must personally place the Sentry Statue for the ending chest to be interactable. That means everyone would have to get the Statue themselves, place it in a solo dungeon, then leave and reset the instance if you want to solve it as a group.\n\nFully lights up the 7 O'clock basin.",
+								["sourceQuest"] = 84916,	-- Place the Sentry Statue in the Vault of Mirrors
+								["maps"] = { 710, 711, 712 },	-- Vault of the Wardens
+								["crs"] = 109300,	-- Sentry
+								["g"] = { i(229054) },	-- Warden's Mirror
+							}),
+						},
 					}),
 					--8 O'clock Basin
-					header(HEADERS.Object, 466975, {	-- Enigma Machine
-						o(466975, {	-- Enigma Machine
-							["coord"] = { 59.9, 42.6, 46 },	-- Karazhan Catacombs
-							["g"] = {
-								hqt(84829, {	-- Insert the Ancient Shaman Blood into the Enigma Machine
-									["name"] = "Insert the Ancient Shaman Blood into the Enigma Machine",
-									["cost"] = { { "i", 229007, 1 } },	-- Ancient Shaman Blood
-								}),
-								hqt(84830, {	-- Insert the Warden's Mirror into the Enigma Machine
-									["name"] = "Insert the Warden's Mirror into the Enigma Machine",
-									["cost"] = { { "i", 229054, 1 } },	-- Warden's Mirror
-								}),
-							},
-						}),
+					o(466975, {	-- Enigma Machine
+						["coord"] = { 59.9, 42.6, 46 },	-- Karazhan Catacombs
+						["g"] = {
+							hqt(84829, {	-- Insert the Ancient Shaman Blood into the Enigma Machine
+								["name"] = "Insert the Ancient Shaman Blood into the Enigma Machine",
+								["cost"] = { { "i", 229007, 1 } },	-- Ancient Shaman Blood
+							}),
+							hqt(84830, {	-- Insert the Warden's Mirror into the Enigma Machine
+								["name"] = "Insert the Warden's Mirror into the Enigma Machine",
+								["cost"] = { { "i", 229054, 1 } },	-- Warden's Mirror
+							}),
+						},
 					}),
 					--9 O'clock Basin
 					--10 O'clock Basin

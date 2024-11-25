@@ -177,6 +177,7 @@ local MobileNPCDB = {
 	[145005] = true,	-- Lor'themar Theron
 	[145707] = true,	-- Advisor Belgrum
 	[153897] = true,	-- Blingtron 7000
+	[158544] = true,	-- Lord Herne
 	[158635] = true,	-- Xolartios <Eternal Traveler>
 	[172854] = true,	-- Dredger Butler
 	[185749] = true,	-- Gnoll Mon-Ark
