@@ -242,7 +242,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				-- TODO: Vrykul
 				["sourceQuests"] = { 84725 },	-- The Circlet Calls
 				["provider"] = { "n", 228096 },	-- Dawn
-				["coord"] = { 69.1, 43.0, SIREN_ISLE },
+				["coords"] = {
+					{ 69.1, 43.0, SIREN_ISLE },
+					{ 71.4, 44.1, SIREN_ISLE },
+				},
 				["isWeekly"] = true,
 			}),
 			q(84619, {	-- Ooker Dooker Literature Club
@@ -289,7 +292,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				-- TODO: Vrykul
 				["sourceQuests"] = { 84725 },	-- The Circlet Calls
 				["provider"] = { "n", 228096 },	-- Dawn
-				["coord"] = { 69.1, 43.0, SIREN_ISLE },
+				["coords"] = {
+					{ 69.1, 43.0, SIREN_ISLE },
+					{ 71.4, 44.1, SIREN_ISLE },
+				},
 				["isWeekly"] = true,
 				["g"] = {
 					i(228988),	-- Rock Reviver (QI!)
@@ -405,7 +411,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					i(232694),	-- Transcribed Kul Tiran Journal [book]
 				},
 			}),
-			-- Snapdragon
+			-- Snapdragon (need to add into Account Wide quests)
 			q(85573, {	-- A Lifeline
 				--["sourceQuests"] = { 84547 },	-- Redemption Guaranteed (TODO: speculation)
 				["provider"] = { "n", 235216 },	-- Starving Snapdragon Runt
@@ -547,7 +553,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				-- Another unlock for vendor (snapdragon treats)
 				--q(),	-- Crimson Snapdragon Treat
 				--q(),	-- Inky Snapdragon Treat
-				--q(),	-- Kaja'Cola-braised Snapdragon Treat
+				q(86376),	-- Kaja'Cola-braised Snapdragon Treat
 				--q(),	-- Muddy Snapdragon Treat
 				--q(),	-- Royal Snapdragon Treat
 				q(86380),	-- Sandy Snapdragon Treat

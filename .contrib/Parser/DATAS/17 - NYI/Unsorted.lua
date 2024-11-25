@@ -275,7 +275,6 @@ root(ROOTS.Unsorted, {
 			i(233366),	-- Wind-Up Woofer
 			i(233494),	-- [PH] Snapdragon Treat 02
 			i(233495),	-- [PH] Snapdragon Treat 03
-			i(233497),	-- [PH] Snapdragon Treat 04
 			i(233498),	-- [PH] Snapdragon Treat 05
 			i(233499),	-- [PH] Snapdragon Treat 06
 			i(233500),	-- [PH] Snapdragon Treat 07
@@ -429,7 +428,6 @@ root(ROOTS.Unsorted, {
 			i(234246),	-- Glyph of the Admiral's Pistol Shot
 			i(234247),	-- Glyph of the Gilded Pistol Shot
 			i(234248),	-- Glyph of the Twilight Pistol Shot
-			i(234282),	-- Decorative Yard Flamingo
 			i(234313),	-- [DNT] Item
 			i(234328),	-- Torrential Fragment
 			i(234379),	-- Crackleroar

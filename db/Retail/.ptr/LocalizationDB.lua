@@ -7001,6 +7001,7 @@ local ObjectNames = {
 	[487851] = "DELVER'S CALL: The Spiral Weave",
 	[487855] = "DELVER'S CALL: The Underkeep",
 	[493375] = "Rune-Sealed Coffer",
+	[494475] = "Rune-Seared Spear",
 	[494923] = "Tattered Journal",
 	[499127] = "Runemarked Coffer",
 	[499620] = "Runed Storm Cache",
