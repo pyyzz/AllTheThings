@@ -5086,7 +5086,8 @@ app.AddEventHandler("RowOnEnter", function(self)
 
 	-- Default top row line if nothing is generated from a link.
 	if tooltip:NumLines() < 1 then
-		tooltipInfo[#tooltipInfo + 1] = { left = reference.text }
+		-- sometimes text is nil
+		tooltipInfo[#tooltipInfo + 1] = { left = reference.text or RETRIEVING_DATA }
 	end
 
 	local title = reference.title;
