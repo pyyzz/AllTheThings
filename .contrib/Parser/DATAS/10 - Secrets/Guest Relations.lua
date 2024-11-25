@@ -470,7 +470,10 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			}),
 			q(85208, {	-- A Pirate Missive
 				["sourceQuest"] = 85060,	-- Pirate Foods and Superstitions
-				["provider"] = { "n", 232407 },	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
+				["providers"] = {
+					{ "n", 232407 },	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
+					{ "n", 232408 },	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager, Executive Associate Event Coordinator, and Temporary Service Agent>
+				},
 				["coord"] = { 63.0, 50.2, TANARIS },
 				["isBreadcrumb"] = true,
 			}),
@@ -1144,22 +1147,22 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				["g"] = {
 					i(228934),	-- Carefully Penned Note (QI!)
 					o(466118, {	-- Unfinished Note
-						["description"] = "In a cave in Azj'Kahet in the center of 5 Rotglow Settlers.",
+						["description"] = "#1. In a cave in Azj'Kahet in the center of 5 Rotglow Settlers.",
 						["coord"] = { 69.3, 93.3, AZJ_KAHET },
 						["g"] = { i(228935) },	-- Unfinished Note (QI!)
 					}),
 					o(466119, {	-- Hastily Scrawled Note
-						["description"] = "High up on a ridge overlooking the City of Threads.",
+						["description"] = "#2. High up on a ridge overlooking the City of Threads.",
 						["coord"] = { 31.5, 20.8, NERUBAR },
 						["g"] = { i(228936) },	-- Hastily Scrawled Note (QI!)
 					}),
 					o(466120, {	-- Water-Resistant Note
-						["description"] = "Underwater in the center of a lake on the right side of the Azj-Kahet-Hallowfall transition.",
+						["description"] = "#3. Underwater in the center of a lake on the right side of the Azj-Kahet-Hallowfall transition.",
 						["coord"] = { 50.7, 86.6, HALLOWFALL },
 						["g"] = { i(228937) },	-- Water-Resistant Note (QI!)
 					}),
 					o(466128, {	-- Peculiar Gem
-						["description"] = "To turn in the quest, enter Pillar-nest Vosh to the left of Faerin's advance, navigate toward the back of the cave then turn around to find a wall you can climb, fall into a tunnel hidden in the wall.",
+						["description"] = "#4. To turn in the quest, enter Pillar-nest Vosh to the left of Faerin's advance, navigate toward the back of the cave then turn around to find a wall you can climb, fall into a tunnel hidden in the wall.",
 						["coords"] = {
 							{ 55.1, 19.0, AZJ_KAHET },	-- Cave Entrance
 							{ 56.4, 17.5, AZJ_KAHET },	-- Wall Tunnel
