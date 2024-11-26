@@ -1057,6 +1057,7 @@ i(0, 4532);			-- Pinchy the Plunderer (WOTLK)
 -- #if SEASON_OF_DISCOVERY
 i(220620, 446105);	-- Skeletal Wind Serpent (SOD) [Sunken Temple]
 -- #endif
+i(224002, 4585);	-- Swoopy (Cata)
 -- #endif
 
 -----------------
