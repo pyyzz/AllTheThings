@@ -111,7 +111,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				-- #if AFTER CATA
 				exploration(4804),	-- Cenarion Wildlands
 				-- #endif
-				exploration(2405),	-- Ethel Rethor
+				visit_exploration(2405,{coord={41.6,29.8,DESOLACE}}),	-- Ethel Rethor
 				-- #if AFTER CATA
 				exploration(4803),	-- Furien's Post
 				-- #endif
@@ -129,7 +129,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				-- #endif
 				exploration(602),	-- Mannoroc Coven
 				-- #if AFTER CATA
-				exploration(2100),	-- Maraudon
+				visit_exploration(2100,{coord={29.4,62.3,DESOLACE}}),	-- Maraudon
 				-- #endif
 				exploration(608),	-- Nijel's Point
 				exploration(2406),	-- Ranazjar Isle
