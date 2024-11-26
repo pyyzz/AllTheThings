@@ -125,6 +125,10 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 				},
 				["u"] = REMOVED_FROM_GAME,
 			}),
+			i(33225, {	-- Reins of the Swift Spectral Tiger (CN Only)
+				["description"] = "Obtained if you paid 267$ to set up a 6 Month WoW Subscription between 25th January 2022 until 25th July 2022.",
+				["u"] = REMOVED_FROM_GAME,
+			}),			
 		},
 	}),
 	expansion(EXPANSION.WRATH, {
@@ -312,6 +316,7 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 			i(224002, {	-- Swoopy
 				["description"] = "Obtained if you set up a 12 Month WoW Subscription after 15th October 2024.",
 			}),
+			-- add flying spectral tiger (yes) to chinese server only
 		},
 	}),
 	-- #endif
