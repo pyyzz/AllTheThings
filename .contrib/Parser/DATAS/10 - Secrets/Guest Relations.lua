@@ -543,7 +543,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
 			q(85503, {	--  A Surprising Investigation
-				["description"] = "Speak to the time-displaced visitors, toss letters to eventgoers, speak to Bottlenose again, then head a bit north up the beach to celebrate with Alyx.",
+				["description"] = "Speak to the time-displaced visitors, toss letters to eventgoers, speak to Bonenose at the north camp again, then head a bit northeast up the beach to celebrate with Alyx.",
 				["sourceQuest"] = 85502,	-- Festive Reflections
 				["provider"] = { "n", 226796 },	-- Athelton Jones
 				["coord"] = { 61.0, 50.7, TANARIS },
