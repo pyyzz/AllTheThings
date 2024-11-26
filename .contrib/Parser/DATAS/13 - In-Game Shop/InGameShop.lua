@@ -253,9 +253,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(109014, {	-- Dread Hatchling (PET!)
 			["timeline"] = { ADDED_5_4_7, REMOVED_8_3_0, ADDED_10_1_0 },
 		}),
-		applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, i(68385, {	-- Lil' Ragnaros (PET!)
+		i(68385, {	-- Lil' Ragnaros (PET!)
 			["timeline"] = { ADDED_4_0_3 },
-		})),
+		}),
 		--i(229368),	-- Gill'el (PET!)	-- Under TWW Promos
 		i(190586, {	-- Lil' Ursoc (PET!)
 			["timeline"] = { ADDED_9_2_5 },
