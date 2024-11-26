@@ -1105,17 +1105,19 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						}),
 					},
 				}),
-				q(25938, {	-- Help for Desolace (mutually exclusive with Rerouted! and Hero's Call: Desolace!)
+				q(25938, {	-- Help for Desolace
 					["qg"] = 41487,	-- Hierophant Malyk
 					["coord"] = { 33.0, 59.6, STONETALON_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isBreadcrumb"] = true,
+					["lockCriteria"] = { 1, "questID", 28531 },	 -- Hero's Call: Desolace!
 				}),
-				heroscall(q(28531, {    -- Hero's Call: Desolace! (breadcrumb quest for 14384, not available if 25938 is completed) (max level 33)
+				heroscall(q(28531, {    -- Hero's Call: Desolace!
 					["timeline"] = { ADDED_4_0_3 },
 					["maps"] = { DARNASSUS, THE_EXODAR },	-- Only found in Darnassus & The Exodar in Cataclysm.
 					["isBreadcrumb"] = true,
+					["lockCriteria"] = { 1, "questID", 25938 },	 -- Help for Desolace
 					-- #if BEFORE 7.3.5
 					-- Cataclysm: Minimum is level 29. (TODO: Confirm this.)
 					-- Cataclysm: Maximum is level 33 (TODO: Test max level between 32 and 37)
@@ -1811,7 +1813,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				q(14384, {	-- Rerouted!
 					["qg"] = 36410,	-- Officer Jankie
-					["sourceQuest"] = 28531,	-- Hero's Call: Desolace!
+					["sourceQuests"] = {
+						25938,	-- Help for Desolace
+						28531,	-- Hero's Call: Desolace!
+					},
 					["coord"] = { 54.25, 9.29, DESOLACE },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
