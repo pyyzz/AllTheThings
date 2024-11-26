@@ -4252,6 +4252,7 @@ i(229366, 4629);	-- Brrrgl
 i(228793, 4618);	-- Chillbot 9000
 i(224410, 4593);	-- Craggles
 i(222970, 4490);	-- Fuzzy
+i(230834, 4630);	-- Gill'el
 i(228740, 4614);	-- Gizmo the Pure
 i(231365, 4689);	-- Karazhan Syphoner
 i(228781, 4678);	-- Lil'Doomy
@@ -4272,16 +4273,16 @@ i(229993, 4669);	-- Bluedoo
 i(233251, 4426);		-- Bubbles
 i(233248, 4425);		-- Glamrok
 i(233252, 4435);		-- Happy
-i(230834, 4630);		-- Gill'el
-i(233481, 4690);		-- Razeshi B
 --i(233056, ???);	-- Marmaduke
 --i(0, ???);	-- Parley
 --i(234395, ???);	-- Skitterbite
 --i(233247, ???);	-- Sparklesnap
+
 --- UNSORTED ---
---i(234397, ???);	-- Fullbelly Rollingpaw
---i(232531, ???);	-- Grunch
---i(232519, ???);	-- Razeshi B
+i(234397, 4729);	-- Fullbelly Rollingpaw
+i(232531, 4691);	-- Grunch
+i(234905, 4730);	-- Mech-Friend Maya
+i(233481, 4690);	-- Razeshi B
 --i(234396, ???);	-- Teatuft Tamer
 --i(233366, ???);	-- Wind-Up Woofer
 --i(233361, ???);	-- Wind-Up Wuffi
