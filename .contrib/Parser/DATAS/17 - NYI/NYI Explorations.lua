@@ -1509,7 +1509,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(5833),	-- Wreck of The Skyseeker
 	exploration(5834),	-- Shang Xi Training Grounds
 	exploration(5835),	-- Wu-Song Village
-	exploration(5836),	-- Forest Heart
 	exploration(5837),	-- The Dawning Span
 	exploration(5838),	-- Whispering Forest
 	exploration(5839),	-- The Great Divide
@@ -1530,15 +1529,9 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(5860),	-- Liang's Retreat
 	exploration(5861),	-- Darkmoon Island
 	exploration(5862),	-- Pool of Reflection
-	exploration(5863),	-- Banquet Grounds
-	exploration(5865),	-- Wreck of Hellscream's Fist
-	exploration(5866),	-- Ascent of Swirling Winds
-	exploration(5868),	-- The Ring of Inner Focus
 	exploration(5869),	-- The Great Sea
 	exploration(5870),	-- The Darkmoon Faire
-	exploration(5871),	-- The Ring of Balance
 	exploration(5873),	-- Sea Mist Ridge
-	exploration(5875),	-- Lair of The Jade Witch
 	exploration(5877),	-- Darkmoon Deathmatch
 	exploration(5880),	-- Maelstrom Deathwing Fight
 	exploration(5881),	-- The Dai-Lo Farmstead
@@ -1548,30 +1541,23 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(5885),	-- Shrine of Dreaming Stones
 	exploration(5886),	-- Chamber of Whispers
 	exploration(5887),	-- Shadybranch Pocket
-	exploration(5891),	-- Shang's Valley
 	exploration(5892),	-- Dragon Soul
 	exploration(5893),	-- The Maelstrom
 	exploration(5894),	-- Testing02
 	exploration(5895),	-- Testing SubZone A
 	exploration(5896),	-- The Orchid Pond - Not Used
-	exploration(5898),	-- Serenity Falls
 	exploration(5900),	-- Exclamation Point
-	exploration(5901),	-- Cave of Words
 	exploration(5902),	-- Darkmoon Path
 	exploration(5904),	-- Darkmoon Boardwalk
 	exploration(5906),	-- Spire of Solitude
-	exploration(5907),	-- Lake Kittitata
 	exploration(5908),	-- Circle of Scale
 	exploration(5909),	-- Circle of Blood
-	exploration(5910),	-- Circle of Bone
-	exploration(5911),	-- Circle of Stone
 	exploration(5913),	-- Dire Maul - North
 	exploration(5914),	-- Dire Maul - East
 	exploration(5915),	-- Dire Maul - West
 	exploration(5916),	-- Stratholme - Main Gate
 	exploration(5917),	-- Stratholme - Service Entrance
 	exploration(5918),	-- Shado-Pan Monastery
-	exploration(5919),	-- Uncharted Sea
 	exploration(5920),	-- Eye of Eternity
 	exploration(5921),	-- Tasters' Arena
 	exploration(5922),	-- Above The Frozen Sea
@@ -1580,31 +1566,21 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(5925),	-- Emerald Dragonshrine
 	exploration(5926),	-- Path of The Titans
 	exploration(5928),	-- Wyrmrest Summit
-	exploration(5933),	-- The Gong of Hope
-	exploration(5935),	-- Pearlfin Village
-	exploration(5936),	-- Pang's Stead
 	exploration(5941),	-- The Great Sea
 	exploration(5944),	-- Forlorn Hut
 	exploration(5945),	-- Pool of The Paw
 	exploration(5946),	-- Morning Breeze Lake
 	exploration(5947),	-- Shrine of Five Dawns
-	exploration(5948),	-- Grassy Cline
-	exploration(5949),	-- Shang's Stead
 	exploration(5952),	-- Scenic Overlook
-	exploration(5953),	-- Murky Bank
 	exploration(5954),	-- Den of Sorrow
 	exploration(5956),	-- Temple of The Jade Serpent
-	exploration(5959),	-- The Twisted Warren
 	exploration(5960),	-- Deathwing
-	exploration(5961),	-- Slicky Stream
 	exploration(5963),	-- Stormstout Brewery
-	exploration(5973),	-- New Cifera
 	exploration(5976),	-- Gate of The Setting Sun
 	exploration(5978),	-- Ancient Courtyard
 	exploration(5979),	-- The Great Sea
 	exploration(5981),	-- The Halfhill Market
 	exploration(5983),	-- Plain of Thieves
-	exploration(5987),	-- The Gilding Stream
 	exploration(5988),	-- The Crystal Vice
 	exploration(5989),	-- The Dragon Wastes
 	exploration(5990),	-- Galakrond's Rest
@@ -1613,18 +1589,11 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(5994),	-- Shores of The Well
 	exploration(5995),	-- Azshara's Palace
 	exploration(5996),	-- Springtail Warren
-	exploration(6002),	-- Thirsty Alley
 	exploration(6006),	-- The Veiled Stair
-	exploration(6011),	-- Pools of Youth
 	exploration(6014),	-- Krasarang River
-	exploration(6018),	-- Krasari Falls
 	exploration(6021),	-- Huangtze Falls
-	exploration(6022),	-- Mistveil Sea
-	exploration(6023),	-- Windspire Bridge
-	exploration(6024),	-- The Windspire
 	exploration(6027),	-- Virmen Nest
 	exploration(6038),	-- Lair of The Beast
-	exploration(6039),	-- Sunsong Ranch
 	exploration(6040),	-- Dustwallow Marsh
 	exploration(6041),	-- The Great Sea
 	exploration(6042),	-- Theramore Isle
@@ -1644,55 +1613,36 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(6071),	-- The Drunken Hozen
 	exploration(6072),	-- Lao & Son's Yakwash
 	exploration(6075),	-- The Golden Gateway
-	exploration(6078),	-- Seat of The Spirit Waker
-	exploration(6079),	-- The Grummle Bazaar
-	exploration(6080),	-- Serpent's Overlook
-	exploration(6082),	-- The Splintered Path
 	exploration(6083),	-- Camp Broketooth
 	exploration(6084),	-- The Deeper
-	exploration(6086),	-- Broketooth Outpost
-	exploration(6088),	-- Knucklethump Hole
 	exploration(6089),	-- Yeti Mountain Basecamp
 	exploration(6091),	-- The Burlap Valley
 	exploration(6092),	-- Greenstone Masons' Quarter
 	exploration(6093),	-- Fire Camp Bataar
-	exploration(6096),	-- Cattail Lake
-	exploration(6099),	-- Pranksters' Hollow
 	exploration(6101),	-- A Brewing Storm
 	exploration(6102),	-- Thunderpaw Refuge
 	exploration(6103),	-- Thunderpaw Overlook
-	exploration(6104),	-- Thunderpaw Refuge
 	exploration(6105),	-- Thunderpaw Overlook
-	exploration(6108),	-- Narsong Trench
 	exploration(6109),	-- Scarlet Monastery
 	exploration(6111),	-- The Burlap Waystation
 	exploration(6112),	-- CTF3
-	exploration(6113),	-- Narsong Spires
 	exploration(6117),	-- Fountain of The Everseeing
 	exploration(6118),	-- The Scrollkeeper's Sanctum
 	exploration(6119),	-- Terrace of The Twin Dragons
 	exploration(6120),	-- The Heart of Jade
 	exploration(6122),	-- Grove of Falling Blossoms
 	exploration(6123),	-- SM Cathedral/GY (TEMP)
-	exploration(6124),	-- Fire Camp Ordo
 	exploration(6125),	-- Mogu'shan Vaults
 	exploration(6126),	-- Silvershard Mines
-	exploration(6127),	-- The Silent Sanctuary
 	exploration(6134),	-- Krasarang Wilds
 	exploration(6136),	-- Temple of Kotmogu
 	exploration(6137),	-- Frostmane Hovel
 	exploration(6138),	-- Dread Wastes
 	exploration(6140),	-- Mogu Ruins Bural Pit (TEMP)
-	exploration(6147),	-- Kea Krak
 	exploration(6150),	-- The Ox Gate
 	exploration(6151),	-- Mortbreath Grotto
 	exploration(6153),	-- Peak of Serenity
-	exploration(6158),	-- Sandy Shallows
 	exploration(6159),	-- Sarjun Depths
-	exploration(6160),	-- Angkhal Pavilion
-	exploration(6161),	-- Pedestal of Hope
-	exploration(6162),	-- Dome Balrissa
-	exploration(6168),	-- Zouchin Strand
 	exploration(6170),	-- Northshire
 	exploration(6172),	-- Tallmug's Camp
 	exploration(6175),	-- Seeker's Folly
@@ -1701,17 +1651,8 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(6182),	-- Mogu'shan Palace
 	exploration(6184),	-- Seeker's Point
 	exploration(6186),	-- Neverest Basecamp
-	exploration(6188),	-- Shallowstep Pass
-	exploration(6189),	-- The Widening Deep
-	exploration(6190),	-- Dampsoil Burrow
-	exploration(6194),	-- Farwatch Overlook
 	exploration(6196),	-- Sik'vess Lair
-	exploration(6199),	-- Tomb of Shadows
-	exploration(6200),	-- Tomb of Secrets
-	exploration(6201),	-- Tomb of Conquerors
-	exploration(6202),	-- Shrine of The Merciless One
 	exploration(6203),	-- Emperor Rikktik's Rest
-	exploration(6206),	-- Whispercloud Rise
 	exploration(6208),	-- Crypt of Forgotten Kings
 	exploration(6209),	-- The Jade Forest
 	exploration(6210),	-- Greenstone Village
@@ -1751,11 +1692,7 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(6338),	-- The Amber Hibernal
 	exploration(6340),	-- Kun-Lai Pass
 	exploration(6341),	-- Binan Village
-	exploration(6342),	-- Ambermarsh
 	exploration(6345),	-- Nook of Konk
-	exploration(6346),	-- Morrowchamber
-	exploration(6347),	-- The Amber Vault
-	exploration(6348),	-- Deadtalker's Plateau
 	exploration(6349),	-- The Dancing Serpent
 	exploration(6354),	-- The Lazy Turnip
 	exploration(6355),	-- Thunderfoot Inn
@@ -1772,17 +1709,11 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(6367),	-- Greenstone Inn
 	exploration(6372),	-- Gate of Endless Spring
 	exploration(6376),	-- The Ancient Passage
-	exploration(6377),	-- Hatescale Burrow
 	exploration(6378),	-- Field of Korja
 	exploration(6379),	-- Greenstone Dojo
-	exploration(6382),	-- Mason's Folly
-	exploration(6383),	-- Winter's Blossom
 	exploration(6384),	-- Forlorn Cloister
 	exploration(6385),	-- Crusader's Chapel
 	exploration(6386),	-- Chapel Gardens
-	exploration(6389),	-- Howlingwind Cavern
-	exploration(6390),	-- Gai-Cho Battlefield
-	exploration(6392),	-- The Underbough
 	exploration(6393),	-- Serpent's Spine
 	exploration(6394),	-- Serpent's Spine
 	exploration(6395),	-- Serpent's Spine
@@ -1792,37 +1723,20 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(6401),	-- Shelf of Mazu
 	exploration(6402),	-- Wreck of The Mist-Hopper
 	exploration(6403),	-- Muckscale Grotto
-	exploration(6405),	-- Zouchin Province
 	exploration(6407),	-- Thunder's Call
 	exploration(6408),	-- Forward Assault Camp
 	exploration(6409),	-- Rear Staging Area
 	exploration(6410),	-- Hollowed Out Tree
-	exploration(6411),	-- Forward Assault Camp
-	exploration(6412),	-- Rear Staging Area
-	exploration(6413),	-- Hollowed Out Tree
 	exploration(6414),	-- Grove of Falling Blossoms
-	exploration(6415),	-- The Yaungol Advance
-	exploration(6417),	-- Yan-Zhe River
 	exploration(6419),	-- Kun-Lai Summit
-	exploration(6420),	-- The Feeding Pits
-	exploration(6421),	-- Kzzok Warcamp
-	exploration(6422),	-- Sra'thik Swarmdock
-	exploration(6423),	-- Ikz'ka Ridge
 	exploration(6424),	-- Sra'vess Rootchamber
-	exploration(6425),	-- Forgotten Mire
 	exploration(6426),	-- Brewmoon Festival
 	exploration(6428),	-- The Ancient Passage
-	exploration(6430),	-- Anglers Expedition
 	exploration(6431),	-- Seaspittle Cove
 	exploration(6432),	-- Amberglow Hollow
-	exploration(6434),	-- The Thundering Run
 	exploration(6436),	-- Dread Clutch
 	exploration(6438),	-- Horror Clutch
-	exploration(6441),	-- Duskroot Fen
 	exploration(6445),	-- Whispering Stones
-	exploration(6446),	-- Amber Quarry
-	exploration(6447),	-- The Stinging Trail
-	exploration(6448),	-- Mazu's Overlook
 	exploration(6449),	-- Temple of Kotmogu
 	exploration(6450),	-- Shadowglen
 	exploration(6451),	-- Valley of Trials
@@ -1837,9 +1751,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(6461),	-- Whispering Stones
 	exploration(6462),	-- Path of Conquerors
 	exploration(6463),	-- Dustwallow Marsh
-	exploration(6466),	-- Cavern of Endless Echoes
-	exploration(6468),	-- The Emperor's Reach
-	exploration(6469),	-- Howlingwind Trail
 	exploration(6470),	-- The Gilded Foyer
 	exploration(6471),	-- The Crimson Assembly Hall
 	exploration(6472),	-- Forgotten Passageway
@@ -1870,9 +1781,7 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(6501),	-- The Lady Mehley
 	exploration(6502),	-- Theramore Isle
 	exploration(6503),	-- Guo-Lai Vault
-	exploration(6504),	-- The Emperor's Approach
 	exploration(6505),	-- The Riverblade Den
-	exploration(6506),	-- Motherseed Pit
 	exploration(6507),	-- Isle of Thunder
 	exploration(6508),	-- Springtail Crag
 	exploration(6509),	-- Stormstout Brewery Interior
@@ -1883,17 +1792,12 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(6514),	-- Maraudon
 	exploration(6515),	-- Terrace of Endless Spring
 	exploration(6516),	-- Paw'don Village
-	exploration(6517),	-- Twinspire Keep
 	exploration(6518),	-- Path of Serenity
 	exploration(6519),	-- Summer's Rest
 	exploration(6520),	-- Gokk'lok's Grotto
-	exploration(6523),	-- Honeydew Farm
 	exploration(6525),	-- Hellscream's Fist
-	exploration(6526),	-- Training Grounds
-	exploration(6527),	-- Terrace of The Tiger
 	exploration(6528),	-- Serpent's Spine
 	exploration(6529),	-- Hellscream's Fist
-	exploration(6530),	-- Serpent's Spine
 	exploration(6533),	-- The Skyfire
 	exploration(6534),	-- Twinspire Keep Interior
 	exploration(6535),	-- Den of Defiance
@@ -1907,7 +1811,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(6547),	-- The Deepwild
 	exploration(6548),	-- Venomous Ledge
 	exploration(6549),	-- Sra'vess
-	exploration(6550),	-- Fields of Niuzao
 	exploration(6551),	-- Townlong Steppes
 	exploration(6552),	-- Kun-Lai Summit
 	exploration(6555),	-- Northern Elwynn Mountains
@@ -1957,12 +1860,10 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(6609),	-- Ruins of Ogudei
 	exploration(6610),	-- The Ancient Passage
 	exploration(6611),	-- Dalaran
-	exploration(6612),	-- Horde Landing Site
 	exploration(6613),	-- Black Temple
 	exploration(6614),	-- Illidari Training Grounds
 	exploration(6615),	-- Krasarang Wilds
 	exploration(6616),	-- A Little Patience
-	exploration(6617),	-- Garrosh'ar Advance
 	exploration(6618),	-- Bizmo's Brawlpub
 	exploration(6619),	-- Ruins of Korune
 	exploration(6620),	-- Lair of Skiggit
@@ -1998,7 +1899,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(6650),	-- Kun-Lai Summit
 	exploration(6651),	-- Vale of Eternal Blossoms
 	exploration(6652),	-- The Veiled Stair
-	exploration(6653),	-- The Skyfire
 	exploration(6654),	-- Predator's Perch
 	exploration(6661),	-- Isle of Giants
 	exploration(6662),	-- Talador
@@ -2068,7 +1968,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(6732),	-- The Tiger's Peak
 	exploration(6733),	-- Vale of Eternal Blossoms
 	exploration(6734),	-- Big Blossom Excavation
-	exploration(6735),	-- Big Blossom Mine
 	exploration(6736),	-- Deepwind Gorge
 	exploration(6737),	-- Deepwind Gorge
 	exploration(6738),	-- Siege of Orgrimmar
@@ -2142,10 +2041,8 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(6852),	-- Proving Grounds
 	exploration(6854),	-- [UNUSED]Hidey-Hole
 	exploration(6861),	-- Grulloc's Lair
-	exploration(6862),	-- The Halfhill Market
 	exploration(6863),	-- The Secret Ingredient
 	exploration(6865),	-- zzOld - Explosion Town [NOT TEMP NAME]
-	exploration(6867),	-- Circle of Blood
 	exploration(6868),	-- Hall of The Great Hunt
 	exploration(6871),	-- Farseer's Rock
 	exploration(6874),	-- Bloodmaul Slag Mines
