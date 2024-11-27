@@ -339,7 +339,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(2563),	-- Morgan's Plot
 	exploration(2597),	-- Alterac Valley
 	exploration(2617),	-- Scrabblescrew's Camp
-	exploration(2625),	-- Eastwall Gate
 	exploration(2626),	-- Terrorweb Tunnel
 	exploration(2637),	-- Kargathia Keep
 	exploration(2677),	-- Blackwing Lair
@@ -603,21 +602,16 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4090),	-- The Dawning Square
 	exploration(4093),	-- The Sun Forge
 	exploration(4096),	-- ClaytĂ¶n's WoWEdit Land
-	exploration(4098),	-- Glimmer Bay
-	exploration(4099),	-- Winterfin Retreat
 	exploration(4100),	-- The Culling of Stratholme
 	exploration(4102),	-- Krom's Landing
 	exploration(4103),	-- Nasam's Talon
 	exploration(4110),	-- Farshire Fields
 	exploration(4117),	-- Steam Springs
-	exploration(4119),	-- Festering Pools
 	exploration(4128),	-- Naxxanar
 	exploration(4131),	-- Magisters' Terrace
 	exploration(4139),	-- Parhelion Plaza
 	exploration(4140),	-- The Dead Scar
 	exploration(4143),	-- Warsong Slaughterhouse
-	exploration(4145),	-- West Point Station
-	exploration(4146),	-- North Point Station
 	exploration(4147),	-- Mid Point Station
 	exploration(4149),	-- D.E.H.T.A. Encampment
 	exploration(4150),	-- Kaw's Roost
@@ -654,8 +648,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4271),	-- Utgarde Pinnacle
 	exploration(4273),	-- Ulduar
 	exploration(4277),	-- Azjol-Nerub
-	exploration(4280),	-- Drak'Agal
-	exploration(4286),	-- The Bones of Nozronn
 	exploration(4295),	-- The Sundered Shard
 	exploration(4297),	-- Mosswalker Village
 	exploration(4298),	-- Plaguelands: The Scarlet Enclave
@@ -684,18 +676,14 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4363),	-- Pestilent Scar
 	exploration(4364),	-- Browman Mill
 	exploration(4365),	-- Havenshire Mine
-	exploration(4367),	-- The Blight Line
 	exploration(4377),	-- New Avalon Forge
 	exploration(4378),	-- Dalaran Arena
 	exploration(4379),	-- Valgarde
 	exploration(4380),	-- Westguard Inn
 	exploration(4381),	-- Waygate
-	exploration(4383),	-- Lakeside Landing
 	exploration(4384),	-- Strand of The Ancients
 	exploration(4387),	-- Frenzyheart River
 	exploration(4388),	-- Wintergrasp River
-	exploration(4390),	-- Frigid Breach
-	exploration(4393),	-- Death's Hand Encampment
 	exploration(4394),	-- Scarlet Tavern
 	exploration(4395),	-- Dalaran
 	exploration(4399),	-- Farshire Mine
@@ -710,36 +698,26 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4416),	-- Gundrak
 	exploration(4426),	-- Bor's Breath River
 	exploration(4427),	-- Argent Vanguard
-	exploration(4433),	-- Dragonspine Peaks
 	exploration(4443),	-- Gate of Echoes
 	exploration(4447),	-- Gate of Lightning
-	exploration(4450),	-- Loken's Bargain
-	exploration(4451),	-- Bor's Fall
 	exploration(4454),	-- The Storm Foundry
 	exploration(4456),	-- Voldrune Dwelling
-	exploration(4457),	-- Torseg's Rest
 	exploration(4462),	-- Crystalweb Cavern
-	exploration(4466),	-- Temple of Invention
 	exploration(4470),	-- The Hidden Hollow
 	exploration(4471),	-- Bernau's Happy Fun Land
 	exploration(4472),	-- Frostgrip's Hollow
 	exploration(4475),	-- Zim'bo's Hideout
 	exploration(4476),	-- Abandoned Camp
-	exploration(4485),	-- The Inventor's Library
-	exploration(4487),	-- Frostfloe Deep
 	exploration(4489),	-- Crusader Forward Camp
 	exploration(4491),	-- Bonesnap's Camp
 	exploration(4493),	-- The Obsidian Sanctum
 	exploration(4494),	-- Ahn'kahet: The Old Kingdom
 	exploration(4500),	-- The Eye of Eternity
-	exploration(4502),	-- Mimir's Workshop
 	exploration(4511),	-- The Skybreaker
 	exploration(4512),	-- Orgrim's Hammer
 	exploration(4525),	-- The Underhalls
-	exploration(4530),	-- Sanctum of Reanimation
 	exploration(4532),	-- Vengeance Landing Inn
 	exploration(4534),	-- Wildervar Mine
-	exploration(4535),	-- The Pit of The Fang
 	exploration(4536),	-- Frosthowl Cavern
 	exploration(4538),	-- The Sunken Ring
 	exploration(4539),	-- The Broken Temple
@@ -749,7 +727,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4547),	-- Halls of Stone
 	exploration(4548),	-- Halls of Lightning
 	exploration(4550),	-- The Mirror of Twilight
-	exploration(4551),	-- The Twilight Rivulet
 	exploration(4560),	-- The Underbelly
 	exploration(4564),	-- Krasus' Landing
 	exploration(4567),	-- The Violet Hold
@@ -762,7 +739,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4576),	-- Central Bridge
 	exploration(4577),	-- Eastern Bridge
 	exploration(4578),	-- Western Bridge
-	exploration(4579),	-- Dubra'Jin
 	exploration(4581),	-- Flamewatch Tower
 	exploration(4582),	-- Winter's Edge Tower
 	exploration(4583),	-- Shadowsight Tower
@@ -770,13 +746,11 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4585),	-- Glacial Falls
 	exploration(4586),	-- Windy Bluffs
 	exploration(4587),	-- The Forest of Shadows
-	exploration(4588),	-- Blackwatch
 	exploration(4589),	-- The Chilled Quagmire
 	exploration(4590),	-- The Steppe of Life
 	exploration(4594),	-- Battlescar Spire
 	exploration(4595),	-- Hall of Horrors
 	exploration(4596),	-- The Circle of Suffering
-	exploration(4597),	-- Rise of Suffering
 	exploration(4598),	-- Krasus' Landing
 	exploration(4599),	-- Sewer Exit Pipe
 	exploration(4601),	-- Dalaran Island
@@ -800,7 +774,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4619),	-- The Violet Citadel
 	exploration(4620),	-- Magus Commerce Exchange
 	exploration(4621),	-- UNUSED
-	exploration(4622),	-- First Legion Forward Camp
 	exploration(4623),	-- Hall of The Conquered Kings
 	exploration(4624),	-- Befouled Terrace
 	exploration(4625),	-- The Desecrated Altar
@@ -809,7 +782,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4628),	-- Halls of Binding
 	exploration(4629),	-- Winter's Heart
 	exploration(4630),	-- The North Sea
-	exploration(4631),	-- The Broodmother's Nest
 	exploration(4632),	-- Dalaran Floating Rocks
 	exploration(4633),	-- Raptor Pens
 	exploration(4635),	-- Drak'Tharon Keep
@@ -1079,7 +1051,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(5039),	-- Sulfuron Spire
 	exploration(5042),	-- Deepholm
 	exploration(5045),	-- Ascendant's Rise
-	exploration(5046),	-- Mirage Abyss
 	exploration(5048),	-- Raceway Ruins
 	exploration(5049),	-- Speedbarge Bar
 	exploration(5050),	-- The Hatchery
@@ -1087,7 +1058,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(5058),	-- Deepmist Grotto
 	exploration(5060),	-- Steelspark Station
 	exploration(5061),	-- Steelspark Station
-	exploration(5063),	-- Dunemaul Recruitment Camp
 	exploration(5064),	-- The Anvil of Flame
 	exploration(5065),	-- Tower of Estulan
 	exploration(5066),	-- Trueshot Point
@@ -4761,7 +4731,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(13185),	-- House of The Chosen
 	exploration(13186),	-- Challenger's Promenade
 	exploration(13187),	-- Seat of The Primus
-	exploration(13188),	-- Butchers Block
 	exploration(13189),	-- House of Plagues
 	exploration(13190),	-- Theater of Pain
 	exploration(13191),	-- Blighted Scar
@@ -5568,7 +5537,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(480),	-- Camp E'thok
 	exploration(481),	-- Splithoof Crag
 	exploration(483),	-- The Screeching Canyon
-	exploration(507),	-- Bluefen
 	exploration(609),	-- Kolkar Village
 	exploration(801),	-- Chill Breeze Valley
 	exploration(810),	-- Stillwater Pond
