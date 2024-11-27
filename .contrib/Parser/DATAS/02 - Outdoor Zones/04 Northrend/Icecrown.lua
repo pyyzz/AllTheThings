@@ -150,6 +150,7 @@ root(ROOTS.Zones, {
 					visit_exploration(4514,{coord={56.5,57.4,ICECROWN}}),    -- Saronite Mines
 					exploration(4497),	-- Savage Ledge
 					exploration(4506),	-- Scourgeholme
+					visit_exploration(4591,{coord={74.8,39.3,ICECROWN}}),    -- Silent Vigil
 					exploration(4533),	-- Sindragosa's Fall
 					visit_exploration(4676,{coord={76.2,24.1,ICECROWN}}),    -- Sunreaver Pavilion
 					visit_exploration(4672,{coord={75.3,18.3,ICECROWN}}),    -- The Alliance Valiants' Ring

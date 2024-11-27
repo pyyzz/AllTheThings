@@ -1020,7 +1020,6 @@ root(ROOTS.Unsorted, {
 				exploration(14752),	-- Azj-Kahet
 				exploration(15547),	-- Beledar's Bounty
 				exploration(15106),	-- Bleak Sand
-				exploration(14777),	-- Boskroot Basin
 				exploration(15372),	-- Brood Pens
 				exploration(15378),	-- Bulwark of Authorization
 				exploration(15051),	-- Chamber of Heart
