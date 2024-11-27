@@ -2182,7 +2182,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 			filter(MOUNTS, {
 				i(212229, {	-- Reins of the Twilight Sky Prowler
 					["cost"] = {{"c", TRADERS_TENDER, 750}},
-				})
+				}),
 			}),
 			filter(COSMETIC, {
 				i(230853, {	-- Aegis of Yuletide
