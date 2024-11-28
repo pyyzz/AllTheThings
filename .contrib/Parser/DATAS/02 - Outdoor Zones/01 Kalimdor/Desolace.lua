@@ -137,7 +137,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				exploration(2198),	-- Shadowbreak Ravine
 				exploration(2408),	-- Shadowprey Village
 				-- #if AFTER CATA
-				exploration(604),	-- Shok'Thokar [CATA+] / Magram Village
+				visit_exploration(604,{coord={66.0,76.7,DESOLACE}}),	-- Shok'Thokar [CATA+] / Magram Village
 				exploration(4796),	-- Slitherblade Shore
 				-- #endif
 				exploration(2404),	-- Tethris Aran
