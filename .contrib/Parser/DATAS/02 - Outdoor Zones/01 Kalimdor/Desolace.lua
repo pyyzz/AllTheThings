@@ -128,9 +128,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				exploration(604),	-- Magram Village / Shok'Thokar [CATA+]
 				-- #endif
 				exploration(602),	-- Mannoroc Coven
-				-- #if AFTER CATA
 				visit_exploration(2100,{coord={29.4,62.3,DESOLACE}}),	-- Maraudon
-				-- #endif
 				exploration(608),	-- Nijel's Point
 				exploration(2406),	-- Ranazjar Isle
 				exploration(603),	-- Sargeron
