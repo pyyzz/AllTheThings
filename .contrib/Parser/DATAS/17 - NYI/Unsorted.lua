@@ -460,9 +460,6 @@ root(ROOTS.Unsorted, {
 			i(234472),	-- Earthen Crystal
 		})),
 		expansion(EXPANSION.TWW, patch(0,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
-			filter(BATTLE_PETS, {
-				i(229993),	-- Bluedoo (PET!) [Trading Post?]
-			}),
 			filter(TOYS, {
 				i(232302),	-- Unknown (TOY!)
 				i(232303),	-- Unknown (TOY!)
@@ -644,19 +641,6 @@ root(ROOTS.Unsorted, {
 				i(227597),	-- Red Crane Legwraps
 			}),
 			filter(COSMETIC, {
-				i(229807),	-- Crown of the Icy Blue Rose
-				i(229808),	-- Gossamer Cyan Gown
-				i(229811),	-- Frost Etched Dagger
-				i(229812),	-- Chilled Axe
-				i(229813),	-- Crystalline Longbow of the Heavens
-				i(229814),	-- Fan of Cooling
-				i(229815),	-- Sky Witch's Airy Stave
-				i(229816),	-- Sky Witch's Airy Wand
-				i(229817),	-- Lovely Airy Longbow
-				i(229961),	-- Candied Knife
-				i(229962),	-- Tree Topper
-				i(229963),	-- Great Candied Blade
-				i(229999),	-- Classic Cloudy Tabard
 				i(230033),	-- Prowler's Midnight Shoulder Cape
 				i(230035),	-- Prowler's Sepia Shoulder Cape
 				i(230036),	-- Prowler's Grassy Shoulder Cape
@@ -665,13 +649,11 @@ root(ROOTS.Unsorted, {
 				i(230039),	-- Prowler's Brick Shoulder Cape
 				i(230040),	-- Prowler's Camo Shoulder Cape
 				i(230041),	-- Prowler's Lively Shoulder Cape
-				i(230043),	-- Prowler's Icy Shoulder Cape
 				i(230044),	-- Prowler's Pink Shoulder Cape
 				i(230045),	-- Prowler's Carrot Shoulder Cape
 				i(230046),	-- Prowler's Rosy Shoulder Cape
 				i(230047),	-- Prowler's Plum Shoulder Cape
 				i(230050),	-- Prowler's Aquatic Shoulder Cape
-				i(230051),	-- Prowler's Snowy Shoulder Cape
 				i(230054),	-- Prowler's Midnight Cowl
 				i(230055),	-- Prowler's Azure Cowl
 				i(230056),	-- Prowler's Sepia Cowl
@@ -681,7 +663,6 @@ root(ROOTS.Unsorted, {
 				i(230060),	-- Prowler's Camo Cowl
 				i(230061),	-- Prowler's Brick Cowl
 				i(230062),	-- Prowler's Lively Cowl
-				i(230064),	-- Prowler's Icy Cowl
 				i(230065),	-- Prowler's Pink Cowl
 				i(230066),	-- Prowler's Carrot Cowl
 				i(230067),	-- Prowler's Rosy Cowl
@@ -689,7 +670,6 @@ root(ROOTS.Unsorted, {
 				i(230069),	-- Prowler's Crimson Cowl
 				i(230070),	-- Prowler's Violet Cowl
 				i(230071),	-- Prowler's Aquatic Cowl
-				i(230072),	-- Prowler's Snowy Cowl
 				i(230073),	-- Prowler's Sunny Cowl
 				i(230074),	-- Prowler's Midnight Mask
 				i(230075),	-- Prowler's Azure Mask
@@ -700,7 +680,6 @@ root(ROOTS.Unsorted, {
 				i(230080),	-- Prowler's Camo Mask
 				i(230081),	-- Prowler's Brick Mask
 				i(230082),	-- Prowler's Lively Mask
-				i(230084),	-- Prowler's Icy Mask
 				i(230085),	-- Prowler's Pink Mask
 				i(230086),	-- Prowler's Carrot Mask
 				i(230087),	-- Prowler's Rosy Mask
@@ -708,7 +687,6 @@ root(ROOTS.Unsorted, {
 				i(230089),	-- Prowler's Crimson Mask
 				i(230090),	-- Prowler's Violet Mask
 				i(230091),	-- Prowler's Aquatic Mask
-				i(230092),	-- Prowler's Snowy Mask
 				i(230093),	-- Prowler's Sunny Mask
 				i(230152),	-- Ensemble: Prowler's Midnight Headgear
 				i(230166),	-- Ensemble: Prowler's Sepia Headgear
@@ -718,14 +696,11 @@ root(ROOTS.Unsorted, {
 				i(230170),	-- Ensemble: Prowler's Camo Headgear
 				i(230171),	-- Ensemble: Prowler's Brick Headgear
 				i(230172),	-- Ensemble: Prowler's Lively Headgear
-				i(230174),	-- Ensemble: Prowler's Icy Headgear
 				i(230175),	-- Ensemble: Prowler's Pink Headgear
 				i(230176),	-- Ensemble: Prowler's Carrot Headgear
 				i(230177),	-- Ensemble: Prowler's Rosy Headgear
 				i(230178),	-- Ensemble: Prowler's Plum Headgear
 				i(230181),	-- Ensemble: Prowler's Aquatic Headgear
-				i(230182),	-- Ensemble: Prowler's Snowy Headgear
-				i(231017),	-- Wings of the Onyx Monarch
 			}),
 			n(DUNGEONS_AND_RAIDS, {	-- Raid
 				i(231511),	-- Relic Coffer Key Fragment
@@ -1045,7 +1020,6 @@ root(ROOTS.Unsorted, {
 				exploration(15047),	-- Fallside Outpost
 				exploration(14821),	-- Fetid Grotto
 				exploration(15142),	-- Firewall of Negation
-				exploration(15179),	-- Fortune's Fall
 				exploration(15044),	-- Foundation Hall
 				exploration(14957),	-- Fungal Folly
 				exploration(15361),	-- Gemvein Tunnels

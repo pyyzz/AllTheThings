@@ -5324,7 +5324,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(14697),	-- The Frosted Spine
 	exploration(14698),	-- Tempest Cove
 	exploration(14699),	-- Winglord's Perch
-	exploration(14700),	-- Slyvern's Roost
 	exploration(14701),	-- The Shrouded Coast
 	exploration(14702),	-- Skyward Watch
 	exploration(14703),	-- Froststone Peak
