@@ -2018,7 +2018,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				}),
 			}),
 		})),
-		n(NOVEMBER, bubbleDownSelf({ ["timeline"] = { "added 11.0.5.57388", "removed 11.0.5.99999" } }, {	-- TODO: Timeline out correctly
+		n(NOVEMBER, bubbleDownSelf({ ["timeline"] = { "added 11.0.5.57388", "removed 11.0.5.57689" } }, {
 			n(FILLED_TRAVELERS_LOG, {
 				iensemble(229059),	-- Arsenal: Crests of the Kingdom
 			}),
@@ -2175,7 +2175,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				}),
 			}),
 		})),
-		n(DECEMBER, bubbleDownSelf({ ["timeline"] = { "added 11.0.5.57388", "removed 11.0.7.99999" } }, {	-- TODO: Timeline in correctly
+		n(DECEMBER, bubbleDownSelf({ ["timeline"] = { "added 11.0.5.57689", "removed 11.0.7.99999" } }, {	-- TODO: Timeline out correctly
 			n(FILLED_TRAVELERS_LOG, {
 				iensemble(223486),	-- Ensemble: Purple Snugglefin Murloc Romper
 			}),
@@ -2239,7 +2239,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 					["cost"] = {{"c", TRADERS_TENDER, 100}},
 				}),
 				iensemble(190095, {	-- Ensemble: Vestment of the Honored Valarjar
-					["cost"] = {{"c", TRADERS_TENDER, 900}},
+					["cost"] = {{"c", TRADERS_TENDER, 850}},
 				}),
 				iensemble(206339, {	-- Ensemble: Wanderer's Cloudy Trappings
 					["cost"] = {{"c", TRADERS_TENDER, 100}},
