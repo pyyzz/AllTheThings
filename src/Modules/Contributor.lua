@@ -76,6 +76,7 @@ end
 
 local function AddReportData(reporttype, id, data)
 	-- app.PrintDebug("Contributor.AddReportData",reporttype,id)
+	-- app.PrintTable(data)
 	local reportData = Reports[reporttype][id]
 	if type(data) == "table" then
 		for k,v in pairs(data) do
@@ -222,6 +223,9 @@ local GuidTypeProviders = {
 
 local ProviderTypeChecks = {
 	n = function(objID, objRef, providers, providerID)
+		-- app.PrintDebug("Check.n",objID,providerID,app:SearchLink(objRef))
+		-- app.PrintTable(providers)
+		-- app.PrintTable(objRef.qgs)
 		local found
 		-- n providers are turned into qgs on quest objects
 		local qgs = objRef.qgs
@@ -326,13 +330,13 @@ local function OnQUEST_DETAIL(...)
 			local questParent = questRef.parent
 			if questParent and questParent.__type == "NPC" then
 				if not Check_coords(questParent, questParent[questParent.key], mapID, px, py) then
-					AddReportData("quest",questID,{
+					AddReportData(questRef.__type,questID,{
 						questID = questID,
 						MissingCoords = "No Coordinates for this quest under NPC!",
 					})
 				end
 			else
-				AddReportData("quest",questID,{
+				AddReportData(questRef.__type,questID,{
 					questID = questID,
 					MissingCoords = "No Coordinates for this quest!",
 				})
