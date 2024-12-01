@@ -180,6 +180,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 					["coord"] = { 56.9, 47.2, WESTFALL },
 					["timeline"] = { REMOVED_4_0_3 },
+					["description"] = "This quest gets marked as completed when you complete the quest 'A Swift Message' (26393) in Elwynn Forest.",
 					["races"] = { HUMAN },
 					["lvl"] = 10,
 				}),
@@ -340,6 +341,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["sourceQuest"] = 6181,	-- A Swift Message
 					["coord"] = { 56.4, 52.6, WESTFALL },
 					["timeline"] = { REMOVED_4_0_3 },
+					["description"] = "This quest gets marked as completed when you complete the quest 'Continue to Stormwind' (26394) in Stormwind.",
 					["maps"] = { STORMWIND_CITY },
 					["races"] = { HUMAN },
 					["lvl"] = 10,

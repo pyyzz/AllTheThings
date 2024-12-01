@@ -1321,6 +1321,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["coord"] = { 45.6, 47.8, ELWYNN_FOREST },
 							-- #endif
 							["timeline"] = { REMOVED_6_0_2 },
+							["description"] = "This quest gets marked as completed when you complete the quest 'Rest and Relaxation' (37112).",
 							["races"] = ALLIANCE_ONLY,
 							["groups"] = {
 								i(57395, {	-- Lion's Pride Bracer
@@ -1341,7 +1342,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						q(37112, {	-- Rest and Relaxation
 							["qg"] = 6774,	-- Falkhaan Isenstrider
 							-- #if AFTER MOP
-							["coord"] = { 24.2, 73.4, NORTHSHIRE_VALLEY },
+							["coord"] = { 45.4, 49.0, ELWYNN_FOREST },
 							-- #else
 							["coord"] = { 45.6, 47.8, ELWYNN_FOREST },
 							-- #endif
@@ -1891,6 +1892,63 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					}),
 					-- #endif
+					n(VENDORS, {
+						n(190, {	-- Dermot Johns <Cloth & Leather Armor Merchant>
+							-- #if AFTER MOP
+							["coord"] = { 31.3, 50.6, NORTHSHIRE_VALLEY },
+							-- #else
+							["coord"] = { 47.6, 41.4, ELWYNN_FOREST },	-- WoWhead data
+							-- #endif
+							["sym"] = {{"select","itemID",
+								2129,	-- Large Round Shield
+								17184,	-- Small Shield
+								2380,	-- Tarnished Chain Belt
+								2383,	-- Tarnished Chain Boots
+								2384,	-- Tarnished Chain Bracers
+								2385,	-- Tarnished Chain Gloves
+								2381,	-- Tarnished Chain Leggings
+								2379,	-- Tarnished Chain Vest
+							}},
+						}),
+						n(1213, {	-- Godric Rothgar <Armorer & Shieldcrafter>
+							-- #if AFTER MOP
+							["coord"] = { 31.7, 50.7, NORTHSHIRE_VALLEY },
+							-- #else
+							["coord"] = { 47.6, 41.4, ELWYNN_FOREST },	-- WoWhead data
+							-- #endif
+							["sym"] = {{"select","itemID",
+								2122,	-- Cracked Leather Belt
+								2123,	-- Cracked Leather Boots
+								2124,	-- Cracked Leather Bracers
+								2125,	-- Cracked Leather Gloves
+								2126,	-- Cracked Leather Pants
+								2127,	-- Cracked Leather Vest
+								2121,	-- Thin Cloth Armor
+								3599,	-- Thin Cloth Belt
+								3600,	-- Thin Cloth Bracers
+								2119,	-- Thin Cloth Gloves
+								2120,	-- Thin Cloth Pants
+								2117,	-- Thin Cloth Shoes
+							}},
+						}),
+						n(78, {	-- Janos Hammerknuckle <Weaponsmith>
+							-- #if AFTER MOP
+							["coord"] = { 30.1, 52.4, NORTHSHIRE_VALLEY },
+							-- #else
+							["coord"] = { 47.2, 41.8, ELWYNN_FOREST },	-- WoWhead data
+							-- #endif
+							["sym"] = {{"select","itemID",
+								1194,	-- Bastard Sword
+								2479,	-- Broad Axe
+								2130,	-- Club
+								2139,	-- Dirk
+								2134,	-- Hand Axe
+								2480,	-- Large Club
+								2131,	-- Shortsword
+								2132,	-- Short Staff
+							}},
+						}),
+					}),
 					-- #if SEASON_OF_DISCOVERY
 					n(TREASURES, {
 						applyclassicphase(SOD_PHASE_ONE, o(387477, {	-- Defias Stashbox
@@ -1957,26 +2015,29 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			explorationHeader({
 				exploration(62),	-- Brackwell Pumpkin Patch
-				exploration(18),	-- Crystal Lake
+				visit_exploration(18,{coord={47.4,62.2,ELWYNN_FOREST}}),	-- Crystal Lake
 				exploration(88),	-- Eastvale Logging Camp
-				exploration(57),	-- Fargodeep Mine
+				visit_exploration(57,  {coord={38.2,83.6,ELWYNN_FOREST}}),	-- Fargodeep Mine
 				exploration(60),	-- Forest's Edge
-				exploration(87),	-- Goldshire
+				visit_exploration(87,  {coord={42.5,65.8,ELWYNN_FOREST}}),	-- Goldshire
 				-- #if AFTER CATA
 				exploration(5176),	-- Goldtooth's Den
 				-- #endif
+				visit_exploration(5174,{coord={24.9,94.2,ELWYNN_FOREST}}),	-- Hogger Hill
 				exploration(54),	-- Jasperlode Mine
-				exploration(797),	-- Jerod's Landing
+				visit_exploration(797, {coord={48.4,87.8,ELWYNN_FOREST}}),	-- Jerod's Landing
 				visit_exploration(5637,{coord={42.9,65.6,ELWYNN_FOREST}}),	-- Lion's Pride Inn
-				exploration(9),		-- Northshire Valley
+				visit_exploration(92,  {coord={32.1,58.2,ELWYNN_FOREST}}),	-- Mirror Lake
+				visit_exploration(89,  {coord={31.6,64.8,ELWYNN_FOREST}}),	-- Mirror Lake Orchard
+				visit_exploration(9,   {coord={45.5,48.7,ELWYNN_FOREST}}),	-- Northshire Valley
 				exploration(798),	-- Ridgepoint Tower
 				exploration(86),	-- Stone Cairn Lake
 				exploration(1519),	-- Stormwind City
 				visit_exploration(7486,{coord={33.7,50.8,ELWYNN_FOREST}}),	-- Stormwind Gate
-				exploration(64),	-- The Maclure Vineyards
-				exploration(63),	-- The Stonefield Farm
+				visit_exploration(64,  {coord={41.7,86.7,ELWYNN_FOREST}}),	-- The Maclure Vineyards
+				visit_exploration(63,  {coord={34.2,84.8,ELWYNN_FOREST}}),	-- The Stonefield Farm
 				exploration(91),	-- Tower of Azora
-				exploration(120),	-- Westbrook Garrison
+				visit_exploration(120, {coord={24.2,75.3,ELWYNN_FOREST}}),	-- Westbrook Garrison
 			}),
 			-- #if AFTER 4.0.1.12984
 			n(FLIGHT_PATHS, {
@@ -3200,6 +3261,20 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 			}),
 			-- #endif
 			n(VENDORS, {
+				n(2046, {	-- Andrew Krighton <Armorer & Shieldcrafter>
+					["coord"] = { 41.7, 65.9, ELWYNN_FOREST },
+					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						1201,	-- Dull Heater Shield
+						2392,	-- Light Mail Armor
+						2393,	-- Light Mail Belt
+						2395,	-- Light Mail Boots
+						2396,	-- Light Mail Bracers
+						2397,	-- Light Mail Gloves
+						2394,	-- Light Mail Leggings
+						17186,	-- Small Targe
+					}},
+				}),
 				n(844, {	-- Antonio Perelli <Traveling Salesman>
 					["description"] = "This vendor travels in a big circuit from Elwynn Forest (stopping in Goldshire) to Westfall (stopping in Sentinel Hill) to Duskwood (stopping in Darkshire) to Redridge Mountains (stopping in Lakeshire) and then back to Elwynn Forest.  If you cannot find him in this zone, check one of the other three.",
 					-- #if AFTER CATA
@@ -3261,6 +3336,20 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(1939),	-- Skin of Sweet Rum
 					},
 				}),
+				n(54, {	-- Corina Steele <Weaponsmith>
+					["coord"] = { 41.4, 65.8, ELWYNN_FOREST },
+					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						2492,	-- Cudgel
+						2488,	-- Gladius
+						2491,	-- Large Axe
+						2494,	-- Stiletto
+						2490,	-- Tomahawk
+						2489,	-- Two-Handed Sword
+						2495,	-- Walking Stick
+						2493,	-- Wooden Mallet
+					}},
+				}),
 				-- #if SEASON_OF_DISCOVERY
 				applyclassicphase(SOD_PHASE_ONE, n(201854, {	-- Cutty
 					["coord"] = { 49.8, 52.0, ELWYNN_FOREST },
@@ -3309,7 +3398,6 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				n(384, {	-- Katie Hunter <Horse Breeder>
 					["coord"] = { 84.0, 65.4, ELWYNN_FOREST },
-
 					-- Available to Humans without faction requirements.
 					["minReputation"] = { FACTION_STORMWIND, EXALTED },	-- Stormwind, Exalted.
 					["OnInit"] = [[function(t)
@@ -3327,6 +3415,24 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(18776),	-- Swift Palomino (MOUNT!)
 						i(18778),	-- Swift White Steed (MOUNT!)
 					},
+				}),
+				n(74, {	-- Kurran Steele <Cloth & Leather Armor Merchant>
+					["coord"] = { 41.4, 65.6, ELWYNN_FOREST },
+					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						3602,	-- Knitted Belt
+						3603,	-- Knitted Bracers
+						793,	-- Knitted Gloves
+						794,	-- Knitted Pants
+						792,	-- Knitted Sandals
+						795,	-- Knitted Tunic
+						1389,	-- Rough Leather Belt
+						796,	-- Rough Leather Boots
+						1840,	-- Rough Leather Bracers
+						797,	-- Rough Leather Gloves
+						798,	-- Rough Leather Pants
+						799,	-- Rough Leather Vest
+					}},
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				n(906, {	-- Maximillian Crowe <Warlock Trainer>

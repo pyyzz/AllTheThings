@@ -54,9 +54,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(83),	-- Jeff SE Quadrant
 	exploration(84),	-- Jeff SW Quadrant
 	exploration(85),	-- Tirisfal Glades
-	exploration(89),	-- Mirror Lake Orchard
-	exploration(92),	-- Mirror Lake
-	exploration(106),	-- The Stockpile
 	exploration(126),	-- Tkashi Ruins
 	exploration(130),	-- Silverpine Forest
 	exploration(139),	-- Eastern Plaguelands
@@ -1117,7 +1114,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(5170),	-- Valley of Strength
 	exploration(5171),	-- Valley of Wisdom
 	exploration(5173),	-- The Severed Span
-	exploration(5174),	-- Hogger Hill
 	exploration(5177),	-- Crushcog's Arsenal
 	exploration(5178),	-- The Toxic Airfield
 	exploration(5247),	-- The Tidebreaker

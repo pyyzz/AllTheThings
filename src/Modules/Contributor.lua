@@ -131,6 +131,7 @@ end
 -- These should be NPCs which are mobile in that they can have completely variable coordinates in game
 -- either by following the player or having player-based decisions that cause them to have any coordinates
 local MobileNPCDB = {
+	   [951] = true,	-- Brother Paxton
 	 [19644] = true,	-- Image of Archmage Vargoth
 	 [19935] = true,	-- Soridormi
 	 [23870] = true,	-- Ember Clutch Ancient
