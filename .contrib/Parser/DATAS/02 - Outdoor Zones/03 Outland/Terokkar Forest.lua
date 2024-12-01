@@ -263,6 +263,7 @@ root(ROOTS.Zones, {
 				explorationHeader({
 					exploration(3901),	-- Allerian Post
 					exploration(3684),	-- Allerian Stronghold
+					visit_exploration(3790,{coord={35.7,65.5,TEROKKAR_FOREST}}),	-- Auchenai Crypts
 					-- #if AFTER CATA
 					exploration(3894),	-- Auchenai Grounds (Wrath Classic: Can't be collected)
 					-- #endif
@@ -289,8 +290,10 @@ root(ROOTS.Zones, {
 					exploration(3858),	-- Razorthorn Shelf
 					visit_exploration(3887,{coord={35.8,49.5,TEROKKAR_FOREST}}),	-- Refugee Caravan
 					visit_exploration(3893,{coord={39.8,62.9,TEROKKAR_FOREST}}),	-- Ring of Observance
+					visit_exploration(3791,{coord={43.4,65.6,TEROKKAR_FOREST}}),	-- Sethekk Halls
 					visit_exploration(3958,{coord={30.6,75.4,TEROKKAR_FOREST}}),	-- Sha'tari Base Camp
 					exploration(3957),	-- Sha'tari Outpost
+					visit_exploration(3789,{coord={39.6,71.1,TEROKKAR_FOREST}}),	-- Shadow Labyrinth
 					visit_exploration(3888,{coord={31.7,53.2,TEROKKAR_FOREST}}),	-- Shadow Tomb
 					exploration(3703),	-- Shattrath City
 					exploration(3859),	-- Silmyr Lake

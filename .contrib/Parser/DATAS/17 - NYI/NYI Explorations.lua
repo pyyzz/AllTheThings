@@ -466,12 +466,9 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(3619),	-- Auren Ridge
 	exploration(3620),	-- Auren Falls
 	exploration(3632),	-- Shamanar
-	exploration(3633),	-- Ancestral Grounds
 	exploration(3635),	-- Unused2
-	exploration(3643),	-- Bloodscale Enclave
 	exploration(3652),	-- Funggor Cavern
 	exploration(3654),	-- The Drain
-	exploration(3660),	-- Blades' Run
 	exploration(3661),	-- Blade Tooth Canyon
 	exploration(3662),	-- Commons Hall
 	exploration(3663),	-- Derelict Manor
@@ -498,14 +495,10 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(3733),	-- The Violet Tower
 	exploration(3751),	-- Sunfire Point
 	exploration(3755),	-- The Stair of Doom
-	exploration(3761),	-- The High Path
 	exploration(3767),	-- Blades' Run
 	exploration(3770),	-- Blade Tooth Canyon
 	exploration(3779),	-- Trogma's Claim
 	exploration(3783),	-- Veil Vekh
-	exploration(3789),	-- Shadow Labyrinth
-	exploration(3790),	-- Auchenai Crypts
-	exploration(3791),	-- Sethekk Halls
 	exploration(3792),	-- Mana-Tombs
 	exploration(3793),	-- Felspark Ravine
 	exploration(3805),	-- Zul'Aman
@@ -563,7 +556,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(3965),	-- Netherwing Mines
 	exploration(3966),	-- Dragonmaw Base Camp
 	exploration(3968),	-- Ruins of Lordaeron
-	exploration(3969),	-- Rivendark's Perch
 	exploration(3970),	-- Obsidia's Perch
 	exploration(3979),	-- The Frozen Sea
 	exploration(3985),	-- Falls of Ymiron

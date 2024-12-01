@@ -143,6 +143,7 @@ root(ROOTS.Zones, {
 					-- #if AFTER CATA
 					exploration(3867),	-- Bladed Gulch (Wrath Classic: Can't be collected)
 					-- #endif
+					visit_exploration(3660,{coord={53.0,98.0,BLADES_EDGE_MOUNTAINS}}),	-- Blades' Run
 					visit_exploration(3931,{coord={44.6,58.3,BLADES_EDGE_MOUNTAINS}}),	-- Bladespire Grounds
 					exploration(3773),	-- Bladespire Hold
 					exploration(3777),	-- Bloodmaul Camp
@@ -174,6 +175,7 @@ root(ROOTS.Zones, {
 					exploration(3786),	-- Ogri'la
 					exploration(3830),	-- Raven's Wood
 					exploration(3833),	-- Razor Ridge
+					visit_exploration(3969,{coord={26.9,65.0,BLADES_EDGE_MOUNTAINS}}),	-- Rivendark's Perch
 					visit_exploration(3828,{coord={60.4,31.9,BLADES_EDGE_MOUNTAINS}}),	-- Ruuan Weald
 					visit_exploration(3953,{coord={66.7,66.9,BLADES_EDGE_MOUNTAINS}}),	-- Scalewing Shelf
 					visit_exploration(3919,{coord={61.6,80.3,BLADES_EDGE_MOUNTAINS}}),	-- Singing Ridge
