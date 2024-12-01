@@ -1174,7 +1174,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					{ "i", 228938, 1 },	-- Peculiar Gem
 				},
 			}),
-			header(HEADERS.Map, 46, {	-- Karazhan Catacombs
+			m(46, {	-- Karazhan Catacombs (this makes sense to have as a root map when it's the minilist)
 				["description"] = "Deep into the catacombs the bike is just sitting there out of reach, but is surrounded by 12 basins which can light up with orbs if enough actions are performed.",
 				["coord"] = { 46.3, 69.1, DEADWIND_PASS },
 				["cost"] = {
