@@ -2017,15 +2017,16 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				exploration(62),	-- Brackwell Pumpkin Patch
 				visit_exploration(18,{coord={47.4,62.2,ELWYNN_FOREST}}),	-- Crystal Lake
 				exploration(88),	-- Eastvale Logging Camp
-				visit_exploration(57,  {coord={38.2,83.6,ELWYNN_FOREST}}),	-- Fargodeep Mine
+				exploration(57),	-- Fargodeep Mine
 				exploration(60),	-- Forest's Edge
-				visit_exploration(87,  {coord={42.5,65.8,ELWYNN_FOREST}}),	-- Goldshire
+				exploration(87),	-- Goldshire
 				-- #if AFTER CATA
 				exploration(5176),	-- Goldtooth's Den
 				-- #endif
+				visit_exploration(56,  {coord={74.5,54.0,ELWYNN_FOREST}}),	-- Heroes' Vigil
 				visit_exploration(5174,{coord={24.9,94.2,ELWYNN_FOREST}}),	-- Hogger Hill
 				exploration(54),	-- Jasperlode Mine
-				visit_exploration(797, {coord={48.4,87.8,ELWYNN_FOREST}}),	-- Jerod's Landing
+				exploration(797),	-- Jerod's Landing
 				visit_exploration(5637,{coord={42.9,65.6,ELWYNN_FOREST}}),	-- Lion's Pride Inn
 				visit_exploration(92,  {coord={32.1,58.2,ELWYNN_FOREST}}),	-- Mirror Lake
 				visit_exploration(89,  {coord={31.6,64.8,ELWYNN_FOREST}}),	-- Mirror Lake Orchard
@@ -2034,10 +2035,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				exploration(86),	-- Stone Cairn Lake
 				exploration(1519),	-- Stormwind City
 				visit_exploration(7486,{coord={33.7,50.8,ELWYNN_FOREST}}),	-- Stormwind Gate
-				visit_exploration(64,  {coord={41.7,86.7,ELWYNN_FOREST}}),	-- The Maclure Vineyards
-				visit_exploration(63,  {coord={34.2,84.8,ELWYNN_FOREST}}),	-- The Stonefield Farm
+				exploration(64),	-- The Maclure Vineyards
+				exploration(63),	-- The Stonefield Farm
 				exploration(91),	-- Tower of Azora
-				visit_exploration(120, {coord={24.2,75.3,ELWYNN_FOREST}}),	-- Westbrook Garrison
+				exploration(120),	-- Westbrook Garrison
 			}),
 			-- #if AFTER 4.0.1.12984
 			n(FLIGHT_PATHS, {
@@ -3376,7 +3377,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				n(1250, {	-- Drake Lindgren <General & Trade Supplies>
-					["coord"] = { 83.2, 66.6, ELWYNN_FOREST },
+					["coord"] = { 83.2, 66.7, ELWYNN_FOREST },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(6272, {	-- Pattern: Blue Linen Robe
@@ -3446,6 +3447,18 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				-- #endif
+				n(959, {	-- Morley Eberlein <Clothier>
+					["coord"] = { 64.7, 69.5, ELWYNN_FOREST },
+					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						3602,	-- Knitted Belt
+						3603,	-- Knitted Bracers
+						793,	-- Knitted Gloves
+						794,	-- Knitted Pants
+						792,	-- Knitted Sandals
+						795,	-- Knitted Tunic
+					}},
+				}),
 				n(1198, {	-- Rallic Finn <Bowyer>
 					["coord"] = { 83.2, 66.0, ELWYNN_FOREST },
 					["races"] = ALLIANCE_ONLY,

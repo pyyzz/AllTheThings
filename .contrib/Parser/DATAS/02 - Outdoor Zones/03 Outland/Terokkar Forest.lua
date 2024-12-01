@@ -270,7 +270,7 @@ root(ROOTS.Zones, {
 					exploration(3688),	-- Auchindoun
 					visit_exploration(3917,{coord={35.1,70.1,TEROKKAR_FOREST}}),	-- Auchindoun
 					exploration(3690),	-- Blackwind Lake
-					exploration(3973),	-- Blackwind Landing
+					visit_exploration(3973,{coord={63.4,66.1,TEROKKAR_FOREST}}),    -- Blackwind Landing
 					exploration(3680),	-- Blackwind Valley
 					exploration(3719),	-- Bleeding Hollow Ruins
 					visit_exploration(3685,{coord={64.2,55.2,TEROKKAR_FOREST}}),	-- Bonechewer Ruins
@@ -299,6 +299,7 @@ root(ROOTS.Zones, {
 					exploration(3859),	-- Silmyr Lake
 					exploration(3693),	-- Skethyl Mountains
 					exploration(3679),	-- Skettis
+					visit_exploration(3961,{coord={46.7,89.2,TEROKKAR_FOREST}}),	-- Sorrow Wing Point
 					exploration(3902),	-- Stonebreaker Camp
 					exploration(3683),	-- Stonebreaker Hold
 					visit_exploration(3975,{coord={66.1,76.4,TEROKKAR_FOREST}}),	-- Terokk's Rest

@@ -42,7 +42,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(51),	-- Searing Gorge
 	exploration(53),	-- Thieves Camp
 	exploration(55),	-- Valley of Heroes UNUSED
-	exploration(56),	-- Heroes' Vigil
 	exploration(59),	-- Northshire Vineyards
 	exploration(61),	-- Thunder Falls
 	exploration(65),	-- Dragonblight
@@ -449,7 +448,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(3529),	-- Nestlewood Thicket
 	exploration(3537),	-- Borean Tundra
 	exploration(3540),	-- Twisting Nether
-	exploration(3542),	-- The Path of Glory
 	exploration(3544),	-- Plain of Shards
 	exploration(3550),	-- Borune Ruins
 	exploration(3561),	-- The Sacred Grove
@@ -497,16 +495,12 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(3755),	-- The Stair of Doom
 	exploration(3767),	-- Blades' Run
 	exploration(3770),	-- Blade Tooth Canyon
-	exploration(3779),	-- Trogma's Claim
-	exploration(3783),	-- Veil Vekh
 	exploration(3792),	-- Mana-Tombs
-	exploration(3793),	-- Felspark Ravine
 	exploration(3805),	-- Zul'Aman
 	exploration(3806),	-- Supply Caravan
 	exploration(3817),	-- Testing
 	exploration(3820),	-- Eye of The Storm
 	exploration(3834),	-- Ridge of Madness
-	exploration(3835),	-- Dustquill Ravine
 	exploration(3836),	-- Magtheridon's Lair
 	exploration(3845),	-- Tempest Keep
 	exploration(3846),	-- The Arcatraz
@@ -515,7 +509,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(3849),	-- The Mechanar
 	exploration(3851),	-- Midrealm Post
 	exploration(3852),	-- Tuluman's Landing
-	exploration(3854),	-- Protectorate Watch Post
 	exploration(3855),	-- Circle of Blood Arena
 	exploration(3856),	-- Elrendar Crossing
 	exploration(3869),	-- Mage Tower
@@ -523,8 +516,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(3871),	-- Draenei Ruins
 	exploration(3872),	-- Fel Reaver Ruins
 	exploration(3880),	-- Access Shaft Zeon
-	exploration(3881),	-- Trelleum Mine
-	exploration(3882),	-- Invasion Point: Destroyer
 	exploration(3883),	-- Camp of Boom
 	exploration(3884),	-- Spinebreaker Pass
 	exploration(3886),	-- Derelict Caravan
@@ -534,7 +525,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(3898),	-- Scryer's Tier
 	exploration(3899),	-- Lower City
 	exploration(3900),	-- Invasion Point: Overlord
-	exploration(3921),	-- Arklonis Ridge
 	exploration(3922),	-- Bladespire Outpost
 	exploration(3923),	-- Gruul's Lair
 	exploration(3924),	-- Northmaul Tower
@@ -544,27 +534,18 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(3940),	-- The Fetid Pool
 	exploration(3941),	-- Test
 	exploration(3942),	-- Razaan's Landing
-	exploration(3943),	-- Invasion Point: Cataclysm
 	exploration(3946),	-- Wayne's Refuge
 	exploration(3947),	-- The Scalding Pools
 	exploration(3948),	-- Brian and Pat Test
 	exploration(3949),	-- Magma Fields
-	exploration(3952),	-- Wyrmskull Bridge
-	exploration(3954),	-- Wyrmskull Tunnel
 	exploration(3959),	-- Black Temple
-	exploration(3961),	-- Sorrow Wing Point
-	exploration(3965),	-- Netherwing Mines
-	exploration(3966),	-- Dragonmaw Base Camp
 	exploration(3968),	-- Ruins of Lordaeron
-	exploration(3970),	-- Obsidia's Perch
 	exploration(3979),	-- The Frozen Sea
-	exploration(3985),	-- Falls of Ymiron
 	exploration(3986),	-- Echo Reach
 	exploration(3993),	-- Westguard Turret
 	exploration(3995),	-- The Laughing Stand
 	exploration(4004),	-- Vileprey Village
 	exploration(4007),	-- Tomb of The Lost Kings
-	exploration(4008),	-- Shartuul's Transporter
 	exploration(4009),	-- Illidari Training Grounds
 	exploration(4019),	-- Development Land
 	exploration(4030),	-- Coast of Idols
@@ -617,17 +598,13 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4213),	-- The Broken Bluffs
 	exploration(4223),	-- Maw of Neltharion
 	exploration(4224),	-- The Briny Pinnacle
-	exploration(4226),	-- Iskaal
 	exploration(4228),	-- The Oculus
 	exploration(4233),	-- Dawn's Reach
 	exploration(4235),	-- Heartwood Trading Post
-	exploration(4236),	-- Evergreen Trading Post
 	exploration(4237),	-- Spruce Point Post
-	exploration(4239),	-- Aspen Grove Post
 	exploration(4243),	-- Wintergarde Crypt
 	exploration(4247),	-- Duskhowl Den
 	exploration(4248),	-- The Conquest Pit
-	exploration(4249),	-- The Path of Iron
 	exploration(4252),	-- The Broken Bluffs
 	exploration(4256),	-- Drak'Mar Lake
 	exploration(4257),	-- Dragonspine Tributary
@@ -690,12 +667,9 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4443),	-- Gate of Echoes
 	exploration(4447),	-- Gate of Lightning
 	exploration(4454),	-- The Storm Foundry
-	exploration(4456),	-- Voldrune Dwelling
 	exploration(4462),	-- Crystalweb Cavern
 	exploration(4470),	-- The Hidden Hollow
 	exploration(4471),	-- Bernau's Happy Fun Land
-	exploration(4472),	-- Frostgrip's Hollow
-	exploration(4475),	-- Zim'bo's Hideout
 	exploration(4476),	-- Abandoned Camp
 	exploration(4489),	-- Crusader Forward Camp
 	exploration(4491),	-- Bonesnap's Camp
@@ -715,7 +689,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4545),	-- Abandoned Mine
 	exploration(4547),	-- Halls of Stone
 	exploration(4548),	-- Halls of Lightning
-	exploration(4550),	-- The Mirror of Twilight
 	exploration(4560),	-- The Underbelly
 	exploration(4564),	-- Krasus' Landing
 	exploration(4567),	-- The Violet Hold
@@ -737,7 +710,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4587),	-- The Forest of Shadows
 	exploration(4589),	-- The Chilled Quagmire
 	exploration(4590),	-- The Steppe of Life
-	exploration(4594),	-- Battlescar Spire
 	exploration(4595),	-- Hall of Horrors
 	exploration(4596),	-- The Circle of Suffering
 	exploration(4598),	-- Krasus' Landing
@@ -800,14 +772,11 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4666),	-- Sunreaver Pavilion
 	exploration(4667),	-- Silver Covenant Pavilion
 	exploration(4668),	-- The Cooper Residence
-	exploration(4671),	-- The Argent Valiants' Ring
-	exploration(4673),	-- The Horde Valiants' Ring
 	exploration(4674),	-- Argent Pavilion
 	exploration(4677),	-- Silver Covenant Pavilion
 	exploration(4679),	-- The Forlorn Cavern
 	exploration(4688),	-- claytonio Test Area
 	exploration(4690),	-- Thunder Peak
-	exploration(4692),	-- Quel'Delar's Rest
 	exploration(4693),	-- Splintertree Mine
 	exploration(4694),	-- Thistlefur Hold
 	exploration(4696),	-- Blackwood Camp
