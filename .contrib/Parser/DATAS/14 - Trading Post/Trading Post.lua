@@ -2179,6 +2179,11 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 			n(FILLED_TRAVELERS_LOG, {
 				iensemble(223486),	-- Ensemble: Purple Snugglefin Murloc Romper
 			}),
+			filter(BATTLE_PETS, {
+				i(229993, {	-- Bluedoo
+					["cost"] = {{"c", TRADERS_TENDER, 400}},
+				}),
+			}),
 			filter(MOUNTS, {
 				i(212229, {	-- Reins of the Twilight Sky Prowler
 					["cost"] = {{"c", TRADERS_TENDER, 750}},
@@ -2188,14 +2193,29 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				i(230853, {	-- Aegis of Yuletide
 					["cost"] = {{"c", TRADERS_TENDER, 300}},
 				}),
+				i(229961, {	-- Candied Knife
+					["cost"] = {{"c", TRADERS_TENDER, 400}},
+				}),
 				i(229960, {	-- Cheerbringer XL
 					["cost"] = {{"c", TRADERS_TENDER, 450}},
+				}),
+				i(229807, {	-- CCrown of the icy blue rose
+					["cost"] = {{"c", TRADERS_TENDER, 250}},
 				}),
 				i(229720, {	-- Frostwolf Earmuffs
 					["cost"] = {{"c", TRADERS_TENDER, 170}},
 				}),
+				i(229963, {	-- Great Cancied Blade
+					["cost"] = {{"c", TRADERS_TENDER, 450}},
+				}),
 				i(229714, {	-- Lion's Crest Earmuffs
 					["cost"] = {{"c", TRADERS_TENDER, 170}},
+				}),
+				i(229817, {	-- Lovely Airy Longbow
+					["cost"] = {{"c", TRADERS_TENDER, 300}},
+				}),
+				i(229962, {	-- Tree Topper
+					["cost"] = {{"c", TRADERS_TENDER, 400}},
 				}),
 				i(230940, {	-- Wings of the Sapphire Monarch
 					["cost"] = {{"c", TRADERS_TENDER, 225}},
