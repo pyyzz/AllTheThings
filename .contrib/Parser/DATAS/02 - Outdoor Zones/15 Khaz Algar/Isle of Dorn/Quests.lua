@@ -211,6 +211,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				}),
 				--
 				q(78464, {	-- Delve into the Earth
+					["description"] = "For some reason, Blizzard decided that this quest would have Spec-specific loot attached. You will NOT collect all available appearances for your class automatically - make sure you are in the correct spec.",
 					["sourceQuests"] = { 78461 },	-- The Fourth Seat
 					["provider"] = { "n", 217879 },	-- Adelgonn
 					["coord"] = { 41.8, 72.6, ISLE_OF_DORN },
