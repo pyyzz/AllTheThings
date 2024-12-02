@@ -6,6 +6,7 @@ HOLIDAYS = createHeader({
 	text = {
 		-- #if ANYCLASSIC
 		en = "Holiday",
+		tw = "節慶用品",
 		-- #else
 		en = WOWAPI_GetItemSubClassInfo(15,3),
 		-- #endif
@@ -15,6 +16,7 @@ HOLIDAYS = createHeader({
 		de = "Es muss möglicherweise ein bestimmter Feiertag aktiv sein, um hier genannte Dinge abschließen zu können.",
 		ru = "Чтобы выполнить упомянутые в данной секции Штучки, может быть нужен какой-то праздник.",
 		cn = "你可能需要在特定的节日活动中才能完成本节中的事物。",
+		tw = "你可能需要在特定節日的活動中才能完成本節中的事物。",
 	},
 });
 
@@ -55,6 +57,7 @@ DARKMOON_FAIRE_HEADER = createHeader({
 		ru = "Ярмарка Новолуния",
 		ko = "다크문 유랑단",
 		cn = "暗月马戏团",
+		tw = "暗月馬戲團",
 	},
 });
 TRIAL_OF_STYLE_HEADER = createHeader({
