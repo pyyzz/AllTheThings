@@ -75,9 +75,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				exploration(922),	-- The Dust Plains
 				exploration(916),	-- The Jansen Stead
 				exploration(918),	-- The Molsen Farm
-				-- #if AFTER CATA
 				visit_exploration(5290,{coord={35.3,45.3,WESTFALL}}),	-- The Raging Chasm
-				-- #endif
 				exploration(115),	-- Westfall Lighthouse
 			}),
 			-- #if AFTER 4.1.0.13726
