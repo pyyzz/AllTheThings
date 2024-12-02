@@ -249,6 +249,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					},
 				}),
 				q(78462, {	-- Echoes of Compassion
+					["description"] = "For some reason, Blizzard decided that this quest would have Spec-specific loot attached. You will NOT collect all available appearances for your class automatically - make sure you are in the correct spec.",
 					["sourceQuests"] = {
 						79553,	-- A Natural Remedy
 						78463,	-- Building Blocks
