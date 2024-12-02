@@ -5,7 +5,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	-- TODO: Devide this into expansions and patches
 	-- Some of these might be obtainable and will want to find a home in the explorations :)
 	exploration(1),		-- Dun Morogh
-	exploration(2),		-- Longshore
 	exploration(3),		-- Badlands
 	exploration(4),		-- Blasted Lands
 	exploration(5),		-- - QA and DVD GLOBAL -
@@ -1085,7 +1084,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(5252),	-- The Intrepid
 	exploration(5287),	-- The Cape of Stranglethorn
 	exploration(5288),	-- Ahn'Qiraj Terrace
-	exploration(5289),	-- Mortwake's Tower
 	exploration(5291),	-- Jagged Wastes
 	exploration(5293),	-- Crumbling Depths
 	exploration(5294),	-- Shuddering Spires

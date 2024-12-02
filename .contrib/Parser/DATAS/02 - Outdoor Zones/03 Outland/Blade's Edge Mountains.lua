@@ -169,7 +169,7 @@ root(ROOTS.Zones, {
 					visit_exploration(3972,{coord={65.8,13.3,BLADES_EDGE_MOUNTAINS}}),	-- Furywing's Perch
 					exploration(3781),	-- Grishnath
 					exploration(3774),	-- Gruul's Lair
-					visit_exploration(3971,{coord={62.4,8.4, BLADES_EDGE_MOUNTAINS}}),	-- Insidion's Perch
+					visit_exploration(3971,{coord={62.4,8.40,BLADES_EDGE_MOUNTAINS}}),	-- Insidion's Perch
 					visit_exploration(3768,{coord={53.7,67.7,BLADES_EDGE_MOUNTAINS}}),	-- Jagged Ridge
 					exploration(3844),	-- Mok'Nathal Village
 					visit_exploration(3970,{coord={34.1,54.4,BLADES_EDGE_MOUNTAINS}}),	-- Obsidia's Perch
