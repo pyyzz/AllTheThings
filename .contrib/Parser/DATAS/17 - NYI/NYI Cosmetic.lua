@@ -358,16 +358,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				iensemble(200924),	-- Ensemble: Void-Bound Battlegear
 				iensemble(201000),	-- Ensemble: Void-Bound Chains
 				iensemble(201001),	-- Ensemble: Void-Bound Warplate
-
-				------ Sky Witch's Attire ------
-				iensemble(212221),	-- Ensemble: Sky Witch's Attire
-				i(212204),	-- Sky Witch's Blouse
-				i(212205),	-- Sky Witch's Boots
-				i(212206),	-- Sky Witch's Gloves
-				i(212207),	-- Sky Witch's Hat
-				i(212210),	-- Sky Witch's Sash
-				i(212209),	-- Sky Witch's Shoulders
-				i(212208),	-- Sky Witch's Skirt
 			}),
 			n(WEAPONS, {
 				i(190848),	-- [DNT] Do not use

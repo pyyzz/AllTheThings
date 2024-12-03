@@ -502,7 +502,7 @@ q(79208),	-- Ensemble: Dreadlord's Venombane Regalia
 q(79207),	-- Ensemble: Dreadlord's Shadowsbane Regalia
 q(80171),	-- Ensemble: Gladiator's Ragged Armor
 q(82027),	-- Ensemble: Green Snugglefin Murloc Romper
-q(),		-- Ensemble: Sky Witch's Attire
+q(79210),	-- Ensemble: Sky Witch's Attire
 q(72092),	-- Ensemble: Solemn Watchman's Garb
 q(79211),	-- Ensemble: Twilight Witch's Attire
 q(75449),	-- Ensemble: Waveborne Diplomat's Regalia
