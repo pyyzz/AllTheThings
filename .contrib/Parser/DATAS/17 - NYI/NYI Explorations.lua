@@ -595,7 +595,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(4197),	-- Wintergrasp
 	exploration(4201),	-- Vordrassil's Tears
 	exploration(4213),	-- The Broken Bluffs
-	exploration(4223),	-- Maw of Neltharion
 	exploration(4224),	-- The Briny Pinnacle
 	exploration(4228),	-- The Oculus
 	exploration(4233),	-- Dawn's Reach
