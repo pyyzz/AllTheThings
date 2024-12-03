@@ -8150,7 +8150,6 @@ customWindowUpdates.Random = function(self)
 			-- Represents how to search for a given named-Thing
 			local SelectionMethods = setmetatable({
 				AllTheThings = SearchRecursivelyForEverything,
-				Mount = SearchRecursivelyForValue,
 			}, { __index = function() return SearchRecursively end})
 			-- Named-TypeIDs for the field to Select for a given named-Thing
 			local TypeIDLookups = {
@@ -8158,7 +8157,7 @@ customWindowUpdates.Random = function(self)
 				Dungeon = "instanceID",
 				Item = "itemID",
 				Instance = "instanceID",
-				Mount = "filterID",
+				Mount = "mountID",
 				Pet = "speciesID",
 				Quest = "questID",
 				Raid = "instanceID",
@@ -8167,41 +8166,31 @@ customWindowUpdates.Random = function(self)
 			}
 			-- Named-Values for the value of a field in the Select
 			local TypeIDValueLookups = {
-				Mount = 100
 			}
+			local DefaultSelectionFilter = function(o) return o.collectible and not o.collected end
 			-- Named-Functions (if not ignored) for whether to select data pertaining to a specific named-Thing
-			local SelectionFilters = {
+			local SelectionFilters = setmetatable({
 				Achievement = function(o)
 					return o.collectible and not o.collected and not o.mapID and not o.criteriaID;
 				end,
 				Dungeon = function(o)
 					return not o.isRaid and (((o.total or 0) - (o.progress or 0)) > 0);
 				end,
-				Item = function(o)
-					return o.collectible and not o.collected;
-				end,
+				-- Item - default
 				Instance = function(o)
 					return ((o.total or 0) - (o.progress or 0)) > 0;
 				end,
-				Mount = function(o)
-					return o.collectible and not o.collected and (not o.achievementID or o.itemID);
-				end,
-				Pet = function(o)
-					return o.collectible and not o.collected;
-				end,
-				Quest = function(o)
-					return o.collectible and not o.collected;
-				end,
+				-- Mount - default
+				-- Pet - default
+				-- Quest - default
 				Raid = function(o)
 					return o.isRaid and (((o.total or 0) - (o.progress or 0)) > 0);
 				end,
-				Toy = function(o)
-					return o.collectible and not o.collected;
-				end,
+				-- Toy - default
 				Zone = function(o)
 					return (((o.total or 0) - (o.progress or 0)) > 0) and not o.instanceID and not excludedZones[o.mapID];
 				end,
-			}
+			}, { __index = function() return DefaultSelectionFilter end})
 
 			local function GetSearchResults(rootData, name)
 				if searchCache[name] then return searchCache[name] end
