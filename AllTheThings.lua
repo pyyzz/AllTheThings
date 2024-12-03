@@ -763,7 +763,8 @@ end
 
 local function GetRelativeFieldInSet(group, field, set)
 	if group then
-		return set[group[field]] or GetRelativeFieldInSet(group.sourceParent or group.parent, field, set);
+		local val = group[field]
+		return set[val] and val or GetRelativeFieldInSet(group.sourceParent or group.parent, field, set);
 	end
 end
 
@@ -2916,6 +2917,10 @@ local function DetermineNPCDrops(group, FillData)
 							npcDiff = GetRelativeValue(npcGroup, "difficultyID");
 							-- copy the header under the NPC groups
 							if not npcDiff or npcDiff == difficultyID then
+								-- wrap the npcGroup in the matching header if it is not a header
+								if not npcGroup.headerID then
+									npcGroup = app.CreateCustomHeader(headerID, {g={CreateObject(npcGroup)}})
+								end
 								-- app.PrintDebug("IsDrop.Diff",difficultyID,group.hash,"<==",npcGroup.hash)
 								if groups then tinsert(groups, CreateObject(npcGroup))
 								else groups = { CreateObject(npcGroup) }; end
@@ -2934,6 +2939,10 @@ local function DetermineNPCDrops(group, FillData)
 						-- where headerID is allowed
 						if headerID then
 							-- copy the header under the NPC groups
+							-- wrap the npcGroup in the matching header if it is not a header
+							if not npcGroup.headerID then
+								npcGroup = app.CreateCustomHeader(headerID, {g={CreateObject(npcGroup)}})
+							end
 							-- app.PrintDebug("IsDrop",group.hash,"<==",npcGroup.hash)
 							if groups then tinsert(groups, CreateObject(npcGroup))
 							else groups = { CreateObject(npcGroup) }; end
