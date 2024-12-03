@@ -784,7 +784,6 @@ root(ROOTS.Unsorted, {
 			i(232631),	-- Wrapped Spear
 			--
 			i(228911),	-- Xal'atath's Rusty Coin
-			i(233053),	-- Crown of the Violet Rose
 			i(234413),	-- Satchel of Exotic Mysteries
 			--
 		})),
