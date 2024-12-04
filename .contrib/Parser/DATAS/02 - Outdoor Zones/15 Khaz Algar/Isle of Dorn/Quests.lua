@@ -741,7 +741,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				q(79724, {	-- A Titanic Expedition!
 					["sourceQuests"] = { TEMPORARY_SOURCEQUEST },
 					["provider"] = { "n", 217763 },	-- Rannan Korren
-					["coord"] = { 59.4, 25.2, ISLE_OF_DORN },
+					["coord"] = { 58.8, 28.3, ISLE_OF_DORN },
 				}),
 				q(79726, {	-- "Cataloguing"
 					["sourceQuests"] = { 79724 },	-- A Titanic Expedition!

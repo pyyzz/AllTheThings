@@ -4965,7 +4965,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(13718),	-- Hudson's Rock
 	exploration(13731),	-- Hatchery Observatory
 	exploration(13735),	-- Lev'al Rock Isle
-	exploration(13736),	-- Apex Observatory
 	exploration(13738),	-- Obsidian Observatory
 	exploration(13741),	-- Rockfang Ravine
 	exploration(13742),	-- Sepulcher of The First Ones
@@ -4973,59 +4972,37 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(13744),	-- Choral Residium
 	exploration(13745),	-- Mirewood Fen
 	exploration(13747),	-- Aylaag Outpost
-	exploration(13749),	-- Mudfin Village
 	exploration(13752),	-- Storm Drake Roost
 	exploration(13753),	-- Crypts of The Eternal
 	exploration(13754),	-- The Carving Winds
-	exploration(13762),	-- Sylvan Glade
 	exploration(13763),	-- Cloverwood Hollow
 	exploration(13765),	-- Ohn'ahra's Roost
 	exploration(13768),	-- The Slumbering Vault
 	exploration(13769),	-- The Forbidden Reach
-	exploration(13770),	-- Field of Ferocity
-	exploration(13771),	-- Daruukhan
 	exploration(13774),	-- Kaighan Camp
-	exploration(13777),	-- Ridgewater Retreat
 	exploration(13790),	-- zsewell
 	exploration(13793),	-- Geometric Cavern
-	exploration(13797),	-- Eclipse Lake
 	exploration(13798),	-- Drake Grotto
-	exploration(13800),	-- Fetid Encampment
-	exploration(13803),	-- Gelikyr Overlook
 	exploration(13806),	-- The War Creche
-	exploration(13814),	-- Garden Shrine
-	exploration(13815),	-- Misty Vale
 	exploration(13819),	-- DefunctThaldraszusarea
-	exploration(13821),	-- Sand-Lost Sanctum
-	exploration(13826),	-- Kauriq Gleamlet
-	exploration(13827),	-- Pleasant Hill
 	exploration(13830),	-- Rockhide Village
 	exploration(13831),	-- Rustpine Den
-	exploration(13838),	-- Gorloc Shore
 	exploration(13839),	-- Chamber of Shaping
 	exploration(13840),	-- Protoform Repository
 	exploration(13845),	-- Djardin Cliff Camp
 	exploration(13846),	-- Drake Hatchery
 	exploration(13849),	-- Kalthraz Fortress
-	exploration(13850),	-- Darktooth Pond
 	exploration(13851),	-- Cobalt Library
 	exploration(13854),	-- Primalist POI
 	exploration(13855),	-- Primalist POI 2
 	exploration(13856),	-- Frost Giant Cliffs
-	exploration(13858),	-- Misty Canyon
 	exploration(13863),	-- Oribos
 	exploration(13865),	-- East Shrine
-	exploration(13866),	-- Shadow Pass
 	exploration(13870),	-- mesten_dev1
 	exploration(13871),	-- Provis Strata
-	exploration(13875),	-- Shadow Ledge
-	exploration(13877),	-- Steelcliff Rampart
-	exploration(13878),	-- Aqueduct Basin
 	exploration(13879),	-- The Petitioner's Concourse
-	exploration(13880),	-- Sealed Titan Facility
 	exploration(13884),	-- Temporal Overlook
 	exploration(13885),	-- Tuskarr Ice Elemental Cave
-	exploration(13889),	-- Ruins of Karnthar
 	exploration(13890),	-- Terrestial Cache
 	exploration(13891),	-- Gravid Repose
 	exploration(13893),	-- Drake Eye's Pond
@@ -5063,7 +5040,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(13971),	-- Maldraxxus Coliseum
 	exploration(13972),	-- Maldraxxus Coliseum
 	exploration(13975),	-- Tirisfal Glades
-	exploration(13976),	-- Smoldering Perch
 	exploration(13977),	-- Lost Grotto
 	exploration(13978),	-- Lair of The Scythid
 	exploration(13979),	-- Ruins of Lordaeron
@@ -5095,9 +5071,7 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(14007),	-- Obsidian Citadel
 	exploration(14009),	-- The Waking Shores [DNT]
 	exploration(14011),	-- Neltharus
-	exploration(14013),	-- Emberflow
 	exploration(14014),	-- Content Playground
-	exploration(14018),	-- Leafy Repose
 	exploration(14019),	-- Merithra's Watch
 	exploration(14020),	-- Lunedane
 	exploration(14022),	-- Zaralek Cavern
@@ -5119,7 +5093,6 @@ root(ROOTS.NeverImplemented, explorationHeader({
 	exploration(14050),	-- Stonefray Falls
 	exploration(14063),	-- Ruby Life Pools
 	exploration(14064),	-- Gelikyr Gardens
-	exploration(14075),	-- Hopper Hills
 	exploration(14081),	-- House of Plagues
 	exploration(14082),	-- Halls of Infusion
 	exploration(14083),	-- Enigma Crucible
