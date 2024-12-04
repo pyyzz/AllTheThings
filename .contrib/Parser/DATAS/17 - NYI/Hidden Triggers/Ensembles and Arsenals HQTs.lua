@@ -444,7 +444,7 @@ q(85318),	-- Ensemble: Obsidian Gladiator's Rogue Armor
 q(85322),	-- Ensemble: Obsidian Gladiator's Shaman Armor
 q(85310),	-- Ensemble: Obsidian Gladiator's Warlock Armor
 q(85326),	-- Ensemble: Obsidian Gladiator's Warrior Armor
-q(85307),	-- Ensemble: Elite Crimson Gladiator's Death Knight Armor
+q(TODO),	-- Ensemble: Elite Crimson Gladiator's Death Knight Armor
 q(),	-- Ensemble: Elite Crimson Gladiator's Demon Hunter Armor
 q(),	-- Ensemble: Elite Crimson Gladiator's Druid Armor
 q(),	-- Ensemble: Elite Crimson Gladiator's Evoker Armor
