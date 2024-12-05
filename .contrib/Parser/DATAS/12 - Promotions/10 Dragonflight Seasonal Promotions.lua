@@ -129,11 +129,11 @@ root(ROOTS.Promotions, {
 			}),
 			mount(419567, {	-- Ginormous Grrloc (MOUNT!)
 				["description"] = "Obtained if you set up a 12-Month WoW Subscription.",
-				["timeline"] = { ADDED_10_1_7 },
+				["timeline"] = { ADDED_10_1_7, REMOVED_11_0_2 },
 			}),
 			i(203727, {	-- Gleaming Moonbeast (MOUNT!)
 				["description"] = "Obtained if you set up a 12-Month WoW Subscription.",
-				["timeline"] = { ADDED_10_1_7 },
+				["timeline"] = { ADDED_10_1_7, REMOVED_11_0_2 },
 			}),
 			-- Season 3
 			pet(2623, {	-- Dottie (PET!)
