@@ -1,0 +1,86 @@
+name: Bug Report
+description: Something broken?
+labels: ["Addon Bug"]
+body:
+  - type: dropdown
+    id: flavour
+    attributes:
+      label: "What flavo(u)r(s) of WoW are you using?"
+      description: "Select all applicable versions."
+      multiple: true
+      options:
+        - "Retail"
+        - "Cata Classic"
+        - "WotLK Classic"
+        - "Classic Era"
+        - "Hardcore"
+        - "Season of Discovery"
+        - "Anniversary Realms"
+        - "Hardcore Anniversary Realms"
+    validations:
+      required: true
+  - type: dropdown
+    id: realm
+    attributes:
+      label: "Which server realm(s) are you in?"
+      multiple: true
+      options:
+        - "US"
+        - "EU"
+        - "KR"
+        - "TW"
+        - "CN"
+  - type: input
+    id: wow_build
+    attributes:
+      label: "What build number of WoW?"
+      placeholder: "e.g., 10.1.7.51000"
+  - type: dropdown
+    id: att_version
+    attributes:
+      label: "What version of ATT?"
+      options:
+        - "Latest release"
+        - "Latest alpha"
+        - "git"
+    validations:
+      required: true
+  - type: input
+    id: att_build
+    attributes:
+      label: "What build number of ATT?"
+      placeholder: "e.g., 4.1.11(release)/4.1.11-34-g9b96b53(alpha)"
+  - type: textarea
+    id: bug_description
+    attributes:
+      label: "What isn't working? What was supposed to happen?"
+      description: "Provide details about the issue and the expected behavior."
+      placeholder: "Describe the issue here..."
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: "Screenshot"
+      description: "Provide a screenshot to illustrate the bug."
+      placeholder: "Drop screenshot here..."
+  - type: textarea
+    id: reproduce_steps
+    attributes:
+      label: "Steps to reproduce the behavior."
+      description: "Provide detailed steps to reproduce the issue:\n1. Go to '...'\n2. Click on '...'\n3. Scroll down to '...'\n4. See bug(s)."
+      placeholder: "List steps here..."
+    validations:
+      required: true
+  - type: textarea
+    id: lua_errors
+    attributes:
+      label: "Are you experiencing any lua errors?"
+      description: "These appear when using the BugSack+BugGrabber addons, or enabling script errors with `/console scriptErrors 1`."
+      placeholder: "Paste any lua errors here..."
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: "Anything else?"
+      description: "Add any additional information or context about the issue."
+      placeholder: "Provide additional details here..."
