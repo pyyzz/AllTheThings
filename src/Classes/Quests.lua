@@ -474,6 +474,9 @@ app.IsQuestAvailable = function(t)
 	-- must have a questID associated
 	questID
 	and
+	-- not already completed by current character
+	not CompletedQuests[questID]
+	and
 	-- and not OTQ or is OTQ not yet known to be completed by any character
 	not OneTimeQuests[questID]
 	and
