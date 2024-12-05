@@ -4261,6 +4261,7 @@ i(228781, 4678);	-- Lil'Doomy
 i(230011, 4679);	-- Lil'Kaz
 i(191946, 3265);	-- Mister Muskoxeles
 i(224406, 4592);	-- Misty
+i(232519, 4690);	-- Razeshi B.
 i(231294, 4682);	-- Reven
 i(231356, 4686);	-- Specter
 i(228790, 4617);	-- Thrillbot 9000
@@ -4281,7 +4282,6 @@ i(233252, 4435);		-- Happy
 i(234397, 4729);	-- Fullbelly Rollingpaw
 i(232531, 4691);	-- Grunch
 i(234905, 4730);	-- Mech-Friend Maya
-i(233481, 4690);	-- Razeshi B
 --i(234396, ???);	-- Teatuft Tamer
 --i(233366, ???);	-- Wind-Up Woofer
 --i(233361, ???);	-- Wind-Up Wuffi

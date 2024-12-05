@@ -336,6 +336,7 @@ HeaderAssignments = {
 	["Rare"] = -1000107,
 	["Rares"] = -1000032,
 	["Rated Battlegrounds"] = -1000863,
+	["Razer"] = -1001057,
 	["Recruit A Friend"] = -1000283,
 	["Relentless Gladiator"] = -1000134,
 	["Relics"] = -1000069,
@@ -538,4 +539,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -1000045,
 	["Zskera Vaults"] = -1000937,
 };
-NextHeaderID = -1001055;
+NextHeaderID = -1001058;

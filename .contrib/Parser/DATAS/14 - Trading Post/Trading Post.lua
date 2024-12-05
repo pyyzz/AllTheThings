@@ -2612,7 +2612,6 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(MOUNTS, {
 			mount(369480),	-- Cerulean Marsh Hopper (MOUNT!)
-			i(190539),	-- Coral-Stalker Waveray (MOUNT!)
 			i(137615),	-- Molten Flarecore (MOUNT!)
 		}),
 	})),

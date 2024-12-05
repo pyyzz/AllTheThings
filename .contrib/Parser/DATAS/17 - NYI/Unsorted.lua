@@ -47,7 +47,6 @@ root(ROOTS.Unsorted, {
 			i(230207),	-- N.U.K.U.L.A.R. Target Painter
 			i(230211),	-- Singing Citrine
 			i(231751),	-- Earthen Backpack
-			i(232519),	-- Razeshi B.
 			i(232573),	-- Thunderous Runekey
 			i(232597),	-- Swabbie's Oar
 			i(232629),	-- Distilled Knowledge of Timeways

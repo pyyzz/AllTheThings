@@ -751,10 +751,6 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 			mount(369480, {	-- Cerulean Marsh Hopper
 				["displayID"] = 105766,
 			}),
-			-- With MountID Attached
-			i(190539, {	-- Coral-Stalker Waveray (MOUNT!)
-				["displayID"] = 105400,
-			}),
 			i(203226, {	-- Stormfused Salamanther (MOUNT!)
 				-- ["displayID"] =
 			}),

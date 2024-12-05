@@ -1598,7 +1598,6 @@ i(190231, 366962);	-- Ash'adar, Harbinger of Dawn
 i(192800, 352926);	-- Skyskin Hornstrider
 --- NYI ---
 i(0, 369480);		-- Cerulean Marsh Hopper
-i(190539, 367620);	-- Coral-Stalker Waveray
 i(190168, 366789);	-- Crusty Crawler
 i(203226, 399708);	-- Stormfused Salamanther
 
@@ -1915,6 +1914,7 @@ i(230184, 466811);	-- Chaos-Forged Gryphon
 i(230185, 466812);	-- Chaos-Forged Hippogryph
 i(230201, 466845);	-- Chaos-Forged Wind Rider
 i(228760, 463133);	-- Coldflame Tempest
+i(190539, 367620);	-- Coral-Stalker Waveray
 i(231374, 468353);	-- Enchanted Spellweave Carpet
 i(224398, 452643);	-- Frayfeather Hippogryph
 i(211087, 428067);	-- Hateforged Blazecycle

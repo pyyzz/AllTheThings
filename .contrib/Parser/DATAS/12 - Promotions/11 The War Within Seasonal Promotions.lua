@@ -12,10 +12,61 @@ THE_WAR_WITHIN_SEASONAL_PROMOTIONS = createHeader({
 		en = "These promotions happened during the time The War Within.\n\nThey are listed in the order of their first appearance.",
 	},
 });
+
+STEELSERIES = createHeader({
+	readable = "SteelSeries",
+	icon = 133015,
+	text = {
+		en = "SteelSeries",
+	},
+	description = {
+		en = "Promotion for SteelSeries World of Warcraft Limited Edition Collection.",
+	},
+});
+
+RAZER = createHeader({
+	readable = "Razer",
+	icon = 132529,
+	text = {
+		en = "Razer",
+	},
+	description = {
+		en = "Promotion for Razer Gaming Peripherals World of Warcraft Collection. Purchasing any item will award all three promotional codes.",
+	},
+});
+
 root(ROOTS.Promotions, {
 	n(THE_WAR_WITHIN_SEASONAL_PROMOTIONS, {
 		["timeline"] = { ADDED_11_0_0 },
 		["groups"] = {
+			n(RAZER, sharedDataSelf({
+				["timeline"] = { ADDED_11_0_5 },
+				["u"] = REAL_MONEY,
+			}, {
+				i(190539, {	-- Coral-Stalker Waveray (MOUNT!)
+					["description"] = "Aquired alongside the purchase of a 150$ Razer Naga V2 Pro mouse, 200$ Razer BlackWidow V4 Pro keyboard or $100 RAZER FIREFLY V2 PRO mousepad as part of the Razer Gaming Peripherals World of Warcraft Collection.",
+				}),
+				i(107951, {	-- Iron Skyreaver (MOUNT!)
+					["description"] = "Aquired alongside the purchase of a 150$ Razer Naga V2 Pro mouse, 200$ Razer BlackWidow V4 Pro keyboard or $100 RAZER FIREFLY V2 PRO mousepad as part of the Razer Gaming Peripherals World of Warcraft Collection.",
+				}),
+				i(232519, {	-- Razeshi B. (PET!)
+					["description"] = "Aquired alongside the purchase of a 150$ Razer Naga V2 Pro mouse, 200$ Razer BlackWidow V4 Pro keyboard or $100 RAZER FIREFLY V2 PRO mousepad as part of the Razer Gaming Peripherals World of Warcraft Collection.",
+				}),
+			}));
+			n(STEELSERIES, sharedDataSelf({
+				["timeline"] = { ADDED_11_0_2 },
+				["u"] = REAL_MONEY,
+			}, {
+				i(112327, {	-- Grinning Reaver (MOUNT!)
+					["description"] = "Aquired alongside the purchase of a 200$ Arctis Nova 7 Headset as part of the World of Warcraft SteelSeries Limited Editon Collection.",
+				}),
+				i(224576, {	-- Lil' Flameo (PET!)
+					["description"] = "Aquired alongside the purchase of a 160$ Aerox 9 Mouse as part of the World of Warcraft SteelSeries Limited Editon Collection.",
+				}),
+				i(224574, {	-- Savage Ebony Battle Turtle (MOUNT!)
+					["description"] = "Aquired alongside the purchase of a 80$ Artistan Keycap, 40$QcK XXL Mousepad, or a 40$ Alliance/Horde Booster Pack as part of the World of Warcraft SteelSeries Limited Editon Collection.",
+				}),
+			}));
 			-- "Pre Season"
 			chinaONLY(i(190231, {	-- Ash'adar, Harbinger of Dawn (MOUNT!)
 				["description"] = "Rewarded for returning to World of Warcraft in 2024. China Only.",
@@ -142,6 +193,10 @@ root(ROOTS.Promotions, {
 				["description"] = "Available with the purchase of a Murloc Thrall plushie from the Blizzard Gear Store. The code will be emailed and can be redeemed on Battle.net or the launcher.",
 				["timeline"] = { ADDED_11_0_5 },
 				["u"] = REAL_MONEY,
+			}),
+			i(232301, {	-- Tempered Banner of the Algari (TOY!)
+				["description"] = "Break the Meta: TWW Season 1\n\nInstead of teams fighting to beat their opponent's time, Break the Meta is focused on teams pushing keys as high as they can with Season 1's off-meta specs and classes.\n\nRegister for the event on |cFFFFFFFFraider.io/events/break-the-meta-the-war-within-season-1/register|r and complete at least 2 BTM-Eligible timed keystones at |cFFFFFFFFlevel +5|r or higher during the Competition Period, and the Tempered Banner of the Algari will be automatically added to your collection in-game after the conclusion of the event.\n\nThe Event starts on December 10th for US, December 11th for EU & December 12th for KR/TW & lasts for 1 week.",
+				["timeline"] = { ADDED_11_0_5 },
 			}),
 
 		--	i(500001, {    -- The PVE/PVP Banner temporary item -- TEMPLATE

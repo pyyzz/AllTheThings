@@ -431,7 +431,7 @@ q(85330),	-- Ensemble: Obsidian Aspirant's Cloth Armor
 q(85331),	-- Ensemble: Obsidian Aspirant's Leather Armor
 q(85332),	-- Ensemble: Obsidian Aspirant's Mail Armor
 q(85333),	-- Ensemble: Obsidian Aspirant's Plate Armor
-q(85307),	-- Ensemble: Obsidian Gladiator's Death Knight Armor
+q(85303),	-- Ensemble: Obsidian Gladiator's Death Knight Armor
 q(85312),	-- Ensemble: Obsidian Gladiator's Demon Hunter Armor
 q(85314),	-- Ensemble: Obsidian Gladiator's Druid Armor
 q(85301),	-- Ensemble: Obsidian Gladiator's Evoker Armor
@@ -444,7 +444,7 @@ q(85318),	-- Ensemble: Obsidian Gladiator's Rogue Armor
 q(85322),	-- Ensemble: Obsidian Gladiator's Shaman Armor
 q(85310),	-- Ensemble: Obsidian Gladiator's Warlock Armor
 q(85326),	-- Ensemble: Obsidian Gladiator's Warrior Armor
-q(TODO),	-- Ensemble: Elite Crimson Gladiator's Death Knight Armor
+q(85307),	-- Ensemble: Elite Obsidian Gladiator's Death Knight Armor
 q(),	-- Ensemble: Elite Crimson Gladiator's Demon Hunter Armor
 q(),	-- Ensemble: Elite Crimson Gladiator's Druid Armor
 q(),	-- Ensemble: Elite Crimson Gladiator's Evoker Armor
