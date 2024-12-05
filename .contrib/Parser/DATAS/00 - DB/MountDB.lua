@@ -1914,7 +1914,6 @@ i(230184, 466811);	-- Chaos-Forged Gryphon
 i(230185, 466812);	-- Chaos-Forged Hippogryph
 i(230201, 466845);	-- Chaos-Forged Wind Rider
 i(228760, 463133);	-- Coldflame Tempest
-i(190539, 367620);	-- Coral-Stalker Waveray
 i(231374, 468353);	-- Enchanted Spellweave Carpet
 i(224398, 452643);	-- Frayfeather Hippogryph
 i(211087, 428067);	-- Hateforged Blazecycle
@@ -1930,6 +1929,7 @@ i(229418, 465235);	-- Trader's Gilded Brutosaur
 ------------------
 i(234730, 1214946);	-- Broodling of Sinestra
 i(234740, 1214974);	-- Copper-Maned Quilen
+i(190539, 367620);	-- Coral-Stalker Waveray
 i(0, 303767);		-- Honeyback Hivemother
 i(233241, 471696);	-- Hooktalon
 i(235515, 473472);	-- Jani's Trashpile

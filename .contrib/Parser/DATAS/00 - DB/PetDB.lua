@@ -4261,7 +4261,6 @@ i(228781, 4678);	-- Lil'Doomy
 i(230011, 4679);	-- Lil'Kaz
 i(191946, 3265);	-- Mister Muskoxeles
 i(224406, 4592);	-- Misty
-i(232519, 4690);	-- Razeshi B.
 i(231294, 4682);	-- Reven
 i(231356, 4686);	-- Specter
 i(228790, 4617);	-- Thrillbot 9000
@@ -4270,18 +4269,23 @@ i(228790, 4617);	-- Thrillbot 9000
 -- PATCH 11.0.7 --
 ------------------
 --- ITEM ---
-i(233251, 4426);		-- Bubbles
-i(233248, 4425);		-- Glamrok
-i(233252, 4435);		-- Happy
---i(233056, ???);	-- Marmaduke
---i(0, ???);	-- Parley
---i(234395, ???);	-- Skitterbite
---i(233247, ???);	-- Sparklesnap
+i(233251, 4426);	-- Bubbles
+i(233248, 4425);	-- Glamrok
+i(233252, 4435);	-- Happy
+i(233056, 4708);	-- Marmaduke
+i(0, 4695);			-- Parley
+i(232519, 4690);	-- Razeshi B.
+i(234395, 4727);	-- Skitterbite
+i(233247, 4692);	-- Sparklesnap
 
 --- UNSORTED ---
+i(234379, 4726);	-- Crackleroar
 i(234397, 4729);	-- Fullbelly Rollingpaw
 i(232531, 4691);	-- Grunch
+i(232923, 4704);	-- Living Rose
 i(234905, 4730);	-- Mech-Friend Maya
---i(234396, ???);	-- Teatuft Tamer
---i(233366, ???);	-- Wind-Up Woofer
---i(233361, ???);	-- Wind-Up Wuffi
+i(232653, 4694);	-- Portentous Present
+i(233057, 4709);	-- Rock Hound Mica
+i(234396, 4728);	-- Teatuft Tamer
+i(233366, 4719);	-- Wind-Up Woofer
+i(233361, 4718);	-- Wind-Up Wuffi
