@@ -94,11 +94,17 @@ api.DoReport = function(id, text)
 	AddReportData("test", id, text)
 end
 
-local function Check_coords(objRef, id, mapID, px, py)
+local function Check_coords(objRef, id, maxCoordDistance)
 	if not objRef or not objRef.coords then return end
+
+	-- check coord distance
+	local mapID, px, py, fake = app.GetPlayerPosition()
+	-- fake player coords (instances, etc.) cannot be checked
+	if fake then return true end
 
 	local dist, sameMap, check
 	local closest = 9999
+	maxCoordDistance = maxCoordDistance or 1
 	for _, coord in ipairs(objRef.coords) do
 		if mapID == coord[3] then
 			sameMap = mapID
@@ -109,7 +115,7 @@ local function Check_coords(objRef, id, mapID, px, py)
 	end
 	if sameMap then
 		-- quest has an accurate coord on accurate map
-		if closest > 1 then
+		if closest > maxCoordDistance then
 			-- round to the tenth
 			closest = round(closest, 1)
 			AddReportData(objRef.__type,id,{
@@ -128,10 +134,11 @@ local function Check_coords(objRef, id, mapID, px, py)
 	return check or true
 end
 
--- Temporary implementation until a better, global NPCDB provides similar data references
+-- Temporary implementation until better, global DB(s) provides similar data references
 -- These should be NPCs which are mobile in that they can have completely variable coordinates in game
 -- either by following the player or having player-based decisions that cause them to have any coordinates
-local MobileNPCDB = {
+local MobileDB = {}
+MobileDB.Creature = {
 	   [951] = true,	-- Brother Paxton
 	 [19644] = true,	-- Image of Archmage Vargoth
 	 [19935] = true,	-- Soridormi
@@ -197,11 +204,16 @@ local MobileNPCDB = {
 	[224618] = true,	-- Danagh's Cogwalker
 	[211444] = true,	-- Flynn Fairwind
 }
+-- These should be GameObjects which are mobile in that they can have completely variable coordinates in game
+-- either by following the player or having player-based decisions that cause them to have any coordinates
+MobileDB.GameObject = {
+
+}
 
 local ReturnEmptyFunctionMeta = { __index = function() return app.ReturnFalse end}
 local EmptyFunctionTable = setmetatable({}, ReturnEmptyFunctionMeta)
 local ReturnEmptyTableMeta = { __index = function() return EmptyFunctionTable end}
-local IgnoredQuestChecksByTypes = setmetatable({
+local IgnoredChecksByType = setmetatable({
 	Item = setmetatable({
 		coord = app.ReturnTrue,
 		provider = app.ReturnTrue,
@@ -211,7 +223,13 @@ local IgnoredQuestChecksByTypes = setmetatable({
 		provider = app.ReturnTrue
 	}, ReturnEmptyFunctionMeta),
 	Creature = setmetatable({
-		coord = function(id) return MobileNPCDB[id] end,
+		coord = function(id) return MobileDB.Creature[id] end,
+	}, ReturnEmptyFunctionMeta),
+	GameObject = setmetatable({
+		coord = function(id) return MobileDB.GameObject[id] end,
+	}, ReturnEmptyFunctionMeta),
+	Vehicle = setmetatable({
+		coord = app.ReturnTrue,
 	}, ReturnEmptyFunctionMeta),
 }, ReturnEmptyTableMeta)
 
@@ -293,9 +311,9 @@ local function OnQUEST_DETAIL(...)
 	if questID == 0 then return end
 	-- only check logic when the player is not actually on this quest
 	if C_QuestLog_IsOnQuest(questID) then return end
-	local questRef = app.SearchForObject("questID", questID, "field")
-	-- app.PrintDebug("Contributor.OnQUEST_DETAIL.ref",questRef and questRef.hash)
-	if not questRef then
+	local objRef = app.SearchForObject("questID", questID, "field")
+	-- app.PrintDebug("Contributor.OnQUEST_DETAIL.ref",objRef and objRef.hash)
+	if not objRef then
 		-- this is reported from Quest class
 		return
 	end
@@ -311,32 +329,28 @@ local function OnQUEST_DETAIL(...)
 	providerid = tonumber(providerid)
 	if not providerid or not guidtype then
 		-- app.print("Unknown Quest Provider",guidtype,providerid,"during Contribute check!")
-		if not IgnoredQuestChecksByTypes[guidtype].provider() then
+		if not IgnoredChecksByType[guidtype].provider() then
 			app.print("No Quest check performed for Quest #", questID,"[ProviderID]")
 		end
 		return
 	end
 	app.PrintDebug(guidtype,providerid,app.NPCNameFromID[providerid] or app.ObjectNames[providerid]," => Quest #", questID)
 
-	-- check coord distance
-	local mapID, px, py, fake = app.GetPlayerPosition()
-
-	local ignoreCheckCoords = IgnoredQuestChecksByTypes[guidtype].coord
-	-- player position in some instances reports as 50,50 so don't check coords if it's this case
-	if not fake and not (ignoreCheckCoords and ignoreCheckCoords(providerid)) then
-		if not Check_coords(questRef, questRef[questRef.key], mapID, px, py) then
+	-- check coords
+	if not IgnoredChecksByType[guidtype].coord() then
+		if not Check_coords(objRef, objRef[objRef.key]) then
 			-- is this quest listed directly under an NPC which has coords instead? check that NPC for coords
 			-- e.g. Garrison NPCs Bronzebeard/Saurfang
-			local questParent = questRef.parent
+			local questParent = objRef.parent
 			if questParent and questParent.__type == "NPC" then
-				if not Check_coords(questParent, questParent[questParent.key], mapID, px, py) then
-					AddReportData(questRef.__type,questID,{
+				if not Check_coords(questParent, questParent[questParent.key]) then
+					AddReportData(objRef.__type,questID,{
 						questID = questID,
 						MissingCoords = "No Coordinates for this quest under NPC!",
 					})
 				end
 			else
-				AddReportData(questRef.__type,questID,{
+				AddReportData(objRef.__type,questID,{
 					questID = questID,
 					MissingCoords = "No Coordinates for this quest!",
 				})
@@ -345,8 +359,8 @@ local function OnQUEST_DETAIL(...)
 	end
 
 	-- check provider
-	if not IgnoredQuestChecksByTypes[guidtype].provider() then
-		Check_providers(questID, questRef, GuidTypeProviders[guidtype], providerid)
+	if not IgnoredChecksByType[guidtype].provider() then
+		Check_providers(questID, objRef, GuidTypeProviders[guidtype], providerid)
 	end
 	-- app.PrintDebug("Contributor.OnQUEST_DETAIL.Done")
 end
