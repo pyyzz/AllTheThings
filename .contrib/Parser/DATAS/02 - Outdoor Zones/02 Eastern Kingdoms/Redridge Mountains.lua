@@ -521,7 +521,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ 85.8, 32.4, STORMWIND_CITY },	-- Grand Admiral Jes-Tereth
 						{ 56.3, 47.6, WESTFALL },	-- Captain Danuvin
 					},
-					-- #IF BEFORE 11.0.5 [Unsure prior to this]
+					-- #IF BEFORE 11.0.5
+					-- [Unsure prior to this]
 					["description"] = "This quest seems to be unobtainable at higher levels, so if you want to collect the transmog from this quest then you'll need to do it early.",
 					-- #ENDIF
 					["timeline"] = { ADDED_4_0_3 },
