@@ -122,7 +122,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						-- #else
 						["description"] = "Spawns during the night between 6:30pm to 6:30am PST(US)/CEST(EU)/AEST(OCE), but can be found as a secondary pet all day long.",
 						-- #endif
-					}),	
+					}),
 				},
 			}),
 			explorationHeader({
@@ -1929,6 +1929,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["coord"] = { 73.5, 46.9, DUSKWOOD },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
+					["sourceQuests"] = {
+						28564,	-- Hero's Call: Duskwood!
+						26728,	-- Hero's Call: Duskwood!
+					},
 					["groups"] = {
 						objective(1, {	-- 0/12 Dire Wolf slain
 							["provider"] = { "n", 43704 },	-- Dire Wolf
