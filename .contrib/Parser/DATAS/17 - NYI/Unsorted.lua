@@ -836,10 +836,6 @@ root(ROOTS.Unsorted, {
 			i(231019),	-- Hearthstone Invitation Letter
 			i(232492),	-- Gleaming Shatter
 			--
-			i(223741),	-- Bluesberry Blast
-			i(223742),	-- Mangoro Madness
-			i(223743),	-- Orange O-pocalypse
-			i(223744),	-- Oyster Outbreak
 			i(232575),	-- Tome of Town Portal
 		})),
 		expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 } }, {
@@ -1012,7 +1008,6 @@ root(ROOTS.Unsorted, {
 				exploration(14999),	-- Earthcrawl Mines
 				exploration(15155),	-- Echoing Overlook
 				exploration(15047),	-- Fallside Outpost
-				exploration(14821),	-- Fetid Grotto
 				exploration(15142),	-- Firewall of Negation
 				exploration(15044),	-- Foundation Hall
 				exploration(14957),	-- Fungal Folly
@@ -1047,7 +1042,6 @@ root(ROOTS.Unsorted, {
 				exploration(15362),	-- Nerub-ar Gatehouse
 				exploration(15005),	-- Nightfall Sanctum
 				exploration(15183),	-- Oath Gate
-				exploration(14822),	-- Pillarstone Spire
 				exploration(15513),	-- Pocket Dimension
 				exploration(14954),	-- Priory of the Sacred Flame
 				exploration(15150),	-- Priory of the Sacred Flame
@@ -1055,7 +1049,6 @@ root(ROOTS.Unsorted, {
 				exploration(15143),	-- Processing Unit
 				exploration(14512),	-- RebornTree
 				exploration(15453),	-- Rock Bottom Inn
-				exploration(14820),	-- Shadowvein Point
 				exploration(15169),	-- Shadowvein Power Station
 				exploration(15170),	-- Shadowvein Mine
 				exploration(15375),	-- Silken Court

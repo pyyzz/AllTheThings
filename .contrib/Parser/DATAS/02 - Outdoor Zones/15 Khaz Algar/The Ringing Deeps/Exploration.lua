@@ -11,6 +11,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			exploration(15357),	-- Candleslag Quarry
 			exploration(14804),	-- Chittering Den
 			exploration(15030),	-- Deepforge Golemworks
+			visit_exploration(14821,{coord={65.0,41.2,2214}}),	-- Fetid Grotto
 			exploration(14796),	-- Gundargaz
 			exploration(14797),	-- Ironhaul Station
 			exploration(14813),	-- Lightless Chasm
@@ -18,7 +19,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			exploration(14801),	-- Nibelgaz Mine
 			exploration(14816),	-- Obsidian Hollow
 			exploration(14812),	-- Opportunity Point
+			visit_exploration(14822,{coord={53.7,44.1,2214}}),	-- Pillarstone Spire
 			exploration(15031),	-- Shadowvein Extraction Site
+			visit_exploration(14820,{coord={60.5,45.6,2214}}),	-- Shadowvein Point
 			exploration(15345),	-- Shimmermist Falls
 			exploration(15104),	-- Taelloch
 			exploration(14815),	-- Taelloch Mine

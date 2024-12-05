@@ -115,23 +115,41 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			o(444261, {	-- Purchase Bluesberry Blast 5 Silver
 				["description"] = "Purchase First, then Orange!.",
 				["coord"] = { 58.8, 64.2, THE_RINGING_DEEPS },
+				["g"] = {
+					i(223741),	-- Bluesberry Blast
+				},
 			}),
 			o(444275, {	-- Purchase Mangoro Madness 5 Silver
 				["description"] = "Purchase Fourth.",
 				["coord"] = { 58.8, 64.2, THE_RINGING_DEEPS },
+				["g"] = {
+					i(223742),	-- Mangoro Madness
+				},
 			}),
 			o(444276, {	-- Purchase Orange O Pocalypse 5 Silver
 				["description"] = "Purchase Second, next is Oyster.",
 				["coord"] = { 58.8, 64.2, THE_RINGING_DEEPS },
+				["g"] = {
+					i(223743),	-- Orange O-pocalypse
+				},
 			}),
 			o(444277, {	-- Purchase Oyster Outbreak 5 Silver
 				["description"] = "Purchase Third, now lets get some Mangoro Madness.",
+				["g"] = {
+					i(223744),	-- Oyster Outbreak
+				},
 				["coord"] = { 58.8, 64.2, THE_RINGING_DEEPS },
 			}),
 			o(444256, {	-- Kaja'Cola Machine
 				["description"] = "Bluesberry Blast > Orange O-pocalypse > Oyster Outburst > Mangoro Mania",
 				["coord"] = { 58.8, 64.2, THE_RINGING_DEEPS },
 				["questID"] = 82819,
+				["costs"] = {
+					{ "i", 223741, 1 },	-- Bluesberry Blast
+					{ "i", 223742, 1 },	-- Mangoro Madness
+					{ "i", 223743, 1 },	-- Orange O-pocalypse
+					{ "i", 223744, 1 },	-- Oyster Outbreak
+				},
 				["g"] = {
 					i(220774),	-- Goblin Mini Fridge
 				},
