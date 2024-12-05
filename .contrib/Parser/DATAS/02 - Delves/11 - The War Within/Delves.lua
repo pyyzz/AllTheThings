@@ -807,9 +807,9 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["maps"] = ALL_REGULAR_DELVES,
 			["g"] = {
 				i(228582),	-- Streamlined Relic
-				i(225901, {	-- Streamlined Relic [Rank 1]
-					["bonusID"] = 11255,
-				}),
+				-- i(225901, {	-- Streamlined Relic [Rank 1] (only tracking Rank 4 curios)
+				-- 	["bonusID"] = 11255,
+				-- }),
 			},
 		}),
 		q(84370, {	-- The Key to Success
