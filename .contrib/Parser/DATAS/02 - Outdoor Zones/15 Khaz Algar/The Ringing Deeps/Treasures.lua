@@ -144,7 +144,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["description"] = "Bluesberry Blast > Orange O-pocalypse > Oyster Outburst > Mangoro Mania",
 				["coord"] = { 58.8, 64.2, THE_RINGING_DEEPS },
 				["questID"] = 82819,
-				["costs"] = {
+				["cost"] = {
 					{ "i", 223741, 1 },	-- Bluesberry Blast
 					{ "i", 223742, 1 },	-- Mangoro Madness
 					{ "i", 223743, 1 },	-- Orange O-pocalypse

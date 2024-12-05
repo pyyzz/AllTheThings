@@ -1439,6 +1439,8 @@ root(ROOTS.NeverImplemented, filter(BATTLE_PETS, {
 	expansion(EXPANSION.TWW, {
 		-- 11.0.0
 		expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
+			-- Only itemID
+			i(220163),	-- [PH] Cinder Bee
 			-- Only SpeciesID
 			pet(4478, {	-- Caustic Oozeling (PET!)
 				["displayID"] = 116616,

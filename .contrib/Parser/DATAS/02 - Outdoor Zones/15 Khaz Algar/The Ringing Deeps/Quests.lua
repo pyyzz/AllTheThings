@@ -872,7 +872,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						}),
 						i(217395),	-- Freshly Smithed Tools (QI!)
 						i(216681),	-- Merchant Stall Parts (QI!)
-						i(220163),	-- [PH] Cinder Bee (PET!) (TODO: re-confirm it on live)
 					},
 				}),
 			}),
@@ -905,7 +904,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					["provider"] = { "n", 217131 },	-- Fourman Grimes
 					["coord"] = { 47.3, 31.9, THE_RINGING_DEEPS },
 					["g"] = {
-						i(220162),	-- [PH] Toy, Pipe Toy (TOY!) (TODO: re-confirm it on live)
 						--currency(2902),	-- The Assembly of the Deeps Commendation, one-time Warband bonus
 					},
 				}),

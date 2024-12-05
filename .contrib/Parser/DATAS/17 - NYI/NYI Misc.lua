@@ -1680,6 +1680,7 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(224269),	-- [DNT] 11.0 Food/Drink Template - Food Only - Level 75 - Required Level 70
 			i(226108),	-- [DNT] Debug Profession Stats
 			i(223804),	-- [DNT] Zone 1 Placeholder Treasure
+			i(220162),	-- [PH] Toy, Pipe Toy
 		})),
 		-- 11.0.5
 		expansion(EXPANSION.TWW, patch(0,05), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_5 } }, {
