@@ -2735,7 +2735,7 @@ local function DeterminePurchaseGroups(group, FillData)
 		local clone;
 		for _,o in ipairs(collectibles) do
 			if o.hash ~= groupHash then
-				-- app.PrintDebug("Purchase @",groupHash,"=>",o.hash)
+				-- app.PrintDebug("Purchase @",app:SearchLink(o))
 				clone = CreateObject(o);
 				groups[#groups + 1] = clone
 			end
@@ -9135,6 +9135,10 @@ customWindowUpdates.Tradeskills = function(self, force, got)
 			-- Cache learned recipes
 			if not updates.Recipes then
 				-- app.PrintDebug("UpdateLearnedRecipes",self.lastTradeSkillID)
+				if app.Debugging then
+					local reagentsDB = LocalizeGlobal("AllTheThingsHarvestItems", {})
+					reagentsDB.ReagentsDB = app.ReagentsDB
+				end
 				updates.Recipes = true;
 				wipe(MissingRecipes)
 				local categoryData = {};
