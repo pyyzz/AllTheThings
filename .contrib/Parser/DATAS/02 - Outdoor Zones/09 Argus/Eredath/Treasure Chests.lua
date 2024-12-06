@@ -273,6 +273,7 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 				["coords"] = {
 					{ 19.8, 46.6, EREDATH },
 					{ 33.2, 43.5, EREDATH },
+					{ 35.3, 36.0, EREDATH },
 					{ 37.7, 48.7, EREDATH },
 				},
 				["g"] = {
