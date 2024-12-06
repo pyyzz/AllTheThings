@@ -1723,10 +1723,8 @@ namespace ATT
                 data.ContainsKey("criteriaID") ||
                 (data.TryGetValue("collectible", out bool collectible) && !collectible)) return;
 
-            // if (achID == 9713)
-            // {
-
-            // }
+            // data.DataBreakPoint("achID", 429);  // sulfuras
+            // data.DataBreakPoint("achID", 1832);  // tastes like chicken
 
             // Grab AchievementDB info
             ACHIEVEMENTS.TryGetValue(achID, out IDictionary<string, object> achInfo);
@@ -1813,7 +1811,7 @@ namespace ATT
                 }
 
                 // CriteriaTree can be linked to a Parent, or CriteriaID
-                Incorporate_CriteriaTree(achID, data, criteriaTree.ID, criteriaTree);
+                Incorporate_CriteriaTree(achID, data, criteriaTree.ID, criteriaTree, requireIndividualCriterias: criteriaTree.UseIndependentCriteria());
             }
 
             // Achievements can end up with QuestID so make sure to capture them
@@ -2110,7 +2108,8 @@ namespace ATT
         /// <param name="level"></param>
         /// <param name="extraData">Any existing contrib data from a criteria group by ID which needs to migrate into the child criteria by UID instead</param>
         private static bool Incorporate_CriteriaTree(long achID, IDictionary<string, object> data, long criteriaTreeID,
-            CriteriaTree criteriaTree = null, bool mergeDirectly = false, int level = 0, IDictionary<string, object> extraData = null)
+            CriteriaTree criteriaTree = null, bool mergeDirectly = false, int level = 0, IDictionary<string, object> extraData = null,
+            bool requireIndividualCriterias = false)
         {
             if (criteriaTree == null)
             {
@@ -2127,7 +2126,7 @@ namespace ATT
             {
                 long criteriaProviderItem = criteria.GetProviderItem();
                 // Don't incorporate ignore-flagged CriteriaTree whose Criteria is simply a provider Item (i.e. Old Crafty has 2 criteria both with same provider)
-                if (false && criteriaProviderItem > 0 && inGameIgnored)
+                if (!requireIndividualCriterias && criteriaProviderItem > 0 && inGameIgnored)
                 {
                     if (criteriaTree.Amount <= 1)
                     {
@@ -2141,6 +2140,7 @@ namespace ATT
                         LogDebug($"INFO: Incorporating Cost Item {criteriaProviderItem} x {criteriaTree.Amount} for Achievement {achID}");
                         Cost.Merge(data, "i", criteriaProviderItem, criteriaTree.Amount);
                     }
+                    incorporated = true;
                 }
                 else
                 {
@@ -2155,7 +2155,7 @@ namespace ATT
                     // otherwise it's a criteira which is split instead
                     if (mergeDirectly && level == 1)
                     {
-                        LogDebug($"INFO: Incorporating single Criteria Data from {criteriaTree.CriteriaID} into Achievement: {achID}", data);
+                        LogDebug($"INFO: Incorporating single Criteria Data from {criteriaTree.CriteriaID} into Achievement: {achID} RequireIndividualCriterias={requireIndividualCriterias}", data);
                         Incorporate_Criteria(criteriaData);
                         incorporated = true;
 
@@ -2211,11 +2211,8 @@ namespace ATT
                         {
                             Objects.Merge(criteriaData, "awp", awp);
                         }
+                        LogDebug($"INFO: Incorporating Criteria Data from {criteriaTree.CriteriaID} under Achievement: {achID} RequireIndividualCriterias={requireIndividualCriterias}", criteriaData);
                         Objects.Merge(data, "g", criteriaData);
-
-                        //if (criteria.Type == 43) {
-                        //    LogWarn($"Criteria {achID}:{criteria.ID} is of Type 43 and was added automagically");
-                        //}
                     }
 
                     // Achievements whose criteria is incorporated should no longer use achievement_criteria symlink
@@ -2257,7 +2254,7 @@ namespace ATT
                         extraData["id"] = child.OrderIndex + 1;
                     }
 
-                    incorporated |= Incorporate_CriteriaTree(achID, data, child.ID, child, childTrees.Count == 1, level + 1, extraData);
+                    incorporated |= Incorporate_CriteriaTree(achID, data, child.ID, child, childTrees.Count == 1, level + 1, extraData, criteriaTree.UseIndependentCriteria());
                 }
 
                 long criteriaIndex = criteriaTree.OrderIndex + 1;

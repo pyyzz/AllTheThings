@@ -28,6 +28,9 @@ namespace ATT.DB.Types
         public bool IsHordeOnlyFlags() =>
             (_flags & TypeFlags.Horde) == TypeFlags.Horde;
 
+        public bool UseIndependentCriteria() =>
+            (_flags & TypeFlags.ProgressBar) == TypeFlags.ProgressBar || Amount > 1;
+
         /// <summary>
         /// Represents if this CriteriaTree is useful to process by way of indicating the sub-CriteriaTree are ALL (4) or ANY (8)
         /// </summary>
