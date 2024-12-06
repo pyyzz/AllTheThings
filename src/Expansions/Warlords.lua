@@ -114,6 +114,10 @@ do
 			return 1103070;
 		end,
 	});
+	-- Information Types
+	app.AddEventHandler("OnLoad", function()
+		app.Settings.CreateInformationType("missionID", { text = L.MISSION_ID })
+	end)
 end
 
 -- Talents

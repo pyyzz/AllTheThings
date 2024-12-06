@@ -6,58 +6,9 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 		["icon"] = 623769,
 		["g"] = {
 			n(ACHIEVEMENTS, {
-				ach(19885, {	-- Campaign: Krasarang Wilds [A]
-					["races"] = ALLIANCE_ONLY,
-					["g"] = {
-						crit(67238),	-- Zhu's Watch
-						crit(67239),	-- The Incursion
-						crit(67240),	-- Temple of the Red Crane
-						crit(67241),	-- The Waters of Youth
-						crit(67242, {	-- Nayeli Lagoon
-							["_noautomation"] = true,
-							["_quests"] = { 30674 },	-- Balance Without Violence
-						}),
-						crit(67243, {	-- Nayeli Lagoon
-							["_noautomation"] = true,
-							["_quests"] = { 30675 },	-- Buried Hozen Treasure
-						}),
-						crit(67244, {	-- Nayeli Lagoon
-							["_noautomation"] = true,
-							["_quests"] = { 30672 },	-- Balance
-						}),
-					}
-				}),
-				ach(19886, {	-- Campaign: Krasarang Wilds [H]
-					["races"] = HORDE_ONLY,
-					["g"] = {
-						crit(67245),	-- Thunder Cleft
-						crit(67246),	-- Dawnchaser Retreat
-						crit(67238),	-- Zhu's Watch
-						crit(67240),	-- Temple of the Red Crane
-						crit(67242, {	-- Nayeli Lagoon
-							["_noautomation"] = true,
-							["_quests"] = { 30674 },	-- Balance Without Violence
-						}),
-						crit(67243, {	-- Nayeli Lagoon
-							["_noautomation"] = true,
-							["_quests"] = { 30675 },	-- Buried Hozen Treasure
-						}),
-						crit(67244, {	-- Nayeli Lagoon
-							["_noautomation"] = true,
-							["_quests"] = { 30672 },	-- Balance
-						}),
-					}
-				}),
-				ach(19891, {		-- Campaign: Landfall
-					crit(65829, {
-						["_noautomation"] = true,
-						["_quests"] = { 32401 },	-- Breath of Darkest Shadow (A)
-					}),
-					crit(65830, {
-						["_noautomation"] = true,
-						["_quests"] = { 32399 },	-- Breath of Darkest Shadow (H)
-					}),
-				}),
+				ach(19885),	-- Campaign: Krasarang Wilds [A] (automated)
+				ach(19886),	-- Campaign: Krasarang Wilds [H] (automated)
+				ach(19891),	-- Campaign: Landfall (automated)
 				ach(19918, {	-- Dominance Offensive [H]
 					["races"] = HORDE_ONLY,
 				}),

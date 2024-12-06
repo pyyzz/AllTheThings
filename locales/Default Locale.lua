@@ -161,6 +161,7 @@ local L = setmetatable({
 	FLIGHT_PATH_ID = "Flight Path ID";
 	LORE = "Lore";
 	MAP_ID = "Map ID";
+	MISSION_ID = "Mission ID";
 	MOUNT_ID = "Mount ID";
 	MUSIC_ROLL_ID = "Music Roll ID";
 	NPC_ID = "NPC ID";

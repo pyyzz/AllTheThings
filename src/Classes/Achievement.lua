@@ -245,9 +245,7 @@ do
 				end
 			end
 		})
-
 	end)
-
 end
 
 -- Achievement Category Lib
