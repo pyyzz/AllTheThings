@@ -338,7 +338,7 @@ local function OnQUEST_DETAIL(...)
 	app.PrintDebug(guidtype,providerid,app.NPCNameFromID[providerid] or app.ObjectNames[providerid]," => Quest #", questID)
 
 	-- check coords
-	if not IgnoredChecksByType[guidtype].coord() then
+	if not IgnoredChecksByType[guidtype].coord(providerid) then
 		if not Check_coords(objRef, objRef[objRef.key]) then
 			-- is this quest listed directly under an NPC which has coords instead? check that NPC for coords
 			-- e.g. Garrison NPCs Bronzebeard/Saurfang
@@ -360,7 +360,7 @@ local function OnQUEST_DETAIL(...)
 	end
 
 	-- check provider
-	if not IgnoredChecksByType[guidtype].provider() then
+	if not IgnoredChecksByType[guidtype].provider(providerid) then
 		Check_providers(questID, objRef, GuidTypeProviders[guidtype], providerid)
 	end
 	-- app.PrintDebug("Contributor.OnQUEST_DETAIL.Done")
@@ -398,7 +398,7 @@ local function OnPLAYER_SOFT_INTERACT_CHANGED(previousGuid, newGuid)
 	-- app.PrintDebug("GameObject",app:SearchLink(objRef))
 
 	-- check sourced object coords
-	if not IgnoredChecksByType[guidtype].coord() then
+	if not IgnoredChecksByType[guidtype].coord(id) then
 		-- object auto-detect can happen from rather far, so using 2 distance
 		if not Check_coords(objRef, objRef[objRef.key], 2) then
 			AddReportData(objRef.__type,id,{
