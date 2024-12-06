@@ -27,6 +27,7 @@ local Reports = setmetatable({}, { __index = function(t,key)
 	t[key] = reportType
 	return reportType
 end})
+app.AddEventHandler("OnReportReset", function() wipe(Reports) end)
 
 -- Allows adding an Event handler function for in-game events when Contributor is enabled
 local function AddEventFunc(event, func)

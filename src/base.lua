@@ -689,5 +689,16 @@ app.ChatCommands.PrintHelp = function(cmd)
 	return true
 end
 
+-- Allows a user to use /att report-reset
+-- to clear all generated Report dialog IDs so that they may be re-generated within the same game session
+app.ChatCommands.Add("report-reset", function(args)
+	wipe(reports)
+	app.HandleEvent("OnReportReset")
+	return true
+end, {
+	"Usage : /att report-reset",
+	"Allows resetting the tracking of displayed Dialog reports such that duplicate reports can be repeated in the same game session.",
+})
+
 -- Global Variables
 AllTheThingsSavedVariables = {};
