@@ -717,7 +717,6 @@ root(ROOTS.Sourceless, bubbleDownFiltered({
 		expansion(EXPANSION.DF, {
 			-- 10.0.0
 			expansion(EXPANSION.DF, patch(0,01), bubbleDownSelf({ ["timeline"] = { ADDED_10_0_0 } }, {
-				q(64764),	-- Flag Quest [DNT] (spellID 396726)
 				q(66034),	-- On Fail, Reset Player [DNT] (spellID 374750) / MDI Quest Trigger
 				q(67045),	--
 				q(71054),	--

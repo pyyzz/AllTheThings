@@ -8,6 +8,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			exploration(14875),	-- Boulder Springs
 			exploration(14781),	-- Cinderbrew Meadery
 			exploration(14786),	-- Cinderwold
+			visit_exploration(15178,{coord={55.1,55.5,ISLE_OF_DORN}}),	-- Crossroads Plaza
 			visit_exploration(14780,{coord={72.9,54.2,ISLE_OF_DORN}}),	-- Dhar Bandar
 			visit_exploration(15039,{coord={44.0,78.4,ISLE_OF_DORN}}),	-- Dhar Durgaz
 			exploration(14783),	-- Dhar Kazhad
@@ -22,6 +23,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			exploration(14787),	-- Mourning Rise
 			exploration(14784),	-- Rambleshire
 			exploration(15174),	-- Restless Estuary
+			visit_exploration(15514,{coord={64.3,20.2,ISLE_OF_DORN}}),	-- Silkwood Grotto
 			exploration(14785),	-- Skolzgal Mill
 			exploration(14775),	-- Storm's Watch
 			exploration(15386),	-- Sunken Shield

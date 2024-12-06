@@ -991,7 +991,6 @@ root(ROOTS.Unsorted, {
 				exploration(14979),	-- City of Threads
 				exploration(15110),	-- Contender's Gate
 				exploration(15172),	-- Councilward's Rise
-				exploration(15178),	-- Crossroads Plaza
 				exploration(15376),	-- Crown of Shadows
 				exploration(15177),	-- Dalaran
 				exploration(14818),	-- Darkflame Cleft Exterior
@@ -1052,7 +1051,6 @@ root(ROOTS.Unsorted, {
 				exploration(15169),	-- Shadowvein Power Station
 				exploration(15170),	-- Shadowvein Mine
 				exploration(15375),	-- Silken Court
-				exploration(15514),	-- Silkwood Grotto
 				exploration(15004),	-- Skittering Breach
 				exploration(15371),	-- Skittering Cavern
 				exploration(15020),	-- Sprawling Trackyard

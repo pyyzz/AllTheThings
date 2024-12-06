@@ -772,7 +772,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			["coord"] = { 47.4, 44.4, DORNOGAL },
 		}),
 		q(84224, {	-- To Delves!
-			["sourceQuests"] = { 81510 },	-- Ship It!
+			--["sourceQuests"] = { 81510 },	-- Ship It! TODO: wrong, auto pop on fresh (first) 80s on account, as of 11.0.5
 			--["provider"] = { "n", xxxxx },	-- Auto-accept?
 			["coord"] = { 47.4, 44.4, DORNOGAL },
 		}),
@@ -1279,7 +1279,10 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			n(QUESTS, {
 				q(85648, {	-- Delver's Call: Earthcrawl Mines
-					["provider"] = { "o", 487805 },	-- DELVER'S CALL: Earthcrawl Mines
+					["providers"] = {
+						{ "o", 455716 },	-- DELVER'S CALL
+						{ "o", 487805 },	-- DELVER'S CALL: Earthcrawl Mines
+					},
 					["coords"] = {
 						{ 55.3, 55.9, ISLE_OF_DORN },
 						{ 44.7, 12.0, EARTHCRAWL_MINES },

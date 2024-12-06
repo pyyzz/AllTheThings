@@ -483,7 +483,10 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 						59932,	-- Cooking Meat [H] [Hunter]
 						59934,	-- Enhanced Combat Tactics [H] [Monk]
 					},
-					["provider"] = { "n", 166854 },	-- Won'sa
+					["providers"] = {
+						{ "n", 166854 },	-- Won'sa
+						{ "n", 175030 },	-- Won'sa (Note: this creatureID here at least from 11.0.5)
+					},
 					["coord"] = { 58.3, 74.4, EXILES_REACH },
 					["races"] = HORDE_ONLY,
 					["sourceQuestNumRequired"] = 1,

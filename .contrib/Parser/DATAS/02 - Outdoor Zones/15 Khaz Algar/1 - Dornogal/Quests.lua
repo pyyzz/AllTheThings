@@ -175,6 +175,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(83621),	-- can be used right after turn in 81930 or 78713 (The War Within)
 				-- 82059 (Transmutation Station)
 				q(65440),	-- provided 15x Carved Harbinger Crest (spellID 446407 Satchel of Carved Harbinger Crests)
+				-- 83275 (Gear Enchanting)
+				q(85588),	-- provided ring + enchant (spellID 469629)
 			}),
 		}),
 	}),

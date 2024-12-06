@@ -658,7 +658,6 @@ localize(L.HEADER_NAMES, {
 	[-1001040] = "Audience with Arrogance",
 	[-1001041] = "Delve Completion",
 	[-1001045] = "Guest Relations",
-	[-1001057] = "Razer",
 	[-1001058] = "|cffFF0000Ogom the Mangler seems just to spawn when you are doing the Daily 'Assault on the Iron Siegeworks'. This Quest wasn't active since the start of Legion and the buyable Quest 'Missive: Assault on the Iron Siegeworks' does not work either.|r",
 	[-1001059] = "|cFFFFFFFFStep 1:|r Conspicious Note",
 });
@@ -754,7 +753,6 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-1001039] = "The third LFR wing, featuring Shriekwing, Sludgefist, and Stone Legion Generals.",
 	[-1001040] = "The fourth LFR wing, featuring Sire Denathrius.",
 	[-1001041] = "Contains things that are rewarded upon completing that event.",
-	[-1001057] = "Promotion for Razer Gaming Peripherals World of Warcraft Collection. Purchasing any item will award all three promotional codes.",
 });
 localize(L.HEADER_LORE, {
 	[-1000048] = "One of these dragons will spawn randomly at the associated coordinates across Azeroth.",
@@ -1209,7 +1207,6 @@ localize(L.HEADER_ICONS, {
 	[-1001040] = 3614361,
 	[-1001041] = _.asset("interface_rewards"),
 	[-1001045] = _.asset("holiday_secretsaz"),
-	[-1001057] = 132529,
 });
 localize(L.HEADER_EVENTS, {
 	[-1000199] = 638,

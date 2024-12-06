@@ -31,7 +31,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					}),
 					q(82775, {	-- Quickchange Artist
 						["provider"] = { "n", 215748 },	-- Wendeline
-						["coord"] = { 57.0, 53.8, ISLE_OF_DORN },
+						["coords"] = {
+							{ 57.0, 53.8, ISLE_OF_DORN },
+							{ 54.7, 76.0, THE_PROSCENIUM},
+						},
 						["minReputation"] = { FACTION_COUNCIL_OF_DORNOGAL, 8 },
 					}),
 					q(82784, {	-- Resonant Performance
