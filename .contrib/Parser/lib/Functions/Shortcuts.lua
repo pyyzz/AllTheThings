@@ -1179,9 +1179,7 @@ m = map;												-- Create a MAP Object (alternative shortcut)
 mission = function(id, t)								-- Create an MISSION Object
 	return struct("missionID", id, t);
 end
-mi = function(id, t)									-- Create a MISSION Object (Alternative)
-	return struct("missionID", id, t);
-end
+mi = mission											-- Create a MISSION Object (Alternative)
 molemachine = function(questID, name, t)				-- Create a MOLE MACHINE Quest Object
 	if questID then
 		t = struct("questID", questID, t);

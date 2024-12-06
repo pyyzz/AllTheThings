@@ -1725,6 +1725,7 @@ namespace ATT
 
             // data.DataBreakPoint("achID", 429);  // sulfuras
             // data.DataBreakPoint("achID", 1832);  // tastes like chicken
+            // data.DataBreakPoint("achID", 40613);
 
             // Grab AchievementDB info
             ACHIEVEMENTS.TryGetValue(achID, out IDictionary<string, object> achInfo);
@@ -1768,6 +1769,7 @@ namespace ATT
 
             // data marked with noautomation shouldn't incorporate more than this
             if (data.TryGetValue("_noautomation", out bool noautomation) && noautomation) return;
+            data.TryGetValue("_doautomation", out bool doautomation);
 
             // only incorporate achievement criteria which is under a header or another achievement
             // CRIEVE NOTE: What is this and why does it prevent merging achievement data?
@@ -1786,13 +1788,18 @@ namespace ATT
                     case "expansionID":
                         break;
                     default:
-                        LogDebug($"INFO: Achievement {achID} not being incorporated since it is listed under a specific Thing {CurrentParentGroup.Value.Key}:{CurrentParentGroup.Value.Value}");
-                        return;
+                        // data marked with doautomation shouldn't ignore based on header type
+                        if (!doautomation)
+                        {
+                            LogDebug($"INFO: Achievement {achID} not being incorporated since it is listed under a specific Thing {CurrentParentGroup.Value.Key}:{CurrentParentGroup.Value.Value}");
+                            return;
+                        }
+                        break;
                 }
             }
 
             // don't incorporate criteria if the achievement is listed under a real NPC
-            if (CurrentParentGroup.Value.Key == "npcID" && CurrentParentGroup.Value.Value.TryConvert(out long id) && id > 0)
+            if (!doautomation && CurrentParentGroup.Value.Key == "npcID" && CurrentParentGroup.Value.Value.TryConvert(out long id) && id > 0)
             {
                 LogDebug($"INFO: Achievement {achID} not being incorporated since it is listed under real NPC {id}");
                 return;
@@ -1950,6 +1957,7 @@ namespace ATT
             }
 
             // merge CriteriaDB data into Criteria data
+            bool incorporated = false;
             // SourceQuest(s) can convert to _quests for criteria cloning
             long sq = criteriaData.GetSourceQuest();
             if (sq > 0)
@@ -1959,8 +1967,9 @@ namespace ATT
                     //LogDebugWarn($"Remove _quests {ToJSON(quests)} from Criteria {achID}:{criteriaID}. DB contains sourceQuest: {sq}");
                 }
 
-                LogDebug($"INFO: Added _quests to Criteria {achID}:{criteriaID} with sourceQuest: {sq}");
+                LogDebug($"INFO: Added _quests to Criteria {achID}:{criteriaID} => {sq}");
                 Objects.Merge(data, "_quests", sq);
+                incorporated = true;
 
                 // Criteria moved under a Quest should not have a cost/provider, but rather their destination should have that data
                 // if (data.ContainsKey("cost") || data.ContainsKey("providers"))
@@ -1975,16 +1984,18 @@ namespace ATT
             long providerItem = criteriaData.GetProviderItem();
             if (providerItem > 0)
             {
-                LogDebug($"INFO: Added providers to Criteria {achID}:{criteriaID} with Item: {providerItem}");
+                LogDebug($"INFO: Added providers to Criteria {achID}:{criteriaID} => {providerItem}");
                 Objects.Merge(data, "providers", new List<object> { new List<object> { "i", providerItem } });
+                incorporated = true;
             }
 
             // Provider Object for the Criteria
             long providerObject = criteriaData.GetProviderObject();
             if (providerObject > 0)
             {
-                LogDebug($"INFO: Added _objects to Criteria {achID}:{criteriaID} with Object: {providerObject}");
+                LogDebug($"INFO: Added _objects to Criteria {achID}:{criteriaID} => {providerObject}");
                 Objects.Merge(data, "_objects", providerObject);
+                incorporated = true;
             }
 
             // Provider NPC for the Criteria
@@ -2003,19 +2014,9 @@ namespace ATT
                     data.Remove("crs");
                 }
 
-                LogDebug($"INFO: Added _npcs to Criteria {achID}:{criteriaID} with NPC: {providerNPC}");
+                LogDebug($"INFO: Added _npcs to Criteria {achID}:{criteriaID} => {providerNPC}");
                 Objects.Merge(data, "_npcs", providerNPC);
-            }
-
-            long modifierTreeID = criteriaData.GetModifierTreeID();
-            if (modifierTreeID > 0)
-            {
-                if (!Incorporate_ModifierTree(data, modifierTreeID) && matchedCriteriaInfo == null)
-                {
-                    LogDebug($"INFO: No good ModifierTree {modifierTreeID} data for hidden Criteria {achID}:{criteriaID}. It will be removed.");
-                    data["_remove"] = true;
-                }
-                // -> modifiertree -> parent[collection] -> type=4(creature target) -> Asset
+                incorporated = true;
             }
 
             long spellID = criteriaData.GetKnownSpellID();
@@ -2042,8 +2043,9 @@ namespace ATT
                     //}
                     //else
                     //{
-                    LogDebug($"INFO: Added _spells to visible Criteria {achID}:{criteriaID} with SpellID: {spellID}");
+                    LogDebug($"INFO: Added _spells to visible Criteria {achID}:{criteriaID} => {spellID}");
                     Objects.Merge(data, "_spells", new List<object> { spellID });
+                    incorporated = true;
                     //}
                 }
             }
@@ -2063,8 +2065,9 @@ namespace ATT
                 }
                 else
                 {
-                    LogDebug($"INFO: Added _achievements to Criteria {achID}:{criteriaID} with Ach: {achievementID}");
+                    LogDebug($"INFO: Added _achievements to Criteria {achID}:{criteriaID} => {achievementID}");
                     Objects.Merge(data, "_achievements", achievementID);
+                    incorporated = true;
                 }
             }
 
@@ -2077,8 +2080,9 @@ namespace ATT
                 }
                 else
                 {
-                    LogDebug($"INFO: Added _factions to Criteria {achID}:{criteriaID} with Faction: {factionID}");
+                    LogDebug($"INFO: Added _factions to Criteria {achID}:{criteriaID} => {factionID}");
                     Objects.Merge(data, "_factions", factionID);
+                    incorporated = true;
                 }
             }
 
@@ -2091,9 +2095,53 @@ namespace ATT
                 }
                 else
                 {
-                    LogDebug($"INFO: Added _flightpath to Criteria {achID}:{criteriaID} with Flightpath: {flightpathID}");
+                    LogDebug($"INFO: Added _flightpath to Criteria {achID}:{criteriaID} => {flightpathID}");
                     Objects.Merge(data, "_flightpath", flightpathID);
+                    incorporated = true;
                 }
+            }
+
+            long followerID = criteriaData.GetRecruitFollowerID();
+            if (followerID > 0)
+            {
+                if (!TryGetSOURCED("followerID", followerID, out _))
+                {
+                    LogWarn($"Follower {followerID} should be sourced as it is attached to Criteria {achID}:{criteriaID}");
+                }
+                else
+                {
+                    LogDebug($"INFO: Added _follower to Criteria {achID}:{criteriaID} => {followerID}");
+                    Objects.Merge(data, "_follower", followerID);
+                    incorporated = true;
+                }
+            }
+
+            long missionID = criteriaData.GetGarrisonMissionID();
+            if (missionID > 0)
+            {
+                if (!TryGetSOURCED("missionID", missionID, out _))
+                {
+                    LogWarn($"Mission {missionID} should be sourced as it is attached to Criteria {achID}:{criteriaID}");
+                }
+                else
+                {
+                    LogDebug($"INFO: Added _mission to Criteria {achID}:{criteriaID} with Mission: {missionID}");
+                    Objects.Merge(data, "_mission", missionID);
+                    incorporated = true;
+                }
+            }
+
+            // This needs to be the last check performed since it will remove the Criteria group if nothing useful was added from the Criteria data
+            long modifierTreeID = criteriaData.GetModifierTreeID();
+            if (modifierTreeID > 0)
+            {
+                // only mark the criteria to remove if there was no other data added from it
+                if (!Incorporate_ModifierTree(data, modifierTreeID) && matchedCriteriaInfo == null && !incorporated)
+                {
+                    LogDebug($"INFO: No good ModifierTree {modifierTreeID} data for hidden Criteria {achID}:{criteriaID}. It will be removed.");
+                    data["_remove"] = true;
+                }
+                // -> modifiertree -> parent[collection] -> type=4(creature target) -> Asset
             }
         }
 
@@ -2302,7 +2350,8 @@ namespace ATT
                         }
                     }
 
-                    if (!incorporated && !data.ContainsKey("achievement_criteria"))
+                    // more than 1 criteria tree to nest, but none had any incorporated data, so add basic criterias by index
+                    if (!incorporated && !data.ContainsKey("achievement_criteria") && childTrees.Count > 1)
                     {
                         extraData = extraData ?? new Dictionary<string, object>();
                         if (extraData.TryGetValue("id", out long id) && id == criteriaIndex)
@@ -2632,6 +2681,16 @@ namespace ATT
             if (data.TryGetValue("_flightpath", out object flightpath))
             {
                 DuplicateDataIntoGroups(data, flightpath, "flightpathID");
+                cloned = true;
+            }
+            if (data.TryGetValue("_follower", out object follower))
+            {
+                DuplicateDataIntoGroups(data, follower, "followerID");
+                cloned = true;
+            }
+            if (data.TryGetValue("_mission", out object mission))
+            {
+                DuplicateDataIntoGroups(data, mission, "missionID");
                 cloned = true;
             }
 

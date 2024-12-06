@@ -3226,6 +3226,7 @@ app.ThingKeys = {
 	recipeID = true,
 	runeforgepowerID = true,
 	spellID = true,
+	missionID = true,
 	mountID = true,
 	mountmodID = true,
 	illusionID = true,

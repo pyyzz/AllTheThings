@@ -6,15 +6,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 		["icon"] = 624970,
 		["g"] = {
 			n(ACHIEVEMENTS, {
-				ach(19890, {	-- Campaign: Dread Wastes
-						crit(67265),	-- The First Paragons
-						crit(67266),	-- Taste of Amber
-						crit(67267),	-- Like a Deck Boss
-						crit(67268, {	-- The Might of the Klaxxi
-							["_noautomation"] = true,
-							["_quests"] = { 31398 },	-- Falling to Pieces
-						}),
-				}),
+				ach(19890),	-- Campaign: Dread Wastes (automated)
 				ach(19878, {	-- Dread Wastes
 					-- Meta Achievement
 					["sym"] = {{"meta_achievement",

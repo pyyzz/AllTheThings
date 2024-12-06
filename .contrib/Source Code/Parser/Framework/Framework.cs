@@ -161,6 +161,8 @@ namespace ATT
             { "headerID", new Dictionary<long, List<IDictionary<string, object>>>() },
             { "factionID", new Dictionary<long, List<IDictionary<string, object>>>() },
             { "flightpathID", new Dictionary<long, List<IDictionary<string, object>>>() },
+            { "followerID", new Dictionary<long, List<IDictionary<string, object>>>() },
+            { "missionID", new Dictionary<long, List<IDictionary<string, object>>>() },
             { "mountID", new Dictionary<long, List<IDictionary<string, object>>>() },
             { "npcID", new Dictionary<long, List<IDictionary<string, object>>>() },
             { "objectID", new Dictionary<long, List<IDictionary<string, object>>>() },

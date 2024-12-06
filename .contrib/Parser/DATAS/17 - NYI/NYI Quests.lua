@@ -8015,7 +8015,7 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 			q(70637),	--
 			q(70645),	--
 			q(70657),	--
-			q(70660, {["_noautomation"] = true}),	--
+			q(70660),	--
 			q(70707),	--
 			q(70836),	--
 			q(70844),	--

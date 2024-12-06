@@ -329,6 +329,22 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 					},
 				}),
 			})),
+			n(-299, {	-- Missions
+				mi(2253),	-- Topple the Giants
+				mi(2299),	-- Maw: Topple the Giants
+				mi(2298),	-- Maw: Coalescing Stygia
+				mi(2252),	-- Coalescing Stygia
+				mi(2297),	-- Maw: Ghelak's Revenge
+				mi(2251),	-- Ghelak's Revenge
+				mi(2250),	-- Breach the Planes
+				mi(2296),	-- Maw: Breach the Planes
+				mi(2260),	-- Krala, Wings of Woe
+				mi(2259),	-- Shades of Despair
+				mi(2258),	-- Cutting the Threads
+				mi(2256),	-- Grandiose Designs
+				mi(2255),	-- Dravok's Plot
+				mi(2254),	-- Dark Skies, Darker Prospects
+			}),
 		},
 	}),
 })));

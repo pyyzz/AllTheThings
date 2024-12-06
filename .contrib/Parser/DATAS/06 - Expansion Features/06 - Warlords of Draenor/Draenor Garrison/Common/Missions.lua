@@ -96,6 +96,19 @@ root(ROOTS.ExpansionFeatures,
 								["questID"] = 36464,
 							}),
 						}),
+						mi(467),	-- Mushroom Mystery
+						mi(468),	-- I See Dead Orcs
+						mi(469),	-- The Bigger They Are
+						mi(470),	-- Boiling Hot Magma
+						mi(471),	-- Backbreaker
+						mi(472),	-- Green Thumb
+						mi(473),	-- We Will Fight In the Shadar
+						mi(474),	-- I See Dead Ogres
+						mi(475),	-- Pro-Labor
+						mi(476),	-- Fall From Grace
+						mi(477),	-- Forced Eviction
+						mi(478),	-- Early Mover
+						mi(479),	-- Mountain of Spirits
 						i(114053, {	-- Shimmering Gauntlets
 							["description"] = "This token is a reward from one of the first missions when you initially unlock your garrison.",
 							["g"] = {

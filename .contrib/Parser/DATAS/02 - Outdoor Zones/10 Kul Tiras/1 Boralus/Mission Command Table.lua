@@ -10,129 +10,15 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			["modelScale"] = 2,
 			["g"] = {
 				ach(12898, {	-- Azeroth at War: After Lordaron
-					crit(41176, {	-- Lordamere Lake
-						["missionID"] = 1883,	-- Lordamere Lake
-					}),
-					crit(41177, {	-- Undead Rising
-						["missionID"] = 1884,	-- Undead Rising
-					}),
-					crit(41178, {	-- Shadowfang Plague
-						["missionID"] = 1888,	-- Shadowfang Plague
-					}),
-					crit(41179, {	-- Alterac Scouting
-						["missionID"] = 1889,	-- Alterac Scouting
-					}),
-					crit(41180, {	-- Damming Them All
-						["missionID"] = 1894,	-- Damming Them All
-					}),
-					crit(41181, {	-- Destroying the Keep
-						["missionID"] = 1895,	-- Destroying the Keep
-					}),
-					crit(41182, {	-- Dalaran Ritual
-						["missionID"] = 1903,	-- Dalaran Ritual
-					}),
-					crit(41183, {	-- Dancing with the Dark Rangers
-						["missionID"] = 1904,	-- Dancing with the Dark Rangers
-					}),
-					crit(41184, {	-- Exorcising Dun Garok
-						["missionID"] = 1909,	-- Exorcising Dun Garok
-					}),
-					crit(41185, {	-- Hillsbrad Mine
-						["missionID"] = 1911,	-- Hillsbrad Mine
-					}),
-					crit(41186, {	-- Silverpine Reinforcements
-						["missionID"] = 1912,	-- Silverpine Reinforcements
-					}),
-					crit(41187, {	-- Deep Elem Mine
-						["missionID"] = 1914,	-- Deep Elem Mine
-					}),
-					crit(41188, {	-- Southshore Sabotage
-						["missionID"] = 1915,	-- Southshore Sabotage
-					}),
-
+					["_doautomation"] = true,
 				}),
 				ach(12899, {	-- Azeroth at War: Kalimdor on Fire
-					crit(41189, {	-- Bilgewater Sabotage
-						["missionID"] = 1858,	-- Bilgewater Sabotage
-					}),
-					crit(41190, {	-- Siege of Astranaar
-						["missionID"] = 1866,	-- Siege of Astranaar
-					}),
-					crit(41191, {	-- Teldrassil Evacuation
-						["missionID"] = 1882,	-- Teldrassil Evacuation
-					}),
-					crit(41192, {	-- Ashenvale Pass
-						["missionID"] = 1887,	-- Ashenvale Pass
-					}),
-					crit(41193, {	-- Shreds of Warsong
-						["missionID"] = 1892,	-- Shreds of Warsong
-					}),
-					crit(41194, {	-- Out of Our Depth
-						["missionID"] = 1893,	-- Out of Our Depth
-					}),
-					crit(41195, {	-- Deeps Scouting
-						["missionID"] = 1900,	-- Deeps Scouting
-					}),
-					crit(41196, {	-- Darkshore Drilling
-						["missionID"] = 1901,	-- Darkshore Drilling
-					}),
-					crit(41197, {	-- Stardust Spire Counterattack
-						["missionID"] = 1902,	-- Stardust Spire Counterattack
-					}),
-					crit(41198, {	-- Ancient Defenses
-						["missionID"] = 1907,	-- Ancient Defenses
-					}),
-					crit(41199, {	-- Posting Reinforcements
-						["missionID"] = 1908,	-- Posting Reinforcements
-					}),
-					crit(41200, {	-- Recapture Silverwind Refuge
-						["missionID"] = 1910,	-- Recapture Silverwind Refuge
-					}),
-					crit(41201, {	-- Return to Auberdine
-						["missionID"] = 1916,	-- Return to Auberdine
-					}),
+					["_doautomation"] = true,
 				}),
 				ach(12896, {	-- Azeroth at War: The Barrens
-					crit(41140, {	-- Our Fort Was a Triumph
-						["missionID"] = 1885,	-- Our Fort Was a Triumph
-					}),
-					crit(41141, {	-- At a Crossroads
-						["missionID"] = 1886,	-- At a Crossroads
-					}),
-					crit(41139, {	-- Razor Hill Supplies
-						["missionID"] = 1890,	-- Razor Hill Supplies
-					}),
-					crit(41142, {	-- Lingering in Theramore
-						["missionID"] = 1891,	-- Lingering in Theramore
-					}),
-					crit(41143, {	-- Salvaging Tiragarde
-						["missionID"] = 1896,	-- Salvaging Tiragarde
-					}),
-					crit(41144, {	-- The Defense of Northwatch Hold
-						["missionID"] = 1897,	-- The Defense of Northwatch Hold
-					}),
-					crit(41145, {	-- Barrens at War
-						["missionID"] = 1898,	-- Barrens at War
-					}),
-					crit(41146, {	-- Great Gate of Mulgore
-						["missionID"] = 1899,	-- Great Gate of Mulgore
-					}),
-					crit(41147, {	-- Azerite Weaponry
-						["missionID"] = 1905,	-- Azerite Weaponry
-					}),
-					crit(41148, {	-- Steamwheedle Alliance
-						["missionID"] = 1906,	-- Steamwheedle Alliance
-					}),
-					crit(41149, {	-- Echo Isles Navy
-						["missionID"] = 1913,	-- Echo Isles Navy
-					}),
-					crit(41150, {	-- Investigate Wailing Caverns
-						["missionID"] = 1917,	-- Investigate Wailing Caverns
-					}),
-					crit(41151, {	-- Barren Supplies
-						["missionID"] = 1918,	-- Barren Supplies
-					}),
+					["_doautomation"] = true,
 				}),
+				i(163036, {["races"]=IGNORED_VALUE}),	-- Polished Pet Charm
 				mission(2078),	--  Azeroth Bleed
 				mission(2087),	-- Explore the Roost
 				mission(1877, {	-- The Shadow War
@@ -150,7 +36,45 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 						}),
 					},
 				})),
-				i(163036, {["races"]=IGNORED_VALUE}),	-- Polished Pet Charm
+				mi(1918),	-- Barren Supplies
+				mi(1917),	-- Investigate Wailing Caverns
+				mi(1913),	-- Echo Isles Navy
+				mi(1906),	-- Steamwheedle Alliance
+				mi(1905),	-- Azerite Weaponry
+				mi(1899),	-- Great Gate of Mulgore
+				mi(1898),	-- Barrens at War
+				mi(1897),	-- The Defense of Northwatch Hold
+				mi(1896),	-- Salvaging Tiragarge
+				mi(1891),	-- Lingering in Theramore
+				mi(1890),	-- Razor Hill Supplies
+				mi(1886),	-- At a Crossroads
+				mi(1885),	-- Our Fort Was a Triumph
+				mi(1916),	-- Return to Auberdine
+				mi(1910),	-- Recapture Silverwind Refuge
+				mi(1908),	-- Posting Reinforcements
+				mi(1907),	-- Ancient Defenses
+				mi(1902),	-- Stardust Spire Counterattack
+				mi(1901),	-- Darkshore Drilling
+				mi(1900),	-- Deeps Scouting
+				mi(1893),	-- Out of Our Depth
+				mi(1892),	-- Shreds of Warsong
+				mi(1887),	-- Ashenvale Pass
+				mi(1882),	-- Teldrassil Evacuation
+				mi(1866),	-- Siege of Astranaar
+				mi(1858),	-- Bilgewater Sabotage
+				mi(1915),	-- Southshore Sabotage
+				mi(1914),	-- Deep Elem Mine
+				mi(1912),	-- Silverpine Reinforcements
+				mi(1911),	-- Hillsbrad Mine
+				mi(1909),	-- Exorcising Dun Garok
+				mi(1904),	-- Dancing with the Dark Rangers
+				mi(1903),	-- Dalaran Ritual
+				mi(1895),	-- Destroying the Keep
+				mi(1894),	-- Damming Them All
+				mi(1889),	-- Alterac Scouting
+				mi(1888),	-- Shadowfang Plague
+				mi(1884),	-- Undead Rising
+				mi(1883),	-- Lordamere Lake
 			},
 		})),
 	}),
