@@ -113,9 +113,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				exploration(454),	-- Wildbend River
 				-- #endif
 			}),
-			prof(FISHING, {
-				i(12238),	-- Darkshore Grouper
-			}),
 			n(FLIGHT_PATHS, {
 				fp(339, {	-- Grove of the Ancients, Darkshore
 					["cr"] = 33253,	-- Delanea <Flight Master>
@@ -135,6 +132,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			}),
 			n(PROFESSIONS, {
 				prof(FISHING, {
+					i(12238),	-- Darkshore Grouper
 					o(180682, {	-- Oily Blackmouth School
 						["maps"]= {
 							DARKSHORE,
