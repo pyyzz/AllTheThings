@@ -369,6 +369,105 @@ AddEventFunc("QUEST_DETAIL", OnQUEST_DETAIL)
 AddEventFunc("QUEST_PROGRESS", OnQUEST_DETAIL)
 AddEventFunc("QUEST_COMPLETE", OnQUEST_DETAIL)
 
+-- PLAYER_SOFT_INTERACT_CHANGED
+local LastSoftInteract = {}
+-- Allows automatically tracking nearby ObjectID's and running check functions on them for data verification
+local function OnPLAYER_SOFT_INTERACT_CHANGED(previousGuid, newGuid)
+	-- app.PrintDebug("PLAYER_SOFT_INTERACT_CHANGED",previousGuid,newGuid)
+
+	-- previousGuid == newGuid when the player distance becomes close enough or far enough to change interaction cursor
+	if not newGuid or previousGuid ~= newGuid then
+		LastSoftInteract.GuidType = nil
+		LastSoftInteract.ID = nil
+		return
+	end
+
+	local id, guidtype, _
+	guidtype, _, _, _, _, id = ("-"):split(newGuid)
+	id = tonumber(id)
+	LastSoftInteract.GuidType = guidtype
+	LastSoftInteract.ID = id
+	-- app.PrintDebug(guidtype,id)
+
+	-- only check object soft-interact (for now)
+	if guidtype ~= "GameObject" then return end
+
+	local objRef = app.SearchForObject("objectID", id, "field")
+	-- only check sourced objects
+	if not objRef then return end
+	-- app.PrintDebug("GameObject",app:SearchLink(objRef))
+
+	-- check sourced object coords
+	if not IgnoredChecksByType[guidtype].coord() then
+		if not Check_coords(objRef, objRef[objRef.key], 0) then
+			AddReportData(objRef.__type,id,{
+				ID = id,
+				MissingCoords = ("No Coordinates for this %s!"):format(objRef.__type),
+			})
+		end
+	end
+end
+AddEventFunc("PLAYER_SOFT_INTERACT_CHANGED", OnPLAYER_SOFT_INTERACT_CHANGED)
+
+-- UNIT_SPELLCAST_START
+-- Allows handling some special logic in special cases for special spell casts
+local SpellIDHandlers = {
+	-- Opening (on Objects)
+	[6478] = function(source)
+		if source ~= "player" then return end
+
+		-- Verify 'Opening' cast, report ObjectID if not Sourced
+		local id = LastSoftInteract.ID
+		-- likely not possible
+		if not id then return end
+
+		local objRef = app.SearchForObject("objectID", id, "field")
+		-- if it's Sourced, we've already checked it via PLAYER_SOFT_INTERACT_CHANGED
+		if objRef then return end
+
+		objRef = app.CreateObject(id)
+		AddReportData(objRef.__type,id,{
+			ID = id,
+			NotSourced = "Openable Object not Sourced!",
+		})
+	end
+}
+local RegisteredUNIT_SPELLCAST_START
+local function OnUNIT_SPELLCAST_START(...)
+	-- app.PrintDebug("UNIT_SPELLCAST_START",...)
+	local source, _, id = ...
+	local spellHandler = SpellIDHandlers[id]
+	if not spellHandler then return end
+
+	spellHandler(source)
+end
+local function UnregisterUNIT_SPELLCAST_START()
+	-- app.PrintDebug("Unregister.UNIT_SPELLCAST_START")
+	app:UnregisterEvent("UNIT_SPELLCAST_START")
+	RegisteredUNIT_SPELLCAST_START = nil
+end
+local function RegisterUNIT_SPELLCAST_START()
+	if RegisteredUNIT_SPELLCAST_START then return end
+	RegisteredUNIT_SPELLCAST_START = true
+	-- app.PrintDebug("Register.UNIT_SPELLCAST_START")
+	app:RegisterFuncEvent("UNIT_SPELLCAST_START",OnUNIT_SPELLCAST_START)
+	app.CallbackHandlers.DelayedCallback(UnregisterUNIT_SPELLCAST_START, 0.5)
+end
+
+-- PLAYER_SOFT_TARGET_INTERACTION
+-- Allows handling when the player succeeds in interacting with a soft-interact
+-- This happens when the player presses the keybind while a soft-interact is active, but not necessarily when it's within range
+local function OnPLAYER_SOFT_TARGET_INTERACTION()
+	-- app.PrintDebug("PLAYER_SOFT_TARGET_INTERACTION",LastSoftInteract.GuidType,LastSoftInteract.ID)
+
+	-- currently only track interacts on objects
+	if LastSoftInteract.GuidType ~= "GameObject" then return end
+
+	-- If the player attempts to interact, hook for spell cast start event
+	RegisterUNIT_SPELLCAST_START()
+end
+AddEventFunc("PLAYER_SOFT_TARGET_INTERACTION", OnPLAYER_SOFT_TARGET_INTERACTION)
+
 -- Contribution setup
 local function Contribute(contrib)
 	app.Contributor = contrib == 1 and true or nil
