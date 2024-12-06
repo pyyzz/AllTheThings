@@ -120,14 +120,14 @@ local function Check_coords(objRef, id, maxCoordDistance)
 			-- round to the tenth
 			closest = round(closest, 1)
 			AddReportData(objRef.__type,id,{
-				questID = id,
+				[objRef.key or "ID"] = id,
 				WrongCoords = "Closest Coordinates are off by: "..tostring(closest).." on mapID: "..mapID,
 			})
 			check = 1
 		end
 	else
 		AddReportData(objRef.__type,id,{
-			questID = id,
+			[objRef.key or "ID"] = id,
 			MissingMap = "No Coordinates on current Map!",
 		})
 		check = 1
@@ -268,7 +268,7 @@ local ProviderTypeChecks = {
 		end
 		if not found then
 			AddReportData(objRef.__type,objID, {
-				questID = objID,
+				[objRef.key or "ID"] = objID,
 				QuestGiver = "Missing Quest Giver: "..providerID..", -- "..(app.NPCNameFromID[providerID] or UNKNOWN),
 			})
 		end
@@ -276,7 +276,7 @@ local ProviderTypeChecks = {
 	o = function(objID, objRef, providers, providerID)
 		if not providers then
 			AddReportData(objRef.__type,objID, {
-				questID = objID,
+				[objRef.key or "ID"] = objID,
 				QuestGiver = "Missing Object Provider: "..providerID..", -- "..(app.ObjectNames[providerID] or UNKNOWN),
 			})
 			return
@@ -287,7 +287,7 @@ local ProviderTypeChecks = {
 		end
 		if not found then
 			AddReportData(objRef.__type,objID, {
-				questID = objID,
+				[objRef.key or "ID"] = objID,
 				QuestGiver = "Missing Object Provider: "..providerID..", -- "..(app.ObjectNames[providerID] or UNKNOWN),
 			})
 		end
@@ -346,13 +346,13 @@ local function OnQUEST_DETAIL(...)
 			if questParent and questParent.__type == "NPC" then
 				if not Check_coords(questParent, questParent[questParent.key]) then
 					AddReportData(objRef.__type,questID,{
-						questID = questID,
+						[objRef.key or "ID"] = questID,
 						MissingCoords = "No Coordinates for this quest under NPC!",
 					})
 				end
 			else
 				AddReportData(objRef.__type,questID,{
-					questID = questID,
+					[objRef.key or "ID"] = questID,
 					MissingCoords = "No Coordinates for this quest!",
 				})
 			end
@@ -402,7 +402,7 @@ local function OnPLAYER_SOFT_INTERACT_CHANGED(previousGuid, newGuid)
 		-- object auto-detect can happen from rather far, so using 2 distance
 		if not Check_coords(objRef, objRef[objRef.key], 2) then
 			AddReportData(objRef.__type,id,{
-				ID = id,
+				[objRef.key or "ID"] = id,
 				MissingCoords = ("No Coordinates for this %s!"):format(objRef.__type),
 			})
 		end
@@ -428,11 +428,14 @@ local SpellIDHandlers = {
 
 		objRef = app.CreateObject(id)
 		AddReportData(objRef.__type,id,{
-			ID = id,
+			[objRef.key or "ID"] = id,
 			NotSourced = "Openable Object not Sourced!",
 		})
 	end
 }
+-- Other 'Opening' spells
+SpellIDHandlers[3365] = SpellIDHandlers[6478]
+
 local RegisteredUNIT_SPELLCAST_START
 local function OnUNIT_SPELLCAST_START(...)
 	-- app.PrintDebug("UNIT_SPELLCAST_START",...)
