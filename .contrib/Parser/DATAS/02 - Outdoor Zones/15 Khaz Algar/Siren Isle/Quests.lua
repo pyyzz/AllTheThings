@@ -558,7 +558,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				--q(),	-- Muddy Snapdragon Treat
 				--q(),	-- Royal Snapdragon Treat
 				q(86380),	-- Sandy Snapdragon Treat
-				--q(),	-- Storminfused Snapdragon Treat
+				q(86377),	-- Storminfused Snapdragon Treat
 				--
 				--Probably won't be on live:
 				--plate stuff didn't trigger questIDs on druid:

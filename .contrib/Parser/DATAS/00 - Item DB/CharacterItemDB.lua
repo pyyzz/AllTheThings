@@ -691,5 +691,5 @@ iq(233497, 86383);	-- Kaja'Cola-braised Snapdragon Treat
 --iq(233494, 86381);	-- Muddy Snapdragon Treat
 --iq(233499, 86385);	-- Royal Snapdragon Treat
 iq(233501, 86387);	-- Sandy Snapdragon Treat
---iq(233498, 86384);	-- Storminfused Snapdragon Treat
+iq(233498, 86384);	-- Storminfused Snapdragon Treat
 iq(233493, 86373);	-- Teal Snapdragon Treat

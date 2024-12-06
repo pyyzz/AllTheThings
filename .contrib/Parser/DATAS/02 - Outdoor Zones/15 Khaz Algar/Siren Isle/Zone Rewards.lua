@@ -19,6 +19,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			--
 			i(232372, {	-- Crate of Bygone Riches
 				i(233915),	-- Plated Sea Boots (COSMETIC!)
+				i(233827),	-- Bilge Rat Meat Tenderizer (COSMETIC!)
 			}),
 			n(228099, {	-- Blinky Greasefingers
 				["description"] = "Click on dialog option that pop, after you learn Snapdragom mount",

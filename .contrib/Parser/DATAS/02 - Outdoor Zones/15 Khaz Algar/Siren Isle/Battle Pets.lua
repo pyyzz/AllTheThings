@@ -7,8 +7,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			pet(4724),	-- Battleboar Piglet (vrykul?)
 			pet(4703),	-- Cave Kroling
 			pet(4723),	-- Cliffreach Cub
-			--pet(4726),	-- Crackleroar (in-game journal: drop Stormtouched Pridetalon) (itemID 234379?)
-			n(4710),	-- Pillaged Parrot (pirates/vrykul)
+			pet(4710),	-- Pillaged Parrot (pirates/vrykul)
 			--pet(2541),	-- Proper Parrot (in-game journal: drop Pirates) (itemID 166358?)
 			--pet(4709),	-- Rock Hound Mica (in-game journal: unique - probably some secret/special?) (creatureID 234366/itemID 233057/spellID 473127, missing Siren Isle in wago tables)
 			pet(4702),	-- Rusty Kroling

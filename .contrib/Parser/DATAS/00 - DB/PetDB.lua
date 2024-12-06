@@ -4270,6 +4270,7 @@ i(228790, 4617);	-- Thrillbot 9000
 ------------------
 --- ITEM ---
 i(233251, 4426);	-- Bubbles
+i(234379, 4726);	-- Crackleroar
 i(233248, 4425);	-- Glamrok
 i(233252, 4435);	-- Happy
 i(233056, 4708);	-- Marmaduke
@@ -4277,9 +4278,17 @@ i(0, 4695);			-- Parley
 i(232519, 4690);	-- Razeshi B.
 i(234395, 4727);	-- Skitterbite
 i(233247, 4692);	-- Sparklesnap
-
+--- NPC ---
+n(234734, 4724);	-- Battleboar Piglet
+n(234101, 4703);	-- Cave Kroling
+n(234710, 4723);	-- Cliffreach Cub
+n(234367, 4710);	-- Pillaged Parrot
+n(234097, 4702);	-- Rusty Kroling
+n(236041, 4732);	-- Scavenging Snapdragon
+n(234369, 4711);	-- Snapdragon Pup
+n(236040, 4731);	-- Storminfused Snapdragon
+n(230394, 4628);	-- Tidal Kroling
 --- UNSORTED ---
-i(234379, 4726);	-- Crackleroar
 i(234397, 4729);	-- Fullbelly Rollingpaw
 i(232531, 4691);	-- Grunch
 i(232923, 4704);	-- Living Rose
@@ -4289,3 +4298,5 @@ i(233057, 4709);	-- Rock Hound Mica
 i(234396, 4728);	-- Teatuft Tamer
 i(233366, 4719);	-- Wind-Up Woofer
 i(233361, 4718);	-- Wind-Up Wuffi
+--- NYI? ---
+--i(???, 4725);	-- Titan Orb

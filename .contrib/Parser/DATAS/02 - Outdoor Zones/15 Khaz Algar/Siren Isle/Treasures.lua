@@ -6,6 +6,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 		n(TREASURES, {
 			--repeatable local treasure
 			--o(474822),	-- Runed Storm Cache
+			--o(500407),	-- Runed Storm Cache
 			--o(494499),	-- Seafarer's Cache
 			--o(500682),	-- Seafarer's Cache
 			--o(500683),	-- Seafarer's Cache

@@ -71,7 +71,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			}),
 			n(231090, {	-- Snacker
 				["coord"] = { 67.8, 20.7, SIREN_ISLE },
-				["questID"] = 84794,
+				["questID"] = 86933,
 			}),
 			n(229992, {	-- Stalagnarok
 				["description"] = "Available during Shuddering Hollow objective",
@@ -80,7 +80,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			}),
 			n(228151, {	-- Wreckwater
 				["coord"] = { 46.7, 78.4, SIREN_ISLE },
-				--["questID"] = 84794,	-- bugged? share kill questID with Snacker?
+				["questID"] = 84794,
 			}),
 			-- The Forgotten Tomb (non-storm, pirates theme)
 			n(228159, {	-- Gunnlod the Sea-Drinker
@@ -100,11 +100,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			}),
 			n(231353, {	-- Tempest Talon
 				["description"] = "Flying around in area, assigned coords easiest spot to pull it",
-				["coord"] = { 34.3, 57.5, SIREN_ISLE },
+				["coord"] = { 34.3, 57.5, SIREN_ISLE },	-- TODO: re-check coords prior release. They change his route 3 times.
 				["questID"] = 85403,
 			}),
 			n(228547, {	-- Slaughtershell
-				["coord"] = { 73.5, 54.0, SIREN_ISLE },	-- I killed him where he seems to be stuck and he spawned in another place (or have more than one spawn point?)
+				["coord"] = { 73.5, 54.0, SIREN_ISLE },	-- TODO: it have more than one spawn point (?) and different pathways (at least 2)
 				["questID"] = 84798,
 			}),
 			n(231357, {	-- Zek'ul the Shipbreaker
