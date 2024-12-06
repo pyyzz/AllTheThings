@@ -59,7 +59,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				ach(13251, {	-- In Teldrassil's Shadow
 					["timeline"] = { ADDED_8_1_0 },
 					["races"] = ALLIANCE_ONLY,
-					["_noautomation"] = true,
 				}),
 				ach(5453, {	-- Ghost in the Dark
 					["sourceQuest"] = 28529,	-- Writings of the Void

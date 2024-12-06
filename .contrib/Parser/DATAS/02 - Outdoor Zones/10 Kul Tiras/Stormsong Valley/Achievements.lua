@@ -14,9 +14,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["races"] = ALLIANCE_ONLY,
 			}),
 			explorationAch(12558),	-- Explore Stormsong Valley
-			ach(13045, {		-- Every Day I'm Truffling
-				["_noautomation"] = true,
-			}),
+			ach(13045),		-- Every Day I'm Truffling
 			ach(13051),		-- Legends of the Tidesages (automated)
 			ach(13054, {	-- Sabertron Assemble
 				crit(41420, {	-- Red Sabertron slain

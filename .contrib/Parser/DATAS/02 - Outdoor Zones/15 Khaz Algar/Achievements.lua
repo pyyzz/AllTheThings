@@ -228,24 +228,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 		-- #else
 		}),
 		-- #endif
-		petbattle(ach(40153, {	-- Battle on Khaz Algar (automated)
-			crit(67135, {	-- Collector Dyna
-				["_noautomation"] = true,	-- Doesn't nest properly
-				["_quests"] = { 82292 },
-			}),
-			crit(67136, {	-- Friendhaver Grem
-				["_noautomation"] = true,	-- Doesn't nest properly
-				["_quests"] = { 82293 },
-			}),
-			crit(67137, {	-- Kyrie
-				["_noautomation"] = true,	-- Doesn't nest properly
-				["_quests"] = { 82294 },
-			}),
-			crit(67138, {	-- Ziriak
-				["_noautomation"] = true,	-- Doesn't nest properly
-				["_quests"] = { 82295 },
-			}),
-		})),
+		petbattle(ach(40153)),	-- Battle on Khaz Algar (automated)
 		ach(40352, {	-- Khaz Algar Completionist: Bronze
 			-- Meta Achievement
 			["sym"] = {{"meta_achievement",

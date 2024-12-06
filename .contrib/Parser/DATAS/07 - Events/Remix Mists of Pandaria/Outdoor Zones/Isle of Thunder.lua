@@ -6,8 +6,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.REMIX_MOP, n(REMIX_MOP, bubbleDown({ [
 		["icon"] = 136014,
 		["g"] = {
 			n(ACHIEVEMENTS, {
-				-- INFO: Verified 2024-10-04, criteria don't work without achraw
-				achraw(19892, {	-- Campaign: Isle of Thunder
+				ach(19892, {	-- Campaign: Isle of Thunder
 					crit(67270, {	-- Assault the Shipyard
 						["_quests"] = { 32655 },
 					}),
