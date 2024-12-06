@@ -399,7 +399,8 @@ local function OnPLAYER_SOFT_INTERACT_CHANGED(previousGuid, newGuid)
 
 	-- check sourced object coords
 	if not IgnoredChecksByType[guidtype].coord() then
-		if not Check_coords(objRef, objRef[objRef.key], 0) then
+		-- object auto-detect can happen from rather far, so using 2 distance
+		if not Check_coords(objRef, objRef[objRef.key], 2) then
 			AddReportData(objRef.__type,id,{
 				ID = id,
 				MissingCoords = ("No Coordinates for this %s!"):format(objRef.__type),
