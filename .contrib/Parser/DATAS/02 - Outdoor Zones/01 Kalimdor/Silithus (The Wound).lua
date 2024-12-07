@@ -736,8 +736,9 @@ root(ROOTS.Zones, m(KALIMDOR, bubbleDown({ ["timeline"] = { ADDED_7_3_5 } }, {
 							["provider"] = { "n", 136907 },	-- Magni Bronzebeard
 							["coord"] = { 50.1, 53.6, CHAMBER_OF_HEART },
 							["timeline"] = { ADDED_9_0_2_LAUNCH },
-							["lockCriteria"] = { 1, "questID", 51211 },	-- The Heart of Azeroth
+							["lockCriteria"] = { 1, "questID", 56043 },	-- Send the Fleet
 							["DisablePartySync"] = true,
+							["description"] = "This quest becomes available after completing 'A One-Way Ticket to the Heart' and unlocking the three outposts through the War Campaign, and becomes unavailable after setting foot in Nazjatar.",
 						}),
 						q(61871, {	-- To Current Matters (H)
 							["sourceQuests"] = { 54964 },	-- A One-Way Ticket to the Heart
@@ -745,8 +746,9 @@ root(ROOTS.Zones, m(KALIMDOR, bubbleDown({ ["timeline"] = { ADDED_7_3_5 } }, {
 							["provider"] = { "n", 136907 },	-- Magni Bronzebeard
 							["coord"] = { 50.1, 53.6, CHAMBER_OF_HEART },
 							["timeline"] = { ADDED_9_0_2_LAUNCH },
-							["lockCriteria"] = { 1, "questID", 51211 },	-- The Heart of Azeroth
+							["lockCriteria"] = { 1, "questID", 56044 },	-- Send the Fleet
 							["DisablePartySync"] = true,
+							["description"] = "This quest becomes available after completing 'A One-Way Ticket to the Heart' and unlocking the three outposts through the War Campaign, and becomes unavailable after setting foot in Nazjatar.",
 						}),
 						q(56188, {	-- To the Catacombs!
 							["provider"] = { "n", 154874 },	-- Blacktalon Watcher
