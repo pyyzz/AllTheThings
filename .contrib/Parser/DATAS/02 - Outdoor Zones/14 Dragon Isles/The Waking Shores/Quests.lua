@@ -1518,7 +1518,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDown({ ["timeline"
 				q(70777),	-- triggers when 'Tale of the Weakling' completes (spellID 388149)
 				q(72804),	-- Flag Weekly Tracking Quest [DNT] (spellID 397184) [triggers when 'Tale of the Phoenix' completes]
 				q(70218),	-- Dialogue before you can pick up the quest "A Dragon's Day Off"
-				q(64764),	-- triggers after turn in questID 72708 (Dragon Isles Supplies) (spellID 396726)
 
 				-- TODO: how do we sort these types of things going forward? Also, is Skytop an actual quest or should this be a NYI/Never Implemented?
 				q(72178, {	-- Theory in Practice: Baron von Swoopenbite

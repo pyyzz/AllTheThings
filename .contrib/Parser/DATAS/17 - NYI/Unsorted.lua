@@ -1045,7 +1045,6 @@ root(ROOTS.Unsorted, {
 				exploration(15379),	-- Procedural Forum
 				exploration(15143),	-- Processing Unit
 				exploration(14512),	-- RebornTree
-				exploration(15453),	-- Rock Bottom Inn
 				exploration(15169),	-- Shadowvein Power Station
 				exploration(15170),	-- Shadowvein Mine
 				exploration(15375),	-- Silken Court

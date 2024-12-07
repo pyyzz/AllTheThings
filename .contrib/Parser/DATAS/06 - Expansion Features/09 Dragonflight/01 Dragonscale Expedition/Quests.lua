@@ -848,6 +848,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDown({ ["timeline"
 			q(72822),	-- Triggered with 'It Belongs in a Museum... Eventually' (questID 66547) (spellID 397397)
 			-- Quest sequences
 			q(70570),	-- triggered when speaking with Watcher Koranos during 'Speak with Koranos' (66673)
+			q(64764),	-- triggers after turn in questID 72708 (Dragon Isles Supplies) (spellID 396726)
 		}),
 	}),
 })));

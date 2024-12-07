@@ -83,7 +83,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 					["sourceQuests"] = { 79333 },	-- The Fleet Arrives
 					["provider"] = { "n", 216167 },	-- Thrall
 					["races"] = HORDE_ONLY,
-					["coord"] = { 34.7, 94.3, DORNOGAL },
+					["coord"] = { 36.2, 81.5, DORNOGAL },
 					["g"] = {
 						i(223588),	-- Algari Fighting Knife
 						i(223549),	-- Algari Greatsword

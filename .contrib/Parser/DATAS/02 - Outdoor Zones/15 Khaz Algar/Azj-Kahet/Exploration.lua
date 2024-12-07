@@ -23,6 +23,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			exploration(14757),	-- Rak-Ahat
 			exploration(14768),	-- Rak-Ush
 			exploration(14760),	-- Rak-Zakaz
+			visit_exploration(15453,{coord={77.9,62.9,AZJ_KAHET}}),	-- Rock Bottom Inn
 			exploration(14762),	-- Ruptured Lake
 			exploration(15153),	-- Salien Gutters
 			exploration(14756),	-- Siegehold

@@ -616,7 +616,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				}),
 				q(78898, {	-- Intention vs Instinct
 					["sourceQuests"] = { 83321 },	-- Strange Bats
-					["provider"] = { "n", 211652 },	-- Greenspeaker Na'layro
+					["providers"] = {
+						{ "n", 225629 },	-- Greenspeaker Na'layro
+						{ "n", 211652 },	-- Greenspeaker Na'layro
+					},
 					["coord"] = { 42.3, 42.5, AZJ_KAHET },
 					["g"] = {
 						i(211412),	-- Singing Stone (QI!)

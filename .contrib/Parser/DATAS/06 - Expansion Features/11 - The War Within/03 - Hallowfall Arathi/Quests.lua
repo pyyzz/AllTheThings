@@ -94,7 +94,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 			}, {	-- RENOWN 10 --
 				q(82395, {	-- Flame-touched Tabard
 					["provider"] = { "n", 213145 },	-- Auralia Steelstrike <Arathi Quartermaster>
-					["coord"] = { 42.4, 55.0, HALLOWFALL },
+					["coords"] = {
+						{ 42.4, 55.0, HALLOWFALL },
+						{ 41.3, 53.1, HALLOWFALL },
+					},
 					["g"] = {
 						i(218352),	-- Expeditionary Tabard (COSMETIC!)
 					},
