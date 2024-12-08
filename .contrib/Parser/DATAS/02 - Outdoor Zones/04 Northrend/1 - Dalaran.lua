@@ -909,21 +909,21 @@ root(ROOTS.Zones, {
 							applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, n(54653, {	-- Nargle Lashcord <Glorious Conquest Quartermaster>
 								["coord"] = { 58.7, 59.0, NORTHREND_THE_UNDERBELLY },
 								-- #if BEFORE 7.0.1
-								["sym"] = {{"sub", "pvp_gear_base", EXPANSION.CATA, SEASON_CATACLYSMIC, PVP_GLADIATOR },{"merge"},},	-- Cataclysmic Gladiator's Set
+								["sym"] = {{"sub", "pvp_gear_base", EXPANSION.CATA, SEASON_CATACLYSMIC, PVP_GLADIATOR }},	-- Cataclysmic Gladiator's Set
 								-- #endif
 								["timeline"] = { ADDED_4_3_0, REMOVED_7_0_3 },
 							})),
 							applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, n(52541, {	-- Nargle Lashcord <Glorious Conquest Quartermaster>
 								["coord"] = { 58.7, 59.0, NORTHREND_THE_UNDERBELLY },
 								-- #if BEFORE 5.0.1
-								["sym"] = {{"sub", "pvp_gear_base", EXPANSION.CATA, SEASON_RUTHLESS, PVP_GLADIATOR },{"merge"},},	-- Ruthless Gladiator's Set
+								["sym"] = {{"sub", "pvp_gear_base", EXPANSION.CATA, SEASON_RUTHLESS, PVP_GLADIATOR }},	-- Ruthless Gladiator's Set
 								-- #endif
 								["timeline"] = { ADDED_4_2_0, REMOVED_4_3_0 },
 							})),
 							applyclassicphase(CATA_PHASE_ONE, n(40211, {	-- Nargle Lashcord <Glorious Conquest Quartermaster>
 								["coord"] = { 58.7, 59.0, NORTHREND_THE_UNDERBELLY },
 								-- #if BEFORE 5.0.1
-								["sym"] = {{"sub", "pvp_gear_base", EXPANSION.CATA, SEASON_VICIOUS, PVP_GLADIATOR },{"merge"},},	-- Vicious Gladiator's Set
+								["sym"] = {{"sub", "pvp_gear_base", EXPANSION.CATA, SEASON_VICIOUS, PVP_GLADIATOR }},	-- Vicious Gladiator's Set
 								-- #endif
 								["timeline"] = { ADDED_4_0_3, REMOVED_4_2_0 },
 							})),
@@ -1038,21 +1038,21 @@ root(ROOTS.Zones, {
 							}),
 							applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, n(54651, {	-- Zom Bocom <Honor Quartermaster>
 								-- #if BEFORE 5.2.0.16577
-								["sym"] = {{"sub", "pvp_gear_base", EXPANSION.CATA, SEASON_RUTHLESS, PVP_GLADIATOR },{"merge"},},	-- Ruthless Gladiator's Set
+								["sym"] = {{"sub", "pvp_gear_base", EXPANSION.CATA, SEASON_RUTHLESS, PVP_GLADIATOR }},	-- Ruthless Gladiator's Set
 								-- #endif
 								["timeline"] = { ADDED_4_3_0, REMOVED_5_2_0 },
 							})),
 							applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, n(52534, {	-- Zom Bocom <Honor Quartermaster>
 								["coord"] = { 59.1, 59.6, NORTHREND_THE_UNDERBELLY },
 								-- #if BEFORE 5.0.1
-								["sym"] = {{"sub", "pvp_gear_base", EXPANSION.CATA, SEASON_VICIOUS, PVP_GLADIATOR },{"merge"},},	-- Vicious Gladiator's Set
+								["sym"] = {{"sub", "pvp_gear_base", EXPANSION.CATA, SEASON_VICIOUS, PVP_GLADIATOR }},	-- Vicious Gladiator's Set
 								-- #endif
 								["timeline"] = { ADDED_4_2_0, REMOVED_4_3_0 },
 							})),
 							applyclassicphase(CATA_PHASE_ONE, n(40205, {	-- Zom Bocom <Honor Quartermaster>
 								["coord"] = { 59.1, 59.6, NORTHREND_THE_UNDERBELLY },
 								-- #if BEFORE 5.0.1
-								["sym"] = {{"sub", "pvp_gear_base", EXPANSION.CATA, SEASON_VICIOUS, PVP_HONOR },{"merge"},},	-- Bloodthirsty Gladiator's Set
+								["sym"] = {{"sub", "pvp_gear_base", EXPANSION.CATA, SEASON_VICIOUS, PVP_HONOR }},	-- Bloodthirsty Gladiator's Set
 								-- #endif
 								["timeline"] = { ADDED_4_0_3, REMOVED_4_2_0 },
 							})),
