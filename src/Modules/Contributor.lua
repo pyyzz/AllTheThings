@@ -467,10 +467,8 @@ local function OnPLAYER_SOFT_TARGET_INTERACTION()
 
 	-- currently only track interacts on objects
 	if LastSoftInteract.GuidType ~= "GameObject" then return end
-	-- check sourced object coords
-	if not IgnoredChecksByType.GameObject.coord(LastSoftInteract.ID) then
-		return
-	end
+	-- if ignore check on coords, then also ignore for unsourced
+	if IgnoredChecksByType.GameObject.coord(LastSoftInteract.ID) then return end
 
 	-- If the player attempts to interact, hook for spell cast start event
 	RegisterUNIT_SPELLCAST_START()
