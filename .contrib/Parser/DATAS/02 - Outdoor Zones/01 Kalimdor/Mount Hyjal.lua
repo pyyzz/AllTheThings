@@ -145,6 +145,10 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				o(202776, {	-- Mountain Trout School
 					i(22739),	-- Tome of Polymorph: Turtle (CI!)
 				}),
+				i(68050, {	-- Shatterscale Mightfish
+					["provider"] = { "i", 68049 },	-- Heat-Treated Spinning Lure
+					["description"] = "Can be caught by fishing in lava using a special lure.",
+				}),
 			}),
 			n(FLIGHT_PATHS, {
 				fp(616, {	-- Gates of Sothann

@@ -334,6 +334,12 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["races"] = ALLIANCE_ONLY,
 				}),
 			}),
+			prof(FISHING, {
+				i(68050, {	-- Shatterscale Mightfish
+					["provider"] = { "i", 68049 },	-- Heat-Treated Spinning Lure
+					["description"] = "Can be caught by fishing in lava using a special lure.",
+				}),
+			}),
 			n(FLIGHT_PATHS, {
 				fp(659, {	-- Bloodgulch, Twilight Highlands
 					["cr"] = 47156,	-- Bramok Gorewing <Wind Rider Master>

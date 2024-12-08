@@ -537,7 +537,6 @@ root(ROOTS.NeverImplemented, {
 		}),
 		filter(ONE_HANDED_AXES, {
 			-- Load In Game
-			i(68050),	-- Shatterscale Mightfish
 			i(80983),	-- Extravagant Tree Chopper (Never made it to Live, yet into our Appearances Tab)
 			i(117010),	-- Forester's Axe	(Never added in Game)
 			i(164967, {["sourceID"] = 101181 }),	-- Steelforged Axe (CREATURE USE - TIER 2 VISUAL ONLY)
