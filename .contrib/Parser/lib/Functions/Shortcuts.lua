@@ -510,9 +510,15 @@ end
 applyclassicphase = function(phase, data, force)
 	return (force and bubbleDownAndReplace or bubbleDown)({ ["u"] = phase }, data);
 end
+ifclassic = function(classicValue, value)
+	return classicValue;
+end
 -- #else
 applyclassicphase = function(phase, data, force)
 	return data;
+end
+ifclassic = function(classicValue, value)
+	return value;
 end
 -- #endif
 local function ProcessProviderForRetailAsUncollectible(provider)
