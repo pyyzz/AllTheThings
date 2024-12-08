@@ -28,9 +28,10 @@ Do you find yourself completing old content just so that you can get literally e
 - Fanfare music when you learn anything new.
 
 ## Release Schedule
-There are two release types, alpha build and official release. The git version is not a release version, but it is still supported.
+There are two release types, alpha build and official release.
 - Alpha builds will be released at 7:00 UTC every day.
 - Official releases are usually released every Monday.
+The git version is not a release version, but it is still supported.
 
 ## Why do I need this addon?
 - Ability to see what items you are missing from your collection in a more presentable means than Blizzard's UI.
