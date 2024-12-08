@@ -257,48 +257,6 @@ root(ROOTS.Zones, {
 					["timeline"] = { REMOVED_5_0_4 },
 					["races"] = HORDE_ONLY,
 				}),
-				ach(4827, bubbleDownSelf({["timeline"] = { ADDED_4_0_3_LAUNCH } }, {	-- Surveying the Damage
-					-- TODO coord here instead of individual zone files
-					crit(14068, {	-- The Battlescar in Southern Barrens
-						-- ["coord"] = { X, Y, MAP },
-					}),
-					crit(14060, {	-- The Sundering in Stranglethorn
-						-- ["coord"] = { X, Y, MAP },
-					}),
-					crit(1020, {	-- The Scar of the Worldbreaker in Badlands
-						-- ["coord"] = { X, Y, MAP },
-					}),
-					crit(1314, {	-- The Ruins of Auberdine in Darkshore
-						-- ["coord"] = { X, Y, MAP },
-					}),
-					crit(1407, {	-- The Valley of the Watchers in Tanaris
-						-- ["coord"] = { X, Y, MAP },
-					}),
-					crit(14096, {	-- Thunder Peak in Ashenvale
-						-- ["coord"] = { X, Y, MAP },
-					}),
-					crit(14087, {	-- Southfury Watershed in Durotar
-						-- ["coord"] = { X, Y, MAP },
-					}),
-					crit(1373, {	-- Cenarion Wildlands in Desolace
-						-- ["coord"] = { X, Y, MAP },
-					}),
-					crit(1347, {	-- The Shimmering Deep in Thousand Needles
-						-- ["coord"] = { X, Y, MAP },
-					}),
-					crit(14046, {	-- The Greymane Wall in Silverpine
-						-- ["coord"] = { X, Y, MAP },
-					}),
-					crit(14156, {	-- The Raging Chasm in Westfall
-						-- ["coord"] = { X, Y, MAP },
-					}),
-					crit(1174, {	-- The Stonewrought Dam in Loch Modan
-						-- ["coord"] = { X, Y, MAP },
-					}),
-					crit(15114, {	-- Ruins of Southshore in Hillsbrad Foothills
-						-- ["coord"] = { X, Y, MAP },
-					}),
-				})),
 				petbattle(ach(6602, bubbleDownSelf({["timeline"] = { ADDED_5_0_4 } }, {	-- Taming Kalimdor
 					["races"] = HORDE_ONLY,
 					["g"] = {
