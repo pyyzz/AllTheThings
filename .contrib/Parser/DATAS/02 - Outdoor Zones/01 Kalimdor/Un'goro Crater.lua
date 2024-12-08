@@ -2077,7 +2077,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 					["groups"] = {
 						i(45052, {	-- Gruffscale Leggings
-							["timeline"] = { ADDED_3_1_0 },
+							["timeline"] = { ADDED_3_1_0, REMOVED_4_0_3, ADDED_8_0_1 },
 						}),
 					},
 				}),
