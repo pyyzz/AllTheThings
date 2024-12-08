@@ -31,6 +31,7 @@ Do you find yourself completing old content just so that you can get literally e
 There are two release types, alpha build and official release.
 - Alpha builds will be released at 7:00 UTC every day.
 - Official releases are usually released every Monday.
+
 The git version is not a release version, but it is still supported.
 
 ## Why do I need this addon?
