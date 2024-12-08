@@ -1752,7 +1752,7 @@ root(ROOTS.Zones, {
 		})),
 		ach(5548, bubbleDownSelf({["timeline"] = { ADDED_4_0_3_LAUNCH } }, {	-- To All the Squirrels Who Cared for Me
 			-- TODO map/coord here instead of individual zone files - Not all spawn locations added
-			crit(16214, {	-- Alpine Chipmunk (Winterspring, Mount Hyjal, Stonetalon Mountains)
+			crit(ifclassic(16222, 16214), {	-- Alpine Chipmunk (Winterspring, Mount Hyjal, Stonetalon Mountains)
 				["provider"] = { "n", 49779 },	-- Alpine Chipmunk
 				["coord"] = { 50, 17, MOUNT_HYJAL },
 			}),
@@ -1760,47 +1760,47 @@ root(ROOTS.Zones, {
 				["provider"] = { "n", 48630 },	-- Baradin Fox Kit
 				["coord"] = { 44, 26, TOL_BARAD },
 			}),
-			crit(16216, {	-- Grotto Vole (Mount Hyjal)
+			crit(ifclassic(16224, 16216), {	-- Grotto Vole (Mount Hyjal)
 				["provider"] = { "n", 50419 },	-- Grotto Vole
 				["coord"] = { 54, 17, MOUNT_HYJAL },
 			}),
-			crit(16217, {	-- Highlands Turkey (Twilight Highlands)
+			crit(ifclassic(16223, 16217), {	-- Highlands Turkey (Twilight Highlands)
 				["provider"] = { "n", 48706 },	-- Highlands Turkey
 				["coord"] = { 29, 53, TWILIGHT_HIGHLANDS },
 			}),
-			crit(16219, {	-- Mac Frog (Uldum)
+			crit(ifclassic(62981, 16219), {	-- Mac Frog (Uldum)
 				["provider"] = { "n", 50491 },	-- Mac Frog
 				["coord"] = { 55, 34, ULDUM },
 			}),
-			crit(16218, {	-- Oasis Moth (Uldum, Lost City of the Tol'vir)
+			crit(ifclassic(62980, 16218), {	-- Oasis Moth (Uldum, Lost City of the Tol'vir)
 				["provider"] = { "n", 50496 },	-- Oasis Moth
 				["coord"] = { 53, 34, ULDUM },
 			}),
-			crit(16220, {	-- Rattlesnake (Twilight Highlands, Tanaris)
+			crit(ifclassic(62982, 16220), {	-- Rattlesnake (Twilight Highlands, Tanaris)
 				["provider"] = { "n", 48686 },	-- Rattlesnake
 				["coord"] = { 57, 15, TWILIGHT_HIGHLANDS },
 			}),
-			crit(16221, {	-- Rock Viper (Mount Hyjal, Desolace, Silithus)
+			crit(ifclassic(62983, 16221), {	-- Rock Viper (Mount Hyjal, Desolace, Silithus)
 				["provider"] = { "n", 50481 },	-- Rock Viper
 				["coord"] = { 38, 51 , MOUNT_HYJAL },
 			}),
-			crit(16222, {	-- Rockchewer Whelk (Shimmering Expanse)
+			crit(ifclassic(62984, 16222), {	-- Rockchewer Whelk (Shimmering Expanse)
 				["provider"] = { "n", 48848 },	-- Rockchewer Whelk
 				["coord"] = { 54, 41, VASHJIR_SHIMMERING_EXPANSE },
 			}),
-			crit(16223, {	-- Sassy Cat (Tol Barad)
+			crit(ifclassic(62985, 16223), {	-- Sassy Cat (Tol Barad)
 				["provider"] = { "n", 47682 },	-- Sassy Cat
 				["coord"] = { 72, 38, TOL_BARAD_PENINSULA },
 			}),
-			crit(16224, {	-- Sea Cucumber (Shimmering Expanse, Abyssal Depths)
+			crit(ifclassic(62986, 16224), {	-- Sea Cucumber (Shimmering Expanse, Abyssal Depths)
 				["provider"] = { "n", 48802 },	-- Sea Cucumber
 				["coord"] = { 54, 41, VASHJIR_SHIMMERING_EXPANSE },
 			}),
-			crit(16225, {	-- Wharf Rat (Tol Barad Peninsula, The Cape of Stranglethorn
+			crit(ifclassic(62987, 16225), {	-- Wharf Rat (Tol Barad Peninsula, The Cape of Stranglethorn
 				["provider"] = { "n", 47667 },	-- Wharf Rat
 				["coord"] = { 27, 40, TOL_BARAD_PENINSULA },
 			}),
-			crit(16226, {	-- Yellow-Bellied Marmot (Twilight Highlands)
+			crit(ifclassic(62988, 16226), {	-- Yellow-Bellied Marmot (Twilight Highlands)
 				["provider"] = { "n", 48683 },	-- Yellow-Bellied Marmot
 				["coord"] = { 56, 13, TWILIGHT_HIGHLANDS },
 			}),
