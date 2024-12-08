@@ -2355,8 +2355,8 @@ root(ROOTS.Zones, {
 							{"sub", "pvp_gear_base", EXPANSION.TBC, SEASON_GLADIATOR, PVP_GLADIATOR },{"merge"},	-- Gladiator's Set
 							-- #if BEFORE LEGION
 							{ "finalize" },
-							{"sub", "pvp_gear_base", EXPANSION.TBC, SEASON_MERCILESS, PVP_GLADIATOR },	-- Merciless Gladiator's Set
-							{"sub", "pvp_gear_base", EXPANSION.TBC, SEASON_VENGEFUL, PVP_GLADIATOR },	-- Vengeful Gladiator's Set
+							{"sub", "pvp_gear_base", EXPANSION.TBC, SEASON_MERCILESS, PVP_GLADIATOR },{"merge"},	-- Merciless Gladiator's Set
+							{"sub", "pvp_gear_base", EXPANSION.TBC, SEASON_VENGEFUL, PVP_GLADIATOR },{"merge"},	-- Vengeful Gladiator's Set
 							-- #else
 							{ "pop" },
 							-- #endif

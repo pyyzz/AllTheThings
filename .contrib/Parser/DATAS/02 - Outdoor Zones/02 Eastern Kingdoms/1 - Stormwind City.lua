@@ -5892,11 +5892,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { ADDED_2_0_1 },	-- Prior to TBC, was just a Reagent Vendor.
 					["sym"] = {
 						-- #IF ANYCLASSIC
-							{"sub", "pvp_gear_base", EXPANSION.CLASSIC, FACTION_HEADER_ALLIANCE, WEAPONS },	-- Grand Marshal Weapons
+						{"sub", "pvp_gear_base", EXPANSION.CLASSIC, FACTION_HEADER_ALLIANCE, WEAPONS }, {"merge"},	-- Grand Marshal Weapons
 						-- #ELSE
-							{"select","expansionID",EXPANSION.CLASSIC},
-							{"find","headerID",FACTION_HEADER_ALLIANCE},
-							{"find","headerID",WEAPONS},	-- Grand Marshal Weapons
+						{"select","expansionID",EXPANSION.CLASSIC},
+						{"find","headerID",FACTION_HEADER_ALLIANCE},
+						{"find","headerID",WEAPONS},	-- Grand Marshal Weapons
 						-- #ENDIF
 						{"pop"},
 					},
@@ -6681,10 +6681,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["timeline"] = { ADDED_2_0_1 },	-- Prior to TBC, was just a Food Vendor.
 					["sym"] = {	-- Grand Marshal Armor
 						-- #IF ANYCLASSIC
-							{"sub", "pvp_gear_base", EXPANSION.CLASSIC, FACTION_HEADER_ALLIANCE },
+						{"sub", "pvp_gear_base", EXPANSION.CLASSIC, FACTION_HEADER_ALLIANCE }, {"merge"},
 						-- #ELSE
-							{"select","expansionID",EXPANSION.CLASSIC},
-							{"find","headerID",FACTION_HEADER_ALLIANCE},
+						{"select","expansionID",EXPANSION.CLASSIC},
+						{"find","headerID",FACTION_HEADER_ALLIANCE},
 						-- #ENDIF
 						{ "pop" },
 						{ "exclude", "headerID", WEAPONS },
