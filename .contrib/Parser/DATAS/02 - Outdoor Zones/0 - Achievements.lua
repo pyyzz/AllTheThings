@@ -1391,6 +1391,28 @@ root(ROOTS.Zones, {
 				i(43300),	-- Loremaster's Colors
 			},
 		})),
+		ach(5518, bubbleDownSelf({["timeline"] = { ADDED_4_0_3_LAUNCH } }, {	-- Stood in the Fire
+			-- #IF AFTER MOP
+			["description"] = "Achievement can be completed in Dragon Soul.",
+			-- #ENDIF
+			["maps"] = {
+				-- #IF BEFORE MOP
+				MOUNT_HYJAL,
+				ULDUM,
+				TWILIGHT_HIGHLANDS,
+				-- Not sure Deathwing ever flew through Vashjir zones... not much land there
+				-- #ELSE
+				-- Dragon Soul Maps
+				409,
+				412,	-- Dragon Soul: Eye of Eternity
+				415,	-- Dragon Soul: The Maelstrom
+				410,
+				411,
+				413,
+				414,
+				-- #ENDIF
+			},
+		})),
 		ach(7520, {		-- The Loremaster
 			["sym"] = {{"meta_achievement",
 				1676,	-- Loremaster of Eastern Kingdoms

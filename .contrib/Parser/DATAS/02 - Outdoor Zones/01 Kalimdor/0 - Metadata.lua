@@ -257,27 +257,6 @@ root(ROOTS.Zones, {
 					["timeline"] = { REMOVED_5_0_4 },
 					["races"] = HORDE_ONLY,
 				}),
-				ach(5518, bubbleDownSelf({["timeline"] = { ADDED_4_0_3_LAUNCH } }, {	-- Stood in the Fire
-					-- #IF AFTER MOP
-					["description"] = "Achievement can be completed in Dragon Soul.",
-					-- #ENDIF
-					["maps"] = {
-						-- #IF BEFORE MOP
-						MOUNT_HYJAL,
-						ULDUM,
-						TWILIGHT_HIGHLANDS,
-						-- Not sure Deathwing ever flew through Vashjir zones... not much land there
-						-- #ENDIF
-						-- Dragon Soul Maps
-						409,
-						412,	-- Dragon Soul: Eye of Eternity
-						415,	-- Dragon Soul: The Maelstrom
-						410,
-						411,
-						413,
-						414,
-					},
-				})),
 				ach(4827, bubbleDownSelf({["timeline"] = { ADDED_4_0_3_LAUNCH } }, {	-- Surveying the Damage
 					-- TODO coord here instead of individual zone files
 					crit(14068, {	-- The Battlescar in Southern Barrens
