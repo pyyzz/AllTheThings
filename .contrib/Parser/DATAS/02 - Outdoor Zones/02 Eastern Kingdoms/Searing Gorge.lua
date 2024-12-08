@@ -277,7 +277,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				exploration(1959),	-- Dustfire Valley
 				exploration(1442),	-- Firewatch Ridge
 				exploration(247),	-- Grimesilt Dig Site
+				-- #if AFTER CATA
 				visit_exploration(5615,{coord={44.4,41.0,SEARING_GORGE}}),	-- Pyrox Flats
+				-- #endif
 				-- #if BEFORE CATA
 				exploration(1958),	-- Tanner Camp
 				-- #endif
