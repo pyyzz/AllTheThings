@@ -2000,9 +2000,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						i(132568, {	-- Shadowfang Pauldrons
 							["timeline"] = { ADDED_7_0_3 },
 						}),
-						-- #if AFTER 4.0.3
-						i(5943),	-- Rift Bracers
-						-- #endif
+						i(5943, {	-- Rift Bracers
+							["timeline"] = { ADDED_7_1_5 },
+						}),
 						i(132567, {	-- Blindwatcher's Chain
 							["timeline"] = { ADDED_7_0_3 },
 						}),
@@ -2100,11 +2100,11 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				}),
 				n(4627, {	-- Arugal's Voidwalker
 					["timeline"] = { REMOVED_4_0_3 },
-					-- #if BEFORE 4.0.3
 					["groups"] = {
-						i(5943),	-- Rift Bracers
+						i(5943, {	-- Rift Bracers
+							["timeline"] = { REMOVED_4_0_3 },
+						}),
 					},
-					-- #endif
 				}),
 				n(3927, {	-- Wolf Master Nandos
 					["timeline"] = { REMOVED_4_0_3 },
