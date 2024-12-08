@@ -634,7 +634,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					i(16867),	-- Legplates of Might (Warrior)
 					i(16822),	-- Nightslayer Pants (Rogue)
 					i(16814, {	-- Pants of Prophecy (Priest)
-						-- #if after 4.4.0
+						-- #if after 7.3.5
 						["description"] = "For Blizzard to consider the Tier 1 Priest set as collected in the Transmog Preview, you need to loot these exact pants.",
 						-- #endif
 					}),
