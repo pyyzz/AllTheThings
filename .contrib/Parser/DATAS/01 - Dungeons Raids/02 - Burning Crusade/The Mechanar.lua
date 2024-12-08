@@ -99,7 +99,6 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 			}),
 			o(184465, bubbleDownSelf({ 
 				-- #if ANYCLASSIC
-				["description"] = "Blizzard broke the cache of the legion with Cataclysm Classic by removing the keys and not adding the automatic unlock from killing the mini bosses.",
 				["timeline"] = { REMOVED_4_0_3 },
 				["isBounty"] = true,
 				-- #endif
@@ -107,6 +106,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 				["modelScale"] = 1.6,
 				-- #if BEFORE 4.3.0.14942
 				["cost"] = {{ "i", 30438, 1 }},	-- Cache of the Legion Key
+				-- #endif
+				-- #if ANYCLASSIC
+				["sharedDescription"] = "Blizzard broke the cache of the legion with Cataclysm Classic by removing the keys and not adding the automatic unlock from killing the mini bosses.",
 				-- #endif
 				["groups"] = {
 					i(28252),	-- Bloodfyre Robes of Annihilation
