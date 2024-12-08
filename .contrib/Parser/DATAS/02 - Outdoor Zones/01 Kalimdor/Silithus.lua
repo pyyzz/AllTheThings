@@ -3019,7 +3019,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				})),
 				i(20408, {	-- Twilight Cultist Cowl
 					-- #if BEFORE 10.0.5
-					["ignoreSource"] = true,
+					-- #if AFTER 4.0.3
+					["description"] = "In order to collect this, you'll need to bind it to you such as by using an enchant / armor kit on a Cloth user and then relog.",
+					-- #endif
 					-- #endif
 					["timeline"] = { REMOVED_7_1_5 },
 					["crs"] = {
@@ -3036,7 +3038,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				i(20406, {	-- Twilight Cultist Mantle
 					-- #if BEFORE 10.0.5
-					["ignoreSource"] = true,
+					-- #if AFTER 4.0.3
+					["description"] = "In order to collect this, you'll need to bind it to you such as by using an enchant / armor kit on a Cloth user and then relog.",
+					-- #endif
 					-- #endif
 					["timeline"] = { REMOVED_7_1_5 },
 					["crs"] = {
@@ -3053,7 +3057,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 				}),
 				i(20407, {	-- Twilight Cultist Robe
 					-- #if BEFORE 10.0.5
-					["ignoreSource"] = true,
+					-- #if AFTER 4.0.3
+					["description"] = "In order to collect this, you'll need to bind it to you such as by using an enchant / armor kit on a Cloth user and then relog.",
+					-- #endif
 					-- #endif
 					["timeline"] = { REMOVED_7_1_5 },
 					["crs"] = {
