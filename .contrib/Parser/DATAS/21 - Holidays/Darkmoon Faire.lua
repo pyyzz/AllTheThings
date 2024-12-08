@@ -2133,7 +2133,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					}),
 				},
 			})),
-			pvp(q(29761, {	-- Master Pit Fighter
+			applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, pvp(q(29761, {	-- Master Pit Fighter
 				["qg"] = 55402,	-- Korgol Crushskull
 				["sourceQuest"] = 29760,	-- Pit Fighter
 				["coord"] = { 47.3, 78.9, DARKMOON_ISLAND },
@@ -2147,7 +2147,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 						["timeline"] = { ADDED_4_3_0 },
 					}),
 				},
-			})),
+			}))),
 			q(7897, {	-- Mechanical Repair Kits [Tier 4]
 				["qg"] = 14841,  -- Rinling
 				-- #if AFTER 4.3.0
@@ -2280,7 +2280,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					TATTERED_DARKMOON_PRIZE_TICKET,
 				},
 			}),
-			pvp(q(29760, {	-- Pit Fighter
+			applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, pvp(q(29760, {	-- Pit Fighter
 				["providers"] = {
 					{ "i", 74034 },	-- Pit Fighter
 					{ "n", 55402 },	-- Korgol Crushskull
@@ -2292,7 +2292,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 						["timeline"] = { ADDED_4_3_0 },
 					}),
 				},
-			})),
+			}))),
 			q(29512, {	-- Putting the Carnies Back Together Again
 				["qg"] = 14833,  -- Chronos <He Who Never Forgets!>
 				["coord"] = { 55.0, 71.6, DARKMOON_ISLAND },
@@ -3199,7 +3199,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 			}),
 		}),
 		-- #if AFTER 4.3.0.14732
-		pvp(n(PVP, {
+		applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, pvp(n(PVP, {
 			o(209620, {	-- Darkmoon Treasure Chest
 				["coord"] = { 44.6, 78.9, DARKMOON_ISLAND },	-- Chest
 				-- Danny Donkey: The earliest report of the trinket being shareable is from 9.1.5.
@@ -3217,7 +3217,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.DARKMOON_FAIRE, n(DARKMOON_FAIRE_HEADER, 
 					}),
 				},
 			}),
-		})),
+		}))),
 		-- #endif
 		-- #if AFTER 5.0.1.15799
 		n(RARES, {
