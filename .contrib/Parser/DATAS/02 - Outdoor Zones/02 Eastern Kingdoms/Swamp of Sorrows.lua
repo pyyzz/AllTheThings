@@ -1721,22 +1721,24 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				n(14448, {	-- Molt Thorn
-					-- #if AFTER CATA
 					["coords"] = {
+						-- #if AFTER CATA
 						{ 48.2, 40.8, SWAMP_OF_SORROWS },
 						{ 50.2, 41.6, SWAMP_OF_SORROWS },
-					},
-					["groups"] = {
-						i(5608),	-- Living Cowl
-					},
-					-- #else
-					["coords"] = {
+						-- #else
 						{ 42.0, 33.6, SWAMP_OF_SORROWS },
 						{ 32.4, 32.4, SWAMP_OF_SORROWS },
 						{ 22.8, 46.0, SWAMP_OF_SORROWS },
 						{ 26.2, 51.6, SWAMP_OF_SORROWS },
 						{ 30.8, 49.6, SWAMP_OF_SORROWS },
 						{ 35.4, 44.0, SWAMP_OF_SORROWS },
+						-- #endif
+					},
+					-- #if AFTER CATA
+					["groups"] = {
+						i(5608, {	-- Living Cowl
+							["timeline"] = { REMOVED_4_0_3, ADDED_8_0_1 },
+						}),
 					},
 					-- #endif
 				}),
@@ -1899,6 +1901,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						14448,	-- Molt Thorn
 						766,	-- Tangled Horror
 					},
+					["timeline"] = { REMOVED_4_0_3, ADDED_8_0_1 },
 				}),
 				-- #endif
 				i(6172, {	-- Lost Supplies
