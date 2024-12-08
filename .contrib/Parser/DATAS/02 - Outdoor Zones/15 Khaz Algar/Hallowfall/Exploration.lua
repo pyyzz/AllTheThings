@@ -31,6 +31,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			visit_exploration(15114,{coord={66.1,32.6,HALLOWFALL}}),	-- Shadowgrove Vineyards
 			exploration(15032),	-- Shadowmire
 			exploration(15097),	-- Sina's Yearning
+			visit_exploration(14919,{coord={58.6,61.1,HALLOWFALL}}),	-- Stagnant Mire
 			visit_exploration(14852,{coord={66.4,23.4,HALLOWFALL}}),	-- Stillstone Pond
 			visit_exploration(15035,{coord={56.4,25.5,HALLOWFALL}}),	-- Sunless Strand
 			exploration(14930),	-- Tenir's Ascent

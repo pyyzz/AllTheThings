@@ -675,6 +675,106 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						["coord"] = { 66.1, 17.9, HALLOWFALL },
 						["questID"] = 80345,
 					}),
+					o(457303, {	-- Radiant Remnant
+						["coord"] = { 63.8, 28.6, HALLOWFALL },
+						["questID"] = 84344,
+					}),
+					o(454541, {	-- Radiant Remnant
+						["coord"] = { 64.4, 30.2, HALLOWFALL },
+						["questID"] = 83517,
+					}),
+					o(434566, {	-- Radiant Remnant
+						["coord"] = { 64.4, 29.0, HALLOWFALL },
+						["questID"] = 80554,
+					}),
+					o(434925, {	-- Radiant Remnant
+						["coord"] = { 66.0, 32.4, HALLOWFALL },
+						["questID"] = 80582,
+					}),
+					o(434565, {	-- Radiant Remnant
+						["coord"] = { 65.7, 29.7, HALLOWFALL },
+						["questID"] = 80553,
+					}),
+					o(434928, {	-- Radiant Remnant
+						["coord"] = { 64.1, 30.6, HALLOWFALL },
+						["questID"] = 80585,
+					}),
+					o(434932, {	-- Radiant Remnant
+						["coord"] = { 63.1, 30.1, HALLOWFALL },
+						["questID"] = 80589,
+					}),
+					o(451990, {	-- Radiant Remnant
+						["coord"] = { 63.2, 27.4, HALLOWFALL },
+						["questID"] = 82997,
+					}),
+					o(434286, {	-- Radiant Remnant
+						["coord"] = { 66.0, 25.2, HALLOWFALL },
+						["questID"] = 80337,
+					}),
+					o(434281, {	-- Radiant Remnant
+						["coord"] = { 67.5, 25.5, HALLOWFALL },
+						["questID"] = 80527,
+					}),
+					o(434289, {	-- Radiant Remnant
+						["coord"] = { 66.9, 23.1, HALLOWFALL },
+						["questID"] = 80535,
+					}),
+					o(434284, {	-- Radiant Remnant
+						["coord"] = { 65.5, 23.4, HALLOWFALL },
+						["questID"] = 80530,
+					}),
+					o(430344, {	-- Radiant Remnant
+						["coord"] = { 65.7, 20.4, HALLOWFALL },
+						["questID"] = 80346,
+					}),
+					o(434567, {	-- Radiant Remnant
+						["coord"] = { 64.9, 26.3, HALLOWFALL },
+						["questID"] = 80555,
+					}),
+					o(434568, {	-- Radiant Remnant
+						["coord"] = { 64.4, 26.5, HALLOWFALL },
+						["questID"] = 80556,
+					}),
+					o(434560, {	-- Radiant Remnant
+						["coord"] = { 65.5, 28.3, HALLOWFALL },
+						["questID"] = 80549,
+					}),
+					o(454542, {	-- Radiant Remnant
+						["coord"] = { 64.4, 28.2, HALLOWFALL },
+						["questID"] = 83518,
+					}),
+					o(434563, {	-- Radiant Remnant
+						["coord"] = { 64.5, 26.8, HALLOWFALL },
+						["questID"] = 80551,
+					}),
+					o(434288, {	-- Radiant Remnant
+						["coord"] = { 64.3, 24.9, HALLOWFALL },
+						["questID"] = 80534,
+					}),
+					o(434283, {	-- Radiant Remnant
+						["coord"] = { 64.0, 24.4, HALLOWFALL },
+						["questID"] = 80529,
+					}),
+					o(434930, {	-- Radiant Remnant
+						["coord"] = { 62.6, 32.6, HALLOWFALL },
+						["questID"] = 80587,
+					}),
+					o(430284, {	-- Radiant Remnant
+						["coord"] = { 63.6, 20.9, HALLOWFALL },
+						["questID"] = 80338,
+					}),
+					o(430358, {	-- Radiant Remnant
+						["coord"] = { 63.6, 18.7, HALLOWFALL },
+						["questID"] = 80348,
+					}),
+					o(430345, {	-- Radiant Remnant
+						["coord"] = { 65.7, 16.5, HALLOWFALL },
+						["questID"] = 80347,
+					}),
+					o(434927, {	-- Radiant Remnant
+						["coord"] = { 63.8, 31.0, HALLOWFALL },
+						["questID"] = 80584,
+					}),
 					-- o(OBJECT, {	-- Radiant Remnant (someone get the ObjectID, I forgot debugger on)
 					-- 	["coord"] = { 70.7, 31.0, HALLOWFALL },
 					-- 	["questID"] = 83367,
@@ -949,36 +1049,51 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			}),
 			-- Hidden stuff in area, that require different light buffs
 			-- isDaily
-			q(83211),	-- Herb @ 67.1, 23.3
-			q(83208),	-- Herb @ 66.3, 23.6
-			q(83223),	-- Herb @ 62.1, 13.0
+			--
+			q(81800),	-- Herb @ 65.3, 29.4
+			q(81809),	-- Herb @ 65.0, 25.8
+			q(81814),	-- Herb @ ?, ?
+			q(81821),	-- Herb @ 65.0, 26.1
+			q(81840),	-- Herb @ 62.8, 20.4
+			q(81842),	-- Herb @ 61.6, 32.6
 			q(81843),	-- Herb @ 63.5, 19.6
+			q(81844),	-- Herb @ 65.6, 28.3
+			q(83208),	-- Herb @ 66.3, 23.6
+			q(83209),	-- Herb @ 64.3, 23.9
+			q(83211),	-- Herb @ 67.1, 23.3
+			q(83212),	-- Herb @ 67.1, 26.7
+			q(83213),	-- Herb @ 67.2, 27.4
+			q(83215),	-- Herb @ 67.4, 29.0
+			q(83216),	-- Herb @ 66.3, 25.0
+			q(83210),	-- Herb @ 65.0, 24.4
 			q(83222),	-- Herb @ 61.5, 16.5
-			q(83033),	-- Ore @ 67.6, 23.8
-			q(81847),	-- Ore @ 66.3, 14.9
+			q(83223),	-- Herb @ 62.1, 13.0
+			q(83226),	-- Herb @ ?, ?
+			q(83228),	-- Herb @ 62.0, 32.3
+			q(83230),	-- Herb @ 65.8, 27.7
+			q(83231),	-- Herb @ ?, ?
+			q(83232),	-- Herb @ ?, ?
+			q(83233),	-- Herb @ 62.2, 33.0
+			q(83234),	-- Herb @ 62.1, 33.6
+			q(83523),	-- Herb @ 65.4, 30.2
+			--
 			q(81846),	-- Ore @ 65.3, 16.6
-			q(83047),	-- Ore @ 66.1, 17.0
-			q(83039),	-- Ore @ 66.3, 17.5
+			q(81847),	-- Ore @ 66.3, 14.9
 			q(81848),	-- Ore @ 66.4, 23.4
+			q(83033),	-- Ore @ 67.6, 23.8
+			q(83039),	-- Ore @ 66.3, 17.5
 			q(83041),	-- Ore @ 64.9, 27.5
-			q(80337),	-- Radiant Remnant @ 66.1, 16.6
-			q(80347),	-- Radiant Remnant @ 65.7, 16.5
-			q(80535),	-- Radiant Remnant @ 66.8, 23.1
-			q(80338),	-- Radiant Remnant @ 63.6, 20.8
-			q(80554),	-- Radiant Remnant @ 66.4, 28.8	need objectid
-			q(80556),	-- Radiant Remnant @ 63.7, 26.3 need objectid
+			q(83047),	-- Ore @ 66.1, 17.0
+			--q(),	-- Ore @ 65.2, 31.5
+			--q(),	-- Ore @ 64.0, 30.0
+			--q(),	-- Ore @ 62.6, 30.3
+			--q(),	-- Ore @ 68.8, 26.9
+			--q(),	-- Ore @ 65.4, 23.3
+			--q(),	-- Ore @ 67.1, 22.1
+			--q(),	-- Ore @ 62.2, 30.9
+			--q(),	-- Ore @ 62.8, 20.4
 			q(80531),	-- Radiant Remnant @ 67.2, 26.6 need objectid
-			q(80587),	-- Radiant Remnant @ 62.4, 32.6	need objectid
-			q(83518),	-- Radiant Remnant @ 64.3, 28.2	need objectid
-			q(80553),	-- Radiant Remnant @ 65.5, 29.6	need objectid
-			q(80530),	-- Radiant Remnant @ 65.5, 23.4	need objectid
-			q(80551),	-- Radiant Remnant @ 64.5, 26.7
-			q(80555),	-- Radiant Remnant @ 64.8, 26.2	need objectid
-			q(80581),	-- Radiant Remnant # 64.4, 34.1 need objectid
-			q(80582),	-- Radiant Remnant @ 65.9, 32.3
-			q(80584),	-- Radiant Remnant @ 63.8, 31.0	need objectid
-			q(82997),	-- Radiant Remnant @ 63.2, 27.4	need objectid
-			q(84344),	-- Radiant Remnant @ 63.8, 28.5	need objectid
+			q(80581),	-- Radiant Remnant # 64.4, 34.1 need objectid (is not here?)
 			-- Small Keyflames
 			q(80005, {["isWeekly"]=true,}),	-- Empty Crab Cage - Crab Grab - Activate, after flare up lesser keyflame @ 61.5, 17.4
 			q(78472, {["isWeekly"]=true,}),	-- Attica Whiskervale - Glow in the Dark - Activate, after flare up lesser keyflame @ 64.4, 18.7

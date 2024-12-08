@@ -1051,7 +1051,6 @@ root(ROOTS.Unsorted, {
 				exploration(15004),	-- Skittering Breach
 				exploration(15371),	-- Skittering Cavern
 				exploration(15020),	-- Sprawling Trackyard
-				exploration(14919),	-- Stagnant Mire
 				exploration(15550),	-- Stagnant Mire
 				exploration(15184),	-- Stoneshaper's Atrium
 				exploration(15182),	-- Stoneward's Rise
