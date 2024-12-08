@@ -187,7 +187,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.CATA, applyclassicphase(CATA_PHASE_ON
 			firelands(i(69948)),	-- Emberforged Elementium Boots
 			firelands(i(69937)),	-- Eternal Elementium Handguards
 			firelands(i(69936)),	-- Fists of Fury
-			firelands(i(71984)),	-- Foundations of Courage
+			dragonsoul(i(71984)),	-- Foundations of Courage
 			i(55059),	-- Hardened Elementium Girdle
 			i(55058),	-- Hardened Elementium Hauberk
 			i(54853),	-- Hardened Obsidium Belt
