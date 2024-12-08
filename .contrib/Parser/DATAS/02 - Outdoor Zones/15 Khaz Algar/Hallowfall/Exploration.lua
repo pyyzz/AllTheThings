@@ -10,6 +10,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			visit_exploration(15158,{coord={66.2,17.8,HALLOWFALL}}),	-- Coldshadow Cave
 			exploration(14922),	-- Dayspring Fields
 			exploration(14916),	-- Dunelle's Kindness
+			visit_exploration(15094,{coord={62.9,34.0,HALLOWFALL}}),	-- Duskrise Acreage
 			visit_exploration(15179,{coord={30.4,53.3,HALLOWFALL}}),	-- Fortune's Fall
 			visit_exploration(14851,{coord={64.4,31.1,HALLOWFALL}}),	-- Fungal Fields
 			exploration(15326),	-- Growling Hollow

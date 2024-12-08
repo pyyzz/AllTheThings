@@ -468,7 +468,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					}),
 					o(457246, {	-- Fieldhand Stash (TODO likely weekly)
 						["description"] = "Requires any source of light (e.g. torch, candelabra) to reveal this treasure.",
-						["coord"] = { 64.5, 28.8, HALLOWFALL },
+						["coord"] = { 64.5, 28.8, HALLOWFALL },	-- TODO: new coords 64.9, 30.9 or additional?
 						["questID"] = 84337,
 						["g"] = {
 							i(226019),	-- Darkened Arathi Shoulderguards (COSMETIC!)
@@ -494,14 +494,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					}),
 					o(451993, {	-- Nerubian Device
 						["description"] = "Requires any source of light (e.g. torch, candelabra) to reveal this treasure in any area of farmland.",
-						["coord"] = { 62.3, 31.7, HALLOWFALL },
+						["coord"] = { 62.3, 31.7, HALLOWFALL },	-- TODO: new coords 66.1, 32.6 or additional?
 						["g"] = {
 							i(224548),	-- Nerubian Device (QS!)
 						},
 					}),
 					o(457251, {	-- Old Rotting Crate (TODO likely weekly)
 						["description"] = "Requires any source of light (e.g. torch, candelabra) to reveal this treasure.",
-						["coord"] = { 64.5, 31.6, HALLOWFALL },
+						["coord"] = { 64.5, 31.6, HALLOWFALL },	-- TODO: new coords 64.9, 33.3 or additional?
 						["questID"] = 84339,
 						["g"] = {
 							i(226016),	-- Darkened Tabard of the Arathi (COSMETIC!)
@@ -561,7 +561,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					}),
 					o(435008, {	-- Farmhand Stash
 						["description"] = "Requires weekly quest with controlling Harvestbot Remy to spawn.",
-						["coord"] = { 61.6, 32.6, HALLOWFALL },
+						["coord"] = { 61.6, 32.6, HALLOWFALL },	-- TODO: new coords 63, 30.7 or additional?
 						["questID"] = 80590,
 						["g"] = {
 							i(226016),	-- Darkened Tabard of the Arathi (COSMETIC!)
@@ -569,7 +569,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					}),
 					o(433377, {	-- Harvest Box
 						["description"] = "Requires any source of light (e.g. torch, candelabra) to reveal this treasure.",
-						["coord"] = { 65.6, 29.4, HALLOWFALL },
+						["coord"] = { 65.6, 29.4, HALLOWFALL },	-- TODO: new coords 64.7, 29.5 or additional?
 						["questID"] = 80420,
 						["g"] = {
 							i(226019),	-- Darkened Arathi Shoulderguards (COSMETIC!)
@@ -577,7 +577,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					}),
 					o(453186, {	-- Nightfarm Growthling (may be daily)
 						["description"] = "Requires any source of light (e.g. torch, candelabra) to reveal this treasure in any area of farmland.",
-						["coord"] = { 61.3, 31.8, HALLOWFALL },
+						["coord"] = { 61.3, 31.8, HALLOWFALL },	-- TODO: new coords 64.2, 31.6 or additional?
 						["questID"] = 83272,
 						["g"] = {
 							i(221546),	-- Nightfarm Growthling (PET!)
@@ -585,7 +585,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					}),
 					o(457270, {	-- Surveyor's Box
 						["description"] = "Requires any source of light (e.g. torch, candelabra) to reveal this treasure.",
-						["coord"] = { 63.8, 26.8, HALLOWFALL },
+						["coord"] = { 63.8, 26.8, HALLOWFALL },	-- TODO: new coords 65.2, 27.7 or additional?
 						["questID"] = 84341,
 						["g"] = {
 							i(226019),	-- Darkened Arathi Shoulderguards (COSMETIC!)
@@ -608,6 +608,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					o(437302, {	-- Fisherman's Pouch
 						["coord"] = { 56.1, 14.6, HALLOWFALL },
 						["questID"] = 81518,
+					}),
+					o(429765, {	-- Forgotten Chest 
+						["coord"] = { 67.8, 29.6, HALLOWFALL },
+						["questID"] = 80302,
 					}),
 					o(417057, {	-- Hallowfall Farm Supply
 						["sourceQuests"] = { 79173 },	-- Supply the Effort TODO: possibly 79180 hqt for any of 2 weekly?
@@ -775,10 +779,30 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						["coord"] = { 63.8, 31.0, HALLOWFALL },
 						["questID"] = 80584,
 					}),
-					-- o(OBJECT, {	-- Radiant Remnant (someone get the ObjectID, I forgot debugger on)
-					-- 	["coord"] = { 70.7, 31.0, HALLOWFALL },
-					-- 	["questID"] = 83367,
-					-- }),
+					o(434285, {	-- Radiant Remnant
+						["coord"] = { 67.2, 26.6, HALLOWFALL },
+						["questID"] = 80531,
+					}),
+					o(454021, {	-- Radiant Remnant
+						["coord"] = { 70.7, 30.9, HALLOWFALL },
+						["questID"] = 83367,
+					}),
+					o(454024, {	-- Radiant Remnant
+						["coord"] = { 69.7, 29.9, HALLOWFALL },
+						["questID"] = 83369,
+					}),
+					o(454023, {	-- Radiant Remnant
+						["coord"] = { 69.3, 31.9, HALLOWFALL },
+						["questID"] = 83368,
+					}),
+					o(430341, {	-- Radiant Remnant
+						["coord"] = { 62.8, 20.7, HALLOWFALL },
+						["questID"] = 80343,
+					}),
+					o(434924, {	-- Radiant Remnant
+						["coord"] = { 64.4, 34.1, HALLOWFALL },
+						["questID"] = 80581,
+					}),
 				})),
 				n(VENDORS, {
 					n(212419, {	-- Attica Whiskervale
@@ -1060,18 +1084,19 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			q(81844),	-- Herb @ 65.6, 28.3
 			q(83208),	-- Herb @ 66.3, 23.6
 			q(83209),	-- Herb @ 64.3, 23.9
+			q(83210),	-- Herb @ 65.0, 24.4
 			q(83211),	-- Herb @ 67.1, 23.3
 			q(83212),	-- Herb @ 67.1, 26.7
 			q(83213),	-- Herb @ 67.2, 27.4
 			q(83215),	-- Herb @ 67.4, 29.0
 			q(83216),	-- Herb @ 66.3, 25.0
-			q(83210),	-- Herb @ 65.0, 24.4
+			q(83219),	-- Herb @ 64.6, 23.2
 			q(83222),	-- Herb @ 61.5, 16.5
 			q(83223),	-- Herb @ 62.1, 13.0
 			q(83226),	-- Herb @ ?, ?
 			q(83228),	-- Herb @ 62.0, 32.3
 			q(83230),	-- Herb @ 65.8, 27.7
-			q(83231),	-- Herb @ ?, ?
+			q(83231),	-- Herb @ 64.9, 33.7
 			q(83232),	-- Herb @ ?, ?
 			q(83233),	-- Herb @ 62.2, 33.0
 			q(83234),	-- Herb @ 62.1, 33.6
@@ -1080,20 +1105,17 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			q(81846),	-- Ore @ 65.3, 16.6
 			q(81847),	-- Ore @ 66.3, 14.9
 			q(81848),	-- Ore @ 66.4, 23.4
+			q(83032),	-- Ore @ 67.1, 22.1
 			q(83033),	-- Ore @ 67.6, 23.8
+			q(83035),	-- Ore @ 68.8, 26.9
+			q(83036),	-- Ore @ 62.6, 30.3
+			q(83038),	-- Ore @ 62.8, 20.4
 			q(83039),	-- Ore @ 66.3, 17.5
-			q(83041),	-- Ore @ 64.9, 27.5
+			q(83041),	-- Ore @ 65.2, 31.5 (old coords - 64.9, 27.5?)
+			q(83042),	-- Ore @ 62.2, 30.9
+			q(83044),	-- Ore @ 64.0, 30.0
+			q(83045),	-- Ore @ 65.4, 23.3
 			q(83047),	-- Ore @ 66.1, 17.0
-			--q(),	-- Ore @ 65.2, 31.5
-			--q(),	-- Ore @ 64.0, 30.0
-			--q(),	-- Ore @ 62.6, 30.3
-			--q(),	-- Ore @ 68.8, 26.9
-			--q(),	-- Ore @ 65.4, 23.3
-			--q(),	-- Ore @ 67.1, 22.1
-			--q(),	-- Ore @ 62.2, 30.9
-			--q(),	-- Ore @ 62.8, 20.4
-			q(80531),	-- Radiant Remnant @ 67.2, 26.6 need objectid
-			q(80581),	-- Radiant Remnant # 64.4, 34.1 need objectid (is not here?)
 			-- Small Keyflames
 			q(80005, {["isWeekly"]=true,}),	-- Empty Crab Cage - Crab Grab - Activate, after flare up lesser keyflame @ 61.5, 17.4
 			q(78472, {["isWeekly"]=true,}),	-- Attica Whiskervale - Glow in the Dark - Activate, after flare up lesser keyflame @ 64.4, 18.7

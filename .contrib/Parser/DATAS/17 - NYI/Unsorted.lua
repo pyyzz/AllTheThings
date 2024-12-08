@@ -1001,7 +1001,6 @@ root(ROOTS.Unsorted, {
 				exploration(14903),	-- Deepstrike Point
 				exploration(15329),	-- Delver's Headquarters
 				exploration(15108),	-- Dev Map - Exile's Reach - Tower
-				exploration(15094),	-- Duskrise Acreage
 				exploration(14999),	-- Earthcrawl Mines
 				exploration(15155),	-- Echoing Overlook
 				exploration(15047),	-- Fallside Outpost
