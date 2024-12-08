@@ -274,7 +274,7 @@ root(ROOTS.Professions, prof(FISHING, bubbleDownSelf({ ["requireSkill"] = FISHIN
 		ach(7614, {	-- Locking Down the Docks
 			["sym"] = {{ "achievement_criteria" }},
 		}),
-		ach(7611,  {	-- Pandarian Angler
+		ach(7611, {	-- Pandarian Angler
 			["sym"] = {{ "achievement_criteria" }},
 		}),
 	})),

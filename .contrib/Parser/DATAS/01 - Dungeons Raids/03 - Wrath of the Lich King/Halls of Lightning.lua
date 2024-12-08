@@ -78,7 +78,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					}),
 				})),
 				-- #endif
-				ach(497,  {	-- Heroic: Halls of Lightning
+				ach(497, {	-- Heroic: Halls of Lightning
 					crit(6831, {	-- General Bjarngrim
 						["_encounter"] = { 597, DIFFICULTY.DUNGEON.HEROIC },
 					}),

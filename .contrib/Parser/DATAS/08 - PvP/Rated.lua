@@ -262,7 +262,7 @@ root(ROOTS.PVP, pvp(n(-240, {	-- Rated
 				title(145, {	-- Warbound
 					["races"] = ALLIANCE_ONLY,
 				}),
-				ach(5823,  {	-- Veteran of the Alliance II
+				ach(5823, {	-- Veteran of the Alliance II
 					["races"] = ALLIANCE_ONLY,
 					["g"] = {
 						i(70909, {	-- Vicious War Steed (MOUNT!)
@@ -270,7 +270,7 @@ root(ROOTS.PVP, pvp(n(-240, {	-- Rated
 						}),
 					},
 				}),
-				ach(5328,  {	-- Veteran of the Alliance
+				ach(5328, {	-- Veteran of the Alliance
 					["races"] = ALLIANCE_ONLY,
 					["g"] = {
 						i(70909, {	-- Vicious War Steed (MOUNT!)
@@ -295,7 +295,7 @@ root(ROOTS.PVP, pvp(n(-240, {	-- Rated
 					["races"] = HORDE_ONLY,
 				}),
 				-- #endif
-				ach(5824,  {	-- Veteran of the Horde II
+				ach(5824, {	-- Veteran of the Horde II
 					["races"] = HORDE_ONLY,
 					["g"] = {
 						i(70910, {	-- Vicious War Wolf (MOUNT!)
@@ -303,7 +303,7 @@ root(ROOTS.PVP, pvp(n(-240, {	-- Rated
 						}),
 					},
 				}),
-				ach(5325,  {	-- Veteran of the Horde
+				ach(5325, {	-- Veteran of the Horde
 					["races"] = HORDE_ONLY,
 					["g"] = {
 						i(70910, {	-- Vicious War Wolf (MOUNT!)

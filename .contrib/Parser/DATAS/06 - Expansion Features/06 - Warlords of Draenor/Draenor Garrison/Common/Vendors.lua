@@ -600,7 +600,7 @@ root(ROOTS.ExpansionFeatures,
 								i(111971),	-- Barracks, Level 3
 							},
 						}),
-						ach(9462,  {	-- Draenor Angler
+						ach(9462, {	-- Draenor Angler
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
 							["sym"] = {{"meta_achievement",
 								9461,		-- Sea Scorpion Angler
@@ -981,7 +981,7 @@ root(ROOTS.ExpansionFeatures,
 							},
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
 						}),
-						ach(9462,  {	-- Draenor Angler
+						ach(9462, {	-- Draenor Angler
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",
 							["sym"] = {{"meta_achievement",
 								9461,		-- Sea Scorpion Angler

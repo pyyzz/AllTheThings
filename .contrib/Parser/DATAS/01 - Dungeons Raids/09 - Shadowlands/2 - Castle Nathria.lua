@@ -242,7 +242,7 @@ root(ROOTS.Instances, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] = { ADDE
 			1750,	-- Feast of Arrogance
 		},
 		["g"] = {
-			n(ACHIEVEMENTS,  {
+			n(ACHIEVEMENTS, {
 				ach(14715, {	-- Castle Nathria
 					crit(48950, {	-- Shriekwing
 						["_encounter"] = { 2393, DIFFICULTY.RAID.MULTI.ALL },

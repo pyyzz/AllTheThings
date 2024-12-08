@@ -58,31 +58,31 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			explorationAch(12560),	-- Explore Vol'dun
 			ach(13016, {	-- Scavenger of the Sands
-				crit(41342,  {	-- Jason's Rusty Blade
+				crit(41342, {	-- Jason's Rusty Blade
 					["_quests"] = { 53132 },
 				}),
-				crit(41343,  {	-- Ian's Empty Bottle
+				crit(41343, {	-- Ian's Empty Bottle
 					["_quests"] = { 53133 },
 				}),
-				crit(41344,  {	-- Julie's Cracked Dish
+				crit(41344, {	-- Julie's Cracked Dish
 					["_quests"] = { 53134 },
 				}),
-				crit(41345,  {	-- Brian's Broken Compass
+				crit(41345, {	-- Brian's Broken Compass
 					["_quests"] = { 53135 },
 				}),
-				crit(41346,  {	-- Ofer's Bound Journal
+				crit(41346, {	-- Ofer's Bound Journal
 					["_quests"] = { 53136 },
 				}),
-				crit(41347,  {	-- Skye's Pet Rock
+				crit(41347, {	-- Skye's Pet Rock
 					["_quests"] = { 53137 },
 				}),
-				crit(41348,  {	-- Julien's Left Boot
+				crit(41348, {	-- Julien's Left Boot
 					["_quests"] = { 53138 },
 				}),
-				crit(41349,  {	-- Navarro's Flask
+				crit(41349, {	-- Navarro's Flask
 					["_quests"] = { 53139 },
 				}),
-				crit(41350,  {	-- Zach's Canteen
+				crit(41350, {	-- Zach's Canteen
 					["_quests"] = { 53140 },
 				}),
 				crit(41351, {	-- Damarcus' Backpack
@@ -140,31 +140,31 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			pvp(ach(12576)),	-- Tour of Duty: Vol'dun
 			ach(12849, {	-- Treasures of Vol'dun
-				crit(40966,  {	-- Ashvane Spoils
+				crit(40966, {	-- Ashvane Spoils
 					["_quests"] = { 50237 },
 				}),
-				crit(40967,  {	-- Grayal's Last Offering
+				crit(40967, {	-- Grayal's Last Offering
 					["_quests"] = { 51093 },
 				}),
-				crit(40968,  {	-- Lost Explorer's Bounty
+				crit(40968, {	-- Lost Explorer's Bounty
 					["_quests"] = { 51132 },
 				}),
-				crit(40969,  {	-- Sandfury Reserve
+				crit(40969, {	-- Sandfury Reserve
 					["_quests"] = { 51133 },
 				}),
-				crit(40970,  {	-- Stranded Cache
+				crit(40970, {	-- Stranded Cache
 					["_quests"] = { 51135 },
 				}),
-				crit(40971,  {	-- Excavator's Greed
+				crit(40971, {	-- Excavator's Greed
 					["_quests"] = { 51136 },
 				}),
-				crit(40972,  {	-- Zem'lan's Buried Treasure
+				crit(40972, {	-- Zem'lan's Buried Treasure
 					["_quests"] = { 51137 },
 				}),
-				crit(41002,  {	-- Lost Offerings of Kimbul
+				crit(41002, {	-- Lost Offerings of Kimbul
 					["_quests"] = { 52992 },
 				}),
-				crit(41003,  {	-- Deadwood Chest
+				crit(41003, {	-- Deadwood Chest
 					["_quests"] = { 52994 },
 				}),
 				crit(41004, {	-- Sandsunken Treasure

@@ -1196,8 +1196,8 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						}),
 					}),
 					-- Orinally sold Offhand/Neck/Finger by
-					-- Alliance SW: n(12781,  {	-- Master Sergeant Biggins  &
-					-- Horde OG: n(12793,  {	-- Brave Stonehide
+					-- Alliance SW: n(12781, {	-- Master Sergeant Biggins  &
+					-- Horde OG: n(12793, {	-- Brave Stonehide
 					filter(NECK_F, {
 						i(28245, {	-- Pendant of Dominance
 							["timeline"] = { ADDED_2_0_3, REMOVED_2_5_2 },
@@ -1977,7 +1977,7 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						}),
 					}),
 					-- Orinally sold Offhand/Neck/Finger by
-					-- Alliance SW: n(23446,  {	-- Lieutenant Tristia --  &
+					-- Alliance SW: n(23446, {	-- Lieutenant Tristia --  &
 					-- Horde OG: n(24520, {	-- Doris Volanthius --
 					filter(NECK_F, {
 						i(33067, {	-- Veteran's Pendant of Conquest
@@ -2725,7 +2725,7 @@ root(ROOTS.PVP, applyclassicphase(TBC_PHASE_ONE, run(MarkOfWHOOOWHATNow, bubbleD
 						}),
 					}),
 					-- Orinally sold Offhand/Neck/Finger by
-					-- Alliance SW: n(23446,  {	-- Lieutenant Tristia --  &
+					-- Alliance SW: n(23446, {	-- Lieutenant Tristia --  &
 					-- Horde OG: n(24520, {	-- Doris Volanthius --
 					filter(NECK_F, {
 						i(33920, {	-- Vindicator's Pendant of Conquest

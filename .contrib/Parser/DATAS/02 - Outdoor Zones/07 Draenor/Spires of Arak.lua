@@ -80,19 +80,19 @@ root(ROOTS.Zones, {
 			["icon"] = 1060981,
 			["groups"] = {
 				n(ACHIEVEMENTS, {
-					ach(9605,  {	-- Arak Star
+					ach(9605, {	-- Arak Star
 						["sym"] = {{ "achievement_criteria" }},
 					}),
 					ach(9433),		-- A-VOID-ance
 					ach(9469),		-- Arakkoa Outcasts
-					ach(8925,  {	-- Between Arak and a Hard Place (Alliance)
+					ach(8925, {	-- Between Arak and a Hard Place (Alliance)
 						["races"] = ALLIANCE_ONLY,
 						["sym"] = {{ "achievement_criteria" }},
 						["g"] = {
 							follower(218),	-- Talonpriest Ishaal
 						},
 					}),
-					ach(8926,  {	-- Between Arak and a Hard Place (Horde)
+					ach(8926, {	-- Between Arak and a Hard Place (Horde)
 						["races"] = HORDE_ONLY,
 						["sym"] = {{ "achievement_criteria" }},
 						["g"] = {
@@ -105,7 +105,7 @@ root(ROOTS.Zones, {
 					ach(9601, {		-- King of the Monsters (Lost Veil Anzu)
 						["sym"] = {{ "achievement_criteria" }},
 					}),
-					ach(9072,  {	-- Mantle of the Talon King
+					ach(9072, {	-- Mantle of the Talon King
 						["sourceQuest"] = 37177,	-- Call of the Talon King
 						["g"] = {
 							--title_gendered(278, 279),	-- Talon King / Talon Queen
@@ -117,7 +117,7 @@ root(ROOTS.Zones, {
 					ach(9600, {		-- Monster Mash (Lost Veil Anzu)
 						["sym"] = {{ "achievement_criteria" }},
 					}),
-					ach(9564,  {	-- Securing Draenor (Alliance)
+					ach(9564, {	-- Securing Draenor (Alliance)
 						["collectible"] = false,	-- We want to hide the achievement after the finished the criteria for the zone since they can't earn anything more here
 						["races"] = ALLIANCE_ONLY,
 						["g"] = {
@@ -125,7 +125,7 @@ root(ROOTS.Zones, {
 							crit(26256),	-- Assault on Pillars of Fate
 						},
 					}),
-					ach(9562,  {	-- Securing Draenor (Horde)
+					ach(9562, {	-- Securing Draenor (Horde)
 						["collectible"] = false,	-- We want to hide the achievement after the finished the criteria for the zone since they can't earn anything more here
 						["races"] = HORDE_ONLY,
 						["g"] = {
@@ -273,7 +273,7 @@ root(ROOTS.Zones, {
 								["races"] = ALLIANCE_ONLY,
 								["provider"] = { "n", 81929 },	-- Lieutenant Willem
 							}),
-							q(37287,  {  -- Cleaning House
+							q(37287, {  -- Cleaning House
 								["sourceQuests"] = { 36165 },	-- No Time to Waste
 								["coord"] = { 39.5, 61.7, SPIRES_OF_ARAK },
 								["races"] = ALLIANCE_ONLY,
@@ -1910,7 +1910,7 @@ root(ROOTS.Zones, {
 							i(118240),	-- Anzu's Scything Talon
 						},
 					}),
-					n(86961,  {	-- Gift of Anzu
+					n(86961, {	-- Gift of Anzu
 						["description"] = "Drink an Elixir of Shadow Sight near the Shrine to get the Gift of Anzu.",
 						["cost"] = {{"i",115463,1}},	-- Elixir of Shadow Sight
 						["questID"] = 36386,
@@ -1920,7 +1920,7 @@ root(ROOTS.Zones, {
 							i(118237),	-- Anzu's Malice
 						},
 					}),
-					n(86941,  {	-- Gift of Anzu
+					n(86941, {	-- Gift of Anzu
 						["description"] = "Drink an Elixir of Shadow Sight near the Shrine to get the Gift of Anzu.",
 						["cost"] = {{"i",115463,1}},	-- Elixir of Shadow Sight
 						["questID"] = 36388,
@@ -1930,7 +1930,7 @@ root(ROOTS.Zones, {
 							i(118242),	-- Anzu's Scorn
 						},
 					}),
-					n(86962,  {	-- Gift of Anzu
+					n(86962, {	-- Gift of Anzu
 						["description"] = "Drink an Elixir of Shadow Sight near the Shrine to get the Gift of Anzu.",
 						["cost"] = {{"i",115463,1}},	-- Elixir of Shadow Sight
 						["questID"] = 36389,
@@ -1940,7 +1940,7 @@ root(ROOTS.Zones, {
 							i(118238),	-- Anzu's Reach
 						},
 					}),
-					n(86953,  {	-- Gift of Anzu
+					n(86953, {	-- Gift of Anzu
 						["description"] = "Drink an Elixir of Shadow Sight near the Shrine to get the Gift of Anzu.",
 						["cost"] = {{"i",115463,1}},	-- Elixir of Shadow Sight
 						["questID"] = 36390,
@@ -1950,7 +1950,7 @@ root(ROOTS.Zones, {
 							i(118241),	-- Anzu's Piercing Talon
 						},
 					}),
-					n(86956,  {	-- Gift of Anzu
+					n(86956, {	-- Gift of Anzu
 						["description"] = "Drink an Elixir of Shadow Sight near the Shrine to get the Gift of Anzu.",
 						["cost"] = {{"i",115463,1}},	-- Elixir of Shadow Sight
 						["questID"] = 36392,

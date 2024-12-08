@@ -187,7 +187,7 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				n(RARES, {
-					n(97058,  { -- Count Nefarious
+					n(97058, { -- Count Nefarious
 						["questID"] = 40231,	-- Nefarious Ring
 						["coord"] = { 63.7, 23.2, 672 },
 						["g"] = {
@@ -209,7 +209,7 @@ root(ROOTS.Zones, {
 							i(128944),	-- Voras' Silk Drape
 						},
 					}),
-					n(97057,  { -- Overseer Brutarg
+					n(97057, { -- Overseer Brutarg
 						["questID"] = 40233,	-- Brutarg's Sword Tip
 						["coord"] = { 81.1, 41.4, 672 },
 						["g"] = {
@@ -318,7 +318,7 @@ root(ROOTS.Zones, {
 						["icon"] = 308482,	-- Grey Treasure Chest
 					}),
 				}),
-				m(677,  {	-- Vault of the Wardens: Vault of Silence
+				m(677, {	-- Vault of the Wardens: Vault of Silence
 					["icon"] = 1387709,	-- Wardens Owl
 					["maps"] = {
 						678,	-- Second Floor

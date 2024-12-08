@@ -603,7 +603,7 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_ONE, bubbleDown({ ["ti
 				},
 			}),
 		}),
-		petbattle(ach(6606,  {	-- Taming Pandaria
+		petbattle(ach(6606, {	-- Taming Pandaria
 			crit(21853),	-- Hyuna of the Shrines [The Jade Forest)
 			crit(21854),	-- Farmer Nishi [Valley of the Four Winds)
 			crit(21871),	-- Mo'ruk [Krasarang Wilds)
@@ -617,19 +617,19 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_ONE, bubbleDown({ ["ti
 		ach(6855),	-- The Seven Burdens of Shaohao (automated)
 		ach(6847),	-- The Song of the Yaungol (automated)
 		ach(6350, {	-- To All the Squirrels I Once Caressed?
-			crit(20817,  {	-- Amethyst Spiderling
+			crit(20817, {	-- Amethyst Spiderling
 				["provider"] = { "n", 64798 },	-- Amethyst Spiderling
 				["maps"] = { KRASARANG_WILDS },
 			}),
-			crit(20812,  {	-- Bandicoon
+			crit(20812, {	-- Bandicoon
 				["provider"] = { "n", 64782 },	-- Bandicoon
 				["maps"] = { VALLEY_OF_THE_FOUR_WINDS },
 			}),
-			crit(20821,  {	-- Clouded Hedgehog
+			crit(20821, {	-- Clouded Hedgehog
 				["provider"] = { "n", 64803 },	-- Clouded Hedgehog
 				["maps"] = { DREAD_WASTES },
 			}),
-			crit(20811,  {	-- Coral Adder
+			crit(20811, {	-- Coral Adder
 				["provider"] = { "n", 59356 },	-- Coral Adder
 				["maps"] = { THE_JADE_FOREST },
 			}),
@@ -637,7 +637,7 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_ONE, bubbleDown({ ["ti
 				["provider"] = { "n", 65209 },	-- Dancing Water Skimmer
 				["maps"] = { VALE_OF_ETERNAL_BLOSSOMS },
 			}),
-			crit(20822,  {	-- Emperor Crab
+			crit(20822, {	-- Emperor Crab
 				["provider"] = { "n", 63329 },	-- Emperor Crab
 				["maps"] = { DREAD_WASTES },
 			}),
@@ -649,7 +649,7 @@ root(ROOTS.Zones, m(PANDARIA, applyclassicphase(MOP_PHASE_ONE, bubbleDown({ ["ti
 				["provider"] = { "n", 65206 },	-- Golden Civet
 				["maps"] = { VALE_OF_ETERNAL_BLOSSOMS },
 			}),
-			crit(20824,  {	-- Leopard Tree Frog
+			crit(20824, {	-- Leopard Tree Frog
 				["provider"] = { "n", 64774 },	-- Leopard Tree Frog
 				["maps"] = { THE_JADE_FOREST },
 			}),

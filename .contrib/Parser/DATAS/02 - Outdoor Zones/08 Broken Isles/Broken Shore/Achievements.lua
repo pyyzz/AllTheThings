@@ -11,31 +11,31 @@ root(ROOTS.Zones, {
 				ach(11796),	-- Armies of Legionfall
 				ach(11736),	-- Assume Command
 				ach(11546, {	-- Breaching the Tomb
-					crit(36598,  {	-- Armies of Legionfall
+					crit(36598, {	-- Armies of Legionfall
 						["sourceQuests"] = { 46730 },	-- Armies of Legionfall
 					}),
-					crit(36599,  {	-- Assault on Broken Shore
+					crit(36599, {	-- Assault on Broken Shore
 						["sourceQuests"] = { 46734 },	-- Assault on Broken Shore
 					}),
-					crit(36600,  {	-- Begin Construction
+					crit(36600, {	-- Begin Construction
 						["sourceQuests"] = { 46245 },	-- Begin Construction
 					}),
-					crit(36601,  {	-- Aalgen Point
+					crit(36601, {	-- Aalgen Point
 						["sourceQuests"] = { 46832 },	-- Aalgen Point
 					}),
-					crit(36602,  {	-- Vengeance Point
+					crit(36602, {	-- Vengeance Point
 						["sourceQuests"] = { 46845 },	-- Vengeance Point
 					}),
-					crit(36603,  {	-- Defending Broken Isles
+					crit(36603, {	-- Defending Broken Isles
 						["sourceQuests"] = { 46247 },	-- Defending Broken Isles
 					}),
-					crit(36604,  {	-- Champions of Legionfall
+					crit(36604, {	-- Champions of Legionfall
 						["sourceQuests"] = { 47137 },	-- Champions of Legionfall
 					}),
-					crit(36605,  {	-- Shard Times
+					crit(36605, {	-- Shard Times
 						["sourceQuests"] = { 46251 },	-- Shard Times
 					}),
-					crit(36606,  {	-- Mark of the Sentinax
+					crit(36606, {	-- Mark of the Sentinax
 						["sourceQuests"] = { 47139 },	-- Mark of the Sentinax
 					}),
 					crit(36607, {	-- Self-Fulfilling Prophecy

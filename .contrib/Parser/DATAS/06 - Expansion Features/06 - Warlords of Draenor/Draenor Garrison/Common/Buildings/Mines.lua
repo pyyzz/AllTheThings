@@ -6,7 +6,7 @@ root(ROOTS.ExpansionFeatures,
 	expansion(EXPANSION.WOD, {
 		n(GARRISONS, sharedData({["maps"] = { LUNARFALL, FROSTWALL } },	{
 			n(BUILDINGS, {
-				garrisonBuilding(63,  {	-- Frostwall Mines (rank 1: 61, rank 2: 62, rank 3: 63)
+				garrisonBuilding(63, {	-- Frostwall Mines (rank 1: 61, rank 2: 62, rank 3: 63)
 					n(ACHIEVEMENTS, {
 						ach(9453, {	-- Draenic Stone Collector
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",

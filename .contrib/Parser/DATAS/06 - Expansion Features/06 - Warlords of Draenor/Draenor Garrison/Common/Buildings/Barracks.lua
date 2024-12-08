@@ -6,7 +6,7 @@ root(ROOTS.ExpansionFeatures,
 	expansion(EXPANSION.WOD, {
 		n(GARRISONS, sharedData({["maps"] = { LUNARFALL, FROSTWALL } },	{
 			n(BUILDINGS, {	-- Buildings
-				garrisonBuilding(28,  {	-- Barracks (rank 1: 26, rank 2: 27, rank 3: 28)
+				garrisonBuilding(28, {	-- Barracks (rank 1: 26, rank 2: 27, rank 3: 28)
 					n(ACHIEVEMENTS, {
 						ach(9498, {		-- Wingman
 							["_noautomation"] = true,
@@ -131,7 +131,7 @@ root(ROOTS.HiddenQuestTriggers, {
 	expansion(EXPANSION.WOD, {
 		n(GARRISONS, {
 			n(BUILDINGS, {	-- Buildings
-				garrisonBuilding(28,  {	-- Barracks
+				garrisonBuilding(28, {	-- Barracks
 					q(36899),	-- Tracking Quest: Defender Illona (use as Body Guard)
 					q(36936),	-- Tracking Quest: Leorajh (use as Body Guard)
 					q(36900),	-- Tracking Quest: Talonpriest Ishaal (use as Body Guard)

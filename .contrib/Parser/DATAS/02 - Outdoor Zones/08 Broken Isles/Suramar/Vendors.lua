@@ -207,7 +207,7 @@ root(ROOTS.Zones, {
 						}),
 					},
 				}),
-				n(93971,  {	-- Leyweaver Inondra
+				n(93971, {	-- Leyweaver Inondra
 					["coord"] = { 40.2, 69.6, SURAMAR },
 					["g"] = {
 						i(127277, {	-- Imbued Silkweave Cover [Rank 1] (RECIPE!)
@@ -224,7 +224,7 @@ root(ROOTS.Zones, {
 						}),
 					},
 				}),
-				n(93979,  {	-- Leyweaver Jorjana
+				n(93979, {	-- Leyweaver Jorjana
 					["coord"] = { 49.4, 75.8, SURAMAR },
 					["g"] = {
 						i(127025, {	-- Imbued Silkweave Hood [Rank 1] (RECIPE!)
@@ -251,7 +251,7 @@ root(ROOTS.Zones, {
 						}),
 					},
 				}),
-				n(98969,  {	-- Stalriss Dawnrunner <Leatherworking Trainer>
+				n(98969, {	-- Stalriss Dawnrunner <Leatherworking Trainer>
 					["coord"] = { 26.6, 71.6, SURAMAR },
 					["g"] = {
 						i(140637, {	-- Pattern: Dreadleather Belt [Rank 1] (RECIPE!)
@@ -350,7 +350,7 @@ root(ROOTS.Zones, {
 						}),
 					},
 				}),
-				n(92265,  {	-- Urael <Nal'ryssa's Minion>
+				n(92265, {	-- Urael <Nal'ryssa's Minion>
 					["coord"] = { 30.0, 53.2, SURAMAR },
 					["g"] = {
 						i(123920, {	-- Plans: Demonsteel Armguards [Rank 1] (RECIPE!)

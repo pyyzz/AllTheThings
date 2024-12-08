@@ -958,7 +958,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 							},
 						}),
 					}),
-					expansion(EXPANSION.CATA,  {
+					expansion(EXPANSION.CATA, {
 						e(167, {	-- Cho'gall
 							["creatureID"] = 43324,
 							["groups"] = {

@@ -281,7 +281,7 @@ root(ROOTS.WorldDrops, {
 					}),
 				},
 			}),
-			i(4638,  {	-- Reinforced Steel Lockbox
+			i(4638, {	-- Reinforced Steel Lockbox
 				["sym"] = { {
 					"select", "itemID",
 					-- #if AFTER TBC
@@ -320,7 +320,7 @@ root(ROOTS.WorldDrops, {
 			i(180533, {	-- Solenium Lockbox
 				["timeline"] = { ADDED_9_0_2_LAUNCH },
 			}),
-			i(4637,  {	-- Steel Lockbox
+			i(4637, {	-- Steel Lockbox
 				["sym"] = { {
 					"select", "itemID",
 					11204,  -- Formula: Enchant Bracer - Greater Versatility / CLASSIC: Formula: Enchant Bracer - Greater Versatility (RECIPE!)
@@ -341,7 +341,7 @@ root(ROOTS.WorldDrops, {
 					10606   -- Schematic: Parachute Cloak
 				}},
 			}),
-			i(4636,  {	-- Strong Iron Lockbox
+			i(4636, {	-- Strong Iron Lockbox
 				["sym"] = { {
 					"select", "itemID",
 					11167,  -- Formula: Enchant Boots - Lesser Versatility / CLASSIC: Formula: Enchant Boots - Lesser Spirit (RECIPE!)

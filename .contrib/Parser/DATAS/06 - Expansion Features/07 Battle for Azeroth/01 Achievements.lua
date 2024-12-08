@@ -244,7 +244,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 		ach(12482, {	-- Get Hek'd
 			["description"] = "Make sure to loot the cache Jani leaves behind as you fulfill each requirement; that's what awards the actual achievement criteria.",
 			["g"] = {
-				crit(40037,  {	-- Golden Ravasaur Egg
+				crit(40037, {	-- Golden Ravasaur Egg
 					["itemID"] = 156963,	-- Golden Ravasaur Egg
 					["coord"] = { 71.6, 41.2, ZULDAZAR },	-- Trashpile turn-in
 					["sourceQuests"] = {
@@ -267,7 +267,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						125366,	-- Vilescale Poacher
 					},
 				}),
-				crit(40045,  {	-- Charged Ranishu Antennae
+				crit(40045, {	-- Charged Ranishu Antennae
 					["itemID"] = 158910,	-- Charged Ranishu Antennae
 					["coord"] = { 47.0, 46.6, VOLDUN },	-- Court of Zak'rajan
 					["crs"] = {
@@ -277,7 +277,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						129474,	-- Ranishu Ravager
 					},
 				}),
-				crit(40038,  {	-- Big Hunter Mon
+				crit(40038, {	-- Big Hunter Mon
 					["sourceQuests"] = { 50332 },	-- Big Hunter Mon
 					["coord"] = { 66.2, 16.6, ZULDAZAR },	-- Trashpile pick-up
 				}),
@@ -289,7 +289,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						120588,	-- Rivermarsh Snapjaw
 					},
 				}),
-				crit(40046,  {	-- Polished Ringhorn Hoof
+				crit(40046, {	-- Polished Ringhorn Hoof
 					["itemID"] = 158915,	-- Polished Ringhorn Hoof
 					["coord"] = { 56.2, 15.3, VOLDUN },
 					["crs"] = {
@@ -298,7 +298,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						130316,	-- Ringhorn Strider
 					},
 				}),
-				crit(40039,  {	-- The Great Hat Robbery
+				crit(40039, {	-- The Great Hat Robbery
 					["sourceQuests"] = { 50381 },	-- The Great Hat Robbery
 					["coord"] = { 61.9, 46.9, ZULDAZAR },
 				}),
@@ -311,7 +311,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 						131156,	-- Nazwathan Hulk
 					},
 				}),
-				crit(40047,  {	-- Sturdy Redrock Jaw
+				crit(40047, {	-- Sturdy Redrock Jaw
 					["itemID"] = 158916,	-- Sturdy Redrock Jaw
 					["coord"] = { 49.3, 84.3, VOLDUN },	-- The Eternal Spring
 					["crs"] = {
@@ -521,31 +521,31 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 				i(162628),	-- Tales of de Loa: Akunda
 			},
 		}),
-		o(297491,  {	-- Tales of de Loa: Bwonsamdi
+		o(297491, {	-- Tales of de Loa: Bwonsamdi
 			["coord"] = { 39.1, 38.6, NAZMIR },
 			["g"] = {
 				i(163330),	-- Tales of de Loa: Bwonsamdi
 			},
 		}),
-		o(297521,  {	-- Tales of de Loa: Gonk
+		o(297521, {	-- Tales of de Loa: Gonk
 			["coord"] = { 51.7, 28.3, ZULDAZAR },
 			["g"] = {
 				i(162657),	-- Tales of de Loa: Gonk
 			},
 		}),
-		o(297074,  {	-- Tales of de Loa: Gral
+		o(297074, {	-- Tales of de Loa: Gral
 			["coord"] = { 75.5, 67.6, ZULDAZAR },
 			["g"] = {
 				i(163170),	-- Tales of de Loa: Gral
 			},
 		}),
-		o(297522,  {	-- Tales of de Loa: Hir'eek
+		o(297522, {	-- Tales of de Loa: Hir'eek
 			["coord"] = { 39.5, 54.6, NAZMIR },
 			["g"] = {
 				i(163199),	-- Tales of de Loa: Hir'eek
 			},
 		}),
-		o(297528,  {	-- Tales of de Loa: Jani
+		o(297528, {	-- Tales of de Loa: Jani
 			["coord"] = { 48.5, 54.6, ZULDAZAR },
 			["g"] = {
 				i(162656),	-- Tales of de Loa: Jani
@@ -557,13 +557,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 				i(163198),	-- Tales of de Loa: Kimbul
 			},
 		}),
-		o(297489,  {	-- Tales of de Loa: Krag'wa
+		o(297489, {	-- Tales of de Loa: Krag'wa
 			["coord"] = { 58.9, 48.6, NAZMIR },
 			["g"] = {
 				i(163331),	-- Tales of de Loa: Krag'wa
 			},
 		}),
-		o(297524,  {	-- Tales of de Loa: Pa'ku
+		o(297524, {	-- Tales of de Loa: Pa'ku
 			["coord"] = { 49.0, 41.3, ZULDAZAR },
 			["g"] = {
 				i(162658),	-- Tales of de Loa: Pa'ku

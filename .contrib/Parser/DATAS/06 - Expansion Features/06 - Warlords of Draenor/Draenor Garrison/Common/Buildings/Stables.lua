@@ -6,7 +6,7 @@ root(ROOTS.ExpansionFeatures,
 	expansion(EXPANSION.WOD, {
 		n(GARRISONS, sharedData({["maps"] = { LUNARFALL, FROSTWALL } },	{
 			n(BUILDINGS, {
-				garrisonBuilding(67,  {	-- Stables (rank 1: 65, rank 2: 66, rank 3: 67)
+				garrisonBuilding(67, {	-- Stables (rank 1: 65, rank 2: 66, rank 3: 67)
 					n(ACHIEVEMENTS, {	-- Achievements
 						-- TODO: add sourceQuests to the criteria, or use _quests ?
 						a(ach(9539, {	-- Advanced Husbandry (Alliance)

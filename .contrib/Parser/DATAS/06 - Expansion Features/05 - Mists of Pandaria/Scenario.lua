@@ -758,7 +758,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 						["coord"] = { 46.6, 56.5, 392 },
 						["races"] = HORDE_ONLY,
 						["g"] = {
-							i(98546,  {  -- Bulging Heroic Cache of Treasures
+							i(98546, {  -- Bulging Heroic Cache of Treasures
 								["sym"] = { {"fill"} },
 							}),
 						},
@@ -768,7 +768,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"]
 						["coord"] = { 47.23, 49.71, 393 },
 						["races"] = ALLIANCE_ONLY,
 						["g"] = {
-							i(98546,  {  -- Bulging Heroic Cache of Treasures
+							i(98546, {  -- Bulging Heroic Cache of Treasures
 								["sym"] = { {"fill"} },
 							}),
 						},

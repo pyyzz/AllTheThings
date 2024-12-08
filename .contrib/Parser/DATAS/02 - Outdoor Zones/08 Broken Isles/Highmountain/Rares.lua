@@ -63,11 +63,11 @@ root(ROOTS.Zones, {
 						}),
 					},
 				}),
-				n(104481,  {	-- Ala'washte
+				n(104481, {	-- Ala'washte
 					["questID"] = 45514,
 					["coord"] = { 28.4, 53.8, HIGHMOUNTAIN },
 				}),
-				n(97215,  {	-- Beastmaster Pao'lek
+				n(97215, {	-- Beastmaster Pao'lek
 					["questID"] = 39784,	-- Beastmaster Pao'lek
 					["description"] = "Speak with Beastmastr Pao'lek then help him tame Arru. Loot Thunder Totem Stolen Goods afterward.",
 					["coord"] = { 48.6, 50.0, HIGHMOUNTAIN },
@@ -78,28 +78,28 @@ root(ROOTS.Zones, {
 						}),
 					},
 				}),
-				n(98299,  {	-- Bodash the Hoarder
+				n(98299, {	-- Bodash the Hoarder
 					["questID"] = 40084,
 					["coord"] = { 36.6, 16.6, HIGHMOUNTAIN },
 					["g"] = {
 						i(131799),	-- Zugdug's Piece of Paradis
 					},
 				}),
-				n(97449,  {	-- Bristlemaul
+				n(97449, {	-- Bristlemaul
 					["questID"] = 40405,
 					["coord"] = { 37.7, 45.7, HIGHMOUNTAIN },
 					["g"] = {
 						i(131761),	-- Thick Bristly Hood
 					},
 				}),
-				n(94877,  {	-- Brogrul the Mighty
+				n(94877, {	-- Brogrul the Mighty
 					["questID"] = 39235,
 					["coord"] = { 56.2, 72.4, HIGHMOUNTAIN },
 					["g"] = {
 						i(138396),	-- Mighty Chain Footpads
 					},
 				}),
-				n(97933,  {	-- Crab Rider Grmlrml
+				n(97933, {	-- Crab Rider Grmlrml
 					["questID"] = 39994,
 					["coords"] = {
 						{ 43.0, 10.4, HIGHMOUNTAIN },
@@ -109,7 +109,7 @@ root(ROOTS.Zones, {
 						i(131798),	-- Faded Swashbuckler's Jerkin
 					},
 				}),
-				n(97345,  {	-- Crawshuk the Hungry
+				n(97345, {	-- Crawshuk the Hungry
 					["questID"] = 39806,
 					["coord"] = { 48.3, 40.4, HIGHMOUNTAIN },
 					["g"] = {
@@ -127,7 +127,7 @@ root(ROOTS.Zones, {
 						i(131780),	-- Void Slippers
 					},
 				}),
-				n(96072,  {	-- Durguth
+				n(96072, {	-- Durguth
 					["isDaily"] = true,
 					["description"] = "This rare is only available when its associated world quest is active.",
 					["questID"] = 41093,
@@ -136,7 +136,7 @@ root(ROOTS.Zones, {
 						i(131796),	-- Roggumsoggum's Boppers
 					},
 				}),
-				n(97793,  {	-- Flamescale
+				n(97793, {	-- Flamescale
 					["description"] = "Click on the Abandoned Fishing Pole to summon Flamescale.",
 					["questID"] = 39963,
 					["coord"] = { 40.9, 57.7, HIGHMOUNTAIN },
@@ -144,7 +144,7 @@ root(ROOTS.Zones, {
 						i(131773),	-- Flamescale Mail
 					},
 				}),
-				n(101649,  {	-- Frostshard
+				n(101649, {	-- Frostshard
 					["questID"] = 40773,
 					["coords"] = {
 						{ 51.0, 80.8, HIGHMOUNTAIN },
@@ -152,21 +152,21 @@ root(ROOTS.Zones, {
 						{ 54.6, 75.6, HIGHMOUNTAIN },
 					},
 				}),
-				n(96590,  {	-- Gurbog da Basher
+				n(96590, {	-- Gurbog da Basher
 					["questID"] = 40347,
 					["coord"] = { 56.5, 60.7, HIGHMOUNTAIN },
 					["g"] = {
 						i(131775),	-- Da Basher's Toy Armor
 					},
 				}),
-				n(97326,  {	-- Hartli the Snatcher
+				n(97326, {	-- Hartli the Snatcher
 					["questID"] = 39802,
 					["coord"] = { 51.0, 48.5, HIGHMOUNTAIN },
 					["g"] = {
 					--	i(129190),	-- Rope of Friendship
 					},
 				}),
-				n(98024,  {	-- Luggut the Eggeater
+				n(98024, {	-- Luggut the Eggeater
 					["questID"] = 40406,
 					["coords"] = {
 						{ 51.4, 37.3, HIGHMOUNTAIN },	-- cave entrance
@@ -176,7 +176,7 @@ root(ROOTS.Zones, {
 						i(131776),	-- Scale Cord of the Eggeater
 					},
 				}),
-				n(96410,  {	-- Majestic Elderhorn
+				n(96410, {	-- Majestic Elderhorn
 					["questID"] = 39646,
 					["coords"] = {
 						{ 47.5, 32.9, HIGHMOUNTAIN },	-- spawn point - other coords are its path
@@ -189,11 +189,11 @@ root(ROOTS.Zones, {
 						i(131900),	-- Magestic Elderhorn Hoof (TOY!)
 					},
 				}),
-				n(96621,  {	-- Mellok, Son of Torok
+				n(96621, {	-- Mellok, Son of Torok
 					["questID"] = 40242,
 					["coord"] = { 48.9, 27.0, HIGHMOUNTAIN },
 				}),
-				n(98311,  {	-- Mrrklr
+				n(98311, {	-- Mrrklr
 					["questID"] = 40096,
 					["coord"] = { 46.7, 7.30, HIGHMOUNTAIN },
 					["crs"] = { 98754 },	-- Sloppy "Sloppy Joe" Joe
@@ -201,19 +201,19 @@ root(ROOTS.Zones, {
 						i(131797),	-- Swamprock Salvage Band
 					},
 				}),
-				n(95204,  {	-- Oubdob da Smasher
+				n(95204, {	-- Oubdob da Smasher
 					["questID"] = 39435,
 					["coord"] = { 47.4, 73.8, HIGHMOUNTAIN },
 					["g"] = {
 						i(131793),	-- Oubdob's Smashin' Sweatband
 					},
 				}),
-				n(97102,  {	-- Ram'Pag <The Treasure Worm>
+				n(97102, {	-- Ram'Pag <The Treasure Worm>
 					["description"] = "Click on the Totally Safe Treasure Chest to spawn Ram'Pag.",
 					["questID"] = 39766,
 					["coord"] = { 52.3, 51.4, HIGHMOUNTAIN },
 				}),
-				n(97579,  {	-- Scout Harefoot (Mynta Talonscreech)
+				n(97579, {	-- Scout Harefoot (Mynta Talonscreech)
 					["description"] = "Speak to Scout Harefoot and Mynta Talonscreech will spawn.",
 					["questID"] = 39866,
 					["coord"] = { 54.5, 40.5, HIGHMOUNTAIN },
@@ -247,28 +247,28 @@ root(ROOTS.Zones, {
 						i(131730),	-- Darksaber Leather Belt
 					},
 				}),
-				n(97093,  {	-- Shara Felbreath
+				n(97093, {	-- Shara Felbreath
 					["questID"] = 39762,
 					["coord"] = { 51.0, 25.8, HIGHMOUNTAIN },
 					["g"] = {
 						i(131791),	-- Felbreath Bloodsinger Robe
 					},
 				}),
-				n(95872,  {	-- Skullhat
+				n(95872, {	-- Skullhat
 					["questID"] = 39465,
 					["coord"] = { 50.9, 32.0, HIGHMOUNTAIN },
 					["g"] = {
 						i(131769),	-- The Taskmaster's Wristwraps
 					},
 				}),
-				n(98890,  {	-- Slumber
+				n(98890, {	-- Slumber
 					["questID"] = 40175,
 					["coord"] = { 41.4, 31.9, HIGHMOUNTAIN },
 					["g"] = {
 						i(131921),	-- Dreamflow Collar
 					},
 				}),
-				n(97653,  {	-- Taurson
+				n(97653, {	-- Taurson
 					["questID"] = 39872,
 					["coord"] = { 54.1, 50.8, HIGHMOUNTAIN },
 					["g"] = {
@@ -280,7 +280,7 @@ root(ROOTS.Zones, {
 						}),
 					},
 				}),
-				n(97203,  {	-- Tenpak Flametotem
+				n(97203, {	-- Tenpak Flametotem
 					["questID"] = 39782,
 					["coord"] = { 41.9, 41.5, HIGHMOUNTAIN },
 					["g"] = {

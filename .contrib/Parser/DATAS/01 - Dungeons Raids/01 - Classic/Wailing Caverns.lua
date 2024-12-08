@@ -121,7 +121,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						["races"] = HORDE_ONLY,
 						["lvl"] = 10,
 					}),
-					q(3370,  {	-- In Nightmares [A]
+					q(3370, {	-- In Nightmares [A]
 						["qg"] = 8418,	-- Falla Sagewind
 						["sourceQuest"] = 6981,	-- The Glowing Shard
 						["description"] = "She lives in a house on top of the mountain.",
@@ -141,7 +141,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							}),
 						},
 					}),
-					q(3369,  {	-- In Nightmares [H]
+					q(3369, {	-- In Nightmares [H]
 						["qg"] = 8418,	-- Falla Sagewind
 						["sourceQuest"] = 6981,	-- The Glowing Shard
 						["description"] = "She lives in a house on top of the mountain.",

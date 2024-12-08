@@ -233,7 +233,7 @@ root(ROOTS.PetBattles, petbattle({
 			crit(19844),	-- Undead
 		}),
 		ach(6571),	-- That Was Close!
-		ach(8348,  {	-- The Longest Day
+		ach(8348, {	-- The Longest Day
 			["timeline"] = { ADDED_5_3_0 },
 			["sym"] = {{ "achievement_criteria" }},
 		}),

@@ -93,11 +93,11 @@ root(ROOTS.Zones, {
 						crit(26579),		-- Legion Vanguard
 						crit(26580),		-- Xothear, the Destroyer
 					}),
-					ach(8920,  {	-- Don't Let the Tala-door Hit You on the Way Out (A) (unlocks ability to buy Talador Treasure Map from Grakis in Stormshield)
+					ach(8920, {	-- Don't Let the Tala-door Hit You on the Way Out (A) (unlocks ability to buy Talador Treasure Map from Grakis in Stormshield)
 						["races"] = ALLIANCE_ONLY,
 						["sym"] = {{ "achievement_criteria" }},
 					}),
-					ach(8919,  {	-- Don't Let the Tala-door Hit You on the Way Out (H) (unlocks ability to buy Gorgrond Treasure Map from Srikka in Warspear)
+					ach(8919, {	-- Don't Let the Tala-door Hit You on the Way Out (H) (unlocks ability to buy Gorgrond Treasure Map from Srikka in Warspear)
 						["races"] = HORDE_ONLY,
 						["sym"] = {{ "achievement_criteria" }},
 					}),
@@ -106,18 +106,18 @@ root(ROOTS.Zones, {
 					ach(9638, {		-- Heralds of the Legion (Shattrath City)
 						["sym"] = {{ "achievement_criteria" }},
 					}),
-					ach(9674,  {	-- I Want More Talador
+					ach(9674, {	-- I Want More Talador
 						["sym"] = {{ "achievement_criteria" }},
 					}),
 					ach(9637),		-- Poor Communication
-					ach(9564,  {	-- Securing Draenor (A)
+					ach(9564, {	-- Securing Draenor (A)
 						["collectible"] = false,
 						["races"] = ALLIANCE_ONLY,
 						["g"] = {
 							crit(26258),	-- Assault on Shattrath Harbor
 						},
 					}),
-					ach(9562,  {	-- Securing Draenor (Horde)
+					ach(9562, {	-- Securing Draenor (Horde)
 						["collectible"] = false,
 						["races"] = HORDE_ONLY,
 						["g"] = {
@@ -2510,7 +2510,7 @@ root(ROOTS.Zones, {
 							i(117571),	-- Gordunni Skullthumper
 						},
 					}),
-					n(75644,  {	-- Iron Scout
+					n(75644, {	-- Iron Scout
 						["questID"] = 33649,
 						["coord"] = { 75.1, 36.1, TALADOR },
 						["g"] = {

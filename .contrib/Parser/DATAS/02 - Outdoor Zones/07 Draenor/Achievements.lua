@@ -80,7 +80,7 @@ root(ROOTS.Zones, m(DRAENOR, bubbleDown({ ["timeline"] = { ADDED_6_0_3_LAUNCH } 
 				8671,	-- You'll Get Caught Up In The... Frostfire!
 			}},
 		})),
-		petbattle(ach(9724,  {	-- Taming Draenor
+		petbattle(ach(9724, {	-- Taming Draenor
 			["timeline"] = { ADDED_6_0_2 },
 			["g"] = {
 				crit(27012),	-- Ashlei [Shadowmoon Valley)

@@ -22,7 +22,7 @@ root(ROOTS.ExpansionFeatures,
 							["races"] = ALLIANCE_ONLY,
 							["_drop"] = { "g" },	-- Drop Shiny Pet Charm
 						}),
-						q(40329,  {	-- Battle Pet Tamers: Warlords
+						q(40329, {	-- Battle Pet Tamers: Warlords
 							["isWeekly"] = true,
 							["sourceQuests"] = {
 								36592,	-- Bigger is Better [A]
@@ -78,7 +78,7 @@ root(ROOTS.ExpansionFeatures,
 							},
 							["_drop"] = { "g" },	-- Drop Flawless Battle-Training Stone
 						})),
-						q(37644,  {	-- Mastering the Menagerie (A)
+						q(37644, {	-- Mastering the Menagerie (A)
 							["isDaily"] = true,
 							["provider"] = { "n", 85418 },	-- Lio the Lioness
 							["coords"] = {

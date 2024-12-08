@@ -6,7 +6,7 @@ root(ROOTS.ExpansionFeatures,
 	expansion(EXPANSION.WOD, {
 		n(GARRISONS, sharedData({["maps"] = { LUNARFALL, FROSTWALL } },	{
 			n(BUILDINGS, {
-				garrisonBuilding(128,  {	-- Enchanter's Study (rank 1: 94, rank 2: 127, rank 3: 128)
+				garrisonBuilding(128, {	-- Enchanter's Study (rank 1: 94, rank 2: 127, rank 3: 128)
 					n(QUESTS, {
 						q(36262, {	-- Ameeka, Master Tailor
 							["requireSkill"] = TAILORING,

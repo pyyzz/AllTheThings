@@ -5,7 +5,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 	m(THE_MAW, {
 		n(SPECIAL, {
 			header(HEADERS.Achievement, 14738, {	-- Hunting Party
-				q(63199,  {	-- Hunt: Alpha Devourers
+				q(63199, {	-- Hunt: Alpha Devourers
 					["name"] = "Hunt: Alpha Devourers",
 					["sourceQuests"] = { 60285 },	-- Rule 6: Concealment is Everything
 					["crs"] = { 175851 },	-- Alpha Anima Devourer
@@ -14,13 +14,13 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						i(184586),	-- Sky Chain
 					},
 				}),
-				q(63198,  {	-- Hunt: Death Elementals
+				q(63198, {	-- Hunt: Death Elementals
 					["name"] = "Hunt: Death Elementals",
 					["sourceQuests"] = { 60285 },	-- Rule 6: Concealment is Everything
 					["crs"] = { 172962 },	-- Tempered Stygia
 					["isWeekly"] = true,
 				}),
-				q(63180,  {	-- Hunt: Shadehounds
+				q(63180, {	-- Hunt: Shadehounds
 					["name"] = "Hunt: Shadehounds",
 					["sourceQuests"] = { 60285 },	-- Rule 6: Concealment is Everything
 					["crs"] = { 174861 },	-- Gorged Shadehound
@@ -37,7 +37,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						}),
 					},
 				}),
-				q(63194,  {	-- Hunt: Winged Soul Eaters
+				q(63194, {	-- Hunt: Winged Soul Eaters
 					["name"] = "Hunt: Winged Soul Eaters",
 					["crs"] = { 173195 },	-- Undying Soulbinder
 					["sourceQuests"] = { 60285 },	-- Rule 6: Concealment is Everything

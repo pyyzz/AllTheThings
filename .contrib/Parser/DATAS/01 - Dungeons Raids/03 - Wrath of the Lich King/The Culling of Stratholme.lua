@@ -74,7 +74,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					}),
 				})),
 				-- #endif
-				ach(500,  {	-- Heroic: The Culling of Stratholme
+				ach(500, {	-- Heroic: The Culling of Stratholme
 					crit(6805, {	-- Meathook
 						["_encounter"] = { 611, DIFFICULTY.DUNGEON.HEROIC },
 					}),

@@ -951,7 +951,7 @@ root(ROOTS.Zones, {
 						["lockCriteria"] = { 1, "factionID", 1011.6 },	-- Lower City, Honored
 						-- #endif
 						["groups"] = {
-							i(31800,  {  -- Outcasts Cache
+							i(31800, {  -- Outcasts Cache
 								["sym"] = {{"fill"}},	-- fill with Sourced content for this Item since reward of repeatable quest
 							}),
 						},
@@ -1018,7 +1018,7 @@ root(ROOTS.Zones, {
 						["cost"] = { { "i", 25719, 30 } },	-- 30x Arakkoa Feather
 						["repeatable"] = true,
 						["groups"] = {
-							i(31800,  {  -- Outcasts Cache
+							i(31800, {  -- Outcasts Cache
 								["sym"] = {{"fill"}},	-- fill with Sourced content for this Item since reward of repeatable quest
 							}),
 						},
@@ -1241,12 +1241,12 @@ root(ROOTS.Zones, {
 							}),
 						},
 					})),
-					q(10917,  {  -- The Outcast's Plight
+					q(10917, {  -- The Outcast's Plight
 						["qg"] = 22429,	-- Vekax
 						["coord"] = { 47.7, 18.8, SHATTRATH_CITY },
 						["cost"] = { { "i", 25719, 30 } },	-- 30x Arakkoa Feather
 						["groups"] = {
-							i(31800,  {  -- Outcasts Cache
+							i(31800, {  -- Outcasts Cache
 								i(28495),	-- Windwalker's Sash
 								i(28496),	-- Talonite's Belt
 								i(28497),	-- Dreadhawk's Girdle

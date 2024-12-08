@@ -85,7 +85,7 @@ root(ROOTS.Zones, {
 			},
 			["groups"] = {
 				n(ACHIEVEMENTS, {
-					ach(9678,  {	-- Ancient No More
+					ach(9678, {	-- Ancient No More
 						["sym"] = {{ "achievement_criteria" }},
 					}),
 					ach(9667),		-- Burn It to the Ground (Everbloom Wilds)
@@ -93,7 +93,7 @@ root(ROOTS.Zones, {
 					ach(9655, {		-- Fight the Power (The Pit)
 						["sym"] = {{ "achievement_criteria" }},
 					}),
-					ach(9656,  {	-- In Plain Sight (The Pit)
+					ach(9656, {	-- In Plain Sight (The Pit)
 						["coords"] = {
 							{ 45.8, 27.2, GORGROND },
 							{ 48.2, 27.0, GORGROND },
@@ -140,7 +140,7 @@ root(ROOTS.Zones, {
 							["coord"] = { 58.0, 63.6, GORGROND },
 						}),
 					}),
-					ach(9607,  {	-- Make It a Bonus
+					ach(9607, {	-- Make It a Bonus
 						["sym"] = {{ "achievement_criteria" }},
 					}),
 					ach(9654),		-- Mean and Green (Everbloom Wilds)
@@ -158,18 +158,18 @@ root(ROOTS.Zones, {
 							{ 69.8, 43.9, GORGROND },	-- Pillar of Creation
 						},
 					}),
-					ach(9402,  {	-- Prove Your Strength
+					ach(9402, {	-- Prove Your Strength
 						["sym"] = {{ "achievement_criteria" }},
 					}),
-					ach(8923,  {	-- Putting the Gore in Gorgrond (A) (unlocks ability to buy Gorgrond Treasure Map from Grakis in Stormshield)
+					ach(8923, {	-- Putting the Gore in Gorgrond (A) (unlocks ability to buy Gorgrond Treasure Map from Grakis in Stormshield)
 						["races"] = ALLIANCE_ONLY,
 						["sym"] = {{ "achievement_criteria" }},
 					}),
-					ach(8924,  {	-- Putting the Gore in Gorgrond (H)
+					ach(8924, {	-- Putting the Gore in Gorgrond (H)
 						["races"] = HORDE_ONLY,
 						["sym"] = {{ "achievement_criteria" }},
 					}),
-					ach(9564,  {	-- Securing Draenor (A)
+					ach(9564, {	-- Securing Draenor (A)
 						["collectible"] = false,
 						["races"] = ALLIANCE_ONLY,
 						["g"] = {
@@ -177,7 +177,7 @@ root(ROOTS.Zones, {
 							crit(26249),	-- Assault on the Everbloom Wilds
 						},
 					}),
-					ach(9562,  {	-- Securing Draenor (H)
+					ach(9562, {	-- Securing Draenor (H)
 						["collectible"] = false,
 						["races"] = HORDE_ONLY,
 						["g"] = {
@@ -328,8 +328,8 @@ root(ROOTS.Zones, {
 						34223 - Creature Treasure: Iron Horde Stable Master
 						34411 - Creature Treasure: King Slime
 					]]--
-					n(-358,  {	-- Lumber Yard
-						q(36523,  {	-- A Green Ogron? (A)
+					n(-358, {	-- Lumber Yard
+						q(36523, {	-- A Green Ogron? (A)
 							["provider"] = { "n", 81601 },	-- Burrian Coalpart
 							["races"] = ALLIANCE_ONLY,
 							["coord"] = { 42.1, 83.4, GORGROND },
@@ -341,7 +341,7 @@ root(ROOTS.Zones, {
 								i(112593),	-- Wildwood Wrangler Sabatons
 							},
 						}),
-						q(36482,  {	-- A Green Ogron? (H)
+						q(36482, {	-- A Green Ogron? (H)
 							["provider"] = { "n", 82274 },	-- Cutter
 							["races"] = HORDE_ONLY,
 							["sourceQuest"] = 35430,	-- Cutter
@@ -352,7 +352,7 @@ root(ROOTS.Zones, {
 								i(112593),	-- Wildwood Wrangler Sabatons
 							},
 						}),
-						q(35225,  {	-- A Heavy Helping Hand
+						q(35225, {	-- A Heavy Helping Hand
 							["provider"] = { "n", 81588 },	-- Thaelin Darkanvil
 							["coord"] = { 46.0, 76.8, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -361,13 +361,13 @@ root(ROOTS.Zones, {
 								35209,	-- The Life Spring
 							},
 						}),
-						q(35205,  {	-- Burn the Bodies
+						q(35205, {	-- Burn the Bodies
 							["provider"] = { "n", 81601 },	-- Burrian Coalpart
 							["races"] = ALLIANCE_ONLY,
 							["coord"] = { 42.1, 83.4, GORGROND },
 							["sourceQuest"] = 35208,	-- Dark Iron Down
 						}),
-						q(35206,  {	-- Bushwhacker (A)
+						q(35206, {	-- Bushwhacker (A)
 							["provider"] = { "n", 81590 },	-- Yrel
 							["coord"] = { 46.0, 76.6, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -385,7 +385,7 @@ root(ROOTS.Zones, {
 								i(112859),	-- Botani Tender's Seal
 							},
 						}),
-						q(35432,  {	-- Bushwhacker (H)
+						q(35432, {	-- Bushwhacker (H)
 							["coord"] = { 46.5, 71.4, GORGROND },
 							["races"] = HORDE_ONLY,
 							["providers"] = {
@@ -404,43 +404,43 @@ root(ROOTS.Zones, {
 								i(112859),	-- Botani Tender's Seal
 							},
 						}),
-						q(35654,  {	-- Chapter I: Plant Food (A)
+						q(35654, {	-- Chapter I: Plant Food (A)
 							["provider"] = { "n", 82569 },	-- Frenna
 							["coord"] = { 57.0, 71.9, GORGROND },
 							["races"] = ALLIANCE_ONLY,
 							["sourceQuest"] = 35505,	-- Lost Lumberjack
 						}),
-						q(35508,  {	-- Chapter I: Plant Food (H)
+						q(35508, {	-- Chapter I: Plant Food (H)
 							["provider"] = { "n", 82569 },	-- Frenna
 							["coord"] = { 57.0, 71.9, GORGROND },
 							["races"] = HORDE_ONLY,
 							["sourceQuest"] = 35505,	-- Lost Lumberjack
 						}),
-						q(35651,  {	-- Chapter II: The Harvest (A)
+						q(35651, {	-- Chapter II: The Harvest (A)
 							["provider"] = { "n", 82569 },	-- Frenna
 							["coord"] = { 57.0, 71.9, GORGROND },
 							["races"] = ALLIANCE_ONLY,
 							["sourceQuest"] = 35505,	-- Lost Lumberjack
 						}),
-						q(35527,  {	-- Chapter II: The Harvest (H)
+						q(35527, {	-- Chapter II: The Harvest (H)
 							["provider"] = { "n", 82569 },	-- Frenna
 							["coord"] = { 57.0, 71.9, GORGROND },
 							["races"] = HORDE_ONLY,
 							["sourceQuest"] = 35505,	-- Lost Lumberjack
 						}),
-						q(35650,  {	-- Chapter III: Ritual of the Charred (A)
+						q(35650, {	-- Chapter III: Ritual of the Charred (A)
 							["provider"] = { "n", 82569 },	-- Frenna
 							["coord"] = { 57.0, 71.9, GORGROND },
 							["races"] = ALLIANCE_ONLY,
 							["sourceQuest"] = 35505,	-- Lost Lumberjack
 						}),
-						q(35524,  {	-- Chapter III: Ritual of the Charred (H)
+						q(35524, {	-- Chapter III: Ritual of the Charred (H)
 							["provider"] = { "n", 82569 },	-- Frenna
 							["coord"] = { 57.0, 71.9, GORGROND },
 							["races"] = HORDE_ONLY,
 							["sourceQuest"] = 35505,	-- Lost Lumberjack
 						}),
-						q(35207,  {	-- Coalpart's Revenge
+						q(35207, {	-- Coalpart's Revenge
 							["provider"] = { "n", 81601 },	-- Burrian Coalpart
 							["coord"] = { 42.9, 82.6, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -449,7 +449,7 @@ root(ROOTS.Zones, {
 								35205,	-- Burn the Bodies
 							},
 						}),
-						q(35433,  {	-- Cut Them Down
+						q(35433, {	-- Cut Them Down
 							["provider"] = { "n", 82233 },	-- Draka
 							["coord"] = { 42.0, 85.8, GORGROND },
 							["races"] = HORDE_ONLY,
@@ -459,7 +459,7 @@ root(ROOTS.Zones, {
 								35536,	-- Secrets of the Botani
 							}
 						}),
-						q(35430,  {	-- Cutter
+						q(35430, {	-- Cutter
 							["provider"] = { "n", 74606 },	-- Kaz the Shrieker
 							["coord"] = { 46.5, 71.5, GORGROND },
 							["races"] = HORDE_ONLY,
@@ -468,7 +468,7 @@ root(ROOTS.Zones, {
 								35406,  -- Super Seeds (H)
 							},
 						}),
-						q(35208,  {	-- Dark Iron Down
+						q(35208, {	-- Dark Iron Down
 							["provider"] = { "n", 81588 },	-- Thaelin Darkanvil
 							["coord"] = { 46.0, 76.8, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -477,7 +477,7 @@ root(ROOTS.Zones, {
 								35215,	-- The Voice of Iyu
 							},
 						}),
-						q(35212,  {	-- Deeproot
+						q(35212, {	-- Deeproot
 							["provider"] = { "n", 75136 },	-- Thaelin Darkanvil
 							["coord"] = { 53.0, 59.7, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -493,7 +493,7 @@ root(ROOTS.Zones, {
 								35434,	-- The Life Spring
 							},
 						}),
-						q(35229,  {	-- Down the Goren Hole (A)
+						q(35229, {	-- Down the Goren Hole (A)
 							["provider"] = { "n", 75710 },	-- Hansel Heavyhands
 							["coord"] = { 47.5, 94.0, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -509,7 +509,7 @@ root(ROOTS.Zones, {
 								i(112873),	-- Abandoned Dark Iron Staff
 							},
 						}),
-						q(35507,  {	-- Down the Goren Hole (H)
+						q(35507, {	-- Down the Goren Hole (H)
 							["provider"] = { "n", 85601 },	-- Cutter
 							["coord"] = { 46.4, 93.5, GORGROND },
 							["races"] = HORDE_ONLY,
@@ -525,7 +525,7 @@ root(ROOTS.Zones, {
 								i(112873),	-- Abandoned Dark Iron Staff
 							},
 						}),
-						q(35652,  {	-- Growing Wood (A)
+						q(35652, {	-- Growing Wood (A)
 							["provider"] = { "n", 82575 },	-- Glirin
 							["coord"] = { 55.9, 71.5, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -537,7 +537,7 @@ root(ROOTS.Zones, {
 								i(112618),	-- Wildwood Wrangler Wristwraps
 							},
 						}),
-						q(35506,  {	-- Growing Wood (H)
+						q(35506, {	-- Growing Wood (H)
 							["provider"] = { "n", 82574 },	-- Penny Clobberbottom
 							["races"] = HORDE_ONLY,
 							["sourceQuest"] = 35707,	-- Tangleheart
@@ -548,7 +548,7 @@ root(ROOTS.Zones, {
 								i(112618),	-- Wildwood Wrangler Wristwraps
 							},
 						}),
-						q(35235,  {	-- Iyu (A)
+						q(35235, {	-- Iyu (A)
 							["provider"] = { "n", 81751 },	-- Hansel Heavyhands
 							["coord"] = { 50.1, 22.2, 545 },
 							["races"] = ALLIANCE_ONLY,
@@ -564,7 +564,7 @@ root(ROOTS.Zones, {
 								i(112589),	-- Wildwood Wrangler Vest
 							},
 						}),
-						q(35510,  {	-- Iyu (H)
+						q(35510, {	-- Iyu (H)
 							["provider"] = { "n", 82334 },	-- Cutter
 							["coord"] = { 49.9, 22.5, 545 },
 							["races"] = HORDE_ONLY,
@@ -580,13 +580,13 @@ root(ROOTS.Zones, {
 								i(112589),	-- Wildwood Wrangler Vest
 							},
 						}),
-						q(35233,  {	-- Just In Case
+						q(35233, {	-- Just In Case
 							["provider"] = { "n", 75710 },	-- Hansel Heavyhands
 							["coord"] = { 47.5, 94.0, GORGROND },
 							["races"] = ALLIANCE_ONLY,
 							["sourceQuest"] = 35225,	-- A Heavy Helping Hand
 						}),
-						q(35511,  {	-- Kaz the Shrieker
+						q(35511, {	-- Kaz the Shrieker
 							["provider"] = { "n", 82338 },	-- Kaz the Shrieker
 							["coord"] = { 47.8, 93.3, GORGROND },
 							["races"] = HORDE_ONLY,
@@ -595,19 +595,19 @@ root(ROOTS.Zones, {
 								follower(159),	-- Kaz the Shrieker
 							},
 						}),
-						q(36368,  {	-- Lost Lumberjack (A)
+						q(36368, {	-- Lost Lumberjack (A)
 							["provider"] = { "n", 82575 },	-- Glirin
 							["coord"] = { 55.9, 71.5, GORGROND },
 							["races"] = ALLIANCE_ONLY,
 							["sourceQuest"] = 35708,	-- Tangleheart
 						}),
-						q(35505,  {	-- Lost Lumberjack (H)
+						q(35505, {	-- Lost Lumberjack (H)
 							["provider"] = { "n", 84811 },	-- Thuldren
 							["coord"] = { 55.9, 71.5, GORGROND },
 							["races"] = HORDE_ONLY,
 							["sourceQuest"] = 35707,	-- Tangleheart
 						}),
-						q(36828,  {	-- Lumber, I Hardly Knew 'Er
+						q(36828, {	-- Lumber, I Hardly Knew 'Er
 							["provider"] = { "n", 85119 },	-- Glirin
 							["coord"] = { 53.0, 59.8, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -616,7 +616,7 @@ root(ROOTS.Zones, {
 								follower(211),	-- Glirin
 							},
 						}),
-						q(35399,  {	-- Mossy Fate
+						q(35399, {	-- Mossy Fate
 							["provider"] = { "n", 74606 },	-- Kaz the Shrieker
 							["coord"] = { 46.5, 71.5, GORGROND },
 							["races"] = HORDE_ONLY,
@@ -628,7 +628,7 @@ root(ROOTS.Zones, {
 								i(112614),	-- Wildwood Wrangler Belt
 							},
 						}),
-						q(36812,  {	-- Penny For Your Thoughts
+						q(36812, {	-- Penny For Your Thoughts
 							["provider"] = { "n", 85077 },	-- Penny Clobberbottom
 							["races"] = HORDE_ONLY,
 							["sourceQuests"] = {
@@ -641,7 +641,7 @@ root(ROOTS.Zones, {
 								follower(211),	-- Penny Clobberbottom
 							},
 						}),
-						q(35204,  {	-- Pollen Power (A)
+						q(35204, {	-- Pollen Power (A)
 							["provider"] = { "n", 81589 },	-- Rangari Kaalya
 							["coord"] = { 46.1, 76.6, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -650,7 +650,7 @@ root(ROOTS.Zones, {
 								35215,	-- The Voice of Iyu
 							},
 						}),
-						q(35429,  {	-- Pollen Power (H)
+						q(35429, {	-- Pollen Power (H)
 							["provider"] = { "n", 74606 },	-- Kaz the Shrieker
 							["coord"] = { 46.5, 71.5, GORGROND },
 							["races"] = HORDE_ONLY,
@@ -659,19 +659,19 @@ root(ROOTS.Zones, {
 								35402,	-- The Voice of Iyu
 							},
 						}),
-						q(35255,  {	-- Power of the Genesaur (A)
+						q(35255, {	-- Power of the Genesaur (A)
 							["provider"] = { "n", 75878 },	-- Yrel
 							["coord"] = { 47.7, 93.3, GORGROND },
 							["races"] = ALLIANCE_ONLY,
 							["sourceQuest"] = 35235,	-- Iyu
 						}),
-						q(35416,  {	-- Power of the Genesaur (H)
+						q(35416, {	-- Power of the Genesaur (H)
 							["provider"] = { "n", 82337 },	-- Draka
 							["coord"] = { 47.7, 93.3, GORGROND },
 							["races"] = HORDE_ONLY,
 							["sourceQuest"] = 35510,	-- Iyu
 						}),
-						q(35536,  {	-- Secrets of the Botani
+						q(35536, {	-- Secrets of the Botani
 							["provider"] = { "n", 82274 },	-- Cutter
 							["coord"] = { 42.7, 80.5, GORGROND },
 							["races"] = HORDE_ONLY,
@@ -680,7 +680,7 @@ root(ROOTS.Zones, {
 								35487,	-- We Burn the Dead
 							},
 						}),
-						q(35262,  {	-- Service of Rangari Kaalya
+						q(35262, {	-- Service of Rangari Kaalya
 							["provider"] = { "n", 81772 },	-- Rangari Kaalya
 							["coord"] = { 47.8, 93.3, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -689,7 +689,7 @@ root(ROOTS.Zones, {
 								follower(159),	-- Rangari Kaalya
 							},
 						}),
-						q(36439,  {	-- Shredder vs. Saberon (A)
+						q(36439, {	-- Shredder vs. Saberon (A)
 							["provider"] = { "n", 85432 },	-- Altauur
 							["coord"] = { 51.3, 47.9, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -699,7 +699,7 @@ root(ROOTS.Zones, {
 								36436,	-- Plant Pruning
 							},
 						}),
-						q(33663,  {	-- Shredder vs. Saberon (H)
+						q(33663, {	-- Shredder vs. Saberon (H)
 							["provider"] = { "n", 85089 },	-- Rakthoth
 							["coord"] = { 51.2, 48.0, GORGROND },
 							["races"] = HORDE_ONLY,
@@ -709,7 +709,7 @@ root(ROOTS.Zones, {
 								33689,	-- Plant Pruning
 							},
 						}),
-						q(36575,  {	-- Strike While the Iron is Hot (A)
+						q(36575, {	-- Strike While the Iron is Hot (A)
 							["provider"] = { "n", 75127 },	-- Vindicator Maraad
 							["races"] = ALLIANCE_ONLY,
 							["sourceQuests"] = {
@@ -725,7 +725,7 @@ root(ROOTS.Zones, {
 								i(112887),	-- Goc's Trophy
 							},
 						}),
-						q(36574,  {	-- Strike While the Iron is Hot (H)
+						q(36574, {	-- Strike While the Iron is Hot (H)
 							["races"] = HORDE_ONLY,
 							["sourceQuests"] = {
 								35508,	-- Chapter I: Plant Food
@@ -739,43 +739,43 @@ root(ROOTS.Zones, {
 								i(112887),	-- Goc's Trophy
 							},
 						}),
-						q(35216,  {	-- Super Seeds (A)
+						q(35216, {	-- Super Seeds (A)
 							["provider"] = { "o", 235129 },	-- Enriched Seeds
 							["coord"] = { 49.4, 70.9, GORGROND },
 							["races"] = ALLIANCE_ONLY,
 							["sourceQuest"] = 35063,	-- We Need an Outpost
 						}),
-						q(35406,  {	-- Super Seeds (H)
+						q(35406, {	-- Super Seeds (H)
 							["provider"] = { "o", 235129 },	-- Enriched Seeds
 							["coord"] = { 49.4, 70.9, GORGROND },
 							["races"] = HORDE_ONLY,
 							["sourceQuest"] = 35151,	-- Your Base, Your Choice
 						}),
-						q(35708,  {	-- Tangleheart (A)
+						q(35708, {	-- Tangleheart (A)
 							["provider"] = { "n", 85119 },	-- Glirin
 							["coord"] = { 53.0, 59.8, GORGROND },
 							["races"] = ALLIANCE_ONLY,
 							["sourceQuest"] = 35063,	-- We Need an Outpost
 						}),
-						q(35707,  {	-- Tangleheart (H)
+						q(35707, {	-- Tangleheart (H)
 							["provider"] = { "n", 85077 },	-- Penny Clobberbottom
 							["coord"] = { 46.3, 69.6, GORGROND },
 							["races"] = HORDE_ONLY,
 							["sourceQuest"] = 35151,	-- Your Base, Your Choice
 						}),
-						q(35214,  {	-- The Infested (A)
+						q(35214, {	-- The Infested (A)
 							["provider"] = { "n", 81589 },	-- Rangari Kaalya
 							["coord"] = { 46.1, 76.6, GORGROND },
 							["races"] = ALLIANCE_ONLY,
 							["sourceQuest"] = 35063,	-- We Need an Outpost
 						}),
-						q(35400,  {	-- The Infested (H)
+						q(35400, {	-- The Infested (H)
 							["provider"] = { "n", 74593 },	-- Draka
 							["coord"] = { 46.5, 71.4, GORGROND },
 							["races"] = HORDE_ONLY,
 							["sourceQuest"] = 36474,	-- The Razorbloom
 						}),
-						q(35209,  {	-- The Life Spring (A)
+						q(35209, {	-- The Life Spring (A)
 							["provider"] = { "n", 81601 },	-- Burrian Coalpart
 							["coord"] = { 39.7, 81.2, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -788,7 +788,7 @@ root(ROOTS.Zones, {
 								i(118010),	-- Waterworn Ogre Carving
 							},
 						}),
-						q(35434,  {	-- The Life Spring (H)
+						q(35434, {	-- The Life Spring (H)
 							["provider"] = { "n", 82228 },	-- Kaz the Shrieker
 							["coord"] = { 42.0, 85.9, GORGROND },
 							["races"] = HORDE_ONLY,
@@ -805,7 +805,7 @@ root(ROOTS.Zones, {
 								i(118010),	-- Waterworn Ogre Carving
 							},
 						}),
-						q(35213,  {	-- The Razorbloom (A)
+						q(35213, {	-- The Razorbloom (A)
 							["provider"] = { "n", 81588 },	-- Thaelin Darkanvil
 							["coord"] = { 46.0, 76.8, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -820,25 +820,25 @@ root(ROOTS.Zones, {
 								i(112614),	-- Wildwood Wrangler Belt
 							},
 						}),
-						q(36474,  {	-- The Razorbloom (H)
+						q(36474, {	-- The Razorbloom (H)
 							["provider"] = { "n", 74594 },	-- Durotan
 							["coord"] = { 46.0, 70.1, GORGROND },
 							["races"] = HORDE_ONLY,
 							["sourceQuest"] = 35151,	-- Your Base, Your Choice
 						}),
-						q(35215,  {	-- The Voice of Iyu (A)
+						q(35215, {	-- The Voice of Iyu (A)
 							["provider"] = { "o", 231903 },	-- Razzlebeard's Report
 							["coord"] = { 47.6, 72.7, GORGROND },
 							["races"] = ALLIANCE_ONLY,
 							["sourceQuest"] = 35063,	-- We Need an Outpost
 						}),
-						q(35402,  {	-- The Voice of Iyu (H)
+						q(35402, {	-- The Voice of Iyu (H)
 							["provider"] = { "n", 74606 },	-- Kaz the Shrieker
 							["coord"] = { 46.5, 71.5, GORGROND },
 							["races"] = HORDE_ONLY,
 							["sourceQuest"] = 36474,	-- The Razorbloom
 						}),
-						q(36488,  {	-- Thieving Dwarves
+						q(36488, {	-- Thieving Dwarves
 							["provider"] = { "n", 82228 },	-- Kaz the Shrieker
 							["coord"] = { 42.0, 85.9, GORGROND },
 							["races"] = HORDE_ONLY,
@@ -847,13 +847,13 @@ root(ROOTS.Zones, {
 								35434,	-- The Life Spring
 							},
 						}),
-						q(35234,  {	-- Will of the Genesaur (A)
+						q(35234, {	-- Will of the Genesaur (A)
 							["provider"] = { "n", 75710 },	-- Hansel Heavyhands
 							["coord"] = { 47.5, 94.0, GORGROND },
 							["races"] = ALLIANCE_ONLY,
 							["sourceQuest"] = 35225,	-- A Heavy Helping Hand
 						}),
-						q(35509,  {	-- Will of the Genesaur (H)
+						q(35509, {	-- Will of the Genesaur (H)
 							["provider"] = { "n", 85601 },	-- Cutter
 							["coord"] = { 46.4, 93.5, GORGROND },
 							["races"] = HORDE_ONLY,
@@ -861,18 +861,18 @@ root(ROOTS.Zones, {
 						}),
 						n(BONUS_OBJECTIVES, {
 							-- TODO: Check SQ, also probably can't do after a certain level
-							q(36473,  {	-- Affliction Ridge
+							q(36473, {	-- Affliction Ridge
 								["coord"] = { 47.1, 64.4, GORGROND },
 								["sourceQuest"] = 35151,	-- Your Base, Your Choice
 							}),
-							q(36476,  {	-- South Gronn Canyon
+							q(36476, {	-- South Gronn Canyon
 								["coord"] = { 45.1, 52.1, GORGROND },
 								["sourceQuests"] = {
 									35063,	-- We Need an Outpost
 									35151,	-- Your Base, Your Choice
 								},
 							}),
-							q(36566,  {	-- Stonemaul Arena
+							q(36566, {	-- Stonemaul Arena
 								["coord"] = { 39.9, 66.4, GORGROND },
 								["sourceQuests"] = {
 									35063,	-- We Need an Outpost
@@ -881,8 +881,8 @@ root(ROOTS.Zones, {
 							}),
 						}),
 					}),
-					n(-357,  {	-- Sparring Arena
-						q(35210,  {	-- A Great Escape
+					n(-357, {	-- Sparring Arena
+						q(35210, {	-- A Great Escape
 							["provider"] = { "o", 236140 },	-- Goren Tunnel
 							["coord"] = { 34.7, 66.9, 547 },
 							["description"] = "Available once you complete the objectives for |cFFFFD700Fair Warning|r and |cFFFFD700Leave Every Solder Behind|r.",
@@ -892,7 +892,7 @@ root(ROOTS.Zones, {
 								35129,	-- Leave Every Soldier Behind
 							},
 						}),
-						q(35693,  {	-- A Harsh Reminder (A)
+						q(35693, {	-- A Harsh Reminder (A)
 							["provider"] = { "n", 82610 },	-- Rangari Erdanii
 							["coord"] = { 46.2, 66.6, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -904,7 +904,7 @@ root(ROOTS.Zones, {
 								i(112614),	-- Wildwood Wrangler Belt
 							},
 						}),
-						q(35248,  {	-- A Harsh Reminder (H)
+						q(35248, {	-- A Harsh Reminder (H)
 							["provider"] = { "n", 81202 },	-- Bony Xuk
 							["coord"] = { 43.5, 65.0, GORGROND },
 							["races"] = HORDE_ONLY,
@@ -916,19 +916,19 @@ root(ROOTS.Zones, {
 								i(112614),	-- Wildwood Wrangler Belt
 							},
 						}),
-						q(34704,  {	-- A Rediscovered Legend (A)
+						q(34704, {	-- A Rediscovered Legend (A)
 							["provider"] = { "n", 81076 },	-- Rangari Jonaa
 							["coord"] = { 52.8, 59.8, GORGROND },
 							["races"] = ALLIANCE_ONLY,
 							["sourceQuest"] = 35063,	-- We Need an Outpost
 						}),
-						q(34697,  {	-- A Rediscovered Legend (H)
+						q(34697, {	-- A Rediscovered Legend (H)
 							["provider"] = { "n", 76688 },	-- Limbflayer
 							["coord"] = { 46.3, 69.7, GORGROND },
 							["races"] = HORDE_ONLY,
 							["sourceQuest"] = 35151,	-- Your Base, Your Choice
 						}),
-						q(35037,  {	-- Bad at Breaking
+						q(35037, {	-- Bad at Breaking
 							["provider"] = { "n", 80856 },	-- Rexxar
 							["coord"] = { 46.0, 54.7, GORGROND },
 							["sourceQuests"] = {
@@ -942,7 +942,7 @@ root(ROOTS.Zones, {
 								i(112593),	-- Wildwood Wrangler Sabatons
 							},
 						}),
-						q(35870,  {	-- Basilisk Butcher
+						q(35870, {	-- Basilisk Butcher
 							["provider"] = { "n", 82832 },	-- Rexxar
 							["coord"] = { 44.2, 61.6, GORGROND },
 							["sourceQuest"] = 35730,	-- Cauterizing Wounds
@@ -950,7 +950,7 @@ root(ROOTS.Zones, {
 								i(113504),	-- Basilisk Meat (QI!)
 							},
 						}),
-						q(36438,  {	-- Beatface vs. Boulder (A)
+						q(36438, {	-- Beatface vs. Boulder (A)
 							["provider"] = { "n", 85432 },	-- Altauur
 							["coord"] = { 51.3, 47.9, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -960,7 +960,7 @@ root(ROOTS.Zones, {
 								36436,	-- Plant Pruning
 							},
 						}),
-						q(33662,  {	-- Beatface vs. Boulder (H)
+						q(33662, {	-- Beatface vs. Boulder (H)
 							["provider"] = { "n", 85089 },	-- Rakthoth
 							["coord"] = { 51.2, 48.0, GORGROND },
 							["races"] = HORDE_ONLY,
@@ -970,7 +970,7 @@ root(ROOTS.Zones, {
 								33689,	-- Plant Pruning
 							},
 						}),
-						q(35730,  {	-- Cauterizing Wounds
+						q(35730, {	-- Cauterizing Wounds
 							["provider"] = { "n", 82832 },	-- Rexxar
 							["coord"] = { 44.2, 61.6, GORGROND },
 							["sourceQuests"] = {
@@ -983,7 +983,7 @@ root(ROOTS.Zones, {
 								}),
 							},
 						}),
-						q(35702,  {	-- Chains of Iron (A)
+						q(35702, {	-- Chains of Iron (A)
 							["provider"] = { "n", 84131 },	-- Rexxar
 							["coord"] = { 43.9, 48.8, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -998,7 +998,7 @@ root(ROOTS.Zones, {
 								i(112589),	-- Wildwood Wrangler Vest
 							},
 						}),
-						q(35136,  {	-- Chains of Iron (H)
+						q(35136, {	-- Chains of Iron (H)
 							["provider"] = { "n", 84131 },	-- Rexxar
 							["coord"] = { 43.9, 48.8, GORGROND },
 							["races"] = HORDE_ONLY,
@@ -1010,7 +1010,7 @@ root(ROOTS.Zones, {
 								i(112589),	-- Wildwood Wrangler Vest
 							},
 						}),
-						q(35139,  {	-- Eye in the Sky
+						q(35139, {	-- Eye in the Sky
 							["provider"] = { "n", 84131 },	-- Rexxar
 							["coord"] = { 43.9, 48.8, GORGROND },
 							["sourceQuests"] = {
@@ -1019,7 +1019,7 @@ root(ROOTS.Zones, {
 								35129,	-- Leave Every Soldier Behind
 							},
 						}),
-						q(35128,  {	-- Fair Warning
+						q(35128, {	-- Fair Warning
 							["provider"] = { "n", 80856 },	-- Rexxar
 							["coord"] = { 46.0, 54.7, GORGROND },
 							["sourceQuests"] = {
@@ -1046,7 +1046,7 @@ root(ROOTS.Zones, {
 								follower(212),	-- Spirit of Bony Xuk
 							},
 						}),
-						q(34699,  {	-- Getting Gladiators
+						q(34699, {	-- Getting Gladiators
 							["provider"] = { "n", 79322 },	-- Gladiator Akaani
 							["coord"] = { 42.7, 62.9, GORGROND },
 							["sourceQuests"] = {
@@ -1060,7 +1060,7 @@ root(ROOTS.Zones, {
 								i(112618),	-- Wildwood Wrangler Wristwraps
 							},
 						}),
-						q(36210,  {	-- Hard Shell
+						q(36210, {	-- Hard Shell
 							["provider"] = { "n", 82610 },	-- Rangari Erdanii
 							["coord"] = { 46.1, 55.0, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -1069,7 +1069,7 @@ root(ROOTS.Zones, {
 								i(112786),	-- Goren Shell (QI!)
 							},
 						}),
-						q(35218,  {	-- Iron Horde Orders
+						q(35218, {	-- Iron Horde Orders
 							["provider"] = { "n", 80856 },	-- Rexxar
 							["coord"] = { 46.0, 54.7, GORGROND },
 							["isBreadcrumb"] = true,
@@ -1078,7 +1078,7 @@ root(ROOTS.Zones, {
 								35934,	-- Nisha's Vengeance
 							},
 						}),
-						q(36508,  {	-- Is This One of Yours? (A)
+						q(36508, {	-- Is This One of Yours? (A)
 							["provider"] = { "n", 83569 },	-- Rexxar
 							["coord"] = { 46.0, 54.7, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -1088,7 +1088,7 @@ root(ROOTS.Zones, {
 								35026,	-- On the Mend
 							},
 						}),
-						q(35036,  {	-- Is This One of Yours? (H)
+						q(35036, {	-- Is This One of Yours? (H)
 							["provider"] = { "n", 83569 },	-- Rexxar
 							["coord"] = { 46.0, 54.7, GORGROND },
 							["races"] = HORDE_ONLY,
@@ -1098,7 +1098,7 @@ root(ROOTS.Zones, {
 								35026,	-- On the Mend
 							},
 						}),
-						q(34702,  {	-- Krav'ogra
+						q(34702, {	-- Krav'ogra
 							["provider"] = { "n", 79331 },	-- Beatface
 							["coord"] = { 42.6, 63.0, GORGROND },
 							["sourceQuests"] = {
@@ -1106,7 +1106,7 @@ root(ROOTS.Zones, {
 								34697,	-- A Rediscovered Legend (H)
 							},
 						}),
-						q(36223,  {	-- Leave Every Soldier Behind (A)
+						q(36223, {	-- Leave Every Soldier Behind (A)
 							["provider"] = { "n", 82610 },	-- Rangari Erdanii
 							["coord"] = { 46.1, 55.0, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -1117,13 +1117,13 @@ root(ROOTS.Zones, {
 								}),
 							},
 						}),
-						q(35129,  {	-- Leave Every Soldier Behind (H)
+						q(35129, {	-- Leave Every Soldier Behind (H)
 							["provider"] = { "n", 80856 },	-- Rexxar
 							["coord"] = { 46.0, 54.7, GORGROND },
 							["races"] = HORDE_ONLY,
 							["sourceQuest"] = 35041,	-- Xuk It!
 						}),
-						q(36833,  {	-- May I Be of Service?
+						q(36833, {	-- May I Be of Service?
 							["provider"] = { "n", 85278 },	-- Rangari Erdanii
 							["coord"] = { 53.3, 59.7, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -1132,7 +1132,7 @@ root(ROOTS.Zones, {
 								follower(212),	-- Rangari Erdanii
 							},
 						}),
-						q(34700,  {	-- Nazgrel
+						q(34700, {	-- Nazgrel
 							["provider"] = { "n", 79320 },	-- Kash'drakor
 							["coord"] = { 42.7, 63.0, GORGROND },
 							["sourceQuests"] = {
@@ -1140,7 +1140,7 @@ root(ROOTS.Zones, {
 								34697,	-- A Rediscovered Legend (H)
 							},
 						}),
-						q(34012,  {	-- Need More Teeth
+						q(34012, {	-- Need More Teeth
 							["provider"] = { "n", 75008 },	-- Prowler Sasha
 							["coord"] = { 41.4, 66.1, GORGROND },
 							["sourceQuests"] = {
@@ -1151,7 +1151,7 @@ root(ROOTS.Zones, {
 								i(108898),	-- Ogre Tooth (QI!)
 							},
 						}),
-						q(35934,  {	-- Nisha's Vengeance
+						q(35934, {	-- Nisha's Vengeance
 							["provider"] = { "n", 80856 },	-- Rexxar
 							["coord"] = { 46.0, 54.7, GORGROND },
 							["sourceQuests"] = {
@@ -1159,7 +1159,7 @@ root(ROOTS.Zones, {
 								35036,	-- Is This One of Yours? (H)
 							},
 						}),
-						q(35026,  {	-- On the Mend
+						q(35026, {	-- On the Mend
 							["provider"] = { "n", 82832 },	-- Rexxar
 							["coord"] = { 44.2, 61.6, GORGROND },
 							["sourceQuest"] = 35730,	-- Cauterizing Wounds
@@ -1172,19 +1172,19 @@ root(ROOTS.Zones, {
 								i(118038),	-- Steamfury Signet
 							},
 						}),
-						q(35686,  {	-- Rage and Wisdom (A)
+						q(35686, {	-- Rage and Wisdom (A)
 							["provider"] = { "n", 75127 },	-- Vindicator Maraad
 							["coord"] = { 52.8, 59.6, GORGROND },
 							["races"] = ALLIANCE_ONLY,
 							["sourceQuest"] = 35063,	-- We Need an Outpost
 						}),
-						q(35880,  {	-- Rage and Wisdom (H)
+						q(35880, {	-- Rage and Wisdom (H)
 							["provider"] = { "n", 74594 },	-- Durotan
 							["coord"] = { 46.0, 70.1, GORGROND },
 							["races"] = HORDE_ONLY,
 							["sourceQuest"] = 35151,	-- Your Base, Your Choice
 						}),
-						q(35664,  {	-- Seedbearers of Bad News (A)
+						q(35664, {	-- Seedbearers of Bad News (A)
 							["provider"] = { "n", 82610 },	-- Rangari Erdanii
 							["coord"] = { 46.2, 66.6, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -1193,13 +1193,13 @@ root(ROOTS.Zones, {
 								i(114967),	-- Torch (QI!)
 							},
 						}),
-						q(35035,  {	-- Seedbearers of Bad News (H)
+						q(35035, {	-- Seedbearers of Bad News (H)
 							["provider"] = { "n", 81202 },	-- Bony Xuk
 							["coord"] = { 43.5, 65.0, GORGROND },
 							["races"] = HORDE_ONLY,
 							["sourceQuest"] = 35880,	-- Rage and Wisdom
 						}),
-						q(34698,  {	-- Slave Hunters
+						q(34698, {	-- Slave Hunters
 							["provider"] = { "n", 79320 },	-- Kash'drakor
 							["coord"] = { 42.7, 63.0, GORGROND },
 							["sourceQuests"] = {
@@ -1212,7 +1212,7 @@ root(ROOTS.Zones, {
 								i(111528),	-- Pendant of Mol (QI!)
 							},
 						}),
-						q(36576,  {	-- Strike While the Iron is Hot (A)
+						q(36576, {	-- Strike While the Iron is Hot (A)
 							["provider"] = { "n", 75127 },	-- Vindicator Maraad
 							["coord"] = { 52.8, 59.6, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -1226,7 +1226,7 @@ root(ROOTS.Zones, {
 								i(112887),	-- Goc's Trophy
 							},
 						}),
-						q(36573,  {	-- Strike While the Iron is Hot (H)
+						q(36573, {	-- Strike While the Iron is Hot (H)
 							["provider"] = { "n", 74594 },	-- Durotan
 							["coord"] = { 46.1, 70.1, GORGROND },
 							["races"] = HORDE_ONLY,
@@ -1240,7 +1240,7 @@ root(ROOTS.Zones, {
 								i(112887),	-- Goc's Trophy
 							},
 						}),
-						q(34703,  {	-- The Axe of Kor'gall
+						q(34703, {	-- The Axe of Kor'gall
 							["provider"] = { "n", 77014 },	-- Bruto
 							["coord"] = { 36.8, 67.9, GORGROND },
 							["sourceQuest"] = 34699,	-- Getting Gladiators
@@ -1251,7 +1251,7 @@ root(ROOTS.Zones, {
 								i(112884),	-- Might of Kor'gall
 							},
 						}),
-						q(36208,  {	-- The Crystal Shard
+						q(36208, {	-- The Crystal Shard
 							["provider"] = { "n", 82610 },	-- Rangari Erdanii
 							["coord"] = { 46.1, 55.0, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -1265,7 +1265,7 @@ root(ROOTS.Zones, {
 								i(112865),	-- Xuk's Spirit-Speaking Chain
 							},
 						}),
-						q(35883,  {	-- The Fists of Vaandaam
+						q(35883, {	-- The Fists of Vaandaam
 							["provider"] = { "n", 79337 },	-- Pitfighter Vaandaam
 							["coord"] = { 42.8, 63.0, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -1274,7 +1274,7 @@ root(ROOTS.Zones, {
 								follower(176),	-- Pitfighter Vaandaam
 							},
 						}),
-						q(35925,  {	-- The Gronn Strategy
+						q(35925, {	-- The Gronn Strategy
 							["provider"] = { "o", 233391 },	-- Weaponization Orders
 							["icon"] = 133463,
 							["coord"] = { 47.7, 52.0, GORGROND },
@@ -1286,7 +1286,7 @@ root(ROOTS.Zones, {
 								i(116909),	-- Weaponization Orders
 							},
 						}),
-						q(35882,  {	-- The Interest of Bruto
+						q(35882, {	-- The Interest of Bruto
 							["provider"] = { "n", 77014 },	-- Bruto
 							["coord"] = { 42.8, 62.9, GORGROND },
 							["races"] = HORDE_ONLY,
@@ -1295,7 +1295,7 @@ root(ROOTS.Zones, {
 								follower(176),	-- Bruto
 							},
 						}),
-						q(35137,  {	-- The Sparring Arena (A)
+						q(35137, {	-- The Sparring Arena (A)
 							["provider"] = { "n", 79322 },	-- Gladiator Akaani
 							["coord"] = { 42.8, 63.0, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -1306,7 +1306,7 @@ root(ROOTS.Zones, {
 								34703,	-- The Axe of Kor'gall
 							},
 						}),
-						q(35152,  {	-- The Sparring Arena (H)
+						q(35152, {	-- The Sparring Arena (H)
 							["provider"] = { "n", 79320 },	-- Kash'drakor
 							["coord"] = { 42.7, 63.0, GORGROND },
 							["races"] = HORDE_ONLY,
@@ -1317,7 +1317,7 @@ root(ROOTS.Zones, {
 								34703,	-- The Axe of Kor'gall
 							},
 						}),
-						q(36107,  {	-- Trophy Hunter of Gorgrond (A)
+						q(36107, {	-- Trophy Hunter of Gorgrond (A)
 							["provider"] = { "n", 81076 },	-- Rangari Jonaa
 							["coord"] = { 52.8, 59.9, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -1335,7 +1335,7 @@ root(ROOTS.Zones, {
 								36098,	-- Proof of Strength: Wasp Stinger
 							},
 						}),
-						q(36108,  {	-- Trophy Hunter of Gorgrond (H)
+						q(36108, {	-- Trophy Hunter of Gorgrond (H)
 							["provider"] = { "n", 76688 },	-- Limbflayer
 							["coord"] = { 46.3, 69.7, GORGROND },
 							["races"] = HORDE_ONLY,
@@ -1353,7 +1353,7 @@ root(ROOTS.Zones, {
 								36101,	-- Proof of Strength: Wasp Stinger
 							},
 						}),
-						q(35665,  {	-- We Have Company (A)
+						q(35665, {	-- We Have Company (A)
 							["provider"] = { "n", 82610 },	-- Rangari Erdanii
 							["coord"] = { 44.9, 63.9, GORGROND },
 							["races"] = ALLIANCE_ONLY,
@@ -1362,7 +1362,7 @@ root(ROOTS.Zones, {
 								35664,	-- Seedbearers of Bad News
 							},
 						}),
-						q(35025,  {	-- We Have Company (H)
+						q(35025, {	-- We Have Company (H)
 							["provider"] = { "n", 81202 },	-- Bony Xuk
 							["coord"] = { 43.5, 65.0, GORGROND },
 							["races"] = HORDE_ONLY,
@@ -1384,7 +1384,7 @@ root(ROOTS.Zones, {
 								i(112865),	-- Xuk's Spirit-Speaking Chain
 							},
 						}),
-						q(36209,  {	-- What's Under There?
+						q(36209, {	-- What's Under There?
 							["provider"] = { "n", 82610 },	-- Rangari Erdanii
 							["coord"] = { 46.1, 55.0, GORGROND },
 							["races"] = ALLIANCE_ONLY,

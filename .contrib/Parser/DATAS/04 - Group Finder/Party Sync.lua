@@ -6,7 +6,7 @@ root(ROOTS.GroupFinder, n(PARTY_SYNC, bubbleDown({ ["timeline"] = { ADDED_8_2_5 
 	["description"] = "Rewarded from Quest while in Party Sync",
 	["g"] = {
 		i(171305, {	-- Salvaged Cache of Goods
-			cl(DEATHKNIGHT,  {
+			cl(DEATHKNIGHT, {
 				i(173566),	-- Bloodcaked Runeblade
 				i(173567),	-- Frost-Etched Runeblade
 				i(173578),	-- Heart-Lesion Breastplate
@@ -52,7 +52,7 @@ root(ROOTS.GroupFinder, n(PARTY_SYNC, bubbleDown({ ["timeline"] = { ADDED_8_2_5 
 				i(173593),	-- Springrain Bracers
 				i(173540),	-- Staff of Astral Alignment
 			}),
-			cl(EVOKER,  {
+			cl(EVOKER, {
 				i(203366),	-- Blue Winglord's Staff
 				i(203367),	-- Blue Winglord's Hauberk
 				i(203368),	-- Blue Winglord's Chain
@@ -63,7 +63,7 @@ root(ROOTS.GroupFinder, n(PARTY_SYNC, bubbleDown({ ["timeline"] = { ADDED_8_2_5 
 				i(203373),	-- Blue Winglord's Greaves
 				i(203374),	-- Blue Winglord's Shoulders
 			}),
-			cl(HUNTER,  {
+			cl(HUNTER, {
 				i(173569),	-- Marksman's Recurve Bow
 				i(173543),	-- Packmaster's Rifle
 				i(173570),	-- Survivalist's Hunting Spear
@@ -76,7 +76,7 @@ root(ROOTS.GroupFinder, n(PARTY_SYNC, bubbleDown({ ["timeline"] = { ADDED_8_2_5 
 				i(173599),	-- Trailseeker Spaulders
 				i(173594),	-- Trailseeker Vest
 			}),
-			cl(MAGE,  {
+			cl(MAGE, {
 				i(173544),	-- Frostcore Staff
 				i(173608),	-- Mountainsage Cord
 				i(173603),	-- Mountainsage Handwraps
@@ -102,7 +102,7 @@ root(ROOTS.GroupFinder, n(PARTY_SYNC, bubbleDown({ ["timeline"] = { ADDED_8_2_5 
 				i(173547),	-- Staff of the Jade Mist
 				i(173548),	-- Sword of Singing Wind
 			}),
-			cl(PALADIN,  {
+			cl(PALADIN, {
 				i(173574),	-- Defender's Bulwark
 				i(173550),	-- Defender's Longsword
 				i(173549),	-- Justicar's Hammer
@@ -117,7 +117,7 @@ root(ROOTS.GroupFinder, n(PARTY_SYNC, bubbleDown({ ["timeline"] = { ADDED_8_2_5 
 				i(173625),	-- Sunsoul Vambraces
 				i(173551),	-- Warhammer of Retribution
 			}),
-			cl(PRIEST,  {
+			cl(PRIEST, {
 				i(173552),	-- Staff of Dual Convictions
 				i(173553),	-- Staff of Radiance
 				i(173554),	-- Whispering Staff of the Void
@@ -130,7 +130,7 @@ root(ROOTS.GroupFinder, n(PARTY_SYNC, bubbleDown({ ["timeline"] = { ADDED_8_2_5 
 				i(173630),	-- Communal Robe
 				i(173632),	-- Communal Sash
 			}),
-			cl(ROGUE,  {
+			cl(ROGUE, {
 				i(173556),	-- Assassin's Serrated Dagger
 				i(173555),	-- Duskfall Daggers
 				i(173557),	-- Outlaw's Cutlass
@@ -143,7 +143,7 @@ root(ROOTS.GroupFinder, n(PARTY_SYNC, bubbleDown({ ["timeline"] = { ADDED_8_2_5 
 				i(173639),	-- Lightdrinker Shoulders
 				i(173640),	-- Lightdrinker Waistband
 			}),
-			cl(SHAMAN,  {
+			cl(SHAMAN, {
 				i(203370),	-- Blue Winglord's Bracers
 				i(173576),	-- Earthmender's Shield
 				i(173560),	-- Earthmender's Talons
@@ -158,7 +158,7 @@ root(ROOTS.GroupFinder, n(PARTY_SYNC, bubbleDown({ ["timeline"] = { ADDED_8_2_5 
 				i(173642),	-- Streamtalker Tunic
 				i(173559),	-- Talons of Totemic Might
 			}),
-			cl(WARLOCK,  {
+			cl(WARLOCK, {
 				i(173562),	-- Demonologist's Staff
 				i(173561),	-- Destructive Spellstaff
 				i(173656),	-- Felsoul Cord
@@ -171,7 +171,7 @@ root(ROOTS.GroupFinder, n(PARTY_SYNC, bubbleDown({ ["timeline"] = { ADDED_8_2_5 
 				i(173657),	-- Felsoul Wristwraps
 				i(173572),	-- Staff of Swelling Agony
 			}),
-			cl(WARRIOR,  {
+			cl(WARRIOR, {
 				i(173563),	-- Armsmaster's Greataxe
 				i(173564),	-- Greataxe of Fury
 				i(173565),	-- Protector's Axe

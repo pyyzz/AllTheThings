@@ -7,14 +7,14 @@ root(ROOTS.Zones, {
 			},
 			["g"] = {
 				prof(JEWELCRAFTING, {
-					q(40523,  {	-- Facet-nating Friends
+					q(40523, {	-- Facet-nating Friends
 						["coord"] = { 40.3, 34.7, LEGION_DALARAN },
 						["provider"] = { "n", 93526 },	-- Tiffany Cartier
 						["g"] = {
 							recipe(264546),	-- Legion Jewelcrafting
 						},
 					}),
-					q(40529,  {	-- Truly Outrageous
+					q(40529, {	-- Truly Outrageous
 						["provider"] = { "n", 93526 },	-- Tiffany Cartier
 						["coord"] = { 40.2, 34.6, LEGION_DALARAN },
 						["sourceQuests"] = { 40523 },	-- Facet-nating Friends
@@ -22,17 +22,17 @@ root(ROOTS.Zones, {
 							recipe(195850),	-- Versatile Skystone
 						},
 					}),
-					q(40530,  {	-- An Eye for Detail
+					q(40530, {	-- An Eye for Detail
 						["provider"] = { "n", 93526 },	-- Tiffany Cartier
 						["coord"] = { 40.2, 34.6, LEGION_DALARAN },
 						["sourceQuests"] = { 40529 },	-- Truly Outrageous
 					}),
-					q(40531,  {	-- Swift Vengeance
+					q(40531, {	-- Swift Vengeance
 						["provider"] = { "n", 93526 },	-- Tiffany Cartier
 						["coord"] = { 40.2, 34.6, LEGION_DALARAN },
 						["sourceQuests"] = { 40530 },	-- An Eye for Detail
 					}),
-					q(40532,  {	-- Making the Cut (Deadly Deep Amber)
+					q(40532, {	-- Making the Cut (Deadly Deep Amber)
 						["provider"] = { "n", 93526 },	-- Tiffany Cartier
 						["coord"] = { 40.2, 34.6, LEGION_DALARAN },
 						["sourceQuest"] = 40531,	-- Swift Vengeance
@@ -40,7 +40,7 @@ root(ROOTS.Zones, {
 							recipe(195848),	-- Deadly Deep Amber
 						},
 					}),
-					q(40534,  {	-- Making the Cut (Masterful Queen's Opal)
+					q(40534, {	-- Making the Cut (Masterful Queen's Opal)
 						["provider"] = { "n", 93526 },	-- Tiffany Cartier
 						["coord"] = { 40.2, 34.6, LEGION_DALARAN },
 						["sourceQuest"] = 40531,	-- Swift Vengeance
@@ -48,7 +48,7 @@ root(ROOTS.Zones, {
 							recipe(195851),	-- Masterful Queen's Opal
 						},
 					}),
-					q(40533,  {	-- Making the Cut (Quick Azsunite)
+					q(40533, {	-- Making the Cut (Quick Azsunite)
 						["provider"] = { "n", 93526 },	-- Tiffany Cartier
 						["coord"] = { 40.2, 34.6, LEGION_DALARAN },
 						["sourceQuest"] = 40531,	-- Swift Vengeance
@@ -56,7 +56,7 @@ root(ROOTS.Zones, {
 							recipe(195849),	-- Quick Azsunite
 						},
 					}),
-					q(40524,  {	-- A Familiar Ring to It
+					q(40524, {	-- A Familiar Ring to It
 						["provider"] = { "n", 93527 },	-- Timothy Jones
 						["coord"] = { 40.2, 34.6, LEGION_DALARAN },
 						["sourceQuest"] = 40523,	-- Facet-nating Friends
@@ -108,7 +108,7 @@ root(ROOTS.Zones, {
 							i(137792),	-- Design: Deep Amber Loop [Rank 1] (RECIPE!)
 						},
 					}),
-					q(40535,  {	-- Raising the Drogbar
+					q(40535, {	-- Raising the Drogbar
 						["provider"] = { "n", 93526 },	-- Tiffany Cartier
 						["coord"] = { 40.2, 34.6, LEGION_DALARAN },
 						["sourceQuests"] = {
@@ -130,7 +130,7 @@ root(ROOTS.Zones, {
 							i(132467),	-- Design: Skystone Pendant
 						},
 					}),
-					q(40538,  {	-- Lapidary Lessons
+					q(40538, {	-- Lapidary Lessons
 						["provider"] = { "n", 93526 },	-- Tiffany Cartier
 						["coord"] = { 40.2, 34.6, LEGION_DALARAN },
 						["sourceQuests"] = { 40536 },	-- Bruls Before Jewels
@@ -138,7 +138,7 @@ root(ROOTS.Zones, {
 							recipe(195854),	-- Versatile Maelstrom Sapphire
 						},
 					}),
-					q(40539,  {	-- Hidden Intentions
+					q(40539, {	-- Hidden Intentions
 						["provider"] = { "n", 100939 },	-- Clive Cozen
 						["coord"] = { 38.3, 36.2, LEGION_DALARAN },
 						["sourceQuests"] = { 40536 },	-- Bruls Before Jewels
@@ -146,7 +146,7 @@ root(ROOTS.Zones, {
 							recipe(195881),	-- Jeweled Lockpick
 						},
 					}),
-					q(40540,  {	-- Come at Me, Brul
+					q(40540, {	-- Come at Me, Brul
 						["provider"] = { "n", 93526 },	-- Tiffany Cartier
 						["coord"] = { 40.2, 34.6, LEGION_DALARAN },
 						["sourceQuests"] = { 40538 },	-- Lapidary Lessons
@@ -214,7 +214,7 @@ root(ROOTS.Zones, {
 							recipe(195882),	-- JewelCraft
 						},
 					}),
-					q(40559,  {	-- Black Rook Hold: The Raven's Wisdom
+					q(40559, {	-- Black Rook Hold: The Raven's Wisdom
 						["provider"] = { "n", 93527 },	-- Timothy Jones
 						["coord"] = { 39.8, 35, LEGION_DALARAN },
 						["sourceQuests"] = { 40558 },	-- Socket to Me
@@ -223,7 +223,7 @@ root(ROOTS.Zones, {
 							i(137800),	-- Dawnlight Band [Rank 1] (RECIPE!)
 						},
 					}),
-					q(40561,  {	-- Halls of Valor: Jewel of the Heavens
+					q(40561, {	-- Halls of Valor: Jewel of the Heavens
 						["provider"] = { "n", 93527 },	-- Timothy Jones
 						["coord"] = { 39.8, 35, LEGION_DALARAN },
 						["sourceQuests"] = { 40558 },	-- Socket to Me
@@ -232,7 +232,7 @@ root(ROOTS.Zones, {
 							i(137799),	-- Maelstrom Band [Rank 1] (RECIPE!)
 						},
 					}),
-					q(40560,  {	-- Maw of Souls: Spiriting Away
+					q(40560, {	-- Maw of Souls: Spiriting Away
 						["provider"] = { "n", 93527 },	-- Timothy Jones
 						["coord"] = { 39.8, 35, LEGION_DALARAN },
 						["sourceQuests"] = { 40558 },	-- Socket to Me
@@ -241,7 +241,7 @@ root(ROOTS.Zones, {
 							i(137798),	-- Prophetic Band [Rank 1] (RECIPE!)
 						},
 					}),
-					q(40562,  {	-- A Personal Touch
+					q(40562, {	-- A Personal Touch
 						["provider"] = { "n", 93543 },	-- Sminx Glasseye
 						["coord"] = { 39.8, 35, LEGION_DALARAN },
 						["sourceQuests"] = {

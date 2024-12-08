@@ -90,7 +90,7 @@ root(ROOTS.Zones, {
 						["sym"] = {{ "achievement_criteria" }},
 					}),
 					explorationAch(8942),	-- Explore Nagrand
-					ach(9610,  {	-- History of Violence (Broken Precipice)
+					ach(9610, {	-- History of Violence (Broken Precipice)
 						["description"] = "In order to get the relics, except the Bust, use Jewel of Transformation in the area and then break boulder piles.",
 						["groups"] = {
 							crit(26397),	-- Krog the Dominator's Hammer
@@ -101,19 +101,19 @@ root(ROOTS.Zones, {
 							crit(26404),	-- Gorg the Subjugator's Idol
 						},
 					}),
-					ach(9617,  {	-- Making the Cut (Gorian Proving Grounds)
+					ach(9617, {	-- Making the Cut (Gorian Proving Grounds)
 						["description"] = "Spawns in the building behind The Ring of Blood.  Kill 15 mobs that spawn around him in order to attack him.",
 						["crs"] = { 88210 },	-- Krud the Eviscerator
 					}),
-					ach(8927,  {	-- Nagrandeur (Alliance)
+					ach(8927, {	-- Nagrandeur (Alliance)
 						["races"] = ALLIANCE_ONLY,
 						["sym"] = {{ "achievement_criteria" }},
 					}),
-					ach(8928,  {	-- Nagrandeur (Horde)
+					ach(8928, {	-- Nagrandeur (Horde)
 						["races"] = HORDE_ONLY,
 						["sym"] = {{ "achievement_criteria" }},
 					}),
-					ach(9564,  {	-- Securing Draenor (Alliance)
+					ach(9564, {	-- Securing Draenor (Alliance)
 						["collectible"] = false,	-- We want to hide the achievement after the finished the criteria for the zone since they can't earn anything more here
 						["races"] = ALLIANCE_ONLY,
 						["g"] = {
@@ -121,7 +121,7 @@ root(ROOTS.Zones, {
 							crit(26252),	-- Assault on Mok'gol Watchpost
 						},
 					}),
-					ach(9562,  {	-- Securing Draenor (Horde)
+					ach(9562, {	-- Securing Draenor (Horde)
 						["collectible"] = false,	-- We want to hide the achievement after the finished the criteria for the zone since they can't earn anything more here
 						["races"] = HORDE_ONLY,
 						["g"] = {
@@ -129,10 +129,10 @@ root(ROOTS.Zones, {
 							crit(26237),	-- Assault on Mok'gol Watchpost
 						},
 					}),
-					ach(9541,  {	-- The Song of Silence
+					ach(9541, {	-- The Song of Silence
 						["sym"] = {{ "achievement_criteria" }},
 					}),
-					ach(9615,  {	-- With a Nagrand Cherry On Top
+					ach(9615, {	-- With a Nagrand Cherry On Top
 						["sym"] = {{ "achievement_criteria" }},
 					}),
 				}),

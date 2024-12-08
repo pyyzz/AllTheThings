@@ -1753,7 +1753,7 @@ root(ROOTS.Zones, {
 							i(120341),	-- Burning Pearl
 						},
 					}),
-					n(75120,  {	-- Clumsy Cragmaul Brute
+					n(75120, {	-- Clumsy Cragmaul Brute
 						["questID"] = 33531,
 						["coord"] = { 50.2, 18.7, FROSTFIRE_RIDGE },
 						["g"] = {
@@ -2018,7 +2018,7 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
-					n(75072,  {	-- Young Orc Traveler
+					n(75072, {	-- Young Orc Traveler
 						["description"] = "Use the Bound Traveler's Scroll to obtain Snow Hare's Foot. Must collect the Frostwolf First-Fang from the Young Orc Woman to complete.",
 						["questID"] = 33525,
 						["coord"] = { 54.8, 35.4, FROSTFIRE_RIDGE },
@@ -2026,7 +2026,7 @@ root(ROOTS.Zones, {
 							i(112206),	-- Talisman of Yearning Unfulfilled
 						},
 					}),
-					n(75081,  {	-- Young Orc Woman
+					n(75081, {	-- Young Orc Woman
 						["description"] = "Use the Frozen Envelope to obtain Frostwolf First-Fang. Must collect the Snow Hare's Foot from the Young Orc Traveler to complete.",
 						["questID"] = 33525,
 						["coord"] = { 63.4, 14.7, FROSTFIRE_RIDGE },

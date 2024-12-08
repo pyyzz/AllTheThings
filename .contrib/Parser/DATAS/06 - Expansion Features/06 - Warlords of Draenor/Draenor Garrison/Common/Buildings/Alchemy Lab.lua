@@ -6,7 +6,7 @@ root(ROOTS.ExpansionFeatures,
 	expansion(EXPANSION.WOD, {
 		n(GARRISONS, sharedData({["maps"] = { LUNARFALL, FROSTWALL } },	{
 			n(BUILDINGS, {
-				garrisonBuilding(120,  {	-- Alchemy Lab (rank 1: 76, rank 2: 119, rank 3: 120)
+				garrisonBuilding(120, {	-- Alchemy Lab (rank 1: 76, rank 2: 119, rank 3: 120)
 					n(QUESTS, {
 						q(37270, {	-- Alchemy Experiment
 							["providers"] = {

@@ -26,7 +26,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 					}},
 				}),
 				ach(14159, {	-- Combating the Corruption
-					crit(47211,  {		-- Corrupted Acolyte slain
+					crit(47211, {		-- Corrupted Acolyte slain
 						["description"] = "Shares a spawn with Acolyte of N'Zoth.",
 						["cr"] = 162249,	-- Corrupted Acolyte
 						["coords"] = {
@@ -47,7 +47,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 							{ 51.8, 60.4, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 						},
 					}),
-					crit(47212,  {		-- Corrupted Assassin slain
+					crit(47212, {		-- Corrupted Assassin slain
 						["description"] = "Shares a spawn with Black Empire Assassin.",
 						["cr"] = 162250,	-- Corrupted Assassin
 						["coords"] = {
@@ -66,7 +66,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 							{ 50.0, 71.7, NZOTH_ASSAULT_ULDUM },
 						},
 					}),
-					crit(47213,  {		-- Corrupted Beheader slain
+					crit(47213, {		-- Corrupted Beheader slain
 						["description"] = "Shares a spawn with Black Empire Beheader.",
 						["cr"] = 162252,	-- Corrupted Beheader
 						["coords"] = {
@@ -152,7 +152,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 							{ 56.5, 42.1, NZOTH_ASSAULT_ULDUM },
 						},
 					}),
-					crit(47218,  {		-- Corrupted Doomsayer slain
+					crit(47218, {		-- Corrupted Doomsayer slain
 						["description"] = "Shares a spawn with K'thir Doomsayer.",
 						["cr"] = 162244,	-- Corrupted Doomsayer
 						["coords"] = {
@@ -179,7 +179,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 							{ 86.2, 42.4, NZOTH_ASSAULT_VALE_OF_ETERNAL_BLOSSOMS },
 						},
 					}),
-					crit(47219,  {		-- Corrupted Fleshbeast slain
+					crit(47219, {		-- Corrupted Fleshbeast slain
 						["description"] = "Shares a spawn with Burbling Fleshbeast.",
 						["cr"] = 158632,	-- Corrupted Fleshbeast
 						["coords"] = {
@@ -391,7 +391,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 					["cost"] = { { "i", 174288, 3 } },	-- 3x Breath of Everlasting Spirit
 				}),
 			}),
-			n(PROFESSIONS,  {
+			n(PROFESSIONS, {
 				prof(FISHING, {
 					i(174456, {	-- Gloop (PET!)
 						["description"] = "Can be caught from schools of fish in a zone currently affected by a N'Zoth Assault.",

@@ -253,7 +253,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 	})),
 	expansion(EXPANSION.LEGION, bubbleDownSelf({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
 		n(QUESTS, {
-			q(39958,  {	-- Skin Deep
+			q(39958, {	-- Skin Deep
 				["provider"] = { "n", 93523 },	-- Namha Moonwater
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
 				["_drop"] = { "g" },
@@ -274,7 +274,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 					r(330215, {["timeline"] = {ADDED_9_0_1}}),	-- Relic of the Past V [Legion]
 				},
 			}),
-			q(40183,  {	-- Over Your Head
+			q(40183, {	-- Over Your Head
 				["sourceQuests"] = { 39958 },	-- Skin Deep
 				["provider"] = { "n", 93523 },	-- Namha Moonwater
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
@@ -295,18 +295,18 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 					i(130870),	-- Tanned Stonehide Leather (QI!)
 				},
 			}),
-			q(40196,  {	-- Adventuring Anxieties
+			q(40196, {	-- Adventuring Anxieties
 				["sourceQuests"] = { 40183 },	-- Over Your Head
 				["provider"] = { "n", 93523 },	-- Namha Moonwater
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
 			}),
-			q(40197,  {	-- The Necessary Materials
+			q(40197, {	-- The Necessary Materials
 				["sourceQuests"] = { 40196 },	-- Adventuring Anxieties
 				["provider"] = { "n", 93523 },	-- Namha Moonwater
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
 				["cost"] = {{"i", 124113, 100 }},	-- 100x Stonehide Leather
 			}),
-			q(41889,  {	-- Dazed of the Past
+			q(41889, {	-- Dazed of the Past
 				["sourceQuests"] = { 40197 },	-- The Necessary Materials
 				["provider"] = { "n", 93523 },	-- Namha Moonwater
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
@@ -338,7 +338,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
 				["races"] = HORDE_ONLY,
 			}),
-			q(40201,  {	-- Playthings
+			q(40201, {	-- Playthings
 				["sourceQuests"] = {
 					40200,	-- Battle Bonds [A]
 					40241,	-- Battle Bonds [H]
@@ -359,7 +359,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 					i(130870),	-- Tanned Stonehide Leather (QI!)
 				},
 			}),
-			q(40180,  {	-- Mail Men
+			q(40180, {	-- Mail Men
 				["sourceQuests"] = { 40183 },	-- Over Your Head
 				["provider"] = { "n", 93523 },	-- Namha Moonwater
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
@@ -369,7 +369,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["provider"] = { "n", 93523 },	-- Namha Moonwater
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
 			}),
-			q(40179,  {	-- Stormheim Savagery
+			q(40179, {	-- Stormheim Savagery
 				["sourceQuests"] = { 40177 },	-- Leather Lady
 				["provider"] = { "n", 93522 },	-- Diane Cannings
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
@@ -379,7 +379,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 					i(129972),	-- Vrykul Leather Binding (QI!)
 				},
 			}),
-			q(40178,  {	-- Vestment Opportunity
+			q(40178, {	-- Vestment Opportunity
 				["sourceQuests"] = { 40177 },	-- Leather Lady
 				["provider"] = { "n", 93522 },	-- Diane Cannings
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
@@ -388,7 +388,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 					i(129971),	-- Hideshaper's Vestment (QI!)
 				},
 			}),
-			q(40181,  {	-- Black Rook Bandit
+			q(40181, {	-- Black Rook Bandit
 				["sourceQuests"] = { 40180 },	-- Mail Men
 				["provider"] = { "n", 98931 },	-- Thanid Glowergold
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
@@ -398,7 +398,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 					i(129973),	-- Black Rook Armor (QI!)
 				},
 			}),
-			q(40182,  {	-- Too Good To Pass Up
+			q(40182, {	-- Too Good To Pass Up
 				["sourceQuests"] = { 40180 },	-- Mail Men
 				["provider"] = { "n", 98931 },	-- Thanid Glowergold
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
@@ -407,7 +407,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 					i(129974),	-- Black Rook Hauberk (QI!)
 				},
 			}),
-			q(40176,  {	-- From Head to Toe
+			q(40176, {	-- From Head to Toe
 				["sourceQuests"] = {
 					40179,	-- Stormheim Savagery
 					40181,  -- Black Rook Bandit
@@ -430,12 +430,12 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 					i(130870),	-- Tanned Stonehide Leather (QI!)
 				},
 			}),
-			q(40187,  {	-- Links in the Chain
+			q(40187, {	-- Links in the Chain
 				["sourceQuests"] = { 40176 },	-- From Head to Toe
 				["provider"] = { "n", 98931 },	-- Thanid Glowergold
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
 			}),
-			q(40184,  {	-- Tauren Tanning
+			q(40184, {	-- Tauren Tanning
 				["sourceQuests"] = { 40176 },	-- From Head to Toe
 				["provider"] = { "n", 93522 },	-- Diane Cannings
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
@@ -458,7 +458,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 					i(129976),	-- Lohrumn's Shoulderguard (QI!)
 				},
 			}),
-			q(40190,  {	-- Hardening the Hide
+			q(40190, {	-- Hardening the Hide
 				["sourceQuests"] = {
 					40185,  -- Shoulder the Burden
 					40186,  -- Drogbar Durability
@@ -503,7 +503,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 					i(129980),	-- Naga Shoulderguard (QI!)
 				},
 			}),
-			q(40193,  {	-- Getting the Kinks Out
+			q(40193, {	-- Getting the Kinks Out
 				["sourceQuests"] = { 40189 },	-- Naga Know-How
 				["provider"] = { "n", 98931 },	-- Thanid Glowergold
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
@@ -549,7 +549,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 					i(130078),	-- Leatherworking Pattern Scrap (QI!)
 				},
 			}),
-			q(40199,  {	-- Leather Legwork
+			q(40199, {	-- Leather Legwork
 				["sourceQuests"] = { 40198 },	-- Rats!
 				["provider"] = { "n", 98931 },	-- Thanid Glowergold
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
@@ -560,7 +560,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 					i(130081),	-- Crowbar (QI!)
 				},
 			}),
-			q(40202,  {	-- The Final Lessons
+			q(40202, {	-- The Final Lessons
 				["sourceQuests"] = { 40199 },	-- Leather Legwork
 				["provider"] = { "n", 93522 },	-- Diane Cannings
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
@@ -600,7 +600,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["provider"] = { "n", 98948 },	-- Hrul Sharphoof
 				["coord"] = { 36.8, 78.2, 750 },
 			}),
-			q(40206,  {	-- A Debt Paid
+			q(40206, {	-- A Debt Paid
 				["sourceQuests"] = { 40199 },	-- Leather Legwork
 				["provider"] = { "n", 98931 },	-- Thanid Glowergold
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },
@@ -642,7 +642,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 				["provider"] = { "n", 98964 },	-- Celea
 				["coord"] = { 47.4, 44.2, AZSUNA },
 			}),
-			q(40211,  {	-- Demon Flesh
+			q(40211, {	-- Demon Flesh
 				["sourceQuests"] = {
 					40415,	-- Well Spent Time
 					40210,	-- Time Well Spent
@@ -681,7 +681,7 @@ root(ROOTS.Professions, prof(LEATHERWORKING, bubbleDownSelf({ ["requireSkill"] =
 					i(130879),	-- Tanned Fel Leather (QI!)
 				},
 			}),
-			q(40215,  {	-- Mounting Made Easy
+			q(40215, {	-- Mounting Made Easy
 				["sourceQuests"] = { 40214 },	-- Fel Tanning
 				["provider"] = { "n", 93523 },	-- Namha Moonwater
 				["coord"] = { 35.4, 29.6, LEGION_DALARAN },

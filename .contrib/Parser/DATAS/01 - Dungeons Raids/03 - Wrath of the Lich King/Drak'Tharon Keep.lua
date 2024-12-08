@@ -67,7 +67,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					}),
 				})),
 				-- #endif
-				ach(493,  {	-- Heroic: Drak'Tharon Keep
+				ach(493, {	-- Heroic: Drak'Tharon Keep
 					crit(6813, {	-- Trollgore
 						["_encounter"] = { 588, DIFFICULTY.DUNGEON.HEROIC },
 					}),

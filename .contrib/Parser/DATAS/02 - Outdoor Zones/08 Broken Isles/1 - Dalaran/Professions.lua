@@ -199,7 +199,7 @@ local THE_WISH_REMOVER = {
 root(ROOTS.Zones, {
 	m(BROKEN_ISLES, {
 		m(LEGION_DALARAN, {
-			n(PROFESSIONS,  {
+			n(PROFESSIONS, {
 				prof(BLACKSMITHING, {
 					n(92183, {	-- Alard Schmied <Blacksmithing Trainer>
 						["coord"] = { 45.0, 29.6, LEGION_DALARAN },

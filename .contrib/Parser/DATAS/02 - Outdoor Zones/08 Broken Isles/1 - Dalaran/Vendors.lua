@@ -15,13 +15,13 @@ root(ROOTS.Zones, {
 	m(BROKEN_ISLES, {
 		m(LEGION_DALARAN, {
 			n(VENDORS, {
-				n(96778,  {	-- Aemara <Bowyer>
+				n(96778, {	-- Aemara <Bowyer>
 					["coord"] = { 60.0, 52.6, LEGION_DALARAN },
 					["sym"] = {
 						{"sub", "common_vendor", 28989},	--  Aemara <Bowyer> (Dalaran Northrend)
 					},
 				}),
-				n(96780,  {	-- Aerith Primrose
+				n(96780, {	-- Aerith Primrose
 					["coord"] = { 57.2, 52.4, LEGION_DALARAN },
 					["sym"] = {{"select","itemID",
 						3422,	-- Beautiful Wildflowers
@@ -35,7 +35,7 @@ root(ROOTS.Zones, {
 						i(142498),	-- Purple Blossom
 					},
 				}),
-				n(92936,  {	-- Aimee <Pie, Pastry & Cakes>
+				n(92936, {	-- Aimee <Pie, Pastry & Cakes>
 					["coord"] = { 50.85, 29.09, LEGION_DALARAN },
 					["groups"] = {
 						i(42432),	-- Berry Pie Slice
@@ -48,7 +48,7 @@ root(ROOTS.Zones, {
 						i(42429),	-- Red Velvet Cupcake
 					},
 				}),
-				n(93528,  {	-- Angelique Butler <First Aid Supplies>
+				n(93528, {	-- Angelique Butler <First Aid Supplies>
 					["coord"] = { 36.6, 37.6, LEGION_DALARAN },
 					["g"] = {
 						i(44694),	-- Antiseptic-Soaked Dressing
@@ -452,37 +452,37 @@ root(ROOTS.Zones, {
 						}),
 					},
 				}),
-				n(96979,  {	-- Bragund Brightlink <Mail Armor Merchant>
+				n(96979, {	-- Bragund Brightlink <Mail Armor Merchant>
 					["coord"] = { 51.0, 73.5, LEGION_DALARAN },
 					["sym"] = {
 						{"sub", "common_vendor", 29523},	-- Bragund Brightlink <Mail Armor Merchant> (Dalaran Northrend)
 					},
 				}),
-				n(96479,  {	-- Breanni <Pet Supplies>
+				n(96479, {	-- Breanni <Pet Supplies>
 					["coord"] = { 58.3, 39.4, LEGION_DALARAN },
 					["sym"] = {
 						{"sub", "common_vendor", 28951},	-- Breanni <Pet Supplies> (Dalaran Northrend)
 					},
 				}),
-				n(97339,  {	-- Cho Ironpalm <Dagger & Fist Weapon Merchant>
+				n(97339, {	-- Cho Ironpalm <Dagger & Fist Weapon Merchant>
 					["coord"] = { 53.1, 62.8, LEGION_DALARAN },
 					["sym"] = {
 						{"sub", "common_vendor", 29499},	-- Bartram Haller <Dagger & Fist Weapon Merchant>
 					},
 				}),
-				n(96785,  {	-- Christi Stockton <Wine Vendor>
+				n(96785, {	-- Christi Stockton <Wine Vendor>
 					["coord"] = { 53.8, 32.6, LEGION_DALARAN },
 					["sym"] = {
 						{"sub", "common_vendor", 32337},	--  Christi Stockton <Wine Vendor> (Dalaran Northrend)
 					},
 				}),
-				n(96484,  {	-- Clockwork Assistant <Jepetto's Companion>
+				n(96484, {	-- Clockwork Assistant <Jepetto's Companion>
 					["coord"] = { 43.4, 45.7, LEGION_DALARAN },
 					["sym"] = {
 						{"sub", "common_vendor", 29716},	-- Clockwork Assistant <Jepetto's Companion> (Dalaran Northrend)
 					},
 				}),
-				n(96976,  {	-- Cloth Merchant <Cloth Armor Merchant>
+				n(96976, {	-- Cloth Merchant <Cloth Armor Merchant>
 					["coord"] = { 37.3, 56.3, LEGION_DALARAN },
 					["sym"] = {
 						{"sub", "common_vendor", 35496},	-- Rueben Lauren <Cloth Armor Merchant>
@@ -494,7 +494,7 @@ root(ROOTS.Zones, {
 						{"sub", "common_vendor", 28776}, -- Elizabeth Ross <Tabard Vendor>
 					},
 				}),
-				n(96779,  {	-- Dagna Flintlock <Gunsmith>
+				n(96779, {	-- Dagna Flintlock <Gunsmith>
 					["coord"] = { 59.8, 52.2, LEGION_DALARAN },
 					["sym"] = {
 						{"sub", "common_vendor", 29476},	--  Dagna Flintlock <Gunsmith> (Dalaran Northrend)
@@ -578,7 +578,7 @@ root(ROOTS.Zones, {
 						}),
 					},
 				}),
-				n(98724,  {	-- Giada Goldleash <Exotic Pets and Accessories>
+				n(98724, {	-- Giada Goldleash <Exotic Pets and Accessories>
 					["coord"] = { 58.3, 38.0, LEGION_DALARAN },
 					["races"] = HORDE_ONLY,
 					["g"] = {
@@ -647,7 +647,7 @@ root(ROOTS.Zones, {
 						}),
 					},
 				}),
-				n(93539,  {	-- Hobart Grapplehammer <Engineering Supplies>
+				n(93539, {	-- Hobart Grapplehammer <Engineering Supplies>
 					["coord"] = { 38.4, 24.7, LEGION_DALARAN },
 					["g"] = {
 						i(136630),	-- "Twirling Bottom" Repeater
@@ -713,13 +713,13 @@ root(ROOTS.Zones, {
 						i(141047),	-- Technique: Glyph of the Goblin Anti-Grav Flare (RECIPE!)
 					},
 				}),
-				n(97331,  {	-- Icks <Staves>
+				n(97331, {	-- Icks <Staves>
 					["coord"] = { 49.0, 73.0, LEGION_DALARAN },
 					["sym"] = {
 						{"sub", "common_vendor", 29494},	--  Shen Kang Cheng <Staves> (Dalaran Northrend)
 					},
 				}),
-				n(93530,  {	-- Ildine Sorrowspear <Enchanting Supplies>
+				n(93530, {	-- Ildine Sorrowspear <Enchanting Supplies>
 					["coord"] = { 38.5, 41.2, LEGION_DALARAN },
 					["g"] = {
 						i(139494),	-- Forgotten Formulas of the Broken Isles
@@ -794,7 +794,7 @@ root(ROOTS.Zones, {
 						i(137806),	-- Design: Vindictive Pandemonite Choker [Rank 1] (RECIPE!)
 					},
 				}),
-				n(93544,  {	-- Jang Quillpaw <Inscription Supplies>
+				n(93544, {	-- Jang Quillpaw <Inscription Supplies>
 					["coord"] = { 41.4, 36.7, LEGION_DALARAN },
 					["g"] = {
 						i(141042),	-- Technique: Glyph of Autumnal Bloom (RECIPE!)
@@ -823,7 +823,7 @@ root(ROOTS.Zones, {
 					["coord"] = { 53.8, 61.6, LEGION_DALARAN },
 					["sym"] = {{"sub", "common_vendor", 29496}},	-- Kerta the Bold
 				}),
-				n(96483,  {	-- Jepetto Joybuzz <Toymaker>
+				n(96483, {	-- Jepetto Joybuzz <Toymaker>
 					["coord"] = { 43.6, 45.6, LEGION_DALARAN },
 					["timeline"] = { ADDED_7_0_3 },
 					["sym"] = {{"sub", "common_vendor", 29716}},	-- Clockwork Assistant <Jepetto's Companion> (Dalaran Northrend)
@@ -835,13 +835,13 @@ root(ROOTS.Zones, {
 						}),
 					},
 				}),
-				n(97007,  {	-- Kerta the Bold <Mace & Polearm Merchant>
+				n(97007, {	-- Kerta the Bold <Mace & Polearm Merchant>
 					["coord"] = { 54.4, 63.0, LEGION_DALARAN },
 					["sym"] = {
 						{"sub", "common_vendor", 29496},	--  Kerta the Bold <Axe & Polearm Merchant> (Dalaran Northrend)
 					},
 				}),
-				n(93524,  {	-- Lalla Brightweave <Tailoring Supplies>
+				n(93524, {	-- Lalla Brightweave <Tailoring Supplies>
 					["coord"] = { 36.1, 33.3, LEGION_DALARAN },
 					["g"] = {
 						i(137965),	-- Pattern: Imbued Silkweave Bracers [Rank 2] (RECIPE!)
@@ -1116,37 +1116,37 @@ root(ROOTS.Zones, {
 						--]]
 					},
 				}),
-				n(96980,  {	-- Matilda Brightlink <Mail Armor Merchant>
+				n(96980, {	-- Matilda Brightlink <Mail Armor Merchant>
 					["coord"] = { 51.3, 73.4, LEGION_DALARAN },
 					["sym"] = {
 						{"sub", "common_vendor", 35500},	--  Matilda Brightlink <Mail Armor Merchant> (Dalaran Northrend)
 					},
 				}),
-				n(92489,  {	-- Mei Francis <Exotic Mounts>
+				n(92489, {	-- Mei Francis <Exotic Mounts>
 					["coord"] = { 57.3, 42.4, LEGION_DALARAN },
 					["sym"] = {
 						{"sub", "common_vendor", 32216},	-- Mei Francis <Exotic Mounts> (Dalaran Northrend)
 					},
 				}),
-				n(96987,  {	-- Norvin Alderman <Cloaks>
+				n(96987, {	-- Norvin Alderman <Cloaks>
 					["coord"] = { 36.9, 55.8, LEGION_DALARAN },
 					["sym"] = {
 						{"sub", "common_vendor", 29495},	-- Norvin Alderman <Cloaks> (Dalaran Northrend)
 					},
 				}),
-				n(97001,  {	-- Orton Bennet <Offhand Offerings>
+				n(97001, {	-- Orton Bennet <Offhand Offerings>
 					["coord"] = { 51.5, 55.5, LEGION_DALARAN },
 					["sym"] = {
 						{"sub", "common_vendor", 29527},	-- Orton Bennet <Offhand Offerings> (Dalaran Northrend)
 					},
 				}),
-				n(96975,  {	-- Paldesse <Cloth Armor Merchant>
+				n(96975, {	-- Paldesse <Cloth Armor Merchant>
 					["coord"] = { 37.5, 56.1, LEGION_DALARAN },
 					["sym"] = {
 						{"sub", "common_vendor", 28995},	--  Paldesse <Cloth Armor Merchant> (Dalaran Northrend)
 					},
 				}),
-				n(92457,  {	-- Patricia Egan <Alchemy Supplier>
+				n(92457, {	-- Patricia Egan <Alchemy Supplier>
 					["coord"] = { 42.2, 32.3, LEGION_DALARAN },
 					["g"] = {
 						i(127898, {	-- Recipe: Ancient Healing Potion [Rank 1] (RECIPE!)
@@ -1214,19 +1214,19 @@ root(ROOTS.Zones, {
 						}),
 					},
 				}),
-				n(92195,  {	-- Professor Pallin <Inscription Trainer>
+				n(92195, {	-- Professor Pallin <Inscription Trainer>
 					["coord"] = { 41.5, 37.3, LEGION_DALARAN },
 					["g"] = {
 						i(137787),	-- Technique: Songs of Battle (RECIPE!)
 					},
 				}),
-				n(96978,  {	-- Rafael Langrom <Leather Armor Merchant>
+				n(96978, {	-- Rafael Langrom <Leather Armor Merchant>
 					["coord"] = { 50.8, 72.0, LEGION_DALARAN },
 					["sym"] = {
 						{"sub", "common_vendor", 35497},	-- Rafael Langrom <Leather Armor Merchant> (Dalaran Northrend)
 					},
 				}),
-				n(93521,  {	-- Ranid Glowergold <Leatherworking & Skinning Supplies>
+				n(93521, {	-- Ranid Glowergold <Leatherworking & Skinning Supplies>
 					["coord"] = { 34.6, 28.6, LEGION_DALARAN },
 					["g"] = {
 						i(137884),	-- Pattern: Dreadleather Bindings [Rank 2] (RECIPE!)
@@ -1251,19 +1251,19 @@ root(ROOTS.Zones, {
 						i(137920),	-- Pattern: Gravenscale Warhelm [Rank 2] (RECIPE!)
 					},
 				}),
-				n(97332,  {	-- Richard Hatstock <Haberdasher>
+				n(97332, {	-- Richard Hatstock <Haberdasher>
 					["coord"] = { 37.2, 55.6, LEGION_DALARAN },
 					["sym"] = {
 						{"sub", "common_vendor", 29702},	--  Chameli Banaphash <Haberdasher> (Dalaran Northrend)
 					},
 				}),
-				n(97342,  {	-- Salan Sunthread <Clothier>
+				n(97342, {	-- Salan Sunthread <Clothier>
 					["coord"] = { 37.7, 55.6, LEGION_DALARAN },
 					["sym"] = {
 						{"sub", "common_vendor", 29491},	-- Karandonna <Clothier>
 					},
 				}),
-				n(93543,  {	-- Sminx Glasseye
+				n(93543, {	-- Sminx Glasseye
 					["coord"] = { 39.6, 35.1, LEGION_DALARAN },
 					["g"] = {
 						i(139599, {	-- Empowered Ring of the Kirin Tor
@@ -1298,7 +1298,7 @@ root(ROOTS.Zones, {
 						}),
 					},
 				}),
-				n(93526,  {	-- Tiffany Cartier <Jewelcrafting Supplies>
+				n(93526, {	-- Tiffany Cartier <Jewelcrafting Supplies>
 					["coord"] = { 39.86, 34.77, LEGION_DALARAN },
 					["g"] = {
 						i(137834),	-- Design: Ancient Maelstrom Amulet [Rank 2] (RECIPE!)
@@ -1319,7 +1319,7 @@ root(ROOTS.Zones, {
 						i(137830),	-- Design: Tranquil Necklace of Prophecy [Rank 2] (RECIPE!)
 					},
 				}),
-				n(98723,  {	-- Tiffy Trapspring <Exotic Pets and Accessories>
+				n(98723, {	-- Tiffy Trapspring <Exotic Pets and Accessories>
 					["coord"] = { 59.2, 39.9, LEGION_DALARAN },
 					["races"] = ALLIANCE_ONLY,
 					["g"] = {
@@ -1388,13 +1388,13 @@ root(ROOTS.Zones, {
 						}),
 					},
 				}),
-				n(97011,  {	-- Valaden Silverblade <Sword Merchant>
+				n(97011, {	-- Valaden Silverblade <Sword Merchant>
 					["coord"] = { 54.1, 63.2, LEGION_DALARAN },
 					["sym"] = {
 						{"sub", "common_vendor", 28991},	--  Valaden Silverblade <Sword Merchant> (Dalaran Northrend)
 					},
 				}),
-				n(96977,  {	-- Valerie Langrom <Leather Armor Merchant>
+				n(96977, {	-- Valerie Langrom <Leather Armor Merchant>
 					["coord"] = { 51.1, 72.7, LEGION_DALARAN },
 					["sym"] = {
 						{"sub", "common_vendor", 28992},	-- Valerie Langrom <Leather Armor Merchant> (Dalaran Northrend)
@@ -1634,7 +1634,7 @@ root(ROOTS.Zones, {
 						--]]
 					},
 				}),
-				n(97012,  {	-- Wanda Chanter <Wands>
+				n(97012, {	-- Wanda Chanter <Wands>
 					["coord"] = { 48.6, 73.8, LEGION_DALARAN },
 					["sym"] = {
 						{"sub", "common_vendor", 28994},	--  Wanda Chanter (Dalaran Northrend)

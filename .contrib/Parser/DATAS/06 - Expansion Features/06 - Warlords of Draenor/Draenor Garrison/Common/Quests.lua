@@ -20,7 +20,7 @@ WOD_CHROMIE_TIME_DESCRIPTION = "If you don't see a Command Board or a Bulletin B
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 	n(GARRISONS, sharedData({["maps"] = { LUNARFALL, FROSTWALL } },	{
 		n(QUESTS, {
-			n(GARRISON_CAMPAIGN,  {	-- Garrison Campaign
+			n(GARRISON_CAMPAIGN, {	-- Garrison Campaign
 			-- A Stolen Heart
 				q(36160, {	-- Garrison Campaign: Every Rose Has Its Thorn
 					["provider"] = { "n", 77209 },	-- Baros Alexston

@@ -24,7 +24,7 @@ root(ROOTS.Zones, {
 							i(141349, {	-- Strange Humming Crystal
 								-- This is specifically listed here since it is the end result of a quest chain started from this item
 								-- this is so the limited-availability of the emissary cache shows the final outcome
-								q(44412,  {	-- Enemies Everywhere
+								q(44412, {	-- Enemies Everywhere
 									["sourceQuest"] = 44411,    -- Strange Humming Crystal
 									["provider"] = { "n", 90417 },	-- Archmage Khadgar
 									["g"] = {

@@ -7,7 +7,7 @@ root(ROOTS.Zones, {
 		m(STORMHEIM, {
 			m(HELHEIM, {
 				n(RARES, {
-					n(92040,  {	-- Fenri
+					n(92040, {	-- Fenri
 						["questID"] = 38461,
 						["coord"] = { 84.6, 49.2, HELHEIM },
 						["g"] = {
@@ -23,7 +23,7 @@ root(ROOTS.Zones, {
 						["coord"] = { 32.9, 43.2, HELHEIM },
 						["sym"] = {{"select","itemID",144437}},	-- Lost Legend of the Valarjar (highest drop chance NPC)
 					}),
-					n(97630,  {	-- Soulthirster
+					n(97630, {	-- Soulthirster
 						["questID"] = 39870,
 						["coord"] = { 29.0, 61.6, HELHEIM },
 						["g"] = {

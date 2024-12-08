@@ -73,7 +73,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					}),
 				})),
 				-- #endif
-				ach(490,  {	-- Heroic: The Nexus
+				ach(490, {	-- Heroic: The Nexus
 					crit(5245, {	-- Grand Magus Telestra
 						["_encounter"] = { 618, DIFFICULTY.DUNGEON.HEROIC },
 					}),

@@ -59,14 +59,14 @@ root(ROOTS.Zones, {
 						i(121808),	-- Nether Conductors
 					},
 				}),
-				n(99792,  {	-- Elfbane
+				n(99792, {	-- Elfbane
 					["questID"] = 41319,
 					["coord"] = { 22.1, 51.8, SURAMAR },
 					["g"] = {
 						i(121806),	-- Mountain Rage Shaker
 					},
 				}),
-				n(99610,  {	-- Garvrulg
+				n(99610, {	-- Garvrulg
 					["questID"] = 40897,
 					["coord"] = { 53.3, 30.2, SURAMAR },
 					["g"] = {
@@ -234,7 +234,7 @@ root(ROOTS.Zones, {
 					["questID"] = 43542,
 					["coord"] = { 18.7, 61.1, SURAMAR },
 				}),
-				n(99899,  {	-- Vicious Whale Shark
+				n(99899, {	-- Vicious Whale Shark
 					["questID"] = 44669,
 					["coords"] = {
 						{ 78.3, 64.8, SURAMAR },

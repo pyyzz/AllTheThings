@@ -74,7 +74,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					}),
 				})),
 				-- #endif
-				ach(489,  {	-- Heroic: Utgarde Keep
+				ach(489, {	-- Heroic: Utgarde Keep
 					crit(3701, {	-- Prince Keleseth
 						["_encounter"] = { 638, DIFFICULTY.DUNGEON.HEROIC },
 					}),

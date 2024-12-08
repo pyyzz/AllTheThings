@@ -137,31 +137,31 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 				ach(9225, {	-- Take Them Out (A)
 					["races"] = ALLIANCE_ONLY,
 					["g"] = {
-						crit(26303,  {	-- Captain Hoodrych
+						crit(26303, {	-- Captain Hoodrych
 							["cr"] = 79900,	-- Captain Hoodrych
 						}),
-						crit(26304,  {	-- Elementalist Novo
+						crit(26304, {	-- Elementalist Novo
 							["cr"] = 80491,	-- Elementalist Novo
 						}),
-						crit(25350,  {	-- Elliott Van Rook
+						crit(25350, {	-- Elliott Van Rook
 							["cr"] = 80493,	-- Elliott Van Rook
 						}),
-						crit(26305,  {	-- Jared V. Hellstrike
+						crit(26305, {	-- Jared V. Hellstrike
 							["cr"] = 85131,	-- Jared V. Hellstrike
 						}),
-						crit(26306,  {	-- Kaz Endsky
+						crit(26306, {	-- Kaz Endsky
 							["cr"] = 87690,	-- Kaz Endsky
 						}),
-						crit(26307,  {	-- Lord Mes
+						crit(26307, {	-- Lord Mes
 							["cr"] = 80497,	-- Lord Mes
 						}),
-						crit(26308,  {	-- Mindbender Talbadar
+						crit(26308, {	-- Mindbender Talbadar
 							["cr"] = 80490,	-- Mindbender Talbadar
 						}),
-						crit(26309,  {	-- Mor'riz, The Ultimate Troll
+						crit(26309, {	-- Mor'riz, The Ultimate Troll
 							["cr"] = 85133,	-- Mor'riz
 						}),
-						crit(26310,  {	-- Necrolord Azael
+						crit(26310, {	-- Necrolord Azael
 							["cr"] = 80486,	-- Necrolord Azael
 						}),
 						crit(26311, {	-- Soulbrewer Nadagast
@@ -181,35 +181,35 @@ root(ROOTS.PVP, pvp(n(BATTLEGROUNDS, {
 				ach(9224, {	-- Take Them Out (H)
 					["races"] = HORDE_ONLY,
 					["g"] = {
-						crit(26289,  {	-- Alune Windmane
+						crit(26289, {	-- Alune Windmane
 							["cr"] = 80488,	-- Alune Windmane
 						}),
-						crit(26290,  {	-- Anne Otther
+						crit(26290, {	-- Anne Otther
 							["cr"] = 85140,	-- Anne Otther
 						}),
-						crit(26291,  {	-- Avenger Turley
+						crit(26291, {	-- Avenger Turley
 							["cr"] = 80499,	-- Avenger Turley
 						}),
-						crit(26293,  {	-- Chani Malflame
+						crit(26293, {	-- Chani Malflame
 							["cr"] = 85129,	-- Chani Malflame
 						}),
-						crit(26294,  {	-- Hildie Hackerguard
+						crit(26294, {	-- Hildie Hackerguard
 							["cr"] = 80495,	-- Hildie Hackerguard
 						}),
-						crit(26295,  {	-- Jackson Bajheera
+						crit(26295, {	-- Jackson Bajheera
 							["cr"] = 80484,	-- Jackson Bajheera
 						}),
 						-- #if BEFORE 8.0.1
 						-- This doesn't appear be in the game anymore?
 						-- BFA Hotfix (2020-06-22): Removed John Swifty. Ahhhhh.
-						crit(26296,  {	-- John Swifty
+						crit(26296, {	-- John Swifty
 							["cr"] = 79902,	-- John Swifty
 						}),
 						-- #endif
-						crit(26297,  {	-- Malda Brewbelly
+						crit(26297, {	-- Malda Brewbelly
 							["cr"] = 85122,	-- Malda Brewbelly
 						}),
-						crit(26298,  {	-- Mathias Zunn
+						crit(26298, {	-- Mathias Zunn
 							["cr"] = 85137,	-- Mathias Zunn
 						}),
 						crit(26299, {	-- Shani Freezewind

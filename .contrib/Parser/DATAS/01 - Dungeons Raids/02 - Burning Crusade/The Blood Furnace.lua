@@ -12,7 +12,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 		["lvl"] = lvlsquish(58, 58, 10),
 		["groups"] = {
 			n(QUESTS, {
-				q(9607,  {	-- Heart of Rage [Alliance]
+				q(9607, {	-- Heart of Rage [Alliance]
 					["qg"] = 17479,	-- Gunny
 					["coord"] = { 56.4, 66.7, HELLFIRE_PENINSULA },
 					["timeline"] = { REMOVED_4_3_0 },
@@ -26,7 +26,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 					},
 					-- #endif
 				}),
-				q(9608,  {	-- Heart of Rage [Horde]
+				q(9608, {	-- Heart of Rage [Horde]
 					["qg"] = 17558,	-- Caza'rez
 					["coord"] = { 54.9, 36.0, HELLFIRE_PENINSULA },
 					["timeline"] = { REMOVED_4_3_0 },
@@ -105,7 +105,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 						i(25702),	-- Scaled Legs of Ruination
 					},
 				}),
-				q(9589,  {	-- The Blood is Life [Alliance]
+				q(9589, {	-- The Blood is Life [Alliance]
 					["qg"] = 17479,	-- Gunny
 					["sourceQuest"] = 9587,	-- Dark Tidings [Alliance]
 					["coord"] = { 56.4, 66.7, HELLFIRE_PENINSULA },
@@ -124,7 +124,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 						-- #endif
 					},
 				}),
-				q(9590,  {	-- The Blood is Life [Horde]
+				q(9590, {	-- The Blood is Life [Horde]
 					["qg"] = 17558,	-- Caza'rez
 					["sourceQuest"] = 9588,	-- Dark Tidings [Horde]
 					["coord"] = { 54.9, 36.0, HELLFIRE_PENINSULA },

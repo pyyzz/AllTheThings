@@ -153,39 +153,39 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 			})),
 			ach(14776),		-- For the Hoarder!
 			ach(14498, {	-- Gatekeepers of Torghast
-				crit(49158,  {		-- Dark Aspirant Corrus
+				crit(49158, {		-- Dark Aspirant Corrus
 					["crs"] = { 156239 },	-- Dark Aspirant Corrus
 					["description"] = "This boss can be found in Coldheart Interstitia.",
 				}),
-				crit(49159,  {		-- Arch-Suppressor Laguas
+				crit(49159, {		-- Arch-Suppressor Laguas
 					["crs"] = { 171422 },	-- Arch-Suppressor Laguas
 					["description"] = "This boss can be found in The Soulforges and The Upper Reaches.",
 				}),
-				crit(49160,  {		-- Goxul the Devourer
+				crit(49160, {		-- Goxul the Devourer
 					["crs"] = { 170418 },	-- Goxul the Devourer
 					["description"] = "This boss can be found in The Upper Reaches.",
 				}),
-				crit(49161,  {		-- Observer Zelgar
+				crit(49161, {		-- Observer Zelgar
 					["crs"] = { 169859 },	-- Observer Zelgar <The Third Eye>
 					["description"] = "This boss can be found in The Soulforges.",
 				}),
-				crit(49162,  {		-- Custodian Thonar
+				crit(49162, {		-- Custodian Thonar
 					["crs"] = { 153165 },	-- Custodian Thonar
 					["description"] = "This boss can be found in Skoldus Hall.",
 				}),
-				crit(49163,  {		-- Warden Skoldus
+				crit(49163, {		-- Warden Skoldus
 					["crs"] = { 151329 },	-- Warden Skoldus
 					["description"] = "This boss can be found in Skoldus Hall.",
 				}),
-				crit(49164,  {		-- Writhing Soulmass
+				crit(49164, {		-- Writhing Soulmass
 					["crs"] = { 156015 },	-- Writhing Soulmass
 					["description"] = "This boss can be found in Skoldus Hall.",
 				}),
-				crit(49165,  {		-- Kosarus the Fallen
+				crit(49165, {		-- Kosarus the Fallen
 					["crs"] = { 153451 },	-- Kosarus the Fallen
 					["description"] = "This boss can be found in Fracture Chambers.",
 				}),
-				crit(49166,  {		-- The Grand Malleare
+				crit(49166, {		-- The Grand Malleare
 					["crs"] = { 159755 },	-- The Grand Malleare
 					["description"] = "This boss can be found in The Soulforges.",
 				}),

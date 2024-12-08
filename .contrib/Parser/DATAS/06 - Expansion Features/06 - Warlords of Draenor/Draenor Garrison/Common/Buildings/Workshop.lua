@@ -6,7 +6,7 @@ root(ROOTS.ExpansionFeatures,
 	expansion(EXPANSION.WOD, {
 		n(GARRISONS, sharedData({["maps"] = { LUNARFALL, FROSTWALL } },	{
 			n(BUILDINGS, {
-				garrisonBuilding(164,  {	-- Goblin Workshop (rank 1: 162, rank 2: 163, rank 3: 164)
+				garrisonBuilding(164, {	-- Goblin Workshop (rank 1: 162, rank 2: 163, rank 3: 164)
 					n(ACHIEVEMENTS, {
 						ach(9527, {		-- Terrific Technology
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",

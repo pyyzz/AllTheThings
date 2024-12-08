@@ -6,7 +6,7 @@ root(ROOTS.ExpansionFeatures,
 	expansion(EXPANSION.WOD, {
 		n(GARRISONS, sharedData({["maps"] = { LUNARFALL, FROSTWALL } },	{
 			n(BUILDINGS, {
-				garrisonBuilding(137,  {	-- Herb Garden (rank 1: 29, rank 2: 136, rank 3: 137)
+				garrisonBuilding(137, {	-- Herb Garden (rank 1: 29, rank 2: 136, rank 3: 137)
 					n(ACHIEVEMENTS, {
 						ach(9454, {	-- Draenic Seed Collector
 							["description"] = "Unlocks the ability to purchase the blueprint from Blueprints Vendors.",

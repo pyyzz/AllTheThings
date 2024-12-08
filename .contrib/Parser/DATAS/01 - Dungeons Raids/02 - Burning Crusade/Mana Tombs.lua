@@ -56,7 +56,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 						i(32079),	-- Shaffar's Stasis Chamber Key
 					},
 				}),
-				q(10216,  {	-- Safety is Job One
+				q(10216, {	-- Safety is Job One
 					["providers"] = {
 						{ "n",  19670 },	-- Artificer Morphalius
 						{ "o", 183877 },	-- Ethereal Transporter Control Panel

@@ -189,38 +189,38 @@ root(ROOTS.Zones, {
 				}))),
 				ach(2557, {	-- To All The Squirrels Who Shared My Life
 					-- #if ANYCLASSIC
-					crit(9299,  {	-- Arctic Hare (Dragonblight, Zul'Drak, Borean Tundra)
+					crit(9299, {	-- Arctic Hare (Dragonblight, Zul'Drak, Borean Tundra)
 						["maps"] = { BOREAN_TUNDRA, DRAGONBLIGHT, ZULDRAK },
 						["crs"] = { 29328 },	-- Arctic Hare
 					}),
-					crit(9300,  {	-- Borean Marmot (Borean Tundra)
+					crit(9300, {	-- Borean Marmot (Borean Tundra)
 						["maps"] = { BOREAN_TUNDRA },
 						["crs"] = { 31685 },	-- Borean Marmot
 					}),
 					-- #else
-					crit(21293,  {	-- Arctic Hare (Dragonblight, Zul'Drak, Borean Tundra)
+					crit(21293, {	-- Arctic Hare (Dragonblight, Zul'Drak, Borean Tundra)
 						["maps"] = { BOREAN_TUNDRA, DRAGONBLIGHT, ZULDRAK },
 						["provider"] = { "n", 29328 },	-- Arctic Hare
 					}),
-					crit(21294,  {	-- Borean Marmot (Borean Tundra)
+					crit(21294, {	-- Borean Marmot (Borean Tundra)
 						["maps"] = { BOREAN_TUNDRA },
 						["provider"] = { "n", 31685 },	-- Borean Marmot
 					}),
 					-- #endif
-					crit(9301,  {	-- Fjord Penguin (Howling Fjord)
+					crit(9301, {	-- Fjord Penguin (Howling Fjord)
 						["maps"] = { HOWLING_FJORD },
 						["crs"] = { 28407 },	-- Fjord Penguin
 					}),
-					crit(9302,  {	-- Fjord Turkey (Howling Fjord)
+					crit(9302, {	-- Fjord Turkey (Howling Fjord)
 						["maps"] = { HOWLING_FJORD },
 						["crs"] = { 24746 },	-- Fjord Turkey
 					}),
-					crit(9303,  {	-- Glacier Penguin (Icecrown)
+					crit(9303, {	-- Glacier Penguin (Icecrown)
 						["maps"] = { ICECROWN },
 						["crs"] = { 32498 },	-- Glacier Penguin
 					}),
 					-- #if ANYCLASSIC
-					crit(9304,  {	-- Grizzly Squirrel (Grizzly Hills, Twilight Highlands)
+					crit(9304, {	-- Grizzly Squirrel (Grizzly Hills, Twilight Highlands)
 						["maps"] = {
 							GRIZZLY_HILLS,
 							-- #if AFTER CATA
@@ -235,7 +235,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 					-- #else
-					crit(21295,  {	-- Grizzly Squirrel (Grizzly Hills, Twilight Highlands)
+					crit(21295, {	-- Grizzly Squirrel (Grizzly Hills, Twilight Highlands)
 						["maps"] = {
 							GRIZZLY_HILLS,
 							-- #if AFTER CATA
@@ -251,34 +251,34 @@ root(ROOTS.Zones, {
 					}),
 					-- #endif
 					-- #if BEFORE CATA
-					crit(3753,  {	-- Hare (Durotar)
+					crit(3753, {	-- Hare (Durotar)
 						["maps"] = { DUROTAR },
 						["crs"] = { 5951 },	-- Hare
 					}),
 					-- #endif
 					-- #if ANYCLASSIC
-					crit(9305,  {	-- Huge Toad (Hillsbrad Foothills, Twilight Highlands, Zul'Drak, Swamp of Sorrows)
+					crit(9305, {	-- Huge Toad (Hillsbrad Foothills, Twilight Highlands, Zul'Drak, Swamp of Sorrows)
 						["maps"] = { HILLSBRAD_FOOTHILLS, SWAMP_OF_SORROWS, ZULDRAK },
 						["crs"] = { 6653 },	-- Huge Toad
 					}),
-					crit(9306,  {	-- Lava Crab (Searing Gorge, Burning Steppes)
+					crit(9306, {	-- Lava Crab (Searing Gorge, Burning Steppes)
 						["maps"] = { SEARING_GORGE, BURNING_STEPPES },
 						["crs"] = { 9700 },	-- Lava Crab
 					}),
-					crit(9307,  {	-- Mountain Skunk (Stonetalon Mountains, Grizzly Hills, Winterspring, Howling Fjord)
+					crit(9307, {	-- Mountain Skunk (Stonetalon Mountains, Grizzly Hills, Winterspring, Howling Fjord)
 						["maps"] = { GRIZZLY_HILLS, HOWLING_FJORD, STONETALON_MOUNTAINS, WINTERSPRING },
 						["crs"] = { 31890 },	-- Mountain Skunk
 					}),
 					-- #else
-					crit(21296,  {	-- Huge Toad (Hillsbrad Foothills, Twilight Highlands, Zul'Drak, Swamp of Sorrows)
+					crit(21296, {	-- Huge Toad (Hillsbrad Foothills, Twilight Highlands, Zul'Drak, Swamp of Sorrows)
 						["maps"] = { HILLSBRAD_FOOTHILLS, SWAMP_OF_SORROWS, ZULDRAK },
 						["provider"] = { "n", 6653 },	-- Huge Toad
 					}),
-					crit(21297,  {	-- Lava Crab (Searing Gorge, Burning Steppes)
+					crit(21297, {	-- Lava Crab (Searing Gorge, Burning Steppes)
 						["maps"] = { SEARING_GORGE, BURNING_STEPPES },
 						["provider"] = { "n", 9700 },	-- Lava Crab
 					}),
-					crit(21298,  {	-- Mountain Skunk (Stonetalon Mountains, Grizzly Hills, Winterspring, Howling Fjord)
+					crit(21298, {	-- Mountain Skunk (Stonetalon Mountains, Grizzly Hills, Winterspring, Howling Fjord)
 						["maps"] = { GRIZZLY_HILLS, HOWLING_FJORD, STONETALON_MOUNTAINS, WINTERSPRING },
 						["provider"] = { "n", 31890 },	-- Mountain Skunk
 					}),

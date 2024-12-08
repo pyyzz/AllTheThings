@@ -13,7 +13,7 @@ root(ROOTS.WorldDrops, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 			i(220312),	-- Moth-Ridden Stole
 			i(220313),	-- Moth-Ridden Waistwrap
 		}),
-		filter(LEATHER,  {
+		filter(LEATHER, {
 			i(220321),	-- Distressed Belt
 			i(220316),	-- Distressed Boots
 			i(220322),	-- Distressed Bracers

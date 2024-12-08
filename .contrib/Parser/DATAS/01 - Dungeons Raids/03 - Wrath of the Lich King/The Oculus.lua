@@ -74,7 +74,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					}),
 				})),
 				-- #endif
-				ach(498,  {	-- Heroic: The Oculus
+				ach(498, {	-- Heroic: The Oculus
 					crit(6859, {	-- Drakos the Interrogator
 						["_encounter"] = { 622, DIFFICULTY.DUNGEON.HEROIC },
 					}),

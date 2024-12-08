@@ -1276,7 +1276,7 @@ root(ROOTS.Zones, {
 			crit(9363),	-- Gold Beetle (Halls of Stone, Badlands, Tanaris, Halls of Lightning)
 			crit(9368),	-- Rat (Ashenvale, Dire Maul, The Lost Isles, Gilneas, Loch Modan, The Deadmines, Stormwind City, Arathi Highlands, Darkshore, Nagrand, Terokkar Forest, Scholomance, Tirisfal Glades, Howling Fjord, The Cape of Stranglethorn, The Culling of Stratholme, Azshara, Desolace, Gilneas City, Maraudon, Sunken Temple and The Hinterlands)
 		})),
-		petbattle(ach(6607,  {	-- Taming Azeroth
+		petbattle(ach(6607, {	-- Taming Azeroth
 			["sym"] = {{"meta_achievement",
 				6604,	-- Taming Outland
 				6605,	-- Taming Northrend
@@ -1290,7 +1290,7 @@ root(ROOTS.Zones, {
 				title(207),	-- Tamer
 			},
 		})),
-		petbattle(ach(7525,  {	-- Taming Cataclysm
+		petbattle(ach(7525, {	-- Taming Cataclysm
 			["timeline"] = { ADDED_5_0_4 },
 			["g"] = {
 				crit(21858),	-- Brok [Mount Hyjal)

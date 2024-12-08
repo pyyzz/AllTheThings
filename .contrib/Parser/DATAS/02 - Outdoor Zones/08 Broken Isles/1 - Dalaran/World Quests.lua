@@ -111,7 +111,7 @@ root(ROOTS.Zones, {
 						["requireSkill"] = JEWELCRAFTING,
 						["lvl"] = { 45 },
 					}),
-					q(41656,  {	-- Work Order: Azsunite Loop
+					q(41656, {	-- Work Order: Azsunite Loop
 						["lvl"] = { 45 },
 						["isWorldQuest"] = true,
 						["g"] = {

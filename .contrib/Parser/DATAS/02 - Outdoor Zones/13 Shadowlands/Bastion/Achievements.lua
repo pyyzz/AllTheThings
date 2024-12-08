@@ -411,31 +411,31 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			pvp(ach(14514)),	-- Tour of Duty: Bastion
 			ach(14311, {	-- Treasures of Bastion
-				crit(50047,  {	-- Scroll of Aeons
+				crit(50047, {	-- Scroll of Aeons
 					["_quests"] = { 58298 },
 				}),
-				crit(50048,  {	-- Vesper of Virtues
+				crit(50048, {	-- Vesper of Virtues
 					["_quests"] = { 60478 },
 				}),
-				crit(50049,  {	-- Purifying Draught
+				crit(50049, {	-- Purifying Draught
 					["_quests"] = { 58329 },
 				}),
-				crit(50050,  {	-- Lost Disciple's Notes
+				crit(50050, {	-- Lost Disciple's Notes
 					["_quests"] = { 61048 },
 				}),
-				crit(50051,  {	-- Larion Tamer's Harness
+				crit(50051, {	-- Larion Tamer's Harness
 					["_quests"] = { 61049 },
 				}),
-				crit(50052,  {	-- Stolen Equipment
+				crit(50052, {	-- Stolen Equipment
 					["_quests"] = { 61044 },
 				}),
-				crit(50053,  {	-- Abandoned Stockpile
+				crit(50053, {	-- Abandoned Stockpile
 					["_quests"] = { 61006 },
 				}),
-				crit(50054,  {	-- Experimental Construct Part
+				crit(50054, {	-- Experimental Construct Part
 					["_quests"] = { 61052 },
 				}),
-				crit(50055,  {	-- Windsmith's Tools
+				crit(50055, {	-- Windsmith's Tools
 					["_quests"] = { 61053 },
 				}),
 				crit(50056, {	-- Memorial Offerings

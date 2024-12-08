@@ -8,7 +8,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 		["lvl"] = 100,
 		["g"] = {
 			d(DIFFICULTY.DUNGEON.NORMAL, {
-				e(1226,  {	-- Orebender Gor'ashan
+				e(1226, {	-- Orebender Gor'ashan
 					["crs"] = { 76413 },	-- Orebender Gor'ashan
 					["sym"] = {
 						{"sub", "common_wod_dungeon_drop", 1, BACK},
@@ -29,7 +29,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 						})),
 					},
 				}),
-				e(1227,  {	-- Kyrak
+				e(1227, {	-- Kyrak
 					["crs"] = { 76021 },	-- Kyrak
 					["sym"] = {
 						{"sub", "common_wod_dungeon_drop", 1, SHOULDER},
@@ -49,7 +49,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 						})),
 					},
 				}),
-				e(1228,  {	-- Commander Tharbek
+				e(1228, {	-- Commander Tharbek
 					["crs"] = {
 						79912,	-- Commander Tharbek
 						80098,	-- Ironbarb Skyreaver
@@ -81,7 +81,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 						i(120340),	-- Son of the Beast's Bloody Paw
 					})),
 				}),
-				e(1229,  {	-- Ragewing the Untamed
+				e(1229, {	-- Ragewing the Untamed
 					["crs"] = { 76585 },	-- Ragewing the Untamed
 					["sym"] = {
 						{"sub", "common_wod_dungeon_drop", 1, NECK},
@@ -96,7 +96,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 						})),
 					},
 				}),
-				e(1234,  {	-- Warlord Zaela
+				e(1234, {	-- Warlord Zaela
 					["crs"] = { 77120 },	-- Warlord Zaela
 					["sym"] = {
 						{"sub", "common_wod_dungeon_drop", 1, HEAD},
@@ -153,7 +153,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 						i(110018),	-- Kyrak's Vileblood Serum
 					},
 				}),
-				n(77081,  {	-- The Lanticore
+				n(77081, {	-- The Lanticore
 					["description"] = "This rare spawns to the right of Kyrak, the second boss.",
 					["g"] = {
 						i(117528),	-- Lanticore Spawnling (PET!)
@@ -174,7 +174,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 						i(110008),	-- Tharbek's Lucky Pebble
 					},
 				}),
-				n(77927,  {	-- Son of the Beast
+				n(77927, {	-- Son of the Beast
 					i(120340),	-- Son of the Beast's Bloody Paw
 				}),
 				e(1229,   {	-- Ragewing the Untamed
@@ -210,7 +210,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 				}),
 			}),
 			d(DIFFICULTY.DUNGEON.MYTHIC, {
-				e(1226,  {	-- Orebender Gor'ashan
+				e(1226, {	-- Orebender Gor'ashan
 					["crs"] = { 76413 },	-- Orebender Gor'ashan
 					["sym"] = {
 						{"sub", "common_wod_dungeon_drop", 23, BACK},
@@ -221,7 +221,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 						i(109998),	-- Gor'ashan's Lodestone Spike
 					},
 				}),
-				e(1227,  {	-- Kyrak
+				e(1227, {	-- Kyrak
 					["crs"] = { 76021 },	-- Kyrak
 					["sym"] = {
 						{"sub", "common_wod_dungeon_drop", 23, SHOULDER},
@@ -238,7 +238,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 						i(117528),	-- Lanticore Spawnling (PET!)
 					},
 				}),
-				e(1228,  {	-- Commander Tharbek
+				e(1228, {	-- Commander Tharbek
 					["crs"] = {
 						79912,	-- Commander Tharbek
 						80098,	-- Ironbarb Skyreaver
@@ -256,7 +256,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 				n(77927, {	-- Son of the Beast
 					i(120340),	-- Son of the Beast's Bloody Paw
 				}),
-				e(1229,  {	-- Ragewing the Untamed
+				e(1229, {	-- Ragewing the Untamed
 					["crs"] = { 76585 },	-- Ragewing the Untamed
 					["sym"] = {
 						{"sub", "common_wod_dungeon_drop", 23, NECK},
@@ -267,7 +267,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 						i(110003),	-- Ragewing's Firefang
 					},
 				}),
-				e(1234,  {	-- Warlord Zaela
+				e(1234, {	-- Warlord Zaela
 					["crs"] = { 77120 },	-- Warlord Zaela
 					["sym"] = {
 						{"sub", "common_wod_dungeon_drop", 23, HEAD},

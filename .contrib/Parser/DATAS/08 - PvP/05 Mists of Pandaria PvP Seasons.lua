@@ -6955,7 +6955,7 @@ root(ROOTS.PVP, {
 				["races"] = HORDE_ONLY,
 				["g"] = {
 					n(PVP_GLADIATOR, {
-						n(WEAPONS,  {
+						n(WEAPONS, {
 							i(144251, {	-- Arsenal: Grievous Gladiator's Weapons (H)
 								["cost"] = { { "i", 137642, 80 } },	-- 80x Mark of Honor
 								["sym"] = {

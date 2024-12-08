@@ -83,7 +83,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					}),
 				})),
 				-- #endif
-				ach(495,  {	-- Heroic: Gundrak
+				ach(495, {	-- Heroic: Gundrak
 					crit(6839, {	-- Slad'ran
 						["_encounter"] = { 592, DIFFICULTY.DUNGEON.HEROIC },
 					}),

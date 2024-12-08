@@ -3,7 +3,7 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
 	m(VALSHARAH, {
-		petbattle(filter(BATTLE_PETS,  {
+		petbattle(filter(BATTLE_PETS, {
 			["sym"] = {{"select","speciesID",
 				398,	-- Black Rat (PET!)
 				380,	-- Bucktooth Flapper (PET!)

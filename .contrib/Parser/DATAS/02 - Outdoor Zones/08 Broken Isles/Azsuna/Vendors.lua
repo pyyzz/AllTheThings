@@ -51,7 +51,7 @@ root(ROOTS.Zones, {
 						}),
 					}),
 				}),
-				n(93973,  {	-- Leyweaver Phaxondus
+				n(93973, {	-- Leyweaver Phaxondus
 					["coord"] = { 29.0, 46.0, AZSUNA },
 					["g"] = {
 						i(127023, {	-- Pattern: Imbued Silkweave Epaulets [Rank 1] (RECIPE!)

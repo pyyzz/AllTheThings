@@ -73,7 +73,7 @@ root(ROOTS.Instances, expansion(EXPANSION.WRATH, applyclassicphase(WRATH_PHASE_O
 					}),
 				})),
 				-- #endif
-				ach(496,  {	-- Heroic: Halls of Stone
+				ach(496, {	-- Heroic: Halls of Stone
 					crit(6856, {	-- Maiden of Grief
 						["_encounter"] = { 605, DIFFICULTY.DUNGEON.HEROIC },
 					}),

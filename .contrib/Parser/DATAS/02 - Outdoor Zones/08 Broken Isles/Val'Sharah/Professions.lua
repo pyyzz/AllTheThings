@@ -3,7 +3,7 @@
 ---------------------------------------------------
 root(ROOTS.Zones, m(BROKEN_ISLES, bubbleDown({ ["timeline"] = { ADDED_7_0_3_LAUNCH } }, {
 	m(VALSHARAH, {
-		n(PROFESSIONS,  {
+		n(PROFESSIONS, {
 			prof(FISHING, {
 				faction(FACTION_KEEPER_RAYNAE, {	-- Keeper Raynae
 					["creatureID"] = 120456,

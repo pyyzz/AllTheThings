@@ -13,10 +13,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				{"select","itemID",186580}	-- A Tiny Sinstone (PEPE!)
 			},
 			["g"] = {
-				i(182332,  {	-- Gravestone Battle Gargon (MOUNT!)
+				i(182332, {	-- Gravestone Battle Gargon (MOUNT!)
 					["description"] = "Requires Renown 39.",
 				}),
-				i(186476,  {	-- Sinfall Gravewing (MOUNT!)
+				i(186476, {	-- Sinfall Gravewing (MOUNT!)
 					["description"] = "Requires Renown 45.",
 				}),
 				--[[
@@ -33,7 +33,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				title(444, {	-- Sin Eater (TITLE!)
 					["description"] = "Requires Renown 80.",
 				}),
-				iensemble(186507,  {	-- Harvester's Court Attire
+				iensemble(186507, {	-- Harvester's Court Attire
 					["description"] = "Requires Renown 60.",
 				}),
 				i(188003, {	-- Crate of Revendreth Reserve

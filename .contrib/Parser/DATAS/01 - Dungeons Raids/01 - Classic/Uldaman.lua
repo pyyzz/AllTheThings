@@ -63,7 +63,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						-- #endif
 					},
 				}),
-				q(2968,  {	-- A Future Task [Horde]
+				q(2968, {	-- A Future Task [Horde]
 					["qg"] = 3978,	-- Sage Truthseeker
 					["sourceQuest"] = 2967,	-- Return to Thunder Bluff
 					["coord"] = { 34.4, 46.9, THUNDER_BLUFF },

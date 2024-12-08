@@ -13,10 +13,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				{"select","itemID",186524}	-- A Tiny Vial of Slime (PEPE!)
 			},
 			["g"] = {
-				i(181821,  {	-- Armored Plaguerot Tauralus (MOUNT!)
+				i(181821, {	-- Armored Plaguerot Tauralus (MOUNT!)
 					["description"] = "Requires Renown 39.",
 				}),
-				i(186487,  {	-- Maldraxxian Corpsefly (MOUNT!)
+				i(186487, {	-- Maldraxxian Corpsefly (MOUNT!)
 					["description"] = "Requires Renown 45.",
 				}),
 				--[[
@@ -33,7 +33,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				title(443, {	-- Sword of the Primus (TITLE!)
 					["description"] = "Requires Renown 80.",
 				}),
-				iensemble(186503,  {	-- Ensemble: Initiate's Necromantle Vestments
+				iensemble(186503, {	-- Ensemble: Initiate's Necromantle Vestments
 					["description"] = "Requires Renown 60.",
 				}),
 				i(188004, {	-- Crate of Anima-Infused Parts

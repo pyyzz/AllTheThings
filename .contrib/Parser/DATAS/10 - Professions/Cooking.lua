@@ -282,7 +282,7 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 	})),
 	expansion(EXPANSION.MOP, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 } }, {
 		ach(6365),	-- Zen Master Cook
-		ach(7306,  {	-- Master of Pandaren Cooking
+		ach(7306, {	-- Master of Pandaren Cooking
 			-- Meta Achievement
 			["sym"] = {{"meta_achievement",
 				7305,	-- Master of the Brew
@@ -302,7 +302,7 @@ root(ROOTS.Professions, prof(COOKING, bubbleDownSelf({ ["requireSkill"] = COOKIN
 		ach(7302),		-- Master of the Pot
 		ach(7303),		-- Master of the Steamer
 		ach(7301),		-- Master of the Wok
-		ach(7325,  {	-- Now I Am the Master
+		ach(7325, {	-- Now I Am the Master
 			crit(20537, {	-- Obtain the Cooking School Bell
 				["provider"] = { "i", 86425 },	-- Cooking School Bell
 			}),

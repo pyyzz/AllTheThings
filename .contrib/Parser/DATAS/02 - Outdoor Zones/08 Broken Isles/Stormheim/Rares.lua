@@ -19,21 +19,21 @@ root(ROOTS.Zones, {
 						["description"] = "Patrols inside of Dreadwake's Landing. Alliance players can still interact with him, but be aware the rest of the camp will be hostile. Shares completion with |cffffff00Houndmaster Payne|r. \n\nCan be made hostile by Demon Hunters using 'Spectral Sight' or Paladins wielding 'Truthguard' allowing anyone to get credit.",
 					}),
 				})),
-				n(91874,  {	-- Bladesquall
+				n(91874, {	-- Bladesquall
 					["questID"] = 38431,
 					["coord"] = { 46.0, 77.7, STORMHEIM },
 					["groups"] = {
 						i(129048),
 					},
 				}),
-				n(92599,  {	-- Bloodstalker Alpha
+				n(92599, {	-- Bloodstalker Alpha
 					["questID"] = 38626,
 					["coord"] = { 38.8, 38.8, STORMHEIM },
 					["groups"] = {
 						i(129101),	-- Alpha's Paw
 					},
 				}),
-				n(92685,  {	-- Captain Brvet
+				n(92685, {	-- Captain Brvet
 					["description"] = "Click on the Horn of the Helmouth to spawn Captain Brvet.",
 					["questID"] = 38642,
 					["coord"] = { 58.0, 45.2, STORMHEIM },
@@ -57,14 +57,14 @@ root(ROOTS.Zones, {
 						i(130134),	-- Padded-Link Sniper Leggings
 					},
 				}),
-				n(98188,  {	-- Egyl the Enduring
+				n(98188, {	-- Egyl the Enduring
 					["questID"] = 40068,
 					["coord"] = { 41.4, 32.0, STORMHEIM },	-- cave entrance
 					["groups"] = {
 						i(132898),	-- Sabatons of the Endless Vigil
 					},
 				}),
-				n(91803,  {	-- Fathnyr
+				n(91803, {	-- Fathnyr
 					["questID"] = 38425,
 					["coord"] = { 46.3, 82.9, STORMHEIM },
 					["groups"] = {
@@ -110,14 +110,14 @@ root(ROOTS.Zones, {
 						i(129266),	-- Raider Captain's Gauntlets
 					},
 				}),
-				n(91529,  {	-- Glimar Ironfist
+				n(91529, {	-- Glimar Ironfist
 					["questID"] = 38333,
 					["coord"] = { 41.9, 66.5, STORMHEIM },
 					["groups"] = {
 						i(129291),	-- Stormslayer Champion Belt
 					},
 				}),
-				n(98503,  {	-- Grrvrgull the Conqueror
+				n(98503, {	-- Grrvrgull the Conqueror
 					["questID"] = 40113,
 					["coord"] = { 78.9, 61.1, STORMHEIM },
 					["groups"] = {
@@ -148,35 +148,35 @@ root(ROOTS.Zones, {
 						i(129037),	-- THe Houndmaster's Fancy Pants
 					},
 				}),
-				n(90139,  {	-- Inquisitor Ernstenbok
+				n(90139, {	-- Inquisitor Ernstenbok
 					["questID"] = 37908,
 					["coord"] = { 62.4, 74.9, STORMHEIM },	-- cave entrance
 					["groups"] = {
 						i(140686),	-- Gargantuan Mantle
 					},
 				}),
-				n(94413,  {	-- Isel the Hammer
+				n(94413, {	-- Isel the Hammer
 					["questID"] = 39120,
 					["coord"] = { 62.0, 60.6, STORMHEIM },
 					["groups"] = {
 						i(129133),	-- The Hammer's Head
 					},
 				}),
-				n(92751,  {	-- Ivory Sentinel
+				n(92751, {	-- Ivory Sentinel
 					["questID"] = 39031,
 					["coord"] = { 60.1, 68.1, STORMHEIM },
 					["groups"] = {
 						i(132895),	-- The Watcher's Divine Inspiration
 					},
 				}),
-				n(98421,  {	-- Kottr Vondyr
+				n(98421, {	-- Kottr Vondyr
 					["questID"] = 40109,
 					["coord"] = { 73.6, 47.6, STORMHEIM },
 					["groups"] = {
 						i(138419),	-- The Binder's Bonds
 					},
 				}),
-				n(93371,  {	-- Mordvigbjorn
+				n(93371, {	-- Mordvigbjorn
 					["questID"] = 38837,
 					["coord"] = { 72.8, 49.6, STORMHEIM },
 					["groups"] = {
@@ -207,7 +207,7 @@ root(ROOTS.Zones, {
 						i(130132),	-- Bracers of Earthbound Flight
 					},
 				}),
-				n(91795,  {	-- Stormwing Matriarch
+				n(91795, {	-- Stormwing Matriarch
 					["questID"] = 38423,
 					["coord"] = { 49.5, 72.3, STORMHEIM },
 					["groups"] = {
@@ -215,14 +215,14 @@ root(ROOTS.Zones, {
 						i(129110),	-- Matriarch-Hide Legguards
 					},
 				}),
-				n(98268,  {	-- Tarben <Jarl of Tideskorn Harbor>
+				n(98268, {	-- Tarben <Jarl of Tideskorn Harbor>
 					["questID"] = 40081,
 					["coord"] = { 61.6, 43.4, STORMHEIM },
 					["groups"] = {
 						i(129199),	-- Tideskorn Jarl's Pendant
 					},
 				}),
-				n(91892,  {	-- Thane Irglov the Merciless
+				n(91892, {	-- Thane Irglov the Merciless
 					["questID"] = 38424,
 					["coord"] = { 41.8, 71.2, STORMHEIM },
 					["crs"] = {
@@ -234,7 +234,7 @@ root(ROOTS.Zones, {
 						i(129113),	-- Faintly Glowing Flagon of Mead (TOY!)
 					},
 				}),
-				n(92763,  {	-- The Nameless King
+				n(92763, {	-- The Nameless King
 					["description"] = "Click on the offering shrine that spawns in front of the sign to summon The Nameless King.",
 					["questID"] = 38685,
 					["coord"] = { 67.2, 39.8, STORMHEIM },
@@ -242,21 +242,21 @@ root(ROOTS.Zones, {
 						i(129041),	-- Aurora of the Nameless King
 					},
 				}),
-				n(93166,  {	-- Tiptog the Lost
+				n(93166, {	-- Tiptog the Lost
 					["questID"] = 38774,
 					["coord"] = { 47.0, 49.4, STORMHEIM },
 					["groups"] = {
 						i(129163),	-- Lost Etin's Strength
 					},
 				}),
-				n(93401,  {	-- Urgev the Flayer
+				n(93401, {	-- Urgev the Flayer
 					["questID"] = 38847,
 					["coord"] = { 64.7, 51.9, STORMHEIM },
 					["groups"] = {
 						i(129219),	-- The Flayer's Runewraps
 					},
 				}),
-				n(92152,  {	-- Whitewater Typhoon
+				n(92152, {	-- Whitewater Typhoon
 					["questID"] = 38472,
 					["coord"] = { 36.2, 51.1, STORMHEIM },
 					["groups"] = {

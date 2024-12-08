@@ -73,7 +73,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.PIRATES_DAY, n(PIRATES_DAY_HEADER, {
 		-- #endif
 		-- #if AFTER 6.0.2.18816
 		n(VENDORS, {
-			n(28048,  {	-- Dread Captain DeMeza <Scourge of the South Seas>
+			n(28048, {	-- Dread Captain DeMeza <Scourge of the South Seas>
 				["description"] = "When you speak with her, she gives you a Pirate Costume buff that lasts for 12 hours.",
 				["coord"] = { 40.0, 72.6, THE_CAPE_OF_STRANGLETHORN },
 				["groups"] = {

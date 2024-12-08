@@ -2144,7 +2144,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 			["OnTooltip"] = BREWFEST_VENDOR_OnTooltip,
 			-- #endif
 			["groups"] = {
-				n(23604,  {	-- Agnes Farwithers <Cheese Vendor>
+				n(23604, {	-- Agnes Farwithers <Cheese Vendor>
 					-- #if AFTER CATA
 					["coord"] = { 41.0, 18.3, DUROTAR },
 					-- #else
@@ -2158,7 +2158,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						}),
 					},
 				}),
-				n(23521,  {	-- Anne Summers <Cheese Vendor>
+				n(23521, {	-- Anne Summers <Cheese Vendor>
 					["coord"] = { 56.4, 37.6, DUN_MOROGH },
 					["timeline"] = { ADDED_2_2_2 },
 					["races"] = ALLIANCE_ONLY,
@@ -2168,7 +2168,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						}),
 					},
 				}),
-				n(23522,  {	-- Arlen Lochlan <Bread Vendor>
+				n(23522, {	-- Arlen Lochlan <Bread Vendor>
 					-- #if AFTER CATA
 					["coord"] = { 55.6, 38.0, DUN_MOROGH },
 					-- #else
@@ -2182,7 +2182,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						}),
 					},
 				}),
-				n(23482,  {	-- Barleybrew Apprentice <Barleybrew Brew Vendor>
+				n(23482, {	-- Barleybrew Apprentice <Barleybrew Brew Vendor>
 					-- #if AFTER CATA
 					["coord"] = { 56.0, 38.0, DUN_MOROGH },
 					-- #else
@@ -2208,7 +2208,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						}),
 					},
 				}),
-				n(23710,  {	-- Belbi Quikswitch <Token Redeemer>
+				n(23710, {	-- Belbi Quikswitch <Token Redeemer>
 					-- #if AFTER CATA
 					["coord"] = { 56.3, 37.5, DUN_MOROGH },
 					-- #else
@@ -2358,11 +2358,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						}),
 					}),
 				}),
-				n(207496,  {	-- Bragdur Battlebrew
+				n(207496, {	-- Bragdur Battlebrew
 					["coord"] = { 29.8, 56.6, VALDRAKKEN },
 					["sym"] = {{"sub","common_vendor",23710}},	-- Belbi Quikswitch <Token Redeemer> (Ally Version)
 				}),
-				n(23605,  {	-- Bron <Sausage Vendor>
+				n(23605, {	-- Bron <Sausage Vendor>
 					-- #if AFTER CATA
 					["coord"] = { 41.6, 17.8, DUROTAR },
 					-- #else
@@ -2398,7 +2398,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						}),
 					},
 				}),
-				n(24495,  {	-- Blix Fixwidget <Token Redeemer>
+				n(24495, {	-- Blix Fixwidget <Token Redeemer>
 					-- #if AFTER CATA
 					["coord"] = { 41.0, 17.0, DUROTAR },
 					-- #else
@@ -2575,7 +2575,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						}),
 					},
 				}),
-				n(24501,  {	-- Drohn's Distillery Apprentice <Drohn's Distillery Brew Vendor>
+				n(24501, {	-- Drohn's Distillery Apprentice <Drohn's Distillery Brew Vendor>
 					-- #if AFTER CATA
 					["coord"] = { 40.4, 18.1, DUROTAR },
 					-- #else
@@ -2612,7 +2612,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						}),
 					},
 				}),
-				n(23511,  {	-- Gordok Brew Apprentice <Gordok Brew Vendor>
+				n(23511, {	-- Gordok Brew Apprentice <Gordok Brew Vendor>
 					["coords"] = {
 						-- #if AFTER CATA
 						{ 55.6, 36.6, DUN_MOROGH },
@@ -2641,7 +2641,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						}),
 					},
 				}),
-				n(23481,  {	-- Keiran Donoghue <Sausage Vendor>
+				n(23481, {	-- Keiran Donoghue <Sausage Vendor>
 					-- #if AFTER CATA
 					["coord"] = { 55.33, 37.17, DUN_MOROGH },
 					-- #else
@@ -2698,7 +2698,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						}),
 					},
 				}),
-				n(23533,  {	-- T'chali's Voodoo Brewery Apprentice <Voodoo Brew Vendor>
+				n(23533, {	-- T'chali's Voodoo Brewery Apprentice <Voodoo Brew Vendor>
 					["coord"] = { 40.3, 16.9, DUROTAR },
 					["timeline"] = { ADDED_2_2_2 },
 					["races"] = HORDE_ONLY,
@@ -2720,7 +2720,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						}),
 					},
 				}),
-				n(23510,  {	-- Thunderbrew Apprentice <Thunderbrew Brew Vendor>
+				n(23510, {	-- Thunderbrew Apprentice <Thunderbrew Brew Vendor>
 					["coord"] = { 56.6, 37.0, DUN_MOROGH },
 					["timeline"] = { ADDED_2_2_2 },
 					["races"] = ALLIANCE_ONLY,
@@ -2742,7 +2742,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.BREWFEST, n(BREWFEST_HEADER, {
 						}),
 					},
 				}),
-				n(23603,  {	-- Uta Roughdough <Bread Vendor>
+				n(23603, {	-- Uta Roughdough <Bread Vendor>
 					-- #if AFTER CATA
 					["coord"] = { 41.6, 17.8, DUROTAR },
 					-- #else

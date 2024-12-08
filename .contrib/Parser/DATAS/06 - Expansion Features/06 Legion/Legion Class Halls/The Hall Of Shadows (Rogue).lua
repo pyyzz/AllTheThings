@@ -1047,7 +1047,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 							i(27944),	-- Talisman of True Treasure Tracking
 						},
 					}),
-					n(99863,  {	-- Jenri <Spymaster>
+					n(99863, {	-- Jenri <Spymaster>
 						["coord"] = { 54.3, 41.0, THE_HALL_OF_SHADOWS },
 						["g"] = {
 							i(130329, {	-- Gloves of Artful Dodging

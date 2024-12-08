@@ -147,7 +147,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 					},
 				}),
 			}),
-			e(1529,  {	-- Razorgore the Untamed
+			e(1529, {	-- Razorgore the Untamed
 				["creatureID"] = 12435,
 				["groups"] = {
 					i(93036, {	-- Untamed Hatchling (PET!)
@@ -170,7 +170,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 					i(19337),	-- The Black Book
 				},
 			}),
-			e(1530,  {	-- Vaelastrasz the Corrupt
+			e(1530, {	-- Vaelastrasz the Corrupt
 				["creatureID"] = 13020,
 				["groups"] = {
 					i(19346),	-- Dragonfang Blade
@@ -190,7 +190,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 					i(19340),	-- Rune of Metamorphosis
 				},
 			}),
-			e(1531,  {	-- Broodlord Lashlayer
+			e(1531, {	-- Broodlord Lashlayer
 				["creatureID"] = 12017,
 				["groups"] = {
 					i(93037, {	-- Death Talon Whelpguard (PET!)
@@ -213,7 +213,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 					i(19342),	-- Venomous Totem
 				},
 			}),
-			e(1532,  {	-- Firemaw
+			e(1532, {	-- Firemaw
 				["creatureID"] = 11983,
 				["groups"] = {
 					i(19353),	-- Drake Talon Cleaver
@@ -251,7 +251,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 				i(44956),	-- Goblin's Guide to Elementium (RECIPE!)
 				-- #endif
 			}),
-			e(1533,  {	-- Ebonroc
+			e(1533, {	-- Ebonroc
 				["creatureID"] = 14601,
 				["groups"] = {
 					i(19353),	-- Drake Talon Cleaver
@@ -277,7 +277,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 					i(19395),	-- Rejuvenating Gem
 				},
 			}),
-			e(1534,  {	-- Flamegor
+			e(1534, {	-- Flamegor
 				["creatureID"] = 11981,
 				["groups"] = {
 					i(19353),	-- Drake Talon Cleaver
@@ -303,7 +303,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 					i(19431),	-- Styleen's Impeding Scarab
 				},
 			}),
-			e(1535,  {	-- Chromaggus
+			e(1535, {	-- Chromaggus
 				["creatureID"] = 14020,
 				["groups"] = {
 					i(93038, {	-- Chrominius (PET!)
@@ -333,7 +333,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 					i(19391),	-- Shimmering Geta
 				},
 			}),
-			e(1536,  {	-- Nefarian
+			e(1536, {	-- Nefarian
 				["crs"] = {
 					11583,	-- Nefarian
 					10162,	-- Lord Victor Nefarius

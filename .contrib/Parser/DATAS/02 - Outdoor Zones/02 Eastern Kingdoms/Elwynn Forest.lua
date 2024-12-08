@@ -2023,13 +2023,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #if AFTER CATA
 				exploration(5176),	-- Goldtooth's Den
 				-- #endif
-				visit_exploration(56,  {coord={74.5,54.0,ELWYNN_FOREST}}),	-- Heroes' Vigil
+				visit_exploration(56, {coord={74.5,54.0,ELWYNN_FOREST}}),	-- Heroes' Vigil
 				visit_exploration(5174,{coord={24.9,94.2,ELWYNN_FOREST}}),	-- Hogger Hill
 				exploration(54),	-- Jasperlode Mine
 				exploration(797),	-- Jerod's Landing
 				visit_exploration(5637,{coord={42.9,65.6,ELWYNN_FOREST}}),	-- Lion's Pride Inn
-				visit_exploration(92,  {coord={32.1,58.2,ELWYNN_FOREST}}),	-- Mirror Lake
-				visit_exploration(89,  {coord={31.6,64.8,ELWYNN_FOREST}}),	-- Mirror Lake Orchard
+				visit_exploration(92, {coord={32.1,58.2,ELWYNN_FOREST}}),	-- Mirror Lake
+				visit_exploration(89, {coord={31.6,64.8,ELWYNN_FOREST}}),	-- Mirror Lake Orchard
 				visit_exploration(9,   {coord={45.5,48.7,ELWYNN_FOREST}}),	-- Northshire Valley
 				exploration(798),	-- Ridgepoint Tower
 				exploration(86),	-- Stone Cairn Lake

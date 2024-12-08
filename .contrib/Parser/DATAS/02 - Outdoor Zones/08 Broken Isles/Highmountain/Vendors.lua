@@ -6,7 +6,7 @@ root(ROOTS.Zones, {
 	m(BROKEN_ISLES, {
 		m(HIGHMOUNTAIN, {
 			n(VENDORS, {
-				n(93975,  {	-- Leyweaver Yaphisteia
+				n(93975, {	-- Leyweaver Yaphisteia
 					["coord"] = { 29.4, 26.2, HIGHMOUNTAIN },
 					["g"] = {
 						i(127027, {	-- Pattern: Imbued Silkweave Slippers (Rank 1)
@@ -14,7 +14,7 @@ root(ROOTS.Zones, {
 						}),
 					},
 				}),
-				n(94100,  {	-- Lucas Sigmund <Repairs>
+				n(94100, {	-- Lucas Sigmund <Repairs>
 					["coord"] = { 39.9, 52.3, HIGHMOUNTAIN },
 					["g"] = {
 						i(141044),	-- Technique: Glyph of Nesingwary's Nemeses (RECIPE!)
@@ -90,7 +90,7 @@ root(ROOTS.Zones, {
 						},
 					}),
 				}),
-				n(99574,  {	-- Slyhoof the Shameless Shaman <Used Totem Vendor>
+				n(99574, {	-- Slyhoof the Shameless Shaman <Used Totem Vendor>
 					["coord"] = { 60.9, 59.5, 750 },	-- Thunder Totem
 					["g"] = {
 						i(140336, {	-- Brulfist Idol (TOY!)

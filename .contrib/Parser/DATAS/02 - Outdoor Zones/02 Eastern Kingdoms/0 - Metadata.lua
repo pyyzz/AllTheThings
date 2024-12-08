@@ -610,39 +610,39 @@ root(ROOTS.Zones, {
 				})),
 				ach(5548, bubbleDownSelf({["timeline"] = { ADDED_4_0_3_LAUNCH } }, {	-- To All the Squirrels Who Cared for Me
 					-- TODO map/coord here instead of individual zone files - Not all spawn locations added
-					crit(16214,  {	-- Alpine Chipmunk (Winterspring, Mount Hyjal, Stonetalon Mountains)
+					crit(16214, {	-- Alpine Chipmunk (Winterspring, Mount Hyjal, Stonetalon Mountains)
 						["provider"] = { "n", 49779 },	-- Alpine Chipmunk
 						["coord"] = { 50, 17, MOUNT_HYJAL },
 					}),
-					crit(16215,  {	-- Baradin Fox Kit (Tol Barad)
+					crit(16215, {	-- Baradin Fox Kit (Tol Barad)
 						["provider"] = { "n", 48630 },	-- Baradin Fox Kit
 						["coord"] = { 44, 26, TOL_BARAD },
 					}),
-					crit(16216,  {	-- Grotto Vole (Mount Hyjal)
+					crit(16216, {	-- Grotto Vole (Mount Hyjal)
 						["provider"] = { "n", 50419 },	-- Grotto Vole
 						["coord"] = { 54, 17, MOUNT_HYJAL },
 					}),
-					crit(16217,  {	-- Highlands Turkey (Twilight Highlands)
+					crit(16217, {	-- Highlands Turkey (Twilight Highlands)
 						["provider"] = { "n", 48706 },	-- Highlands Turkey
 						["coord"] = { 29, 53, TWILIGHT_HIGHLANDS },
 					}),
-					crit(16219,  {	-- Mac Frog (Uldum)
+					crit(16219, {	-- Mac Frog (Uldum)
 						["provider"] = { "n", 50491 },	-- Mac Frog
 						["coord"] = { 55, 34, ULDUM },
 					}),
-					crit(16218,  {	-- Oasis Moth (Uldum, Lost City of the Tol'vir)
+					crit(16218, {	-- Oasis Moth (Uldum, Lost City of the Tol'vir)
 						["provider"] = { "n", 50496 },	-- Oasis Moth
 						["coord"] = { 53, 34, ULDUM },
 					}),
-					crit(16220,  {	-- Rattlesnake (Twilight Highlands, Tanaris)
+					crit(16220, {	-- Rattlesnake (Twilight Highlands, Tanaris)
 						["provider"] = { "n", 48686 },	-- Rattlesnake
 						["coord"] = { 57, 15, TWILIGHT_HIGHLANDS },
 					}),
-					crit(16221,  {	-- Rock Viper (Mount Hyjal, Desolace, Silithus)
+					crit(16221, {	-- Rock Viper (Mount Hyjal, Desolace, Silithus)
 						["provider"] = { "n", 50481 },	-- Rock Viper
 						["coord"] = { 38, 51 , MOUNT_HYJAL },
 					}),
-					crit(16222,  {	-- Rockchewer Whelk (Shimmering Expanse)
+					crit(16222, {	-- Rockchewer Whelk (Shimmering Expanse)
 						["provider"] = { "n", 48848 },	-- Rockchewer Whelk
 						["coord"] = { 54, 41, VASHJIR_SHIMMERING_EXPANSE },
 					}),

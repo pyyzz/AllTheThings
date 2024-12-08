@@ -13,10 +13,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				{"select","itemID",186593}	-- A Tiny Pair of Wings (PEPE!)
 			},
 			["g"] = {
-				i(186482,  {	-- Elysian Aquilon (MOUNT!)
+				i(186482, {	-- Elysian Aquilon (MOUNT!)
 					["description"] = "Requires Renown 45.",
 				}),
-				i(180765,  {	-- Eternal Phalynx of Purity (MOUNT!)
+				i(180765, {	-- Eternal Phalynx of Purity (MOUNT!)
 					["description"] = "Requires Renown 39.",
 				}),
 				title(445, {	-- Disciple of Devotion (TITLE!)
@@ -25,7 +25,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				title(425, {	-- Hand of the Archon (TITLE!)
 					["description"] = "Requires Renown 40.",
 				}),
-				iensemble(186515,  {	-- Ensemble: Aspiring Aspirant's Regalia
+				iensemble(186515, {	-- Ensemble: Aspiring Aspirant's Regalia
 					["description"] = "Requires Renown 60.",
 				}),
 				i(188005, {	-- Anima-Bathed Blade
