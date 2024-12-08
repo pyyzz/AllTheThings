@@ -154,6 +154,7 @@ MobileDB.Creature = {
 	 [64337] = true,	-- Nomi
 	 [67153] = true,	-- Zin'Jun
 	 [77789] = true,	-- Blingtron 5000
+	 [79815] = true,	-- Grun'lek
 	 [83858] = true,	-- Khadgar's Servant
 	 [87991] = true,	-- Cro Threadstrong
 	 [87992] = true,	-- Olaf
@@ -208,7 +209,7 @@ MobileDB.Creature = {
 -- These should be GameObjects which are mobile in that they can have completely variable coordinates in game
 -- either by following the player or having player-based decisions that cause them to have any coordinates
 MobileDB.GameObject = {
-
+	209287,	-- Bit of Glass, quest:29516
 }
 
 local ReturnEmptyFunctionMeta = { __index = function() return app.ReturnFalse end}
@@ -466,6 +467,10 @@ local function OnPLAYER_SOFT_TARGET_INTERACTION()
 
 	-- currently only track interacts on objects
 	if LastSoftInteract.GuidType ~= "GameObject" then return end
+	-- check sourced object coords
+	if not IgnoredChecksByType.GameObject.coord(LastSoftInteract.ID) then
+		return
+	end
 
 	-- If the player attempts to interact, hook for spell cast start event
 	RegisterUNIT_SPELLCAST_START()

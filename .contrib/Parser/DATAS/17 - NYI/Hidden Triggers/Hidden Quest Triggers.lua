@@ -187,6 +187,9 @@ root(ROOTS.HiddenQuestTriggers, {
 		--	Short-Supply Reward - UNKNOWN TRIGGERS
 		qNYI(33602),	-- Short-Supply Reward
 		qNYI(33603),	-- Short-Supply Reward
+
+		-- Wanderer's Festival
+		q(55163),	-- Throw a lantern into the water
 	}),
 
 	-------------------
