@@ -26,6 +26,25 @@ local MEDALLION_OF_THE_LEGION = i(128315, {	-- Medallion of the Legion
 	["timeline"] = { ADDED_6_2_0 },
 });
 
+-- BB King Criteria UID shenanigans
+local TYRANDE_WHISPERWIND_CRITERIA_UID = 12666;
+local PROPHET_VELEN_CRITERIA_UID = 12667;
+local LORTHEMAR_THERON_CRITERIA_UID = 12660;
+local LADY_SYLVANAS_WINDRUNNER_CRITERIA_UID = 12661;
+local BAINE_BLOODHOOF_CRITERIA_UID = 12662;
+-- #if ANYCLASSIC
+-- #if AFTER 4.0.3
+-- #if BEFORE 6.0.2
+-- Crieve NOTE: The dumb shits at Blizzard shifted these achievement criterias for Cataclysm Classic
+TYRANDE_WHISPERWIND_CRITERIA_UID = 12665;
+PROPHET_VELEN_CRITERIA_UID = 12666;
+LORTHEMAR_THERON_CRITERIA_UID = 12659;
+LADY_SYLVANAS_WINDRUNNER_CRITERIA_UID = 12660;
+BAINE_BLOODHOOF_CRITERIA_UID = 12661;
+-- #endif
+-- #endif
+-- #endif
+
 -- WoWHead doesn't list specific colors on all of the vendors, but if you visit on the opposite faction, they sell both. It's based on the character's faction. Putting this in here in case its different and we need two separate distinctions.
 local HOLIDAY_VENDOR_GROUPS_GREEN = {
 	i(34261, {	-- Pattern: Green Winter Clothes
@@ -175,35 +194,29 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 			},
 			["races"] = ALLIANCE_ONLY,
 			["groups"] = {
-				crit(12661, {	-- Lady Sylvanas Windrunner
-					["provider"] = { "n", 10181 },	-- Lady Sylvanas Windrunner
-				}),
-				crit(12660, {	-- Lor'themar Theron
+				crit(LORTHEMAR_THERON_CRITERIA_UID, {	-- Lor'themar Theron
 					["provider"] = { "n", 16802 },	-- Lor'themar Theron
 				}),
-				-- #if BEFORE 4.0.3
-				-- Patch 4.0.3a (2010-11-23): Criteria updated to match new faction leaders:
-				-- Cairne Bloodhoof changed to Baine Bloodhoof;
-				-- Thrall changed to Garrosh Hellscream;
-				-- Vol'jin removed.
-				crit(12662, {	-- Cairne Bloodhoof <High Chieftain>
-					["provider"] = { "n", 3057 },	-- Cairne Bloodhoof <High Chieftain>
+				crit(LADY_SYLVANAS_WINDRUNNER_CRITERIA_UID, {	-- Lady Sylvanas Windrunner
+					["provider"] = { "n", 10181 },	-- Lady Sylvanas Windrunner
 				}),
-				crit(12658, {	-- Thrall <Warchief>
-					["provider"] = { "n", 4949 },	-- Thrall <Warchief>
-				}),
-				crit(12659, {	-- Vol'jin
-					["provider"] = { "n", 10540 },	-- Vol'jin
-				}),
-				-- #else
+				
+				-- THUNDER BLUFF LEADER HISTORY
 				-- #if BEFORE 9.0.1
 				-- Patch 9.0.1 (2020-10-13): Baine Bloodhoof removed from the criteria.
+				-- #if AFTER 4.0.3
 				-- Patch 4.0.3a (2010-11-23): Cairne Bloodhoof changed to Baine Bloodhoof;
-				crit(12662, {	-- Baine Bloodhoof <High Chieftain>
+				crit(BAINE_BLOODHOOF_CRITERIA_UID, {	-- Baine Bloodhoof <High Chieftain>
 					["provider"] = { "n", 36648 },	-- Baine Bloodhoof <High Chieftain>
 				}),
+				-- #else
+				crit(BAINE_BLOODHOOF_CRITERIA_UID, {	-- Cairne Bloodhoof <High Chieftain>
+					["provider"] = { "n", 3057 },	-- Cairne Bloodhoof <High Chieftain>
+				}),
 				-- #endif
-
+				-- #endif
+				
+				-- ORGRIMMAR FACTION LEADER HISTORY
 				-- #if AFTER 8.2.5
 				-- Patch 8.2.5 (2019-09-24): Eitrigg has replaced High Overlord Saurfang.
 				crit(35832, {	-- Eitrigg
@@ -219,12 +232,18 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 				crit(12659, {	-- Vol'jin
 					["provider"] = { "n", 10540 },	-- Vol'jin
 				}),
-				-- #else
-				-- Patch 4.0.3a (2010-11-23): Thrall changed to Garrosh Hellscream;
+				-- #elseif AFTER 4.0.3
+				-- Patch 4.0.3a (2010-11-23): Thrall changed to Garrosh Hellscream; Vol'jin removed.
 				crit(12658, {	-- Garrosh Hellscream <Warchief>
 					["provider"] = { "n", 39605 },	-- Garrosh Hellscream <Warchief>
 				}),
-				-- #endif
+				-- #else
+				crit(12658, {	-- Thrall <Warchief>
+					["provider"] = { "n", 4949 },	-- Thrall <Warchief>
+				}),
+				crit(12659, {	-- Vol'jin
+					["provider"] = { "n", 10540 },	-- Vol'jin
+				}),
 				-- #endif
 			},
 		})),
@@ -240,12 +259,14 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 			},
 			["races"] = HORDE_ONLY,
 			["groups"] = {
-				crit(12667, {	-- Prophet Velen
-					["provider"] = { "n", 17468 },	-- Prophet Velen
-				}),
-				crit(12666, {	-- Tyrande Whisperwind
+				crit(TYRANDE_WHISPERWIND_CRITERIA_UID, {	-- Tyrande Whisperwind
 					["provider"] = { "n", 7999 },	-- Tyrande Whisperwind
 				}),
+				crit(PROPHET_VELEN_CRITERIA_UID, {	-- Prophet Velen
+					["provider"] = { "n", 17468 },	-- Prophet Velen
+				}),
+				
+				-- IRONFORGE FACTION LEADER HISTORY
 				-- #if AFTER 4.0.3
 				-- Patch 4.0.3a (2010-11-23): Criteria updated to match new faction leaders:
 				-- King Magni Bronzebeard changed to Muradin Bronzebeard;
@@ -261,7 +282,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 					["provider"] = { "n", 2784 },	-- King Magni Bronzebeard
 				}),
 				-- #endif
-
+				
+				-- STORMWIND CITY FACTION LEADER HISTORY
 				-- #if BEFORE 9.0.1
 				-- Patch 9.0.1 (2020-10-13): Anduin Wrynn removed.
 				-- #if AFTER 7.0.1
