@@ -2699,9 +2699,11 @@ else
 			end
 			local collected = true;
 			for i,o in ipairs(t.areas) do
-				if o.collected ~= 1 and app.RecursiveUnobtainableFilter(o) and rawget(o, "collectible") then
-					collected = false;
-					break;
+				if o.collected ~= 1 and app.RecursiveUnobtainableFilter(o) then
+					if rawget(o, "collectible") ~= false and o.coords then
+						collected = false;
+						break;
+					end
 				end
 			end
 			t:SetAchievementCollected(t.achievementID, collected);
