@@ -343,7 +343,7 @@ root(ROOTS.Zones, m(KALIMDOR, bubbleDown({ ["timeline"] = { ADDED_7_3_5 } }, {
 						}),
 						q(55390, {	-- In Darkness, I Dream
 							["provider"] = { "n", 152365 },	-- Kalecgos
-							["coord"] = { 53.1, 70.9, REPAIRED_CHAMBER_OF_HEART },
+							["coord"] = { 52.5, 69.9, REPAIRED_CHAMBER_OF_HEART },
 							["description"] = "Your Heart of Azeroth needs to be 54 to start the questline.",
 						}),
 						q(55657, {	-- In the Shadow of Crimson Wings
@@ -605,7 +605,7 @@ root(ROOTS.Zones, m(KALIMDOR, bubbleDown({ ["timeline"] = { ADDED_7_3_5 } }, {
 						}),
 						q(56190, {	-- Save Ebonhorn
 							["provider"] = { "n", 155191 },	-- Potion of Mental Clarity
-							["coord"] = { 69.5, 16.5, 46 },	-- Karazhan Catacombs
+							["coord"] = { 69.4, 16.6, 46 },	-- Karazhan Catacombs
 							["sourceQuest"] = 56189,	-- On the Trail of the Black Prince
 							["timeline"] = {
 								ADDED_8_2_5,

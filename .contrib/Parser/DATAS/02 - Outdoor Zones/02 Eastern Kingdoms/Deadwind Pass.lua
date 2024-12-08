@@ -34,6 +34,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 			}),
 			explorationHeader({
+				visit_exploration(2560,{coord={52.6,36.8,DEADWIND_PASS}}),	-- Ariden's Camp
 				exploration(2697),	-- Deadman's Crossing
 				exploration(2562),	-- Karazhan
 				visit_exploration(7971,{coord={46.7,69.0,DEADWIND_PASS}}),	-- Karazhan Catacombs

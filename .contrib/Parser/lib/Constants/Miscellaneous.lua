@@ -120,6 +120,7 @@ ValidExplorationAreaIDsForClassic = {
 	[5317] = true,	-- Bambala
 	[3891] = true,	-- Carrion Hill
 	[3886] = true,	-- Derelict Caravan
+	[8373] = true,	-- Eye of Azshara
 	[3768] = true,	-- Jagged Ridge
 	[5599] = true,	-- Lost City of the Tol'vir
 	[5663] = true,	-- Neferset City

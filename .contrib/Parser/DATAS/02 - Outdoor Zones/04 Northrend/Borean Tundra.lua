@@ -261,6 +261,7 @@ root(ROOTS.Zones, {
 					exploration(4027),	-- Coast of Echoes
 					exploration(4024),	-- Coldarra
 					exploration(4039),	-- Coldrock Quarry
+					visit_exploration(4149,{coord={57.5,43.8,BOREAN_TUNDRA}}),	-- D.E.H.T.A. Encampment
 					exploration(4114),	-- Death's Stand
 					visit_exploration(4104,{coord={33.8,68.4,BOREAN_TUNDRA}}),	-- Echo Cove
 					exploration(4111),	-- Farshire
@@ -273,11 +274,14 @@ root(ROOTS.Zones, {
 					exploration(4106),	-- Garrosh's Landing
 					visit_exploration(4098,{coord={40.0,10.2,BOREAN_TUNDRA}}),	-- Glimmer Bay
 					exploration(4041),	-- Kaskala
+					visit_exploration(4150,{coord={53.6,24.0,BOREAN_TUNDRA}}),	-- Kaw's Roost
 					exploration(4109),	-- Lake Kum'uya
 					exploration(4123),	-- Magmoth
 					exploration(4020),	-- Mightstone Quarry
+					visit_exploration(4103,{coord={40.1,76.4,BOREAN_TUNDRA}}),	-- Nasam's Talon
+					visit_exploration(4128,{coord={86.9,31.0,BOREAN_TUNDRA}}),	-- Naxxanar
 					visit_exploration(4040,{coord={67.0,51.6,BOREAN_TUNDRA}}),	-- Njord's Breath Bay
-					visit_exploration(4146,{coord={65.2,17.7,114}}),	-- North Point Station
+					visit_exploration(4146,{coord={65.2,17.7,BOREAN_TUNDRA}}),	-- North Point Station
 					exploration(4031),	-- Pal'ea
 					visit_exploration(4130,{coord={36.4,64.1,BOREAN_TUNDRA}}),	-- Plains of Nasam
 					exploration(4029),	-- Riplash Ruins
@@ -296,6 +300,7 @@ root(ROOTS.Zones, {
 					exploration(4037),	-- Taunka'le Village
 					exploration(4125),	-- Temple City of En'kilah
 					visit_exploration(4115,{coord={60.3,60.1,BOREAN_TUNDRA}}),	-- The Abandoned Reach
+					visit_exploration(4034,{coord={72.6,13.3,BOREAN_TUNDRA}}),	-- The Borean Wall
 					exploration(4124),	-- The Dens of Dying
 					exploration(4043),	-- The Flood Plains
 					exploration(4035),	-- The Geyser Fields

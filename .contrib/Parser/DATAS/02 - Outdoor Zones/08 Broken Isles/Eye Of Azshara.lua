@@ -15,7 +15,7 @@ root(ROOTS.Zones, {
 					}},
 				})),
 				explorationHeader({
-					exploration(8373),	-- Eye of Azshara
+					visit_exploration(8373,{coord={47.5,78.7,BROKEN_ISLES}}),	-- Eye of Azshara
 				}),
 				n(FLIGHT_PATHS, {
 					fp(1870, {	-- Eye of Azshara, Azsuna
