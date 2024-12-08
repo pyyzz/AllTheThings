@@ -102,6 +102,50 @@ do
 	}, { __index=function(t,key)
 		if not key or key:match("%W") or not key:match(" %/ ") then return 1 end
 	end})
+	local onTooltipForAchievement = function(t, tooltipInfo)
+		local achievementID = t.achievementID;
+		if achievementID and IsShiftKeyDown() then
+			local criteriaDatas,criteriaDatasByUID = {}, {};
+			for criteriaID=1,99999,1 do
+				local criteriaString, criteriaType, completed, _, _, _, _, assetID, quantityString, criteriaUID = GetAchievementCriteriaInfoByID(achievementID, criteriaID);
+				if criteriaString and criteriaUID then
+					criteriaDatasByUID[criteriaUID] = true;
+					tinsert(criteriaDatas, {
+						" [" .. criteriaUID .. "]: " .. tostring(criteriaString),
+						"(" .. tostring(assetID) .. " @ " .. tostring(criteriaType) .. ") " .. tostring(quantityString) .. " " .. app.GetCompletionIcon(completed)
+					});
+				end
+			end
+			local totalCriteria = GetAchievementNumCriteria(achievementID) or 0;
+			if totalCriteria > 0 then
+				for criteriaIndex=1,totalCriteria,1 do
+					---@diagnostic disable-next-line: redundant-parameter
+					local criteriaString, criteriaType, completed, _, _, _, _, assetID, quantityString, criteriaUID = GetAchievementCriteriaInfo(achievementID, criteriaIndex, true);
+					if criteriaString and (not criteriaDatasByUID[criteriaUID] or criteriaUID == 0) then
+						tinsert(criteriaDatas, {
+							" [" .. criteriaUID .. " @ Index: " .. criteriaIndex .. "]: " .. tostring(criteriaString),
+							"(" .. tostring(assetID) .. " @ " .. tostring(criteriaType) .. ") " .. tostring(quantityString) .. " " .. app.GetCompletionIcon(completed)
+						});
+					end
+				end
+			end
+			if #criteriaDatas > 0 then
+				tinsert(tooltipInfo, { left = " " });
+				tinsert(tooltipInfo, {
+					left = "Total Criteria",
+					right = tostring(#criteriaDatas),
+					r = 0.8, g = 0.8, b = 1
+				});
+				for i,criteriaData in ipairs(criteriaDatas) do
+					tinsert(tooltipInfo, {
+						left = criteriaData[1],
+						right = criteriaData[2],
+						r = 1, g = 1, b = 1
+					});
+				end
+			end
+		end
+	end
 	-- This was used to update information about achievement progress following Pet Battles
 	-- This unfortunately triggers all the time and rarely actually represents useful Achievement changes
 	-- TODO: Think of another way to represent Achievement changes post Pet Battles
@@ -168,6 +212,9 @@ do
 		end,
 		back = function(t)
 			return t.sourceIgnored and 0.5 or 0;
+		end,
+		OnTooltip = function(t)
+			return onTooltipForAchievement;
 		end,
 	})
 
