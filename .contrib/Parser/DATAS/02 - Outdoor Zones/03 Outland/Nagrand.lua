@@ -316,20 +316,6 @@ root(ROOTS.Zones, {
 					}),
 				}),
 				prof(FISHING, {
-					-- #if ANYCLASSIC
-					ach(1225, {	-- Outland Angler
-						["provider"] = { "o", 182959 },	-- Bluefish School
-						["criteriaID"] = 3866,	-- Bluefish School
-						["timeline"] = { ADDED_3_0_2 },
-						["requireSkill"] = FISHING,
-					}),
-					ach(1225, {	-- Outland Angler
-						["provider"] = { "o", 182958 },	-- Mudfish School
-						["criteriaID"] = 3867,	-- Mudfish School
-						["timeline"] = { ADDED_3_0_2 },
-						["requireSkill"] = FISHING,
-					}),
-					-- #else
 					o(182959, {	-- Bluefish School
 						["timeline"] = { ADDED_3_0_2 },
 						["requireSkill"] = FISHING,
@@ -338,7 +324,6 @@ root(ROOTS.Zones, {
 						["timeline"] = { ADDED_3_0_2 },
 						["requireSkill"] = FISHING,
 					}),
-					-- #endif
 					i(34868),	-- World's Largest Mudfish
 				}),
 				n(FLIGHT_PATHS, {

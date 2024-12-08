@@ -284,19 +284,10 @@ root(ROOTS.Zones, {
 						i(35313, {	-- Bloated Barbed Gill Trout
 							i(34866),	-- Giant Freshwater Shrimp
 						}),
-						-- #if ANYCLASSIC
-						ach(1225, {	-- Outland Angler
-							["provider"] = { "o", 182954 },	-- Brackish Mixed School
-							["criteriaID"] = 3865,	-- Brackish Mixed School
-							["timeline"] = { ADDED_3_0_2 },
-							["requireSkill"] = FISHING,
-						}),
-						-- #else
 						o(182954, {	-- Brackish Mixed School
 							["timeline"] = { ADDED_3_0_2 },
 							["requireSkill"] = FISHING,
 						}),
-						-- #endif
 						o(182952, {	-- Steam Pump Flotsam
 							i(27481),	-- Heavy Supply Crate
 							i(27516),	-- Enormous Barbed Gill Trout
@@ -304,19 +295,10 @@ root(ROOTS.Zones, {
 								["description"] = "\"Don't pay anybody in advance. And don't ride in anything with a Capissen 38 engine, they fall right out of the sky.\" - Kaylee Fry",
 							}),
 						}),
-						-- #if ANYCLASSIC
-						ach(1225, {	-- Outland Angler
-							["provider"] = { "o", 182953 },	-- Sporefish School
-							["criteriaID"] = 3870,	-- Sporefish School
-							["timeline"] = { ADDED_3_0_2 },
-							["requireSkill"] = FISHING,
-						}),
-						-- #else
 						o(182953, {	-- Sporefish School
 							["timeline"] = { ADDED_3_0_2 },
 							["requireSkill"] = FISHING,
 						}),
-						-- #endif
 					}),
 				}),
 				n(QUESTS, {

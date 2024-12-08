@@ -328,19 +328,10 @@ root(ROOTS.Zones, {
 				}),
 				prof(FISHING, {
 					i(34865),	-- Blackfin Darter
-					-- #if ANYCLASSIC
-					ach(1225, {	-- Outland Angler
-						["provider"] = { "o", 182957 },	-- Highland Mixed School
-						["criteriaID"] = 3869,	-- Highland Mixed School
-						["timeline"] = { ADDED_3_0_2 },
-						["requireSkill"] = FISHING,
-					}),
-					-- #else
 					o(182957, {	-- Highland Mixed School
 						["timeline"] = { ADDED_3_0_2 },
 						["requireSkill"] = FISHING,
 					}),
-					-- #endif
 					i(27388, {	-- Mr. Pinchy
 						["provider"] = { "o", 182957 },	-- Highland Mixed School
 						["description"] = "Fished up from Highland Mixed Schools. You have 3 wishes per Mr. Pinchy, each wish granting one of the following effects:\n\n1) Mr. Pinchy's Blessing (Flask)\n2) Summon Furious Mr. Pinchy (Enemy)\n3) Magical Crawdad Box (Rare Pet)\n4) Mr. Pinchy's Gift (Potions)\n5) Benevolent Mr. Pinchy (Guardian)",
@@ -354,19 +345,10 @@ root(ROOTS.Zones, {
 							}),
 						},
 					}),
-					-- #if ANYCLASSIC
-					ach(1225, {	-- Outland Angler
-						["provider"] = { "o", 182956 },	-- School of Darter
-						["criteriaID"] = 3868,	-- School of Darter
-						["timeline"] = { ADDED_3_0_2 },
-						["requireSkill"] = FISHING,
-					}),
-					-- #else
 					o(182956, {	-- School of Darter
 						["timeline"] = { ADDED_3_0_2 },
 						["requireSkill"] = FISHING,
 					}),
-					-- #endif
 				}),
 				n(FLIGHT_PATHS, {
 					fp(121, {	-- Allerian Stronghold, Terokkar Forest

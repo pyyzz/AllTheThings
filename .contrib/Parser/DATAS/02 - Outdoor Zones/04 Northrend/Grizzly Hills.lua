@@ -217,25 +217,12 @@ root(ROOTS.Zones, {
 					visit_exploration(4475,{coord={14.3,38.2,GRIZZLY_HILLS}}),	-- Zim'bo's Hideout
 				}),
 				prof(FISHING, {
-					-- #if ANYCLASSIC
-					ach(1517, {	-- Northrend Angler
-						["provider"] = { "o", 192050 },	-- Glacial Salmon School
-						["criteriaID"] = 5282,	-- Glacial Salmon School
-						["requireSkill"] = FISHING,
-					}),
-					ach(1517, {	-- Northrend Angler
-						["provider"] = { "o", 192052 },	-- Imperial Manta Ray School
-						["criteriaID"] = 5284,	-- Imperial Manta Ray School
-						["requireSkill"] = FISHING,
-					}),
-					-- #else
 					o(192050, {	-- Glacial Salmon School
 						["requireSkill"] = FISHING,
 					}),
 					o(192052, {	-- Imperial Manta Ray School
 						["requireSkill"] = FISHING,
 					}),
-					-- #endif
 				}),
 				n(FLIGHT_PATHS, {
 					fp(253, {	-- Amberpine Lodge
