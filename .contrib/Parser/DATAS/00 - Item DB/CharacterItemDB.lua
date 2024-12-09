@@ -688,8 +688,8 @@ iq(230265, 85225);	-- Bronze Celebration Titles: Zuldazar Enthusiast
 --iq(233500, 86386);	-- Crimson Snapdragon Treat
 --iq(233495, 86382);	-- Inky Snapdragon Treat
 iq(233497, 86383);	-- Kaja'Cola-braised Snapdragon Treat
---iq(233494, 86381);	-- Muddy Snapdragon Treat
---iq(233499, 86385);	-- Royal Snapdragon Treat
+iq(233494, 86381);	-- Muddy Snapdragon Treat
+iq(233499, 86385);	-- Royal Snapdragon Treat
 iq(233501, 86387);	-- Sandy Snapdragon Treat
 iq(233498, 86384);	-- Storminfused Snapdragon Treat
 iq(233493, 86373);	-- Teal Snapdragon Treat

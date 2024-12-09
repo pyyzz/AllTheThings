@@ -4,22 +4,24 @@
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, {
 	m(SIREN_ISLE, {
 		n(TREASURES, {
-			--repeatable local treasure
-			--o(474822),	-- Runed Storm Cache
-			--o(500407),	-- Runed Storm Cache
-			--o(494499),	-- Seafarer's Cache
-			--o(500682),	-- Seafarer's Cache
-			--o(500683),	-- Seafarer's Cache
-			--o(500684),	-- Seafarer's Cache
-			--o(500685),	-- Seafarer's Cache
-			--o(500686),	-- Seafarer's Cache
-			--^ probably even more ids exist
-			--
-			i(233501),	-- Sandy Snapdragon Treat
-			--was looted from Seafarer's Cache in water (o: 500685 if to be more accurate was for me)
-			--
+			o_repeated({	-- Runed Storm Cache
+				["g"] = {
+					o(474822),	-- Runed Storm Cache (non storm id)
+					o(500407),	-- Runed Storm Cache (storm id)
+				},
+			}),
+			o_repeated({	-- Seafarer's Cache
+				["g"] = {
+					i(233501),	-- Sandy Snapdragon Treat
+					o(494499),	-- Seafarer's Cache
+					o(500682),	-- Seafarer's Cache
+					o(500683),	-- Seafarer's Cache
+					o(500684),	-- Seafarer's Cache
+					o(500685),	-- Seafarer's Cache
+					o(500686),	-- Seafarer's Cache
+				},
+			}),
 			o(505510, {	-- Barnacle-Encrusted Chest
-				-- TODO: with build 57641 reward for this questID treasure is changed
 				["coord"] = { 74.1, 53.2, SIREN_ISLE },
 				["questID"] = 86765,
 				["g"] = {
@@ -35,7 +37,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			}),
 			o(507120, {	-- Ducky Friend
 				-- Storm phase
-				--["description"] = "Was found in storm phase in house at 2nd floor, on bed.",
+				["description"] = "Can be found during tempest in house at 2nd floor, on a bed.",
 				["coord"] = { 39.2, 54.2, SIREN_ISLE },
 				["g"] = {
 					i(233447),	-- Marmaduke's "Ducky Friend"
@@ -48,7 +50,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				},
 			}),
 			o(505504, {	-- Kul Tiran Lumberer's Hatchet
-				-- Naga?
 				["coord"] = { 40.2, 41.8, SIREN_ISLE },
 				["questID"] = 86764,
 				["g"] = {
@@ -61,9 +62,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["questID"] = 86767,
 				["g"] = {
 					i(233831), -- Minnow's Favorite Blade (COSMETIC!)
-					--i(191059), -- Dilapidated Parchment: Top Half
-					--i(191058), -- Dilapidated Parchment: Bottom Half
-					--idk, they are same as for workboots and create same Treasure Map: Ohn'ahran Plains (itemID 191087)
 				},
 			}),
 			o(463539, {	-- Pilfered Earthen Chest

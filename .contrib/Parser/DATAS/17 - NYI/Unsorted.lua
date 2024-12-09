@@ -272,10 +272,7 @@ root(ROOTS.Unsorted, {
 			i(233360),	-- Gold-Reinforced Cushioned Boots
 			i(233361),	-- Wind-Up Wuffi
 			i(233366),	-- Wind-Up Woofer
-			i(233494),	-- [PH] Snapdragon Treat 02
 			i(233495),	-- [PH] Snapdragon Treat 03
-			i(233498),	-- [PH] Snapdragon Treat 05
-			i(233499),	-- [PH] Snapdragon Treat 06
 			i(233500),	-- [PH] Snapdragon Treat 07
 			i(233650),	-- Call Galefeather
 			i(233800),	-- [PH] Chris' Flavor Test Item

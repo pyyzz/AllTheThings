@@ -12,15 +12,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			q(84720, {	-- To the Siren Isle!
 				["sourceQuests"] = { 84719 },	-- The Expedition Awaits
 				["provider"] = { "n", 230235 },	-- Skaggit
-				["coord"] = { 55.4, 33.8, ISLE_OF_DORN },
+				["coord"] = { 73.3, 6.2, DORNOGAL },
 			}),
 			q(84940, {	-- Friendly Competition
 				["sourceQuests"] = { 84720 },	-- To the Siren Isle!
-				["provider"] = { "n", 230235 },	-- Skaggit
-				["coord"] = { 70.3, 52.4, SIREN_ISLE },
+				["provider"] = { "n", 230238 },	-- Skaggit
+				["coord"] = { 69.3, 48.1, SIREN_ISLE },
 			}),
 			q(84721, {	-- To Scan a Crystal
-				["sourceQuests"] = { 84720 },	-- To the Siren Isle!
+				["sourceQuests"] = { 84940 },	-- Friendly Competition
 				["provider"] = { "n", 230242 },	-- Bargus
 				["coord"] = { 67.5, 41.9, SIREN_ISLE },
 				["g"] = {
@@ -411,9 +411,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					i(232694),	-- Transcribed Kul Tiran Journal [book]
 				},
 			}),
-			-- Snapdragon (need to add into Account Wide quests)
-			q(85573, {	-- A Lifeline
-				--["sourceQuests"] = { 84547 },	-- Redemption Guaranteed (TODO: speculation)
+			-- Snapdragon
+			q(86482, {	-- A Lifeline
+				--["sourceQuests"] = { ?? },	-- ??
 				["provider"] = { "n", 235216 },	-- Starving Snapdragon Runt
 				["coord"] = { 70.9, 48.6, SIREN_ISLE },
 				["g"] = {
@@ -421,7 +421,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				},
 			}),
 			q(86483, {	-- Snap To It
-				["sourceQuests"] = { 85573 },	-- A Lifeline
+				["sourceQuests"] = { 86482 },	-- A Lifeline
 				["provider"] = { "n", 235237 },	-- Growing Snapdragon Runt
 				["coord"] = { 70.9, 48.6, SIREN_ISLE },
 				["g"] = {
@@ -443,7 +443,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["coord"] = { 70.9, 48.6, SIREN_ISLE },
 				["g"] = {
 					i(233489), -- Prismatic Snapdragon (MOUNT!)
-					i(233493), -- Teal Snapdragon Treat
+					i(233493), -- Teal Snapdragon Treat TODO: need a better way to solve this, since it will (un)flag this item after changing colors.
 				},
 			}),
 			q(86486, {	-- Hungry, Hungry Snapdragon
@@ -488,7 +488,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					i(233056),	-- Marmaduke (PET!)
 				},
 			}),
-			--[[ build 57788 - removed, uncomment on live or remove it from here
 			--- Stay awhile and listen ---
 			hqt(85103, {	-- Stay awhile and listen: Apprentice Tanmar
 				["name"] = "Stay awhile and listen: Apprentice Tanmar",
@@ -496,19 +495,19 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["provider"] = { "n", 231536 },	-- Apprentice Tanmar
 				["coord"] = { 72.2, 42.9, SIREN_ISLE },
 			}),
-			hqt(85156, {	-- Stay awhile and listen: Angorla
-				["name"] = "Stay awhile and listen: Angorla",
-				["sourceQuests"] = { 84725 },	-- The Circlet Calls
-				["provider"] = { "n", 228074 },	-- Angorla
-				["coord"] = { 71.0, 44.1, SIREN_ISLE },
-			}),
+			--this one is either locked with alt skip (some of quest?) or not here
+			--hqt(85156, {	-- Stay awhile and listen: Angorla
+			--	["name"] = "Stay awhile and listen: Angorla",
+			--	["sourceQuests"] = { 84725 },	-- The Circlet Calls
+			--	["provider"] = { "n", 228074 },	-- Angorla
+			--	["coord"] = { 71.0, 44.1, SIREN_ISLE },
+			--}),
 			hqt(85157, {	-- Stay awhile and listen: Didi the Wrench
 				["name"] = "Stay awhile and listen: Didi the Wrench",
 				--["sourceQuests"] = { 84725 },	-- The Circlet Calls (TODO: unsure)
 				["provider"] = { "n", 231997 },	-- Didi the Wrench
 				["coord"] = { 71.2, 45.9, SIREN_ISLE },
-			}),
-			--]]--
+			}),--
 			hqt(86240, {	-- Give Marmaduke the well loved squeky toy
 				["name"] = "Give Marmaduke the Well Loved Squeaky Toy",
 				["cost"] = {{ "i", 233027, 1 }},	-- Well Loved Squeaky Toy
@@ -542,6 +541,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				q(86435),	-- after interact with Runic Fragment (npcID 234934) @ 52.6, 38.7 / was able to loot it again but didn't fire questID
 				q(86436),	-- after interact with Dirt Pile (npcID 235134) @ 38.2, 51.8
 				-- Runestone activation questIDs in The Forgotten Vault (stormed phase) for Thrayir, Eyes of the Siren (npcID 233540)
+				-- despite Thrayir quest is once per account, hqts are not
 				q(85800),	-- Cyclonic (spellID 471163)
 				q(85803),	-- Thunderous (spellID 471169)
 				q(85801),	-- Torrential (spellID 471166)
@@ -552,11 +552,12 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				-- Treasure
 				q(85714, {["isWeekly"]=true,}),	-- Solving puzzle to unlock Rune-Sealed Coffer
 				-- Another unlock for vendor (snapdragon treats)
+				-- account wide, don't forget to add new one after figure out questIDs
 				--q(),	-- Crimson Snapdragon Treat
 				--q(),	-- Inky Snapdragon Treat
 				q(86376),	-- Kaja'Cola-braised Snapdragon Treat
-				--q(),	-- Muddy Snapdragon Treat
-				--q(),	-- Royal Snapdragon Treat
+				q(86734),	-- Muddy Snapdragon Treat
+				q(86378),	-- Royal Snapdragon Treat
 				q(86380),	-- Sandy Snapdragon Treat
 				q(86377),	-- Storminfused Snapdragon Treat
 				--
