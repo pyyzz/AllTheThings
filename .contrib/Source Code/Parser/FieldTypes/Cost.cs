@@ -21,7 +21,6 @@ namespace ATT.FieldTypes
         private Dictionary<string, IDictionary<decimal, long>> _costTypes;
 
         private Cost(IDictionary<string, object> data) { _data = data; }
-        private Cost(Cost cost) { _data = new Dictionary<string, object>(cost._data); }
 
         private IDictionary<decimal, long> GetCostType(string type)
         {
@@ -59,13 +58,13 @@ namespace ATT.FieldTypes
             Cost cost;
             if (!data.TryGetValue("cost", out object costobj))
             {
-                if (value is Cost newCost)
-                {
-                    data[Field] = new Cost(newCost);
-                    return newCost;
-                }
                 cost = new Cost(data);
                 data[Field] = cost;
+                if (value is Cost newCost)
+                {
+                    cost.Merge(newCost);
+                    return cost;
+                }
             }
             else
             {
