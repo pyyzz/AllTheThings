@@ -96,12 +96,12 @@ api.DoReport = function(id, text)
 end
 
 local function Check_coords(objRef, id, maxCoordDistance)
-	if not objRef or not objRef.coords then return end
-
 	-- check coord distance
 	local mapID, px, py, fake = app.GetPlayerPosition()
 	-- fake player coords (instances, etc.) cannot be checked
 	if fake then return true end
+
+	if not objRef or not objRef.coords then return end
 
 	local dist, sameMap, check
 	local closest = 9999

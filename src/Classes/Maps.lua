@@ -7,8 +7,8 @@ local contains = app.contains;
 -- Global locals
 local coroutine, ipairs, pairs, pcall, rawset, tinsert, tremove, tonumber, math_floor, math_sqrt, math_random
 	= coroutine, ipairs, pairs, pcall, rawset, tinsert, tremove, tonumber, math.floor, math.sqrt, math.random;
-local CreateVector2D, GetInstanceInfo, GetRealZoneText, GetSubZoneText, InCombatLockdown
-	= CreateVector2D, GetInstanceInfo, GetRealZoneText, GetSubZoneText, InCombatLockdown;
+local CreateVector2D, GetInstanceInfo, GetRealZoneText, GetSubZoneText, InCombatLockdown,IsInInstance
+	= CreateVector2D, GetInstanceInfo, GetRealZoneText, GetSubZoneText, InCombatLockdown,IsInInstance
 local C_Map_GetMapArtID = C_Map.GetMapArtID;
 local C_Map_GetMapLevels = C_Map.GetMapLevels;
 local C_Map_GetBestMapForUnit = C_Map.GetBestMapForUnit;
@@ -464,6 +464,8 @@ end
 local function CheckExplorationForPlayerPosition()
 	local mapID = C_Map_GetBestMapForUnit("player");
 	if not mapID then return; end
+	-- instances don't contain areas
+	if IsInInstance() then return end
 	CheckIfExplorationIsMissing()
 	local pos = C_Map_GetPlayerMapPosition(mapID, "player");
 	if not pos then return; end
