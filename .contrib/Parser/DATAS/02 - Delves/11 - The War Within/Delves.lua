@@ -336,6 +336,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			filter(TRINKET_F, {
 				i(215170),	-- Abyssal Trap
 				i(215174),	-- Concoction: Kiss of Death
+				i(215169),	-- Everburning Lantern
 				i(215171),	-- Fungal Friend Flute
 				i(225653),	-- Siphoning Lightbrand
 				i(215178),	-- Shadow-Binding Ritual Knife
@@ -668,7 +669,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		n(WEAPONS, {
 			i(219355),	-- Bedrock Breaker
 			i(211041),	-- Brilliant Beacon
-			i(215169),	-- Everburning Lantern
 			i(211047),	-- Lapidarius Gemcutter
 			i(211059),	-- Luminous Lampspire
 			i(219351),	-- Mana-Lined Slab Slicer
