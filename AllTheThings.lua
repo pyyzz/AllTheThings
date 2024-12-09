@@ -11252,19 +11252,6 @@ app:RegisterFuncEvent("ADDON_LOADED", function(addonName)
 	if addonTrigger then addonTrigger(); end
 end)
 
-app.AddEventRegistration("HEIRLOOMS_UPDATED", function(itemID, kind, ...)
-	-- print("HEIRLOOMS_UPDATED",itemID,kind)
-	if itemID then
-		UpdateRawID("itemID", itemID);
-		app.HandleEvent("OnThingCollected", "Heirlooms")
-
-		if app.Settings:GetTooltipSetting("Report:Collected") then
-			local _, link = GetItemInfo(itemID);
-			if link then print(L.ITEM_ID_ADDED_RANK:format(link, itemID, (select(5, C_Heirloom.GetHeirloomInfo(itemID)) or 1))); end
-		end
-	end
-end)
-
 app.Wait_OnStartupDone = true
 app.AddEventHandler("OnStartupDone", function() app.Wait_OnStartupDone = nil end)
 

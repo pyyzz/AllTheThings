@@ -306,9 +306,30 @@ do
 
 		heirloomIDs = nil
 	end
+
 	if C_Heirloom_GetHeirloomMaxUpgradeLevel then
 		app.AddEventHandler("OnInit", CacheHeirlooms)
 	end
+
+	-- app.AddCollectionReportFormatFunc("HeirloomLevel", function(t)
+	-- 	local itemID, link = t.itemID, t.link or t.silentLink
+	-- 	app.print(L.ITEM_ID_ADDED_RANK:format(link, itemID, (select(5, C_Heirloom_GetHeirloomInfo(itemID)) or 1)))
+	-- end)
+	app.AddEventRegistration("HEIRLOOMS_UPDATED", function(itemID, kind, ...)
+		-- app.PrintDebug("HEIRLOOMS_UPDATED",itemID,kind,...)
+		if itemID then
+			-- local heirloom = app.SearchForObject("heirloomID", itemID, "field")
+			-- TODO: Heirlooms aren't cached when collected so can't use typical logic
+			-- app.SetAccountCollected(heirloom, field, id, true, "Heirlooms")
+			app.UpdateRawID("itemID", itemID);
+			app.HandleEvent("OnThingCollected", "Heirlooms")
+
+			if app.Settings:GetTooltipSetting("Report:Collected") then
+				local _, link = GetItemInfo(itemID);
+				if link then app.print(L.ITEM_ID_ADDED_RANK:format(link, itemID, (select(5, C_Heirloom_GetHeirloomInfo(itemID)) or 1))); end
+			end
+		end
+	end)
 end
 
 app.AddEventHandler("OnSavedVariablesAvailable", function(currentCharacter, accountWideData)
