@@ -156,7 +156,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 						i(69799),	-- Quickfinger Ring
 					}),
 					n(24396, {	-- Forest Frog
-						["description"] = "Use an Amani Hex Stick on a Forest Frog for a chance to have Mojo spawn and hop into your bags, as well as vendors and bags of gold.",
+						["description"] = "Use an Amani Hex Stick on a Forest Frog for a chance to get vendors and bags of gold, as well as have Mojo spawn and hop into your bags.",
 						["cost"] = {
 							{ "i", 33865, 1 },	-- Amani Hex Stick
 						},
@@ -206,6 +206,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 					}),
 					n(ZULAMAN_TIMED_EVENT, {
 						["description"] = "Enter the instance and talk to Vol'Jin to start the event and open the doors. You will now have 15 minutes to defeat the first animal-boss of your choice. Any of the loa spirit bosses will do and there is no required order, but two of them will add extra time to the timer.\n\nKilling Nalorakk (bear) will add 5 minutes to your timer.\nKilling Akil'zon (eagle) will add 5 minutes to your timer.\nOther bosses will not grant additional time.\n\nThe loot from the event is dependent on the number of hostages you rescue, and spawns in containers near the hostage's cage upon release.",
+						["nomerge"] = true,
 						["groups"] = {
 							n(ZULAMAN_CHEST_1, {
 								i(69886),	-- Bag of Coins
@@ -234,7 +235,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CATA, bubbleDown({ ["timeline"] = ADDE
 						},
 					}),
 					n(ZULAMAN_TIMED_EVENT, {
-						["sharedDescription"] = "Stay with them after their release to get additional loot.",
+						["sharedDescription"] = "Stay with the captives after their release to get additional loot.",
 						["groups"] = {
 							n(52941), -- Bakkal'zu
 							n(52939), -- Hazlek
