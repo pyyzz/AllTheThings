@@ -1054,6 +1054,9 @@ visit_exploration = function(id, t)						-- Create an EXPLORATION Object (which 
 	-- Flag as collectible if the areaID is confirmed as validly-working in that Classic Version
 	if ValidExplorationAreaIDsForClassic[id] then
 		t.collectible = nil
+	else
+		-- completely omit non-valid explorations from Classic for now since they're connected to Exploration Achievements
+		t._remove=true
 	end
 	-- #ENDIF
 	return t

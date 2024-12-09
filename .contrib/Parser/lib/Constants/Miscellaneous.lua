@@ -122,6 +122,7 @@ ValidExplorationAreaIDsForClassic = {
 	[8373] = true,	-- Eye of Azshara
 	[3768] = true,	-- Jagged Ridge
 	[5599] = true,	-- Lost City of the Tol'vir
+	[5022] = true,	-- Rim of the World (Mount Hyjal)
 	[5663] = true,	-- Neferset City
 	[5615] = true,	-- Pyrox Flats
 	[5290] = true,	-- The Raging Chasm
