@@ -210,6 +210,7 @@ MobileDB.Creature = {
 -- either by following the player or having player-based decisions that cause them to have any coordinates
 MobileDB.GameObject = {
 	209287,	-- Bit of Glass, quest:29516
+	201615,	-- Valve in ICC
 	433370,	-- War Supply Chest
 }
 
