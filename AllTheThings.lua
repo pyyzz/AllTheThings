@@ -466,7 +466,7 @@ app.SourceSpecificFields = {
 local function MergeProperties(g, t, noReplace, clone)
 	if g and t then
 		if g ~= t then
-			g.__merge = t
+			g.__merge = t.__merge or t
 		end
 		local skips = app.MergeSkipFields;
 		if noReplace then
