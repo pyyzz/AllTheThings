@@ -3504,6 +3504,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(131209, {	-- Stonehallow's Pressed Cuffs
 							["timeline"] = { ADDED_7_0_3 },
 						}),
+						-- #if AFTER 9.1.5
+						n(1977, {	-- Senator Mehr Stonehallow
+							["description"] = "The quest 'A Public Servant' get flagged as not completed with major patch releases, thus is unintentionally repeatable. This does not affect the collected state of the quest rewards.",
+						}),
+						-- #endif
 					},
 				}),
 				q(291, {	-- The Reports
