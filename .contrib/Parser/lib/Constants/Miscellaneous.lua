@@ -12,6 +12,7 @@ TWW_ACCOUNT_CAMPAIGN_QUEST = 79573;	-- The War Within Campaign Completed [Accoun
 -- within a specific Classic version.
 -- i.e. If it's only detected prior to Cataclysm, then put it in the IF BEFORE CATA preprocessor
 ValidExplorationAreaIDsForClassic = {
+	[604] = true,	-- Magram Village / Shok'Thokar [CATA+]
 	-- #IF BEFORE CATA
 	[3839] = true,	-- Abandoned Armory
 	[3754] = true,	-- Altar of Sha'tar
@@ -49,7 +50,6 @@ ValidExplorationAreaIDsForClassic = {
 	[312] = true,	-- Janeiro's Point
 	[4194] = true,	-- Jintha'kalar
 	[4481] = true,	-- Jintha'kalar Passage
-	[604] = true,	-- Magram Village
 	[2100] = true,	-- Maraudon
 	[4435] = true,	-- Narvir's Cradle
 	[3758] = true,	-- Netherwing Fields
@@ -124,7 +124,6 @@ ValidExplorationAreaIDsForClassic = {
 	[5599] = true,	-- Lost City of the Tol'vir
 	[5663] = true,	-- Neferset City
 	[5615] = true,	-- Pyrox Flats
-	[604] = true,	-- Shok'Thokar
 	[5290] = true,	-- The Raging Chasm
 	[3976] = true,	-- Veil Ala'rak
 	[3889] = true,	-- Veil Rhaze

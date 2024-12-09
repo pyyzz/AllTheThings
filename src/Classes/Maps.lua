@@ -356,6 +356,7 @@ local AreaIDNameMapper = setmetatable({}, {__index = function(t,key)
 	app.PrintDebug("Ran out of AreaID and never found for",key)
 end})
 local ReportedAreas = {};
+app.AddEventHandler("OnReportReset", function() wipe(ReportedAreas) end)
 local function PrintDiscordInformationForExploration(o)
 	if not app.Contributor then return end
 	local areaID = o.explorationID;
@@ -442,9 +443,28 @@ local function GetExplorationBySubzone()
 		return e
 	end
 end
+local function CheckIfExplorationIsMissing()
+	if not app.Contributor then return end
+	-- do a manual check by way of the sub-zone name (since this is what correlates to the exploration name players see in ATT)
+	-- we will provide a manual collection by way of exact player position having a specific subzone name when performing a check
+	local explorationForSubzone = GetExplorationBySubzone()
+	if explorationForSubzone then
+		-- app.PrintDebug("SubzoneExplorationFind",mapID,pos.x,pos.y,app:SearchLink(explorationForSubzone))
+		local areaID = explorationForSubzone.explorationID
+		local characterExploration = app.CurrentCharacter.Exploration
+		-- don't know how areaID could be nil here...
+		if areaID and not characterExploration[areaID] then
+			-- app.PrintDebug("Manual cached Exploration by Subzone name")
+			-- we won't use regular caching since we're manually checking instead of the expected API utilization
+			-- maybe eventually blizzard will fix the API
+			characterExploration[areaID] = 2
+		end
+	end
+end
 local function CheckExplorationForPlayerPosition()
 	local mapID = C_Map_GetBestMapForUnit("player");
 	if not mapID then return; end
+	CheckIfExplorationIsMissing()
 	local pos = C_Map_GetPlayerMapPosition(mapID, "player");
 	if not pos then return; end
 	local areaIDs = C_MapExplorationInfo_GetExploredAreaIDsAtPosition(mapID, pos);
@@ -463,20 +483,6 @@ local function CheckExplorationForPlayerPosition()
 			if #app.SearchForField("explorationID", areaID) < 1 then
 				PrintDiscordInformationForExploration(app.CreateExploration(areaID, { mapID = mapID}));
 			end
-		end
-	end
-	-- do a manual check by way of the sub-zone name (since this is what correlates to the exploration name players see in ATT)
-	-- we will provide a manual collection by way of exact player position having a specific subzone name when performing a check
-	local explorationForSubzone = GetExplorationBySubzone()
-	if explorationForSubzone then
-		-- app.PrintDebug("SubzoneExplorationFind",mapID,pos.x,pos.y,app:SearchLink(explorationForSubzone))
-		local areaID = explorationForSubzone.explorationID
-		-- don't know how areaID could be nil here...
-		if areaID and not characterExploration[areaID] then
-			-- app.PrintDebug("Manual cached Exploration by Subzone name")
-			-- we won't use regular caching since we're manually checking instead of the expected API utilization
-			-- maybe eventually blizzard will fix the API
-			characterExploration[areaID] = 2
 		end
 	end
 	if #newAreas > 0 then
