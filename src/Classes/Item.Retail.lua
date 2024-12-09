@@ -6,6 +6,7 @@ local L = app.L
 local GetRawField, contains
 	= app.GetRawField, app.contains
 local IsQuestFlaggedCompleted, IsQuestFlaggedCompletedForObject = app.IsQuestFlaggedCompleted, app.IsQuestFlaggedCompletedForObject;
+local IsRetrieving = app.Modules.RetrievingData.IsRetrieving;
 
 -- Global locals
 local ipairs, pairs, rawset, rawget, tinsert, math_floor, select, tonumber, tostring, tremove
@@ -424,6 +425,29 @@ local itemFields = {
 	["costsCount"] = function(t)
 		if t.costCollectibles then return #t.costCollectibles; end
 	end,
+	bonuses = function(t)
+		local link = t.link
+		if IsRetrieving(link) then return end
+		local itemVals = {(":"):split(link)}
+
+		-- BonusID count
+		local bonusCount = tonumber(itemVals[14])
+		if not bonusCount or bonusCount < 1 then
+			t.bonuses = app.EmptyTable
+			return app.EmptyTable
+		end
+
+		local bonusID
+		local bonuses = {}
+		for i=15,14 + bonusCount,1 do
+			bonusID = tonumber(itemVals[i])
+			if bonusID then
+				bonuses[#bonuses + 1] = bonusID
+			end
+		end
+		t.bonuses = bonuses
+		return bonuses
+	end,
 	-- some calculated properties can let fall-through to the merge source of a group instead of needing to re-calculate in every copy
 	isCost = function(t)
 		local merge = t.__merge
@@ -531,7 +555,6 @@ if not app.Debugging then return end
 -- No reason to create all this for the avg user, and pretty sure none of this is typically used anyway
 local HarvestedItemDatabase;
 local C_Item_GetItemInventoryTypeByID = C_Item.GetItemInventoryTypeByID;
-local IsRetrieving = app.Modules.RetrievingData.IsRetrieving;
 ---@class ATTItemHarvesterForRetail: GameTooltip
 local ItemHarvester = CreateFrame("GameTooltip", "ATTItemHarvester", UIParent, "GameTooltipTemplate");
 local CreateItemTooltipHarvester
