@@ -125,10 +125,10 @@ root(ROOTS.Promotions, bubbleDown({ ["u"] = REAL_MONEY }, {
 				},
 				["u"] = REMOVED_FROM_GAME,
 			}),
-			i(33225, {	-- Reins of the Swift Spectral Tiger (CN Only)
+			chinaONLY(i(33225, {	-- Reins of the Swift Spectral Tiger
 				["description"] = "Obtained if you paid 267$ to set up a 6 Month WoW Subscription between 25th January 2022 until 25th July 2022.",
 				["u"] = REMOVED_FROM_GAME,
-			}),			
+			})),
 		},
 	}),
 	expansion(EXPANSION.WRATH, {
