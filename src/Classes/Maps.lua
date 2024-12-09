@@ -406,6 +406,7 @@ local function PrintDiscordInformationForExploration(o)
 	local popupID = "area-" .. areaID;
 	app:SetupReportDialog(popupID, text, info);
 	app.print("Found Unmapped Area:", app:Linkify(text, app.Colors.ChatLinkError, "dialog:" .. popupID));
+	app.Audio:PlayReportSound();
 end
 local RefreshExplorationData = app.IsClassic and (function(data)
 	app:RefreshDataQuietly("RefreshExploration", true);
