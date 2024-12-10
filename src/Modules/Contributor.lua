@@ -209,9 +209,11 @@ MobileDB.Creature = {
 -- These should be GameObjects which are mobile in that they can have completely variable coordinates in game
 -- either by following the player or having player-based decisions that cause them to have any coordinates
 MobileDB.GameObject = {
-	209287,	-- Bit of Glass, quest:29516
-	201615,	-- Valve in ICC
-	433370,	-- War Supply Chest
+	[201615] = true,	-- Valve in ICC
+	[209287] = true,	-- Bit of Glass, quest:29516
+	[415296] = true,	-- Repair Kit
+	[433370] = true,	-- War Supply Chest
+	[478443] = true,	-- Mislaid Curiosity (delve object)
 }
 
 local ReturnEmptyFunctionMeta = { __index = function() return app.ReturnFalse end}

@@ -348,87 +348,90 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		n(BOUNTIFUL, bubbleDownFiltered({
 			["cost"] = {{"c", RESTORED_COFFER_KEY, 1}},
 		},FILTERFUNC_itemID,{
-			i(220520),	-- Radiant Echo
-			i(228958),	-- Radiant Echo (QS!)
-			filter(BATTLE_PETS, {
-				i(221820),	-- Chester (PET!)
-			}),
-			n(ARMOR, {
-				filter(BACK_F, {
-					i(219183),	-- Amice of Hidden Stars
-					i(219186),	-- Myconic Wrap
-					i(219185),	-- Serape of the Stygian Sea
-					i(219190),	-- Unkindled Waxweave Mozzetta
+			["provider"] = { "o", 413590 },	-- Bountiful Coffer
+			["g"] = {
+				i(220520),	-- Radiant Echo
+				i(228958),	-- Radiant Echo (QS!)
+				filter(BATTLE_PETS, {
+					i(221820),	-- Chester (PET!)
 				}),
-				filter(CLOTH, {
-					i(219176),	-- Unkindled Waxweave Belt
-					i(219178),	-- Unkindled Waxweave Buskins
-					i(219175),	-- Unkindled Waxweave Clasps
-					i(219182),	-- Unkindled Waxweave Garb
-					i(219180),	-- Unkindled Waxweave Mitts
-					i(219181),	-- Unkindled Waxweave Slippers
-					i(219177),	-- Unkindled Waxweave Shoulderpads
-					i(219179),	-- Unkindled Waxweave Veil
+				n(ARMOR, {
+					filter(BACK_F, {
+						i(219183),	-- Amice of Hidden Stars
+						i(219186),	-- Myconic Wrap
+						i(219185),	-- Serape of the Stygian Sea
+						i(219190),	-- Unkindled Waxweave Mozzetta
+					}),
+					filter(CLOTH, {
+						i(219176),	-- Unkindled Waxweave Belt
+						i(219178),	-- Unkindled Waxweave Buskins
+						i(219175),	-- Unkindled Waxweave Clasps
+						i(219182),	-- Unkindled Waxweave Garb
+						i(219180),	-- Unkindled Waxweave Mitts
+						i(219181),	-- Unkindled Waxweave Slippers
+						i(219177),	-- Unkindled Waxweave Shoulderpads
+						i(219179),	-- Unkindled Waxweave Veil
+					}),
+					filter(FINGER_F, {
+						i(219187),	-- Bone-Carved Circlet
+						i(219221),	-- Ceremonial Song Ring
+						i(219188),	-- Dark Abyss Hoop
+						i(219189),	-- Fuzzy Molding Halo
+					}),
+					filter(LEATHER, {
+						i(219172),	-- Myconic Clutches
+						i(219170),	-- Myconic Chausses
+						i(219174),	-- Myconic Frock
+						i(219171),	-- Myconic Hood
+						i(219169),	-- Myconic Shoulderstrap
+						i(219168),	-- Myconic Strap
+						i(219173),	-- Myconic Waders
+						i(219167),	-- Myconic Wristbands
+					}),
+					filter(MAIL, {
+						i(219163),	-- Bascinet of the Stygian Sea
+						i(219166),	-- Hauberk of the Stygian Sea
+						i(219164),	-- Grasps of the Stygian Sea
+						i(219162),	-- Poleyns of the Stygian Sea
+						i(219160),	-- Sash of the Stygian Sea
+						i(219161),	-- Spaulders of the Stygian Sea
+						i(219165),	-- Treads of the Stygian Sea
+						i(219159),	-- Wrist Bindings of the Stygian Sea
+					}),
+					filter(NECK_F, {
+						i(219184),	-- Enkindled Locket
+						i(219217),	-- Gold-Thread Choker
+					}),
+					filter(PLATE, {
+						i(219152),	-- Charmbelt of Hidden Stars
+						i(219156),	-- Fists of Hidden Stars
+						i(219151),	-- Handguards of Hidden Stars
+						i(219154),	-- Legplates of Hidden Stars
+						i(219158),	-- Raiment of Hidden Stars
+						i(219153),	-- Pauldrons of Hidden Stars
+						i(219157),	-- Sollerets of Hidden Stars
+						i(219155),	-- Visage of Hidden Stars
+					}),
 				}),
-				filter(FINGER_F, {
-					i(219187),	-- Bone-Carved Circlet
-					i(219221),	-- Ceremonial Song Ring
-					i(219188),	-- Dark Abyss Hoop
-					i(219189),	-- Fuzzy Molding Halo
+				filter(TOYS, {
+					i(225910),	-- Pileus Delight (TOY!)
 				}),
-				filter(LEATHER, {
-					i(219172),	-- Myconic Clutches
-					i(219170),	-- Myconic Chausses
-					i(219174),	-- Myconic Frock
-					i(219171),	-- Myconic Hood
-					i(219169),	-- Myconic Shoulderstrap
-					i(219168),	-- Myconic Strap
-					i(219173),	-- Myconic Waders
-					i(219167),	-- Myconic Wristbands
+				n(WEAPONS, {
+					i(219203),	-- Arathi Holy Standard
+					i(218126),	-- Befouler's Syringe
+					i(219207),	-- Flame-Bearing Crozier
+					i(219206),	-- Hand of Piety
+					i(219204),	-- Imperial Flarebolt
+					i(219202),	-- Lamplighter's Mercy
+					i(219199),	-- Radiant Steelglaives
+					i(219200),	-- Unscathed Rampart
+					i(219201),	-- Vessel of Sacred Flame
+					i(219209),	-- Worshipper's Poniard
+					i(219205),	-- Shooting Starquebus
+					i(219210),	-- Sanctifier's Startierce
+					i(219208),	-- Pyretic Star
 				}),
-				filter(MAIL, {
-					i(219163),	-- Bascinet of the Stygian Sea
-					i(219166),	-- Hauberk of the Stygian Sea
-					i(219164),	-- Grasps of the Stygian Sea
-					i(219162),	-- Poleyns of the Stygian Sea
-					i(219160),	-- Sash of the Stygian Sea
-					i(219161),	-- Spaulders of the Stygian Sea
-					i(219165),	-- Treads of the Stygian Sea
-					i(219159),	-- Wrist Bindings of the Stygian Sea
-				}),
-				filter(NECK_F, {
-					i(219184),	-- Enkindled Locket
-					i(219217),	-- Gold-Thread Choker
-				}),
-				filter(PLATE, {
-					i(219152),	-- Charmbelt of Hidden Stars
-					i(219156),	-- Fists of Hidden Stars
-					i(219151),	-- Handguards of Hidden Stars
-					i(219154),	-- Legplates of Hidden Stars
-					i(219158),	-- Raiment of Hidden Stars
-					i(219153),	-- Pauldrons of Hidden Stars
-					i(219157),	-- Sollerets of Hidden Stars
-					i(219155),	-- Visage of Hidden Stars
-				}),
-			}),
-			filter(TOYS, {
-				i(225910),	-- Pileus Delight (TOY!)
-			}),
-			n(WEAPONS, {
-				i(219203),	-- Arathi Holy Standard
-				i(218126),	-- Befouler's Syringe
-				i(219207),	-- Flame-Bearing Crozier
-				i(219206),	-- Hand of Piety
-				i(219204),	-- Imperial Flarebolt
-				i(219202),	-- Lamplighter's Mercy
-				i(219199),	-- Radiant Steelglaives
-				i(219200),	-- Unscathed Rampart
-				i(219201),	-- Vessel of Sacred Flame
-				i(219209),	-- Worshipper's Poniard
-				i(219205),	-- Shooting Starquebus
-				i(219210),	-- Sanctifier's Startierce
-				i(219208),	-- Pyretic Star
-			}),
+			},
 		})),
 		filter(CONSUMABLES, {
 			i(227668),	-- Delver's Bounty [Tier 1]
@@ -1953,9 +1956,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				o(454207, {	-- Sturdy Chest
 					["coord"] = { 49.5, 79.1, THE_WATERWORKS },
 					["questID"] = 83456,
-				}),
-				o(413590, {	-- Bountiful Coffer
-					["coord"] = { 45.3, 95.3, THE_WATERWORKS },
 				}),
 			}),
 		},
