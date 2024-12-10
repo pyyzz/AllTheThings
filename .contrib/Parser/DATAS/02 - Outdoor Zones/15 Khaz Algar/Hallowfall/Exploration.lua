@@ -44,6 +44,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			exploration(15036),	-- The Hungering Pool
 			exploration(15033),	-- The Ragged Front
 			exploration(14944),	-- The Undersea
+			visit_exploration(14850,{coord={65.8,30.8,HALLOWFALL}}),	-- The Whirring Field
 			visit_exploration(15024,{coord={64.0,20.1,HALLOWFALL}}),	-- Torchlight Mine
 			exploration(14926),	-- Velhan's Claim
 			exploration(14925),	-- Veneration Grounds

@@ -984,7 +984,6 @@ root(ROOTS.Unsorted, {
 				exploration(15103),	-- Cinderbrew Meadery
 				exploration(14753),	-- City of Threads
 				exploration(14979),	-- City of Threads
-				exploration(15110),	-- Contender's Gate
 				exploration(15172),	-- Councilward's Rise
 				exploration(15376),	-- Crown of Shadows
 				exploration(15177),	-- Dalaran
@@ -1002,13 +1001,11 @@ root(ROOTS.Unsorted, {
 				exploration(15155),	-- Echoing Overlook
 				exploration(15047),	-- Fallside Outpost
 				exploration(15142),	-- Firewall of Negation
-				exploration(15044),	-- Foundation Hall
 				exploration(14957),	-- Fungal Folly
 				exploration(15361),	-- Gemvein Tunnels
 				exploration(15140),	-- Gloomcrag Bower
 				exploration(15373),	-- Gossamer Gallery
 				exploration(15363),	-- Grand Rampart
-				exploration(14839),	-- Grudge Grotto
 				exploration(15022),	-- Hall of the Candle King
 				exploration(15048),	-- Hall of Awakening
 				exploration(15342),	-- Hall of Awakening
@@ -1017,10 +1014,8 @@ root(ROOTS.Unsorted, {
 				exploration(14971),	-- Hallowfall
 				exploration(15145),	-- Hallowfall
 				exploration(15019),	-- Hewn Passage
-				exploration(15112),	-- High Hollows
 				exploration(14717),	-- Isle of Dorn
 				exploration(15101),	-- Junction
-				exploration(15042),	-- Keepers Terrace
 				exploration(14665),	-- Khaz Algar
 				exploration(14748),	-- Khaz Algar
 				exploration(15368),	-- Kili-zar Arena
@@ -1031,10 +1026,8 @@ root(ROOTS.Unsorted, {
 				exploration(15149),	-- Mereldar
 				exploration(15545),	-- Mereldar
 				exploration(14998),	-- Mycomancer Cavern
-				exploration(14980),	-- Nerub-ar Palace
 				exploration(15362),	-- Nerub-ar Gatehouse
 				exploration(15005),	-- Nightfall Sanctum
-				exploration(15183),	-- Oath Gate
 				exploration(15513),	-- Pocket Dimension
 				exploration(14954),	-- Priory of the Sacred Flame
 				exploration(15150),	-- Priory of the Sacred Flame
@@ -1048,15 +1041,12 @@ root(ROOTS.Unsorted, {
 				exploration(15371),	-- Skittering Cavern
 				exploration(15020),	-- Sprawling Trackyard
 				exploration(15550),	-- Stagnant Mire
-				exploration(15184),	-- Stoneshaper's Atrium
-				exploration(15182),	-- Stoneward's Rise
 				exploration(15359),	-- Sundered's Crucible
 				exploration(15008),	-- Tak-Rethan Abyss
 				exploration(15327),	-- Tak-Rethan Abyss
 				exploration(15544),	-- Tenir's Ascent
 				exploration(15367),	-- Terrace of Majesty
 				exploration(14853),	-- Test Dungeon
-				exploration(14794),	-- The Burrows
 				exploration(14795),	-- The Ringing Deeps
 				exploration(14798),	-- The Waterworks
 				exploration(14807),	-- The Glittering Shelf
@@ -1070,16 +1060,12 @@ root(ROOTS.Unsorted, {
 				exploration(15007),	-- The Spiral Weave
 				exploration(15009),	-- The Underkeep
 				exploration(15021),	-- The Waxatory
-				exploration(15043),	-- The Forgegrounds
 				exploration(15100),	-- The Earthenworks
-				exploration(15113),	-- The Transformatory
-				exploration(15134),	-- The Burrows
 				exploration(15146),	-- The Undersea
 				exploration(15154),	-- The Shredded Strands
 				exploration(15156),	-- The Undercache
 				exploration(15157),	-- The Meadyard
 				exploration(15175),	-- The Sinkhole
-				exploration(15181),	-- The Fissure
 				exploration(15328),	-- The Rookery Landing
 				exploration(15338),	-- The Flaming Taps
 				exploration(15339),	-- The Stills
@@ -1090,14 +1076,9 @@ root(ROOTS.Unsorted, {
 				exploration(15366),	-- The Ascending Reach
 				exploration(15369),	-- The Swaying Span
 				exploration(15370),	-- The Narthex
-				exploration(15381),	-- The Archive
-				exploration(15517),	-- The Royal Apothecary
 				exploration(15525),	-- The Great Sea
 				exploration(15548),	-- The Hungering Pool
 				exploration(15551),	-- The Fangs
-				exploration(15185),	-- Thraegar Rest
-				exploration(14791),	-- Umbral Bazaar
-				exploration(15111),	-- Umbral Bazaar
 				exploration(15148),	-- Velhan's Claim
 				exploration(15147),	-- Veneration Grounds
 				exploration(15546),	-- Veneration Grounds
