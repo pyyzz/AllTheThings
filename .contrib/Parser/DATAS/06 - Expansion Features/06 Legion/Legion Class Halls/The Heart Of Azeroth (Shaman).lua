@@ -847,5 +847,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(44398),	-- Tracking Quest: Thunderaan's Enemies 3 - commpleted the "Thunderaan's Enemies: Alacris" mission
 		q(44399),	-- Tracking Quest: Thunderaan's Enemies 4 - commpleted the "Thunderaan's Enemies: Tulmos" mission
 		q(44499),	-- Snowfang Tracking Quest - triggeres after defeating Snowfang battle pet
+		q(44068),	-- Tell Morgl he can have the Doomhammer
 	}),
 });

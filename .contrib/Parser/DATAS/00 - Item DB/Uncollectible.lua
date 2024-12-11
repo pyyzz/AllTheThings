@@ -32,17 +32,21 @@ i(173888);	-- Shard of Self Sacrifice \\ Lingering Soul
 -- SL
 i(187603);	-- The Mad Duke's Tea
 i(189722);	-- Alacrialic Crystallic Spheroid
+i(189723);	-- Absorptialic Crystallic Spheroid
+i(189724);	-- Extractialic Crystallic Spheroid
 i(189726);	-- Focialic Crystallic Spheroid
 i(189727);	-- Healialic Crystallic Spheroid
 i(189732);	-- Constialic Crystallic Spheroid
+i(189734);	-- Rigialic Crystallic Spheroid
 i(189735);	-- Velocialic Crystallic Spheroid
 i(189760);	-- Robustialic Crystallic Spheroid
 i(189761);	-- Toxicialic Crystallic Spheroid
+i(189762);	-- Fortialic Crystallic Spheroid
 i(189763);	-- Efficialic Crystallic Spheroid
-i(190661);	-- Resonant Regrowth Fluidic Spheroid
 i(190658);	-- Resonant Gossamer Fluidic Spheroid
 i(190659);	-- Resonant Carapace Fluidic Spheroid
 i(190660);	-- Resonant Mucus Fluidic Spheroid
+i(190661);	-- Resonant Regrowth Fluidic Spheroid
 
 -- DF
 i(195572);	-- Empty Elixir

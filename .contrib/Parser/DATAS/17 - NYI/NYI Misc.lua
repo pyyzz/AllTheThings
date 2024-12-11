@@ -915,19 +915,16 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(190662),	-- [PH] Rare 6 Fluidic Spheroid
 			i(190663),	-- [PH] Rare 7 Fluidic Spheroid
 			i(190664),	-- [PH] Rare 8 Fluidic Spheroid
-			i(189723),	-- Absorptialic Crystallic Spheroid
 			i(189736),	-- Absorptialic Fluidic Spheroid
 			i(189740),	-- Alacrialic Fluidic Spheroid
 			i(189748),	-- Constialic Fluidic Spheroid
 			i(189560),	-- Deflectialic Crystallic Spheroid
 			i(189577),	-- Deflectialic Fluidic Spheroid
 			i(189757),	-- Efficialic Fluidic Spheroid
-			i(189724),	-- Extractialic Crystallic Spheroid
 			i(189739),	-- Extractialic Fluidic Spheroid
 			i(189725),	-- Flexialic Crystallic Spheroid
 			i(189749),	-- Flexialic Fluidic Spheroid
 			i(189743),	-- Focialic Fluidic Spheroid
-			i(189762),	-- Fortialic Crystallic Spheroid
 			i(189755),	-- Fortialic Fluidic Spheroid
 			i(189742),	-- Healialic Fluidic Spheroid
 			i(189728),	-- Obscurialic Crystallic Spheroid
@@ -942,7 +939,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(189758),	-- Reflectialic Fluidic Spheroid
 			i(189733),	-- Relialic Crystallic Spheroid
 			i(189745),	-- Relialic Fluidic Spheroid
-			i(189734),	-- Rigialic Crystallic Spheroid
 			i(189746),	-- Rigialic Fluidic Spheroid
 			i(189759),	-- Robustialic Fluidic Spheroid
 			i(189756),	-- Toxicialic Fluidic Spheroid
