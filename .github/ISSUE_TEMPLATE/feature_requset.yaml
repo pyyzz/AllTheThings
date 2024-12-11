@@ -2,6 +2,10 @@ name: Feature Request
 description: See something useful that could be added?
 labels: ["Suggestion"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for filling out this feature request form. Please note that all feature requests will be reviewed and discussed among contributors before any implementation decision is made.
   - type: dropdown
     id: flavour
     attributes:
