@@ -375,7 +375,7 @@ local function PrintDiscordInformationForExploration(o)
 		"",
 	};
 
-	local position, coord = mapID and C_Map.GetPlayerMapPosition(mapID, "player"), nil;
+	local position, coord = mapID and C_Map_GetPlayerMapPosition(mapID, "player"), nil;
 	local x,y
 	if position then
 		x,y = position:GetXY();
@@ -438,9 +438,13 @@ local function GetExplorationBySubzone()
 				end
 			end
 		end
-		local e = app.CreateExploration(AreaIDNameMapper[subzone], { mapID = app.RealMapID, name = subzone})
-		PrintDiscordInformationForExploration(e);
-		return e
+		local expectedAreaID = AreaIDNameMapper[subzone]
+		-- don't report an area which is actually mapped in another zone already
+		if #app.SearchForField("explorationID", expectedAreaID) < 1 then
+			local e = app.CreateExploration(expectedAreaID, { mapID = app.RealMapID, name = subzone})
+			PrintDiscordInformationForExploration(e);
+			return e
+		end
 	end
 end
 local function CheckIfExplorationIsMissing()
