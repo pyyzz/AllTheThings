@@ -1742,22 +1742,25 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					-- #if AFTER 5.3.0
 					-- These vendors have nothing useful to show until after 5.3.0.
 					n(VENDORS, {
-						n(36915, {	-- Erunak Stonespeaker <The Earthen Ring>
-							["coord"] = { 45.0, 23.2, VASHJIR_KELPTHAR_FOREST },
-							["races"] = ALLIANCE_ONLY,
-							["sym"] = {
-								{ "select", "npcID", 71304 },	-- Iris Moondreamer <Quartermaster> },
-								{ "pop" },						-- Pop the Headers
-							},
-						}),
-						n(41618, {	-- Erunak Stonespeaker <The Earthen Ring>
-							["coord"] = { 38.8, 31.6, VASHJIR_KELPTHAR_FOREST },
-							["races"] = HORDE_ONLY,
-							["sym"] = {
-								{ "select", "npcID", 71304 },	-- Iris Moondreamer <Quartermaster> },
-								{ "pop" },						-- Pop the Headers
-							},
-						}),
+						["sharedDescription"] = "You can only buy gear from Erunak during the early questing when the shipwreck is the quest hub. His wares is also available at Iris Moondreamer in Nordrassil Inn, at the top of Mount Hyjal.",
+						["groups"] = {
+							n(36915, {	-- Erunak Stonespeaker <The Earthen Ring>
+								["coord"] = { 45.0, 23.2, VASHJIR_KELPTHAR_FOREST },
+								["races"] = ALLIANCE_ONLY,
+								["sym"] = {
+									{ "select", "npcID", 71304 },	-- Iris Moondreamer <Quartermaster> },
+									{ "pop" },						-- Pop the Headers
+								},
+							}),
+							n(41618, {	-- Erunak Stonespeaker <The Earthen Ring>
+								["coord"] = { 38.8, 31.6, VASHJIR_KELPTHAR_FOREST },
+								["races"] = HORDE_ONLY,
+								["sym"] = {
+									{ "select", "npcID", 71304 },	-- Iris Moondreamer <Quartermaster> },
+									{ "pop" },						-- Pop the Headers
+								},
+							}),
+						},
 					}),
 					-- #endif
 				},
