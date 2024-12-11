@@ -1918,7 +1918,7 @@ i(231374, 468353);	-- Enchanted Spellweave Carpet
 i(224398, 452643);	-- Frayfeather Hippogryph
 i(211087, 428067);	-- Hateforged Blazecycle
 -- #if AFTER 11.0.5
-i(0, 428013);		-- Incognitro, the Indecipherable Felcycle
+i(229348, 428013);		-- Incognitro, the Indecipherable Felcycle
 -- #endif
 i(223471, 449142);	-- Kaldorei War Wolf
 i(212228, 431359);	-- Soaring Sky Fox

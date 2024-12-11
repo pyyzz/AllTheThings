@@ -1123,7 +1123,6 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			}),
 		}),
 		header(HEADERS.Achievement, 40967, {	-- Ratts' Revenge
-			ach(40967),		-- Ratts' Revenge
 			o(182030, {	-- Inert Peculiar Key
 				["description"] = "Inside a rotten tree trunk in the far north of Un'Goro Crater. Use your Torch of Pyrreth to reveal it.",
 				["provider"] = { "i", 208092 },	-- Torch of Pyrreth
@@ -1523,6 +1522,24 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 						},
 					}),
 					--9 O'clock Basin
+					o(467191, {	-- Encrypted Chest
+						["description"] = "Return to Pillar-nest Vosh to the left of Faerin's advance, navigate toward the back of the cave then turn around to find a wall you can climb, fall into a tunnel hidden in the wall.\n\nUse your Starry-Eyed goggles to reveal a translucent platform, use your Relic of Crystal Connections on the humming crystal to get up to it.\n\nCode to open at the adjacent decryption console: 84847078.\n\nFully lights the 9 O'clock Basin.",
+						["sourceQuest"] = 84837,	-- Decipher the Enigma Machine
+						["providers"] = {
+							{ "i", 228966 },	-- Relic of Crystal Connections
+							{ "i", 228996 },	-- Starry-Eyed Goggles
+						},
+						["coords"] = {
+							{ 55.1, 19.0, AZJ_KAHET },	-- Cave Entrance
+							{ 56.4, 17.5, AZJ_KAHET },	-- Wall Tunnel
+							{ 56.1, 17.9, AZJ_KAHET },	-- Encrypted Chest
+						},
+						["questID"] = 84854, -- Fully lights the 9 O'clock basin
+						["g"] = {
+							i(229348),	-- Incognitro, the Indecipherable Felcycle (MOUNT!)
+							ach(40967),		-- Ratts' Revenge
+						},
+					}),
 					--10 O'clock Basin
 					n(230070, {	-- Red Button
 						["description"] = "Interacting with the button starts a 20 second timer, refreshing on clicking again. The orb to the left of the button reports how many times the button has been clicked within that window.",
@@ -1551,11 +1568,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 							{ 47.0, 78.1, 46 },	-- Shelf Pebble
 						},
 					}),
-					mount(428013),	-- Incognitro, the Indecipherable Felcycle (MOUNT!)
 				},
-			}),
-			o(475130, {	-- Hidden Hatch
-				["description"] = "Behind an energy conduit in an alcove to the right when first entering the Mechanar.",
 			}),
 		}),
 	},
