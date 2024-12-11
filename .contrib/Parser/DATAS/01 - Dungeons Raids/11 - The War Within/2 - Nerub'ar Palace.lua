@@ -494,6 +494,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					Boss(RASHANAN, {
 						i(225574, {	-- Wings of Shattered Sorrow
 							["modID"] = 67,	-- unique modID for warband drop only
+							["nomerge"] = true,
 						}),
 					}),
 					Boss(OVINAX),

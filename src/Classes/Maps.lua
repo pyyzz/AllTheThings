@@ -440,7 +440,7 @@ local function GetExplorationBySubzone()
 		end
 		local expectedAreaID = AreaIDNameMapper[subzone]
 		-- don't report an area which is actually mapped in another zone already
-		if #app.SearchForField("explorationID", expectedAreaID) < 1 then
+		if not app.SearchForObject("explorationID", expectedAreaID) then
 			local e = app.CreateExploration(expectedAreaID, { mapID = app.RealMapID, name = subzone})
 			PrintDiscordInformationForExploration(e);
 			return e
