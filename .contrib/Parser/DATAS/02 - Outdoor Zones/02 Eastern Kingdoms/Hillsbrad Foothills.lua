@@ -131,6 +131,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				-- #endif
 				exploration(289),	-- Nethander Stead
 				exploration(896),	-- Purgation Isle
+				visit_exploration(3486,{coord={70.3,45.6,HILLSBRAD_FOOTHILLS}}),	-- Ravenholdt Manor
 				-- #if AFTER CATA
 				exploration(281),	-- Ruins of Alterac
 				exploration(271),	-- Ruins of Southshore

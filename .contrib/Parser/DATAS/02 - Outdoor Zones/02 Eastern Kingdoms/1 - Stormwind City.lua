@@ -77,6 +77,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					675,	-- Stormwind Rat (PET!)
 				}},
 			}),
+			explorationHeader({
+				visit_exploration(5390,{coord={50.2,72.7,STORMWIND_CITY}}),	-- The Canals
+				visit_exploration(5148,{coord={61.4,74.8,STORMWIND_CITY}}),	-- Trade District
+			}),
 			n(FACTIONS, {
 				faction(FACTION_STORMWIND, {	-- Stormwind
 					-- #if AFTER CATA

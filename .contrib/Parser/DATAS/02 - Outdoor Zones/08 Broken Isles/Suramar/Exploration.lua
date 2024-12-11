@@ -17,6 +17,7 @@ root(ROOTS.Zones, {
 				exploration(7843),	-- Falanaar
 				exploration(8188),	-- Falanaar
 				exploration(8231),	-- Feathermane Hunting Grounds
+				visit_exploration(10812,{coord={65.0,54.3,SURAMAR}}),	-- Felborne Outpost
 				exploration(7768),	-- Felsoul Hold
 				exploration(7844),	-- Felsoul Hold
 				exploration(7940),	-- Jandvik

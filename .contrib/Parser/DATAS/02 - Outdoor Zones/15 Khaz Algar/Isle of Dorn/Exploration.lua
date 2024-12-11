@@ -47,6 +47,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				visit_exploration(15046,{coord={40.2,54.3,DORNOGAL}}),	-- The Coreway
 				visit_exploration(15181,{coord={57.3,51.8,DORNOGAL}}),	-- The Fissure
 				visit_exploration(15043,{coord={50.8,50.4,DORNOGAL}}),	-- The Forgegrounds
+				-- visit_exploration(15043,{coord={50.0,59.8,DORNOGAL}}),	-- The Forgegrounds
 				visit_exploration(15185,{coord={42.6,35.7,DORNOGAL}}),	-- Thraegar Rest
 			}),
 		}),
