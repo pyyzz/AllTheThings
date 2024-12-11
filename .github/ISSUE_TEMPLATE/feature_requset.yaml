@@ -1,40 +1,49 @@
 name: Feature Request
-description: See something that useful that could be added?
+description: See something useful that could be added?
 labels: ["Suggestion"]
 body:
-- type: dropdown
-  id: flavour
-  attributes:
-    label: What flavo(u)r(s) of WoW are you using?
-    multiple: true
-    options:
-      - "Retail"
-      - "Cata Classic"
-      - "WotLK Classic"
-      - "Classic Era"
-      - "Hardcore"
-      - "Season of Discovery"
-      - "Anniversary Realms"
-      - "Hardcore Anniversary Realms"
-  validations:
-    required: true
-- type: textarea
-  attributes:
-    label: What problem are you experiencing that led to you asking for this feature?
-  validations:
-    required: true
-- type: textarea
-  attributes:
-    label: What solution would you like?
-  validations:
-    required: true
-- type: textarea
-  attributes:
-    label: Any alternatives you can think of?
-  validations:
-    required: false
-- type: textarea
-  attributes:
-    label: Anything else?
-  validations:
-    required: false
+  - type: dropdown
+    id: flavour
+    attributes:
+      label: "What flavo(u)r(s) of WoW are you using?"
+      description: "Select all applicable versions of World of Warcraft."
+      multiple: true
+      options:
+        - "Retail"
+        - "Cata Classic"
+        - "WotLK Classic"
+        - "Classic Era"
+        - "Hardcore"
+        - "Season of Discovery"
+        - "Anniversary Realms"
+        - "Hardcore Anniversary Realms"
+    validations:
+      required: true
+  - type: textarea
+    id: problem_description
+    attributes:
+      label: "What problem are you experiencing that led to this feature request?"
+      description: "Describe the problem or challenge you are facing that this feature could address."
+      placeholder: "Explain the problem or challenge here..."
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: "What solution would you like?"
+      description: "Provide details about the feature or solution you are suggesting."
+      placeholder: "Describe the desired solution here..."
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Any alternatives you can think of?"
+      description: "List any alternative solutions or approaches you have considered."
+      placeholder: "Describe alternatives here..."
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: "Anything else?"
+      description: "Add any additional information or context related to this feature request."
+      placeholder: "Provide additional details here..."
