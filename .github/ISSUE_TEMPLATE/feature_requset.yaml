@@ -5,7 +5,7 @@ body:
 - type: dropdown
   id: flavour
   attributes:
-    label: What version(s) of WoW are you using?
+    label: What flavo(u)r(s) of WoW are you using?
     multiple: true
     options:
       - "Retail"
