@@ -1631,6 +1631,7 @@ ExportDB.AccountWideQuestsDB = {
 	[85811] = true,	-- Thrayir, Eyes of the Siren
 	[86376] = true,	-- Kaja'Cola-braised Snapdragon Treat
 	[86378] = true,	-- Royal Snapdragon Treat
+	[86379]	= true,	-- Crimson Snapdragon Treat
 	[86377] = true,	-- Storminfused Snapdragon Treat
 	[86380] = true,	-- Sandy Snapdragon Treat
 	[86482] = true,	-- A Lifeline

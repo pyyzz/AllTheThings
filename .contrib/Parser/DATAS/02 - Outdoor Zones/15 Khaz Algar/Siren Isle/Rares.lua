@@ -100,7 +100,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			}),
 			n(231353, {	-- Tempest Talon
 				["description"] = "Flying around in area, assigned coords easiest spot to pull it",
-				["coord"] = { 34.3, 57.5, SIREN_ISLE },	-- TODO: re-check coords prior release. They change his route 3 times.
+				["coord"] = { 40.9, 62.0, SIREN_ISLE },
 				["questID"] = 85403,
 			}),
 			n(228547, {	-- Slaughtershell

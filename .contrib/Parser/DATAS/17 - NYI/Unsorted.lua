@@ -273,7 +273,6 @@ root(ROOTS.Unsorted, {
 			i(233361),	-- Wind-Up Wuffi
 			i(233366),	-- Wind-Up Woofer
 			i(233495),	-- [PH] Snapdragon Treat 03
-			i(233500),	-- [PH] Snapdragon Treat 07
 			i(233650),	-- Call Galefeather
 			i(233800),	-- [PH] Chris' Flavor Test Item
 			i(233811),	-- [PH] Legs

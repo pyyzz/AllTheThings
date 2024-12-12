@@ -553,7 +553,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				q(85714, {["isWeekly"]=true,}),	-- Solving puzzle to unlock Rune-Sealed Coffer
 				-- Another unlock for vendor (snapdragon treats)
 				-- account wide, don't forget to add new one after figure out questIDs
-				--q(),	-- Crimson Snapdragon Treat
+				q(86379),	-- Crimson Snapdragon Treat
 				--q(),	-- Inky Snapdragon Treat
 				q(86376),	-- Kaja'Cola-braised Snapdragon Treat
 				q(86734),	-- Muddy Snapdragon Treat
