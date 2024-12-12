@@ -213,6 +213,9 @@ MobileDB.GameObject = {
 	[209287] = true,	-- Bit of Glass, quest:29516
 	[415296] = true,	-- Repair Kit
 	[433370] = true,	-- War Supply Chest
+	[444798] = true,	-- Arathi Treasure Hoard
+	[444799] = true,	-- Potent Concentrated Shadow
+	[444804] = true,	-- Concentrated Shadow
 	[478443] = true,	-- Mislaid Curiosity (delve object)
 }
 

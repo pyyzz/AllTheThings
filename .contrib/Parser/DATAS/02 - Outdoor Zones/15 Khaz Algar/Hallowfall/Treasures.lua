@@ -44,6 +44,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					-- some crafting reagents and gray item
 				},
 			}),
+			o(444799, {	-- Potent Concentrated Shadow
+				["description"] = "Spawns all over the zone only when Beledar shifts into its Void state.",
+				["maps"] = { HALLOWFALL },
+				["g"] = {
+					-- some crafting reagents and gray item
+				},
+			}),
 			o(453374, {	-- Shadowed Essence (Dark Ritual, event)
 				["description"] = "Inside the cave. Interract with the book and start the ritual. Survive the attack and kill the shadows.",
 				["provider"] = { "o", 453359 },	-- Dark Ritual (vignette)
