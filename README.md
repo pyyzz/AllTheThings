@@ -32,7 +32,7 @@ There are two release types, alpha build and official release.
 - Alpha builds will be released at 7:00 UTC every day.
 - Official releases are scheduled every Sunday, but hotfixes addressing Lua errors will be released at any time as needed. In the event of a major update for WoW, it is expected to be released within one to two days.
 
-The git version is not a release version, but it is still supported.
+The git version is not a release, but it is still supported.
 
 ## Why do I need this addon?
 - Ability to see what items you are missing from your collection in a more presentable means than Blizzard's UI.
