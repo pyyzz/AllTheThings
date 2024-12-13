@@ -1213,3 +1213,16 @@ settings.CreateInformationType("hash", {
 	text = "DEBUG: hash",
 	HideCheckBox = not app.Debugging,
 })
+settings.CreateInformationType("bonuses", {
+	priority = 99999,
+	text = "DEBUG: Item Bonuses",
+	HideCheckBox = not app.Debugging,
+	Process = function(t, data, tooltipInfo)
+		local bonuses = data.bonuses
+		if not bonuses or #bonuses < 1 then return end
+		tinsert(tooltipInfo, {
+			left = "Item Bonuses",
+			right = app.TableConcat(bonuses, nil, nil, " | ")
+		});
+	end
+})
