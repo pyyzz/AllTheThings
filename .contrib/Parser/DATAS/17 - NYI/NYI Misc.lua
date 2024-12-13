@@ -918,7 +918,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(189736),	-- Absorptialic Fluidic Spheroid
 			i(189740),	-- Alacrialic Fluidic Spheroid
 			i(189748),	-- Constialic Fluidic Spheroid
-			i(189560),	-- Deflectialic Crystallic Spheroid
 			i(189577),	-- Deflectialic Fluidic Spheroid
 			i(189757),	-- Efficialic Fluidic Spheroid
 			i(189739),	-- Extractialic Fluidic Spheroid

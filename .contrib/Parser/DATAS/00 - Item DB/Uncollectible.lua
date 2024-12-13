@@ -31,6 +31,7 @@ i(169294);	-- Resilient Soul
 i(173888);	-- Shard of Self Sacrifice \\ Lingering Soul
 -- SL
 i(187603);	-- The Mad Duke's Tea
+i(189560);	-- Deflectialic Crystallic Spheroid
 i(189722);	-- Alacrialic Crystallic Spheroid
 i(189723);	-- Absorptialic Crystallic Spheroid
 i(189724);	-- Extractialic Crystallic Spheroid

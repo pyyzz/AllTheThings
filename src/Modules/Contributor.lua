@@ -211,10 +211,14 @@ MobileDB.Creature = {
 MobileDB.GameObject = {
 	[201615] = true,	-- Valve in ICC
 	[209287] = true,	-- Bit of Glass, quest:29516
+	[354852] = true,	-- Sprouting Growth
+	[354853] = true,	-- Sprouting Growth
+	[411930] = true,	-- Blackpowder Barrel
 	[415296] = true,	-- Repair Kit
 	[433370] = true,	-- War Supply Chest
 	[444798] = true,	-- Arathi Treasure Hoard
 	[444799] = true,	-- Potent Concentrated Shadow
+	[444800] = true,	-- Sureki Strongbox
 	[444804] = true,	-- Concentrated Shadow
 	[478443] = true,	-- Mislaid Curiosity (delve object)
 }
