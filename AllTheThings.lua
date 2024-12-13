@@ -4044,7 +4044,7 @@ local function SetGroupVisibility(parent, group)
 	end
 	-- Trackable
 	if not visible and TrackableFilter(group) then
-		visible = not group.saved or rawget(group, "repeatable") or GroupVisibilityFilter(group)
+		visible = not group.saved or GroupVisibilityFilter(group)
 		forceShowParent = visible;
 	end
 	-- Custom Visibility
@@ -4093,7 +4093,7 @@ local function SetThingVisibility(parent, group)
 	end
 	-- Trackable
 	if not visible and TrackableFilter(group) then
-		visible = not group.saved or rawget(group, "repeatable") or ThingVisibilityFilter(group)
+		visible = not group.saved or ThingVisibilityFilter(group)
 		forceShowParent = visible;
 		-- if debug then print("trackable",visible) end
 	end
