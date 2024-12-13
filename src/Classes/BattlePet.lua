@@ -116,7 +116,7 @@ do
 			collected = function(t)
 				-- certain Battle Pets are per Character, so we can implicitly check for them as Account-Wide since Battle Pets have no toggle for that
 				-- account-wide collected
-				return app.TypicalCharacterCollected(CACHE, t[KEY])
+				return app.TypicalCharacterCollected(CACHE, t[KEY]) and 1
 			end,
 			saved = function(t)
 				-- character collected
