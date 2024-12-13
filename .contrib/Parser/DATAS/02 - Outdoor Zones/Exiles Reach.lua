@@ -1174,12 +1174,14 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					["races"] = HORDE_ONLY,
 					["sourceQuestNumRequired"] = 1,
 				}),
+				----- The original ending of the questline where new players got funneled into BfA -----
+				-- After 11.0.2 players recieve Lost Dragonscale and the quest The Dragon Isles Await (65436 [A] / 65435 [H])
 				q(60360, {	-- An Urgent Meeting [H]
 					["sourceQuests"] = { 60359 },	-- Home Is Where the Hearth Is [H]
 					["provider"] = { "n", 168771 },	-- Shuja Grimaxe
 					["coord"] = { 70.9, 49.6, ORGRIMMAR },
 					["races"] = HORDE_ONLY,
-					["timeline"] = { ADDED_9_0_1, REMOVED_10_0_2 },
+					["timeline"] = { ADDED_9_0_1, REMOVED_11_0_2 },
 					["customCollect"] = IGNORED_VALUE,	-- Technically only possible by NPE quest completion, but technically no longer NPE when accepting this quest...
 				}),
 				q(60361, {	-- Battle for Azeroth: Mission Statement (SL/new player version)
@@ -1188,7 +1190,7 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					["qg"] = 168431,	-- Warlord Breka Grimaxe
 					["coord"] = { 48.3, 71.4, ORGRIMMAR },
 					["races"] = HORDE_ONLY,
-					["timeline"] = { ADDED_9_0_1, REMOVED_10_0_2 },
+					["timeline"] = { ADDED_9_0_1, REMOVED_11_0_2 },
 					["groups"] = {
 						i(178942),	-- War-Chain of the Horde
 					},
