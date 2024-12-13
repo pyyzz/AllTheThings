@@ -789,6 +789,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 			-- The Ring of Blood
 				q(36219, {	-- Garrison Campaign: The Ring of Blood
 					["description"] = "Offered if you have NOT completed |cFFFFD700The Ring of Trials|r in Nagrand or the |cFFFFD700Stonemaul Arena|r bonus objective in Gorgrond.",
+					["providers"] = {
+						{ "o", 234243 },	-- Overly Gaudy Note [H Tier 2]
+					},
+					["coords"] = {
+						{ 42.9, 50.2, FROSTWALL },	-- [H Tier 2]
+					},
 				}),
 				q(36280, {	-- Garrison Campaign: The Ring of Blood
 					["description"] = "Offered if you complete |cFFFFD700The Ring of Trials|r in Nagrand.",
