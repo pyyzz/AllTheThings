@@ -145,6 +145,7 @@ end
 do
 	local KEY, CACHE = "spellID", "Spells"
 	app.CreateSpell = app.CreateClass("Spell", KEY, {
+		CACHE = function() return CACHE end,
 		_cachekey = function(t)
 			return t[KEY];
 		end,

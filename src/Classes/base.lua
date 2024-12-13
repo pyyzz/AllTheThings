@@ -553,15 +553,12 @@ app.CreateClass = function(className, classKey, fields, ...)
 		fields.key = function() return classKey; end;
 	end
 
-	-- If a Type is collectible, also enforce that it defines for itself: the CacheKey and SettingsKey
-	if fields.collectible then
+	-- If a Type is collectible via in-game Event, also enforce that it defines for itself: the CacheKey and SettingsKey
+	-- for the common immediate collection handling logic
+	if fields.collectible and fields.collected and not fields.RefreshCollectionOnly then
 		if not fields.CACHE then
-			app.print("Class",className,"is missing CACHE by which the collected Keys are stored in the Cache")
+			app.PrintDebug("Class",className,"is missing CACHE by which the collected Keys are stored in the Cache")
 			-- ClassError("Class",className,"is missing CacheKey by which the collected Keys are stored in the Cache");
-		end
-		if not fields.SETTING then
-			app.print("Class",className,"is missing SETTING by which the Type is linked to Settings toggles for collection")
-			-- ClassError("Class",className,"is missing SettingsKey by which the Type is linked to Settings toggles for collection");
 		end
 	end
 
@@ -675,6 +672,7 @@ app.CreateUnimplementedClass = function(className, classKey)
 			return app.L.DATA_TYPE_NOT_SUPPORTED;
 		end,
 		IsClassIsolated = true,
+		RefreshCollectionOnly = true,
 		isInvalid = app.ReturnTrue,
 		collected = app.ReturnFalse,
 		collectible = app.ReturnTrue,

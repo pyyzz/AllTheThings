@@ -561,6 +561,7 @@ local CreateItemTooltipHarvester
 app.CreateItemHarvester = app.ExtendClass("Item", "ItemHarvester", "itemID", {
 	IsClassIsolated = true,
 	visible = app.ReturnTrue,
+	RefreshCollectionOnly = true,
 	collectible = app.ReturnTrue,
 	collected = app.ReturnFalse,
 	text = function(t)

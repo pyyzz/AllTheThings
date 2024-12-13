@@ -2144,6 +2144,7 @@ end,
 app.CommonAchievementHandlers = commonAchievementHandlers;
 
 local fields = {
+	RefreshCollectionOnly = true,
 	["collectible"] = function(t)
 		return app.Settings.Collectibles.Achievements;
 	end,
@@ -2304,6 +2305,7 @@ if GetCategoryInfo and (GetCategoryInfo(92) ~= "" and GetCategoryInfo(92) ~= nil
 		["index"] = function(t)
 			return 1;
 		end,
+		RefreshCollectionOnly = true,
 		["collectible"] = function(t)
 			return app.Settings.Collectibles.Achievements;
 		end,
@@ -3171,6 +3173,7 @@ app.CreateCurrencyClass = app.CreateClass("Currency", "currencyID", {
 	["link"] = function(t)
 		return GetCurrencyLink(t.currencyID, 1);
 	end,
+	RefreshCollectionOnly = true,
 	["collectible"] = function(t)
 		return t.collectibleAsCost;
 	end,
@@ -3509,6 +3512,7 @@ recipeFields.f = function(t)
 	return app.FilterConstants.RECIPES;
 end;
 recipeFields.IsClassIsolated = true;
+recipeFields.RefreshCollectionOnly = true;
 local createRecipe = app.CreateClass("Recipe", "spellID", recipeFields,
 "WithItem", {
 	baseIcon = function(t)
@@ -3596,6 +3600,7 @@ local mountFields = {
 	["f"] = function(t)
 		return app.FilterConstants.MOUNTS;
 	end,
+	RefreshCollectionOnly = true,
 	["collectible"] = function(t)
 		return app.Settings.Collectibles.Mounts;
 	end,
@@ -3645,6 +3650,7 @@ if C_PetJournal and app.GameBuildVersion > 30000 then
 	speciesFields.description = function(t)
 		return select(6, C_PetJournal.GetPetInfoBySpeciesID(t.speciesID));
 	end
+	speciesFields.RefreshCollectionOnly = true
 	speciesFields.collected = function(t)
 		local count = C_PetJournal.GetNumCollectedInfo(t.speciesID);
 		return SetBattlePetCollected(t, t.speciesID, count and count > 0);

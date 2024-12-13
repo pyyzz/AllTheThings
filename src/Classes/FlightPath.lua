@@ -20,6 +20,7 @@ local localizedFlightPathNames;
 local KEY, CACHE = "flightpathID", "FlightPaths"
 local CLASSNAME = "FlightPath"
 app.CreateFlightPath = app.CreateClass(CLASSNAME, KEY, {
+	CACHE = function() return CACHE end,
 	name = function(t)
 		return localizedFlightPathNames[t[KEY]] or L.VISIT_FLIGHT_MASTER
 	end,

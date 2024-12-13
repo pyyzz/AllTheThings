@@ -157,6 +157,7 @@ do
 	-- end
 	-- app.AddEventRegistration("RECEIVED_ACHIEVEMENT_LIST", DelayedOnUpdateWindows);
 	app.CreateAchievement = app.CreateClass(CLASSNAME, KEY, {
+		CACHE = function() return CACHE end,
 		silentLink = function(t)
 			return cache.GetCachedField(t, "silentLink", CacheInfo);
 		end,
@@ -458,6 +459,7 @@ do
 				end
 			end
 		end,
+		RefreshCollectionOnly = true,
 		collectible = function(t) return app.Settings.Collectibles.Achievements end,
 		collected = function(t)
 			-- character saved criteria

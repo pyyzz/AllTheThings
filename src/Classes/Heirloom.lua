@@ -57,6 +57,7 @@ do
 	local function HasHigherHeirloomUnlockIDSaved(itemID)
 	end
 	local CreateHeirloomUnlock = app.CreateClass("HeirloomUnlock", "heirloomUnlockID", {
+		-- CACHE = function() return "HeirloomRanks" end,
 		name = function(t)
 			return L.HEIRLOOM_TEXT;
 		end,
@@ -66,6 +67,7 @@ do
 		description = function(t)
 			return L.HEIRLOOM_TEXT_DESC;
 		end,
+		RefreshCollectionOnly = true,	-- remove when fixing event-collection & cache
 		collectible = function(t)
 			return app.Settings.Collectibles.Heirlooms;
 		end,
@@ -96,6 +98,7 @@ do
 
 	local weaponFilterIDs = { 20, 29, 28, 21, 22, 23, 24, 25, 26, 50, 57, 34, 35, 27, 33, 32, 31 };
 	local hierloomLevelFields = {
+		-- CACHE = function() return "HeirloomRanks" end,
 		["level"] = function(t)
 			return 1;
 		end,
@@ -109,6 +112,7 @@ do
 		["description"] = function(t)
 			return L.HEIRLOOMS_UPGRADES_DESC;
 		end,
+		RefreshCollectionOnly = true,	-- remove when fixing event-collection & cache
 		["collectible"] = function(t)
 			return app.Settings.Collectibles.Heirlooms and app.Settings.Collectibles.HeirloomUpgrades;
 		end,

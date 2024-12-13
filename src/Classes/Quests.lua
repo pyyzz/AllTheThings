@@ -1486,6 +1486,7 @@ local createQuest = app.CreateClass("Quest", "questID", {
 		-- linktests[#linktests + 1] = "|cffffff00|Hquest:"..t.questID..":"..(app._subid or 0).."|h["..t.questID.."]|h|r" -- cannot send message
 		return "quest:"..t.questID
 	end,
+	RefreshCollectionOnly = true,
 	collectible = CollectibleAsQuest,
 	collected = IsQuestFlaggedCompletedForObject,
 	altcollected = function(t)
@@ -1712,6 +1713,7 @@ app.CreateQuestObjective = app.CreateClass("Objective", "objectiveID", {
 	questID = function(t)
 		return t.parent.questID;
 	end,
+	RefreshCollectionOnly = true,
 	collectible = function(t)
 		if not t.questID then
 			return false;

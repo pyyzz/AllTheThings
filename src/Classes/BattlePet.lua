@@ -111,6 +111,7 @@ do
 		});
 
 		app.CreateSpecies = app.CreateClass(CLASSNAME, KEY, {
+			CACHE = function() return CACHE end,
 			collectible = function(t) return app.Settings.Collectibles[CACHE]; end,
 			collected = function(t)
 				local id = t[KEY];

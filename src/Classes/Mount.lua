@@ -97,6 +97,7 @@ do
 	end
 
 	app.CreateMount = app.CreateClass(CLASSNAME, KEY, {
+		CACHE = function() return CACHE end,
 		_cache = function(t)
 			return cache;
 		end,

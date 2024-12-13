@@ -275,7 +275,10 @@ app.GetMapName = GetMapName;
 
 -- Exploration
 local ExplorationAreaPositionDB = app.ExplorationAreaPositionDB or {};
-app.CreateExploration = app.CreateClass("Exploration", "explorationID", {
+local KEY, CACHE = "explorationID", "Exploration"
+local CLASSNAME = "Exploration"
+app.CreateExploration = app.CreateClass(CLASSNAME, KEY, {
+	CACHE = function() return CACHE end,
 	["name"] = function(t)
 		return C_Map_GetAreaInfo(t.explorationID) or UNKNOWN;
 	end,
@@ -322,7 +325,7 @@ app.CreateExploration = app.CreateClass("Exploration", "explorationID", {
 	end
 	-- Retail: only check cached data on collected checks
 	or function(t)
-		return app.TypicalCharacterCollected("Exploration", t.explorationID)
+		return app.TypicalCharacterCollected(CACHE, t.explorationID)
 	end,
 	["saved"] = function(t)
 		return app.IsCached("Exploration", t.explorationID)
