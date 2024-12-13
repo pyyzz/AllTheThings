@@ -17,7 +17,7 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 		n(ACHIEVEMENTS, {
 			ach(14222, {	-- Exile's Reach
 				["sourceQuests"] = {
-					-- #IF BEFORE 10.0.2
+					-- #IF BEFORE 11.0.2
 					59641,	-- The Nation of Kul Tiras
 					60361,	-- Battle for Azeroth: Mission Statement
 					-- #ELSE
@@ -1044,7 +1044,7 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					["provider"] = { "n", 163211 },	-- Henry Garrick
 					["coord"] = { 75.3, 54.3, STORMWIND_CITY },
 					["races"] = ALLIANCE_ONLY,
-					["timeline"] = { ADDED_9_0_1, REMOVED_10_0_2 },
+					["timeline"] = { ADDED_9_0_1, REMOVED_11_0_2 },
 					["customCollect"] = IGNORED_VALUE,	-- Technically only possible by NPE quest completion, but technically no longer NPE when accepting this quest...
 				}),
 				q(58983, {	-- Battle for Azeroth: Tides of War (SL/new player version)
@@ -1053,7 +1053,7 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					["description"] = "This quest starts the Battle for Azeroth campaign for players from Exile's Reach.",
 					["coord"] = { 85.2, 32.1, STORMWIND_CITY },
 					["races"] = ALLIANCE_ONLY,
-					["timeline"] = { ADDED_9_0_1, REMOVED_10_0_2 },
+					["timeline"] = { ADDED_9_0_1, REMOVED_11_0_2 },
 					["groups"] = {
 						i(178941),	-- Alliance Dog Tags,
 					}
@@ -1063,7 +1063,7 @@ root(ROOTS.Zones, m(EXILES_REACH, bubbleDownSelf({
 					["sourceQuest"] = 58983,	-- Battle for Azeroth: Tides of War (SL/new player version)
 					["coord"] = { 85.8, 31.6, STORMWIND_CITY },
 					["races"] = ALLIANCE_ONLY,
-					["timeline"] = { ADDED_9_0_1, REMOVED_10_0_2 },
+					["timeline"] = { ADDED_9_0_1, REMOVED_11_0_2 },
 				}),
 
 					-- Orgrimmar --
