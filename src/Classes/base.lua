@@ -712,13 +712,16 @@ app.SwapClassDefinitionMethod = function(className, classField, newFunc)
 end
 -- Setup a simple true/false swap for the 'collectible' field of the given class based on the tracked setting name
 app.AddSimpleCollectibleSwap = function(classname, setting)
-	app.AddEventHandler("OnSettingsNeedsRefresh", function()
+	local function AssignCollectibleFunction()
+		-- app.PrintDebug("Swapping",classname,".collectible","via",setting,app.Settings.Collectibles[setting])
 		if app.Settings.Collectibles[setting] then
 			app.SwapClassDefinitionMethod(classname,"collectible",app.ReturnTrue)
 		else
 			app.SwapClassDefinitionMethod(classname,"collectible",app.ReturnFalse)
 		end
-	end);
+	end
+	app.AddEventHandler("OnSettingsNeedsRefresh", AssignCollectibleFunction);
+	app.AddEventHandler("OnStartup", AssignCollectibleFunction);
 end
 
 -- Allows wrapping one Type Object with another Type Object. This allows for fall-through field logic
