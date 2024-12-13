@@ -474,22 +474,30 @@ app.IsQuestAvailable = function(t)
 	-- must have a questID associated
 	questID
 	and
-	-- not already completed by current character
-	not CompletedQuests[questID]
-	and
-	-- and not OTQ or is OTQ not yet known to be completed by any character
-	not OneTimeQuests[questID]
-	and
 	(
-		-- able to access quest on current character
-		not t.locked
+		-- Repeatable quests cannot ever 'really' be completed, though sometimes their saved state persists
+		-- until manually started via an Item
+		rawget(t, "repeatable")
 		or
 		(
-			-- debug/account mode
-			app.MODE_DEBUG_OR_ACCOUNT
+			-- not already completed by current character
+			not CompletedQuests[questID]
 			and
-			-- Not Locked by a OPA/AW Quest (to access via another Character)
-			not AccountWideLockedQuestsCache[questID]
+			-- and not OTQ or is OTQ not yet known to be completed by any character
+			not OneTimeQuests[questID]
+			and
+			(
+				-- able to access quest on current character
+				not t.locked
+				or
+				(
+					-- debug/account mode
+					app.MODE_DEBUG_OR_ACCOUNT
+					and
+					-- Not Locked by a OPA/AW Quest (to access via another Character)
+					not AccountWideLockedQuestsCache[questID]
+				)
+			)
 		)
 	)
 end
