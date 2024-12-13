@@ -3580,6 +3580,26 @@ local function DefaultSyncCharacterData(allCharacters, key)
 		end
 	end
 end
+-- Used for data which is primarily Account-learned, but has Character-learned exceptions
+local function PartialSyncCharacterData(allCharacters, key)
+	local characterData
+	local data = ATTAccountWideData[key];
+	-- wipe account data saved based on character data
+	for id,completion in pairs(data) do
+		if completion == 2 then
+			data[id] = nil
+		end
+	end
+	for guid,character in pairs(allCharacters) do
+		characterData = character[key];
+		if characterData then
+			for id,_ in pairs(characterData) do
+				-- character-based completion in account data saved as 2 for these types
+				data[id] = 2
+			end
+		end
+	end
+end
 local function RankSyncCharacterData(allCharacters, key)
 	local characterData
 	local data = ATTAccountWideData[key];
@@ -3625,6 +3645,7 @@ end
 local SyncFunctions = setmetatable({
 	AzeriteEssenceRanks = RankSyncCharacterData,
 	Quests = SyncCharacterQuestData,
+	Mounts = PartialSyncCharacterData,
 }, { __index = function(t, key)
 	if contains(whiteListedFields, key) then
 		return DefaultSyncCharacterData
