@@ -115,77 +115,47 @@ root(ROOTS.PetBattles, petbattle({
 			--title_gendered(252, 240),	-- the Crazy Cat Man / the Crazy Cat Lady
 			title_female(240),	-- <Name> the Crazy Cat Lady
 			title_male(252),	-- <Name> the Crazy Cat Man
-			crit(23577),		-- Black Tabby Cat
-			crit(23578),		-- Bombay Cat
-			crit(29725),		-- Brightpaw
-			crit(23579),		-- Calico Cat
-			crit(23580),		-- Cat
-			crit(23581),		-- Cheetah Cub
-			crit(23596),		-- Cinder Kitten
-			crit(23582),		-- Cornish Rex Cat
-			crit(23583),		-- Darkmoon Cub
-			crit(23584),		-- Feline Familiar
-			crit(23585),		-- Fluxfire Feline
-			crit(23740),		-- Guardian Cub
-			crit(23586),		-- Mr. Bigglesworth
-			crit(23597),		-- Nightsaber Cub
-			crit(23587),		-- Orange Tabby Cat
-			crit(23588),		-- Panther Cub
-			crit(23589),		-- Sand Kitten
-			crit(23590),		-- Sapphire Cub
-			crit(23591),		-- Siamese Cat
-			crit(23592),		-- Silver Tabby Cat
-			crit(23593),		-- Snow Cub
+			crit(23577),	-- Black Tabby Cat
+			crit(23578),	-- Bombay Cat
+			crit(29725),	-- Brightpaw
+			crit(23579),	-- Calico Cat
+			crit(23580),	-- Cat
+			crit(23581),	-- Cheetah Cub
+			crit(23596),	-- Cinder Kitten
+			crit(23582),	-- Cornish Rex Cat
+			crit(23583),	-- Darkmoon Cub
+			crit(23584),	-- Feline Familiar
+			crit(23585),	-- Fluxfire Feline
+			crit(23740),	-- Guardian Cub
+			crit(23586),	-- Mr. Bigglesworth
+			crit(23597),	-- Nightsaber Cub
+			crit(23587),	-- Orange Tabby Cat
+			crit(23588),	-- Panther Cub
+			crit(23589),	-- Sand Kitten
+			crit(23590),	-- Sapphire Cub
+			crit(23591),	-- Siamese Cat
+			crit(23592),	-- Silver Tabby Cat
+			crit(23593),	-- Snow Cub
 			un(REMOVED_FROM_GAME,crit(23599)),-- Spectral Cub
-			crit(23598),		-- Spectral Tiger Cub
-			crit(23594),		-- White Kitten
-			crit(23595),		-- Winterspring Cub
-			crit(23600),		-- Xu-Fu, Cub of Xuen
+			crit(23598),	-- Spectral Tiger Cub
+			crit(23594),	-- White Kitten
+			crit(23595),	-- Winterspring Cub
+			crit(23600),	-- Xu-Fu, Cub of Xuen
 		})),
 		ach(8080, {-- Fabled Pandaren Tamer
 			["timeline"] = { ADDED_5_2_0 },
 		}),
-		-- Check Again
-		ach(13279, {	-- Family Battler
-			-- Meta Achievement should symlink the contained Achievements from Source
-			["sym"] = {{"meta_achievement",
-				13280,	-- Hobbyist Aquarist
-				13270,	-- Beast Mode
-				13271,	-- Critters with Huge Teeth
-				13272,	-- Dragons Make Everything Better
-				13273,	-- Element of Success
-				13274,	-- Fun With Flying
-				13281,	-- Human Resources
-				13275,	-- Magician's Secrets
-				13277,	-- Machine Learning
-				13278,	-- Not Quite Dead Yet
-			}},
-			["g"] = {
-				i(165907),	-- Wicker Wraith (PET!)
-				ach(13280),	-- Hobbyist Aquarist
-				ach(13270),	-- Beast Mode
-				ach(13271),	-- Critters with Huge Teeth
-				ach(13272),	-- Dragons Make Everything Better
-				ach(13273),	-- Element of Success
-				ach(13274),	-- Fun With Flying
-				ach(13281),	-- Human Resources
-				ach(13275),	-- Magician's Secrets
-				ach(13277),	-- Machine Learning
-				ach(13278),	-- Not Quite Dead Yet
-			},
-		}),
-		--
 		ach(6608, {	-- Family Reunion
-			crit(19750),		-- Humanoid
-			crit(19751),		-- Dragonkin
-			crit(19752),		-- Undead
-			crit(19753),		-- Flying
-			crit(19754),		-- Critter
-			crit(19755),		-- Magic
-			crit(19756),		-- Elemental
-			crit(19757),		-- Beast
-			crit(19758),		-- Aquatic
-			crit(19759),		-- Mechanical
+			crit(19750),	-- Humanoid
+			crit(19751),	-- Dragonkin
+			crit(19752),	-- Undead
+			crit(19753),	-- Flying
+			crit(19754),	-- Critter
+			crit(19755),	-- Magic
+			crit(19756),	-- Elemental
+			crit(19757),	-- Beast
+			crit(19758),	-- Aquatic
+			crit(19759),	-- Mechanical
 		}),
 		ach(7908, bubbleDownSelf({ ["timeline"] = { ADDED_5_1_0 } }, {	-- I Choose You
 			i(92744),	-- Heavy Sack of Gold
@@ -216,7 +186,7 @@ root(ROOTS.PetBattles, petbattle({
 		ach(6579),	-- Rookie Pet Group (15)
 		ach(6580),	-- Rookie Pet Crew (30)
 		ach(6583),	-- Rookie Pet Mob (75)
-		ach(9712, {		-- Shiny Pet Charmer
+		ach(9712, {	-- Shiny Pet Charmer
 			["cost"] = {{"c", 116415, 500 }},	-- 500x Shiny Pet Charms
 			["timeline"] = { ADDED_6_0_3_LAUNCH, REMOVED_10_2_5 },
 		}),
