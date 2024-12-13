@@ -197,80 +197,65 @@ app.DetermineItemLink = function(sourceID)
 	-- app.PrintDebug("DetermineItemLink:Fail",sourceID,"(No ModID or BonusID match)");
 end
 
+-- Returns: The first found cached group for a given SourceID
+-- NOTE: Do not use this function when the results are being passed into an Update afterward
+-- or if ATT data has not been loaded yet
 local function SearchForSourceIDQuickly(sourceID)
-	-- Returns: The first found cached group for a given SourceID
-	-- NOTE: Do not use this function when the results are being passed into an Update afterward
-	-- or if ATT data has not been loaded yet
 	if sourceID then return SearchForField("sourceID", sourceID)[1]; end
 end
 local function FilterItemSource(sourceInfo)
-	return sourceInfo.isCollected;
+	return sourceInfo.isCollected
 end
 local function FilterItemSourceUnique(sourceInfo, allSources)
-	if sourceInfo.isCollected then
-		-- NOTE: This makes it so that the loop isn't necessary.
-		return true;
-	else
-		-- If at least one of the sources of this visual ID was collected, that means that we've collected the provided source
-		local item = SearchForSourceIDQuickly(sourceInfo.sourceID);
-		if item then
-			local knownItem, knownSource, valid;
-			local factionRaces = app.Modules.FactionData.FACTION_RACES;
-			for _,sourceID in ipairs(allSources or C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
-				-- only compare against other Sources of the VisualID which the Account knows
-				if sourceID ~= sourceInfo.sourceID and AccountSources[sourceID] == 1 then
-					knownItem = SearchForSourceIDQuickly(sourceID);
-					if knownItem then
-						-- filter matches or one item is Cosmetic
-						if item.f == knownItem.f or item.f == 2 or knownItem.f == 2 then
-							valid = true;
-							-- verify all possible restrictions that the known source may have against restrictions on the source in question
-							-- if known source has no equivalent restrictions, then restrictions on the source are irrelevant
-							-- Races
-							if knownItem.races then
-								if item.races then
-									-- the known source has a race restriction that is not shared by the source in question
-									if not containsAny(item.races, knownItem.races) then valid = nil; end
-								else
-									valid = nil;
-								end
-							end
-							-- Classes
-							if valid and knownItem.c then
-								if item.c then
-									-- the known source has a class restriction that is not shared by the source in question
-									if not containsAny(item.c, knownItem.c) then valid = nil; end
-								else
-									valid = nil;
-								end
-							end
-							-- Faction
-							if valid and knownItem.r then
-								if item.r then
-									-- the known source has a faction restriction that is not shared by the source or source races in question
-									if knownItem.r ~= item.r or (item.races and not containsAny(factionRaces[knownItem.r], item.races)) then valid = nil; end
-								else
-									valid = nil;
-								end
-							end
+	-- NOTE: This makes it so that the loop isn't necessary.
+	if sourceInfo.isCollected then return true end
 
-							-- found a known item which meets all the criteria to grant credit for the source in question
-							if valid then
-								knownSource = C_TransmogCollection_GetSourceInfo(sourceID);
-								-- both sources are the same category (Equip-Type)
-								if knownSource.categoryID == sourceInfo.categoryID
-									-- and same Inventory Type
-									and (knownSource.invType == sourceInfo.invType
-										or sourceInfo.categoryID == 4 --[[CHEST: Robe vs Armor]]
-										or SlotByInventoryType[knownSource.invType] == SlotByInventoryType[sourceInfo.invType])
-								then
-									return true;
-								-- else print("sources share visual and filters but different equips",item.sourceID,sourceID)
-								end
-							end
+	-- If at least one of the sources of this visual ID was collected, that means that we've collected the provided source
+	local item = SearchForSourceIDQuickly(sourceInfo.sourceID);
+	if not item then return end
+
+	local knownItem, knownSource, valid;
+	local factionRaces = app.Modules.FactionData.FACTION_RACES;
+	for _,sourceID in ipairs(allSources or C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
+		-- only compare against other Sources of the VisualID which the Account knows
+		if sourceID ~= sourceInfo.sourceID and AccountSources[sourceID] == 1 then
+			knownItem = SearchForSourceIDQuickly(sourceID);
+			if knownItem then
+				-- filter matches or one item is Cosmetic
+				if item.f == knownItem.f or item.f == 2 or knownItem.f == 2 then
+					valid = true;
+					-- verify all possible restrictions that the known source may have against restrictions on the source in question
+					-- if known source has no equivalent restrictions, then restrictions on the source are irrelevant
+					-- Races
+					if knownItem.races then
+						if item.races then
+							-- the known source has a race restriction that is not shared by the source in question
+							if not containsAny(item.races, knownItem.races) then valid = nil; end
+						else
+							valid = nil;
 						end
-					else
-						-- OH NOES! It doesn't exist!
+					end
+					-- Classes
+					if valid and knownItem.c then
+						if item.c then
+							-- the known source has a class restriction that is not shared by the source in question
+							if not containsAny(item.c, knownItem.c) then valid = nil; end
+						else
+							valid = nil;
+						end
+					end
+					-- Faction
+					if valid and knownItem.r then
+						if item.r then
+							-- the known source has a faction restriction that is not shared by the source or source races in question
+							if knownItem.r ~= item.r or (item.races and not containsAny(factionRaces[knownItem.r], item.races)) then valid = nil; end
+						else
+							valid = nil;
+						end
+					end
+
+					-- found a known item which meets all the criteria to grant credit for the source in question
+					if valid then
 						knownSource = C_TransmogCollection_GetSourceInfo(sourceID);
 						-- both sources are the same category (Equip-Type)
 						if knownSource.categoryID == sourceInfo.categoryID
@@ -279,37 +264,49 @@ local function FilterItemSourceUnique(sourceInfo, allSources)
 								or sourceInfo.categoryID == 4 --[[CHEST: Robe vs Armor]]
 								or SlotByInventoryType[knownSource.invType] == SlotByInventoryType[sourceInfo.invType])
 						then
-							-- print("OH NOES! MISSING SOURCE ID ", sourceID, " FOUND THAT YOU HAVE COLLECTED, BUT ATT DOESNT HAVE!!!!");
 							return true;
-						-- else print(knownSource.sourceID, sourceInfo.sourceID, "share appearances, but one is ", sourceInfo.invType, "and the other is", knownSource.invType, sourceInfo.categoryID);
+						-- else print("sources share visual and filters but different equips",item.sourceID,sourceID)
 						end
 					end
 				end
-			end
-		end
-		return false;
-	end
-end
-local function FilterItemSourceUniqueOnlyMain(sourceInfo, allSources)
-	if sourceInfo.isCollected then
-		-- NOTE: This makes it so that the loop isn't necessary.
-		return true;
-	else
-		-- If at least one of the sources of this visual ID was collected, that means that we've acquired the base appearance.
-		local item = SearchForSourceIDQuickly(sourceInfo.sourceID);
-		if item and not item.nmc and not item.nmr then
-			-- This item is for my race and class.
-			for i,sourceID in ipairs(allSources or C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
-				if sourceID ~= sourceInfo.sourceID and C_TransmogCollection_PlayerHasTransmogItemModifiedAppearance(sourceID) then
-					local otherItem = SearchForSourceIDQuickly(sourceID);
-					if otherItem and (item.f == otherItem.f or item.f == 2 or otherItem.f == 2) and not otherItem.nmc and not otherItem.nmr then
-						return true; -- Okay, fine. You are this class/race. Enjoy your +1, cheater. D:
-					end
+			else
+				-- OH NOES! It doesn't exist!
+				knownSource = C_TransmogCollection_GetSourceInfo(sourceID);
+				-- both sources are the same category (Equip-Type)
+				if knownSource.categoryID == sourceInfo.categoryID
+					-- and same Inventory Type
+					and (knownSource.invType == sourceInfo.invType
+						or sourceInfo.categoryID == 4 --[[CHEST: Robe vs Armor]]
+						or SlotByInventoryType[knownSource.invType] == SlotByInventoryType[sourceInfo.invType])
+				then
+					-- print("OH NOES! MISSING SOURCE ID ", sourceID, " FOUND THAT YOU HAVE COLLECTED, BUT ATT DOESNT HAVE!!!!");
+					return true;
+				-- else print(knownSource.sourceID, sourceInfo.sourceID, "share appearances, but one is ", sourceInfo.invType, "and the other is", knownSource.invType, sourceInfo.categoryID);
 				end
 			end
 		end
-		return false;
 	end
+	return false
+end
+local function FilterItemSourceUniqueOnlyMain(sourceInfo, allSources)
+	-- NOTE: This makes it so that the loop isn't necessary.
+	if sourceInfo.isCollected then return true end
+
+	-- If at least one of the sources of this visual ID was collected, that means that we've acquired the base appearance.
+	local item = SearchForSourceIDQuickly(sourceInfo.sourceID);
+	if item and not item.nmc and not item.nmr then
+		-- This item is for my race and class.
+		for i,sourceID in ipairs(allSources or C_TransmogCollection_GetAllAppearanceSources(sourceInfo.visualID)) do
+			-- only compare against other Sources of the VisualID which the Account knows
+			if sourceID ~= sourceInfo.sourceID and AccountSources[sourceID] == 1 then
+				local otherItem = SearchForSourceIDQuickly(sourceID);
+				if otherItem and (item.f == otherItem.f or item.f == 2 or otherItem.f == 2) and not otherItem.nmc and not otherItem.nmr then
+					return true; -- Okay, fine. You are this class/race. Enjoy your +1, cheater. D:
+				end
+			end
+		end
+	end
+	return false
 end
 
 -- Wrap calls to the main event handler in a callback so that learning many sources at once
