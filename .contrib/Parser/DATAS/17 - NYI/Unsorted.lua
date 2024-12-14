@@ -451,6 +451,233 @@ root(ROOTS.Unsorted, {
 			i(234470),	-- Forgemaster's Focus
 			i(234471),	-- Earthen Device
 			i(234472),	-- Earthen Crystal
+			--
+			i(233916),	-- Ashvane Issued Workboots \\ [PH] Feet
+			i(232531),	-- Grunch
+			i(234593),	-- Festive Green Holiday Vest
+			i(234594),	-- Festive Red Holiday Vest
+			i(234595),	-- Festive Red Holiday Sweater
+			i(234596),	-- Festive Green Holiday Sweater
+			i(234597),	-- Festive Green Holiday Shirt
+			i(234598),	-- Festive Red Holiday Shirt
+			i(234624),	-- Longsword of the Knight's Pledge
+			i(234626),	-- Awakened Archivist Vestment
+			i(234627),	-- Awakened Peacekeeper's Chassis
+			i(234628),	-- Awakened Machinist Chain
+			i(234629),	-- Awakened Artisan Collar
+			i(234630),	-- Awakened Worker's Vest
+			i(234631),	-- Awakened Explorer's Tunic
+			i(234632),	-- Awakened Artisan Bracelets
+			i(234633),	-- Awakened Artisan Toolbelt
+			i(234634),	-- Awakened Artisan Waistcoat
+			i(234635),	-- Awakened Artisan Kilt
+			i(234636),	-- Awakened Artisan Footwraps
+			i(234637),	-- Awakened Machinist Wristchains
+			i(234638),	-- Awakened Machinist Girdle
+			i(234639),	-- Awakened Machinist Robe
+			i(234640),	-- Awakened Machinist Helmet
+			i(234641),	-- Awakened Machinist Anklewraps
+			i(234642),	-- Awakened Machinist Cog
+			i(234643),	-- Awakened Worker's Kilt
+			i(234644),	-- Awakened Worker's Waistcoat
+			i(234645),	-- Awakened Worker's Belt
+			i(234646),	-- Awakened Worker's Cuffs
+			i(234647),	-- Awakened Worker's Mantle
+			i(234648),	-- Awakened Worker's Boots
+			i(234649),	-- Awakened Peacekeeper Warkilt
+			i(234651),	-- Awakened Peacekeeper Waistguard
+			i(234652),	-- Awakened Peacekeeper Waistcoat
+			i(234653),	-- Awakened Peacekeeper Gauntlets
+			i(234654),	-- Awakened Peacekeeper Pauldrons
+			i(234655),	-- Awakened Peacekeeper Sabatons
+			i(234656),	-- Awakened Peacekeeper Greathelm
+			i(234657),	-- Awakened Explorer's Kilt
+			i(234658),	-- Awakened Explorer's Visor
+			i(234659),	-- Awakened Explorer's Treads
+			i(234660),	-- Awakened Explorer's Waistcoat
+			i(234661),	-- Awakened Explorer's Cinch
+			i(234662),	-- Awakened Explorer's Handwraps
+			i(234663),	-- Awakened Archivist's Robe
+			i(234664),	-- Awakened Archivist's Hood
+			i(234665),	-- Awakened Archivist's Sandals
+			i(234666),	-- Awakened Archivist's Cord
+			i(234667),	-- Awakened Archivist's Cuffs
+			i(234668),	-- Stonebound Archivist Vestment
+			i(234669),	-- Stonebound Archivist's Robe
+			i(234670),	-- Stonebound Archivist's Hood
+			i(234671),	-- Stonebound Archivist's Sandals
+			i(234672),	-- Stonebound Archivist's Cord
+			i(234673),	-- Stonebound Archivist's Cuffs
+			i(234674),	-- Stonebound Explorer's Kilt
+			i(234675),	-- Stonebound Explorer's Visor
+			i(234676),	-- Stonebound Explorer's Treads
+			i(234677),	-- Stonebound Explorer's Waistcoat
+			i(234678),	-- Stonebound Explorer's Cinch
+			i(234679),	-- Stonebound Explorer's Handwraps
+			i(234680),	-- Stonebound Peacekeeper's Chassis
+			i(234681),	-- Stonebound Peacekeeper Warkilt
+			i(234682),	-- Stonebound Peacekeeper Waistguard
+			i(234683),	-- Stonebound Peacekeeper Waistcoat
+			i(234684),	-- Stonebound Peacekeeper Gauntlets
+			i(234685),	-- Stonebound Peacekeeper Pauldrons
+			i(234686),	-- Stonebound Peacekeeper Sabatons
+			i(234687),	-- Stonebound Peacekeeper Greathelm
+			i(234688),	-- Stonebound Artisan Toolbelt
+			i(234689),	-- Stonebound Artisan Waistcoat
+			i(234690),	-- Stonebound Artisan Kilt
+			i(234691),	-- Stonebound Artisan Handbraces
+			i(234692),	-- Stonebound Artisan Footwraps
+			i(234693),	-- Stonebound Artisan Collar
+			i(234694),	-- Stonebound Machinist Wristchains
+			i(234695),	-- Stonebound Machinist Robe
+			i(234696),	-- Stonebound Machinist Helmet
+			i(234697),	-- Stonebound Machinist Girdle
+			i(234698),	-- Stonebound Machinist Cog
+			i(234699),	-- Stonebound Machinist Chain
+			i(234700),	-- Stonebound Machinist Anklewraps
+			i(234701),	-- Stonebound Worker's Mantle
+			i(234702),	-- Stonebound Worker's Kilt
+			i(234703),	-- Stonebound Worker's Cuffs
+			i(234704),	-- Stonebound Worker's Boots
+			i(234705),	-- Stonebound Worker's Belt
+			i(234706),	-- Stonebound Worker's Vest
+			i(234707),	-- Stonebound Explorer's Tunic
+			i(234708),	-- Stonebound Worker's Waistcoat
+			i(234709),	-- Earthen Travel Kilt
+			i(234710),	-- Earthen Artisan Kilt
+			i(234711),	-- Earthen Peacekeeper Warkilt
+			i(234712),	-- Earthen Explorer's Kilt
+			i(234713),	-- Dornogal Waistcoat
+			i(234714),	-- Gundargaz Waistcoat
+			i(234715),	-- Freywold Waistcoat
+			i(234733),	-- Ancient Runic Hilt
+			i(234736),	-- Tar-Sealed Scroll
+			i(234751),	-- Pearl-Adorned Tailband
+			i(234752),	-- Coral-Pocked Scrying Stone
+			i(234753),	-- Cracked Divining Scepter
+			i(234754),	-- Bloodied Siren Pendant
+			i(234822),	-- Twilight Acolyte's Robes
+			i(234823),	-- Twilight Acolyte's Boots
+			i(234824),	-- Twilight Acolyte's Gloves
+			i(234825),	-- Twilight Acolyte's Skullcap
+			i(234826),	-- Twilight Acolyte's Leggings
+			i(234827),	-- Twilight Acolyte's Spaulders
+			i(234828),	-- Twilight Acolyte's Belt
+			i(234829),	-- Twilight Acolyte's Bracers
+			i(234830),	-- Twilight Hunter's Spaulders
+			i(234831),	-- Twilight Hunter's Vest
+			i(234832),	-- Twilight Hunter's Breeches
+			i(234833),	-- Twilight Hunter's Boots
+			i(234834),	-- Twilight Hunter's Helmet
+			i(234835),	-- Twilight Hunter's Grips
+			i(234836),	-- Twilight Hunter's Wraps
+			i(234837),	-- Twilight Hunter's Girdle
+			i(234838),	-- Twilight Zealot's Sabatons
+			i(234839),	-- Twilight Zealot's Handguards
+			i(234840),	-- Twilight Zealot's Veil
+			i(234841),	-- Twilight Zealot's Greaves
+			i(234842),	-- Twilight Zealot's Pauldrons
+			i(234843),	-- Twilight Zealot's Waistguard
+			i(234844),	-- Twilight Zealot's Bracelets
+			i(234845),	-- Twilight Zealot's Chestguard
+			i(234846),	-- Moccasins of the Twisted Grove
+			i(234847),	-- Grips of the Twisted Grove
+			i(234848),	-- Mask of the Twisted Grove
+			i(234849),	-- Legwraps of the Twisted Grove
+			i(234850),	-- Spaulders of the Twisted Grove
+			i(234851),	-- Girdle of the Twisted Grove
+			i(234852),	-- Bindings of the Twisted Grove
+			i(234853),	-- Robes of the Twisted Grove
+			i(234854),	-- Tunic of the Twisted Grove
+			i(234858),	-- Twilight Acolyte's Tunic
+			i(234863),	-- Karabor Priest's Robes
+			i(234864),	-- Karabor Priest's Boots
+			i(234865),	-- Karabor Priest's Gloves
+			i(234866),	-- Karabor Priest's Hood
+			i(234867),	-- Karabor Priest's Leggings
+			i(234868),	-- Karabor Priest's Mantle
+			i(234869),	-- Karabor Priest's Belt
+			i(234870),	-- Karabor Priest's Bracers
+			i(234871),	-- Karabor Priest's Tunic
+			i(234872),	-- Shattrath Artificer's Boots
+			i(234873),	-- Shattrath Artificer's Grips
+			i(234874),	-- Shattrath Artificer's Helmet
+			i(234875),	-- Shattrath Artificer's Legwraps
+			i(234876),	-- Shattrath Artificer's Spaulders
+			i(234877),	-- Shattrath Artificer's Cinch
+			i(234878),	-- Shattrath Artificer's Bindings
+			i(234879),	-- Shattrath Artificer's Robes
+			i(234880),	-- Shattrath Artificer's Tunic
+			i(234881),	-- Gorgrond Cragstalker's Spiked Shoulders
+			i(234882),	-- Gorgrond Cragstalker's Tunic
+			i(234883),	-- Gorgrond Cragstalker's Breeches
+			i(234884),	-- Gorgrond Cragstalker's Sabatons
+			i(234885),	-- Gorgrond Cragstalker's Helmet
+			i(234886),	-- Gorgrond Cragstalker's Grips
+			i(234887),	-- Gorgrond Cragstalker's Bindings
+			i(234888),	-- Gorgrond Cragstalker's Girdle
+			i(234889),	-- Shadowmoon Anchorite's Sabatons
+			i(234890),	-- Shadowmoon Anchorite's Gauntlets
+			i(234891),	-- Shadowmoon Anchorite's Helm
+			i(234892),	-- Shadowmoon Anchorite's Legplates
+			i(234893),	-- Shadowmoon Anchorite's Pauldrons
+			i(234894),	-- Shadowmoon Anchorite's Belt
+			i(234895),	-- Shadowmoon Anchorite's Bracelets
+			i(234896),	-- Shadowmoon Anchorite's Chestplate
+			i(234897),	-- Shadowmoon Anchorite's Drape
+			i(234898),	-- Gorgrond Cragstalker's Cloak
+			i(234899),	-- Shattrath Artificer's Cloak
+			i(234900),	-- Karabor Priest's Drape
+			i(234905),	-- Mech-Friend Maya
+			i(234908),	-- Broken Shore Battlemender's Boots
+			i(234909),	-- Broken Shore Battlemender's Gloves
+			i(234910),	-- Broken Shore Battlemender's Helmet
+			i(234911),	-- Broken Shore Battlemender's Pantaloons
+			i(234912),	-- Broken Shore Battlemender's Mantle
+			i(234913),	-- Broken Shore Battlemender's Belt
+			i(234914),	-- Broken Shore Battlemender's Bracers
+			i(234915),	-- Broken Shore Battlemender's Tunic
+			i(234916),	-- Invasion Stalker's Boots
+			i(234917),	-- Invasion Stalker's Grips
+			i(234918),	-- Invasion Stalker's Helmet
+			i(234919),	-- Invasion Stalker's Legwraps
+			i(234920),	-- Invasion Stalker's Spaulders
+			i(234921),	-- Invasion Stalker's Cinch
+			i(234922),	-- Invasion Stalker's Bindings
+			i(234923),	-- Invasion Stalker's Tunic
+			i(234924),	-- Drake Hunter's Mantle
+			i(234925),	-- Drake Hunter's Chestguard
+			i(234926),	-- Drake Hunter's Breeches
+			i(234927),	-- Drake Hunter's Sabatons
+			i(234928),	-- Drake Hunter's Cowl
+			i(234929),	-- Drake Hunter's Grips
+			i(234930),	-- Drake Hunter's Bindings
+			i(234931),	-- Drake Hunter's Girdle
+			i(234932),	-- Drekirjar Warrior's Sabatons
+			i(234933),	-- Drekirjar Warrior's Gauntlets
+			i(234934),	-- Drekirjar Warrior's Helm
+			i(234935),	-- Drekirjar Warrior's Greaves
+			i(234936),	-- Drekirjar Warrior's Pauldrons
+			i(234937),	-- Drekirjar Warrior's Greatbelt
+			i(234938),	-- Drekirjar Warrior's Bindings
+			i(234939),	-- Drekirjar Warrior's Chestguard
+			i(234940),	-- Drekirjar Warrior's Cloak
+			i(234969),	-- Archivist Chassis
+			i(234982),	-- Spare Sailor's Short-Sleeved Tunic
+			i(235017),	-- Glittering Vault Shard
+			i(235041),	-- Cyrce's Circlet
+			i(235050),	-- Desk-In-A-Box
+			i(235330),	-- Steam-Pressed Cobalt Cloak
+			i(235331),	-- Steam-Pressed Golden Cloak
+			i(235332),	-- Steam-Pressed Green Cloak
+			i(235333),	-- Steam-Pressed Violet Cloak
+			i(235378),	-- Landro's Loot Box
+			i(231760),	-- Notes on Ancient Treasure
+			i(232005),	-- Cryptic Crostini
+			i(232006),	-- Detective's Delight
+			i(232007),	-- Sleuth's Sip
+			i(232009),	-- Riddle Wraps
+			i(232011),	-- Finder's Flare
 		})),
 		expansion(EXPANSION.TWW, patch(0,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
 			filter(TOYS, {
@@ -779,6 +1006,37 @@ root(ROOTS.Unsorted, {
 			i(228911),	-- Xal'atath's Rusty Coin
 			i(234413),	-- Satchel of Exotic Mysteries
 			--
+			i(228990),	-- Bottle of Steam
+			i(227698),	-- Torn Diary, Page 2
+			i(228223),	-- Nola's Last Wish
+			i(229198),	-- Ace of Air
+			i(229200),	-- Three of Air
+			i(229201),	-- Four of Air
+			i(229202),	-- Five of Air
+			i(229203),	-- Six of Air
+			i(229204),	-- Seven of Air
+			i(229205),	-- Eight of Air
+			i(229206),	-- Ace of Fire
+			i(229209),	-- Four of Fire
+			i(229214),	-- Ace of Frost
+			i(229215),	-- Two of Frost
+			i(229217),	-- Four of Frost
+			i(229218),	-- Five of Frost
+			i(229220),	-- Seven of Frost
+			i(229221),	-- Eight of Frost
+			i(229222),	-- Ace of Earth
+			i(229223),	-- Two of Earth
+			i(229224),	-- Three of Earth
+			i(229226),	-- Five of Earth
+			i(229227),	-- Six of Earth
+			i(229228),	-- Seven of Earth
+			i(229229),	-- Eight of Earth
+			i(229990),	-- My Journal: Operation Toy Rescue
+			i(229997),	-- My Journal: Operation Toy Rescue
+			i(230235),	-- Rosa's Notes on Boonful Banquet
+			i(228953),	-- Rosy Sprat
+			i(229387),	-- Trickster's Riddles
+			i(231773),	-- Lost & Found Chest
 		})),
 		expansion(EXPANSION.TWW, patch(0,2), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 			explorationHeader({
