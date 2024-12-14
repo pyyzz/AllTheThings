@@ -302,6 +302,11 @@ root(ROOTS.Zones, m(KALIMDOR, bubbleDown({ ["timeline"] = { ADDED_7_3_5 } }, {
 							["provider"] = { "n", 152095 },	-- Magni Bronzebeard
 							["coord"] = { 62.0, 24.9, MOUNT_HYJAL },
 							["sourceQuest"] = 55520,	-- Healing Nordrassil
+							["g"] = {
+								n(152095, {	-- Magni Bronzebeard
+									["description"] = "This is a terrible experience if you are working through content chronologically, as you cannot circumvent this phased version of Nordrassil.\n\nYou have to get started with Battle for Azeroth, get access to Chamber of Heart in Silithus: The Wound, and reach Heart of Azeroth power level 55. Then you can pick up 'A Fresh Trauma' from Magni in Chamber of Heart and return to Nordrassil for the short questline.",
+								}),
+							},
 						}),
 						q(55425, {	-- Dominating the Indomitable
 							["provider"] = { "n", 152385 },	-- Spiritwalker Ebonhorn
