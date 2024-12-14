@@ -22190,6 +22190,12 @@
 11.0.5.57292
 198987@@@Brrrgl
 232502@@@Reven
+11.0.5.57534
+229779@@@Gizmo the Pure
+229890@@@Thrillbot 9000
+229901@@@Chillbot 9000
+230834@@@Gill'el
+230859@@@Snowfang
 11.0.7.57361
 218867@@@Dauntless Deckhand
 227067@@@Kalecgos

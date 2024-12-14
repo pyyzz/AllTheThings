@@ -15409,6 +15409,8 @@
 41038@@@Token Collector
 11.0.5.57388
 40872@@@I Saved the Party and All I Got Were These Lousy Hats
+11.0.5.57534
+41220@@@WoW's 20th Anniversary
 11.0.7.57361
 13057@@@Sailed in Sea Minor
 40791@@@Fate of the Kirin Tor
