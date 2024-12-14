@@ -4757,14 +4757,16 @@ profession(LEATHERWORKING, {
 			["name"] = "Bags",
 			["categoryID"] = 904,
 			["groups"] = {
-				{
+				applyclassicphase(CATA_PHASE_MOLTEN_FRONT, {
 					["name"] = "Royal Scribe's Satchel",
+					["timeline"] = { ADDED_4_2_0 },
 					["recipeID"] = 100583,
-				},
-				{
+				}),
+				applyclassicphase(CATA_PHASE_MOLTEN_FRONT, {
 					["name"] = "Triple-Reinforced Mining Bag",
+					["timeline"] = { ADDED_4_2_0 },
 					["recipeID"] = 100586,
-				},
+				}),
 			},
 		},
 		{
@@ -4877,26 +4879,30 @@ profession(LEATHERWORKING, {
 			["name"] = "Bracers",
 			["categoryID"] = 908,
 			["groups"] = {
-				{
+				applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, {
 					["name"] = "Bladeshadow Wristguards",
+					["timeline"] = { ADDED_4_3_0 },
 					["recipeID"] = 101940,
-				},
-				{
+				}),
+				applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, {
 					["name"] = "Bracers of Flowing Serenity",
+					["timeline"] = { ADDED_4_3_0 },
 					["recipeID"] = 101937,
-				},
-				{
+				}),
+				applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, {
 					["name"] = "Bracers of the Hunter-Killer",
+					["timeline"] = { ADDED_4_3_0 },
 					["recipeID"] = 101941,
-				},
+				}),
 				{
 					["name"] = "Darkbrand Bracers",
 					["recipeID"] = 78398,
 				},
-				{
+				applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, {
 					["name"] = "Thundering Deathscale Wristguards",
+					["timeline"] = { ADDED_4_3_0 },
 					["recipeID"] = 101939,
-				},
+				}),
 				{
 					["name"] = "Tsunami Bracers",
 					["recipeID"] = 78388,
@@ -4923,26 +4929,30 @@ profession(LEATHERWORKING, {
 			["name"] = "Gloves",
 			["categoryID"] = 909,
 			["groups"] = {
-				{
+				applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, {
 					["name"] = "Clutches of Evil",
+					["timeline"] = { ADDED_4_2_0 },
 					["recipeID"] = 99446,
-				},
+				}),
 				{
 					["name"] = "Darkbrand Gloves",
 					["recipeID"] = 78399,
 				},
-				{
+				applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, {
 					["name"] = "Dragonfire Gloves",
+					["timeline"] = { ADDED_4_2_0 },
 					["recipeID"] = 99443,
-				},
-				{
+				}),
+				applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, {
 					["name"] = "Gloves of Unforgiving Flame",
+					["timeline"] = { ADDED_4_2_0 },
 					["recipeID"] = 99445,
-				},
-				{
+				}),
+				applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, {
 					["name"] = "Heavenly Gloves of the Moon",
+					["timeline"] = { ADDED_4_2_0 },
 					["recipeID"] = 99447,
-				},
+				}),
 				{
 					["name"] = "Tsunami Gloves",
 					["recipeID"] = 78406,
@@ -5015,26 +5025,30 @@ profession(LEATHERWORKING, {
 			["name"] = "Pants",
 			["categoryID"] = 911,
 			["groups"] = {
-				{
+				applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, {
 					["name"] = "Bladeshadow Leggings",
+					["timeline"] = { ADDED_4_3_0 },
 					["recipeID"] = 101935,
-				},
+				}),
 				{
 					["name"] = "Darkbrand Leggings",
 					["recipeID"] = 78433,
 				},
-				{
+				applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, {
 					["name"] = "Deathscale Leggings",
+					["timeline"] = { ADDED_4_3_0 },
 					["recipeID"] = 101934,
-				},
-				{
+				}),
+				applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, {
 					["name"] = "Leggings of Nature's Champion",
+					["timeline"] = { ADDED_4_3_0 },
 					["recipeID"] = 101933,
-				},
-				{
+				}),
+				applyclassicphase(CATA_PHASE_HOUR_OF_TWILIGHT, {
 					["name"] = "Rended Earth Leggings",
+					["timeline"] = { ADDED_4_3_0 },
 					["recipeID"] = 101936,
-				},
+				}),
 				{
 					["name"] = "Tsunami Leggings",
 					["recipeID"] = 78427,
@@ -5065,22 +5079,26 @@ profession(LEATHERWORKING, {
 					["name"] = "Darkbrand Boots",
 					["recipeID"] = 78407,
 				},
-				{
+				applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, {
 					["name"] = "Earthen Scale Sabatons",
+					["timeline"] = { ADDED_4_2_0 },
 					["recipeID"] = 99455,
-				},
-				{
+				}),
+				applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, {
 					["name"] = "Ethereal Footfalls",
+					["timeline"] = { ADDED_4_2_0 },
 					["recipeID"] = 99458,
-				},
-				{
+				}),
+				applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, {
 					["name"] = "Footwraps of Quenched Fire",
+					["timeline"] = { ADDED_4_2_0 },
 					["recipeID"] = 99456,
-				},
-				{
+				}),
+				applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, {
 					["name"] = "Treads of the Craft",
+					["timeline"] = { ADDED_4_2_0 },
 					["recipeID"] = 99457,
-				},
+				}),
 				{
 					["name"] = "Tsunami Boots",
 					["recipeID"] = 78410,
@@ -5107,6 +5125,34 @@ profession(LEATHERWORKING, {
 			["name"] = "Cloaks",
 			["categoryID"] = 913,
 			["groups"] = {
+				-- #if ANYCLASSIC
+				-- Crieve NOTE: These cloaks were available with Firelands. We'll see if they get removed later.
+				-- Also notice the massive unique spellID... BLIZZARD.
+				applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, {
+					["name"] = "Bloodthirsty Fur Cloak",
+					["recipeID"] = 1216335,
+					["timeline"] = {
+						ADDED_4_2_0,
+						-- #if CATA
+						REMOVED_5_0_4,
+						-- #else
+						REMOVED_4_3_0,
+						-- #endif
+					},
+				}),
+				applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, {	-- Bloodthirsty Hide Cloak
+					["name"] = "Bloodthirsty Hide Cloak",
+					["recipeID"] = 1216336,
+					["timeline"] = {
+						ADDED_4_2_0,
+						-- #if CATA
+						REMOVED_5_0_4,
+						-- #else
+						REMOVED_4_3_0,
+						-- #endif
+					},
+				}),
+				-- #endif
 				{
 					["name"] = "Cloak of Beasts",
 					["recipeID"] = 78438,

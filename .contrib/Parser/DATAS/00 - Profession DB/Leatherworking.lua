@@ -996,6 +996,15 @@ i(72033, 10570);	-- Tough Scorpid Helm [New Version]
 i(72030, 10568);	-- Tough Scorpid Leggings [New Version]
 i(72027, 10564);	-- Tough Scorpid Shoulders [New Version]
 
+-- #if ANYCLASSIC
+-----------------
+-- PATCH 4.4.1 --
+-----------------
+--- TRAINER ---
+i(0, 1216335);	-- Bloodthirsty Fur Cloak
+i(0, 1216336);	-- Bloodthirsty Hide Cloak
+-- #endif
+
 -----------------
 -- PATCH 5.0.4 --
 -----------------

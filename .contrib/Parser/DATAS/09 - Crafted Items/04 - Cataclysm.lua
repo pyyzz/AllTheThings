@@ -824,8 +824,27 @@ Fire and Water - Damage against Elementals increased by 15%.
 	prof(LEATHERWORKING, {
 		n(ARMOR, {
 			n(BACK, {
-				bloodthirsty(i(70068)),	-- Bloodthirsty Fur Cloak
-				bloodthirsty(i(70069)),	-- Bloodthirsty Hide Cloak
+				-- Crieve NOTE: These cloaks were available with Firelands. We'll see if they get removed later.
+				applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, i(70068, {	-- Bloodthirsty Fur Cloak
+					["timeline"] = {
+						ADDED_4_2_0,
+						-- #if CATA
+						REMOVED_5_0_4,
+						-- #else
+						REMOVED_4_3_0,
+						-- #endif
+					},
+				})),
+				applyclassicphase(CATA_PHASE_RAGE_OF_THE_FIRELANDS, i(70069, {	-- Bloodthirsty Hide Cloak
+					["timeline"] = {
+						ADDED_4_2_0,
+						-- #if CATA
+						REMOVED_5_0_4,
+						-- #else
+						REMOVED_4_3_0,
+						-- #endif
+					},
+				})),
 				i(56518),	-- Cloak of Beasts
 				i(56519),	-- Cloak of War
 				i(56489),	-- Hardened Scale Cloak
@@ -836,8 +855,26 @@ Fire and Water - Damage against Elementals increased by 15%.
 				-- Blizzard did a dumb when they implemented Cata Classic
 				dragonsoul(i(226181)),	-- Vicious Fur Cloak
 				dragonsoul(i(226183)),	-- Vicious Hide Cloak
-				bloodied(i(75076)),	-- Vicious Fur Cloak
-				bloodied(i(75077)),	-- Vicious Hide Cloak
+				i(75076, {	-- Vicious Fur Cloak
+					["timeline"] = {
+						ADDED_4_0_3_LAUNCH,
+						-- #if CATA
+						REMOVED_5_0_4,
+						-- #else
+						REMOVED_4_2_0,
+						-- #endif
+					},
+				}),
+				i(75077, {	-- Vicious Hide Cloak
+					["timeline"] = {
+						ADDED_4_0_3_LAUNCH,
+						-- #if CATA
+						REMOVED_5_0_4,
+						-- #else
+						REMOVED_4_2_0,
+						-- #endif
+					},
+				}),
 				-- #else
 				dragonsoul(i(75076)),	-- Vicious Fur Cloak
 				dragonsoul(i(75077)),	-- Vicious Hide Cloak
@@ -990,11 +1027,11 @@ Fire and Water - Damage against Elementals increased by 15%.
 			i(71720, {["timeline"] = { ADDED_4_2_0 }}),	-- Drakehide Leg Armor
 			i(56517),	-- Heavy Savage Armor Kit
 			i(56516),	-- Heavy Savage Leather
-			firelands(i(70136)),	-- Royal Scribe's Satchel
+			moltenfront(i(70136)),	-- Royal Scribe's Satchel
 			i(56477),	-- Savage Armor Kit
 			i(52976),	-- Savage Leather
 			i(56502),	-- Scorched Leg Armor
-			firelands(i(70137)),	-- Triple-Reinforced Mining Bag
+			moltenfront(i(70137)),	-- Triple-Reinforced Mining Bag
 			i(56503),	-- Twilight Leg Armor
 		}),
 	}),

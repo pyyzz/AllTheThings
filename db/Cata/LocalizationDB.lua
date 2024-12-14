@@ -21733,8 +21733,13 @@ do phases[key].lore = value; end
 if GetLocale():sub(3,4):lower() == "tw" then
 localize(L.HEADER_NAMES, {
 	[-1000021] = "飛行路線",
+	[-1000025] = "節慶用品",
 	[-1000038] = "寶箱",
 	[-1000044] = "地區掉落",
+	[-1000201] = "暗月馬戲團",
+});
+localize(L.HEADER_DESCRIPTIONS, {
+	[-1000025] = "你可能需要在特定節日的活動中才能完成本節中的事物。",
 });
 for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "糖果桶"; end
 for key,value in pairs({
