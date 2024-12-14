@@ -15411,6 +15411,8 @@
 40872@@@I Saved the Party and All I Got Were These Lousy Hats
 11.0.5.57534
 41220@@@WoW's 20th Anniversary
+11.0.5.57637
+41213@@@Family Battler of Khaz Algar (copy)
 11.0.7.57361
 13057@@@Sailed in Sea Minor
 40791@@@Fate of the Kirin Tor
@@ -15478,6 +15480,5 @@
 41206@@@Songs of Storms
 41207@@@When the Drust Settles
 41209@@@Dressed to Kill: Battle for Azeroth
-41213@@@Family Battler of Khaz Algar (copy)
 41218@@@<DNT> Plunderstorm Plunder Tracker - V1.5 11.0.7 - Mainline Power
 41219@@@Explore Siren Isle
