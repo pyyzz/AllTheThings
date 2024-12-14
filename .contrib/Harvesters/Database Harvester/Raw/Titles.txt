@@ -790,3 +790,5 @@
 569@@@%s, Witness of the Kirin Tor
 600@@@Landlubber %s
 601@@@%s the Treasured
+11.0.7.57409
+588@@@Zandalar Enthusiast %s

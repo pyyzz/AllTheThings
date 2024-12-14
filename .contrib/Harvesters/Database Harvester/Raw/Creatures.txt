@@ -22310,3 +22310,22 @@
 235169@@@Archivist's Data Orb
 235280@@@Push Loot Test (DNT)
 235281@@@Test Personal Loot (DNT)
+11.0.7.57409
+228965@@@Kalecgos
+228966@@@Archmage Khadgar
+232295@@@Almyr Sunhart
+233564@@@Grunch
+235246@@@Kirin Tor Survivor
+235463@@@Deeprock Breaker
+235464@@@Hardstone Digger
+235811@@@Lady Jaina Proudmoore
+236016@@@Mech-Friend Maya
+236017@@@Kirin Tor Survivor
+236024@@@Kirin Tor Survivor
+236040@@@Storminfused Snapdragon
+236041@@@Scavenging Snapdragon
+236042@@@Storminfused Snapdragon
+236043@@@Scavenging Snapdragon
+236045@@@Ailenda Hedgemyr
+236048@@@Kirin Tor Survivor
+236052@@@Kirin Tor Survivor

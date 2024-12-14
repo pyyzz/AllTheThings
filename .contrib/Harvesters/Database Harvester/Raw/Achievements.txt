@@ -15482,3 +15482,8 @@
 41209@@@Dressed to Kill: Battle for Azeroth
 41218@@@<DNT> Plunderstorm Plunder Tracker - V1.5 11.0.7 - Mainline Power
 41219@@@Explore Siren Isle
+11.0.7.57409
+17733@@@<Hidden> 00.x Chromie Time - Is Greater Than Previous Max Level While In Chromie Time
+40657@@@Prioress Murrpray kills (Normal Priory of the Sacred Flame)
+40658@@@Prioress Murrpray kills (Heroic Priory of the Sacred Flame)
+40659@@@Prioress Murrpray kills (Mythic Priory of the Sacred Flame)
