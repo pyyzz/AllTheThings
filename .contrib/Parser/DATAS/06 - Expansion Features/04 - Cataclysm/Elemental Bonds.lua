@@ -107,6 +107,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, applyclassicphase(CATA_P
 					29440,	-- The Call of the World-Shaman (H)
 				},
 				["coord"] = { 60.6, 31.4, MOUNT_HYJAL },
+				["groups"] = {
+					n(54313, {
+						["description"] = "Ignore Thrall if you are doing the initial quests around Nordrassil, he will become relevant later in the story.",
+					}),
+				},
 			}),
 		},
 	})),
