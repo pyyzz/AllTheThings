@@ -330,6 +330,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					["coords"] = {
 						{ 45.0, 35.5, MALDRAXXUS },
 						{ 46.8, 31.7, MALDRAXXUS },
+						{ 40.3, 31.7, MALDRAXXUS },
 					},
 					["questID"] = 61089,
 					["isDaily"] = true,
@@ -339,6 +340,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 						{ 73.5, 49.7, MALDRAXXUS },
 						{ 75.6, 45.5, MALDRAXXUS },
 						{ 76.0, 49.4, MALDRAXXUS },
+						{ 68.8, 47.2, MALDRAXXUS },
 					},
 					["questID"] = 61090,
 					["isDaily"] = true,
