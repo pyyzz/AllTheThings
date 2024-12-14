@@ -1,0 +1,4 @@
+11.0.7.57361
+title(569),	-- %s, Witness of the Kirin Tor
+title(600),	-- Landlubber %s
+title(601),	-- %s the Treasured

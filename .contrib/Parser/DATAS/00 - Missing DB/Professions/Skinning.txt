@@ -84,10 +84,7 @@ r(194166),	-- Stormscale
 r(194167),	-- Felhide
 r(194168),	-- Felhide
 r(194169),	-- Felhide
-r(194170),	-- Unbroken Tooth
-r(194171),	-- Unbroken Claw
 r(194174),	-- Skinning Journal \\ Skinning Skills
-r(194203),	-- Legion Gutting
 r(195125),	-- Skinning
 r(205243),	-- Skinning
 r(247842),	-- Fiendish Leather
@@ -114,10 +111,8 @@ r(265869),	-- Skinning
 r(265871),	-- Skinning
 8.2.0.30168
 r(302007),	-- Dredged Leather
-r(302010),	-- Dredged Leather
 r(302011),	-- Dredged Leather
 r(302014),	-- Cragscale
-r(302015),	-- Cragscale
 r(302016),	-- Cragscale
 9.0.1.33978
 r(308569),	-- Skinning

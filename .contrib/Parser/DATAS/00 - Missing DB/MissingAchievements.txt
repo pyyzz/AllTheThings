@@ -1,0 +1,6 @@
+11.0.7.57361
+ach(40791),	-- Fate of the Kirin Tor
+ach(41163),	-- Lord of the Bling
+ach(41219),	-- Explore Siren Isle
+11.0.7.57788
+ach(40877),	-- <Hidden> RR - 4b

@@ -20,6 +20,26 @@ r(461722),	-- Devilcore Gauntlets
 r(461724),	-- Devilcore Leggings
 r(461754),	-- Girdle of Arcane Insight
 r(462227),	-- Honed Blue Dragonscale Leggings
+1.15.5.57537
+r(1213513),	-- Glowing Chitin Armor Kit
+r(1213519),	-- Sharpened Chitin Armor Kit
+r(1213521),	-- Razorbramble Cowl
+r(1213523),	-- Razorbramble Shoulderpads
+r(1213525),	-- Razorbramble Leathers
+r(1213717),	-- Sandstalker Bracers
+r(1213720),	-- Sandstalker Gauntlets
+r(1213723),	-- Sandstalker Breastplate
+r(1213726),	-- Spitfire Bracers
+r(1213728),	-- Spitfire Gauntlets
+r(1213731),	-- Spitfire Breastplate
+r(1213734),	-- Bramblewood Belt
+r(1213736),	-- Bramblewood Boots
+r(1213738),	-- Bramblewood Helm
+r(1213751),	-- Dreamscale Breastplate
+r(1214303),	-- Dreamscale Kilt
+4.4.1.57916
+r(1216335),	-- Bloodthirsty Fur Cloak
+r(1216336),	-- Bloodthirsty Hide Cloak
 
 
 
@@ -36,3 +56,20 @@ r(461720),	-- Living Green Dragonscale Breastplate
 r(461722),	-- Devilcore Gauntlets
 r(461724),	-- Devilcore Leggings
 r(462227),	-- Honed Blue Dragonscale Leggings
+1.15.5.57537
+r(1213513),	-- Glowing Chitin Armor Kit
+r(1213519),	-- Sharpened Chitin Armor Kit
+r(1213521),	-- Razorbramble Cowl
+r(1213523),	-- Razorbramble Shoulderpads
+r(1213525),	-- Razorbramble Leathers
+r(1213717),	-- Sandstalker Bracers
+r(1213720),	-- Sandstalker Gauntlets
+r(1213723),	-- Sandstalker Breastplate
+r(1213726),	-- Spitfire Bracers
+r(1213728),	-- Spitfire Gauntlets
+r(1213731),	-- Spitfire Breastplate
+r(1213734),	-- Bramblewood Belt
+r(1213736),	-- Bramblewood Boots
+r(1213738),	-- Bramblewood Helm
+r(1213751),	-- Dreamscale Breastplate
+r(1214303),	-- Dreamscale Kilt

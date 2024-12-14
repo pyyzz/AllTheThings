@@ -123,6 +123,20 @@ r(461752),	-- Incandescent Mooncloth Leggings
 r(463972),	-- Bottomless Bag
 1.15.3.55917
 r(462282),	-- Embroidered Belt of the Archmage
+1.15.5.57537
+r(1213527),	-- Vampiric Cowl
+r(1213530),	-- Vampiric Shawl
+r(1213532),	-- Vampiric Robe
+r(1213534),	-- Qiraji Silk Scarf
+r(1213536),	-- Qiraji Silk Cape
+r(1213538),	-- Qiraji Silk Cloak
+r(1213540),	-- Qiraji Silk Drape
+r(1213740),	-- Sylvan Shoulders
+r(1213742),	-- Sylvan Crown
+r(1213744),	-- Sylvan Vest
+r(1214173),	-- Bolt of Qiraji Silk
+r(1214306),	-- Dreamscale Bracers
+r(1214307),	-- Dreamscale Mitts
 2.0.0.6080
 r(26745),	-- Bolt of Netherweave
 r(26746),	-- Netherweave Bag
@@ -165,11 +179,28 @@ r(55924),	-- Duskweave Boots
 r(55925),	-- Black Duskweave Leggings
 r(55941),	-- Black Duskweave Robe
 r(55943),	-- Black Duskweave Wristwraps
+r(55995),	-- Yellow Lumberjack Shirt
+r(56000),	-- Green Workman's Shirt
+r(56001),	-- Moonshroud
+r(56002),	-- Ebonweave
+r(56003),	-- Spellweave
+r(56007),	-- Frostweave Bag
 r(56008),	-- Shining Spellthread
 r(56010),	-- Azure Spellthread
 r(56014),	-- Cloak of the Moon
 r(56015),	-- Cloak of Frozen Spirits
+r(56018),	-- Hat of Wintry Doom
+r(56019),	-- Silky Iceshard Boots
 r(56020),	-- Deep Frozen Cord
+r(56021),	-- Frostmoon Pants
+r(56022),	-- Light Blessed Mittens
+r(56023),	-- Aurora Slippers
+r(56024),	-- Moonshroud Robe
+r(56025),	-- Moonshroud Gloves
+r(56026),	-- Ebonweave Robe
+r(56027),	-- Ebonweave Gloves
+r(56028),	-- Spellweave Robe
+r(56029),	-- Spellweave Gloves
 r(56030),	-- Frostwoven Leggings
 r(56031),	-- Frostwoven Wristwraps
 r(56034),	-- Master's Spellthread
@@ -230,21 +261,23 @@ r(75265),	-- Otherworldly Bag
 r(75266),	-- Spiritmend Cowl
 r(75267),	-- Spiritmend Robe
 r(75268),	-- Hyjal Expedition Bag
-r(75269),	-- Fireweave Belt \\ Vicious Fireweave Belt
-r(75270),	-- Emberfire Bracers \\ Vicious Embersilk Bracers
+r(75269),	-- Bloodthirsty Fireweave Belt \\ Fireweave Belt \\ Vicious Fireweave Belt
+r(75270),	-- Bloodthirsty Embersilk Bracers \\ Emberfire Bracers \\ Vicious Embersilk Bracers
 r(75287),	--
-r(75290),	-- Fireweave Bracers \\ Vicious Fireweave Bracers
-r(75291),	-- Emberfire Shoulders \\ Vicious Embersilk Shoulders
-r(75292),	-- Fireweave Shoulders \\ Vicious Fireweave Shoulders
-r(75293),	-- Emberfire Belt \\ Vicious Embersilk Belt
-r(75294),	-- Fireweave Boots \\ Vicious Fireweave Boots
-r(75295),	-- Emberfire Gloves \\ Vicious Embersilk Gloves
-r(75296),	-- Fireweave Gloves \\ Vicious Fireweave Gloves
-r(75297),	-- Emberfire Boots \\ Vicious Embersilk Boots
+r(75290),	-- Bloodthirsty Fireweave Bracers \\ Fireweave Bracers \\ Vicious Fireweave Bracers
+r(75291),	-- Bloodthirsty Embersilk Shoulders \\ Emberfire Shoulders \\ Vicious Embersilk Shoulders
+r(75292),	-- Bloodthirsty Fireweave Shoulders \\ Fireweave Shoulders \\ Vicious Fireweave Shoulders
+r(75293),	-- Bloodthirsty Embersilk Belt \\ Emberfire Belt \\ Vicious Embersilk Belt
+r(75294),	-- Bloodthirsty Fireweave Boots \\ Fireweave Boots \\ Vicious Fireweave Boots
+r(75295),	-- Bloodthirsty Embersilk Gloves \\ Emberfire Gloves \\ Vicious Embersilk Gloves
+r(75296),	-- Bloodthirsty Fireweave Gloves \\ Fireweave Gloves \\ Vicious Fireweave Gloves
+r(75297),	-- Bloodthirsty Embersilk Boots \\ Emberfire Boots \\ Vicious Embersilk Boots
 4.3.4.15595
 r(94743),	-- Dream of Destruction
 r(99537),	-- Vicious Embersilk Cape
 r(102171),	-- Black Silk Vest
+4.4.1.57916
+r(1216338),	-- Bloodthirsty Embersilk Cape
 5.0.3.15890
 r(104115),	-- Release Fire Spirit
 r(110426),	-- Tailoring
@@ -380,8 +413,10 @@ r(257106),	-- Tidespray Linen Cloak of the Feather \\ Sun-Bleached Linen Cloak o
 r(257107),	-- Tidespray Linen Cloak \\ Tidespray Linen Cloak of Discretion \\ Sun-Bleached Linen Cloak of Discretion
 r(257108),	-- Embroidered Deep Sea Cloak of Resilience
 r(257109),	-- Embroidered Deep Sea Cloak of Resilience
+r(257110),	-- Embroidered Deep Sea Cloak of Resilience
 r(257111),	-- Embroidered Deep Sea Cloak of the Feather
 r(257112),	-- Embroidered Deep Sea Cloak of the Feather
+r(257113),	-- Embroidered Deep Sea Cloak of the Feather
 r(257114),	-- Embroidered Deep Sea Cloak \\ Embroidered Deep Sea Cloak of Discretion
 r(257115),	-- Embroidered Deep Sea Cloak \\ Embroidered Deep Sea Cloak of Discretion
 r(257118),	-- Embroidered Deep Sea Gloves
@@ -546,7 +581,6 @@ r(3858),	-- Shadow Hood
 r(3859),	-- Azure Silk Vest
 r(3860),	-- Boots of the Enchanter
 r(3861),	-- Long Silken Cloak
-r(3862),	-- Icy Cloak
 r(3863),	-- Spider Belt
 r(3864),	-- Star Belt
 r(3865),	-- Bolt of Mageweave
@@ -566,7 +600,6 @@ r(6521),	-- Pearl-clasped Cloak
 r(6686),	-- Red Linen Bag
 r(6688),	-- Red Woolen Bag
 r(6690),	-- Lesser Wizard's Robe
-r(6692),	-- Robes of Arcana
 r(6693),	-- Green Silk Pack
 r(6695),	-- Black Silk Pack
 r(7623),	-- Brown Linen Robe
@@ -599,7 +632,6 @@ r(8778),	-- Boots of Darkness
 r(8780),	-- Hands of Darkness
 r(8782),	-- Truefaith Gloves
 r(8784),	-- Green Silk Armor
-r(8786),	-- Azure Silk Cloak
 r(8789),	-- Crimson Silk Cloak
 r(8791),	-- Crimson Silk Vest
 r(8793),	-- Crimson Silk Shoulders
@@ -664,11 +696,9 @@ r(18404),	-- Frostweave Robe
 r(18405),	-- Runecloth Bag
 r(18406),	-- Runecloth Robe
 r(18407),	-- Runecloth Tunic
-r(18408),	-- Cindercloth Vest
 r(18409),	-- Runecloth Cloak
 r(18410),	-- Ghostweave Belt
 r(18411),	-- Frostweave Gloves
-r(18412),	-- Cindercloth Gloves
 r(18413),	-- Ghostweave Gloves
 r(18419),	-- Felcloth Pants
 r(18420),	-- Brightcloth Cloak
@@ -677,7 +707,6 @@ r(18422),	-- Cloak of Fire
 r(18423),	-- Runecloth Boots
 r(18424),	-- Frostweave Pants
 r(18434),	-- Cindercloth Pants
-r(18436),	-- Robe of Winter Night
 r(18437),	-- Felcloth Boots
 r(18438),	-- Runecloth Pants
 r(18439),	-- Brightcloth Pants
@@ -707,11 +736,6 @@ r(20849),	-- Flarecore Gloves
 1.13.0.28211
 r(22759),	-- Flarecore Wraps
 r(22813),	-- Gordok Ogre Suit
-r(22866),	-- Belt of the Archmage
-r(22867),	-- Felcloth Gloves
-r(22868),	-- Inferno Gloves
-r(22869),	-- Mooncloth Gloves
-r(22870),	-- Cloak of Warding
 r(22902),	-- Mooncloth Robe
 r(23662),	-- Wisdom of the Timbermaw
 r(23663),	-- Mantle of the Timbermaw
@@ -763,10 +787,25 @@ r(461752),	-- Incandescent Mooncloth Leggings
 r(463972),	-- Bottomless Bag
 1.15.3.55917
 r(462282),	-- Embroidered Belt of the Archmage
+1.15.5.57537
+r(1213527),	-- Vampiric Cowl
+r(1213530),	-- Vampiric Shawl
+r(1213532),	-- Vampiric Robe
+r(1213534),	-- Qiraji Silk Scarf
+r(1213536),	-- Qiraji Silk Cape
+r(1213538),	-- Qiraji Silk Cloak
+r(1213540),	-- Qiraji Silk Drape
+r(1213740),	-- Sylvan Shoulders
+r(1213742),	-- Sylvan Crown
+r(1213744),	-- Sylvan Vest
+r(1214173),	-- Bolt of Qiraji Silk
+r(1214306),	-- Dreamscale Bracers
+r(1214307),	-- Dreamscale Mitts
 3.0.1.8874
-r(56016),	-- Wispcloak
 r(56017),	-- Deathchill Cloak
 r(56048),	-- Duskweave Boots
+4.4.1.57916
+r(1216338),	-- Bloodthirsty Embersilk Cape
 5.0.3.15890
 r(104115),	-- Release Fire Spirit
 8.0.1.26032

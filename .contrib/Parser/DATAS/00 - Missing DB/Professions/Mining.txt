@@ -1,5 +1,12 @@
+1.15.5.57537
+r(1213638),	-- Smelt Obsidian-Infused Thorium Bar
 11.0.0.54311
 r(423882),	-- Overload Test Deposit
 
 
-Nothing is Missing in Mining.lua! Good Work!
+
+
+Missing in Mining.lua
+
+1.15.5.57537
+r(1213638),	-- Smelt Obsidian-Infused Thorium Bar

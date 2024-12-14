@@ -1,0 +1,18 @@
+8.1.0.27985
+pet(2535),	-- Wicker Wraith
+11.0.5.57534
+pet(4630),	-- Gill'el
+11.0.7.57361
+pet(4695),	-- Parley
+pet(4725),	-- Titan Orb
+11.0.7.57409
+pet(4691),	-- Grunch
+pet(4730),	-- Mech-Friend Maya
+
+
+
+
+Missing in PetDB.lua
+
+11.0.7.57361
+pet(4725),	-- Titan Orb

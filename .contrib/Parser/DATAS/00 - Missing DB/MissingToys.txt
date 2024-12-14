@@ -1,5 +1,18 @@
 7.3.0.24473
 i(130157),	-- Syxsehnz Rod \\ ehnz Rod
+11.0.7.57361
+i(218308),	-- Winter Veil Cracker
+11.0.7.57528
+i(235017),	-- Glittering Vault Shard
+i(235041),	-- Cyrce's Circlet
 
 
-Nothing is Missing in ToyDB.lua! Good Work!
+
+
+Missing in ToyDB.lua
+
+11.0.7.57361
+i(218308),	-- Winter Veil Cracker
+11.0.7.57528
+i(235017),	-- Glittering Vault Shard
+i(235041),	-- Cyrce's Circlet
