@@ -4,7 +4,7 @@
 root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNCH } }, {
 	m(MALDRAXXUS, {
 		n(TREASURES, {
-			o(353627, {		-- TestBattlefront Rations
+			o(353627, {		-- Battlefront Rations
 				["description"] = "To unlock it, you must obtain |cFF0070ddBattlefront Ration Key|r from Thalrix the Slicer or one of the Supply Officer mobs in the area nearby.",
 				["crs"] = {
 					157037,	-- Grabber Ga'shock <Supply Officer>
