@@ -2596,6 +2596,10 @@
 7649@@@Thorns +20
 7650@@@Enchanted Repellent
 7651@@@Occult Poison II
+1.15.5.57716
+7655@@@+12 Spell Damage
+7656@@@+9 Agility
+7657@@@Scope (+10 Damage)
 2.0.0.6080
 13@@@Sharpened (+3 Damage)
 14@@@Sharpened (+4 Damage)
