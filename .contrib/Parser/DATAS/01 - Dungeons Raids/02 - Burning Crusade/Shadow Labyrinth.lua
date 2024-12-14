@@ -209,7 +209,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 						i(27887),	-- Platinum Shield of the Valorous
 						i(27888),	-- Dream-Wing Helm
 						i(27889),	-- Jaedenfire Gloves of Annihilation
+						-- #if AFTER 7.3.5
 						i(27908),	-- Leggings of Assassination
+						-- #endif
 						i(27884),	-- Ornate Boots of the Sanctified
 						-- #if BEFORE MOP
 						i(27886, {	-- Idol of the Emerald Queen
@@ -271,6 +273,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 						i(29261),	-- Girdle of Ferocity
 						i(30532),	-- Kirin Tor Master's Trousers
 						-- #endif
+						i(27908),	-- Leggings of Assassination
 						i(27902),	-- Silent Slippers of Meditation
 						i(24309),	-- Pattern: Spellstrike Pants (RECIPE!)
 					},
@@ -308,7 +311,9 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 							i(27887),	-- Platinum Shield of the Valorous
 							i(27888),	-- Dream-Wing Helm
 							i(27889),	-- Jaedenfire Gloves of Annihilation
+							-- #if AFTER 7.3.5
 							i(27908),	-- Leggings of Assassination
+							-- #endif
 							i(27884),	-- Ornate Boots of the Sanctified
 							-- #if BEFORE MOP
 							i(27886, {	-- Idol of the Emerald Queen
@@ -365,6 +370,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 							i(29357),	-- Master Thief's Gloves
 							i(29261),	-- Girdle of Ferocity
 							i(30532),	-- Kirin Tor Master's Trousers
+							i(27908),	-- Leggings of Assassination
 							i(27902),	-- Silent Slippers of Meditation
 							i(24309),	-- Pattern: Spellstrike Pants (RECIPE!)
 							applyclassicphase(TBC_PHASE_ONE, i(23572)),	-- Primal Nether
