@@ -6,6 +6,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 		n(TREASURES, {
 			i(220123, {	-- Ominous Offering
 				["description"] = "Combine 'Offering of Pure Water' and 'Jar of Mucus' to get this item.\nUsed to summon 'Deathtide'.",
+				["cost"] = {
+					{ "i", 220124, 1 },	-- 1x Jar of Mucus
+					{ "i", 220122, 1 },	-- 1x Offering of Pure Water
+				},
 			}),
 			o(444798, {	-- Arathi Treasure Hoard
 				["description"] = "Spawns randomly throughout the zone.",

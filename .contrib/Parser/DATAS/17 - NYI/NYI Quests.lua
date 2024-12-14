@@ -8691,6 +8691,8 @@ root(ROOTS.NeverImplemented, n(QUESTS, {
 			--["provider"] = { "n", 223750 },	-- Lady Vinazian <Severed Threads Quartermaster>
 			--["coord"] = { 55.3, 41.2, AZJ_KAHET },
 			}),
+			q(85725),	-- (Argent Dawsn Valor Token)
+			q(85726),	-- (Argent Dawsn Valor Token)
 		})),
 	}),
 }));
