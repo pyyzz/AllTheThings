@@ -226,6 +226,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 						i(27890),	-- Wand of the Netherwing
 						i(28134),	-- Brooch of Heightened Potential
 						i(27892),	-- Cloak of the Inciter
+						i(27468),	-- Moonglade Handwraps
 						i(27893),	-- Ornate Leggings of the Venerated
 						i(27891),	-- Adamantine Figurine
 						i(25728),	-- Pattern: Stylin' Purple Hat (RECIPE!)
@@ -239,8 +240,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 						i(27898),	-- Wrathfire Hand-Cannon
 						i(27775),	-- Hallowed Pauldrons
 						i(27897),	-- Breastplate of Many Graces
+						-- #if AFTER 7.3.5
 						i(27468),	-- Moonglade Handwraps
 						i(27909),	-- Tidefury Kilt
+						-- #endif
 						i(27900),	-- Jewel of Charismatic Mystique
 						i(30827),	-- Lexicon Demonica
 					},
@@ -274,6 +277,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 						i(30532),	-- Kirin Tor Master's Trousers
 						-- #endif
 						i(27908),	-- Leggings of Assassination
+						i(27909),	-- Tidefury Kilt
 						i(27902),	-- Silent Slippers of Meditation
 						i(24309),	-- Pattern: Spellstrike Pants (RECIPE!)
 					},
@@ -328,6 +332,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 							i(27890),	-- Wand of the Netherwing
 							i(28134),	-- Brooch of Heightened Potential
 							i(27892),	-- Cloak of the Inciter
+							i(27468),	-- Moonglade Handwraps
 							i(27893),	-- Ornate Leggings of the Venerated
 							i(27891),	-- Adamantine Figurine
 							i(25728),	-- Pattern: Stylin' Purple Hat (RECIPE!)
@@ -341,8 +346,10 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 							i(27898),	-- Wrathfire Hand-Cannon
 							i(27775),	-- Hallowed Pauldrons
 							i(27897),	-- Breastplate of Many Graces
+							-- #if AFTER 7.3.5
 							i(27468),	-- Moonglade Handwraps
 							i(27909),	-- Tidefury Kilt
+							-- #endif
 							i(27900),	-- Jewel of Charismatic Mystique
 						},
 					}),
@@ -371,6 +378,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TBC, applyclassicphase(TBC_PHASE_ONE, 
 							i(29261),	-- Girdle of Ferocity
 							i(30532),	-- Kirin Tor Master's Trousers
 							i(27908),	-- Leggings of Assassination
+							i(27909),	-- Tidefury Kilt
 							i(27902),	-- Silent Slippers of Meditation
 							i(24309),	-- Pattern: Spellstrike Pants (RECIPE!)
 							applyclassicphase(TBC_PHASE_ONE, i(23572)),	-- Primal Nether
