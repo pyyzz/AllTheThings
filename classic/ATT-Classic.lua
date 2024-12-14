@@ -1190,6 +1190,7 @@ local function GetSearchResults(method, paramA, paramB, ...)
 
 	if mostAccessibleSource then
 		group.parent = mostAccessibleSource.parent;
+		group.awp = mostAccessibleSource.awp;
 		group.rwp = mostAccessibleSource.rwp;
 		group.e = mostAccessibleSource.e;
 		group.u = mostAccessibleSource.u;
