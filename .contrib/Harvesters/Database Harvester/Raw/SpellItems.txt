@@ -2583,6 +2583,19 @@
 1.15.4.56573
 7563@@@+25 Fire Resistance
 7564@@@+30 Fire Resistance
+1.15.5.57537
+7273@@@Damaged Rune
+7592@@@Damaged Rune
+7642@@@Mark of Chaos
+7643@@@Decimation
+7644@@@Magnificent Trollshine
+7645@@@Living Stats
+7646@@@Holy Damage +20
+7647@@@Arcane Damage +20
+7648@@@Spell Damage and Healing +10
+7649@@@Thorns +20
+7650@@@Enchanted Repellent
+7651@@@Occult Poison II
 2.0.0.6080
 13@@@Sharpened (+3 Damage)
 14@@@Sharpened (+4 Damage)
