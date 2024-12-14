@@ -15487,3 +15487,5 @@
 40657@@@Prioress Murrpray kills (Normal Priory of the Sacred Flame)
 40658@@@Prioress Murrpray kills (Heroic Priory of the Sacred Flame)
 40659@@@Prioress Murrpray kills (Mythic Priory of the Sacred Flame)
+11.0.7.57788
+40877@@@<Hidden> RR - 4b
