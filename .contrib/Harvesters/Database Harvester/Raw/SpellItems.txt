@@ -12357,3 +12357,13 @@
 7583@@@|C003fc7ebLegendary Skipper's Citrine
 7584@@@|C003fc7ebSeabed Leviathan's Citrine
 7585@@@|C003fc7ebRoaring War-Queen's Citrine
+11.0.7.57528
+7572@@@|C00f58cbaSquall Sailor's Citrine
+7573@@@|C003fc7ebUndersea Overseer's Citrine
+7575@@@|C00fff569Stormbringer's Runed Citrine
+7576@@@|C003fc7ebFathomdweller's Runed Citrine
+7579@@@|C00fff569Storm Sewer's Citrine
+7580@@@|C00f58cbaOld Salt's Bardic Citrine
+7581@@@|C003fc7ebMariner's Hallowed Citrine
+7583@@@|C00f58cbaLegendary Skipper's Citrine
+7585@@@|C00fff569Roaring War-Queen's Citrine

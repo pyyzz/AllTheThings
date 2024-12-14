@@ -22329,3 +22329,9 @@
 236045@@@Ailenda Hedgemyr
 236048@@@Kirin Tor Survivor
 236052@@@Kirin Tor Survivor
+11.0.7.57528
+236058@@@Watcher Du'una
+236059@@@Crewman Boltshine
+236060@@@Crewman Cutpipe
+236061@@@Crewman Spinshaft
+236629@@@Mounted Stormranger
