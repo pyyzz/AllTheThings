@@ -84,6 +84,149 @@ local HOLIDAY_SMOKYWOOD_PASTURES_GIFT_PACK = {	-- Smokywood Pastures Gift Pack
 	}),
 	-- #endif
 };
+local STOLEN_PRESENT_GROUPS = {
+	-- Battle Pets/Companions
+	i(54436, {	-- Blue Clockwork Rocket Bot (PET!)
+		["timeline"] = { ADDED_3_3_3 },
+	}),
+	i(34425, {	-- Clockwork Rocket Bot (PET!)
+		["timeline"] = { ADDED_2_3_0 },
+	}),
+	i(73797, {	-- Lumpy (PET!)
+		["timeline"] = { ADDED_4_3_0 },
+	}),
+	i(104317, {	-- Rotten Little Helper (PET!)
+		["timeline"] = { ADDED_5_4_0 },
+	}),
+	i(178533, {	-- Jingles (PET!)
+		["timeline"] = { ADDED_9_0_1 },
+	}),
+	-- Toys
+	i(54343),	-- Blue Crashin' Thrashin' Racer Controller (TOY!)
+	i(108632, {	-- Crashin' Thrashin' Flamer Controller (TOY!)
+		["timeline"] = { ADDED_6_2_2 },
+	}),
+	i(104318, {	-- Crashin' Thrashin' Flyer Controller (TOY!)
+		["timeline"] = { ADDED_5_4_0 },
+	}),
+	i(172223, {	-- Crashin' Thrashin' Battleship (TOY!)
+		["timeline"] = { ADDED_8_2_5 },
+		["races"] = ALLIANCE_ONLY,
+	}),
+	i(172222, {	-- Crashin' Thrashin' Juggernaught (TOY!)
+		["timeline"] = { ADDED_8_2_5 },
+		["races"] = HORDE_ONLY,
+	}),
+	i(37710),	-- Crashin' Thrashin' Racer Controller (TOY!)
+	i(116763, {	-- Crashin' Thrashin' Shredder Controller (TOY!)
+		["timeline"] = { ADDED_6_0_2 },
+	}),
+	i(139337, {	-- Disposable Winter Veil Suits (TOY!)
+		["timeline"] = { ADDED_7_0_3 },
+	}),
+	i(128636, {	-- Endothermic Blaster (TOY!)
+		["timeline"] = { ADDED_7_0_3 },
+	}),
+	i(116692, {	-- Fuzzy Green Lounge Cushion (TOY!)
+		["timeline"] = { ADDED_6_0_2 },
+	}),
+	i(162973, {	-- Greatfather Winter's Hearthstone (TOY!)
+		["timeline"] = { ADDED_8_1_0 },	-- 8.0.1 it was added in the Gift, so will say 8.1 for this source
+	}),
+	i(46709),	-- MiniZep Controller (TOY!)
+	i(116689, {	-- Pineapple Lounge Cushion (TOY!)
+		["timeline"] = { ADDED_6_0_2 },
+	}),
+	i(128776, {	-- Red Wooden Sled (TOY!)
+		["timeline"] = { ADDED_6_2_2 },
+	}),
+	i(187422, {	-- Rockin' Rollin' Racer Customizer 19.9.3 (TOY!)
+		["timeline"] = { ADDED_10_0_2 },
+	}),
+	i(116690, {	-- Safarai Lounge Cushion (TOY!)
+		["timeline"] = { ADDED_6_0_2 },
+	}),
+	i(116456, {	-- Scroll of Storytelling (TOY!)
+		["timeline"] = { ADDED_6_0_2 },
+	}),
+	i(90888, {	-- Special Edition Foot Ball (TOY!)
+		["timeline"] = { ADDED_6_2_3 },
+	}),
+	i(90883, {	-- The Pigskin (TOY!)
+		["timeline"] = { ADDED_6_2_3 },
+	}),
+	i(54438),	-- Tiny Blue Ragdoll (TOY!)
+	i(54437),	-- Tiny Green Ragdoll (TOY!)
+	i(44606),	-- Toy Train Set (TOY!)
+	i(151349, {	-- Toy Weapon Set [A] (TOY!)
+		["timeline"] = { ADDED_7_3_0 },
+		["races"] = ALLIANCE_ONLY,
+	}),
+	i(151348, {	-- Toy Weapon Set [H] (TOY!)
+		["timeline"] = { ADDED_7_3_0 },
+		["races"] = HORDE_ONLY,
+	}),
+	i(172219, {	-- Wild Holly (TOY!)
+		["timeline"] = { ADDED_8_2_5 },
+	}),
+	i(45057),	-- Wind-Up Train Wrecker (TOY!)
+	i(188680, {	-- Winter Veil Chorus Book (TOY!)
+		["timeline"] = { ADDED_9_1_5 },
+	}),
+	i(116691, {	-- Zhevra Lounge Cusion (TOY!)
+		["timeline"] = { ADDED_6_0_2 },
+	}),
+	i(151343, {	-- Hearthstation (A) (TOY!)
+		["timeline"] = { ADDED_8_2_5 },
+		["races"] = ALLIANCE_ONLY,
+	}),
+	i(151344, {	-- Hearthstation (H) (TOY!)
+		["timeline"] = { ADDED_8_2_5 },
+		["races"] = HORDE_ONLY,
+	}),
+	i(178530, {	-- Wreath-A-Rang (TOY!)
+		["timeline"] = { ADDED_9_1_5 }, -- Returned Christmas 2022
+	}),
+	i(191925, {	-- Falling Star Flinger (TOY!)
+		["timeline"] = { ADDED_10_2_0 }, -- Returned Christmas 2023
+	}),
+	i(191937, {	-- Falling Star Catcher (TOY!)
+		["timeline"] = { ADDED_10_2_0 }, -- Returned Christmas 2023
+	}),
+	i(209859, {	-- Festive Trans-Dimensional Bird Whistle (TOY!)
+		["timeline"] = { ADDED_10_2_0 },
+	}),
+	-- Mount Mods
+	i(210432, {	-- Highland Drake: Winter Veil Armor (MM!)
+		["timeline"] = { ADDED_10_2_0 },
+	}),
+	-- Illusions
+	i(128649, {	-- Illusion: Winter's Grasp (ILLUSION!)
+		["timeline"] = { ADDED_6_2_2 },
+	}),
+	i(118572, {	-- Illusion: Flames of Ragnaros (ILLUSION!)
+		["timeline"] = { ADDED_6_0_2 },
+	}),
+	-- Appearances
+	i(143898, {	-- Miniature Winter Veil Tree (Level 1 - Cosmetic)
+		["timeline"] = { ADDED_7_1_0 },
+	}),
+	i(117371, {	-- Miniature Winter Veil Tree (Level 1-110)
+		["timeline"] = { ADDED_6_0_2, REMOVED_7_1_0 },
+	}),
+	i(93625, {	-- Miniature Winter Veil Tree (Level 90)
+		["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+	}),
+	i(66540, {	-- Miniature Winter Veil Tree (Level 85)
+		["timeline"] = { ADDED_4_3_0, REMOVED_5_1_0 },
+	}),
+	-- Trinkets
+	i(151351, {	-- Glowing Gift
+		["timeline"] = { ADDED_7_3_0 },
+	}),
+	-- Misc:
+	i(46725),	-- Red Rider Air Rifle
+};
 root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_VEIL_HEADER, {
 	n(ACHIEVEMENTS, {
 		ach(1692, {	-- Merrymaker (A)
@@ -2108,152 +2251,20 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 				}),
 				i(93626, {	-- Stolen Present
 					["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
+					-- #if BEFORE 6.0.2
+					["groups"] = STOLEN_PRESENT_GROUPS,
+					-- #endif
 				}),
 				i(73792, {	-- Stolen Present
 					["timeline"] = { ADDED_4_3_0, REMOVED_5_1_0 },
+					-- #if BEFORE 5.1.0
+					["groups"] = STOLEN_PRESENT_GROUPS,
+					-- #endif
 				}),
-				-- TODO: Sort out the contents of the Stolen Presents by patch (in time, don't need it until Cata)
-				-- NOTE: The contents will be slightly delayed after the gift each year rather than their respective "timestamp", so good lord kill me please for the love of god. -Crieve
 				i(116762, {	-- Stolen Present
 					["timeline"] = { ADDED_6_0_2 },
 					["lvl"] = 50,
-					["groups"] = {
-						-- Battle Pets/Companions
-						i(54436, {	-- Blue Clockwork Rocket Bot (PET!)
-							["timeline"] = { ADDED_3_3_3 },
-						}),
-						i(34425, {	-- Clockwork Rocket Bot (PET!)
-							["timeline"] = { ADDED_2_3_0 },
-						}),
-						i(73797, {	-- Lumpy (PET!)
-							["timeline"] = { ADDED_4_3_0 },
-						}),
-						i(104317, {	-- Rotten Little Helper (PET!)
-							["timeline"] = { ADDED_5_4_0 },
-						}),
-						i(178533, {	-- Jingles (PET!)
-							["timeline"] = { ADDED_9_0_1 },
-						}),
-						-- Toys
-						i(54343),	-- Blue Crashin' Thrashin' Racer Controller (TOY!)
-						i(108632, {	-- Crashin' Thrashin' Flamer Controller (TOY!)
-							["timeline"] = { ADDED_6_2_2 },
-						}),
-						i(104318, {	-- Crashin' Thrashin' Flyer Controller (TOY!)
-							["timeline"] = { ADDED_5_4_0 },
-						}),
-						i(172223, {	-- Crashin' Thrashin' Battleship (TOY!)
-							["timeline"] = { ADDED_8_2_5 },
-							["races"] = ALLIANCE_ONLY,
-						}),
-						i(172222, {	-- Crashin' Thrashin' Juggernaught (TOY!)
-							["timeline"] = { ADDED_8_2_5 },
-							["races"] = HORDE_ONLY,
-						}),
-						i(37710),	-- Crashin' Thrashin' Racer Controller (TOY!)
-						i(116763, {	-- Crashin' Thrashin' Shredder Controller (TOY!)
-							["timeline"] = { ADDED_6_0_2 },
-						}),
-						i(139337, {	-- Disposable Winter Veil Suits (TOY!)
-							["timeline"] = { ADDED_7_0_3 },
-						}),
-						i(128636, {	-- Endothermic Blaster (TOY!)
-							["timeline"] = { ADDED_7_0_3 },
-						}),
-						i(116692, {	-- Fuzzy Green Lounge Cushion (TOY!)
-							["timeline"] = { ADDED_6_0_2 },
-						}),
-						i(162973, {	-- Greatfather Winter's Hearthstone (TOY!)
-							["timeline"] = { ADDED_8_1_0 },	-- 8.0.1 it was added in the Gift, so will say 8.1 for this source
-						}),
-						i(46709),	-- MiniZep Controller (TOY!)
-						i(116689, {	-- Pineapple Lounge Cushion (TOY!)
-							["timeline"] = { ADDED_6_0_2 },
-						}),
-						i(128776, {	-- Red Wooden Sled (TOY!)
-							["timeline"] = { ADDED_6_2_2 },
-						}),
-						i(187422, {	-- Rockin' Rollin' Racer Customizer 19.9.3 (TOY!)
-							["timeline"] = { ADDED_10_0_2 },
-						}),
-						i(116690, {	-- Safarai Lounge Cushion (TOY!)
-							["timeline"] = { ADDED_6_0_2 },
-						}),
-						i(116456, {	-- Scroll of Storytelling (TOY!)
-							["timeline"] = { ADDED_6_0_2 },
-						}),
-						i(90888),	-- Special Edition Foot Ball (TOY!)
-						i(90883),	-- The Pigskin (TOY!)
-						i(54438),	-- Tiny Blue Ragdoll (TOY!)
-						i(54437),	-- Tiny Green Ragdoll (TOY!)
-						i(44606),	-- Toy Train Set (TOY!)
-						i(151349, {	-- Toy Weapon Set [A] (TOY!)
-							["timeline"] = { ADDED_7_3_0 },
-							["races"] = ALLIANCE_ONLY,
-						}),
-						i(151348, {	-- Toy Weapon Set [H] (TOY!)
-							["timeline"] = { ADDED_7_3_0 },
-							["races"] = HORDE_ONLY,
-						}),
-						i(172219, {	-- Wild Holly (TOY!)
-							["timeline"] = { ADDED_8_2_5 },
-						}),
-						i(45057),	-- Wind-Up Train Wrecker (TOY!)
-						i(188680, {	-- Winter Veil Chorus Book (TOY!)
-							["timeline"] = { ADDED_9_1_5 },
-						}),
-						i(116691, {	-- Zhevra Lounge Cusion (TOY!)
-							["timeline"] = { ADDED_6_0_2 },
-						}),
-						i(151343, {	-- Hearthstation (A) (TOY!)
-							["races"] = ALLIANCE_ONLY,
-						}),
-						i(151344, {	-- Hearthstation (H) (TOY!)
-							["races"] = HORDE_ONLY,
-						}),
-						i(178530, {	-- Wreath-A-Rang (TOY!)
-							["timeline"] = { ADDED_9_1_5 }, -- Returned Christmas 2022
-						}),
-						i(191925, {	-- Falling Star Flinger (TOY!)
-							["timeline"] = { ADDED_10_2_0 }, -- Returned Christmas 2023
-						}),
-						i(191937, {	-- Falling Star Catcher (TOY!)
-							["timeline"] = { ADDED_10_2_0 }, -- Returned Christmas 2023
-						}),
-						i(209859, {	-- Festive Trans-Dimensional Bird Whistle (TOY!)
-							["timeline"] = { ADDED_10_2_0 },
-						}),
-						-- Mount Mods
-						i(210432, {	-- Highland Drake: Winter Veil Armor (MM!)
-							["timeline"] = ADDED_10_2_0,
-						}),
-						-- Illusions
-						i(128649, {	-- Illusion: Winter's Grasp (ILLUSION!)
-							["timeline"] = { ADDED_6_2_2 },
-						}),
-						i(118572, {	-- Illusion: Flames of Ragnaros (ILLUSION!)
-							["timeline"] = { ADDED_6_0_2 },
-						}),
-						-- Appearances
-						i(143898, {	-- Miniature Winter Veil Tree (Level 1 - Cosmetic)
-							["timeline"] = { ADDED_7_1_0 },
-						}),
-						i(117371, {	-- Miniature Winter Veil Tree (Level 1-110)
-							["timeline"] = { ADDED_6_0_2, REMOVED_7_1_0 },
-						}),
-						i(93625, {	-- Miniature Winter Veil Tree (Level 90)
-							["timeline"] = { ADDED_5_1_0, REMOVED_6_0_2 },
-						}),
-						i(66540, {	-- Miniature Winter Veil Tree (Level 85)
-							["timeline"] = { ADDED_4_3_0, REMOVED_5_1_0 },
-						}),
-						-- Trinkets
-						i(151351, {	-- Glowing Gift
-							["timeline"] = { ADDED_7_3_0 },
-						}),
-						-- Misc:
-						i(46725),	-- Red Rider Air Rifle
-					},
+					["groups"] = STOLEN_PRESENT_GROUPS,
 				}),
 			},
 		},
