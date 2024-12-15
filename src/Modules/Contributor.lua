@@ -95,6 +95,13 @@ api.DoReport = function(id, text)
 	AddReportData("test", id, text)
 end
 
+-- Used to override the precision of coord accuracy based on irregularly sized maps
+-- typically we don't want the report to trigger even when interacting from max range
+-- so can adjust here
+local MapPrecisionOverrides = {
+	[1700] = 3,	-- Sinfall (not tested)
+}
+
 local function Check_coords(objRef, id, maxCoordDistance)
 	-- check coord distance
 	local mapID, px, py, fake = app.GetPlayerPosition()
@@ -105,7 +112,7 @@ local function Check_coords(objRef, id, maxCoordDistance)
 
 	local dist, sameMap, check
 	local closest = 9999
-	maxCoordDistance = maxCoordDistance or 1
+	maxCoordDistance = MapPrecisionOverrides[mapID] or maxCoordDistance or 1
 	for _, coord in ipairs(objRef.coords) do
 		if mapID == coord[3] then
 			sameMap = mapID
