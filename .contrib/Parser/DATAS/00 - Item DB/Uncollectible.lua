@@ -35,8 +35,10 @@ i(189560);	-- Deflectialic Crystallic Spheroid
 i(189722);	-- Alacrialic Crystallic Spheroid
 i(189723);	-- Absorptialic Crystallic Spheroid
 i(189724);	-- Extractialic Crystallic Spheroid
+i(189725);	-- Flexialic Crystallic Spheroid
 i(189726);	-- Focialic Crystallic Spheroid
 i(189727);	-- Healialic Crystallic Spheroid
+i(189728);	-- Obscurialic Crystallic Spheroid
 i(189732);	-- Constialic Crystallic Spheroid
 i(189734);	-- Rigialic Crystallic Spheroid
 i(189735);	-- Velocialic Crystallic Spheroid

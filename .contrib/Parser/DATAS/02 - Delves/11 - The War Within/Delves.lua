@@ -1339,6 +1339,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				}),
 			}),
 			filter(MISC, {
+				i(209788),	-- Dispersion Crystal (QI!)
 				i(210017),	-- Fungal Fish (QI!)
 			}),
 			n(QUESTS, {
@@ -1532,8 +1533,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 		["icon"] = [[~_.asset("Delves_Shadow")]],
 		["coord"] = { 34.6, 46.8, HALLOWFALL },
 		["g"] = {
-			i(216420),	-- Signal Flare (QI!)
-			i(216433),	-- Stolen Relic (QI!)
 			n(ACHIEVEMENTS, {
 				ach(40809),	-- Nightfall Sanctum Discoveries
 				ach(40530),	-- Nightfall Sanctum Stories (automated)
@@ -1549,6 +1548,8 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 			}),
 			filter(MISC, {
 				i(215466),	-- Sanctified Supplies (QI!)
+				i(216420),	-- Signal Flare (QI!)
+				i(216433),	-- Stolen Relic (QI!)
 			}),
 			n(QUESTS, {
 				q(83755, {	-- Delves: Nightfall Sanctum
@@ -1670,8 +1671,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 				o(455533, {	-- Sturdy Chest
 					["coord"] = { 59.7, 24.7, TAK_RETHAN_ABYSS },
 					["questID"] = 83651,
-					-- dropped i(226120)	-- Deployable Battle Supplies
-					-- maybe not unique to this chest
 				}),
 				o(455514, {	-- Sturdy Chest
 					["coord"] = { 35.1, 58.6, TAK_RETHAN_ABYSS },

@@ -1119,8 +1119,6 @@ root(ROOTS.Unsorted, {
 				i(226524),	-- Partially-Charged Hologem
 				--- Delves ---
 				--- Probably NYI ---
-				--- Fungal Folly ---
-				i(209788),	-- Dispersion Crystal
 				--- Kriegval ---
 				i(224767),	-- Giant Candle Parts
 				--- Waterworks ---
