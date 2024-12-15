@@ -529,25 +529,30 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					i(180401),	-- Noble Justice
 				},
 			}),
-			o(353336, {	-- Secret Treasure (map object -- contains the book for Lord Scowl)
-				o(351545, {	-- Secret Treasure
-					["description"] = "Lord Scowl is imprisoned in a cage next to the treasure.  Pick up a book from a nearby fallen cage, climb up the tree, give the book to Lord Scowl, and he will kick the treasure down to the ground for you.",
-					["crs"] = { 169993 },	-- Lord Scowl
-					["coord"] = { 27.7, 48.7, REVENDRETH },
-					["questID"] = 60202,	-- also triggered 60851
-					["isDaily"] = true,
-					["g"] = {
-						i(180323),	-- Blackbale Neckpiece
-						i(182970, {	-- Burgleclipped Portrait
-							["customCollect"] = "SL_COV_VEN",
-						}),
-						i(180320),	-- Darkvein Choker
-						i(180321),	-- Primrose Pendant
-						i(180325),	-- Redelev Pendant
-						i(180322),	-- Sinfang Choker
-						i(180319),	-- Sourwine Pendant
-					},
-				}),
+			o(353340, {	-- Dusty Book
+				["coord"] = { 28.1, 48.4, REVENDRETH },
+				["groups"] = {
+					i(180220);	-- Historical Treatise
+				},
+			}),
+			o(351545, {	-- Secret Treasure
+				["description"] = "Lord Scowl is imprisoned in a cage next to the treasure.  Pick up a book from a nearby fallen cage, climb up the tree, give the book to Lord Scowl, and he will kick the treasure down to the ground for you.",
+				["crs"] = { 169993 },	-- Lord Scowl
+				["provider"] = { "i", 180220 },	-- Historical Treatise
+				["coord"] = { 27.7, 48.7, REVENDRETH },
+				["questID"] = 60202,	-- also triggered 60851
+				["isDaily"] = true,
+				["g"] = {
+					i(180323),	-- Blackbale Neckpiece
+					i(182970, {	-- Burgleclipped Portrait
+						["customCollect"] = "SL_COV_VEN",
+					}),
+					i(180320),	-- Darkvein Choker
+					i(180321),	-- Primrose Pendant
+					i(180325),	-- Redelev Pendant
+					i(180322),	-- Sinfang Choker
+					i(180319),	-- Sourwine Pendant
+				},
 			}),
 			o(358399, {	-- Six-League Pack
 				["coord"] = { 58.6, 84.8, REVENDRETH },

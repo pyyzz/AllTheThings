@@ -708,7 +708,6 @@ i(173871);	-- Harrowed Ichor
 i(179376);	-- Hefty Diary Key
 i(184384);	-- Hibernal Sproutling
 i(180510);	-- Hibiscus Tea Bag
-i(180220);	-- Historical Treatise
 i(184391);	-- Hollow Phylactery Shard
 i(181550);	-- Hopebreaker's Field Injector
 i(180307);	-- Horrific Stone Visage
