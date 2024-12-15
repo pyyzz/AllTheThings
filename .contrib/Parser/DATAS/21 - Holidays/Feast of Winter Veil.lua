@@ -706,7 +706,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 		}),
 		ach(6060, {	-- MiniZep Controller (2010)
 			["provider"] = { "i", 46709 },	-- MiniZep Controller
-			["timeline"] = { ADDED_4_3_0 },
+			["timeline"] = { ADDED_4_3_0, REMOVED_4_3_0, ADDED_6_2_3 },
 		}),
 		ach(6061, {	-- Gaudy Winter Veil Sweater (2011)
 			["provider"] = { "i", 70923 },	-- Gaudy Winter Veil Sweater
