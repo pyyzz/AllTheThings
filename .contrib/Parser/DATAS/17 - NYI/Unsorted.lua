@@ -1006,9 +1006,7 @@ root(ROOTS.Unsorted, {
 			i(228911),	-- Xal'atath's Rusty Coin
 			i(234413),	-- Satchel of Exotic Mysteries
 			--
-			i(228990),	-- Bottle of Steam
 			i(227698),	-- Torn Diary, Page 2
-			i(228223),	-- Nola's Last Wish
 			i(229198),	-- Ace of Air
 			i(229200),	-- Three of Air
 			i(229201),	-- Four of Air
@@ -1034,7 +1032,6 @@ root(ROOTS.Unsorted, {
 			i(229990),	-- My Journal: Operation Toy Rescue
 			i(229997),	-- My Journal: Operation Toy Rescue
 			i(230235),	-- Rosa's Notes on Boonful Banquet
-			i(228953),	-- Rosy Sprat
 			i(229387),	-- Trickster's Riddles
 			i(231773),	-- Lost & Found Chest
 		})),

@@ -167,7 +167,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					i(228986, {	-- Aesthetician's Coupon Book
 						["cost"] = 5000000,	-- 500g
 					}),
-					i(229413), 	-- Bottle of Steam
+					i(228990), 	-- Bottle of Steam
 					i(229413, {	-- "Dogg-Saron" Costume
 						["cost"] = 250000000,	-- 25,000g
 					}),
@@ -434,9 +434,10 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 			},
 			-- Chapter 3
 			q(85047, {	-- A Pirate Predicament
-				["providers"] = {
-					{ "n", 232407 },	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
-					{ "n", 232408 },	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator, and Temporary Service Agent>
+				["qgs"] = {
+					232405,	-- Alyx <Volunteer Assistant Lead Guest Relations Manager and Associate Event Coordinator>
+					232407,	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator>
+					232408,	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager and Executive Associate Event Coordinator, and Temporary Service Agent>
 				},
 				["sourceQuests"] = {
 					84756,	-- The Toy Thief [A]
@@ -764,7 +765,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					o(463104, {	-- Nola's Last Wish
 						["description"] = "In a pile of scrolls south of Tortaka Refuge in Vol'Dun.",
 						["coord"] = { 64.0, 26.0, VOLDUN },
-						["g"] = { i(228233)	},	-- Nola's Last Wish (QI!)
+						["g"] = { i(228223)	},	-- Nola's Last Wish (QI!)
 					}),
 					n(229103, {	-- Scrollsage Nola
 						["description"] = "Use Nola's Last Wish to summon and speak to at the underwater Tortollan wedding east of Atal'Dazar.",
@@ -1568,6 +1569,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 							{ 47.0, 78.1, 46 },	-- Shelf Pebble
 						},
 					}),
+					i(228953),	-- Rosy Spat
 				},
 			}),
 		}),
