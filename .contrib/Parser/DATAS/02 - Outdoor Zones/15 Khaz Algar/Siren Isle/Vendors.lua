@@ -7,8 +7,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			n(236045, {	-- Ailenda Hedgemyr
 				["coord"] = { 70.8, 40.2, SIREN_ISLE },
 				["g"] = {
-					fbiron(3000, i(234518)),	-- Ensemble: Sacred Wayfarer's Attire
-					fbiron(3000, i(234517)),	-- Ensemble: Adventurous Lamplighter's Attire
+					fbiron(3000, iensemble(234518)),	-- Ensemble: Sacred Wayfarer's Attire
+					fbiron(3000, iensemble(234517)),	-- Ensemble: Adventurous Lamplighter's Attire
 					fbiron(350, i(233925)),	-- Arathi Knight's Shoulderguard
 					fbiron(350, i(233922)),	-- Arathi Knight's Headguard
 					fbiron(350, i(233917)),	-- Sacredite's Ceremonial Cowl
@@ -118,7 +118,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			n(235407, {	-- Hooded Purveyor
 				["coord"] = { 67.9, 39.3, SIREN_ISLE },
 				["g"] = {
-					fbiron(3000, i(234524)),	-- Ensemble: Awakened Ambassador's Uniform
+					fbiron(3000, iensemble(234524)),	-- Ensemble: Awakened Ambassador's Uniform
 					fbiron(500, i(224167)),	-- Gundargaz Tabard
 					fbiron(500, i(224165)),	-- Dornogal Tabard
 					fbiron(500, i(224168)),	-- Earthen Expedition Tabard
@@ -152,14 +152,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["coord"] = { 70.0, 48.4, SIREN_ISLE },
 				["g"] = {
 					fbiron(10000, i(233058)),	-- Soweezi's Vintage Waveshredder (MOUNT!)
-					fbiron(4500, i(221543)),	-- Ensemble: Pink Tropical
-					fbiron(4500, i(222960)),	-- Ensemble: Pink Tropical Swimwear
+					fbiron(4500, iensemble(221543)),	-- Ensemble: Pink Tropical
+					fbiron(4500, iensemble(222960)),	-- Ensemble: Pink Tropical Swimwear
 					fbiron(1000, i(220655)),	-- Water Blaster P.K. (COSMETIC!)
-					fbiron(2000, i(234523)),	-- Ensemble: Salvage Rig Garments
-					fbiron(2000, i(234522)),	-- Ensemble: Southsea Cruise Loungewear
-					fbiron(2000, i(234521)),	-- Ensemble: Rusty Bruiser's Outfit
-					fbiron(1500, i(234520)),	-- Ensemble: Sun-Soaked Clothing
-					fbiron(2000, i(234519)),	-- Ensemble: Paradise Beach Loungewear
+					fbiron(2000, iensemble(234523)),	-- Ensemble: Salvage Rig Garments
+					fbiron(2000, iensemble(234522)),	-- Ensemble: Southsea Cruise Loungewear
+					fbiron(2000, iensemble(234521)),	-- Ensemble: Rusty Bruiser's Outfit
+					fbiron(1500, iensemble(234520)),	-- Ensemble: Sun-Soaked Clothing
+					fbiron(2000, iensemble(234519)),	-- Ensemble: Paradise Beach Loungewear
 					fbiron(750, i(234473)),	-- Soweezi's Comfy Lawn Chair (TOY!)
 					fbiron(750, i(234395)),	-- Skitterbite (PET!)
 				},
@@ -167,9 +167,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			n(233259, {	-- Taljori
 				["coord"] = { 65.7, 41.7, SIREN_ISLE },
 				["g"] = {
-					fbiron(3000, i(234536)),	-- Ensemble: Bilgeswabby's Garb
-					fbiron(3000, i(234537)),	-- Ensemble: Pilfered Mariner's Garb
-					fbiron(3000, i(234538)),	-- Ensemble: Salt-Stained Garb
+					fbiron(3000, iensemble(234536)),	-- Ensemble: Bilgeswabby's Garb
+					fbiron(3000, iensemble(234537)),	-- Ensemble: Pilfered Mariner's Garb
+					fbiron(3000, iensemble(234538)),	-- Ensemble: Salt-Stained Garb
 					--fbiron(350, i(233910)),	-- Salt-Stained Sweatcap (TODO: now treasure, same questID as it was for Ashvane boots)
 					fbiron(350, i(233845)),	-- Quilted Long-Sleeved Sea Tunic
 					fbiron(350, i(233844)),	-- Quilted Sea Vest
@@ -180,10 +180,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					fbiron(350, i(233892)),	-- Quilted Waist Wrap
 					--fbiron(350, i(233916)),	-- Ashvane Issued Workboots (TODO: was treasure, now it is not, again, and missing)
 					--fbiron(350, i(233915)),	-- Plated Sea Boots (TODO: now in crate)
-					fbiron(3000, i(234513)),	-- Ensemble: Rune Scribe's Vestments
-					fbiron(3000, i(234514)),	-- Ensemble: Bloodscout Outfit
-					fbiron(3000, i(234515)),	-- Ensemble: Hydraflayer Regalia
-					fbiron(3000, i(234516)),	-- Ensemble: Tidecrasher Armor
+					fbiron(3000, iensemble(234513)),	-- Ensemble: Rune Scribe's Vestments
+					fbiron(3000, iensemble(234514)),	-- Ensemble: Bloodscout Outfit
+					fbiron(3000, iensemble(234515)),	-- Ensemble: Hydraflayer Regalia
+					fbiron(3000, iensemble(234516)),	-- Ensemble: Tidecrasher Armor
 					fbiron(350, i(234414)),	-- Runescribe's Ritual Tunic
 					fbiron(350, i(233818)),	-- Vrykul Blacksmith's Gavel
 					fbiron(350, i(233819)),	-- Stormtouched Blacksmith's Gavel
