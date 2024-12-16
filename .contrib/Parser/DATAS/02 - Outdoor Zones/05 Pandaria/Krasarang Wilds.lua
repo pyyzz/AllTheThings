@@ -947,7 +947,7 @@ root(ROOTS.Zones, {
 									["sourceQuests"] = { 32109 },	-- Lion's Landing
 									["provider"] = { "n", 67631 },	-- Marshal Troteman
 									["isDaily"] = true,
-									["coord"] = { 94.5, 28.9, KRASARANG_WILDS },
+									["coord"] = { 89.6, 33.1, KRASARANG_WILDS },
 									["races"] = ALLIANCE_ONLY,
 								}),
 								q(32194, {	-- Bad Blood
@@ -1097,7 +1097,7 @@ root(ROOTS.Zones, {
 									["sourceQuests"] = { 32109 },	-- Lion's Landing
 									["provider"] = { "n", 67631 },	-- Marshal Troteman
 									["isDaily"] = true,
-									["coord"] = { 94.5, 28.9, KRASARANG_WILDS },
+									["coord"] = { 89.6, 33.1, KRASARANG_WILDS },
 									["races"] = ALLIANCE_ONLY,
 								}),
 								q(32119, {	-- It Is A Mystery
@@ -1172,7 +1172,7 @@ root(ROOTS.Zones, {
 									["sourceQuests"] = { 32109 },	-- Lion's Landing
 									["provider"] = { "n", 67631 },	-- Marshal Troteman
 									["isDaily"] = true,
-									["coord"] = { 94.5, 28.9, KRASARANG_WILDS },
+									["coord"] = { 89.6, 33.1, KRASARANG_WILDS },
 									["races"] = ALLIANCE_ONLY,
 								}),
 								q(32149, {	-- Resource Gathering
@@ -1213,7 +1213,7 @@ root(ROOTS.Zones, {
 									["sourceQuests"] = { 32109 },	-- Lion's Landing
 									["provider"] = { "n", 67631 },	-- Marshal Troteman
 									["isDaily"] = true,
-									["coord"] = { 94.5, 28.9, KRASARANG_WILDS },
+									["coord"] = { 89.6, 33.1, KRASARANG_WILDS },
 									["races"] = ALLIANCE_ONLY,
 									["groups"] = {
 										objective(1, {	-- 0/1 Bilgewater Blasting Cap
@@ -1402,7 +1402,7 @@ root(ROOTS.Zones, {
 									["sourceQuests"] = { 32109 },	-- Lion's Landing
 									["provider"] = { "n", 67631 },	-- Marshal Troteman
 									["isDaily"] = true,
-									["coord"] = { 94.5, 28.9, KRASARANG_WILDS },
+									["coord"] = { 89.6, 33.1, KRASARANG_WILDS },
 									["races"] = ALLIANCE_ONLY,
 								}),
 								q(32460, {	-- Tracking the Thieves
