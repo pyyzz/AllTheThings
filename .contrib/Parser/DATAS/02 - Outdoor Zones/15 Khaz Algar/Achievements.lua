@@ -229,6 +229,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 		}),
 		-- #endif
 		petbattle(ach(40153)),	-- Battle on Khaz Algar (automated)
+		ach(40791, {	-- Fate of the Kirin Tor (automated)
+			["timeline"] = { ADDED_11_0_7 },
+			["g"] = {
+				title(569),	-- <Name>, Witness of the Kirin Tor
+			},
+		}),
 		ach(40352, {	-- Khaz Algar Completionist: Bronze
 			-- Meta Achievement
 			["sym"] = {{"meta_achievement",

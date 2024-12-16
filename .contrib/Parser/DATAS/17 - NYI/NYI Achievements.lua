@@ -654,14 +654,20 @@ root(ROOTS.NeverImplemented, n(ACHIEVEMENTS, {
 			-- 11.0.0.55000
 			ach(40750),	-- Treasure Trove Keys obtained
 
-			--11.0.0.54675
+			-- 11.0.0.54675
 			ach(40509),	-- Awakening The Machine: Wave 10
 
-			--11.0.0.54774
+			-- 11.0.0.54774
 			ach(40586),	-- Awakening The Machine: Wave 20
 			ach(40587),	-- Awakening The Machine: Wave 30
 			ach(40588),	-- Awakening The Machine: Wave 40
 			ach(40589),	-- Awakening The Machine: Wave 50
+		})),
+
+		-- CREATED_11_0_0
+		expansion(EXPANSION.TWW, patch(0,07), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_7 } }, {
+			-- 11.0.7.57361
+			ach(41219),	-- Explore Siren Isle => Appeared in build 11.0.7.57361, but hasn't been seen since
 		})),
 	}),
 }));

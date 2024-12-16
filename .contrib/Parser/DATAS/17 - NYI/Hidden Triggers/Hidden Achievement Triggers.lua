@@ -3654,6 +3654,7 @@ root(ROOTS.HiddenAchievementTriggers, {
 		expansion(EXPANSION.TWW, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
 			ach(41213),	-- Family Battler of Khaz Algar (copy)
 			ach(41218),	-- <DNT> Plunderstorm Plunder Tracker - V1.5 11.0.7 - Mainline Power
+			ach(40877),	-- <Hidden> RR - 4b
 		})),
 	}),
 });

@@ -231,6 +231,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 			ach(41154),	-- Decked Out
 			ach(41156),	-- Buckled Up
 			ach(41157),	-- Plunder Siege
+			ach(41163),	-- Lord of the Bling
 			ach(41160),	-- It's a Plunderful Life
 		}),
 		n(PLUNDERSTORE, {

@@ -10060,7 +10060,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Get Silver ranked time for the Emerald Dream Emerald Amble Reverse Challenge.","Emerald Amble Reverse Challenge: Silver",,19075,-1,-1,19074,15462,0,0,1048576,1341,1002575,0,0,0,0,0,0
 "Get Gold ranked time for the Emerald Dream Emerald Amble Reverse Challenge.","Emerald Amble Reverse Challenge: Gold",,19076,-1,-1,19075,15462,0,0,1048576,1342,1002573,0,0,0,0,0,0
 "Proud owner of the 2023 Vintage Winter Veil gift, Junior Timekeeper's Racing Belt.","Catch Me If You Can!",,19077,-1,-1,0,15274,0,0,2048,35,133202,0,150037,0,0,0,0
-"Gain Mastery of Timeways for 5 weeks during the Turbulent Timeways event.","Master of the Turbulent Timeways","Mount: Sandy Shalewing",19079,-1,-1,0,15274,0,20,131072,84,4630413,205208,150048,0,0,0,0
+"Gain Mastery of Timeways for 5 weeks during the Turbulent Timeways event.","Master of the Turbulent Timeways","Mount: Sandy Shalewing",19079,-1,-1,0,15269,0,0,131072,68,4630413,205208,150048,0,0,0,0
 "Participated in empowering the Arcane Forge in Valdrakken during the Secrets of Azeroth event.","Arcane Influence",,19080,-1,-1,0,15274,0,0,133120,79,1723986,0,150210,0,0,0,0
 "Complete Throne of the Tides at Mythic Level 20 or higher, within the time limit.","Keystone Hero: Throne of the Tides","Max Level Unlock: Teleport to Throne of the Tides",19082,643,-1,0,15272,0,0,395264,9,409600,0,150227,0,0,0,0
 "Complete The Everbloom at Mythic Level 20 or higher, within the time limit.","Keystone Hero: The Everbloom","Max Level Unlock: Teleport to The Everbloom",19083,1279,-1,0,15272,0,0,395264,14,1052644,0,150229,0,0,0,0
@@ -11209,6 +11209,7 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 ,"Ulgrax the Devourer kills (Mythic Nerub-ar Palace)",,40270,2657,-1,0,15520,0,0,1,28,136243,0,162467,0,0,0,0
 ,"The Bloodbound Horror kills (Raid Finder Nerub-ar Palace)",,40271,2657,-1,0,15520,0,0,1,29,136243,0,162465,0,0,0,0
 ,"The Bloodbound Horror kills (Normal Nerub-ar Palace)",,40272,2657,-1,0,15520,0,0,1,30,136243,0,162463,0,0,0,0
+,"<Hidden> Is Dracthyr For Soar Wingman",,40886,-1,-1,0,81,0,0,3145732,212,136243,0,168129,0,0,0,0
 ,"The Bloodbound Horror kills (Heroic Nerub-ar Palace)",,40273,2657,-1,0,15520,0,0,1,31,136243,0,162461,0,0,0,0
 ,"The Bloodbound Horror kills (Mythic Nerub-ar Palace)",,40274,2657,-1,0,15520,0,0,1,32,136243,0,162459,0,0,0,0
 ,"Sikran, Captain of the Sureki kills (Raid Finder Nerub-ar Palace)",,40275,2657,-1,0,15520,0,0,1,33,136243,0,162457,0,0,0,0
@@ -11635,9 +11636,9 @@ Description_lang,Title_lang,Reward_lang,ID,Instance_ID,Faction,Supercedes,Catego
 "Reach the maximum reputation with the Weaver in Azj'Kahet.","The Grand Tapestry","Title: Silksinger",40874,-1,-1,0,15530,0,10,131072,10,5862764,0,167978,0,0,0,0
 "Reach the maximum reputation with the General in Azj'Kahet.","True Strength","Title: Anub",40875,-1,-1,0,15530,0,10,131072,11,5862762,0,167980,0,0,0,0
 "Reach the maximum reputation with the Vizier in Azj'Kahet.","Vox Arachni","Title: Hand of the Vizier",40876,-1,-1,0,15530,0,10,131072,12,5862763,0,167982,0,0,0,0
+,"<Hidden> RR - 4b",,40877,-1,-1,0,15532,0,0,11534340,6,136243,0,168013,0,0,0,0
 "Open 250 Bountiful Coffers with Restored Coffer Keys.","Copious Coffers","Title: The Bountiful",40882,-1,-1,40788,15522,0,10,131200,15,4622270,0,168040,0,0,0,0
 "Open 500 Bountiful Coffers with Restored Coffer Keys.","The Key to Madness",,40885,-1,-1,40882,15522,0,25,131200,16,4622271,0,168042,0,0,0,0
-,"<Hidden> Is Dracthyr For Soar Wingman",,40886,-1,-1,0,81,0,0,3145732,212,136243,0,168129,0,0,0,0
 "Defeat the following bosses on Heroic difficulty while Vault of the Incarnates is an Awakened raid.","Heroic: Awakened Storms (DNT) (Character specific hidden copy)",,40888,-1,-1,0,81,0,0,1048576,154,4630363,0,168140,0,0,0,0
 "Defeat the following bosses on Heroic difficulty while Aberrus is an Awakened raid.","Heroic: Awakened Shadows (DNT) (Character specific copy)",,40892,-1,-1,0,81,0,0,1048576,151,5161748,0,168152,0,0,0,0
 "Defeat the following bosses on Heroic difficulty while Amirdrassil is an Awakened raid.","Heroic: Awakened Flames (DNT) (Character specific hidden copy)",,40893,-1,-1,0,81,0,0,1048576,148,5342929,0,168162,0,0,0,0
