@@ -18,7 +18,7 @@ root(ROOTS.ExpansionFeatures,
 						13284,	-- Frontline Warrior (H)
 						12884,	-- Leader of Troops (A)
 						12878,	-- Leader of Troops (H)
-						13305, 	-- Night Moves (A)
+						13305,	-- Night Moves (A)
 						13306,	-- Night Moves (H)
 						13308,	-- Recruitment Officer (A)
 						13307,	-- Recruitment Officer (H)

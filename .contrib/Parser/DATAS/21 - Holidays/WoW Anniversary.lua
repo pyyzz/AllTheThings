@@ -2385,7 +2385,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						["isWeekly"] = true,
 						["lvl"] = 80,
 						["g"] = {
-							i(229359), 	-- Chromie's Goodie Bag
+							i(229359),	-- Chromie's Goodie Bag
 						},
 					}),
 					q(85947, {	-- An Original Path Through Time

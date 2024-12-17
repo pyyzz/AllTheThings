@@ -4,7 +4,7 @@
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(THE_SEVERED_THREADS, {
 		n(ACHIEVEMENTS, {
-			ach(41189, { 	-- Azj the World Turns
+			ach(41189, {	-- Azj the World Turns
 				["timeline"] = { ADDED_11_0_7 },
 				-- Meta Achievement
 				["sym"] = {{"meta_achievement",

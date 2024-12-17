@@ -4,7 +4,7 @@
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, {
 	m(SIREN_ISLE, {
 		n(ACHIEVEMENTS, {
-			ach(41133, { 	-- Isle Remember You
+			ach(41133, {	-- Isle Remember You
 				-- Meta Achievement
 				["sym"] = {{"meta_achievement",
 					41050,	-- A Choir of Citrines

@@ -1850,7 +1850,7 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 							ach(17773, {	-- A Blue Dawn
 								["timeline"] = { ADDED_10_1_7 },
 							}),
-							iensemble(205958), 	-- Ensemble: Azure Renewal Finery
+							iensemble(205958),	-- Ensemble: Azure Renewal Finery
 							i(205908, {	-- Inherited Wisdom of Senegos (TOY!)
 								["description"] = "You will find this in your mailbox upon completing this quest",
 							}),

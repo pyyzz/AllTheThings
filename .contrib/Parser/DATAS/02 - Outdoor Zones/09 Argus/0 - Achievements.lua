@@ -87,7 +87,7 @@ root(ROOTS.Zones, m(ARGUS, bubbleDown({ ["timeline"] = { ADDED_7_3_0 } }, {
 			}),
 		})),
 		ach(12078, {	-- Commander of Argus
-			iensemble(152396), 	-- Arsenal: Weapons of the Lightforged
+			iensemble(152396),	-- Arsenal: Weapons of the Lightforged
 			crit(37665, {
 				["_npcs"] = { 127705 },	-- Mother Rosula
 			}),

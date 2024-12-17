@@ -92,7 +92,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
 					i(174861),	-- Wriggling Parasite (MOUNT!)
 				}),
 				ach(14039),	-- Ny'alotha, the Waking City Guild Run
-				ach(40963, { 	-- Ny'alotha, the Waking City
+				ach(40963, {	-- Ny'alotha, the Waking City
 					["timeline"] = { ADDED_11_0_7 },
 					-- Meta Achievement
 					["sym"] = {{"meta_achievement",

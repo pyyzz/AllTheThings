@@ -4,7 +4,7 @@
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(THE_ASSEMBLY_OF_THE_DEEPS, {
 		n(ACHIEVEMENTS, {
-			ach(41187, { 	-- Rage Aside the Machine
+			ach(41187, {	-- Rage Aside the Machine
 				["timeline"] = { ADDED_11_0_7 },
 				-- Meta Achievement
 				["sym"] = {{"meta_achievement",

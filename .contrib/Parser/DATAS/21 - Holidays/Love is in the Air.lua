@@ -342,7 +342,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.LOVE_IS_IN_THE_AIR, n(LOVE_IS_IN_THE_AIR_
 				}),
 			},
 		})),
-		ach(1698, 	-- Nation of Adoration [Horde]
+		ach(1698,	-- Nation of Adoration [Horde]
 		bubbleDownSelf({["timeline"] = { ADDED_3_0_2, REMOVED_10_2_5 }},{
 			["races"] = HORDE_ONLY,
 			["groups"] = {

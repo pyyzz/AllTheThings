@@ -4,7 +4,7 @@
 root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(HALLOWFALL_ARATHI, {
 		n(ACHIEVEMENTS, {
-			ach(41188, { 	-- Crystal Chronicled
+			ach(41188, {	-- Crystal Chronicled
 				["timeline"] = { ADDED_11_0_7 },
 				-- Meta Achievement
 				["sym"] = {{"meta_achievement",

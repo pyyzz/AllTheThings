@@ -167,7 +167,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					i(228986, {	-- Aesthetician's Coupon Book
 						["cost"] = 5000000,	-- 500g
 					}),
-					i(228990), 	-- Bottle of Steam
+					i(228990),	-- Bottle of Steam
 					i(229413, {	-- "Dogg-Saron" Costume
 						["cost"] = 250000000,	-- 25,000g
 					}),
@@ -569,7 +569,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 						["description"] = "On the fashion frenzy stage.",
 						["coord"] = { 63.0, 49.2, TANARIS },
 					}),
-					i(231905), 	-- Letters (QI!)
+					i(231905),	-- Letters (QI!)
 					n(231413, {	-- Bottlenose
 						["coord"] = { 60.9, 44.7, TANARIS },
 					}),

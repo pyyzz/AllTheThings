@@ -483,12 +483,12 @@ q(85352),	-- Ensemble: Verdant Gladiator's Shaman Armor
 q(85338),	-- Ensemble: Verdant Gladiator's Warlock Armor
 q(85358),	-- Ensemble: Verdant Gladiator's Warrior Armor
 q(85355),	-- Ensemble: Elite Verdant Gladiator's Death Knight Armor
-q(), 	-- Ensemble: Elite Verdant Gladiator's Demon Hunter Armor
-q(), 	-- Ensemble: Elite Verdant Gladiator's Druid Armor
-q(), 	-- Ensemble: Elite Verdant Gladiator's Evoker Armor
-q(), 	-- Ensemble: Elite Verdant Gladiator's Hunter Armor
-q(), 	-- Ensemble: Elite Verdant Gladiator's Mage Armor
-q(), 	-- Ensemble: Elite Verdant Gladiator's Monk Armor
+q(),	-- Ensemble: Elite Verdant Gladiator's Demon Hunter Armor
+q(),	-- Ensemble: Elite Verdant Gladiator's Druid Armor
+q(),	-- Ensemble: Elite Verdant Gladiator's Evoker Armor
+q(),	-- Ensemble: Elite Verdant Gladiator's Hunter Armor
+q(),	-- Ensemble: Elite Verdant Gladiator's Mage Armor
+q(),	-- Ensemble: Elite Verdant Gladiator's Monk Armor
 q(),	-- Ensemble: Elite Verdant Gladiator's Paladin Armor
 q(),	-- Ensemble: Elite Verdant Gladiator's Priest Armor
 q(),	-- Ensemble: Elite Verdant Gladiator's Rogue Armor

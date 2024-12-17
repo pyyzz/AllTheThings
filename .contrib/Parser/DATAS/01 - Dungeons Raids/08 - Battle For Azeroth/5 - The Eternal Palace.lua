@@ -47,7 +47,7 @@ root(ROOTS.Instances, expansion(EXPANSION.BFA, bubbleDown({ ["timeline"] = { ADD
                         ["_encounter"] = { 2361, DIFFICULTY.RAID.LFR },
                     }),
                 }),
-				ach(40962, { 	-- The Eternal Palace
+				ach(40962, {	-- The Eternal Palace
 					["timeline"] = { ADDED_11_0_7 },
 					-- Meta Achievement
 					["sym"] = {{"meta_achievement",

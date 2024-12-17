@@ -915,9 +915,9 @@ i(96633);	-- Leggings of the Crackling Protector
 i(96631);	-- Leggings of the Crackling Vanquisher
 
 -- Tier 16 LFR [SoO]
-i(105861); 	-- Essence of the Cursed Conqueror
-i(105860); 	-- Essence of the Cursed Protector
-i(105862); 	-- Essence of the Cursed Vanquisher
+i(105861);	-- Essence of the Cursed Conqueror
+i(105860);	-- Essence of the Cursed Protector
+i(105862);	-- Essence of the Cursed Vanquisher
 i(99672);	-- Helm of the Cursed Conqueror
 i(99673);	-- Helm of the Cursed Protector
 i(99671);	-- Helm of the Cursed Vanquisher

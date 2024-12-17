@@ -912,8 +912,8 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 				["provider"] = { "n", 209140 },	-- Maiev Stormsong
 				["coord"] = { 52.7, 4.2, STORMWIND_CITY },
 				["g"] = {
-					iensemble(208879), 	-- Ensemble: Kaldorei Protector's Adornment
-					iensemble(208785), 	-- Traditionalist's Kaldorei Blades
+					iensemble(208879),	-- Ensemble: Kaldorei Protector's Adornment
+					iensemble(208785),	-- Traditionalist's Kaldorei Blades
 					title(511),	-- Ama'shan <Name>
 				},
 			}),
