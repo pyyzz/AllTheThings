@@ -532,10 +532,96 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 				}),
 			}),
 		}),
+		header(HEADERS.Achievement, 41052, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {	-- Lingering Shadows
+			q(82690, {	-- Lingering Shadows
+				["sourceQuest"] = 83503,	-- Return to Dornogal
+				["provider"] = { "n", 227758 },	-- Alleria Windrunner
+				["coord"] = { 42.3, 26.8, DORNOGAL },
+			}),
+			q(82692, {	-- Price of a Mission
+				["sourceQuest"] = 82690,	-- Lingering Shadows
+				["provider"] = { "n", 224395 },	-- Orweyna
+				["coord"] = { 62.9, 67.5, HALLOWFALL },
+			}),
+			q(82693, {	-- Standing in the Way
+				["sourceQuest"] = 82690,	-- Lingering Shadows
+				["provider"] = { "n", 224397 },	-- Hannan
+				["coord"] = { 62.9, 67.5, HALLOWFALL },
+			}),
+			q(82691, {	-- No Breathing Room
+				["sourceQuest"] = 82690,	-- Lingering Shadows
+				["provider"] = { "n", 224395 },	-- Orweyna
+				["coord"] = { 62.9, 67.5, HALLOWFALL },
+			}),
+			q(82694, {	-- Together, Alone
+				["sourceQuests"] = {
+					82692,	-- Price of a Mission
+					82693,	-- Standing in the Way
+					82691,	-- No Breathing Room
+				},
+				["provider"] = { "n", 224395 },	-- Orweyna
+				["coord"] = { 62.9, 67.5, HALLOWFALL },
+			}),
+			q(82695, {	-- The Voice
+				["sourceQuest"] = 82694,	-- Together, Alone
+				["provider"] = { "n", 224740 },	-- Orweyna
+				["coord"] = { 24.8, 51.6, HALLOWFALL },
+			}),
+			q(82696, {	-- Ringing in the Deeps
+				["sourceQuest"] = 82695,	-- The Voice
+				["provider"] = { "n", 224740 },	-- Orweyna
+				["coord"] = { 24.8, 51.6, HALLOWFALL },
+			}),
+			q(82697, {	-- Good Help These Days
+				["sourceQuest"] = 82696,	-- Ringing in the Deeps
+				["provider"] = { "n", 224857 },	-- Monte Gazlowe
+				["coord"] = { 58.4, 64.7, THE_RINGING_DEEPS },
+				["g"] = { i(225913) },	-- Opportunity Work Permit (QI!)
+			}),
+			q(82699, {	-- Hey, What's Going On?
+				["sourceQuest"] = 82697,	-- Good Help These Days
+				["provider"] = { "n", 224874 },	-- Monte Gazlowe
+				["coord"] = { 64.5, 79.7, THE_RINGING_DEEPS },
+			}),
+			q(82698, {	-- Haywired and Hostile
+				["sourceQuest"] = 82697,	-- Good Help These Days
+				["provider"] = { "n", 224866 },	-- Orweyna
+				["coord"] = { 64.4, 79.7, THE_RINGING_DEEPS },
+			}),
+			q(82700, {	-- Built to Blast
+				["sourceQuests"] = {
+					82699,	-- Hey, What's Going On?
+					82698,	-- Haywired and Hostile
+				},
+				["provider"] = { "n", 224913 },	-- Renzik "The Shiv"
+				["coord"] = { 60.3, 87.0, THE_RINGING_DEEPS },
+			}),
+			q(82701, {	-- Bat Versus World
+				["sourceQuest"] = 82700,	-- Built to Blast
+				["provider"] = { "n", 224866 },	-- Orweyna
+				["coord"] = { 64.4, 79.7, THE_RINGING_DEEPS },
+			}),
+			q(82702, {	-- Found Friends
+				["sourceQuest"] = 82701,	-- Bat Versus World
+				["provider"] = { "n", 224874 },	-- Monte Gazlowe
+				["coord"] = { 64.5, 79.7, THE_RINGING_DEEPS },
+				["g"] = {
+					ach(41052, {	-- Lingering Shadows
+						i(232647),	-- Root Defender's Shield
+						i(232646),	-- Root Defender's Spear
+					}),
+				},
+			}),
+			q(84701, {	-- The Speaker
+				["sourceQuest"] = 82702,	-- Found Friends
+				["provider"] = { "n", 227499 },	-- Orweyna
+				["coord"] = { 42.2, 27.3, DORNOGAL },
+			}),
+		})),
 		header(HEADERS.Achievement, 40791, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {	-- Fate of the Kirin Tor
 			header(HEADERS.AchCriteria, 40791.01, {	-- Arcane Desolation
 				q(84223, {	-- Survivor's Guilt
-					["sourceQuests"] = { 83503 },	-- Return to Dornogal (TODO: unavailable on character without finished TWW capmaign quests)
+					["sourceQuest"] = 83503,	-- Return to Dornogal (TODO: unavailable on character without finished TWW capmaign quests)
 					["provider"] = { "n", 227436 },	-- Archmage Khadgar
 					["coord"] = { 42.5, 27.1, DORNOGAL },
 					--["g"] = {
@@ -556,7 +642,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 						i(225895), -- Frostfire Essence (QI!)
 						o(454205, { -- Radiant Prism Crystals
 							i(225663), -- Radiant Prism Crystals (QI!)
-						}), 
+						}),
 					},
 				}),
 				q(83502, {	-- Lessons in Defensive Magic

@@ -52,8 +52,6 @@ root(ROOTS.Unsorted, {
 			i(232629),	-- Distilled Knowledge of Timeways
 			i(232639),	-- Thrayir, Eyes of the Siren
 			i(232645),	-- Celestial Barrage
-			i(232646),	-- Root Defender's Spear
-			i(232647),	-- Root Defender's Shield
 			i(232653),	-- Portentous Present
 			i(232654),	-- Compiled Tattered Journal
 			i(232901),	-- Lunar Launcher
@@ -275,13 +273,11 @@ root(ROOTS.Unsorted, {
 			i(233495),	-- [PH] Snapdragon Treat 03
 			i(233650),	-- Call Galefeather
 			i(233800),	-- [PH] Chris' Flavor Test Item
-			i(233811),	-- [PH] Legs
 			i(233814),	-- [PH] Sailor's Mop
 			i(233815),	-- [PH] Sailor's Mop
 			i(233820),	-- [PH] Iron Mallet
 			i(233821),	-- [PH] Smith's Tongs
 			i(233825),	-- [PH] Crafter's Tool
-			i(233838),	-- [PH] Chest
 			i(233839),	-- [PH] Chest
 			i(233840),	-- [PH] Chest
 			i(233841),	-- [PH] Chest
@@ -291,14 +287,6 @@ root(ROOTS.Unsorted, {
 			i(233847),	-- [PH] Chest
 			i(233848),	-- [PH] Chest
 			i(233849),	-- [PH] Chest
-			i(233850),	-- [PH] Chest
-			i(233851),	-- [PH] Chest
-			i(233852),	-- [PH] Chest
-			i(233853),	-- [PH] Chest
-			i(233854),	-- [PH] Chest
-			i(233855),	-- [PH] Chest
-			i(233858),	-- [PH] Waist
-			i(233859),	-- [PH] Feet
 			i(233860),	-- [PH] Waist
 			i(233861),	-- [PH] Feet
 			i(233862),	-- [PH] Hand
@@ -348,10 +336,6 @@ root(ROOTS.Unsorted, {
 			i(233909),	-- [PH] Head
 			i(233913),	-- [PH] Shield
 			i(233914),	-- [PH] Lumberjack's Hatchet
-			i(233926),	-- [PH] Shoulder
-			i(233927),	-- [PH] Shoulder
-			i(233928),	-- [PH] Tabard
-			i(233929),	-- [PH] Tabard
 			i(233930),	-- [PH] Shoulder
 			i(233931),	-- [PH] Shoulder
 			i(233932),	-- [PH] Tabard
@@ -361,32 +345,12 @@ root(ROOTS.Unsorted, {
 			i(233936),	-- [PH] Head
 			i(233937),	-- [PH] Head
 			i(233938),	-- [PH] Feet
-			i(233939),	-- [PH] Wrist
-			i(233940),	-- [PH] Legs
-			i(233941),	-- [PH] Legs
-			i(233942),	-- [PH] Waist
-			i(233943),	-- [PH] Wrist
-			i(233944),	-- [PH] Legs
-			i(233945),	-- [PH] Legs
-			i(233946),	-- [PH] Waist
-			i(233947),	-- [PH] Wrist
-			i(233948),	-- [PH] Legs
-			i(233949),	-- [PH] Waist
-			i(233950),	-- [PH] Wrist
-			i(233951),	-- [PH] Waist
-			i(233952),	-- [PH] Legs
-			i(233953),	-- [PH] Wrist
-			i(233954),	-- [PH] Feet
 			i(233955),	-- [PH] Mining Pick
 			i(233970),	-- [PH] Cloak
 			i(233971),	-- [PH] Cloak
 			i(233972),	-- [PH] Cloak
-			i(233973),	-- [PH] Cloak
-			i(233974),	-- [PH] Cloak
 			i(233975),	-- [PH] Cloak
 			i(233976),	-- [PH] Cloak
-			i(233983),	-- [PH] Hand
-			i(233989),	-- [PH] Shirt
 			i(234037),	-- Lunar Festival Slippers
 			i(234038),	-- Lunar Festival Slippers - Pink
 			i(234039),	-- Lunar Festival Slippers - Purple

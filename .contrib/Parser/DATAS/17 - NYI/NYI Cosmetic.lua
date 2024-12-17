@@ -448,21 +448,7 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 
 				------ Pink Tropical Set ------
 				i(221543),	-- Ensemble: Pink Tropical
-				q(82139),	-- Ensemble: Pink Tropical
 				i(222960),	-- Ensemble: Pink Tropical Swimwear
-				q(82232),	-- Ensemble: Pink Tropical Swimwear
-				i(221838),	-- Pink Tropical Airy Sandals
-				i(221837),	-- Pink Tropical Beads
-				i(221534),	-- Pink Tropical Floater
-				i(221835),	-- Pink Tropical Halter Top
-				i(221533),	-- Pink Tropical Sandals
-				i(221839),	-- Pink Tropical Sash
-				i(221530),	-- Pink Tropical Shirt
-				i(221836),	-- Pink Tropical Skirt
-				i(221840),	-- Pink Tropical Sunshade
-				i(221531),	-- Pink Tropical Trunks
-				i(221532),	-- Pink Tropical Wristwraps
-
 			}),
 			n(WEAPONS, {
 				------ Single Pieces ------

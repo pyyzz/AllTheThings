@@ -1110,22 +1110,15 @@ q(81530),	-- Verdant Patron's Elegance
 q(81545),	-- Woven Artisan's Talent
 
 -- Siren Isle
-q(),	-- Ensemble: Adventurous Lamplighter's Attire
-q(),	-- Ensemble: Awakened Ambassador's Uniform
 q(),	-- Ensemble: Bilgeswabby's Garb
 q(),	-- Ensemble: Bloodscout Outfit
 q(),	-- Ensemble: Hydraflayer Regalia
-q(),	-- Ensemble: Paradise Beach Loungewear
 q(),	-- Ensemble: Pilfered Mariner's Garb
-q(),	-- Ensemble: Pink Tropical
-q(),	-- Ensemble: Pink Tropical Swimwear
+q(82139),	-- Ensemble: Pink Tropical
+q(82232),	-- Ensemble: Pink Tropical Swimwear
 q(),	-- Ensemble: Rune Scribe's Vestments
-q(),	-- Ensemble: Rusty Bruiser's Outfit
 q(),	-- Ensemble: Sacred Wayfarer's Attire
 q(),	-- Ensemble: Salt-Stained Garb
-q(),	-- Ensemble: Salvage Rig Garments
-q(),	-- Ensemble: Southsea Cruise Loungewear
-q(),	-- Ensemble: Sun-Soaked Clothing
 q(),	-- Ensemble: Tidecrasher Armor
 
 --]]
