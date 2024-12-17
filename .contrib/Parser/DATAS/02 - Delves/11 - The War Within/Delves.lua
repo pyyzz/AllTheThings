@@ -1271,7 +1271,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					filter(COSMETIC, {
 						i(212172),	-- Ajul'Nerub Raptorial Spine
 						i(212167),	-- Taken Candle
-						i(225066),	-- Trail Blazer's Haversack
+						i(225066),	-- Trailblazer's Haversack
 					}),
 				}),
 			}),
@@ -1400,6 +1400,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						i(212168),	-- Cinderbee Wax Candle Hat
 						i(212169),	-- Mint-Scented Candle Hat
 						i(212167),	-- Taken Candle
+						i(225066),	-- Trailblazer's Haversack
 					}),
 				}),
 			}),
@@ -1542,7 +1543,7 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					filter(COSMETIC, {
 						i(225067),	-- Shadowlit Haversack
 						i(225065),	-- Torchbearer's Haversack
-						i(225066),	-- Trail Blazer's Haversack
+						i(225066),	-- Trailblazer's Haversack
 					}),
 				}),
 			}),

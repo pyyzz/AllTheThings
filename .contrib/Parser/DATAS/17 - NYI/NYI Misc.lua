@@ -932,7 +932,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(189738),	-- Perceptialic Fluidic Spheroid
 			i(189731),	-- Potentialic Crystallic Spheroid
 			i(189744),	-- Potentialic Fluidic Spheroid
-			i(189764),	-- Reflectialic Crystallic Spheroid
 			i(189758),	-- Reflectialic Fluidic Spheroid
 			i(189733),	-- Relialic Crystallic Spheroid
 			i(189745),	-- Relialic Fluidic Spheroid

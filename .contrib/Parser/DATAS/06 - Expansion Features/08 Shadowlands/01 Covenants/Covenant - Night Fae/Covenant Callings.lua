@@ -27,7 +27,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				}),
 				q(60418, {	-- A Call to Bastion
 					["provider"] = { "n", 167193 },	-- Featherlight
-					["coord"] = { 59.9, 31.7, THE_TRUNK },
+					["coords"] = {
+						{ 59.9, 31.7, THE_TRUNK },
+						{ 65.1, 53.8, THE_ROOTS },
+					},
 					["g"] = {
 						i(181475),	-- Bounty of the Grove Wardens
 					},
@@ -36,7 +39,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 					["provider"] = { "n", 167193 },	-- Featherlight
 					["coords"] = {
 						{ 59.9, 32.4, THE_TRUNK },
-						{ 59.9, 32.4, THE_ROOTS },
+						{ 65.1, 53.8, THE_ROOTS },
 					},
 					["g"] = {
 						i(181556),	-- Tribute of the Court
@@ -44,7 +47,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				}),
 				q(60420, {	-- A Call to Maldraxxus
 					["provider"] = { "n", 167193 },	-- Featherlight
-					["coord"] = { 59.9, 32.1, THE_TRUNK },
+					["coords"] = {
+						{ 59.9, 32.1, THE_TRUNK },
+						{ 65.1, 53.8, THE_ROOTS },
+					},
 					["g"] = {
 						i(181732),	-- Tribute of the Ambitious
 					},

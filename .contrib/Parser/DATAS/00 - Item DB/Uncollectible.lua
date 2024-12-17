@@ -46,6 +46,7 @@ i(189760);	-- Robustialic Crystallic Spheroid
 i(189761);	-- Toxicialic Crystallic Spheroid
 i(189762);	-- Fortialic Crystallic Spheroid
 i(189763);	-- Efficialic Crystallic Spheroid
+i(189764);	-- Reflectialic Crystallic Spheroid
 i(190658);	-- Resonant Gossamer Fluidic Spheroid
 i(190659);	-- Resonant Carapace Fluidic Spheroid
 i(190660);	-- Resonant Mucus Fluidic Spheroid

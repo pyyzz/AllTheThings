@@ -2337,7 +2337,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_NORTHRE
 						}),
 						iensemble(232317, {	-- Ensemble: Drakkari Stalker's Trappings
 							["cost"] = {{"c", TIMEWARPED_BADGE, 2500}},
-						}),	--TODO: iensemble says this includes i(116883) which doesn't look like a real item, verify
+						}),
 						iensemble(232314, {	-- Ensemble: Jotunheim Berserker's Battleplate
 							["cost"] = {{"c", TIMEWARPED_BADGE, 2500}},
 						}),

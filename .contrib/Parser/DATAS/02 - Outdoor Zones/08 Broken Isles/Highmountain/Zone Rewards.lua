@@ -75,8 +75,6 @@ root(ROOTS.Zones, {
 				n(FINGER, {
 					i(139103),	-- An'she's Band
 				}),
-				n(NECK, {
-				}),
 				n(TRINKET, {
 					i(139114),	-- An'she's Infusion of Light
 					i(139102),	-- An'she's Invigoring Charm

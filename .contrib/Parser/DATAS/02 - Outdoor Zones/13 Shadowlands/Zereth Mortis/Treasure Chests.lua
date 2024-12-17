@@ -391,6 +391,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					{ 60.3, 71.6, ZERETH_MORTIS },
 					{ 59.1, 64.7, ZERETH_MORTIS },
 					{ 60.3, 71.7, ZERETH_MORTIS },
+					{ 36.4, 50.2, ZERETH_MORTIS },
 				},
 				["g"] = {
 					i(189148),	-- Poultrid Lattice
@@ -509,6 +510,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_2_0 } }, 
 					{ 55.7, 52.5, ZERETH_MORTIS },
 					{ 46.4, 95.8, ZERETH_MORTIS },
 					{ 37.8, 56.9, ZERETH_MORTIS },
+					{ 36.6, 43.9, ZERETH_MORTIS },
 				},
 			}),
 			o(375915, {	-- Glimmer of Serenity
