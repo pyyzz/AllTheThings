@@ -106,7 +106,6 @@ root(ROOTS.NeverImplemented, filter(QUEST_ITEMS, {
 			i(178031),	-- Anointing Chime
 			i(182473),	-- Archivam Tome
 			i(173013),	-- Bag of Faerie Dust
-			i(180439),	-- Bagged Frog
 			i(178493),	-- Baine Bloodhoof
 			i(174385),	-- Battle Supplies
 			i(175265),	-- Belt of Prime Command

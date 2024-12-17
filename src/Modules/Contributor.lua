@@ -222,12 +222,14 @@ MobileDB.GameObject = {
 	[411930] = true,	-- Blackpowder Barrel
 	[413246] = true,	-- Elemental Silt Mound
 	[415296] = true,	-- Repair Kit
+	[419696] = true,	-- Waxy Lump
 	[421070] = true,	-- Remnent Satchel
 	[433370] = true,	-- War Supply Chest
 	[444798] = true,	-- Arathi Treasure Hoard
 	[444799] = true,	-- Potent Concentrated Shadow
 	[444800] = true,	-- Sureki Strongbox
 	[444804] = true,	-- Concentrated Shadow
+	[452706] = true,	-- Deep-Lost Satchel
 	[478443] = true,	-- Mislaid Curiosity (delve object)
 }
 

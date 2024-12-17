@@ -194,7 +194,9 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 			}),
 			q(60533),	-- Terrors in Tirna Scithe
 			q(60564),	-- Three Gorm Enter, No One Leaves
-			q(60842),	-- To Serve Spriggan
+			q(60842, {	-- To Serve Spriggan
+				["g"] = { i(180439) },	-- Bagged Frog
+			}),
 			q(60739, {	-- Tough Crowd
 				ach(14671, {	-- Something's Not Quite Right....
 					["crs"] = { 170080 },	-- Audience Member / Exposed Boggart

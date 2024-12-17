@@ -39,7 +39,9 @@ i(189725);	-- Flexialic Crystallic Spheroid
 i(189726);	-- Focialic Crystallic Spheroid
 i(189727);	-- Healialic Crystallic Spheroid
 i(189728);	-- Obscurialic Crystallic Spheroid
+i(189729);	-- Osmosialic Crystallic Spheroid
 i(189732);	-- Constialic Crystallic Spheroid
+i(189733);	-- Relialic Crystallic Spheroid
 i(189734);	-- Rigialic Crystallic Spheroid
 i(189735);	-- Velocialic Crystallic Spheroid
 i(189760);	-- Robustialic Crystallic Spheroid

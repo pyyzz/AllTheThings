@@ -71,16 +71,16 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_10_2_6_SEASON_FOUR },
 		}),
 		i(230200, {	-- Chaos-Forged Dreadwing (MOUNT!)
-			["timeline"] = { ADDED_11_0_5, "removed 11.0.5.99999" },	-- Available through January 6, 2025
+			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },	-- Available through January 6, 2025
 		}),
 		i(230184, {	-- Chaos-Forged Gryphon (MOUNT!)
-			["timeline"] = { ADDED_11_0_5, "removed 11.0.5.99999" },	-- Available through January 6, 2025
+			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },	-- Available through January 6, 2025
 		}),
 		i(230185, {	-- Chaos-Forged Hippogryph (MOUNT!)
-			["timeline"] = { ADDED_11_0_5, "removed 11.0.5.99999" },	-- Available through January 6, 2025
+			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },	-- Available through January 6, 2025
 		}),
 		i(230201, {	-- Chaos-Forged Wind Rider (MOUNT!)
-			["timeline"] = { ADDED_11_0_5, "removed 11.0.5.99999" },	-- Available through January 6, 2025
+			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },	-- Available through January 6, 2025
 		}),
 		i(109013, {	-- Dread Raven (MOUNT!)
 			["timeline"] = { ADDED_5_4_7, REMOVED_8_3_0, ADDED_10_1_0 },
