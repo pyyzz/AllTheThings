@@ -1430,19 +1430,19 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDown({ ["timeline"
 		--	ig(3260),	-- Scarlet Initiate Robes			(Removed)			Added in 10.1.7 to original Source
 		}),
 		filter(LEATHER, {
-			ig(114251),	-- Bloodthorn Chestguards			(NYI)
+			ig(114251),	-- Bloodthorn Chestguard			(NYI)
 			ig(189917),	-- Constellation Master's Smock		(NYI)
-			ig(93078),	-- Hozen-Stitched Jerkins			(NYI)
+			ig(93078),	-- Hozen-Stitched Jerkin			(NYI)
 			ig(93049),	-- Mogubreaker Jerkin				(NYI)
 			ig(3984),	-- Strapped Armor					(NYI)
 
-			ig(134729),	-- Frosthide Tunics					(Removed)
-			ig(10781),	-- Hakkari Breastplatee				(Removed)
+			ig(134729),	-- Frosthide Tunic					(Removed)
+			ig(10781),	-- Hakkari Breastplate				(Removed)
 			ig(134759),	-- Masked Tunic						(Removed)
 			ig(134791),	-- Ruinous Tunic					(Removed)
 
 			ig(89481),	-- Hozen-Crafted Jerkin				(Unsorted)
-		--	ig(2069),	-- Black Bear Hide Vests			(Removed)			Added in 10.1.7 to original Source
+		--	ig(2069),	-- Black Bear Hide Vest				(Removed)			Added in 10.1.7 to original Source
 		--	ig(2108),	-- Frostmane Leather Vest			(Removed)(unique)	Added in 10.1.7 to original Source
 		--	ig(1211),	-- Gnoll War Harness				(Removed)			Added in 10.1.7 to original Source
 		--	ig(17922),	-- Lionfur Armor					(Removed)			Added in 10.1.7 to original Source

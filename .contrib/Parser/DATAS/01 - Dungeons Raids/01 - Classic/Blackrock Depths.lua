@@ -2264,7 +2264,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(65956),	-- Maxwell's Cloak
-						i(65932),	-- Thaurissan's Breastplatee
+						i(65932),	-- Thaurissan's Breastplate
 						i(65980),	-- Dark Iron Band
 					},
 				}),
@@ -2276,7 +2276,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["groups"] = {
 						i(68054),	-- Dark Iron Band
 						i(68052),	-- Kargath Cloak
-						i(68053),	-- Thaurissan's Breastplatee
+						i(68053),	-- Thaurissan's Breastplate
 					},
 				}),
 				q(27573, {	-- The Dark Iron Pact [Alliance]
