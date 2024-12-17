@@ -142,6 +142,26 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 	i(206007, {	-- Treasure Nabbin' Bag
 		["description"] = "Can be earned by logging into Diablo Immortal on a level 10+ character during the 'Eternal War' crossover event between November 13, 3:00 a.m. & December 11, 2:59 a.m. local server time.",
 		["timeline"] = { ADDED_11_0_5 },
+		["u"] = REMOVED_FROM_GAME,
+	}),
+	n(DIABLO_IV, {
+		["description"] = "Granted to players who owned Diablo IV: Vessel of Hatred before January 7th, 2025.",
+		["timeline"] = { ADDED_11_0_7 },
+		["g"] = {
+			i(191114),	-- Amalgam of Rage (MOUNT!)
+			i(206018),	-- Baa'lial (PET!)
+			i(206039, {	-- Enmity Bundle
+				i(206004),	-- Enmity Cloak
+				i(206020),	-- Enmity Hood
+			}),
+			i(143327),	-- Lovestock Lochaber Axe
+			i(206008),	-- Nightmare Banner (TOY!)
+			i(142542),	-- Tome of Town Portal (TOY!)
+			i(143543),	-- Twelve String Guitar (TOY!)
+			i(206275),	-- Wirt's Fightin' Leg
+			i(206276),	-- Wirt's Haunted Leg
+			i(206005),	-- Wirt's Last Leg
+		},
 	}),
 }));
 -- #endif
