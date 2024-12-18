@@ -19,13 +19,13 @@ namespace ATT
 
     class Program
     {
-        const string API_CALL_ITEM = "/data/wow/item/{0}?namespace=static-us&locale=en_US&access_token=";
-        const string API_CALL_QUEST = "/data/wow/quest/{0}?namespace=static-us&locale=en_US&access_token=";
+        const string API_CALL_ITEM = "/data/wow/item/{0}?namespace=static-us&locale=en_US";
+        const string API_CALL_QUEST = "/data/wow/quest/{0}?namespace=static-us&locale=en_US";
         /// <summary>
         /// Examples of search
-        /// https://us.api.blizzard.com/data/wow/search/item?namespace=static-us&locale=en_US&inventory_type.name.en_US=Off&_page=1&_pageSize=1000&orderby=id:asc&access_token=
+        /// https://us.api.blizzard.com/data/wow/search/item?namespace=static-us&locale=en_US&inventory_type.name.en_US=Off&_page=1&_pageSize=1000&orderby=id:asc
         /// </summary>
-        const string API_CALL_SEARCH = "/data/wow/search/{0}?namespace=static-us&locale=en_US&_page={1}&_pageSize=1000&access_token=";
+        const string API_CALL_SEARCH = "/data/wow/search/{0}?namespace=static-us&locale=en_US&_page={1}&_pageSize=1000";
 
         static string API_KEY = null;
         private static HttpClient _client;
@@ -229,7 +229,7 @@ namespace ATT
             var availableItems = new HashSet<int>();
             while (moreItems)
             {
-                string url = string.Format(API_CALL_SEARCH, objStr, page.ToString()) + API_KEY;
+                string url = string.Format(API_CALL_SEARCH, objStr, page.ToString());
                 Console.WriteLine("Search URL: " + url);
                 HttpResponseMessage response = QueueAPIRequest(url).Result;
                 if (response.IsSuccessStatusCode)
@@ -521,7 +521,7 @@ namespace ATT
         {
             MaxItemID = ScanExistingData(MaxItemID);
             InitClient();
-            RawAPICallFormat = API_CALL_ITEM + API_KEY;
+            RawAPICallFormat = API_CALL_ITEM;
             int i = MaxItemID;
             while (i >= MinItemID)
             {
@@ -545,7 +545,7 @@ namespace ATT
         {
             MaxQuestID = ScanExistingData(MaxQuestID);
             InitClient();
-            RawAPICallFormat = API_CALL_QUEST + API_KEY;
+            RawAPICallFormat = API_CALL_QUEST;
             int i = MaxQuestID;
             while (i >= MinQuestID)
             {
@@ -605,6 +605,7 @@ namespace ATT
             };
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", API_KEY);
 
             return client;
         }
