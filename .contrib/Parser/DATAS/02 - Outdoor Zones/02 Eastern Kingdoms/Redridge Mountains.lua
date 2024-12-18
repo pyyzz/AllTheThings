@@ -1025,7 +1025,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(26570, {	-- Render's Army
 					["qg"] = 382,	-- Marshal Marris
 					["sourceQuest"] = 26568,	-- This Ain't My War
-					["coord"] = { 31.8, 44.8, REDRIDGE_MOUNTAINS },
+					["coord"] = { 29.7, 44.5, REDRIDGE_MOUNTAINS },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1991,6 +1991,22 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
+				n(956, {	-- Dorin Songblade <Armorer>
+					-- #if AFTER CATA
+					["coord"] = { 29.7, 42.9, REDRIDGE_MOUNTAINS },
+					-- #else
+					["coord"] = { 29.6, 43.8, REDRIDGE_MOUNTAINS },
+					-- #endif
+					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						1853,	-- Scalemail Belt
+						287,	-- Scalemail Boots
+						1852,	-- Scalemail Bracers
+						718,	-- Scalemail Gloves
+						286,	-- Scalemail Pants
+						285,	-- Scalemail Vest
+					}},
+				}),
 				n(3091, {	-- Franklin Hamar <Tailoring Supplies>
 					-- #if AFTER CATA
 					["coord"] = { 26.5, 42.0, REDRIDGE_MOUNTAINS },
@@ -2010,6 +2026,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
+				n(3090, {	-- Gerald Crawley <Poison Supplies>
+					["coord"] = { 24.8, 38.3, REDRIDGE_MOUNTAINS },
+					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						4565,	-- Simple Dagger
+					}},
+				}),
 				n(3085, {	-- Gloria Femmel <Cooking Supplies>
 					-- #if AFTER CATA
 					["coord"] = { 26.1, 40.3, REDRIDGE_MOUNTAINS },
@@ -2021,6 +2044,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(21219),	-- Recipe: Sagefish Delight (RECIPE!)
 						i(21099),	-- Recipe: Smoked Sagefish (RECIPE!)
 					},
+				}),
+				n(3088, {	-- Henry Chapal <Gunsmith>
+					["coord"] = { 23.7, 38.5, REDRIDGE_MOUNTAINS },
+					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						2511,	-- Hunter's Boomstick
+						3023,	-- Large Bore Blunderbuss
+					}},
 				}),
 				n(793, {	-- Kara Adams <Shield Crafter>
 					-- #if AFTER CATA
@@ -2040,6 +2071,18 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["isLimited"] = true,
 						}),
 					},
+				}),
+				n(789, {	-- Kimberly Hiett <Bowyer>
+					-- #if AFTER CATA
+					["coord"] = { 26.4, 42.0, REDRIDGE_MOUNTAINS },
+					-- #else
+					["coord"] = { 25.8, 43.4, REDRIDGE_MOUNTAINS },
+					-- #endif
+					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						2507,	-- Laminated Recurve Bow
+						3026,	-- Reinforced Bow
+					}},
 				}),
 			}),
 			n(ZONE_DROPS, {

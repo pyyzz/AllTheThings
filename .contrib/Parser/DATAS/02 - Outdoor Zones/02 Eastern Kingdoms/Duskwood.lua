@@ -2434,7 +2434,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 			}),
 			n(ZONE_DROPS, {
-				i(2794),	-- An Old History Book
+				i(2794, {	-- An Old History Book
+					-- #if AFTER 4.0.3
+					["description"] = "Quest obtained from the book has been made obsolete at the release of Cataclysm expansion. Book is safe to be destroyed but, you will loot another one eventually.\n\nIf you are questing in Duskwood and come upon it, keep it in your inventory until you finish to avoid having to destroy it every time you loot another copy.",
+					-- #endif
+				}),
 				i(885, {	-- Black Metal Axe
 					["cr"] = 3,	-- Flesh Eater
 					["timeline"] = { REMOVED_4_0_3, ADDED_10_1_7 },	-- ATT Discord 05.09.2023
