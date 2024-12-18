@@ -78,6 +78,9 @@
     <Compile Include="CollectedStatus.cs" />
     <Compile Include="CustomConfiguration.cs" />
     <Compile Include="DataValidator.cs" />
+    <Compile Include="DB\Types\ItemEffect.cs" />
+    <Compile Include="DB\Types\ItemXItemEffect.cs" />
+    <Compile Include="DB\Types\Item.cs" />
     <Compile Include="DB\Types\SpellEffect.cs" />
     <Compile Include="DB\Types\TransmogSet.cs" />
     <Compile Include="DB\Types\TransmogSetItem.cs" />

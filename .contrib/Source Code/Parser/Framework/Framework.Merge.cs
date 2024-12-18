@@ -929,6 +929,11 @@ namespace ATT
             {
                 CollectObjectsByValue<CriteriaTree>(type, (se) => se.Parent);
             }
+            // ItemXItemEffect creates ItemID mapping one-time
+            if (type == nameof(ItemXItemEffect))
+            {
+                CollectObjectsByValue<ItemXItemEffect>(type, (se) => se.ItemID);
+            }
             // ModifierTree creates parent mapping one-time
             if (type == nameof(ModifierTree))
             {
@@ -1167,6 +1172,14 @@ namespace ATT
             DBMerge(rawDb, "spellID");
         }
 
+        /// <summary>
+        /// Merges some enumerable set of data, where each piece is an <see cref="IDictionary"/> containing an 'itemID'[long] key value
+        /// </summary>
+        public static void MergeItemDB(object rawDb)
+        {
+            DBMerge(rawDb, "itemID");
+        }
+
         private static void DBMerge(object rawDb, string keyID)
         {
             // The format of a typical DB is a dictionary of ID -> Values.
@@ -1174,14 +1187,14 @@ namespace ATT
             {
                 DBMerge(db, keyID);
             }
-            // We also support a raw List of objects which are Dictionaries.
-            else if (rawDb is List<object> dbList)
+            // We also support a raw set of objects which are Dictionaries.
+            else if (rawDb is IEnumerable<object> dbList)
             {
                 DBMerge(dbList, keyID);
             }
             else
             {
-                ThrowBadFormatDB("AchievementDB", rawDb);
+                ThrowBadFormatDB(keyID + "DB", rawDb);
             }
         }
 
@@ -1196,12 +1209,12 @@ namespace ATT
                 }
                 else
                 {
-                    ThrowBadFormatDB("AchievementDB", dbEntry);
+                    ThrowBadFormatDB(keyID + "DB", dbEntry);
                 }
             }
         }
 
-        private static void DBMerge(List<object> dbList, string keyID)
+        private static void DBMerge(IEnumerable<object> dbList, string keyID)
         {
             foreach (var o in dbList)
             {
@@ -1211,11 +1224,12 @@ namespace ATT
                     {
                         data[keyID] = id;
                         Objects.MergeFromDB(keyID, data);
+                        Items.MergeFromDB(data);
                     }
                 }
                 else
                 {
-                    ThrowBadFormatDB("AchievementDB", o);
+                    ThrowBadFormatDB(keyID + "DB", o);
                 }
             }
         }

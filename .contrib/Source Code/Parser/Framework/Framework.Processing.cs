@@ -45,6 +45,19 @@ namespace ATT
         /// </summary>
         public static void Process()
         {
+            // Combine DB information
+            // Achievements
+            if (TypeDB.TryGetValue("Achievement", out IDictionary<long, IDBType> wagoAchDb))
+            {
+                MergeAchievementDB(wagoAchDb.Values.Select(i => i.AsData()), true);
+            }
+
+            // Items
+            if (TypeDB.TryGetValue("Item", out IDictionary<long, IDBType> wagoItemDb))
+            {
+                MergeItemDB(wagoItemDb.Values.Select(i => i.AsData()));
+            }
+
             // Go through all of the items in the database and calculate the Filter ID
             // if the Filter ID is not already assigned. (manual assignment should always override this)
             foreach (var data in Items.AllItems)
@@ -60,13 +73,6 @@ namespace ATT
                     data.Remove("bonusIDs");
                     data.Remove("bonusID");
                 }
-            }
-
-            // Combine DB information
-            // Achievements
-            if (TypeDB.TryGetValue("Achievement", out IDictionary<long, IDBType> wagoAchDb))
-            {
-                MergeAchievementDB(wagoAchDb.Values.Select(i => i.AsData()), true);
             }
 
             // Merge the Item Data into the Containers.
