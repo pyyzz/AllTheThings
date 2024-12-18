@@ -82,7 +82,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["coord"] = { 46.7, 78.4, SIREN_ISLE },
 				["questID"] = 84794,
 			}),
-			-- The Forgotten Tomb (non-storm, pirates theme)
+			-- The Forgotten Vault (non-storm, pirates theme)
 			n(228159, {	-- Gunnlod the Sea-Drinker
 				-- pirates
 				["coord"] = { 66.5, 55.9, 2375 },
@@ -114,7 +114,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					i(232569), -- Cyclonic Runekey
 				},
 			}),
-			-- The Forgotten Tomb (during storm)
+			-- The Forgotten Vault (during storm)
 			n(231368, {	-- Ksvir the Forgotten
 				["coord"] = { 37.9, 76.1, 2375 },
 				["questID"] = 85406,

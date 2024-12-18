@@ -578,7 +578,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 				["coord"] = { 58.4, 64.7, THE_RINGING_DEEPS },
 				["g"] = {
 					n(224864, {	-- Haxle Drillbit
-						["coord"] = { 62, 75, THE_RINGING_DEEPS },
+						["coord"] = { 62.4, 75.0, THE_RINGING_DEEPS },
 						["g"] = { i(225913) },	-- Opportunity Work Permit (QI!)
 					}),
 				},

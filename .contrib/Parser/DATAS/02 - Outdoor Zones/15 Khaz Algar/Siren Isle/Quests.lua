@@ -60,11 +60,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			q(84724, {	-- The Radiant Vault
 				["sourceQuests"] = { 84723 },	-- Buried Secrets
 				["provider"] = { "n", 231143 },	-- Bargus
-				["coord"] = { 40.1, 70.7, 2375 },	-- The Forgotten Tomb
+				["coord"] = { 40.1, 70.7, 2375 },	-- The Forgotten Vault
 				["g"] = {
 					i(229002),	-- Cracked Citrine (QI!)
 					i(229001),	-- Rune Carved Band (QI!)
-					--
 					i(228411),	-- Cyrce's Circlet
 				},
 			}),
@@ -356,7 +355,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["sourceQuests"] = { 84725 },	-- The Circlet Calls
 				["provider"] = { "n", 232297 },	-- Regald Hornfyre
 				["coord"] = { 43.7, 23.9, SIREN_ISLE },
-				["maps"] = { 2375 },	-- The Forgotten Tomb
+				["maps"] = { 2375 },	-- The Forgotten Vault
 				["isWeekly"] = true,
 			}),
 			-- Teaching to use donation system
@@ -498,20 +497,18 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			--- Stay awhile and listen ---
 			hqt(85103, {	-- Stay awhile and listen: Apprentice Tanmar
 				["name"] = "Stay awhile and listen: Apprentice Tanmar",
-				["sourceQuests"] = { 84940 },	-- Friendly Competition (TODO: could be a bit early?)
+				["sourceQuest"] = 84940,	-- Friendly Competition (TODO: could be a bit early?)
 				["provider"] = { "n", 231536 },	-- Apprentice Tanmar
 				["coord"] = { 72.2, 42.9, SIREN_ISLE },
 			}),
-			--this one is either locked with alt skip (some of quest?) or not here
-			--hqt(85156, {	-- Stay awhile and listen: Angorla
-			--	["name"] = "Stay awhile and listen: Angorla",
-			--	["sourceQuests"] = { 84725 },	-- The Circlet Calls
-			--	["provider"] = { "n", 228074 },	-- Angorla
-			--	["coord"] = { 71.0, 44.1, SIREN_ISLE },
-			--}),
+			hqt(85156, {	-- Stay awhile and listen: Angorla
+				["name"] = "Stay awhile and listen: Angorla",
+				["sourceQuest"] = 84726,	-- Uncovered Mysteries
+				["provider"] = { "n", 228074 },	-- Angorla
+				["coord"] = { 71.0, 44.1, SIREN_ISLE },
+			}),
 			hqt(85157, {	-- Stay awhile and listen: Didi the Wrench
 				["name"] = "Stay awhile and listen: Didi the Wrench",
-				--["sourceQuests"] = { 84725 },	-- The Circlet Calls (TODO: unsure)
 				["provider"] = { "n", 231997 },	-- Didi the Wrench
 				["coord"] = { 71.2, 45.9, SIREN_ISLE },
 			}),--
