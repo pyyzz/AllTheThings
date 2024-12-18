@@ -29,9 +29,9 @@ Do you find yourself completing old content just so that you can get literally e
 
 ## Release Schedule
 There are two release types, alpha build and official release.
-- Alpha builds 
+- Alpha Build
     - Released at 7:00 UTC every day.
-- Official releases 
+- Official Release
     - Scheduled every Sunday.
     - Expected to be updated on the first day of any major WoW update, with frequent releases in the following days.
 
