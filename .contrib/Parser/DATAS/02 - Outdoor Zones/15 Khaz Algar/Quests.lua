@@ -545,12 +545,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 			}),
 			q(82693, {	-- Standing in the Way
 				["sourceQuest"] = 82690,	-- Lingering Shadows
-				["provider"] = { "n", 224397 },	-- Hannan
+				["provider"] = { "n", 224395 },	-- Orweyna
 				["coord"] = { 62.9, 67.5, HALLOWFALL },
 			}),
 			q(82691, {	-- No Breathing Room
 				["sourceQuest"] = 82690,	-- Lingering Shadows
-				["provider"] = { "n", 224395 },	-- Orweyna
+				["provider"] = { "n", 224397 },	-- Hannan
 				["coord"] = { 62.9, 67.5, HALLOWFALL },
 			}),
 			q(82694, {	-- Together, Alone
