@@ -272,12 +272,7 @@ root(ROOTS.Unsorted, {
 			i(233650),	-- Call Galefeather
 			i(233800),	-- [PH] Chris' Flavor Test Item
 			i(233814),	-- [PH] Sailor's Mop
-			i(233815),	-- [PH] Sailor's Mop
-			i(233820),	-- [PH] Iron Mallet
-			i(233821),	-- [PH] Smith's Tongs
-			i(233825),	-- [PH] Crafter's Tool
 			i(233913),	-- [PH] Shield
-			i(233914),	-- [PH] Lumberjack's Hatchet
 			i(233931),	-- [PH] Shoulder
 			i(233933),	-- [PH] Tabard
 			i(233934),	-- [PH] Shield
@@ -342,7 +337,6 @@ root(ROOTS.Unsorted, {
 			i(234471),	-- Earthen Device
 			i(234472),	-- Earthen Crystal
 			--
-			i(233916),	-- Ashvane Issued Workboots \\ [PH] Feet
 			i(232531),	-- Grunch
 			i(234593),	-- Festive Green Holiday Vest
 			i(234594),	-- Festive Red Holiday Vest

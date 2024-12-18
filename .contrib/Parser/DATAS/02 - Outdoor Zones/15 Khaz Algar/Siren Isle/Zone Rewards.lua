@@ -18,8 +18,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			i(228636),	-- Undersea Overseer's Citrine
 			--
 			i(232372, {	-- Crate of Bygone Riches
-				i(233915),	-- Plated Sea Boots (COSMETIC!)
 				i(233827),	-- Bilge Rat Meat Tenderizer (COSMETIC!)
+				i(233815),	-- Bilge Rat Swabbie's Mop (COSMETIC!)
+				i(233825),	-- Goblin Screwdriver (COSMETIC!)
+				i(233915),	-- Plated Sea Boots (COSMETIC!)
+				i(233820),	-- Seawashed Zuldazar Mallet (COSMETIC!)
+				i(233914),	-- Tarnished Vrykul Cleaver (COSMETIC!)
+				i(233821),	-- Zandalari Tongs (COSMETIC!)
 			}),
 			n(228099, {	-- Blinky Greasefingers
 				["description"] = "Click on dialog option that pop, after you learn Snapdragon mount",

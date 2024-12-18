@@ -419,7 +419,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			}),
 			-- Snapdragon
 			q(86482, {	-- A Lifeline
-				--["sourceQuests"] = { ?? },	-- ??
+				["sourceQuests"] = { 84726  },	-- Uncovered Mysteries
 				["provider"] = { "n", 235216 },	-- Starving Snapdragon Runt
 				["coord"] = { 70.9, 48.6, SIREN_ISLE },
 				["g"] = {
@@ -565,27 +565,24 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				q(86380),	-- Sandy Snapdragon Treat
 				q(86377),	-- Storminfused Snapdragon Treat
 				--
-				--Probably won't be on live:
-				--plate stuff didn't trigger questIDs on druid:
-				--Earthen Landlubber's Breastplate
-				--Earthen Landlubber's Gauntlets
-				--Earthen Landlubber's Sabatons
-				--but it seems like try to give you pieces that you don't have
-				--q(84874),	-- Conch Collector's Locket (itemID 229053) drop
-				--q(85956),	-- Cursed Pirate Skull (itemID 231116) drop
-				--q(84846),	-- Earthen Deckhand's Bindings (itemID 229026) drop
-				--q(84841),	-- Earthen Deckhand's Breeches (itemID 229023) drop
-				--q(85839),	-- Earthen Deckhand's Cap (itemID 229045) drop
-				--q(84847),	-- Earthen Deckhand's Cape (itemID 229019) drop
-				--q(84844),	-- Earthen Deckhand's Grips (itemID 229022) drop
-				--q(84871),	-- Earthen Deckhand's Halberd (itemID 229172) drop
-				--q(84845),	-- Earthen Deckhand's Sash (itemID 229025) drop
-				--q(84840),	-- Earthen Deckhand's Shoulderpads (itemID 229024) drop
-				--q(84842),	-- Earthen Deckhand's Vest (itemID 229020) from Crate of Bygone Riches (or just after opening crate?)
-				--q(84872),	-- Earthen Scallywag's Gavel (itemID 229178) drop
-				--q(84873),	-- Earthen Scallywag's Implement (itemID 229188) from Crate of Bygone Riches (or just after opening crate?)
-				--q(85957),	-- Runecaster's Stormbound Rune (itemID 231118) drop / small rp after first stone during Buried Secrets (questID 84723)
-				--q(84875),	-- Scurvy Sailor's Ring (itemID 229051) drop from treasure chest (same objectID as for other one that didn't fire questIDs)
+				--It went live:
+				--it seems like questID fire per item drop for slot now
+				--
+				q(85839),	-- leather / mail Head slot
+				q(84840),	-- leather / mail / plate Shoulder slot
+				q(84841),	-- leather / mail / plate Legs slot
+				q(84842),	-- leather / mail Chest slot
+				q(84845),	-- leather / mail Waist slot
+				q(84847),	-- Back slot
+				q(84871),	-- MH weapon for current spec (2h?)
+				q(84872),	-- OH weapon (1h) or off-spec weapon
+				q(84874),	-- Neck slot
+				--q(85956),	-- Cursed Pirate Skull (itemID 231116) drop (trinket?)
+				--q(85957),	-- Runecaster's Stormbound Rune (itemID 231118) drop (trinket?)
+				--q(84846),	-- Earthen Deckhand's Bindings (itemID 229026) drop (wrists?)
+				--q(84844),	-- Earthen Deckhand's Grips (itemID 229022) drop (hands?)
+				--q(84873),	-- Earthen Scallywag's Implement (itemID 229188) (oh for casters?)
+				--q(84875),	-- Scurvy Sailor's Ring (itemID 229051) drop (ring?)
 			}),
 		}),
 	}),

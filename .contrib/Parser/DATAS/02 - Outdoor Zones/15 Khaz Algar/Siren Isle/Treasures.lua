@@ -21,7 +21,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					o(500686),	-- Seafarer's Cache
 				},
 			}),
+			o(505503, {	-- Ashvane Issued Workboots
+				["description"] = "There currently bug and you can loot either this or Barnacle-Encrusted Chest on one character",
+				["coord"] = { 41.7, 45.9, SIREN_ISLE },
+			--	["questID"] = 86765,
+				["g"] = {
+					i(233916),	-- Ashvane Issued Workboots (COSMETIC!)
+				},
+			}),
 			o(505510, {	-- Barnacle-Encrusted Chest
+				["description"] = "There currently bug and you can loot either this or Ashvane Issued Workboots on one character",
 				["coord"] = { 74.1, 53.2, SIREN_ISLE },
 				["questID"] = 86765,
 				["g"] = {
@@ -98,7 +107,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				},
 			}),
 			o(505476, {	-- Stone Carver's Scramseax
-				["coord"] = { 26.5, 23.4, 2375 },
+				["description"] = "Require you to interact with Radiant Citrine laying on ground in middle room and under it is buff you can obtain this treasure",
+				["coords"] = {
+					{ 32.2, 79.3, 2375 },	-- Radiant Citrine
+					{ 26.5, 23.4, 2375 },	-- Treasure
+				},
 				["questID"] = 86732,
 				["g"] = {
 					i(233834),	-- Stone Carver's Scramseax (COSMETIC!)
