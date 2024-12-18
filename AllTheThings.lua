@@ -7565,7 +7565,7 @@ customWindowUpdates.awp = function(self, force)	-- TODO: Change this to remember
 	local BFA = {80001,80100,80105,80200,80205,80300,80307}
 	local SL = {90001,90002,90005,90100,90105,90200,90205,90207}
 	local DF = {100000,100002,100005,100007,100100,100105,100107,100200,100205,100206,100207}
-	local TWW = {110000,110002,110005}
+	local TWW = {110000,110002,110005,110007}
 
 	-- Locals
 	local param = {}
@@ -7619,7 +7619,7 @@ customWindowUpdates.awp = function(self, force)	-- TODO: Change this to remember
 				end
 				lastDigits = patchString:sub(-2)  -- "02"	-- Patch x.x.2
 				formattedPatch = majorVersion .. "." .. middleDigits .. lastDigits
-				-- Add the sub-expansion to the list
+				-- Add the patch to the list
 				table.insert(patchBuild, app.CreateExpansion(formattedPatch, {
 					["g"] = app:BuildSearchResponse("awp", patch),
 				}))
