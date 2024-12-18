@@ -103,8 +103,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					i(229365),	-- Raw Singing Citrine
 				},
 			}),
-			q(85653, {	-- Dipping a Toe
+			q(85876, {	-- Reading the Runes
+				--TODO: I'm still not sure what exactly trigger it. It could be first filled bar for special assigment?
 				["sourceQuests"] = { 84726 },	-- Uncovered Mysteries
+				["provider"] = { "n", 230242 },	-- Bargus
+				["coord"] = { 67.5, 42.0, SIREN_ISLE },
+			}),
+			q(85653, {	-- Dipping a Toe
+				["sourceQuests"] = { 85876 },	-- Reading the Runes
 				["provider"] = { "n", 231536 },	-- Apprentice Tanmar
 				["coord"] = { 72.3, 42.9, SIREN_ISLE },
 				["g"] = {
@@ -121,11 +127,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					--
 					i(229365),	-- Raw Singing Citrine
 				},
-			}),
-			q(85876, {	-- Reading the Runes
-				["sourceQuests"] = { 85653 },	-- Dipping a Toe
-				["provider"] = { "n", 230242 },	-- Bargus
-				["coord"] = { 67.5, 42.0, SIREN_ISLE },
 			}),
 			q(85654, {	-- Juicing Up And Storming Out
 				["sourceQuests"] = { 85653 },	-- Dipping a Toe
@@ -577,12 +578,12 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				q(84871),	-- MH weapon for current spec (2h?)
 				q(84872),	-- OH weapon (1h) or off-spec weapon
 				q(84874),	-- Neck slot
+				q(84875),	-- Ring slot
+				q(85957),	-- Trinket 1 slot
 				--q(85956),	-- Cursed Pirate Skull (itemID 231116) drop (trinket?)
-				--q(85957),	-- Runecaster's Stormbound Rune (itemID 231118) drop (trinket?)
 				--q(84846),	-- Earthen Deckhand's Bindings (itemID 229026) drop (wrists?)
 				--q(84844),	-- Earthen Deckhand's Grips (itemID 229022) drop (hands?)
 				--q(84873),	-- Earthen Scallywag's Implement (itemID 229188) (oh for casters?)
-				--q(84875),	-- Scurvy Sailor's Ring (itemID 229051) drop (ring?)
 			}),
 		}),
 	}),

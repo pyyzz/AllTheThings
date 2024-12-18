@@ -21,6 +21,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					--["coord"] = { 71.0, 44.1, SIREN_ISLE },	-- entire zone
 				}),
 				q(85764, {	-- Shuddering Hollow
+					-- TODO: I'm not sure which one of them is 'first'
+					["coord"] = { 45.5, 41.6, SIREN_ISLE },
+				}),
+				q(85765, {	-- Shuddering Hollow
 					["coord"] = { 45.5, 41.6, SIREN_ISLE },
 				}),
 				q(85755, {	-- The Drain

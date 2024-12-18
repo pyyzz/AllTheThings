@@ -49,7 +49,6 @@ root(ROOTS.Unsorted, {
 			i(232573),	-- Thunderous Runekey
 			i(232597),	-- Swabbie's Oar
 			i(232629),	-- Distilled Knowledge of Timeways
-			i(232639),	-- Thrayir, Eyes of the Siren
 			i(232645),	-- Celestial Barrage
 			i(232653),	-- Portentous Present
 			i(232654),	-- Compiled Tattered Journal
@@ -548,7 +547,6 @@ root(ROOTS.Unsorted, {
 			i(234940),	-- Drekirjar Warrior's Cloak
 			i(234969),	-- Archivist Chassis
 			i(234982),	-- Spare Sailor's Short-Sleeved Tunic
-			i(235017),	-- Glittering Vault Shard
 			i(235041),	-- Cyrce's Circlet
 			i(235050),	-- Desk-In-A-Box
 			i(235330),	-- Steam-Pressed Cobalt Cloak

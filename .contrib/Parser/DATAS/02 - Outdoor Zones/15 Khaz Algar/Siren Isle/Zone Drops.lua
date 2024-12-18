@@ -7,6 +7,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			i(233500, {	-- Crimson Snapdragon Treat
 				["description"] = "Can be looted from pirates",
 			}),
+			i(235017, {	-- Glittering Vault Shard (TOY!)
+				--["description"] = "TODO: possibly add description from which type of mobs it can be looted",
+			}),
 			i(233494, {	-- Muddy Snapdragon Treat
 				["description"] = "Can be looted from vrykuls",
 				-- n: 232324 / n: 232323
@@ -18,7 +21,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			}),
 			-- seems like can be looted only in storm phase
 			n(230827, {	-- Stormtouched Pridetalon
-				i(234379),	-- Crackleroar (PET!) (TODO: I mean it is Blizzard source, Blizzard can't lie, right?)
+				i(234379),	-- Crackleroar (PET!)
 			}),
 			i(233498, {	-- Storminfused Snapdragon Treat
 				["description"] = "Can be looted from mobs during tempest",
