@@ -3784,7 +3784,7 @@ namespace ATT
             return encounterID + difficultyID / 1000M;
         }
 
-        private static bool TryGetTypeDBObject<T>(long id, out T data)
+        internal static bool TryGetTypeDBObject<T>(long id, out T data)
             where T : IDBType
         {
             if (TypeDB.TryGetValue(typeof(T).Name, out IDictionary<long, IDBType> db) &&
@@ -3813,7 +3813,7 @@ namespace ATT
             }
         }
 
-        private static bool TryGetTypeDBObjectChildren<T>(IDBType data, out List<T> children)
+        internal static bool TryGetTypeDBObjectChildren<T>(IDBType data, out List<T> children)
             where T : IDBType
         {
             return TryGetTypeDBObjectCollection(data.ID, out children);
