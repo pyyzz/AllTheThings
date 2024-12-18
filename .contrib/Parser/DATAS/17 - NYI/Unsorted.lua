@@ -42,7 +42,6 @@ root(ROOTS.Unsorted, {
 			i(228641),	-- Delete Me
 			i(228645),	-- Delete Me
 			i(228649),	-- Delete Me
-			i(229181),	-- [PH] Placeholder
 			i(229811),	-- Frost-Etched Dagger
 			i(230207),	-- N.U.K.U.L.A.R. Target Painter
 			i(230211),	-- Singing Citrine
@@ -76,7 +75,6 @@ root(ROOTS.Unsorted, {
 			i(233020),	-- Twilight Witch's Sweeper
 			i(233023),	-- [PH]
 			i(233051),	-- G.R.A.V. Glove
-			i(233056),	-- Marmaduke
 			i(233057),	-- Rock Hound Mica
 			i(233072),	-- Short Crimson War Skirt
 			i(233073),	-- Long Crimson War Skirt
