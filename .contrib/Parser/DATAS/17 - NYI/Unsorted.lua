@@ -324,7 +324,6 @@ root(ROOTS.Unsorted, {
 			i(234247),	-- Glyph of the Gilded Pistol Shot
 			i(234248),	-- Glyph of the Twilight Pistol Shot
 			i(234313),	-- [DNT] Item
-			i(234328),	-- Torrential Fragment
 			i(234396),	-- Teatuft Tamer
 			i(234397),	-- Fullbelly Rollingpaw
 			i(234398),	-- Festive Green Holiday Belt

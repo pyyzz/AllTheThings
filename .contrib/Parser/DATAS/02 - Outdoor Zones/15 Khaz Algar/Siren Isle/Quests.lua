@@ -27,10 +27,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					i(230851),	-- Ornate Arathi Box (QI!)
 					i(230770),	-- Sturdy Toolbox (QI!)
 					o(475284, {	-- Earthen Prototype
-						i(230771),	-- Earthen Prototype (QI!)
+						["coord"] = { 67.9, 40.8, SIREN_ISLE },
+						["g"] = { i(230771) },	-- Earthen Prototype (QI!)
 					}),
 					o(475286, {	-- Overcharged Battery
-						i(230773),	-- Overcharged Battery (QI!)
+						["coord"] = { 71.2, 46, SIREN_ISLE },
+						["g"] = { i(230773) },	-- Overcharged Battery (QI!)
 					}),
 				},
 			}),
@@ -86,13 +88,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["coord"] = { 71.0, 44.1, SIREN_ISLE },
 				["g"] = {
 					o(499620, {	-- Runed Storm Cache
-						i(232860),	-- Singing Fragments (QI!)
+						["coord"] = { 68.3, 73.6, SIREN_ISLE },
+						["g"] = { i(232860) },	-- Singing Fragments (QI!)
 					}),
 					o(499862, {	-- Runed Storm Cache
-						i(232861),	-- Singing Fragments (QI!)
+						["coord"] = { 32.4, 69.3, SIREN_ISLE },
+						["g"] = { i(232861) },	-- Singing Fragments (QI!)
 					}),
 					o(499863, {	-- Runed Storm Cache
-						i(232862),	-- Singing Fragments (QI!)
+						["coord"] = { 39.3, 20.1, SIREN_ISLE },
+						["g"] = { i(232862) },	-- Singing Fragments (QI!)
 					}),
 					--spell(472051),	-- Runecaster's Eye
 					--
@@ -235,7 +240,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["isWeekly"] = true,
 				["g"] = {
 					i(227405),	-- Research Journal (QI!)
-					i(227406),	-- Interesting Notes (QI!)
+					o(457181,{	-- Interesting Notes
+						i(227406),	-- Interesting Notes (QI!)
+					}),
 				},
 			}),
 			q(84432, {	-- Longship Landing

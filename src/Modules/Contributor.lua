@@ -219,6 +219,7 @@ MobileDB.Creature = {
 }
 -- These should be GameObjects which are mobile in that they can have completely variable coordinates in game
 -- either by following the player or having player-based decisions that cause them to have any coordinates
+-- but also quests objects that are not sourced elsewhere..
 MobileDB.GameObject = {
 	[201615] = true,	-- Valve in ICC
 	[209287] = true,	-- Bit of Glass, quest:29516
@@ -234,6 +235,7 @@ MobileDB.GameObject = {
 	[444800] = true,	-- Sureki Strongbox
 	[444804] = true,	-- Concentrated Shadow
 	[452706] = true,	-- Deep-Lost Satchel
+	[451579] = true,	-- Used Fuel Drum (Ringing Deeps)
 	[478443] = true,	-- Mislaid Curiosity (delve object)
 }
 
