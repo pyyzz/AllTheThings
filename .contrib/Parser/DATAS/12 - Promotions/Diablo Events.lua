@@ -142,7 +142,6 @@ root(ROOTS.Promotions, n(DIABLO_EVENTS, {
 	i(206007, {	-- Treasure Nabbin' Bag
 		["description"] = "Can be earned by logging into Diablo Immortal on a level 10+ character during the 'Eternal War' crossover event between November 13, 3:00 a.m. & December 11, 2:59 a.m. local server time.",
 		["timeline"] = { "added 11.0.5.57388", "removed 11.0.5.57689" },
-		["u"] = REMOVED_FROM_GAME,
 	}),
 	n(DIABLO_IV, {
 		["description"] = "Granted to players who owned WoW: The War Within and Diablo IV: Vessel of Hatred before January 7th, 2025.",
