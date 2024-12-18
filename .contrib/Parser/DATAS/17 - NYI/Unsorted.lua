@@ -278,62 +278,6 @@ root(ROOTS.Unsorted, {
 			i(233820),	-- [PH] Iron Mallet
 			i(233821),	-- [PH] Smith's Tongs
 			i(233825),	-- [PH] Crafter's Tool
-			i(233839),	-- [PH] Chest
-			i(233840),	-- [PH] Chest
-			i(233841),	-- [PH] Chest
-			i(233842),	-- [PH] Chest
-			i(233843),	-- [PH] Chest
-			i(233846),	-- [PH] Chest
-			i(233847),	-- [PH] Chest
-			i(233848),	-- [PH] Chest
-			i(233849),	-- [PH] Chest
-			i(233860),	-- [PH] Waist
-			i(233861),	-- [PH] Feet
-			i(233862),	-- [PH] Hand
-			i(233863),	-- [PH] Head
-			i(233864),	-- [PH] Legs
-			i(233865),	-- [PH] Shoulder
-			i(233866),	-- [PH] Wrist
-			i(233867),	-- [PH] Waist
-			i(233868),	-- [PH] Feet
-			i(233869),	-- [PH] Hand
-			i(233870),	-- [PH] Head
-			i(233871),	-- [PH] Legs
-			i(233872),	-- [PH] Shoulder
-			i(233873),	-- [PH] Wrist
-			i(233874),	-- [PH] Head
-			i(233875),	-- [PH] Waist
-			i(233876),	-- [PH] Feet
-			i(233877),	-- [PH] Hand
-			i(233878),	-- [PH] Head
-			i(233879),	-- [PH] Shoulder
-			i(233880),	-- [PH] Legs
-			i(233881),	-- [PH] Wrist
-			i(233882),	-- [PH] Waist
-			i(233883),	-- [PH] Feet
-			i(233884),	-- [PH] Hand
-			i(233885),	-- [PH] Head
-			i(233886),	-- [PH] Legs
-			i(233887),	-- [PH] Shoulder
-			i(233888),	-- [PH] Wrist
-			i(233889),	-- [PH] Legs
-			i(233890),	-- [PH] Feet
-			i(233891),	-- [PH] Waist
-			i(233893),	-- [PH] Feet
-			i(233894),	-- [PH] Feet
-			i(233895),	-- [PH] Legs
-			i(233896),	-- [PH] Legs
-			i(233897),	-- [PH] Hand
-			i(233898),	-- [PH] Hand
-			i(233899),	-- [PH] Waist
-			i(233900),	-- [PH] Waist
-			i(233901),	-- [PH] Feet
-			i(233904),	-- [PH] Head
-			i(233905),	-- [PH] Head
-			i(233906),	-- [PH] Head
-			i(233907),	-- [PH] Head
-			i(233908),	-- [PH] Head
-			i(233909),	-- [PH] Head
 			i(233913),	-- [PH] Shield
 			i(233914),	-- [PH] Lumberjack's Hatchet
 			i(233930),	-- [PH] Shoulder
@@ -341,14 +285,7 @@ root(ROOTS.Unsorted, {
 			i(233932),	-- [PH] Tabard
 			i(233933),	-- [PH] Tabard
 			i(233934),	-- [PH] Shield
-			i(233935),	-- [PH] Head
-			i(233936),	-- [PH] Head
-			i(233937),	-- [PH] Head
-			i(233938),	-- [PH] Feet
 			i(233955),	-- [PH] Mining Pick
-			i(233970),	-- [PH] Cloak
-			i(233971),	-- [PH] Cloak
-			i(233972),	-- [PH] Cloak
 			i(233975),	-- [PH] Cloak
 			i(233976),	-- [PH] Cloak
 			i(234037),	-- Lunar Festival Slippers
@@ -400,11 +337,6 @@ root(ROOTS.Unsorted, {
 			i(234405),	-- Festive Green Holiday Shorts
 			i(234406),	-- Festive Red Holiday Boots
 			i(234407),	-- Festive Green Holiday Boots
-			i(234408),	-- [PH] Kilt
-			i(234409),	-- [PH] Cloak
-			i(234410),	-- [PH] Cloak
-			i(234411),	-- [PH] Cloak
-			i(234412),	-- [PH] Cloak
 			i(234422),	-- Storm-Singed Plunder
 			i(234423),	-- Keg-Leg's Silver Spoils
 			i(234424),	-- Keg-Leg's Bronze Spoils

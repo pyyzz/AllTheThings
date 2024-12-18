@@ -576,7 +576,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 				["sourceQuest"] = 82696,	-- Ringing in the Deeps
 				["provider"] = { "n", 224857 },	-- Monte Gazlowe
 				["coord"] = { 58.4, 64.7, THE_RINGING_DEEPS },
-				["g"] = { i(225913) },	-- Opportunity Work Permit (QI!)
+				["g"] = {
+					n(224864, {	-- Haxle Drillbit
+						["coord"] = { 62, 75, THE_RINGING_DEEPS },
+						["g"] = { i(225913) },	-- Opportunity Work Permit (QI!)
+					}),
+				},
 			}),
 			q(82699, {	-- Hey, What's Going On?
 				["sourceQuest"] = 82697,	-- Good Help These Days

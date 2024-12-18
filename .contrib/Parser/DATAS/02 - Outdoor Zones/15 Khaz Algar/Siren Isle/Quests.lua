@@ -24,7 +24,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["provider"] = { "n", 230242 },	-- Bargus
 				["coord"] = { 67.5, 41.9, SIREN_ISLE },
 				["g"] = {
-					i(230851),	-- Ornate Arathi Box
+					i(230851),	-- Ornate Arathi Box (QI!)
 					i(230770),	-- Sturdy Toolbox (QI!)
 					o(475284, {	-- Earthen Prototype
 						i(230771),	-- Earthen Prototype (QI!)
@@ -53,7 +53,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["sourceQuests"] = { 84941 },	-- Cave Barging
 				["provider"] = { "n", 230271 },	-- Bargus
 				["coord"] = { 48.8, 18.4, SIREN_ISLE },
-				["maps"] = { 2375 },	-- The Forgotten Tomb (TODO: possibly gonna make it into separate map or just sub-map?)
+				["maps"] = { 2375 },	-- The Forgotten Vault (TODO: possibly gonna make it into separate map or just sub-map?)
 			}),
 			q(84724, {	-- The Radiant Vault
 				["sourceQuests"] = { 84723 },	-- Buried Secrets
