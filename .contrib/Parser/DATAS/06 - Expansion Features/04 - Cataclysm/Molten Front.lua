@@ -181,7 +181,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 						}),
 					},
 				}),
-				ach(5872),	-- King of the Spider-Hill  (Mount Hyjal - The Molten Front)
+				ach(5872, {	-- King of the Spider-Hill  (Mount Hyjal - The Molten Front)
+					["groups"] = {
+						["description"] = "Tip: The spiders on the hill will pull you up to them.",
+					},
+				}),
 				ach(5859, {	-- Legacy of Leyara (Mount Hyjal)
 					i(69854),	-- Smoke-Stained Locket (quest item reward)
 					crit(17794, {	-- A Ritual of Flame
