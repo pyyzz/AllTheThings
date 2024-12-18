@@ -59,14 +59,22 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			o(441358, {	-- A Skull on a Sign
 				["coord"] = { 39.3, 17.4, THE_RINGING_DEEPS },
 				["questID"] = 82049,
+				-- #if AFTER 11.0.2.56313
+				-- #if BEFORE 11.0.7
 				["description"] = "This object for its achievement is currently disabled by Blizzard and will be readded in a future patch.",
-				["timeline"] = { "removed 11.0.2.56313" },
+				-- #endif
+				-- #endif
+				["timeline"] = { "removed 11.0.2.56313", ADDED_11_0_7 },
 			}),
 			o(441577, {	-- Collapsed Tunnel (Warning: Collapsed Tunnel)
 				["coord"] = { 71.4, 42.4, THE_RINGING_DEEPS },
 				["questID"] = 82051,
+				-- #if AFTER 11.0.2.56313
+				-- #if BEFORE 11.0.7
 				["description"] = "This object for its achievement is currently disabled by Blizzard and will be readded in a future patch.",
-				["timeline"] = { "removed 11.0.2.56313" },
+				-- #endif
+				-- #endif
+				["timeline"] = { "removed 11.0.2.56313", ADDED_11_0_7 },
 			}),
 			o(444071, {	-- Cursed Pickaxe
 				["coord"] = { 63.1, 63.1, THE_RINGING_DEEPS },
@@ -157,8 +165,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			o(441578, {	-- Kobold Warning Sign
 				["coord"] = { 64.9, 56.2, THE_RINGING_DEEPS },
 				["questID"] = 82054,
+				-- #if AFTER 11.0.2.56313
+				-- #if BEFORE 11.0.7
 				["description"] = "This object for its achievement is currently disabled by Blizzard and will be readded in a future patch.",
-				["timeline"] = { "removed 11.0.2.56313" },
+				-- #endif
+				-- #endif
+				["timeline"] = { "removed 11.0.2.56313", ADDED_11_0_7 },
 			}),
 			o(446349, {	-- Loose Crystal Shard
 				["coord"] = { 57.3, 21.9, THE_RINGING_DEEPS },
@@ -205,8 +217,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			o(441563, {	-- Submerged Sign
 				["coord"] = { 51.5, 72.4, THE_RINGING_DEEPS },
 				["questID"] = 82052,
+				-- #if AFTER 11.0.2.56313
+				-- #if BEFORE 11.0.7
 				["description"] = "This object for its achievement is currently disabled by Blizzard and will be readded in a future patch.",
-				["timeline"] = { "removed 11.0.2.56313" },
+				-- #endif
+				-- #endif
+				["timeline"] = { "removed 11.0.2.56313", ADDED_11_0_7 },
 			}),
 			o(455890, {	-- Waterlogged Refuse
 				["coord"] = { 66.2, 33.4, THE_RINGING_DEEPS },
@@ -215,8 +231,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			o(441555, {	-- Wax-Drenched Sign
 				["coord"] = { 50.2, 58.3, THE_RINGING_DEEPS },
 				["questID"] = 82053,
+				-- #if AFTER 11.0.2.56313
+				-- #if BEFORE 11.0.7
 				["description"] = "This object for its achievement is currently disabled by Blizzard and will be readded in a future patch.",
-				["timeline"] = { "removed 11.0.2.56313" },
+				-- #endif
+				-- #endif
+				["timeline"] = { "removed 11.0.2.56313", ADDED_11_0_7 },
 			}),
 			o(420053, {	-- Webbed Knapsack
 				["coord"] = { 68.9, 38.8, THE_RINGING_DEEPS },

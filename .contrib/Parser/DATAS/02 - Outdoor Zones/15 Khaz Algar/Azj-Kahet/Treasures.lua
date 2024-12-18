@@ -190,32 +190,52 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			n(222634, {	-- Forgotten Shadecaster
 				["coord"] = { 58.4, 89.5, AZJ_KAHET },
 				["questID"] = 82079,
+				-- #if AFTER 11.0.2.56313
+				-- #if BEFORE 11.0.7
 				["description"] = "This object for its achievement is currently disabled by Blizzard and will be readded in a future patch.",
-				["timeline"] = { "removed 11.0.2.56313" },
+				-- #endif
+				-- #endif
+				["timeline"] = { "removed 11.0.2.56313", ADDED_11_0_7 },
 			}),
 			n(222369, {	-- Kah'teht
 				["coord"] = { 75.4, 33.2, AZJ_KAHET },
 				["questID"] = 82069,
+				-- #if AFTER 11.0.2.56313
+				-- #if BEFORE 11.0.7
 				["description"] = "This object for its achievement is currently disabled by Blizzard and will be readded in a future patch.",
-				["timeline"] = { "removed 11.0.2.56313" },
+				-- #endif
+				-- #endif
+				["timeline"] = { "removed 11.0.2.56313", ADDED_11_0_7 },
 			}),
 			n(222381, {	-- Mad Nerubian
 				["coord"] = { 54.1, 18.9, AZJ_KAHET },
 				["questID"] = 82067,
+				-- #if AFTER 11.0.2.56313
+				-- #if BEFORE 11.0.7
 				["description"] = "This object for its achievement is currently disabled by Blizzard and will be readded in a future patch.",
-				["timeline"] = { "removed 11.0.2.56313" },
+				-- #endif
+				-- #endif
+				["timeline"] = { "removed 11.0.2.56313", ADDED_11_0_7 },
 			}),
 			n(222304, {	-- Neglected Shadecaster
 				["coord"] = { 8.5, 30.6, NERUBAR },
 				["questID"] = 82085,
+				-- #if AFTER 11.0.2.56313
+				-- #if BEFORE 11.0.7
 				["description"] = "This object for its achievement is currently disabled by Blizzard and will be readded in a future patch.",
-				["timeline"] = { "removed 11.0.2.56313" },
+				-- #endif
+				-- #endif
+				["timeline"] = { "removed 11.0.2.56313", ADDED_11_0_7 },
 			}),
 			n(222283, {	-- Weathered Shadecaster
 				["coord"] = { 71.1, 62.3, AZJ_KAHET },
 				["questID"] = 82082,
+				-- #if AFTER 11.0.2.56313
+				-- #if BEFORE 11.0.7
 				["description"] = "This object for its achievement is currently disabled by Blizzard and will be readded in a future patch.",
-				["timeline"] = { "removed 11.0.2.56313" },
+				-- #endif
+				-- #endif
+				["timeline"] = { "removed 11.0.2.56313", ADDED_11_0_7 },
 			}),
 		}),
 	}),
