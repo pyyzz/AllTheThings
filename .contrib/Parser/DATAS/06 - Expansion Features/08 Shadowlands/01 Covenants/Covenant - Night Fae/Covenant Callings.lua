@@ -109,7 +109,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 					["provider"] = { "n", 167206 },	-- Yanlar
 					["coords"] = {
 						{ 37.1, 25.5, THE_TRUNK },
-						{ 37.1, 25.5, THE_ROOTS },
+						{ 33.2, 44.5, THE_ROOTS },
 					},
 					["g"] = {
 						i(181741),	-- Tribute of the Paragon
@@ -117,7 +117,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 				}),
 				q(60436, {	-- Challenges in Maldraxxus
 					["provider"] = { "n", 167206 },	-- Yanlar
-					["coord"] = { 37.1, 25.5, THE_TRUNK },
+					["coords"] = {
+						{ 37.1, 25.5, THE_TRUNK },
+						{ 33.2, 44.5, THE_ROOTS },
+					},
 					["g"] = {
 						i(181733),	-- Tribute of the Duty-Bound
 					},

@@ -30,7 +30,6 @@ root(ROOTS.Unsorted, {
 			i(223956),	-- Recipe: Everything-on-a-Stick
 			i(223966),	-- Everything-on-a-Stick
 			i(224258),	-- [DNT] Flower
-			i(224584),	-- Erosion-Polished Slate
 			i(225484),	-- Technique: Algari Competitor's Lamp
 			i(226377),	-- Mining Journa - Page 1
 			i(226387),	-- Battle-Tested Warhammer
@@ -46,7 +45,6 @@ root(ROOTS.Unsorted, {
 			i(230207),	-- N.U.K.U.L.A.R. Target Painter
 			i(230211),	-- Singing Citrine
 			i(231751),	-- Earthen Backpack
-			i(232573),	-- Thunderous Runekey
 			i(232597),	-- Swabbie's Oar
 			i(232629),	-- Distilled Knowledge of Timeways
 			i(232645),	-- Celestial Barrage

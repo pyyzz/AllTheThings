@@ -3032,7 +3032,6 @@ root(ROOTS.NeverImplemented, {
 					i(116882),	-- White Legs
 					i(116870),	-- Yellow Boots
 					i(116866),	-- Yellow Gloves
-					i(116883),	-- Yellow Helm
 					i(116877),	-- Yellow Chest
 					i(116879),	-- Yellow Legs
 				}),

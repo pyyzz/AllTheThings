@@ -21,6 +21,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			exploration(14782),	-- Ironwold
 			exploration(15450),	-- Keeper's Breath
 			exploration(14787),	-- Mourning Rise
+			visit_exploration(15943,{coord={28.4,47.7,ISLE_OF_DORN}}),	-- Oztan Isle
 			exploration(14784),	-- Rambleshire
 			exploration(15174),	-- Restless Estuary
 			visit_exploration(15514,{coord={64.3,20.2,ISLE_OF_DORN}}),	-- Silkwood Grotto

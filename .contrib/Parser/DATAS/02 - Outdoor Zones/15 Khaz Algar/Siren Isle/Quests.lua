@@ -480,6 +480,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					85802,	-- Whirling (spellID 471167)
 				},
 				["provider"] = { "n", 233582 },	-- Thrayir, Eyes of the Siren
+				["cost"] = {
+					{ "i", 232569, 1 },	-- Cyclonic Runekey
+					{ "i", 232573, 1 },	-- Thunderous Runekey
+					{ "i", 232572, 1 },	-- Torrential Runekey
+					{ "i", 232570, 1 },	-- Turbulent Runekey
+					{ "i", 232571, 1 },	-- Whirling Runekey
+				},
 				["coord"] = { 72.5, 61.3, 2375 },
 				["g"] = {
 					i(232639),	-- Thrayir, Eyes of the Siren (MOUNT!)

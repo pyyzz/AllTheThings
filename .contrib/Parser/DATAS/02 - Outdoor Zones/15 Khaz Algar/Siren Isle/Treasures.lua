@@ -22,7 +22,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				},
 			}),
 			o(505503, {	-- Ashvane Issued Workboots
-				["description"] = "There currently bug and you can loot either this or Barnacle-Encrusted Chest on one character",
+				["description"] = "There's currently a bug and you can loot either this or Barnacle-Encrusted Chest on one character.",
 				["coord"] = { 41.7, 45.9, SIREN_ISLE },
 			--	["questID"] = 86765,
 				["g"] = {
@@ -30,7 +30,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				},
 			}),
 			o(505510, {	-- Barnacle-Encrusted Chest
-				["description"] = "There currently bug and you can loot either this or Ashvane Issued Workboots on one character",
+				["description"] = "There's currently a bug and you can loot either this or Ashvane Issued Workboots on one character.",
 				["coord"] = { 74.1, 53.2, SIREN_ISLE },
 				["questID"] = 86765,
 				["g"] = {
@@ -46,7 +46,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			}),
 			o(507120, {	-- Ducky Friend
 				-- Storm phase
-				["description"] = "Can be found during tempest in house at 2nd floor, on a bed.",
+				["description"] = "Can be found during the storm in a house on the 2nd floor, on a bed.",
 				["coord"] = { 39.2, 54.2, SIREN_ISLE },
 				["g"] = {
 					i(233447),	-- Marmaduke's "Ducky Friend"
@@ -66,7 +66,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				},
 			}),
 			o(505506, {	-- Minnow's Favorite Blade
-				["description"] = "On 2nd floor, at the base of the ceiling. It has big range to interact with it, don't try jump towards it or where it is.",
+				["description"] = "On the 2nd floor, at the base of the ceiling. It has a large interact range, you can reach it from the railing.",
 				["coord"] = { 39.3, 53.8, SIREN_ISLE },
 				["questID"] = 86767,
 				["g"] = {
@@ -83,13 +83,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				},
 			}),
 			o(499127, {	-- Runemarked Coffer
-				-- TODO: The Forgotten Tomb + storm phase
+				-- TODO: The Forgotten Vault + storm phase
 				-- TODO: I don't make screenshot for this one, so I'm unsure if it something in loot or it is related to treasure chest)
 				["coord"] = { 26.6, 23.9, 2375 },
 				["questID"] = 85859,
 			}),
 			o(500407, {	-- Runed Storm Cache
-				-- TODO: The Forgotten Tomb + storm phase
+				-- TODO: The Forgotten Vault + storm phase
 				-- TODO: I don't make screenshot for this one, so I'm unsure if it something in loot or it is related to treasure chest)
 				["coord"] = { 28.5, 73.5, 2375 },
 				["questID"] = 84843,
@@ -107,7 +107,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				},
 			}),
 			o(505476, {	-- Stone Carver's Scramseax
-				["description"] = "Require you to interact with Radiant Citrine laying on ground in middle room and under it is buff you can obtain this treasure",
+				["description"] = "Requires a buff from the Radiant Citrine laying on the ground in the middle room in the back of the Forgotten Vault. With the granted buff you can obtain this treasure in the left room.",
 				["coords"] = {
 					{ 32.2, 79.3, 2375 },	-- Radiant Citrine
 					{ 26.5, 23.4, 2375 },	-- Treasure
@@ -118,6 +118,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				},
 			}),
 			o(500697, {	-- Well Loved Squeaky Toy
+				["description"] = "On the 2nd floor, in the back corner by the wall.",
 				["coord"] = { 39.3, 54.2, SIREN_ISLE },
 				["g"] = {
 					i(233027),	-- Well Loved Squeaky Toy
