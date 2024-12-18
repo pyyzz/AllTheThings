@@ -29,8 +29,11 @@ Do you find yourself completing old content just so that you can get literally e
 
 ## Release Schedule
 There are two release types, alpha build and official release.
-- Alpha builds will be released at 7:00 UTC every day.
-- Official releases are scheduled every Sunday, but hotfixes addressing Lua errors will be released at any time as needed. In the event of a major update for WoW, it is expected to be released within one to two days.
+- Alpha builds 
+    - Released at 7:00 UTC every day.
+- Official releases 
+    - Scheduled every Sunday.
+    - Expected to be updated on the first day of any major WoW update, with frequent releases in the following days.
 
 The git version is not a release, but it is still supported.
 
