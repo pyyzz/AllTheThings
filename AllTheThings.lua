@@ -7076,6 +7076,8 @@ customWindowUpdates.CurrentInstance = function(self, force, got)
 			end
 			tinsert(info, "lq:"..(app.TableConcat(app.MostRecentQuestTurnIns or app.EmptyTable, nil, nil, "<") or ""));
 
+			local inInstance, instanceType = IsInInstance()
+			tinsert(info, "instance:"..(inInstance or false)..":"..(instanceType or ""))
 			tinsert(info, "ver:"..app.Version);
 			tinsert(info, "build:"..app.GameBuildVersion);
 			tinsert(info, "```");	-- discord fancy box end
