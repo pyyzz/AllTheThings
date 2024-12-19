@@ -2190,6 +2190,12 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 			["races"] = HORDE_ONLY,
 			["isYearly"] = true,
 		}),
+		q(81560, {	-- Winter's Presents (TWW)
+			["qg"] = 220307,	-- Holiday Enthusiast
+			["coord"] = { 46, 55.1, DORNOGAL },
+			["timeline"] = { ADDED_11_0_7 },
+			-- Cross completes the 8827 Quest Probably Alliance Only
+		}),
 		{	-- You're a Mean One...
 			["allianceQuestData"] = q(7043, {	-- You're a Mean One... [A]
 				["sourceQuest"] = 7042,	-- Stolen Winter Veil Treats (Alliance)
