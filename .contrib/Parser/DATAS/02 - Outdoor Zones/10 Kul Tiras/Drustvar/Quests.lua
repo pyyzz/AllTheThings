@@ -1558,6 +1558,7 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				-- Not required for "Drust Do It."
 			}),
 			q(51240, {	-- WANTED: Anchorface
+				["provider"] = { "o", 288214 },	-- Wanted Poster
 				["coord"] = { 19.57, 43.65, DRUSTVAR },
 			}),
 			q(53459, {	-- WANTED: Sister Lilias

@@ -61,5 +61,21 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				},
 			}),
 		}),
+		o(293351, {	-- Truffle
+			-- Spellid 275911 Turbo Truffle
+		}),
+		o(293445, {	-- Truffle
+			i(162010),	-- Valley Truffle
+		}),
+		o(293446, {	-- Truffle
+			i(162011),	-- Violet Truffle
+		}),
+		o(293449, {	-- Truffle
+			i(162012),	-- Magic Truffle
+		}),
+		o(296855, {	-- Truffle
+			i(163558),	-- Sporonite Bomb
+			i(162010),	-- Valley Truffle
+		}),
 	}),
 })));
