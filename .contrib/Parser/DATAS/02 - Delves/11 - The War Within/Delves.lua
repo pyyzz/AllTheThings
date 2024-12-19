@@ -925,145 +925,145 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 					}),
 					filter(CLOTH, {
 						i(225393, {	-- Cave Topographer's Cord
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 750}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 1300}},
 						}),
 						i(225390, {	-- Cave Topographer's Cowl
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 1250}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 3250}},
 						}),
 						i(225394, {	-- Cave Topographer's Cuffs
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 750}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 1300}},
 						}),
 						i(225389, {	-- Cave Topographer's Handwraps
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 1000}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
 						}),
 						i(225391, {	-- Cave Topographer's Leggings
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 1250}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 3250}},
 						}),
 						i(225388, {	-- Cave Topographer's Sandals
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 1000}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
 						}),
 						i(225392, {	-- Cave Topographer's Shoulders
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 1000}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
 						}),
 						i(225387, {	-- Cave Topographer's Vestment
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 1250}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 3250}},
 						}),
 					}),
 					filter(LEATHER, {
 						i(225402, {	-- Treasure-Seeker's Bindings
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 750}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 1300}},
 						}),
 						i(225396, {	-- Treasure-Seeker's Boots
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 1000}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
 						}),
 						i(225399, {	-- Treasure-Seeker's Breeches
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 1250}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 3250}},
 						}),
 						i(225400, {	-- Treasure-Seeker's Epaulets
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 1000}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
 						}),
 						i(225397, {	-- Treasure-Seeker's Grips
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 1000}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
 						}),
 						i(225398, {	-- Treasure-Seeker's Helm
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 1250}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 3250}},
 						}),
 						i(225401, {	-- Treasure-Seeker's Sash
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 750}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 1300}},
 						}),
 						i(225395, {	-- Treasure-Seeker's Vest
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 1250}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 3250}},
 						}),
 					}),
 					filter(MAIL, {
 						i(225386, {	-- Torchbearer's Bracers
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 750}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 1300}},
 						}),
 						i(225379, {	-- Torchbearer's Chainmail
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 1250}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 3250}},
 						}),
 						i(225380, {	-- Torchbearer's Cinch
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 750}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 1300}},
 						}),
 						i(225383, {	-- Torchbearer's Coif
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 1250}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 3250}},
 						}),
 						i(225384, {	-- Torchbearer's Greaves
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 1250}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 3250}},
 						}),
 						i(225382, {	-- Torchbearer's Grips
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 1000}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
 						}),
 						i(225385, {	-- Torchbearer's Shoulderguards
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 1000}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
 						}),
 						i(225381, {	-- Torchbearer's Striders
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 1000}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
 						}),
 					}),
 					filter(PLATE, {
 						i(225410, {	-- Secret-Dredger's Armplates
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 750}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 1300}},
 						}),
 						i(225403, {	-- Secret-Dredger's Breastplate
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 1250}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 3250}},
 						}),
 						i(225405, {	-- Secret-Dredger's Gauntlets
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 1000}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
 						}),
 						i(225409, {	-- Secret-Dredger's Girdle
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 750}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 1300}},
 						}),
 						i(225406, {	-- Secret-Dredger's Helm
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 1250}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 3250}},
 						}),
 						i(225407, {	-- Secret-Dredger's Legguards
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 1250}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 3250}},
 						}),
 						i(225408, {	-- Secret-Dredger's Mantle
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 1000}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
 						}),
 						i(225404, {	-- Secret-Dredger's Sabatons
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 1000}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
 						}),
 					}),
 				}),
 				n(WEAPONS, {
 					i(225500, {	-- Bedrock Breaker
-						["cost"] = {{"c", RESONANCE_CRYSTALS, 2000}},
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 3500}},
 					}),
 					i(225507, {	-- Brilliant Beacon
-						["cost"] = {{"c", RESONANCE_CRYSTALS, 2000}},
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 3500}},
 					}),
 					i(225499, {	-- Lapidarius Gemcutter
-						["cost"] = {{"c", RESONANCE_CRYSTALS, 2000}},
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 3500}},
 					}),
 					i(225505, {	-- Luminous Lampspire
-						["cost"] = {{"c", RESONANCE_CRYSTALS, 4000}},
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 3500}},
 					}),
 					i(225506, {	-- Mana-Lined Slab Slicer
-						["cost"] = {{"c", RESONANCE_CRYSTALS, 4000}},
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 3500}},
 					}),
 					i(225502, {	-- Mountain Shaper's Greataxe
-						["cost"] = {{"c", RESONANCE_CRYSTALS, 4000}},
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 3500}},
 					}),
 					i(225501, {	-- Pathfinder's Stonecarver
-						["cost"] = {{"c", RESONANCE_CRYSTALS, 2000}},
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 3500}},
 					}),
 					i(225504, {	-- Skypiercing Drillstaff
-						["cost"] = {{"c", RESONANCE_CRYSTALS, 4000}},
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 3500}},
 					}),
 					i(225497, {	-- Torchlit Pickaxe
-						["cost"] = {{"c", RESONANCE_CRYSTALS, 2000}},
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 3500}},
 					}),
 					i(225503, {	-- Trailblazer's Hookshoot
-						["cost"] = {{"c", RESONANCE_CRYSTALS, 4000}},
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 3500}},
 					}),
 					i(225498, {	-- Umbral Artist's Chisel
-						["cost"] = {{"c", RESONANCE_CRYSTALS, 2000}},
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 3500}},
 					}),
 					i(225508, {	-- Unhinged Vault-Hatch
-						["cost"] = {{"c", RESONANCE_CRYSTALS, 2000}},
+						["cost"] = {{"c", RESONANCE_CRYSTALS, 3500}},
 					}),
 				}),
 			},
@@ -1222,25 +1222,25 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 						["cost"] = {{"c", UNDERCOIN, 1250}},
 					}),
 					i(211059, {	-- Luminous Lampspire
-						["cost"] = {{"c", UNDERCOIN, 3000}},
+						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
 					i(219351, {	-- Mana-Lined Slab Slicer
-						["cost"] = {{"c", UNDERCOIN, 3000}},
+						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
 					i(219354, {	-- Mountain Shaper's Greataxe
-						["cost"] = {{"c", UNDERCOIN, 3000}},
+						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
 					i(211048, {	-- Pathfinder's Stonecarver
 						["cost"] = {{"c", UNDERCOIN, 1250}},
 					}),
 					i(219352, {	-- Skypiercing Drillstaff
-						["cost"] = {{"c", UNDERCOIN, 3000}},
+						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
 					i(219356, {	-- Torchlit Pickaxe
 						["cost"] = {{"c", UNDERCOIN, 1250}},
 					}),
 					i(219353, {	-- Trailblazer's Hookshoot
-						["cost"] = {{"c", UNDERCOIN, 3000}},
+						["cost"] = {{"c", UNDERCOIN, 2500}},
 					}),
 					i(211046, {	-- Umbral Artist's Chisel
 						["cost"] = {{"c", UNDERCOIN, 1250}},
