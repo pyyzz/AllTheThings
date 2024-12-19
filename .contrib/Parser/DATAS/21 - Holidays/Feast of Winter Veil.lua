@@ -2647,7 +2647,11 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDown({ ["timeline"
 		q(78445),	-- Looting Highland Drake: Winter Veil Armor [210432]
 	})),
 })));
-
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, {
+	applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_VEIL_HEADER, {
+		q(86440),	-- Stolen Present Daily / no unique item was given / daily bonus?
+	})),
+})));
 -- Remove the holiday flag.
 -- #if BEFORE 6.2.2.20395
 for i,o in ipairs(HOLIDAY_SMOKYWOOD_PASTURES_GIFT_PACK) do o.u = nil; end
