@@ -929,6 +929,11 @@ namespace ATT
             {
                 CollectObjectsByValue<CriteriaTree>(type, (se) => se.Parent);
             }
+            // ItemEffect creates SpellID mapping one-time
+            if (type == nameof(ItemEffect))
+            {
+                CollectObjectsByValue<ItemEffect>(type, (se) => se.SpellID);
+            }
             // ItemXItemEffect creates ItemID mapping one-time
             if (type == nameof(ItemXItemEffect))
             {

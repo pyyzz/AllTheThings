@@ -14,20 +14,30 @@ namespace ATT.DB.Types
         public long InventoryType { get; set; }
         public long? SpellID => Effects.FirstOrDefault(x => x.SpellID != 0)?.SpellID;
 
-        public IEnumerable<ItemEffect> Effects
+        private List<ItemEffect> _effects;
+        public List<ItemEffect> Effects
         {
             get
             {
+                if (_effects != null) return _effects;
+
+                _effects = new List<ItemEffect>();
                 if (Framework.TryGetTypeDBObjectChildren(this, out List<ItemXItemEffect> xeffects))
                 {
                     foreach (var xeffect in xeffects)
                     {
                         if (Framework.TryGetTypeDBObject(xeffect.ItemEffectID, out ItemEffect effect))
                         {
-                            yield return effect;
+                            _effects.Add(effect);
                         }
                     }
                 }
+
+                _effects.Sort((a,b) =>
+                {
+                    return b.TriggerType - a.TriggerType;
+                });
+                return _effects;
             }
         }
 

@@ -686,42 +686,6 @@ namespace ATT
                 else MarkPhaseAsRequired(phase);
             }
 
-            // Get the filter for this Item
-            Objects.Filters filter = Objects.Filters.Ignored;
-            if (data.TryGetValue("f", out long f))
-            {
-                if (f >= 0)
-                {
-                    // Parse it!
-                    filter = (Objects.Filters)f;
-                    FILTERS_WITH_REFERENCES[f] = true;
-                }
-                // remove modID from things which shouldn't have it
-                if (f >= 56)
-                {
-                    data.Remove("modID");
-                }
-
-                // special handling for explicitly-defined filterIDs (i.e. not determined by Item data, but rather directly in Source)
-                switch (filter)
-                {
-                    case Objects.Filters.Recipe:
-                        // switch any existing spellID to recipeID
-                        var item = Items.GetNull(data);
-                        if (item != null && item.TryGetValue("spellID", out long spellID) && item.TryGetValue("itemID", out long _))
-                        {
-                            // remove the spellID/modID/bonusID if existing
-                            item.Remove("spellID");
-                            data.Remove("spellID");
-                            item.Remove("modID");
-                            data.Remove("modID");
-                            item.Remove("bonusID");
-                            data.Remove("bonusID");
-                        }
-                        break;
-                }
-            }
-
             // Apply the inherited modID for items which do not specify their own modID
             if (NestedModID > 0 && data.ContainsKey("itemID") && !data.ContainsKey("modID"))
             {
@@ -839,6 +803,8 @@ namespace ATT
 
             Incorporate_Achievement(data);
             Incorporate_Criteria(data);
+            // Handles Spell->SpellEffect incorporation
+            Incorporate_Item(data);
             Incorporate_Ensemble(data);
 
             bool cloned = Incorporate_DataCloning(data);
@@ -966,9 +932,40 @@ namespace ATT
                 data.Remove("type");
             }
 
+            // Get the filter for this Item
+            Objects.Filters filter = Objects.Filters.Ignored;
             if (data.TryGetValue("f", out long f))
             {
-                FILTERS_WITH_REFERENCES[f] = true;
+                if (f >= 0)
+                {
+                    // Parse it!
+                    filter = (Objects.Filters)f;
+                    FILTERS_WITH_REFERENCES[f] = true;
+                }
+                // remove modID from things which shouldn't have it
+                if (f >= 56)
+                {
+                    data.Remove("modID");
+                }
+
+                // special handling for explicitly-defined filterIDs (i.e. not determined by Item data, but rather directly in Source)
+                switch (filter)
+                {
+                    case Objects.Filters.Recipe:
+                        // switch any existing spellID to recipeID
+                        var item = Items.GetNull(data);
+                        if (item != null && item.TryGetValue("spellID", out long spellID) && item.TryGetValue("itemID", out long _))
+                        {
+                            // remove the spellID/modID/bonusID if existing
+                            item.Remove("spellID");
+                            data.Remove("spellID");
+                            item.Remove("modID");
+                            data.Remove("modID");
+                            item.Remove("bonusID");
+                            data.Remove("bonusID");
+                        }
+                        break;
+                }
 
                 /*
                 if (data.TryGetValue("requireSkill", out long  requiredSkill))
@@ -2506,34 +2503,6 @@ namespace ATT
                 return;
             }
 
-            //if (spellID == 428745)
-            //{
-
-            //}
-
-            if (!TryGetTypeDBObjectCollection(spellID, out List<SpellEffect> spellEffects))
-            {
-                LogDebugWarn($"Ensemble Type Item missing Wago SpellEffect record", data);
-                return;
-            }
-
-            foreach (SpellEffect spellEffect in spellEffects)
-            {
-                if (spellEffect.IsQuest())
-                {
-                    Objects.Merge(data, "questID", spellEffect.EffectMiscValue_0);
-                }
-                if (spellEffect.IsLearnedTransmogSet())
-                {
-                    // don't override any custom data... sometimes blizz hotfixes ensembles but we don't get the updated data immediately from wago
-                    if (!data.ContainsKey("tmogSetID"))
-                    {
-                        Objects.Merge(data, "tmogSetID", spellEffect.EffectMiscValue_0);
-                    }
-                    Incorporate_EnsembleTransmogSetItems(data);
-                }
-            }
-
             if (data.TryGetValue("tmogSetID", out long tmogSetID) && TryGetTypeDBObject(tmogSetID, out TransmogSet tmogSet))
             {
                 if (tmogSet.TrackingQuestID > 0)
@@ -2578,7 +2547,7 @@ namespace ATT
             AddPostProcessing(EnsembleCleanup, data);
         }
 
-        private static void Incorporate_EnsembleTransmogSetItems(IDictionary<string, object> data)
+        private static void Incorporate_Item_TransmogSetItems(IDictionary<string, object> data)
         {
             if (!data.TryGetValue("tmogSetID", out long tmogSetID))
             {
@@ -2586,10 +2555,15 @@ namespace ATT
                 return;
             }
 
-
             if (!TryGetTypeDBObjectCollection(tmogSetID, out List<TransmogSetItem> transmogSetItems))
             {
                 LogDebugWarn($"Ensemble Type Item missing Wago TransmogSetItem record(s)", data);
+                return;
+            }
+
+            if (!data.TryGetValue("type", out string type) || !(type == "ensembleID" || type == "ensembleSpellID"))
+            {
+                LogDebugWarn($"Item with valid Ensemble information not set as 'iensemble'", data);
                 return;
             }
 
@@ -2602,6 +2576,64 @@ namespace ATT
             //    DataConditionalMerge(itemData);
             //    Objects.Merge(data, "g", itemData);
             //}
+        }
+
+        private static void Incorporate_Item(IDictionary<string, object> data)
+        {
+            if (!data.TryGetValue("itemID", out long itemID)) return;
+
+            // See if there's a Spell and what it links to
+            if (data.TryGetValue("spellID", out long spellID))
+            {
+                if (!TryGetTypeDBObjectCollection(spellID, out List<SpellEffect> spellEffects))
+                {
+                    // quite spammy now with all Items being incorporated
+                    //LogDebugWarn($"Item with Spell {spellID} missing Wago SpellEffect record", data);
+                    return;
+                }
+
+                foreach (SpellEffect spellEffect in spellEffects)
+                {
+                    Incorporate_Item_SpellEffect(data, spellEffect);
+                }
+            }
+        }
+
+        private static void Incorporate_Item_SpellEffect(IDictionary<string, object> data, SpellEffect spellEffect)
+        {
+            // TODO: sometimes 1 Item can trigger 1 ItemEffect leading to multiple IsQuest SpellEffects...
+            // ref. /att i:181538 -> SpellID 336988
+            if (spellEffect.IsQuest())
+            {
+                // we only want to attach a questID to an Item if that Quest is only linked via 1 SpellEffect which is linked from 1 ItemEffect...
+                long spellID = spellEffect.SpellID;
+                if (TryGetTypeDBObjectCollection(spellID, out List<ItemEffect> matchingItemEffects) && matchingItemEffects.Count > 1)
+                {
+                    LogDebug($"INFO: Ignored assignment of Item 'questID' {spellEffect.EffectMiscValue_0} due to {matchingItemEffects.Count} shared ItemEffect use", data);
+                }
+                else
+                {
+                    if (!data.TryGetValue("questID", out long questID))
+                    {
+                        Objects.Merge(data, "questID", spellEffect.EffectMiscValue_0);
+                        LogDebug($"INFO: Assigned Item 'questID' {spellEffect.EffectMiscValue_0}", data);
+                    }
+                    else
+                    {
+                        LogDebug($"INFO: Ignored assignment of Item 'questID' {spellEffect.EffectMiscValue_0} due to existing 'questID' of {questID}", data);
+                    }
+                }
+            }
+            if (spellEffect.IsLearnedTransmogSet())
+            {
+                // don't override any custom data... sometimes blizz hotfixes ensembles but we don't get the updated data immediately from wago
+                if (!data.ContainsKey("tmogSetID"))
+                {
+                    Objects.Merge(data, "tmogSetID", spellEffect.EffectMiscValue_0);
+                    LogDebug($"INFO: Assigned Item 'tmogSetID' {spellEffect.EffectMiscValue_0}", data);
+                }
+                Incorporate_Item_TransmogSetItems(data);
+            }
         }
 
         private static bool CheckSymlink(IDictionary<string, object> data, params string[] commands)
@@ -3048,8 +3080,17 @@ namespace ATT
             {
                 Items.TryGetName(data, out string name);
 
-                data["type"] = "characterUnlockQuestID";
-                LogWarn($"Add to CharacterItemDB.lua or convert to proper Quest with 'provider': iq({itemID}, {questID});					-- {name}");
+                if (TryGetSOURCED("questID", questID, out var referencedAsQuest))
+                {
+                    // basically if Parser has figured that something should have a questID automatically, but we've assigned that questID already within the addon
+                    // don't try to switch that Thing into a Character Unlock type
+                    LogDebug($"INFO: Thing with questID {questID} being ignored as Character Unlock", data);
+                }
+                else
+                {
+                    data["type"] = "characterUnlockQuestID";
+                    LogWarn($"Add to CharacterItemDB.lua or convert to proper Quest with 'provider': iq({itemID}, {questID});					-- {name}");
+                }
             }
 
             // Items with recipeID must have a requireSkill and proper filter, if a different filter is present, then clear the recipeID and requireSkill

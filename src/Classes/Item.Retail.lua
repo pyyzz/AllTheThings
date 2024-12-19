@@ -484,11 +484,11 @@ app.CreateItem = app.CreateClass(CLASS, KEY, itemFields,
 	CollectibleType = app.IsClassic and function() return "Quests" end
 	-- Retail: items tracked as HQT
 	or function() return "QuestsHidden" end,
-	collectible = app.GlobalVariants.AndLockCriteria.collectible or app.CollectibleAsQuest,
+	collectible = app.IsClassic and (app.GlobalVariants.AndLockCriteria.collectible or app.CollectibleAsQuest)
+	-- Retail: these Items not inherently collectible, manually convert to Character Unlocks as needed
+	or app.ReturnFalse,
 	locked = app.GlobalVariants.AndLockCriteria.locked,
-	collected = function(t)
-		return IsQuestFlaggedCompletedForObject(t);
-	end,
+	collected = IsQuestFlaggedCompletedForObject,
 	trackable = function(t)
 		-- raw repeatable quests can't really be tracked since they immediately unflag
 		return not rawget(t, "repeatable") and t.repeatable
