@@ -19,6 +19,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			--
 			i(232372, {	-- Crate of Bygone Riches
 				i(233827),	-- Bilge Rat Meat Tenderizer (COSMETIC!)
+				i(233814),	-- Bilge Rat Swabbie's Brush (COSMETIC!)
 				i(233815),	-- Bilge Rat Swabbie's Mop (COSMETIC!)
 				i(233825),	-- Goblin Screwdriver (COSMETIC!)
 				i(233915),	-- Plated Sea Boots (COSMETIC!)

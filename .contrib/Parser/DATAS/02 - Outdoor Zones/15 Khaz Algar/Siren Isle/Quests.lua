@@ -456,7 +456,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			q(86486, {	-- Hungry, Hungry Snapdragon
 				-- available after 24hrs (not on next day!) of turn in previous quest
 				-- require 2 time per growing phase to do it
-				["sourceQuests"] = { 85573 },	-- A Lifeline
+				["sourceQuests"] = { 86482 },	-- A Lifeline
 				["providers"] = {
 					{ "n", 235237 },	-- Growing Snapdragon Runt
 					{ "n", 235250 },	-- Mature Prismatic Snapdragon
@@ -576,7 +576,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				--It went live:
 				--it seems like questID fire per item drop for slot now
 				--
-				q(85839),	-- leather / mail Head slot
+				--q(85839),	-- leather / mail Head slot
+				q(84839),	-- leather / plate Head slot
 				q(84840),	-- leather / mail / plate Shoulder slot
 				q(84841),	-- leather / mail / plate Legs slot
 				q(84842),	-- leather / mail Chest slot
@@ -586,8 +587,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				q(84872),	-- OH weapon (1h) or off-spec weapon
 				q(84874),	-- Neck slot
 				q(84875),	-- Ring slot
-				q(85957),	-- Trinket 1 slot
-				--q(85956),	-- Cursed Pirate Skull (itemID 231116) drop (trinket?)
+				q(85956),	-- Trinket (agi/str) slot
+				q(85957),	-- Trinket (agi/int/str) slot
 				--q(84846),	-- Earthen Deckhand's Bindings (itemID 229026) drop (wrists?)
 				--q(84844),	-- Earthen Deckhand's Grips (itemID 229022) drop (hands?)
 				--q(84873),	-- Earthen Scallywag's Implement (itemID 229188) (oh for casters?)
