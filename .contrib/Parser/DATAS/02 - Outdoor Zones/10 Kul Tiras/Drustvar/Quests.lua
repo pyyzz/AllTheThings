@@ -845,6 +845,26 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(158645),	-- Smuggler's Pass
 				},
 			}),
+			q(53430, {	-- Order Of Embers Crossbow
+				["coord"] = { 42.6, 25.1, DRUSTVAR },
+				["provider"] = { "o", 297939 },	-- Order Of Embers Crossbow
+				["cost"] = {{"i",163749,1}},	-- Old Crossbow
+			}),
+			q(53431, {	-- Order Of Embers Flask
+				["coord"] = { 42.6, 25.1, DRUSTVAR },
+				["provider"] = { "o", 297942 },	-- Order Of Embers Flask
+				["cost"] = {{"i",163746,1}},	-- Old Flask
+			}),
+			q(53433, {	-- Order Of Embers Hat
+				["coord"] = { 42.6, 25.1, DRUSTVAR },
+				["provider"] = { "o", 297941 },	-- Order Of Embers Hat
+				["cost"] = {{"i",163748,1}},	-- Old Hat
+			}),
+			q(53432, {	-- Order Of Embers Knife
+				["coord"] = { 42.6, 25.2, DRUSTVAR },
+				["provider"] = { "o", 297940 },	-- Order Of Embers Knife
+				["cost"] = {{"i",163747,1}},	-- Old Knife
+			}),
 			q(50758, {	-- Painful Memories
 				["provider"] = { "n", 135200 },	-- Alexander Treadward
 				["coord"] = { 23.2, 17.4, DRUSTVAR },

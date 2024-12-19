@@ -729,6 +729,12 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 				["coord"] = { 67.2, 15.6, BORALUS },
 				["races"] = ALLIANCE_ONLY,
 			}),
+			q(49223, {	-- The Long Con
+				["sourceQuests"] = { 49523 },	-- A Bad Deal
+				["provider"] = { "n", 129940 },	-- Roko <Wandering Merchant>
+				["coord"] = { 70.3, 8.4, BORALUS },
+				["races"] = ALLIANCE_ONLY,
+			}),
 			q(52449, {	-- The Mysterious Island
 				["sourceQuests"] = { 52445 },	-- Tol Dagor: The Fourth Key
 				["provider"] = { "n", 140732 },	-- Flynn Fairwind

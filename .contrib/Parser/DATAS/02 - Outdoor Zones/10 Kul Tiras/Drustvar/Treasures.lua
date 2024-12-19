@@ -49,21 +49,29 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			o(296917, {	-- Drust Stele: The Tree
 				["coord"] = { 27.3, 48.3, DRUSTVAR },
 			}),
-			o(297939, {	-- Order Of Embers Crossbow
+			o(298766, {	-- Old Crossbow
 				["coord"] = { 35.53, 51.88, DRUSTVAR },
-				["questID"] = 53430,
+				["g"] = {
+					i(163749),	-- Old Crossbow
+				},
 			}),
-			o(297942, {	-- Order Of Embers Flask
+			o(298768, {	-- Old Flask
 				["coord"] = { 64.86, 67.80, DRUSTVAR },
-				["questID"] = 53431,
+				["g"] = {
+					i(163746),	-- Old Flask
+				},
 			}),
-			o(297941, {	-- Order Of Embers Hat
+			o(298769, {	-- Old Hat
 				["coord"] = { 55.44, 27.13, DRUSTVAR },
-				["questID"] = 53433,
+				["g"] = {
+					i(163748),	-- Old Hat
+				},
 			}),
-			o(297940, {	-- Order Of Embers Knife
+			o(298767, {	-- Old Knife
 				["coord"] = { 32.57, 58.90, DRUSTVAR },
-				["questID"] = 53432,
+				["g"] = {
+					i(163747),	-- Old Knife
+				},
 			}),
 			i(163497, {	-- Wicker Pup (PET!)
 				["description"] = "You must find each of the four parts from various treasures in the Zone and combine them to form this battle pet.\nRight-Click for more information.",

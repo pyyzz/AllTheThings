@@ -1392,12 +1392,6 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 					i(161476),	-- Reed's Strongbox Key (QI!)
 				},
 			}),
-			q(49223, {	-- The Long Con
-				["sourceQuests"] = { 49523 },	-- A Bad Deal
-				["provider"] = { "n", 128702 },	-- Roko <Wandering Merchant>
-				["coord"] = { 79.7, 81.8, TIRAGARDE_SOUND },
-				["races"] = ALLIANCE_ONLY,
-			}),
 			q(48003, {	-- The Lord's Behest
 				["sourceQuests"] = {
 					48196,	-- Following Eddie's Trail
