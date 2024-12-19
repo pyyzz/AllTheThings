@@ -2649,7 +2649,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDown({ ["timeline"
 })));
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, {
 	applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_VEIL_HEADER, {
-		q(86440),	-- Stolen Present Daily / no unique item was given / daily bonus?
+		q(86440),	-- Stolen Present Daily / Scroll of Storytelling id 116456 (already known) / daily bonus?
 	})),
 })));
 -- Remove the holiday flag.
