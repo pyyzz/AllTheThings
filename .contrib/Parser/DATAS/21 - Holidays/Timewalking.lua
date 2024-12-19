@@ -3599,24 +3599,24 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CATACLY
 					}),
 					filter(COSMETIC, sharedDataSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
 						iensemble(234859, {	-- Ensemble: Twilight Acolyte's Regalia
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 2500 }},
 						}),
 						iensemble(234857, {	-- Ensemble: Twilight Hunter's Guise
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 2500 }},
 						}),
 						iensemble(234856, {	-- Ensemble: Twilight Zealot's Battleplate
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 2500 }},
 						}),
 						iensemble(234855, {	-- Ensemble: Vestments of the Twisted Grove
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 1000 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 2500 }},
 						}),
 						i(234860, {	-- Explorer's League Deepholm Expedition Tabard
 							["races"] = ALLIANCE_ONLY,
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 500 }},
 						}),
 						i(234861, {	-- Reliquary Tabard
 							["races"] = HORDE_ONLY,
-							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
+							["cost"] = {{ "c", TIMEWARPED_BADGE, 500 }},
 						}),
 					})),
 					filter(MISC, {
@@ -5042,7 +5042,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 								["cost"] = {{ "c", TIMEWARPED_BADGE, 25 }},
 							}),
 							i(234862, {	-- Ogre Captains Armor
-								--["cost"] = {{ "c", TIMEWARPED_BADGE, ??? }},
+								["cost"] = {{ "c", TIMEWARPED_BADGE, 100 }},
 								["timeline"] = { ADDED_11_0_7 },
 							}),
 						}),
@@ -5190,7 +5190,7 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 								["cost"] = {{ "c", TIMEWARPED_BADGE, 25 }},
 							}),
 							i(234862, {	-- Ogre Captains Armor
-								--["cost"] = {{ "c", TIMEWARPED_BADGE, ??? }},
+								["cost"] = {{ "c", TIMEWARPED_BADGE, 100 }},
 								["timeline"] = { ADDED_11_0_7 },
 							}),
 						}),

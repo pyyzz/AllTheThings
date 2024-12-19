@@ -101,6 +101,9 @@ local STOLEN_PRESENT_GROUPS = {
 	i(178533, {	-- Jingles (PET!)
 		["timeline"] = { ADDED_9_0_1 },
 	}),
+	i(232531, {	-- Grunch
+		["timeline"] = { ADDED_11_0_7 },
+	}),
 	-- Toys
 	i(54343),	-- Blue Crashin' Thrashin' Racer Controller (TOY!)
 	i(108632, {	-- Crashin' Thrashin' Flamer Controller (TOY!)
@@ -343,7 +346,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 				crit(LADY_SYLVANAS_WINDRUNNER_CRITERIA_UID, {	-- Lady Sylvanas Windrunner
 					["provider"] = { "n", 10181 },	-- Lady Sylvanas Windrunner
 				}),
-				
+
 				-- THUNDER BLUFF LEADER HISTORY
 				-- #if BEFORE 9.0.1
 				-- Patch 9.0.1 (2020-10-13): Baine Bloodhoof removed from the criteria.
@@ -358,7 +361,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 				}),
 				-- #endif
 				-- #endif
-				
+
 				-- ORGRIMMAR FACTION LEADER HISTORY
 				-- #if AFTER 8.2.5
 				-- Patch 8.2.5 (2019-09-24): Eitrigg has replaced High Overlord Saurfang.
@@ -408,7 +411,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 				crit(PROPHET_VELEN_CRITERIA_UID, {	-- Prophet Velen
 					["provider"] = { "n", 17468 },	-- Prophet Velen
 				}),
-				
+
 				-- IRONFORGE FACTION LEADER HISTORY
 				-- #if AFTER 4.0.3
 				-- Patch 4.0.3a (2010-11-23): Criteria updated to match new faction leaders:
@@ -425,7 +428,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 					["provider"] = { "n", 2784 },	-- King Magni Bronzebeard
 				}),
 				-- #endif
-				
+
 				-- STORMWIND CITY FACTION LEADER HISTORY
 				-- #if BEFORE 9.0.1
 				-- Patch 9.0.1 (2020-10-13): Anduin Wrynn removed.
@@ -2373,6 +2376,57 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 				-- #endif
 				i(17194),	-- Holiday Spices
 				i(17196),	-- Holiday Spirits
+				i(234407, {	-- Festive Green Holiday Boots
+					["timeline"] = { ADDED_11_0_7 },
+				}),
+				i(234407, {	-- Festive Green Holiday Boots
+					["timeline"] = { ADDED_11_0_7 },
+				}),
+				i(234398, {	-- Festive Green Holiday Belt
+					["timeline"] = { ADDED_11_0_7 },
+				}),
+				i(234401, {	-- Festive Green Holiday Coat
+					["timeline"] = { ADDED_11_0_7 },
+				}),
+				i(234403, {	-- Festive Green Holiday Pants
+					["timeline"] = { ADDED_11_0_7 },
+				}),
+				i(234405, {	-- Festive Green Holiday Shorts
+					["timeline"] = { ADDED_11_0_7 },
+				}),
+				i(234596, {	-- Festive Green Holiday Sweater
+					["timeline"] = { ADDED_11_0_7 },
+				}),
+				i(234597, {	-- Festive Green Holiday Shirt
+					["timeline"] = { ADDED_11_0_7 },
+				}),
+				i(234593, {	-- Festive Green Holiday Vest
+					["timeline"] = { ADDED_11_0_7 },
+				}),
+				i(234406, {	-- Festive Red Holiday Boots
+					["timeline"] = { ADDED_11_0_7 },
+				}),
+				i(234399, {	-- Festive Red Holiday Belt
+					["timeline"] = { ADDED_11_0_7 },
+				}),
+				i(234400, {	-- Festive Red Holiday Coat
+					["timeline"] = { ADDED_11_0_7 },
+				}),
+				i(234402, {	-- Festive Red Holiday Pants
+					["timeline"] = { ADDED_11_0_7 },
+				}),
+				i(234404, {	-- Festive Red Holiday Shorts
+					["timeline"] = { ADDED_11_0_7 },
+				}),
+				i(234595, {	-- Festive Red Holiday Sweater
+					["timeline"] = { ADDED_11_0_7 },
+				}),
+				i(234598, {	-- Festive Red Holiday Shirt
+					["timeline"] = { ADDED_11_0_7 },
+				}),
+				i(234594, {	-- Festive Red Holiday Vest
+					["timeline"] = { ADDED_11_0_7 },
+				}),
 			},
 		}),
 		n(23064, {	-- Eebee Jinglepocket <Smokywood Pastures>

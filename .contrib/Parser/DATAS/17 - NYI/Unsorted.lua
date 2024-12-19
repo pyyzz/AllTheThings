@@ -313,16 +313,6 @@ root(ROOTS.Unsorted, {
 			i(234313),	-- [DNT] Item
 			i(234396),	-- Teatuft Tamer
 			i(234397),	-- Fullbelly Rollingpaw
-			i(234398),	-- Festive Green Holiday Belt
-			i(234399),	-- Festive Red Holiday Belt
-			i(234400),	-- Festive Red Holiday Coat
-			i(234401),	-- Festive Green Holiday Coat
-			i(234402),	-- Festive Red Holiday Pants
-			i(234403),	-- Festive Green Holiday Pants
-			i(234404),	-- Festive Red Holiday Shorts
-			i(234405),	-- Festive Green Holiday Shorts
-			i(234406),	-- Festive Red Holiday Boots
-			i(234407),	-- Festive Green Holiday Boots
 			i(234422),	-- Storm-Singed Plunder
 			i(234423),	-- Keg-Leg's Silver Spoils
 			i(234424),	-- Keg-Leg's Bronze Spoils
@@ -334,14 +324,6 @@ root(ROOTS.Unsorted, {
 			i(234471),	-- Earthen Device
 			i(234472),	-- Earthen Crystal
 			--
-			i(232531),	-- Grunch
-			i(234593),	-- Festive Green Holiday Vest
-			i(234594),	-- Festive Red Holiday Vest
-			i(234595),	-- Festive Red Holiday Sweater
-			i(234596),	-- Festive Green Holiday Sweater
-			i(234597),	-- Festive Green Holiday Shirt
-			i(234598),	-- Festive Red Holiday Shirt
-			i(234624),	-- Longsword of the Knight's Pledge
 			i(234626),	-- Awakened Archivist Vestment
 			i(234627),	-- Awakened Peacekeeper's Chassis
 			i(234628),	-- Awakened Machinist Chain

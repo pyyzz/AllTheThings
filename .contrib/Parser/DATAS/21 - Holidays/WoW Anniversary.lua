@@ -2860,6 +2860,11 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						filter(PLATE, {
 							i(224860),	-- Boots of Avoidance
 							i(224856),	-- Mugthol's Helm
+							i(234862, {	-- Ogre Captains Armor
+								["modID"] = 22,
+								["cost"] = {{ "c", TIMEWARPED_BADGE, 100 }},
+								["timeline"] = { ADDED_11_0_7 },
+							}),
 							i(225184),	-- Runed Golem Shackles
 						}),
 					})),
@@ -3025,6 +3030,10 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 						}),
 						i(225189, {	-- Lightforged Blade
 							["cost"] = {{"c", TIMEWARPED_BADGE, 100}}
+						}),
+						i(234624, {	-- Longsword of the Knight's Pledge
+							["cost"] = {{"c", TIMEWARPED_BADGE, 1500}},
+							["timeline"] = { ADDED_11_0_7 },
 						}),
 						i(225190, {	-- Pendulum of Doom
 							["cost"] = {{"c", TIMEWARPED_BADGE, 100}}
