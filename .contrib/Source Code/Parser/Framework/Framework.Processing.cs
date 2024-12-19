@@ -2605,23 +2605,41 @@ namespace ATT
             // ref. /att i:181538 -> SpellID 336988
             if (spellEffect.IsQuest())
             {
-                // we only want to attach a questID to an Item if that Quest is only linked via 1 SpellEffect which is linked from 1 ItemEffect...
-                long spellID = spellEffect.SpellID;
-                if (TryGetTypeDBObjectCollection(spellID, out List<ItemEffect> matchingItemEffects) && matchingItemEffects.Count > 1)
+                if (!data.TryGetValue("questID", out long existingQuestID))
                 {
-                    LogDebug($"INFO: Ignored assignment of Item 'questID' {spellEffect.EffectMiscValue_0} due to {matchingItemEffects.Count} shared ItemEffect use", data);
-                }
-                else
-                {
-                    if (!data.TryGetValue("questID", out long questID))
+                    // we only want to attach a questID to an Item if that Quest is only linked via 1 ItemEffect...
+                    long spellID = spellEffect.SpellID;
+                    if (TryGetTypeDBObjectCollection(spellID, out List<ItemEffect> matchingItemEffects) && matchingItemEffects.Count > 1)
                     {
-                        Objects.Merge(data, "questID", spellEffect.EffectMiscValue_0);
-                        LogDebug($"INFO: Assigned Item 'questID' {spellEffect.EffectMiscValue_0}", data);
+                        LogDebug($"INFO: Ignored assignment of Item 'questID' {spellEffect.EffectMiscValue_0} due to {matchingItemEffects.Count} shared ItemEffect use", data);
                     }
                     else
                     {
-                        LogDebug($"INFO: Ignored assignment of Item 'questID' {spellEffect.EffectMiscValue_0} due to existing 'questID' of {questID}", data);
+                        long questID = spellEffect.EffectMiscValue_0;
+                        using (IEnumerator<SpellEffect> spellEffectEnumerator = GetTypeDBObjects<SpellEffect>((se) =>
+                        {
+                            return se.IsQuest() && se.EffectMiscValue_0 == questID;
+                        }).GetEnumerator())
+                        {
+                            // we know there's 1 at least
+                            spellEffectEnumerator.MoveNext();
+                            // if there's a 2nd (or more) then ignore assigning the questID to a specific Item
+                            if (spellEffectEnumerator.MoveNext())
+                            {
+                                LogDebug($"INFO: Ignored assignment of Item 'questID' {questID} due to multiple SpellEffect use", data);
+                            }
+                            else
+                            {
+                                // we only want to attach a questID to an item if that Quest is only linked via 1 SpellEffect...
+                                Objects.Merge(data, "questID", questID);
+                                LogDebug($"INFO: Assigned Item 'questID' {questID}", data);
+                            }
+                        }
                     }
+                }
+                else
+                {
+                    LogDebug($"INFO: Ignored assignment of Item 'questID' {spellEffect.EffectMiscValue_0} due to existing 'questID' of {existingQuestID}", data);
                 }
             }
             if (spellEffect.IsLearnedTransmogSet())
