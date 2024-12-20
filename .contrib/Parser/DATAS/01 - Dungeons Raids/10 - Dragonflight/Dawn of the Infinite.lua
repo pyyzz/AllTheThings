@@ -1041,44 +1041,13 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 						}),
 					})),
 					ach(18706, bubbleDown({ ["timeline"] = { ADDED_10_1_5 } }, {	-- Put That Thing Back Where It Came From
-						i(208490, {	-- Ensemble: Infinite Acolyte's Regalia
-							i(208519),	-- Infinite Soldier's Bracers
-							i(208516),	-- Infinite Soldier's Chainmail
-							i(208520),	-- Infinite Soldier's Cinch
-							i(208521),	-- Infinite Soldier's Cowl
-							i(208517),	-- Infinite Soldier's Drape
-							i(208522),	-- Infinite Soldier's Gauntlets
-							i(208523),	-- Infinite Soldier's Spaulders
-							i(207612),	-- Infinite Soldier's Striders
-							i(208524),	-- Infinite Soldier's Tassets
-							i(208535),	-- Infinite Stalker's Cincture
-							i(208541),	-- Infinite Stalker's Cloak
-							i(208536),	-- Infinite Stalker's Epaulets
-							i(208539),	-- Infinite Stalker's Gloves
-							i(208537),	-- Infinite Stalker's Leggings
-							i(208538),	-- Infinite Stalker's Mask
-							i(208542),	-- Infinite Stalker's Raiment
-							i(208540),	-- Infinite Stalker's Treads
-							i(208534),	-- Infinite Stalker's Wristbands
-							i(208526),	-- Infinite Vanguard's Cape
-							i(208525),	-- Infinite Vanguard's Chestplate
-							i(208528),	-- Infinite Vanguard's Crushers
-							i(208532),	-- Infinite Vanguard's Girdle
-							i(208529),	-- Infinite Vanguard's Greathelm
-							i(208530),	-- Infinite Vanguard's Greaves
-							i(208531),	-- Infinite Vanguard's Pauldrons
-							i(208527),	-- Infinite Vanguard's Stompers
-							i(208533),	-- Infinite Vanguard's Vambraces
-							i(208505),	-- Infinite Zealot's Bindings
-							i(208502),	-- Infinite Zealot's Breeches
-							i(208501),	-- Infinite Zealot's Hood
-							i(208503),	-- Infinite Zealot's Mantle
-							i(208500),	-- Infinite Zealot's Mitts
-							i(208497),	-- Infinite Zealot's Robes
-							i(208504),	-- Infinite Zealot's Sash
-							i(208499),	-- Infinite Zealot's Slippers
-							i(208498),	-- Infinite Zealot's Wrap
-						}), --TODO: iensenble returns much fewer items, only 13 instead of 36
+						iensemble(208490, {	-- Ensemble: Infinite Acolyte's Regalia
+							["extraTransmogSetSpells"] = {
+								421485,	-- Ensemble: Infinite Acolyte's Regalia
+								421486,	-- Ensemble: Infinite Acolyte's Regalia
+								421487,	-- Ensemble: Infinite Acolyte's Regalia
+							},
+						}),
 					})),
 				}),
 				n(COMMON_BOSS_DROPS, {
@@ -1166,43 +1135,12 @@ root(ROOTS.Instances, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDE
 						}),
 					})),
 					ach(18706, bubbleDown({ ["timeline"] = { ADDED_10_1_5, REMOVED_10_2_0 } }, {	-- Put That Thing Back Where It Came From
-						i(208490, {	-- Ensemble: Infinite Acolyte's Regalia
-							i(208519),	-- Infinite Soldier's Bracers
-							i(208516),	-- Infinite Soldier's Chainmail
-							i(208520),	-- Infinite Soldier's Cinch
-							i(208521),	-- Infinite Soldier's Cowl
-							i(208517),	-- Infinite Soldier's Drape
-							i(208522),	-- Infinite Soldier's Gauntlets
-							i(208523),	-- Infinite Soldier's Spaulders
-							i(207612),	-- Infinite Soldier's Striders
-							i(208524),	-- Infinite Soldier's Tassets
-							i(208535),	-- Infinite Stalker's Cincture
-							i(208541),	-- Infinite Stalker's Cloak
-							i(208536),	-- Infinite Stalker's Epaulets
-							i(208539),	-- Infinite Stalker's Gloves
-							i(208537),	-- Infinite Stalker's Leggings
-							i(208538),	-- Infinite Stalker's Mask
-							i(208542),	-- Infinite Stalker's Raiment
-							i(208540),	-- Infinite Stalker's Treads
-							i(208534),	-- Infinite Stalker's Wristbands
-							i(208526),	-- Infinite Vanguard's Cape
-							i(208525),	-- Infinite Vanguard's Chestplate
-							i(208528),	-- Infinite Vanguard's Crushers
-							i(208532),	-- Infinite Vanguard's Girdle
-							i(208529),	-- Infinite Vanguard's Greathelm
-							i(208530),	-- Infinite Vanguard's Greaves
-							i(208531),	-- Infinite Vanguard's Pauldrons
-							i(208527),	-- Infinite Vanguard's Stompers
-							i(208533),	-- Infinite Vanguard's Vambraces
-							i(208505),	-- Infinite Zealot's Bindings
-							i(208502),	-- Infinite Zealot's Breeches
-							i(208501),	-- Infinite Zealot's Hood
-							i(208503),	-- Infinite Zealot's Mantle
-							i(208500),	-- Infinite Zealot's Mitts
-							i(208497),	-- Infinite Zealot's Robes
-							i(208504),	-- Infinite Zealot's Sash
-							i(208499),	-- Infinite Zealot's Slippers
-							i(208498),	-- Infinite Zealot's Wrap
+						iensemble(208490, {	-- Ensemble: Infinite Acolyte's Regalia
+							["extraTransmogSetSpells"] = {
+								421485,	-- Ensemble: Infinite Acolyte's Regalia
+								421486,	-- Ensemble: Infinite Acolyte's Regalia
+								421487,	-- Ensemble: Infinite Acolyte's Regalia
+							},
 						}),
 					})),
 				}),
