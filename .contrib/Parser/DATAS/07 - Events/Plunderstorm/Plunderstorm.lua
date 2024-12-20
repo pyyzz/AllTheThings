@@ -235,7 +235,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 			ach(41160),	-- It's a Plunderful Life
 		}),
 		n(PLUNDERSTORE, {
-			n(BATTLE_PETS, {
+			filter(BATTLE_PETS, {
 				i(233251, {	-- Bubbles
 					["cost"] = {{"c", PLUNDER, 1000}},
 				}),
@@ -252,7 +252,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 					["cost"] = {{"c", PLUNDER, 3000}},
 				}),
 			}),
-			n(COSMETIC, {
+			filter(COSMETIC, {
 				i(216777, {	-- Blacksteel Saber
 					["cost"] = {{"c", PLUNDER, 500}},
 				}),
@@ -416,7 +416,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 					["cost"] = {{"c", PLUNDER, 500}},
 				}),
 			}),
-			n(MOUNTS, {
+			filter(MOUNTS, {
 				i(233241, {	-- Hooktalon
 					["cost"] = {{"c", PLUNDER, 5000}},
 				}),
@@ -433,7 +433,7 @@ root(ROOTS.WorldEvents, applyevent(EVENTS.PLUNDERSTORM, bubbleDown({ ["timeline"
 					["cost"] = {{"c", PLUNDER, 3000}},
 				}),
 			}),
-			n(TOYS, {
+			filter(TOYS, {
 				i(216907, {	-- A Tiny Plumed Tricorne
 					["questID"] = 80093,
 					["cost"] = {{"c", PLUNDER, 500}},
