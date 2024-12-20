@@ -1056,7 +1056,6 @@ _.FilterConstants = {
 	LEATHER = 5,
 	MAIL = 6,
 	MISCELLANEOUS = 50,
-	MOUNT_EQUIPMENT = 114,
 	MOUNTS = 100,
 	NECK = 51,
 	ONE_HANDED_AXES = 21,
@@ -1129,7 +1128,6 @@ L.FILTER_ID_TYPES = {
 	[110] = PAPERDOLL_SIDEBAR_TITLES,
 	[111] = GetItemClassInfo(16),
 	[113] = INVTYPE_BAG,
-	[114] = "Mount Equipment",
 	[200] = AUCTION_CATEGORY_RECIPES,
 }
 L.FILTER_ID_ICONS = {
@@ -1178,7 +1176,6 @@ L.FILTER_ID_ICONS = {
 	[110] = _.asset("category_titles"),
 	[111] = 254306,
 	[113] = 133633,
-	[114] = 132261,
 	[200] = 134941,
 }
 
