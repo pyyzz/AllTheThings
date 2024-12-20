@@ -1185,10 +1185,11 @@ root(ROOTS.Zones, m(DRAGON_ISLES, bubbleDown({ ["timeline"] = { ADDED_10_0_2_LAU
 						["provider"] = { "n", 206971 },	-- Nozdormu
 						["coord"] = { 37.7, 83.2, TANARIS },
 						["g"] = {
-							i(210024, {	-- Ensemble: Temporal Burdens
-								i(208207),	-- Morchie's Timeworn Shoulderpads
-								i(208600),	-- Chromie's Timespun Shoulderpads
-							}),	-- TODO: iensemble does not include Morchie's shoulders
+							iensemble(210024, {	-- Ensemble: Temporal Burdens
+								["extraTransmogSetSpells"] = {
+									424247,	-- Ensemble: Temporal Burdens
+								},
+							}),
 						},
 					}),
 				},
@@ -1308,8 +1309,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDown({ ["timeline"
 				q(77612, {["timeline"] = {ADDED_10_1_7}}),	-- Dialog option 1 during qID 76421 - (spellID 419463 - Option 1 [DNT])
 				q(77613, {["timeline"] = {ADDED_10_1_7}}),	-- Dialog option 2 during qID 76421 - <Well, your way hasn't worked so far...> - (spellID 419464 - Option 2 [DNT])
 				q(77614, {["timeline"] = {ADDED_10_1_7}}),	-- Dialog option 3 during qID 76421 - (spellID 419466 - Option 3 [DNT])
-				q(78173, {["timeline"] = {ADDED_10_1_7}}),	-- Ensemble: Temporal Burdens (itemID 210024) (spellID 424097)
-				q(78191, {["timeline"] = {ADDED_10_1_7}}),	-- Ensemble: Temporal Burdens (itemID 210024) (spellID 424247)
+				-- q(78173, {["timeline"] = {ADDED_10_1_7}}),	-- Ensemble: Temporal Burdens (itemID 210024) (spellID 424097) (automated)
+				-- q(78191, {["timeline"] = {ADDED_10_1_7}}),	-- Ensemble: Temporal Burdens (itemID 210024) (spellID 424247) (automated)
 			}),
 		}),
 	}),
