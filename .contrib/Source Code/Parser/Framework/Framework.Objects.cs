@@ -686,9 +686,19 @@ namespace ATT
                 if (data.ContainsKey("achID")) return Filters.Achievement;
 
                 // Calculate the Filter ID based on Item Class, Sub Class, and Inventory Type
-                data.TryGetValue("_class", out long itemClass);
-                data.TryGetValue("_subclass", out long itemSubClass);
-                data.TryGetValue("_inventoryType", out long inventoryType);
+                long itemClass = -1, itemSubClass = -1, inventoryType = -1;
+                if (data.TryGetValue("class", out long temp) || data.TryGetValue("_class", out temp))
+                {
+                    itemClass = temp;
+                }
+                if (data.TryGetValue("subclass", out temp) || data.TryGetValue("_subclass", out temp))
+                {
+                    itemSubClass = temp;
+                }
+                if (data.TryGetValue("inventoryType", out temp) || data.TryGetValue("_inventoryType", out temp))
+                {
+                    inventoryType = temp;
+                }
                 return CalculateFilter(itemClass, itemSubClass, inventoryType);
             }
 
