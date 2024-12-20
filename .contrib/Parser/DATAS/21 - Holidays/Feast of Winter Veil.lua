@@ -199,6 +199,12 @@ local STOLEN_PRESENT_GROUPS = {
 	i(209859, {	-- Festive Trans-Dimensional Bird Whistle (TOY!)
 		["timeline"] = { ADDED_10_2_0 },
 	}),
+	i(208825, {	-- Junior Timekeeper's Racing Belt (TOY!)
+		["timeline"] = { ADDED_11_0_7 }, -- Returned Christmas 2024
+	}),
+	i(210656, {	-- Winter Veil Socks (TOY!)
+		["timeline"] = { ADDED_11_0_7 }, -- Returned Christmas 2024
+	}),
 	-- Mount Mods
 	i(210432, {	-- Highland Drake: Winter Veil Armor (MM!)
 		["timeline"] = { ADDED_10_2_0 },
