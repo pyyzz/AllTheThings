@@ -296,6 +296,7 @@ root(ROOTS.Zones, {
 					}),
 					i(45902, {	-- Phantom Ghostfish
 						["description"] = "Eat this before it despawns!",
+						["_noautomation"] = true,
 					}),
 				}),
 				n(FLIGHT_PATHS, {

@@ -2581,6 +2581,7 @@ namespace ATT
         private static void Incorporate_Item(IDictionary<string, object> data)
         {
             if (!data.TryGetValue("itemID", out long itemID)) return;
+            if (data.ContainsKey("_noautomation")) return;
 
             // See if there's a Spell and what it links to
             if (data.TryGetValue("spellID", out long spellID))
