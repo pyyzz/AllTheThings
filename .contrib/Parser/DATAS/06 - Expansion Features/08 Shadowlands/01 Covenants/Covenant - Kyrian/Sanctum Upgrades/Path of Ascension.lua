@@ -1567,6 +1567,116 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["timeline"] 
 									i(181289, {	-- Halo of the Discordant
 										["cost"] = { { "c", ANIMA, 1750 } },
 									}),
+									-- #if AFTER 11.0.7
+									i(177205, {	-- Reverent Bearer's Chestplate
+										["cost"] = { { "c", ANIMA, 2000 } },
+									}),
+									i(177221, {	-- Reverent Bearer's Cloak
+										["cost"] = { { "c", ANIMA, 500 } },
+									}),
+									i(177207, {	-- Reverent Bearer's Gauntlets
+										["cost"] = { { "c", ANIMA, 1000 } },
+									}),
+									i(177210, {	-- Reverent Bearer's Girdle
+										["cost"] = { { "c", ANIMA, 1500 } },
+									}),
+									i(177204, {	-- Reverent Bearer's Helm
+										["cost"] = { { "c", ANIMA, 2000 } },
+									}),
+									i(177208, {	-- Reverent Bearer's Legguards
+										["cost"] = { { "c", ANIMA, 1500 } },
+									}),
+									i(177209, {	-- Reverent Bearer's Shoulders
+										["cost"] = { { "c", ANIMA, 2000 } },
+									}),
+									i(177206, {	-- Reverent Bearer's Warboots
+										["cost"] = { { "c", ANIMA, 1000 } },
+									}),
+									i(177211, {	-- Reverent Bearer's Wristwraps
+										["cost"] = { { "c", ANIMA, 1000 } },
+									}),
+									i(180240, {	-- Reverent Collector's Chestplate
+										["cost"] = { { "c", ANIMA, 2000 } },
+									}),
+									i(180247, {	-- Reverent Collector's Cloak
+										["cost"] = { { "c", ANIMA, 500 } },
+									}),
+									i(180242, {	-- Reverent Collector's Gauntlets
+										["cost"] = { { "c", ANIMA, 1000 } },
+									}),
+									i(180245, {	-- Reverent Collector's Girdle
+										["cost"] = { { "c", ANIMA, 1500 } },
+									}),
+									i(180239, {	-- Reverent Collector's Helm
+										["cost"] = { { "c", ANIMA, 2000 } },
+									}),
+									i(180243, {	-- Reverent Collector's Legguards
+										["cost"] = { { "c", ANIMA, 1500 } },
+									}),
+									i(180244, {	-- Reverent Collector's Shoulders
+										["cost"] = { { "c", ANIMA, 2000 } },
+									}),
+									i(180241, {	-- Reverent Collector's Warboots
+										["cost"] = { { "c", ANIMA, 1000 } },
+									}),
+									i(180246, {	-- Reverent Collector's Wristwraps
+										["cost"] = { { "c", ANIMA, 1000 } },
+									}),
+									i(179974, {	-- Reverent Forgelite's Belt
+										["cost"] = { { "c", ANIMA, 1500 } },
+									}),
+									i(179969, {	-- Reverent Forgelite's Boots
+										["cost"] = { { "c", ANIMA, 1000 } },
+									}),
+									i(179972, {	-- Reverent Forgelite's Breeches
+										["cost"] = { { "c", ANIMA, 1500 } },
+									}),
+									i(179976, {	-- Reverent Forgelite's Cloak
+										["cost"] = { { "c", ANIMA, 500 } },
+									}),
+									i(179970, {	-- Reverent Forgelite's Gloves
+										["cost"] = { { "c", ANIMA, 1000 } },
+									}),
+									i(179971, {	-- Reverent Forgelite's Helm
+										["cost"] = { { "c", ANIMA, 2000 } },
+									}),
+									i(179973, {	-- Reverent Forgelite's Spaulders
+										["cost"] = { { "c", ANIMA, 2000 } },
+									}),
+									i(179968, {	-- Reverent Forgelite's Vest
+										["cost"] = { { "c", ANIMA, 2000 } },
+									}),
+									i(179975, {	-- Reverent Forgelite's Wristwraps
+										["cost"] = { { "c", ANIMA, 1000 } },
+									}),
+									i(178189, {	-- Reverent Watcher's Chestplate
+										["cost"] = { { "c", ANIMA, 2000 } },
+									}),
+									i(178196, {	-- Reverent Watcher's Cloak
+										["cost"] = { { "c", ANIMA, 500 } },
+									}),
+									i(178191, {	-- Reverent Watcher's Gauntlets
+										["cost"] = { { "c", ANIMA, 1000 } },
+									}),
+									i(178194, {	-- Reverent Watcher's Girdle
+										["cost"] = { { "c", ANIMA, 1500 } },
+									}),
+									i(178188, {	-- Reverent Watcher's Helm
+										["cost"] = { { "c", ANIMA, 2000 } },
+									}),
+									i(178192, {	-- Reverent Watcher's Legguards
+										["cost"] = { { "c", ANIMA, 1500 } },
+									}),
+									i(178193, {	-- Reverent Watcher's Shoulders
+										["cost"] = { { "c", ANIMA, 2000 } },
+									}),
+									i(178190, {	-- Reverent Watcher's Warboots
+										["cost"] = { { "c", ANIMA, 1000 } },
+									}),
+									i(178195, {	-- Reverent Watcher's Wristwraps
+										["cost"] = { { "c", ANIMA, 1000 } },
+									}),
+									-- #endif
 								},
 							}),
 							n(171958, {	-- Phixin <Weapon Vendor>

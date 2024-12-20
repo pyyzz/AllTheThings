@@ -1069,10 +1069,10 @@ q(),		-- Ensemble: Shadowmoon Anchorite's Guardplate
 q(85587),	-- Ensemble: Shadowmoon Warlock's Vestments
 q(),		-- Ensemble: Shattrath Artificer's Regalia
 q(85585),	-- Ensemble: Telhamat Anchorite's Raiment
-q(),		-- Ensemble: Twilight Acolyte's Regalia
-q(),		-- Ensemble: Twilight Hunter's Guise
-q(),		-- Ensemble: Twilight Zealot's Battleplate
-q(),		-- Ensemble: Vestments of the Twisted Grove
+q(NONE?),	-- Ensemble: Twilight Acolyte's Regalia
+q(NONE?),	-- Ensemble: Twilight Hunter's Guise
+q(NONE?),	-- Ensemble: Twilight Zealot's Battleplate
+q(NONE?),	-- Ensemble: Vestments of the Twisted Grove
 q(85593),	-- Ensemble: Ymirjar Deathbringer's Battleplate
 
 
