@@ -486,7 +486,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						}),
 						i(222944),	-- Swollen Brain of Gluttony (QI!)
 						i(222980, {	-- Slim (PET!)
-							["description"] = "May requires an alt below Level 80 to show up as quest reward."
+							["description"] = "May requires an alt below Level 80 to show up as quest reward.",
 						}),
 					},
 				}),
