@@ -14,6 +14,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 			n(ACHIEVEMENTS, {
 				ach(5483),	-- Bounce
 				ach(4870, {	-- Coming Down the Mountain
+					-- #IF RETAIL
+					["_doautomation"] = true,
+					-- #ENDIF
 					-- #if ANYCLASSIC
 					-- #if AFTER MOP
 					["groups"] = {

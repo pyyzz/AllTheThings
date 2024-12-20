@@ -54,6 +54,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				ach(4873, {	-- Fading into Twilight (Alliance)
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
+					-- #IF RETAIL
+					["_doautomation"] = true,
+					-- #ENDIF
 					-- #if ANYCLASSIC
 					-- #if AFTER MOP
 					["groups"] = {

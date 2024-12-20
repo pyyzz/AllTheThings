@@ -28,6 +28,9 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					},
 				}),
 				ach(4872, {	-- Unearthing Uldum
+					-- #IF RETAIL
+					["_doautomation"] = true,
+					-- #ENDIF
 					-- #if ANYCLASSIC
 					-- #if AFTER MOP
 					["groups"] = {

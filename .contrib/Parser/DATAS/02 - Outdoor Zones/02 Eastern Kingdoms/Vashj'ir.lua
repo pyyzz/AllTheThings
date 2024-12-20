@@ -40,6 +40,9 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				ach(4869, {	-- Sinking into Vashj'ir (A)
 					["races"] = ALLIANCE_ONLY,
+					-- #IF RETAIL
+					["_doautomation"] = true,
+					-- #ENDIF
 					-- #if ANYCLASSIC
 					-- #if AFTER MOP
 					["groups"] = {

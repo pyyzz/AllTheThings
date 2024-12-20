@@ -2170,7 +2170,7 @@ namespace ATT
                 criteriaTree = refCriteriaTree;
             }
 
-            bool inGameIgnored = criteriaTree.IsIgnoreFlags();
+            bool inGameIgnored = criteriaTree.IsIgnoreFlags() && !data.ContainsKey("_doautomation");
             bool incorporated = false;
             // CriteriaTree itself is linked to a Criteria
             if (criteriaTree.CriteriaID != 0 && TryGetTypeDBObject(criteriaTree.CriteriaID, out Criteria criteria) && criteria.IsUseful())
