@@ -56,7 +56,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						i(224102),	-- Chunked Kobyss Innards (QI!)
 						i(222921),	-- Mangled Kobyss Innards (QI!)
 						i(224103),	-- Uncertain Kobyss Innards (QI!)
-						i(222980),	-- Slim (PET!)
+						--i(222980),	-- Slim (PET!) (Was supposed to come from this WQ, but never happened. "Fixed" in 11.0.7 to be rewarded from the Quest Grad, Gutsy Solutions
 					},
 				}),
 				q(82468, {	-- Let Them Win
