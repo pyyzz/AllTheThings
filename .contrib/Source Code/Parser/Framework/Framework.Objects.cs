@@ -2347,8 +2347,7 @@ end");
             /// </summary>
             public static void MergeQuestData(IDictionary<string, object> data)
             {
-                if (!data.TryGetValue("questID", out long questID))
-                    return;
+                if (!data.TryGetValue("questID", out long questID)) return;
 
                 QUESTS_WITH_REFERENCES[questID] = true;
 

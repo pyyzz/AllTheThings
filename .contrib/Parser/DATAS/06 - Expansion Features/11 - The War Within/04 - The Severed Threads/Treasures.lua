@@ -260,7 +260,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 	}),
 })));
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
-	m(THE_SEVERED_THREADS, {
+	n(THE_SEVERED_THREADS, {
 		n(TREASURES, {
 			-- 'Treasures: Weave Rat Caches', available when you forge a Pact with The Weaver.
 			-- There are 12 Thimble's Caches in total however, only 4 are revealed on the map.

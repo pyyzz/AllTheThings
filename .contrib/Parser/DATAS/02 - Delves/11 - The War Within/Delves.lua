@@ -1987,8 +1987,6 @@ root(ROOTS.Delves, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { AD
 root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 	n(DELVES, {
 		q(82772),	-- First Delve of the day
-		q(84670),	-- after turn in weekly delve quest (was 82746 - Delves: Breaking Tough to Loot Stuff - for this one)
-		q(84671),	-- after accepting weekly quest (was 82746 - Delves: Breaking Tough to Loot Stuff) / also after 82679 (Archives: Seeking History)
 		q(85651),	-- Triggers with 'Delver's Call: The Sinkhole' (questID 83767)
 		q(85719),	-- Unknown. Seems to pop very rarely on completion of a delve
 		-- Bountiful Delve runs
@@ -2014,13 +2012,13 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(84737, name(HEADERS.Currency,3028,{["isWeekly"]=true})),	-- 2nd
 		q(84738, name(HEADERS.Currency,3028,{["isWeekly"]=true})),	-- 3rd
 		q(84739, name(HEADERS.Currency,3028,{["isWeekly"]=true})),	-- 4th
-		-- Restored Coffer Key (from vendor, weekly?, account wide - locked for other characters after you buy them once)
-		q(85752),	-- itemID 232493 (Restored Coffer Key)
-		q(85751),	-- itemID 232494 (Restored Coffer Key)
-		q(85750),	-- itemID 232495 (Restored Coffer Key)
-		q(85743),	-- itemID 232496 (Restored Coffer Key)
-		q(85746),	-- itemID 232497 (Restored Coffer Key)
-		q(85747),	-- itemID 232498 (Restored Coffer Key)
+		-- Restored Coffer Key (from vendor, weekly?, account wide - locked for other characters after you buy them once) (automated)
+		-- q(85752),	-- itemID 232493 (Restored Coffer Key)
+		-- q(85751),	-- itemID 232494 (Restored Coffer Key)
+		-- q(85750),	-- itemID 232495 (Restored Coffer Key)
+		-- q(85743),	-- itemID 232496 (Restored Coffer Key)
+		-- q(85746),	-- itemID 232497 (Restored Coffer Key)
+		-- q(85747),	-- itemID 232498 (Restored Coffer Key)
 		-- Seasonal Rewards
 		q(83158),	-- Adventurer's Warbound Battlegear Drop (spellID 453929)
 		q(83235),	-- Airship: Wings 05 - Lantern Wing (spellID 454473)

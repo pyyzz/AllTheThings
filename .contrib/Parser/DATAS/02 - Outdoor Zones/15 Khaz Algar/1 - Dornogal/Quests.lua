@@ -170,6 +170,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 				q(83463),	-- Play Scene (spellID 455921), after finished Archives weekly (4th week) / unlocked new log entry
 				q(83464),	-- Play Scene (spellID 455922), after finished Archives weekly (5th week) / unlocked new log entry
 				q(84669),	-- after accept questID 82679 (Archives: Seeking History) (2nd week)
+				q(84670),	-- after turn in weekly delve quest (was 82746 - Delves: Breaking Tough to Loot Stuff - for this one)
 				q(84671),	-- after accept questID 82679 (Archives: Seeking History) / also after 82746 (Delves: Breaking Tough to Loot Stuff)
 				-- Alt intro skip
 				q(83621),	-- can be used right after turn in 81930 or 78713 (The War Within)

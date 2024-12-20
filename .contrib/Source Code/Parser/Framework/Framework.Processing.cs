@@ -2634,6 +2634,7 @@ namespace ATT
                                 // we only want to attach a questID to an item if that Quest is only linked via 1 SpellEffect...
                                 Objects.Merge(data, "questID", questID);
                                 LogDebug($"INFO: Assigned Item 'questID' {questID}", data);
+                                Objects.MergeQuestData(data);
                             }
                         }
                     }

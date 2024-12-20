@@ -713,8 +713,9 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 		q(84268),	-- Rasha'nan
 		q(84272),	-- Bloodtwister Ovi'nax
 		q(84270),	-- Nexus-Princess Ky'veza
-		q(84274),	-- The Silken Court
-		q(84277),	-- Queen Ansurek
+		-- verify
+		-- q(84275),	-- The Silken Court
+		-- q(84277),	-- Queen Ansurek
 
 		q(84597, {["timeline"] = { ADDED_11_0_5 }}),	-- Bronze Celebration Token (Queen Ansurek [H])
 	})),
