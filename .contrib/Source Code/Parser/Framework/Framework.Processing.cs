@@ -3892,8 +3892,9 @@ namespace ATT
         private static bool TryGetTypeDBObjectCollection<T>(long collectionID, out List<T> children)
             where T : IDBType
         {
-            if (TypeDB[typeof(T).Name + nameof(TypeCollection<T>)].TryGetValue(collectionID, out IDBType childCollection) &&
-                    childCollection is TypeCollection<T> childTrees)
+            if (TypeDB.TryGetValue(typeof(T).Name + nameof(TypeCollection<T>), out var typeDBCollection) &&
+                typeDBCollection.TryGetValue(collectionID, out IDBType childCollection) &&
+                childCollection is TypeCollection<T> childTrees)
             {
                 children = childTrees.Collection;
                 return true;
