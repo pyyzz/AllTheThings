@@ -1372,9 +1372,19 @@ local ResolveFunctions = {
 		local cache, value;
 		for i=1,vals do
 			value = select(i, ...);
-			cache = Search("achievementID", value, "key");
-			if cache then
-				tinsert(searchResults, cache)
+			cache = Search("achievementID", value, "key", true);
+			local mergeAch = cache[1]
+			-- multiple achievements match the selection, make sure to merge them together so we don't lose fields
+			-- that only exist in the original Source (Achievements source prunes some data)
+			local count = #cache
+			if count > 1 then
+				for j=2,count do
+					-- app.PrintDebug("Merge Ach",app:SearchLink(cache[j]))
+					MergeProperties(mergeAch, cache[j])
+				end
+			end
+			if mergeAch then
+				searchResults[#searchResults + 1] = mergeAch
 			else
 				app.print("Failed to select achievementID",value);
 			end
@@ -2875,7 +2885,7 @@ local function GetNpcIDForDrops(group)
 end
 local function DetermineSymlinkGroups(group)
 	if group.sym then
-		-- app.PrintDebug("DSG-Now",group.hash);
+		-- app.PrintDebug("DSG-Now",app:SearchLink(group));
 		local groups = ResolveSymbolicLink(group);
 		-- make sure this group doesn't waste time getting resolved again somehow
 		group.sym = nil;
