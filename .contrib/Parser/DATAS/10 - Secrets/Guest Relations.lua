@@ -329,6 +329,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					["description"] = "Talk to Yennu in Iskaara, find a note in Dragonscale Basecamp, and find their ball near Maruukai then return. Pet Kenshi in Boralus, find the Ball of Yarn in the park, and talk to Kenshi again.",
 					["sourceQuest"] = 84563,	-- Toy Trouble [A]
 					["g"] = {
+						i(229990),	-- My Journal: Operation Toy Rescue (QI!)
 						n(142044, {	-- Kenshi
 							["coord"] = { 54.0, 72.8, BORALUS },
 							["g"] = {
@@ -348,6 +349,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					["description"] = "Talk to Yennu in Iskaara, find a note in Dragonscale Basecamp, and find their ball near Maruukai then return. Pet Nuts in Dazar'Alor, follow the fur sheddings to a Plush Toy, and give it to him.",
 					["sourceQuest"] = 85024,	-- Toy Trouble [H]
 					["g"] = {
+						i(229991),	-- My Journal: Operation Toy Rescue (QI!)
 						n(54227, {	-- Nuts
 							["coord"] = { 56.3, 31.7, DAZARALOR },
 						}),
@@ -358,10 +360,8 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					},
 				}),
 				["provider"] = { "n", 226684 },	-- Maru <Junior Secret Sleuf>
-				["sourceQuest"] = 84563,	-- Toy Trouble [A]
 				["coord"] = { 63.2, 52.4, TANARIS },
 				["g"] = {
-					i(229991),	-- My Journal: Operation Toy Rescue (QI!)
 					n(229847, {	-- Yennu
 						["coord"] = { 13.4, 48.9, THE_AZURE_SPAN },
 					}),
@@ -396,6 +396,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					["sourceQuest"] = 84755,	-- The Final Toy [A]
 					["description"] = "Talk to Maru, suspect a dog, then visit Urban Planner Volrath in Boralus.\nCollect a chew toy from the mountaintop behind Maruukai in the Ohn'ahran plains.\nPlace the Chew Toy in a Toy Box  in Teerakai and follow the Bakar Pup to collect Maru's toy from a nearby cave.",
 						["g"] = {
+							i(229992),	-- My Journal: Operation Toy Rescue (QI!)
 							n(142178, {	-- Urban Planner Volrath
 								["coord"] = { 43.2, 73.7, BORALUS },
 								["g"] = { i(232364) },	-- Bakar Sketch (QI!)
@@ -406,6 +407,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 					["sourceQuest"] = 85042,	-- The Final Toy [H]
 					["description"] = "Talk to Maru, suspect a dog, then visit Matan in Dazar'alor.\nCollect a chew toy from the mountaintop behind Maruukai in the Ohn'ahran plains.\nPlace the Chew Toy in a Toy Box  in Teerakai and follow the Bakar Pup to collect Maru's toy from a nearby cave.",
 						["g"] = {
+							i(229997),	-- My Journal: Operation Toy Rescue (QI!)
 							o(472068, {	-- Bakar Sketch
 								["coord"] = { 57.0, 22.2, DAZARALOR },
 								["g"] = { i(229196) },	-- Bakar Sketch (QI!)
@@ -415,7 +417,6 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				["provider"] = { "n", 226684 },	-- Maru <Junior Secret Sleuf>
 				["coord"] = { 63.2, 52.4, TANARIS },
 				["g"] = {
-					i(229992),	-- My Journal: Operation Toy Rescue (QI!)
 					o(467293, {	-- Chew Toy
 						["description"] = "Atop the high mountain peak behind Maruukai.",
 						["coord"] = { 57.9, 31.7, OHNAHRAN_PLAINS },
@@ -491,6 +492,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				},
 				["g"] = {
 					i(229968),	-- Boonful Banquet (QI!)
+					i(230235),	-- Rosa's Notes on Boonful Banquet (QI!)
 					i(231263),	-- The Case of the Superstitious and Hungry Pirates (QI!)
 					n(231413, {	-- Bottlenose
 						["coord"] = { 60.9, 44.7, TANARIS },
@@ -928,25 +930,26 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				["provider"] = { "n", 171743 },	-- Dapperdew
 				["coord"] = { 41.5, 44.8, ARDENWEALD },
 				["g"] = {
+					i(229387),	-- Trickster's Riddles (QI!)
 					o(469334, {	-- Mask of the Trickster
 						["description"] = "Behind a wooden wall onstage near the back.",
 						["coord"] = { 41.3, 43.8, ARDENWEALD },
-						["g"] = { i(229385) },	-- Mask of the Trickster
+						["g"] = { i(229385) },	-- Mask of the Trickster (QI!)
 					}),
 					o(469327, {	-- Play Script
 						["description"] = "On a table to the right in the back of the stage's balcony area.",
 						["coord"] = { 41.3, 42.8, ARDENWEALD },
-						["g"] = { i(229383) },	-- Play Script
+						["g"] = { i(229383) },	-- Play Script (QI!)
 					}),
 					o(469332, {	-- Prop Sword
 						["description"] = "Under the Winter Queen's throne platform.",
 						["coord"] = { 42.3, 46.8, ARDENWEALD },
-						["g"] = { i(229384) },	-- Prop Sword
+						["g"] = { i(229384) },	-- Prop Sword (QI!)
 					}),
 					o(469335, {	-- Conductor's Baton
 						["description"] = "Next to some drums to the right of the south venue entrance.",
 						["coord"] = { 43.3, 46.4, ARDENWEALD },
-						["g"] = { i(229386) },	-- Conductor's Baton
+						["g"] = { i(229386) },	-- Conductor's Baton (QI!)
 					}),
 				},
 			}),

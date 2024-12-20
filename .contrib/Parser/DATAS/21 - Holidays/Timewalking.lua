@@ -3539,6 +3539,9 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CATACLY
 							i(133523, {	-- Emergency Descent Loop
 								["cost"] = {{ "c", TIMEWARPED_BADGE, 25 }},
 							}),
+							i(133522, {	-- Ring of Torn Flesh
+								["cost"] = {{ "c", TIMEWARPED_BADGE, 25 }},
+							}),
 							i(133520, {	-- Seal of the Grand Architect
 								["cost"] = {{ "c", TIMEWARPED_BADGE, 25 }},
 							}),

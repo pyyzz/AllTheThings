@@ -890,10 +890,6 @@ root(ROOTS.Unsorted, {
 			i(229227),	-- Six of Earth
 			i(229228),	-- Seven of Earth
 			i(229229),	-- Eight of Earth
-			i(229990),	-- My Journal: Operation Toy Rescue
-			i(229997),	-- My Journal: Operation Toy Rescue
-			i(230235),	-- Rosa's Notes on Boonful Banquet
-			i(229387),	-- Trickster's Riddles
 			i(231773),	-- Lost & Found Chest
 		})),
 		expansion(EXPANSION.TWW, patch(0,2), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {

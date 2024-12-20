@@ -2193,8 +2193,16 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 		q(81560, {	-- Winter's Presents (TWW)
 			["qg"] = 220307,	-- Holiday Enthusiast
 			["coord"] = { 46, 55.1, DORNOGAL },
+			["races"] = ALLIANCE_ONLY,
 			["timeline"] = { ADDED_11_0_7 },
 			-- Cross completes the 8827 Quest Probably Alliance Only
+		}),
+		q(81561, {	-- Winter's Presents (TWW)
+			["qg"] = 220307,	-- Holiday Enthusiast
+			["coord"] = { 46, 55.1, DORNOGAL },
+			["races"] = HORDE_ONLY,
+			["timeline"] = { ADDED_11_0_7 },
+			-- Cross completes the 8828 Quest Probably Horde Only
 		}),
 		{	-- You're a Mean One...
 			["allianceQuestData"] = q(7043, {	-- You're a Mean One... [A]
