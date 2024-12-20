@@ -1594,11 +1594,6 @@ root(ROOTS.Professions, prof(ENGINEERING, bubbleDownSelf({ ["requireSkill"] = EN
 				currency(TWW_ENGINEERING_KNOWLEDGE),
 			},
 		},{
-			q(83728, {	-- TWW Inscription Order: Engineering
-				["name"] = "TWW Inscription Order: Engineering",
-				["description"] = "Requires a crafting order from Inscription.",
-				["provider"] = { "i", 222621 },	-- Algari Treatise on Engineering
-			}),
 			q(83260, {	-- TWW Weekly Engineering Knowledgepoint #1
 				["name"] = "TWW Weekly Engineering Treasure #1",
 				["provider"] = { "i", 225228 },	-- Rust-Locked Mechanism

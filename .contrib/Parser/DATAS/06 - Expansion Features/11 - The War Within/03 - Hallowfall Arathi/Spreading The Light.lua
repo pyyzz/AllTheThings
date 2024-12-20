@@ -609,7 +609,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						["coord"] = { 56.1, 14.6, HALLOWFALL },
 						["questID"] = 81518,
 					}),
-					o(429765, {	-- Forgotten Chest 
+					o(429765, {	-- Forgotten Chest
 						["coord"] = { 67.8, 29.6, HALLOWFALL },
 						["questID"] = 80302,
 					}),
@@ -1128,8 +1128,8 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["time
 			---
 			q(79214),	-- after harvester activation @ 61.9, 28.8, he is going to o: 433377 (Harvest Box) and highlight it
 			q(85552),	-- triggered on opening a Lamplighter Supply Satchel, first & second in week - x3 reports
-			q(79177),	-- Snuffling in Hallowfall?
-			q(79179),	-- After looting Spider Touched Bag (211973)
+			-- q(79177),	-- After looting Blueprint Bundle (211968) (automated)
+			-- q(79179),	-- After looting Spider Touched Bag (211973) (automated)
 			--q(79188),	-- ??? "After picking up Spider-Touched Bag (211973), during the keyflame event and turning in 79173 Supply the Effort x2" //That last quest is what I turned in, Supply the Effort but it popped up a bit after turning in, First Bag this week
 						-- ??? "after turning in 79173 Supply the Effort and receiving a lamplighter supply satchel (first that week)"
 			-- Vendor

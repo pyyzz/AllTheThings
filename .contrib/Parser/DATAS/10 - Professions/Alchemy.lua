@@ -1197,11 +1197,6 @@ root(ROOTS.Professions, prof(ALCHEMY, bubbleDownSelf({ ["requireSkill"] = ALCHEM
 			},
 		}, {
 			i(228773),	-- Algari Alchemist's Notebook
-			q(83725, {	-- TWW Inscription Order: Alchemy
-				["name"] = "TWW Inscription Order: Alchemy",
-				["description"] = "Requires a crafting order from Inscription.",
-				["provider"] = { "i", 222546 },	-- Algari Treatise on Alchemy
-			}),
 			q(83253, {	-- TWW Weekly Alchemy Knowledgepoint #1
 				["name"] = "TWW Weekly Alchemy Treasure #1",
 				["provider"] =  { "i", 225234 },	-- Alchemical Sediment

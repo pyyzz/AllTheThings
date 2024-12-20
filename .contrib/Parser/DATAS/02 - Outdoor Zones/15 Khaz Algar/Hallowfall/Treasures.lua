@@ -183,28 +183,28 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			}),
 			o(453749, {	-- Palawltar's Codex of Dimensional Structure
 				["coord"] = { 48.7, 64.7, HALLOWFALL },
-				["questID"] = 83309,
+				-- ["questID"] = 83309, (automated)
 				["g"] = {
 					i(225216),	-- Palawltar's Codex of Dimensional Structure [book]
 				},
 			}),
 			o(453751, {	-- Care and Feeding of the Imperial Lynx
 				["coord"] = { 69.4, 44.0, HALLOWFALL },
-				["questID"] = 83310,
+				-- ["questID"] = 83310, (automated)
 				["g"] = {
 					i(225207),	-- Care and Feeding of the Imperial Lynx [book]
 				},
 			}),
 			o(453752, {	-- Shadow Curfew Guidelines
 				["coord"] = { 64.2, 28.1, HALLOWFALL },
-				["questID"] = 83311,
+				-- ["questID"] = 83311, (automated)
 				["g"] = {
 					i(225204),	-- Shadow Curfew Guidelines [book]
 				},
 			}),
 			o(453753, {	-- Beledar - The Emperor's Vision
 				["coord"] = { 56.6, 65.2, HALLOWFALL },
-				["questID"] = 83312,
+				-- ["questID"] = 83312, (automated)
 				["g"] = {
 					i(225203),	-- Beledar - The Emperor's Vision [book]
 				},
@@ -218,14 +218,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 			}),
 			o(453754, {	-- The Song of Renilash
 				["coord"] = { 70.2, 56.8, HALLOWFALL },
-				["questID"] = 83313,
+				-- ["questID"] = 83313, (automated)
 				["g"] = {
 					i(225215),	-- The Song of Renilash [book]
 				},
 			}),
 			o(453755, {	-- The Big Book of Arathi Idioms
 				["coord"] = { 48.1, 39.6, HALLOWFALL },
-				["questID"] = 83314,
+				-- ["questID"] = 83314, (automated)
 				["g"] = {
 					i(225212),	-- The Big Book of Arathi Idioms [book]
 				},

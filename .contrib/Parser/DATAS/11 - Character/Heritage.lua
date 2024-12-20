@@ -1307,30 +1307,15 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 				["provider"] = { "n", 212782 },	-- Rokhan
 				["coord"] = { 58.5, 65.5, ECHO_ISLES },
 				["g"] = {
-					i(211446, {	-- Ensemble: Heritage of the Darkspear
-						i(211438),	-- Darkspear Battlestraps
-						i(218007),	-- Darkspear Battlestraps of the Horde
-						i(211441),	-- Darkspear Belt
-						i(218015),	-- Darkspear Belt of the Horde
-						i(211440),	-- Darkspear Bracers
-						i(218016),	-- Darkspear Bracers of the Horde
-						i(211437),	-- Darkspear Greaves
-						i(218010),	-- Darkspear Greaves of the Horde
-						i(211436),	-- Darkspear Grips
-						i(218011),	-- Darkspear Grips of the Horde
-						i(211434),	-- Darkspear Rush'kah
-						i(218012),	-- Darkspear Rush'kah of the Horde
-						i(211442),	-- Darkspear Shoulderguards
-						i(218014),	-- Darkspear Shoulderguards of the Horde
-						i(211439),	-- Darkspear Tusked Barrier
-						i(218009),	-- Darkspear Tusked Barrier of the Horde
-						i(211433),	-- Darkspear War-Skirt
-						i(218013),	-- Darkspear War-Skirt of the Horde
-						i(218119),	-- Kevo ya Siti's Mask of Cunning
-						i(218118),	-- Lukou's Mask of Regeneration
+					iensemble(211446, {	-- Ensemble: Heritage of the Darkspear
+						["extraTransmogSetSpells"] = {
+							441539,	-- Ensemble: Loyalty of the Darkspear
+							441988,	-- Ensemble: Mask of Kevo ya Siti
+							441987,	-- Ensemble: Mask of Lukou
+						},
 					}),
 					i(218105),	-- Loa's Blade-Blessing (COSMETIC!)
-				}, -- TODO: iensemble does not return masks or 'of the Horde' ids
+				},
 			}),
 		},
 	}));
@@ -1436,21 +1421,11 @@ root(ROOTS.Character, n(HERITAGE, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 
 				["provider"] = { "n", 199893 },	-- Lilian Voss
 				["coord"] = { 61.8, 69.4, TIRISFAL_GLADES },
 				["g"] = {
-					i(208475, {	-- Ensemble: Forsaken Champion's Attire
-						i(208488),	-- Forsaken Champion's Backtomb
-						i(208477),	-- Forsaken Champion's Belt
-						i(208479),	-- Forsaken Champion's Boots
-						i(208480),	-- Forsaken Champion's Bracers
-						i(208476),	-- Forsaken Champion's Chestguard
-						i(208495),	-- Forsaken Champion's Cowl
-						i(208481),	-- Forsaken Champion's Grips
-						i(208478),	-- Forsaken Champion's Leggings
-						i(208515),	-- Forsaken Champion's Rotcowl
-						i(208474),	-- Forsaken Champion's Spaulders
-						i(209065),	-- Forsaken Champion's Tabard
-						i(210054),	-- Forsaken Champion's Vest
-						i(209068),	-- Queen Loyalist's Tabard
-					}), -- TODO: iensemble does not return Queen's Loyalist's tabard, Champion's Cowl, or Champion's Vest
+					iensemble(208475, {	-- Ensemble: Forsaken Champion's Attire
+						["extraTransmogSetSpells"] = {
+							419716,	-- Ensemble: Forsaken Champion's Additional Attire
+						},
+					}),
 				},
 			}),
 		},
@@ -1631,8 +1606,8 @@ root(ROOTS.HiddenQuestTriggers, {
 		n(HERITAGE, {
 			q(76556),	-- Triggers after handing in quest 'Ancient Curses' (questID 75891) (spellID 415206)
 			q(78022),	-- Triggers after talking to Maiev Stormsong during quest 'Stepping into the Shadows' (questID 76203) (spellID 422467)
-			q(78021),	-- Ensemble: Forsaken Champion's Additional Attire (itemID ?) (spellID 419716)
-			q(77654),	-- Ensemble: Forsaken Champion's Attire (itemID 208475) (spellID 422437)
+			-- q(78021),	-- Ensemble: Forsaken Champion's Additional Attire (itemID ?) (spellID 419716)
+			-- q(77654),	-- Ensemble: Forsaken Champion's Attire (itemID 208475) (spellID 422437)
 			q(77796),	-- Choosing Angellene during 'Fear is Our Weapon' (questID 72860) (spellID 421083)
 			q(77797),	-- Choosing Emalora during 'Fear is Our Weapon' (questID 72860) (spellID 421086)
 			q(77798),	-- Choosing Margix during 'Fear is Our Weapon' (questID 72860) (spellID 421087)
@@ -1644,14 +1619,15 @@ root(ROOTS.HiddenQuestTriggers, {
 	})),
 	expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_2_7 } }, {
 		n(HERITAGE, {
+			-- (automated)
 			-- q(78841),	-- Ensemble: Heritage of the Draenei
 			-- q(78843),	-- Ensemble: Heritage of the Draenei
 			-- q(78844),	-- Ensemble: Heritage of the Draenei
 			-- q(78845),	-- Ensemble: Heritage of the Draenei
-			q(78913),	-- Ensemble: Heritage of the Darkspear
-			q(80503),	-- Ensemble: Heritage of the Darkspear
-			q(80542),	-- Ensemble: Heritage of the Darkspear
-			q(80543),	-- Ensemble: Heritage of the Darkspear
+			-- q(78913),	-- Ensemble: Heritage of the Darkspear
+			-- q(80503),	-- Ensemble: Heritage of the Darkspear
+			-- q(80542),	-- Ensemble: Heritage of the Darkspear
+			-- q(80543),	-- Ensemble: Heritage of the Darkspear
 
 			-- New Heritage questline start HQTs
 			q(78548),	-- Draenei Heritage (spellID 426497)

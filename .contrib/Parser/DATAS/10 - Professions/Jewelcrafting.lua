@@ -943,10 +943,6 @@ root(ROOTS.Professions, prof(JEWELCRAFTING, bubbleDownSelf({ ["requireSkill"] = 
 				currency(TWW_JEWELCRAFTING_KNOWLEDGE),
 			},
 		},{
-			q(83731, {	-- TWW Inscription Order: Jewelcrafting
-				["name"] = "TWW Inscription Order: Jewelcrafting",
-				["provider"] = { "i", 222551 },	-- Algari Treatise on Jewelcrafting
-			}),
 			q(83265, {	-- TWW Weekly Jewelcrafting Knowledgepoint #1
 				["name"] = "TWW Weekly Jewelcrafting Treasure #1",
 				["provider"] = { "i", 225224 },	-- Diaphanous Gem Shards

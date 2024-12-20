@@ -1311,11 +1311,6 @@ root(ROOTS.Professions, prof(BLACKSMITHING, bubbleDownSelf({ ["requireSkill"] = 
 				currency(TWW_BLACKSMITHING_KNOWLEDGE),
 			},
 		}, {
-			q(83726, {	-- TWW Inscription Order: Blacksmithing
-				["name"] = "TWW Inscription Order: Blacksmithing",
-				["description"] = "Requires a crafting order from Inscription.",
-				["provider"] = { "i", 222554 },	-- Algari Treatise on Blacksmithing
-			}),
 			q(83257, {	-- TWW Weekly Blacksmithing Knowledgepoint #1
 				["name"] = "TWW Weekly Blacksmithing Treasure #1",
 				["provider"] = { "i", 225232 },	-- Coreway Billet

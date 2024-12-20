@@ -906,11 +906,6 @@ root(ROOTS.Professions, prof(ENCHANTING, bubbleDownSelf({ ["requireSkill"] = ENC
 				currency(TWW_ENCHANTING_KNOWLEDGE),
 			},
 		},{i(225230),
-			q(83727, {	-- TWW Inscription Order: Enchanting
-				["name"] = "TWW Inscription Order: Enchanting",
-				["description"] = "Requires a crafting order from Inscription.",
-				["provider"] = { "i", 222550 },	-- Algari Treatise on Enchanting
-			}),
 			q(83258, {	-- TWW Weekly Enchanting Knowledgepoint #1
 				["name"] = "TWW Weekly Enchanting Treasure #1",
 				["provider"] =  { "i", 225231 },	-- Powdered Fulgurance

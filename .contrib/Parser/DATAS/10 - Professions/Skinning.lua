@@ -454,11 +454,6 @@ root(ROOTS.Professions, prof(SKINNING, {
 				currency(TWW_SKINNING_KNOWLEDGE),
 			},
 		},{
-			q(83734, {	-- TWW Inscription Order: Skinning
-				["name"] = "TWW Inscription Order: Skinning",
-				["description"] = "Requires a crafting order from Inscription.",
-				["provider"] = { "i", 222649 },	-- Algari Treatise on Skinning
-			}),
 			q(81459, {	-- TWW Weekly Skinning Knowledgepoint #1
 				["name"] = "TWW Weekly Skinning Knowledgepoint #1",
 				["provider"] = { "i", 224780 },	-- Toughened Thunderous Hide

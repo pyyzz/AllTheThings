@@ -930,11 +930,6 @@ root(ROOTS.Professions, prof(TAILORING, bubbleDownSelf({ ["requireSkill"] = TAIL
 				currency(TWW_TAILORING_KNOWLEDGE),
 			},
 		},{
-			q(83735, {	-- TWW Inscription Order: Tailoring
-				["name"] = "TWW Inscription Order: Tailoring",
-				["description"] = "Requires a crafting order from Inscription.",
-				["provider"] = { "i", 222547 },	-- Algari Treatise on Tailoring
-			}),
 			q(83270, {	-- TWW Weekly Tailoring Knowledgepoint #1
 				["name"] = "TWW Weekly Tailoring Treasure #1",
 				["provider"] =  { "i", 225220 },	-- Chitin Needle

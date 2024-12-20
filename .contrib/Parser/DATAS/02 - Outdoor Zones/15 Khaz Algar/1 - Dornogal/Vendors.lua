@@ -369,7 +369,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					iensemble(219118),	-- Peculiar Peddler's Trinkets
 					iensemble(219111),	-- Royal Patron's Elegance
 					iensemble(219130),	-- Saffron Cartographer's Orientation
-					iensemble(219105),	-- Sandy Quotidian Wear
+					-- iensemble(219105),	-- Sandy Quotidian Wear (this is from Lost and Found ach only...)
 					iensemble(219129),	-- Sooty Artisan's Talent
 					iensemble(219128),	-- Stained Artisan's Talent
 					iensemble(219109),	-- Taupe Quotidian Wear

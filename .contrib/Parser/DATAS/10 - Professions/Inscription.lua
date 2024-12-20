@@ -5465,10 +5465,6 @@ root(ROOTS.Professions, prof(INSCRIPTION, bubbleDownSelf({ ["requireSkill"] = IN
 				currency(TWW_INSCRIPTION_KNOWLEDGE),
 			},
 		},{
-			q(83730, {	-- TWW Inscription Order: Inscription
-				["name"] = "TWW Inscription Order: Inscription",
-				["provider"] = { "i", 222548 },	-- Algari Treatise on Inscription
-			}),
 			q(83264, {	-- TWW Weekly Inscription Knowledgepoint #1
 				["name"] = "TWW Weekly Inscription Treasure #1",
 				["provider"] = { "i", 225226 },	-- Striated Inkstone

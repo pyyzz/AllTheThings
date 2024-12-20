@@ -1385,11 +1385,6 @@ root(ROOTS.Professions, prof(MINING, bubbleDownSelf({ ["requireSkill"] = MINING 
 				currency(TWW_MINING_KNOWLEDGE),
 			},
 		},{
-			q(83733, {		-- TWW Inscription Order: Mining
-				["name"] = "TWW Inscription Order: Mining",
-				["description"] = "Requires a crafting order from Inscription.",
-				["provider"] = { "i", 222553 },	-- Algari Treatise on Mining
-			}),
 			q(83054, {	-- TWW Weekly Mining Knowledgepoint #1
 				["name"] = "TWW Weekly Mining Knowledgepoint #1",
 				["provider"] = { "i", 224583 },	-- Slab of Slate

@@ -2503,6 +2503,14 @@ namespace ATT
                 return;
             }
 
+            if (TryGetTypeDBObjectCollection(spellID, out List<SpellEffect> spellEffects))
+            {
+                foreach (SpellEffect spellEffect in spellEffects)
+                {
+                    Incorporate_Item_SpellEffect(data, spellEffect);
+                }
+            }
+
             if (data.TryGetValue("tmogSetID", out long tmogSetID) && TryGetTypeDBObject(tmogSetID, out TransmogSet tmogSet))
             {
                 if (tmogSet.TrackingQuestID > 0)
@@ -2619,12 +2627,13 @@ namespace ATT
                         long questID = spellEffect.EffectMiscValue_0;
                         using (IEnumerator<SpellEffect> spellEffectEnumerator = GetTypeDBObjects<SpellEffect>((se) =>
                         {
-                            return se.IsQuest() && se.EffectMiscValue_0 == questID;
+                            // quest spelleffect with either same spellID or same quest (should only be 1 if we aare going to apply it to an Item)
+                            return se.IsQuest() && (se.SpellID == spellID || se.EffectMiscValue_0 == questID);
                         }).GetEnumerator())
                         {
                             // we know there's 1 at least
                             spellEffectEnumerator.MoveNext();
-                            // if there's a 2nd (or more) then ignore assigning the questID to a specific Item
+                            // if there's a 2nd (or more) then ignore assigning the questID from a specific Spell
                             if (spellEffectEnumerator.MoveNext())
                             {
                                 LogDebug($"INFO: Ignored assignment of Item 'questID' {questID} due to multiple SpellEffect use", data);
