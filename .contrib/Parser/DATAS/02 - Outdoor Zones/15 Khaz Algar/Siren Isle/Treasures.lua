@@ -22,17 +22,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				},
 			}),
 			o(505503, {	-- Ashvane Issued Workboots
-				["description"] = "There's currently a bug and you can loot either this or Barnacle-Encrusted Chest on one character.",
 				["coord"] = { 41.7, 45.9, SIREN_ISLE },
-			--	["questID"] = 86765,
+				["questID"] = 86766,
 				["g"] = {
 					i(233916),	-- Ashvane Issued Workboots (COSMETIC!)
 				},
 			}),
 			o(505510, {	-- Barnacle-Encrusted Chest
-				["description"] = "There's currently a bug and you can loot either this or Ashvane Issued Workboots on one character.",
 				["coord"] = { 74.1, 53.2, SIREN_ISLE },
-				["questID"] = 86765,
+				["questID"] = 86768,
 				["g"] = {
 					i(233910), -- Salt-Stained Sweatcap (COSMETIC!)
 				},
