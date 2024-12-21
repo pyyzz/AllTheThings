@@ -17,7 +17,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				ru = "Роща Кошмаров",
 				ko = "악몽의 숲",
 				cn = "梦魇林地",
-				zh = "夢魘林地",
+				tw = "夢魘林地",
 			},
 			description = {
 				en = "Nightmare Grove can be found near the portals to the Emerald Dream.",
