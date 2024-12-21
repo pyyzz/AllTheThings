@@ -2565,7 +2565,7 @@ namespace ATT
 
             if (!TryGetTypeDBObjectCollection(tmogSetID, out List<TransmogSetItem> transmogSetItems))
             {
-                LogDebugWarn($"Ensemble Type Item missing Wago TransmogSetItem record(s)", data);
+                LogDebugWarn($"Ensemble Type Item missing Wago TransmogSetItem record(s) for TransmogSetID {tmogSetID}", data);
                 return;
             }
 
@@ -2575,7 +2575,29 @@ namespace ATT
                 return;
             }
 
-            data["_sourceIDs"] = transmogSetItems.Select(i => i.ItemModifiedAppearanceID).ToList();
+            List<long> allSourceIDs = transmogSetItems.Select(i => i.ItemModifiedAppearanceID).ToList();
+
+            // check if other Ensembles have the same TrackingQuestID -- these seem to additionally be granted without relying on a nested SpellEffect trigger
+            if (data.TryGetValue("questID", out long questID) && TryGetTypeDBObjectCollection(questID, out List<TransmogSet> sameQuestTransmogSets))
+            {
+                foreach (var sameQuestTransmogSet in sameQuestTransmogSets)
+                {
+                    if (sameQuestTransmogSet.ID != tmogSetID)
+                    {
+                        if (!TryGetTypeDBObjectCollection(sameQuestTransmogSet.ID, out transmogSetItems))
+                        {
+                            LogDebugWarn($"Ensemble {tmogSetID} missing addtional Wago TransmogSetItem record(s) for TransmogSetID {sameQuestTransmogSet.ID}", data);
+                        }
+                        else
+                        {
+                            allSourceIDs.AddRange(transmogSetItems.Select(i => i.ItemModifiedAppearanceID));
+                            LogDebug($"INFO: Ensemble {tmogSetID} has addtional TransmogSetItem record(s) from TransmogSetID {sameQuestTransmogSet.ID}", data);
+                        }
+                    }
+                }
+            }
+
+            data["_sourceIDs"] = allSourceIDs.Distinct().ToList();
             //foreach (long sourceID in )
             //{
             //    Items.DetermineItemID(itemData);

@@ -63,6 +63,11 @@ namespace ATT.DB
                     dictionary[parsedLine.ID] = parsedLine;
                 }
             }
+
+            if (dictionary.Count < (csvlines.Length / 2))
+            {
+                Framework.LogWarn($"Something horrible happened to Wago '{type}' CSV File since it has barely any recognizable data!");
+            }
             return dictionary;
         }
 

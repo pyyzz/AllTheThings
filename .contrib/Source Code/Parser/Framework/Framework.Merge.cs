@@ -949,6 +949,11 @@ namespace ATT
             {
                 CollectObjectsByValue<SpellEffect>(type, (se) => se.SpellID);
             }
+            // TransmogSet creates QuestID mapping one-time
+            if (type == nameof(TransmogSet))
+            {
+                CollectObjectsByValue<TransmogSet>(type, (se) => se.TrackingQuestID);
+            }
             // TransmogSetItem creates TransmogSetID mapping one-time
             if (type == nameof(TransmogSetItem))
             {
