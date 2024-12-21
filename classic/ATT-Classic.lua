@@ -1644,7 +1644,7 @@ function app:GetDataCache()
 		-- Expansion Features
 		if app.Categories.ExpansionFeatures and #app.Categories.ExpansionFeatures > 0 then
 			tinsert(g, {
-				text = "Expansion Features",
+				text = EXPANSION_FILTER_TEXT,
 				icon = app.asset("Category_ExpansionFeatures"),
 				g = app.Categories.ExpansionFeatures
 			});
