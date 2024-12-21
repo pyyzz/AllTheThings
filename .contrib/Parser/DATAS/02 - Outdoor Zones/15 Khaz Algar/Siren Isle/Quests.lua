@@ -4,6 +4,42 @@
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, {
 	m(SIREN_ISLE, {
 		n(QUESTS, {
+			n(BONUS_OBJECTIVES, {
+				q(84719, {	-- Shuddering Hollow
+					["repeatable"] = "true",
+					["coord"] = { 68.3, 42.1, SIREN_ISLE },
+				}),
+				q(85754, {	-- The Drain
+					["repeatable"] = "true",
+					["coord"] = { 57.9, 69.3, SIREN_ISLE },
+				}),
+				q(85761, {	-- The Drowned Lair
+					["repeatable"] = "true",
+					["coord"] = { 27.4, 62.5, SIREN_ISLE },
+				}),
+				-- Citrines
+				i(228639),	-- Fathomdweller's Runed Citrine
+				i(228646),	-- Legendary Skipper's Citrine
+				i(228644),	-- Mariner's Hallowed Citrine
+				i(228643),	-- Old Salt's Bardic Citrine
+				i(228648),	-- Roaring War-Queen's Citrine
+				i(228647),	-- Seabed Leviathan's Citrine
+				i(228642),	-- Storm Sewer's Citrine
+				i(228638),	-- Stormbringer's Runed Citrine
+				i(228635),	-- Squall Sailor's Citrine
+				i(228634),	-- Thunderlord's Crackling Citrine
+				i(228636),	-- Undersea Overseer's Citrine
+				i(232372, {	-- Crate of Bygone Riches
+					i(233827),	-- Bilge Rat Meat Tenderizer (COSMETIC!)
+					i(233814),	-- Bilge Rat Swabbie's Brush (COSMETIC!)
+					i(233815),	-- Bilge Rat Swabbie's Mop (COSMETIC!)
+					i(233825),	-- Goblin Screwdriver (COSMETIC!)
+					i(233915),	-- Plated Sea Boots (COSMETIC!)
+					i(233820),	-- Seawashed Zuldazar Mallet (COSMETIC!)
+					i(233914),	-- Tarnished Vrykul Cleaver (COSMETIC!)
+					i(233821),	-- Zandalari Tongs (COSMETIC!)
+				}),
+			}),
 			q(84719, {	-- The Expedition Awaits
 				--["sourceQuests"] = { ??? },	-- TODO: unknown
 				["provider"] = { "n", 232132 },	-- Dawn
