@@ -44,10 +44,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						}),
 					},
 				}),
-				q(86556, {	-- -- A Shattered Journey Through Time (Low Level Cata TW (under 70) and was picked up through adventure guide)
-					["isWeekly"] = true,
-					["timeline"] = { ADDED_11_0_7 },
-				}),
 				q(83347, {						-- Emissary of War
 					["provider"] = { "n", 226919 },	-- Archivist Frithrun
 					["coord"] = { 46.5, 49.3, DORNOGAL },

@@ -2371,30 +2371,37 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 				}),
 				n(QUESTS, {
 					q(85948, {	-- A Burning Journey Through Time
-						-- TODO: move out of here if will be up after anniversary
-						--["provider"] = { "n", ? },	-- push quest in tw bc dungeon for low level character
-						--["coord"] = { X, Y, Z },
+						-- TODO: Move out of here if it will be up after anniversary
+						["provider"] = { "n", 98685 },	-- Cupri
+						["coord"] = { 54.4, 38.8,  SHATTRATH_CITY },
 						["isWeekly"] = true,
-						["g"] = {
-							i(232877),	-- Timely Goodie Bag
-						},
+						["sym"] = { { "select", "itemID", 232877 } },	-- Timely Goodie Bag
 					}),
 					q(83274, {	-- An Original Path Through Time
+						-- TODO: Move out of here if it will be up after anniversary
 						["provider"] = { "n", 223884 },	-- Bobadormu
 						["coord"] = { 62.7, 50.3, TANARIS },
 						["isWeekly"] = true,
 						["lvl"] = 80,
-						["g"] = {
-							i(229359),	-- Chromie's Goodie Bag
-						},
+						["sym"] = { { "select", "itemID", 232877 } },	-- Timely Goodie Bag
 					}),
 					q(85947, {	-- An Original Path Through Time
+						-- TODO: Move out of here if it will be up after anniversary
 						["provider"] = { "n", 223884 },	-- Bobadormu
 						["coord"] = { 62.7, 50.3, TANARIS },
 						["isWeekly"] = true,
-						["g"] = {
-							i(232877),	-- Timely Goodie Bag
+						["sym"] = { { "select", "itemID", 232877 } },	-- Timely Goodie Bag
+					}),
+					q(86556, {	-- -- A Shattered Journey Through Time
+						-- TODO: Move out of here if it will be up after anniversary
+						["provider"] = { "n", 101759 },	-- Kiatke
+						["coords"] = {
+							{ 76.6, 16.6, STORMWIND_CITY },
+							{ 52.1, 41.6, ORGRIMMAR },
 						},
+						["isWeekly"] = true,
+						["timeline"] = { ADDED_11_0_7 },
+						["sym"] = { { "select", "itemID", 232877 } },	-- Timely Goodie Bag
 					}),
 					q(82817, {	-- Disturbance Detected: Blackrock Depths
 						["provider"] = { "n", 229494 },	-- Moira Thaurissan <Queen of the Dark Iron>
