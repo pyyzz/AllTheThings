@@ -165,10 +165,6 @@ root(ROOTS.Holidays, applyevent(EVENTS.TIMEWALKING, n(TIMEWALKING_HEADER, bubble
 				}),
 			},
 		}),
-		n(QUESTS, {
-			hqt(78204, { ["timeline"] = { ADDED_10_1_7 } }),	-- Gain Mastery of Timeways for 5 weeks during Turbulent Timeways I
-			hqt(85877, { ["timeline"] = { ADDED_11_0_7 } }),	-- Gain Mastery of Timeways for 5 weeks during Turbulent Timeways II
-		}),
 	},
 }))));
 

@@ -1844,8 +1844,7 @@ root(ROOTS.HiddenQuestTriggers, {
 			q(79332, {["timeline"] = {ADDED_10_2_0}}, {["repeatable"]=true}),	-- Triggers after winning a Brawl: Battleground Blitz (possibly only when theres an elistment bonus?)
 		}),
 		applyevent(EVENTS.TIMEWALKING, n(TIMEWALKING_HEADER, {
-			q(78204, {["timeline"] = {ADDED_10_1_7}}),	-- Master of Timeways - First Week Trigger (spellID 423861)
-			--q(85877, {["timeline"] = {ADDED_11_0_7}}),	-- Master of Timeways (spellID 471544)
+			q(78204, {["timeline"] = {ADDED_10_1_7}}),	-- Gain Mastery of Timeways for 5 weeks during Turbulent Timeways I (spellID 423861)
 		})),
 	})),
 
@@ -1854,6 +1853,7 @@ root(ROOTS.HiddenQuestTriggers, {
 	------------------
 	expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
 		n(GROUP_FINDER, {
+			q(39751, {["timeline"] = { ADDED_11_0_5 }}),	-- Classic Timewalking LFG completion
 			q(83707),	-- LFGDungeons - 11.0 The War Within - Raid Finder - 1st
 			q(83708),	-- LFGDungeons - 11.0 The War Within - Raid Finder - Nth
 			q(78169),	-- LFGDungeons - Timewalking "Heroic" Random - 1st
@@ -1918,9 +1918,9 @@ root(ROOTS.HiddenQuestTriggers, {
 			q(82624),	-- The War Within (80) E
 			q(82625),	-- The War Within (80) E
 		}),
-		n(GROUP_FINDER, {
-			q(39751, {["timeline"] = { ADDED_11_0_5 }}),	-- Classic Timewalking LFG completion
-		})
+		applyevent(EVENTS.TIMEWALKING, n(TIMEWALKING_HEADER, {
+			q(85877, {["timeline"] = {ADDED_11_0_7}}),	-- Gain Mastery of Timeways for 5 weeks during Turbulent Timeways II (spellID 471544)
+		})),
 	})),
 
 	--------------------
