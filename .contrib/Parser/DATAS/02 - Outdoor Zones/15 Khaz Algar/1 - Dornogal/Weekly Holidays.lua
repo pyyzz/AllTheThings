@@ -32,6 +32,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					["_drop"] = { "g" },	-- Drop Ultimate Battle-Training Stone
 				}))),
 				q(83366),					-- The World Awaits
+				q(86556),					-- A Shattered Journey Through Time (Low Level Cata TW (under 70) and was picked up through adventure guide)
 			})),
 			n(QUESTS, {
 				q(84776, {						-- A Call to Delves
