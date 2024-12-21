@@ -8,6 +8,7 @@ COMMON_BOSS_DROPS = createHeader({
 		en = [[~BATTLE_PET_BREED_QUALITY2.." "..TRANSMOG_SOURCE_1]],
 		de = "Gemeinsame Bossbeute",
 		ru = "Общая добыча с боссов",
-		cn = "一般首领掉落",
+		cn = "首领共同掉落",
+		tw = "首領共通掉落"
 	},
 });
