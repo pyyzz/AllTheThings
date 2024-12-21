@@ -523,7 +523,7 @@ for key,value in pairs({
 		MERCH_BUTTON_LABEL = "商店";
 		MERCH_BUTTON_TOOLTIP = "點擊按鈕複製 URL 以進入 All The Things 商店。\n\n在這裡您可以在經濟上支援此插件並獲得一些很酷的商品作為回報！ ";
 		PATREON_BUTTON_TOOLTIP = "點擊按鈕複製 URL 以進入 All The Things Patreon 頁面。\n\n在這裡您可以看到如何在經濟上支援此插件！";
-		TWITCH_BUTTON_TOOLTIP = "點擊按鈕複製 URL 到我的 Twitch 频道。\n\n可以在我直播的時候問問題，我會盡力回答！";
+		TWITCH_BUTTON_TOOLTIP = "點擊按鈕複製 URL 到我的 Twitch 頻道。\n\n可以在我直播的時候問問題，我會盡力回答！";
 		WAGO_BUTTON_TOOLTIP = "點擊按鈕複製 URL 到 Wago.io 的 ALL THE THINGS 插件頁面。\n\n您也可以將此連接發送給您的朋友，讓他們也毀掉自己的生活！他們最終會原諒你……也許吧。";
 
 	-- General Page
@@ -539,7 +539,7 @@ for key,value in pairs({
 		COMPLETIONIST_MODE = "+來源";
 		COMPLETIONIST_MODE_TOOLTIP = "啟用該模式，只有當特定物品已被解鎖為給定外觀時才將物品視為已收藏。\n\n這意味著你需要收藏每一個共享外觀的物品。\n\n注意：預設情況下一旦你收藏了共享來源，遊戲就會停止告訴你未收藏的物品，這將確保未收藏的物品會被追蹤。";
 		MAIN_ONLY = "僅主要";
-		MAIN_ONLY_TOOLTIP = "如果你還想讓 ATT *假裝*你赢得了所有未被其他種族或職業鎖定的共享外觀，請啟用此設定。\n\n例如，如果你從冰冠城塞收藏了一個僅限獵人使用的物品，並且在沒有職業/種族限制的情況下，有一個來自副本的共享外觀，那麼 ATT 將*假裝*你也獲得了該外觀來源。\n\n注意：以這種方式解鎖時，切換到其他種族/職業將錯誤地回報你已經獲得了尚未為新角色收藏的外觀來源。";
+		MAIN_ONLY_TOOLTIP = "如果你還想讓 ATT *假裝*你贏得了所有未被其他種族或職業鎖定的共享外觀，請啟用此設定。\n\n例如，如果你從冰冠城塞收藏了一個僅限獵人使用的物品，並且在沒有職業/種族限制的情況下，有一個來自副本的共享外觀，那麼 ATT 將*假裝*你也獲得了該外觀來源。\n\n注意：以這種方式解鎖時，切換到其他種族/職業將錯誤地回報你已經獲得了尚未為新角色收藏的外觀來源。";
 		ONLY_RWP = "僅‘隨更新移除’";
 		ONLY_RWP_TOOLTIP = "啟用此選項僅追蹤未來會從遊戲中刪除的幻化。只有標記為“隨更新移除”的資料的物品才會計入此資料。如果您發現未標記但應標記的物品，請告訴我！\n\n您可以依據“篩選器”選項卡更改顯示的戰利品類型。";
 		ONLY_NOT_TRASH = "排除垃圾物品";
@@ -626,7 +626,7 @@ for key,value in pairs({
 		CHARACTERUNLOCKS_CHECKBOX_TOOLTIP = "啟用此選項可追蹤角色解鎖。這些是基於角色的各種解鎖，無法明確歸類為其他類型（例如 妖術變體、變形術變體、獵人物種馴服解鎖、波可波克自訂等）。\n\n預設情況下按角色追蹤。";
 
 		-- Account-Wide Checkboxes
-		ACCOUNT_WIDE_ACHIEVEMENTS_TOOLTIP = "成就追蹤通常是在整個帳號通用內進行的，但有一些特定職業和種族的專属成就，你無法在你的主要角色上獲得。";
+		ACCOUNT_WIDE_ACHIEVEMENTS_TOOLTIP = "成就追蹤通常是在整個帳號通用內進行的，但有一些特定職業和種族的專屬成就，你無法在你的主要角色上獲得。";
 		ACCOUNT_WIDE_APPEARANCES_TOOLTIP = "外觀應該在整個帳號範圍內收集。某些物品並非每個職業都能學會，因此 ATT 將盡力只向您展示你當前角色可以收集的物品。";
 		ACCOUNT_WIDE_AZERITE_ESSENCES_TOOLTIP = "艾澤拉斯精華在技術上不能在整個戰隊內收藏和使用，但如果你只關心收藏你的主要角色那麼你可能更喜歡在整個戰隊上追蹤它們。";
 		ACCOUNT_WIDE_BATTLE_PETS_TOOLTIP = "伙伴寵物可在多個角色上收集，並且實際上需要你擁有大量的背包空間才能將它們全部收集在一個角色上。\n\n我們建議您保持此功能開啟，但你可以自己刷。";
@@ -636,10 +636,10 @@ for key,value in pairs({
 		ACCOUNT_WIDE_FLIGHT_PATHS_TOOLTIP = "飛行路線追蹤對每個角色都非常有用，但是你真的想要在所有50個角色上收藏它們嗎？";
 		ACCOUNT_WIDE_FOLLOWERS_TOOLTIP = "追隨者通常是每個角色的，但是你真的想以每周1個的速度在一個角色上收藏243個追隨者嗎？\n\n我想不行，好好先生。";
 		ACCOUNT_WIDE_QUESTS_TOOLTIP = "任務完成通常是每個角色的，但是如果任何一個角色完成了特定的任務，這個任務就會被認為是已完成。";
-		ACCOUNT_WIDE_RECIPES_TOOLTIP = "在暴雪的資料庫中，配方通常不會被帳號通用追蹤，但我們可以這樣做。\n\n在一個角色上不可能收藏到所有的東西，所以有了這個，你就可以赋予你的小號和他們的專業以意義。";
+		ACCOUNT_WIDE_RECIPES_TOOLTIP = "在暴雪的資料庫中，配方通常不會被帳號通用追蹤，但我們可以這樣做。\n\n在一個角色上不可能收藏到所有的東西，所以有了這個，你就可以賦予你的小號和他們的專業以意義。";
 		ACCOUNT_WIDE_REPUTATIONS_TOOLTIP = "聲望的成就現在會在暴雪的資料庫中追蹤帳號通用，所以開啟這個功能可能是個好主意。";
 		ACCOUNT_WIDE_SOULBINDCONDUITS_TOOLTIP = "啟用此功能後如果至少有一個角色學會了靈魂羈絆的導靈器，則將所有角色的靈魂羈絆的導靈器視為收藏。";
-		ACCOUNT_WIDE_TITLES_TOOLTIP = "大多數稱號都是在帳號通用內進行追蹤，但是魔獸世界中一些著名的稱號被鎖定在赢得他們的角色上。\n\n如果你不關心這個並希望看到那些標記為收藏的稱號是你的小號，請切換此選項。";
+		ACCOUNT_WIDE_TITLES_TOOLTIP = "大多數稱號都是在帳號通用內進行追蹤，但是魔獸世界中一些著名的稱號被鎖定在贏得他們的角色上。\n\n如果你不關心這個並希望看到那些標記為收藏的稱號是你的小號，請切換此選項。";
 
 	-- General: Filters Page
 		ITEM_EXPLAIN_LABEL = "|cffFFFFFF始終顯示此內容如果位於 "..app.ccColors.Account.."帳號模式|cffFFFFFF。|r";
