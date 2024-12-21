@@ -51,6 +51,14 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					i(228355),	-- Flayed Doomguard Belt
 					i(228352),	-- Fel-Infused Leggings
 					i(228359),	-- Ring of Entropy
+					i(21371),	-- Pattern: Core Felcloth Bag
+				},
+			}),
+			n(12397, {	-- Lord Kazzak / Highlord Kruul
+				["crs"] = { 18338 },	-- Highlord Kruul
+				["timeline"] = { "removed 1.15.3" },
+				["modelScale"] = 6.0,
+				["groups"] = {
 					i(17113, {	-- Amberseal Keeper
 						["timeline"] = { "removed 1.15.3" },
 					}),
@@ -81,7 +89,6 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					i(18543, {	-- Ring of Entropy
 						["timeline"] = { "removed 1.15.3" },
 					}),
-					i(21371),	-- Pattern: Core Felcloth Bag
 				},
 			}),
 		},

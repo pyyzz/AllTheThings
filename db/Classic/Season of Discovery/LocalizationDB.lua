@@ -340,6 +340,7 @@ localize(L.HEADER_NAMES, {
 	[-1001035] = "Seasonal Fish: Summer Bass",
 	[-1001036] = "Seasonal Fish: Winter Squid",
 	[-1001042] = "The Crystal Vale",
+	[-1001058] = "Nightmare Grove",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000015] = "Warlocks can teach their demons new tricks. Some of the higher level grimoires can only be purchased from the Demon Trainer in your faction's capital cities.",
@@ -378,6 +379,7 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-1000997] = "This event occurs every 2 hours from Midnight and lasts 60 minutes. While this event is active, Daily Quests will be available in Searing Gorge for the Thorium Brotherhood. Traditionally Thorium Brotherhood can be quite a grind to achieve reputation with so this addition of a Daily Quest Hub will be very welcome.\nWhen the event is active, new NPCs will spawn and some environmental changes will occur to the outside area of Searing Gorge.",
 	[-1000998] = "The Tainted Scar is a small region in the western Blasted Lands, corrupted for years by the energies of the Dark Portal. Following the Third War, it became the demonic domain of Lord Kazzak and his army until the Invasion of Outland.",
 	[-1001042] = "The Crystal Vale can be found near the northwest corner of Silithus.",
+	[-1001058] = "Nightmare Grove can be found near the portals to the Emerald Dream.",
 });
 localize(L.HEADER_LORE, {
 	[-1000048] = "One of these dragons will spawn randomly at the associated coordinates across Azeroth.",
@@ -3875,6 +3877,7 @@ localize(L.HEADER_NAMES, {
 	[-1001035] = "Saisonfisch: Sommerbarsch",
 	[-1001036] = "Saisonfisch: Winterkalmar",
 	[-1001042] = "Kristalltal",
+	[-1001058] = "Alptraumhain",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000025] = "Es muss möglicherweise ein bestimmter Feiertag aktiv sein, um hier genannte Dinge abschließen zu können.",
@@ -5055,6 +5058,7 @@ localize(L.HEADER_NAMES, {
 	[-1001035] = "Poisson de saison : bar d'été",
 	[-1001036] = "Poisson de saison : calmar d'hiver",
 	[-1001042] = "La vallée des Cristaux",
+	[-1001058] = "Bosquet du cauchemar",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000033] = "Contient des objets de récompenses ou disponibles dans d’autres contenus de la section qui les contient.\nIls sont regroupés ici dans le but de réduire la duplication de nombreuses sources possibles.",
@@ -6628,6 +6632,7 @@ localize(L.HEADER_NAMES, {
 	[-1001035] = "Peixe sazonal: robalo de verão",
 	[-1001036] = "Peixe sazonal: Lula de Inverno",
 	[-1001042] = "Vale de Cristal",
+	[-1001058] = "Bosque do Pesadelo",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000040] = "Um mestre de armas é um NPC que oferece aos personagens a oportunidade de aprender habilidades específicas com armas, cuja disponibilidade varia de um mestre de armas para outro. Todas as habilidades com armas podem ser treinadas no nível 1, exceto as armas de haste, que exigem nível 20.\n\nO treinamento com um mestre de armas tornou-se obsoleto no Patch 4.0.1, já que todas as proficiências de armas apropriadas à classe agora são aprendidas por cada classe após a criação. Os mestres de armas foram removidos do jogo logo depois.",
@@ -7664,6 +7669,7 @@ localize(L.HEADER_NAMES, {
 	[-1001035] = "Сезонная рыба: летний окунь",
 	[-1001036] = "Сезонная рыба: зимний кальмар",
 	[-1001042] = "Долина Кристаллов",
+	[-1001058] = "Роща Кошмаров",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000025] = "Чтобы выполнить упомянутые в данной секции Штучки, может быть нужен какой-то праздник.",
@@ -8897,6 +8903,7 @@ localize(L.HEADER_NAMES, {
 	[-1001035] = "제철 생선: 여름 농어",
 	[-1001036] = "제철 생선: 겨울 오징어",
 	[-1001042] = "수정 골짜기",
+	[-1001058] = "악몽의 숲",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000040] = "웨폰 마스터는 캐릭터에게 특정 무기 기술을 배울 수 있는 기회를 제공하는 NPC로, 사용 가능 여부는 웨폰 마스터마다 다릅니다. 모든 무기 기술은 레벨 20이 필요한 폴암을 제외하고 레벨 1에서 훈련할 수 있습니다.\n\n4.0.1 패치에서는 각 병과가 생성 시 모든 병과에 적합한 무기 숙련도를 배우게 되므로 무기 전문가와의 훈련은 더 이상 필요하지 않게 되었습니다. 무기 마스터는 곧 게임에서 제거되었습니다.",
@@ -9965,6 +9972,7 @@ localize(L.HEADER_NAMES, {
 	[-1001035] = "Pescado de temporada: lubina de verano",
 	[-1001036] = "Pescado de temporada: calamares de invierno",
 	[-1001042] = "La Vega de Cristal",
+	[-1001058] = "Arboleda de la Pesadilla",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000040] = "Un maestro de armas es un PNJ que ofrece a los personajes la oportunidad de aprender habilidades específicas con armas, cuya disponibilidad varía de un maestro de armas a otro. Todas las habilidades con armas se pueden entrenar en el nivel 1, excepto las armas de asta que requieren el nivel 20.\n\nEl entrenamiento con un maestro de armas quedó obsoleto en el parche 4.0.1, ya que cada clase ahora aprende todas las competencias de armas apropiadas para la clase en el momento de la creación. Los maestros de armas se eliminaron del juego poco después.",
@@ -11045,6 +11053,9 @@ for key,value in pairs({
 })
 do achievementCategories[key].name = value; end
 if GetLocale():sub(3,4):lower() == "mx" then
+localize(L.HEADER_NAMES, {
+	[-1001058] = "Arboleda de las Pesadillas",
+});
 for key,value in pairs({
 	[428] = "Trueno Furioso, espada bendita del Hijo del Viento",
 	[685] = "Guarida de Alanegra",
@@ -11090,7 +11101,7 @@ localize(_.CategoryNames, {
 	[3] = "塔罗牌",
 });
 localize(L.HEADER_NAMES, {
-	[-1000010] = "一般首领掉落",
+	[-1000010] = "首领共同掉落",
 	[-1000013] = "常规商人物品",
 	[-1000015] = "恶魔训练师",
 	[-1000019] = "探索",
@@ -11135,7 +11146,7 @@ localize(L.HEADER_NAMES, {
 	[-1000263] = "可口可乐活动",
 	[-1000273] = "发现季节",
 	[-1000274] = "理解",
-	[-1000275] = "等级 2",
+	[-1000275] = "等级 1",
 	[-1000276] = "等级 2",
 	[-1000277] = "怪物狩猎",
 	[-1000278] = "铭刻",
@@ -11145,12 +11156,14 @@ localize(L.HEADER_NAMES, {
 	[-1000377] = "野生多晶型物",
 	[-1000378] = "灵魂经纪人",
 	[-1000380] = "赏金任务",
+	[-1000969] = "梦魇入侵",
 	[-1000970] = "等级 3",
 	[-1000996] = "风暴悬崖",
 	[-1000998] = "腐烂之痕",
 	[-1001035] = "时令鱼类：夏季鲈鱼",
 	[-1001036] = "时令鱼类：冬鱿鱼",
 	[-1001042] = "水晶谷",
+	[-1001058] = "梦魇林地",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000025] = "你可能需要在特定的节日活动中才能完成本节中的事物。",
@@ -11158,7 +11171,7 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-1000033] = "包含有奖励或可从包含部分中的其他内容获得的事物。\n在此处合并以减少来自许多可能重复来源。",
 	[-1000040] = "武器大师是一个 NPC，为角色提供学习特定武器技能的机会，不同武器大师的可用性各不相同。所有武器技能都可以在 1 级进行训练，长柄武器除外，需要 20 级。\n\n在补丁 4.0.1 中，武器大师的训练已经过时，因为现在每个班级在创建时都会学习所有适合班级的武器熟练程度。不久之后，武器大师就被从游戏中删除了。",
 	[-1000273] = "本赛季带来了 25 级的初始等级上限和新的 25 级终局游戏，包括 10 名玩家的 Blackfathom Deeps 突袭，其中包含新的机制、新的和重新设计的 Boss 来挑战玩家的战术和策略，以及新鲜的奖励。",
-	[-1000278] = "符文雕刻是最近在发现季节宣布的一个新系统。它允许每个班级通过解锁新的独特能力来定制他们的游戏体验！",
+	[-1000278] = "铭刻是最近在发现季节宣布的一个新系统。它允许每个班级通过解锁新的独特能力来定制他们的游戏体验！",
 	[-1000279] = "伏击补给品任务物品从艾泽拉斯 6 级及以上的小怪中掉落。这些任务要求将路障补给品交付给组织代表，以换取一些银币、经验和声望。当然，补给中也有缺少的物品，你可以补充以获得更大的声望奖励。",
 	[-1000376] = "无论谁先击中目标，只有最终击中醉汉的人才会获得荣誉。对此没有团体信用。",
 	[-1000377] = "对受到野生变形术影响的小动物施放变形术，将它们变回学徒。每个人都会给你一张纸条。收集 6 个笔记来学习符文。",
@@ -11752,6 +11765,7 @@ localize(ObjectNames, {
 	[386759] = "图书馆书籍",
 	[386777] = "尘封的宝箱",
 	[405149] = "塔佐的浮雕",
+	[405633] = "石颚提箱",
 	[405879] = "药剂师的会社读本",
 	[406918] = "信使行囊",
 	[407120] = "空荡荡的钳嘴龟的巢",
@@ -12130,14 +12144,33 @@ for key,value in pairs({
 do achievementCategories[key].name = value; end
 if GetLocale():sub(3,4):lower() == "tw" then
 localize(L.HEADER_NAMES, {
+	[-1000010] = "首領共通掉落",
 	[-1000021] = "飛行路線",
 	[-1000025] = "節慶用品",
 	[-1000038] = "寶箱",
+	[-1000040] = "武器大師",
+	[-1000042] = "世界首領",
 	[-1000044] = "地區掉落",
+	[-1000165] = "T0.5套裝",
 	[-1000201] = "暗月馬戲團",
+	[-1000273] = "探索賽季",
+	[-1000275] = "等級 1",
+	[-1000276] = "等級 2",
+	[-1000278] = "紋刻",
+	[-1000280] = "製作",
+	[-1000281] = "採集",
+	[-1000969] = "夢魘入侵",
+	[-1000970] = "等級 3",
+	[-1001058] = "夢魘林地",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000025] = "你可能需要在特定節日的活動中才能完成本節中的事物。",
+	[-1000040] = "武器大師是一个 NPC，為角色提供學習特定武器技能的機會，不同武器大師的可用性各不相同。所有武器技能都可以在 1 级進行訓練，長柄武器除外，需要 20 级。\n\n在更新 4.0.1 中，武器大師的訓練已经過時，因為现在每个職業在創建时都會學習所有適合該職業的武器熟練度。不久之後，武器大師就被從遊戲中删除了。",
+	[-1000273] = "這個賽季起初將會有 25 級的上限，還會帶來全新的 25 級終局內容，包括帶有全新機制的 10 人玩家黑澗深淵副本、全新設計的首領來挑戰玩家的戰術實力，同時還會給予新獎勵。",
+	[-1000278] = "紋刻是最近在探索賽季實現的一個新系統，它允許每個職業通過解鎖新的獨特能力來自訂他們的遊戲體驗！",
+});
+localize(ObjectNames, {
+	[405633] = "石齶置物箱",
 });
 for key,value in pairs({
 	[1] = "從未實裝 [NYI]",
@@ -12150,7 +12183,7 @@ do phases[key].name = value; end
 for key,value in pairs({
 	[1] = "|cFFFF0000此項玩家永遠無法獲得。|r",
 	[2] = "|cFFFF0000此項已從遊戲中刪除。|r",
-	[3] = "|cFFAAFFAA這被鎖定在付費牆後面，例如遊戲内商店、另一個暴雪產品或招兵買馬召集令。|r",
+	[3] = "|cFFAAFFAA這被鎖定在付費牆後面，例如遊戲內商店、另一個暴雪產品或招兵買馬召集令。|r",
 	[4] = "|cFFFFAAAA除非您擁有所需的 PvP 稱號、所需的 PvP 等級或處於該賽季的前 %，否則無法再購買或解鎖塑形。|r",
 	[5] = "|cFFFFAAAA這不能永久收集、學習或用於塑形。|r",
 	[11] = "|cFFAAFFAA該功能直到 Phase 1 的 WoW Classic 才可用。|r",

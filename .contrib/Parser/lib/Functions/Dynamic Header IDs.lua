@@ -288,6 +288,7 @@ HeaderAssignments = {
 	["Nether Disruptor"] = -1000935,
 	["Neutral"] = -1000096,
 	["New Character"] = -1000373,
+	["Nightmare Grove"] = -1001058,
 	["Noblegarden"] = -1000224,
 	["Normal (5.4)"] = -1000303,
 	["North"] = -1000001,
@@ -539,4 +540,4 @@ HeaderAssignments = {
 	["Zone Rewards"] = -1000045,
 	["Zskera Vaults"] = -1000937,
 };
-NextHeaderID = -1001058;
+NextHeaderID = -1001059;

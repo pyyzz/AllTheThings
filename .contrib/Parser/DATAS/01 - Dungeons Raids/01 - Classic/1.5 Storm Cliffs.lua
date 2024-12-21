@@ -49,38 +49,44 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 				i(228340),	-- Unmelting Ice Girdle
 				i(228345),	-- Leggings of Arcane Supremacy
 				i(228384),	-- Snowblind Shoes
-				i(19130, {	-- Cold Snap
-					["timeline"] = { "removed 1.15.3" },
-				}),
-				i(18202, {	-- Eskhandar's Left Claw
-					["timeline"] = { "removed 1.15.3" },
-				}),
-				i(17070, {	-- Fang of the Mystics
-					["timeline"] = { "removed 1.15.3" },
-				}),
-				i(18542, {	-- Typhoon
-					["timeline"] = { "removed 1.15.3" },
-				}),
-				i(19132, {	-- Crystal Adorned Crown
-					["timeline"] = { "removed 1.15.3" },
-				}),
-				i(18208, {	-- Drape of Benediction
-					["timeline"] = { "removed 1.15.3" },
-				}),
-				i(18541, {	-- Puissant Cape
-					["timeline"] = { "removed 1.15.3" },
-				}),
-				i(18547, {	-- Unmelting Ice Girdle
-					["timeline"] = { "removed 1.15.3" },
-				}),
-				i(18545, {	-- Leggings of Arcane Supremacy
-					["timeline"] = { "removed 1.15.3" },
-				}),
-				i(19131, {	-- Snowblind Shoes
-					["timeline"] = { "removed 1.15.3" },
-				}),
 				i(228316),	-- Pattern: Incandescent Mooncloth Vest
 				i(228250),	-- Plans: Stronger-hold Gauntlets
+			}),
+			n(6109, {	-- Azuregos
+				["timeline"] = { "removed 1.15.3" },
+				["modelScale"] = 6.0,
+				["groups"] = {
+					i(19130, {	-- Cold Snap
+						["timeline"] = { "removed 1.15.3" },
+					}),
+					i(18202, {	-- Eskhandar's Left Claw
+						["timeline"] = { "removed 1.15.3" },
+					}),
+					i(17070, {	-- Fang of the Mystics
+						["timeline"] = { "removed 1.15.3" },
+					}),
+					i(18542, {	-- Typhoon
+						["timeline"] = { "removed 1.15.3" },
+					}),
+					i(19132, {	-- Crystal Adorned Crown
+						["timeline"] = { "removed 1.15.3" },
+					}),
+					i(18208, {	-- Drape of Benediction
+						["timeline"] = { "removed 1.15.3" },
+					}),
+					i(18541, {	-- Puissant Cape
+						["timeline"] = { "removed 1.15.3" },
+					}),
+					i(18547, {	-- Unmelting Ice Girdle
+						["timeline"] = { "removed 1.15.3" },
+					}),
+					i(18545, {	-- Leggings of Arcane Supremacy
+						["timeline"] = { "removed 1.15.3" },
+					}),
+					i(19131, {	-- Snowblind Shoes
+						["timeline"] = { "removed 1.15.3" },
+					}),
+				},
 			}),
 		},
 	}))),
