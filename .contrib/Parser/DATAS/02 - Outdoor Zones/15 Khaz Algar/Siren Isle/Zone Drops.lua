@@ -7,8 +7,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			i(233500, {	-- Crimson Snapdragon Treat
 				["description"] = "Can be looted from pirates",
 			}),
-			i(235017, {	-- Glittering Vault Shard (TOY!)
-				--["description"] = "TODO: possibly add description from which type of mobs it can be looted",
 			}),
 			i(233494, {	-- Muddy Snapdragon Treat
 				["description"] = "Can be looted from vrykuls",
