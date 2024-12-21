@@ -12,7 +12,7 @@ curl -o "ItemEffect.%BUILD%.csv" "https://wago.tools/db2/ItemEffect/csv?build=%B
 curl -o "ItemXItemEffect.%BUILD%.csv" "https://wago.tools/db2/ItemXItemEffect/csv?build=%BUILD%"
 curl -o "ModifierTree.%BUILD%.csv" "https://wago.tools/db2/ModifierTree/csv?build=%BUILD%"
 curl -o "SpellEffect.%BUILD%.csv" "https://wago.tools/db2/SpellEffect/csv?build=%BUILD%"
-curl -o "TransmogSet.%BUILD%.csv" "https://wago.tools/db2/TransmogSetcsv?build=%BUILD%"
+curl -o "TransmogSet.%BUILD%.csv" "https://wago.tools/db2/TransmogSet/csv?build=%BUILD%"
 curl -o "TransmogSetItem.%BUILD%.csv" "https://wago.tools/db2/TransmogSetItem/csv?build=%BUILD%"
 
 call CleanCSVs.bat "%~dp0\SpellEffect.%BUILD%.csv"
