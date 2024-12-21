@@ -175,6 +175,7 @@ local SEASON_OF_DISCOVERY_HEADER = createHeader({	-- Season of Discovery
 		ru = "Сезон открытий",
 		ko = "발견의 계절",
 		cn = "发现季节",
+		tw = "探索賽季",
 	},
 	description = {
 		en = "This Season brings an initial level cap of 25 and a new level-25 endgame, including a 10-player Blackfathom Deeps raid with new mechanics, new and reimagined bosses to challenge player tactics and strategies, and fresh rewards.",
@@ -186,6 +187,7 @@ local SEASON_OF_DISCOVERY_HEADER = createHeader({	-- Season of Discovery
 		ru = "В этом сезоне начальный максимальный уровень равен 25, а также новый финал для 25-го уровня, включающий рейд в Непроглядную Пучину для 10 игроков с новой механикой, новыми и переосмысленными боссами, которые бросят вызов тактике и стратегии игроков, а также свежими наградами.",
 		ko = "이번 시즌에는 새로운 메커니즘이 포함된 10인 Blackfathom Deeps 레이드, 플레이어 전술과 전략에 도전할 수 있는 새롭고 재구성된 보스, 새로운 보상을 포함하여 초기 레벨 상한이 25이고 새로운 레벨 25 최종 게임이 제공됩니다.",
 		cn = "本赛季带来了 25 级的初始等级上限和新的 25 级终局游戏，包括 10 名玩家的 Blackfathom Deeps 突袭，其中包含新的机制、新的和重新设计的 Boss 来挑战玩家的战术和策略，以及新鲜的奖励。",
+		tw = "這個賽季起初將會有 25 級的上限，還會帶來全新的 25 級終局內容，包括帶有全新機制的 10 人玩家黑澗深淵副本、全新設計的首領來挑戰玩家的戰術實力，同時還會給予新獎勵。",
 	},
 });
 root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCOVERY_HEADER, bubbleDownSelf({ ["timeline"] = { REMOVED_2_0_1 } }, {
@@ -451,6 +453,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 			ru = "Понимание",
 			ko = "이해력",
 			cn = "理解",
+			tw = "理解",
 		},
 	}), {
 		["classes"] = { MAGE },
@@ -469,6 +472,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 						ru = "Уровень 1",
 						ko = "층 1",
 						cn = "等级 1",
+						tw = "等級 1",
 					},
 				}), {
 					["cost"] = {
@@ -504,6 +508,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 						ru = "Уровень 2",
 						ko = "층 2",
 						cn = "等级 2",
+						tw = "等級 2",
 					},
 				}), {
 					["cost"] = {
@@ -550,6 +555,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 						ru = "Уровень 3",
 						ko = "층 3",
 						cn = "等级 3",
+						tw = "等級 3",
 					},
 				}), {
 					["cost"] = {
@@ -1074,8 +1080,9 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 			pt = "",
 			ru = "",
 			ko = "",
-			cn = "",
 			]]--
+			cn = "梦魇入侵",
+			tw = "夢魘入侵",
 		},
 		description = {
 			en = "This event focuses on the portals found across Azeroth, typically hosting an Emerald Dragon World Boss. These new events are PvE focused, asking players to complete quests around and inside the portals.\n\nThe event is intended to provide both endgame content and variation, with a new faction, the Emerald Wardens as well as new items and sets, but also to supplement the leveling experience. As early as level 25, players will be able to start doing Nightmare Incursions for experience and reputation.\n\nIncursions are also intended to be done in a group, with quests being shareable to up to 4 other players. Some quests will also require killing boss-type enemies, or require you to utilize gathering professions. This doesn't mean that you can't do them solo, it is just unlikely to be very efficient.",
@@ -3586,6 +3593,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 					ko = "",
 					cn = "",
 					]]--
+					tw = "製作",
 				},
 			}), {
 				-- iLvl 10 - Crafted Supplies
@@ -3976,6 +3984,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 					ko = "",
 					cn = "",
 					]]--
+					tw = "採集",
 				},
 			}), {
 				-- iLvl 10 - Gathering Supplies
