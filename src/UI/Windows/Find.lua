@@ -561,7 +561,7 @@ app:CreateWindow("ItemFinder", {
 				progress = 0,
 				total = 0,
 				back = 1,
-				currentItemID = 236872,
+				currentItemID = 235825,
 				minimumItemID = 1,
 				OnUpdate = function(header)
 					local g = header.g;
