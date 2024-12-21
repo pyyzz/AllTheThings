@@ -204,7 +204,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["coord"] = { 66.5, 55.9, 2375 },
 				["questID"] = 84797,
 				["g"] = {
-					i(235017, {	-- Glittering Vault Shard (TOY!)
+					i(235017),	-- Glittering Vault Shard (TOY!)
 				},
 			}),
 			n(227550, {	-- Shardsong
@@ -212,7 +212,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["coord"] = { 28.1, 24.9, 2375 },
 				["questID"] = 86779,
 				["g"] = {
-					i(235017, {	-- Glittering Vault Shard (TOY!)
+					i(235017),	-- Glittering Vault Shard (TOY!)
 				},
 			}),
 			-- STORM PHASE RARES
@@ -245,7 +245,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["coord"] = { 37.9, 76.1, 2375 },
 				["questID"] = 85406,
 				["g"] = {
-					i(235017, {	-- Glittering Vault Shard (TOY!)
+					i(235017),	-- Glittering Vault Shard (TOY!)
 					i(232571),	-- Whirling Runekey
 				},
 			}),

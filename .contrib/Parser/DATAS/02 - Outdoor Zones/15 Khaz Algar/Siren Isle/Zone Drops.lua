@@ -7,7 +7,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			i(233500, {	-- Crimson Snapdragon Treat
 				["description"] = "Can be looted from pirates",
 			}),
-			}),
 			i(233494, {	-- Muddy Snapdragon Treat
 				["description"] = "Can be looted from vrykuls",
 				-- n: 232324 / n: 232323
