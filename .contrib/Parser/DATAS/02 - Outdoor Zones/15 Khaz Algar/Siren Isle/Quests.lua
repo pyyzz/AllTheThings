@@ -9,6 +9,25 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					["repeatable"] = "true",
 					["coord"] = { 68.3, 42.1, SIREN_ISLE },
 				}),
+				q(85764, {	-- Shuddering Hollow
+					["repeatable"] = "true",
+					-- TODO: I'm not sure which one of them is 'first'
+					["coord"] = { 45.5, 41.6, SIREN_ISLE },
+				}),
+				q(85765, {	-- Shuddering Hollow
+					["repeatable"] = "true",
+					["coord"] = { 45.5, 41.6, SIREN_ISLE },
+				}),
+				q(85755, {	-- The Drain
+					["repeatable"] = "true",
+					-- TODO: available one every time after 85753 version is completed
+					["coord"] = { 56.5, 66.3, SIREN_ISLE },
+				}),
+				q(85753, {	-- The Drain
+					["repeatable"] = "true",
+					-- TODO: seems like this is first per week version
+					["coord"] = { 56.5, 66.3, SIREN_ISLE },
+				}),
 				q(85754, {	-- The Drain
 					["repeatable"] = "true",
 					["coord"] = { 57.9, 69.3, SIREN_ISLE },
@@ -16,6 +35,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				q(85761, {	-- The Drowned Lair
 					["repeatable"] = "true",
 					["coord"] = { 27.4, 62.5, SIREN_ISLE },
+				}),
+				q(85760, {	-- The Drowned Lair
+					["repeatable"] = "true",
+					-- TODO: seems like this is first per week version
+					["coord"] = { 27.3, 65.5, SIREN_ISLE },
+				}),
+				q(85762, {	-- The Drowned Lair
+					["repeatable"] = "true",
+					-- TODO: available one every time after 85760 version is completed
+					["coord"] = { 27.3, 65.5, SIREN_ISLE },
 				}),
 				-- Citrines
 				i(228639),	-- Fathomdweller's Runed Citrine

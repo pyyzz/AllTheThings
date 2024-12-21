@@ -20,29 +20,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					-- Naga
 					--["coord"] = { 71.0, 44.1, SIREN_ISLE },	-- entire zone
 				}),
-				q(85764, {	-- Shuddering Hollow
-					-- TODO: I'm not sure which one of them is 'first'
-					["coord"] = { 45.5, 41.6, SIREN_ISLE },
-				}),
-				q(85765, {	-- Shuddering Hollow
-					["coord"] = { 45.5, 41.6, SIREN_ISLE },
-				}),
-				q(85755, {	-- The Drain
-					-- TODO: available one every time after 85753 version is completed
-					["coord"] = { 56.5, 66.3, SIREN_ISLE },
-				}),
-				q(85753, {	-- The Drain
-					-- TODO: seems like this is first per week version
-					["coord"] = { 56.5, 66.3, SIREN_ISLE },
-				}),
-				q(85760, {	-- The Drowned Lair
-					-- TODO: seems like this is first per week version
-					["coord"] = { 27.3, 65.5, SIREN_ISLE },
-				}),
-				q(85762, {	-- The Drowned Lair
-					-- TODO: available one every time after 85760 version is completed
-					["coord"] = { 27.3, 65.5, SIREN_ISLE },
-				}),
 				q(84851, {	-- Tides of Greed
 					-- Pirates
 					--["coord"] = { x, y, SIREN_ISLE },	-- Entire zone
