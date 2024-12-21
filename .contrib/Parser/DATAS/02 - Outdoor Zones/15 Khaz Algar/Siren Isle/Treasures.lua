@@ -42,14 +42,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["cost"] = {{ "i", 228621, 1 }},	-- Bilge Rat Supply Key
 				["isWeekly"] = true,
 			}),
-			o(507120, {	-- Ducky Friend
-				-- Storm phase
-				["description"] = "Can be found during the storm in a house on the 2nd floor, on a bed.",
-				["coord"] = { 39.2, 54.2, SIREN_ISLE },
-				["g"] = {
-					i(233447),	-- Marmaduke's "Ducky Friend"
-				},
-			}),
 			o(465272, {	-- Empty Kaja'Cola Can
 				["coord"] = { 60.8, 62.9, SIREN_ISLE },
 				["g"] = {
@@ -80,19 +72,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					i(229181),	-- Ordained Forge Maul
 				},
 			}),
-			o(499127, {	-- Runemarked Coffer
-				-- TODO: The Forgotten Vault + storm phase
-				-- TODO: I don't make screenshot for this one, so I'm unsure if it something in loot or it is related to treasure chest)
-				["description"] = "In the back of the left room of the Forgotten Vault during a storm.",
-				["coord"] = { 26.6, 23.9, 2375 },
-				["questID"] = 85859,
-			}),
-			o(500407, {	-- Runed Storm Cache
-				-- TODO: The Forgotten Vault + storm phase
-				-- TODO: I don't make screenshot for this one, so I'm unsure if it something in loot or it is related to treasure chest)
-				["coord"] = { 28.5, 73.5, 2375 },
-				["questID"] = 84843,
-			}),
 			o(493375, {	-- Rune-Sealed Coffer
 				-- Vrykul
 				["coord"] = { 67.8, 73.5, SIREN_ISLE },
@@ -122,6 +101,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["g"] = {
 					i(233027),	-- Well Loved Squeaky Toy
 				},
+			}),
+			i(232605),	-- Thunderous Fragment (TODO: probably need a better way to code it)
+			i(232573, {	-- Thunderous Runekey
+				["cost"] = {{"i", 232605, 5 }},
 			}),
 		}),
 	}),

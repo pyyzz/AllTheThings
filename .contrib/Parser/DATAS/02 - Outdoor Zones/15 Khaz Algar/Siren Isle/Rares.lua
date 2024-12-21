@@ -215,40 +215,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					i(235017),	-- Glittering Vault Shard (TOY!)
 				},
 			}),
-			-- STORM PHASE RARES
-			n(231356, {	-- Brinebough
-				["description"] = "Requires Storm Phase.",
-				["coord"] = { 56.1, 84.5, SIREN_ISLE },
-				["questID"] = 85404,
-			}),
-			n(231353, {	-- Tempest Talon
-				["description"] = "Requires Storm Phase.\n\nFlying around in area, assigned coords easiest spot to pull it.",
-				["coord"] = { 40.9, 62.0, SIREN_ISLE },
-				["questID"] = 85403,
-			}),
-			n(228547, {	-- Slaughtershell
-				["description"] = "Requires Storm Phase.",
-				["coord"] = { 73.5, 54.0, SIREN_ISLE },	-- TODO: it have more than one spawn point (?) and different pathways (at least 2)
-				["questID"] = 84798,
-			}),
-			n(231357, {	-- Zek'ul the Shipbreaker
-				["description"] = "Requires Storm Phase.",
-				["coord"] = { 32.7, 73.0, SIREN_ISLE },
-				["questID"] = 85405,
-				["g"] = {
-					i(232569), -- Cyclonic Runekey
-				},
-			}),
-			-- The Forgotten Vault (during storm)
-			n(231368, {	-- Ksvir the Forgotten
-				["description"] = "Requires Storm Phase.",
-				["coord"] = { 37.9, 76.1, 2375 },
-				["questID"] = 85406,
-				["g"] = {
-					i(235017),	-- Glittering Vault Shard (TOY!)
-					i(232571),	-- Whirling Runekey
-				},
-			}),
 		})),
 	}),
 })));

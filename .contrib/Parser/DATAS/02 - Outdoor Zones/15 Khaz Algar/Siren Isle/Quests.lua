@@ -409,21 +409,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["coord"] = { 69.4, 42.8, SIREN_ISLE },
 				["isWeekly"] = true,
 			}),
-			q(84225, {	-- Eggstinction
-				-- TODO: STORM PHASE
-				["sourceQuests"] = { 84725 },	-- The Circlet Calls
-				["provider"] = { "n", 231937 },	-- Sally Boltwrench
-				["coord"] = { 63.4, 66.4, SIREN_ISLE },
-				["isWeekly"] = true,
-			}),
-			q(84241, {	-- Shoreline Stand
-				-- TODO: STORM PHASE
-				["sourceQuests"] = { 84725 },	-- The Circlet Calls
-				["provider"] = { "n", 232297 },	-- Regald Hornfyre
-				["coord"] = { 43.7, 23.9, SIREN_ISLE },
-				["maps"] = { 2375 },	-- The Forgotten Vault
-				["isWeekly"] = true,
-			}),
 			-- Teaching to use donation system
 			q(85059, {	-- A Piece of the Action
 				["sourceQuests"] = { 84725 },	-- The Circlet Calls
@@ -533,30 +518,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					i(235368),	-- Mystery Meat Snack (QI!)
 				},
 			}),
-			-- Birdy (move to special?)
-			q(85811, {	-- Thrayir, Eyes of the Siren
-				["sourceQuests"] = {
-				--	TODO: hqts as sourceQuest since you cannot take this quest without unlocking them
-				--	probably gonna need to add as cost runekeys, dunno
-					85800,	-- Cyclonic (spellID 471163)
-					85803,	-- Thunderous (spellID 471169)
-					85801,	-- Torrential (spellID 471166)
-					85799,	-- Turbulent (spellID 471162)
-					85802,	-- Whirling (spellID 471167)
-				},
-				["provider"] = { "n", 233582 },	-- Thrayir, Eyes of the Siren
-				["cost"] = {
-					{ "i", 232569, 1 },	-- Cyclonic Runekey
-					{ "i", 232573, 1 },	-- Thunderous Runekey
-					{ "i", 232572, 1 },	-- Torrential Runekey
-					{ "i", 232570, 1 },	-- Turbulent Runekey
-					{ "i", 232571, 1 },	-- Whirling Runekey
-				},
-				["coord"] = { 72.5, 61.3, 2375 },
-				["g"] = {
-					i(232639),	-- Thrayir, Eyes of the Siren (MOUNT!)
-				},
-			}),
 			-- Marmaduke (move to special?)
 			q(86261, {	-- Homeward Bound to Safer Shores
 				["description"] = "You need to give Marmaduke the well loved squeky toy before to trigger this quest",
@@ -613,17 +574,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				q(85671),	-- Squall Sailor's Citrine
 				--
 				q(85070),	-- when Special Assigment npc unlocked for storm phase (pop talking head)
-				-- Some interaction with gems on terrain during storm phase, reward you with Turbulent Fragment (itemID 234327)
-				q(86437),	-- after interact with Runic Fragment (npcID 234934) @ 67.1, 78.5 (spellID 1213217 - Take Fragment)
-				q(86435),	-- after interact with Runic Fragment (npcID 234934) @ 52.6, 38.7 / was able to loot it again but didn't fire questID
-				q(86436),	-- after interact with Dirt Pile (npcID 235134) @ 38.2, 51.8
-				-- Runestone activation questIDs in The Forgotten Vault (stormed phase) for Thrayir, Eyes of the Siren (npcID 233540)
-				-- despite Thrayir quest is once per account, hqts are not
-				q(85800),	-- Cyclonic (spellID 471163)
-				q(85803),	-- Thunderous (spellID 471169)
-				q(85801),	-- Torrential (spellID 471166)
-				q(85799),	-- Turbulent (spellID 471162)
-				q(85802),	-- Whirling (spellID 471167)
 				-- Snapdragon timer after quest
 				q(86566),	-- [DNT] Snapdragon Progress Update (spellID 1214684)
 				-- Treasure

@@ -27,18 +27,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					--	i(228646),	-- Legendary Skipper's Citrine
 					--},
 				}),
-				n(SPECIAL, {
-					q(86174),	-- Special Assignment: Storm's a Brewin (TODO: seems to be unlock tracker)
-					q(85113, {	-- Special Assignment: Storm's a Brewin
-						["provider"] = { "n", 227815 },	-- Suzie Boltwrench
-						["coord"] = { 69.0, 49.2, SIREN_ISLE },
-						["g"] = {
-							i(232466),	-- Leave the Storm (QI!)
-							i(235548),	-- Earthen Landlubber's Cache
-							--^ contain isle drop/vendor stuff
-						},
-					}),
-				}),
 			}),
 		}),
 	}),
