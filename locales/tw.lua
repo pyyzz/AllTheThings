@@ -791,7 +791,7 @@ for key,value in pairs({
 	-- Features: Reporting Page
 		REPORTING_LABEL = "回報";
 		REPORT_COLLECTED_THINGS_CHECKBOX = "回報已收藏事物";
-		REPORT_COLLECTED_THINGS_CHECKBOX_TOOLTIP = "如果想在聊天中看到一條消息，詳细說明收藏了哪些物品或從收藏中刪除了哪些物品，請啟用此選項。\n\n注意：這是因為暴雪默默地加入了外觀和其他收藏品並且忽略了通知你可用的其他物品。\n\n我們建議你保持此設定。如果你打開了這個選項，你會聽到警告聲。";
+		REPORT_COLLECTED_THINGS_CHECKBOX_TOOLTIP = "如果想在聊天中看到一條訊息，詳細說明收藏了哪些物品或從收藏中刪除了哪些物品，請啟用此選項。\n\n注意：這是因為暴雪默默的加入了外觀和其他收藏品並且忽略了通知你可用的其他物品。\n\n我們建議你保持此設定。如果你打開了這個選項，你會聽到警告聲。";
 		REPORT_COMPLETED_QUESTS_CHECKBOX = "回報任務";
 		REPORT_COMPLETED_QUESTS_CHECKBOX_TOOLTIP = "如果希望在任務發生後立即看到你完成的任何任務的任務 ID，請啟用此選項。（用於回報錯誤、追蹤等）";
 		REPORT_UNSORTED_CHECKBOX = "僅'無來源'";
