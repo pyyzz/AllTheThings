@@ -241,6 +241,7 @@ MobileDB.GameObject = {
 	[444799] = true,	-- Potent Concentrated Shadow
 	[444800] = true,	-- Sureki Strongbox
 	[444804] = true,	-- Concentrated Shadow
+	[452696] = true,	-- Machine Speaker's Reliquary
 	[452706] = true,	-- Deep-Lost Satchel
 	[451579] = true,	-- Used Fuel Drum (Ringing Deeps)
 	[478443] = true,	-- Mislaid Curiosity (delve object)
