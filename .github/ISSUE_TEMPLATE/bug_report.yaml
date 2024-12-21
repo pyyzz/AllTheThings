@@ -5,8 +5,8 @@ body:
   - type: dropdown
     id: flavour
     attributes:
-      label: "What flavo(u)r(s) of WoW are you using?"
-      description: "Select all applicable versions."
+      label: "Which flavo(u)r(s) of WoW are you using?"
+      description: "Select all applicable versions of WoW."
       multiple: true
       options:
         - "Retail"
@@ -23,6 +23,7 @@ body:
     id: realm
     attributes:
       label: "Which server realm(s) are you in?"
+      description: "Select the realm(s) where you are experiencing this bug."
       multiple: true
       options:
         - "US"
@@ -34,11 +35,13 @@ body:
     id: wow_build
     attributes:
       label: "What build number of WoW?"
+      description: "Specify the build number of your WoW client."
       placeholder: "e.g., 10.1.7.51000"
   - type: dropdown
     id: att_version
     attributes:
-      label: "What version of ATT?"
+      label: "Which version of ATT?"
+      description: "Select the version of ATT you are using."
       options:
         - "Latest release"
         - "Latest alpha"
@@ -49,26 +52,27 @@ body:
     id: att_build
     attributes:
       label: "What build number of ATT?"
+      description: "Provide the specific build number of ATT."
       placeholder: "e.g., 4.1.11(release)/4.1.11-34-g9b96b53(alpha)"
   - type: textarea
     id: bug_description
     attributes:
       label: "What isn't working? What was supposed to happen?"
-      description: "Provide details about the issue and the expected behavior."
-      placeholder: "Describe the issue here..."
+      description: "Provide a detailed description of the bug, including what you expected to happen."
+      placeholder: "Describe the bug here..."
     validations:
       required: true
   - type: textarea
     id: screenshot
     attributes:
       label: "Screenshot"
-      description: "Provide a screenshot to illustrate the bug."
+      description: "Provide a screenshot to help illustrate the bug."
       placeholder: "Drop screenshot here..."
   - type: textarea
     id: reproduce_steps
     attributes:
       label: "Steps to reproduce the behavior."
-      description: "Provide detailed steps to reproduce the issue:\n1. Go to '...'\n2. Click on '...'\n3. Scroll down to '...'\n4. See bug(s)."
+      description: "Provide detailed steps to reproduce the bug:\n1. Go to '...'\n2. Click on '...'\n3. Scroll down to '...'\n4. See bug(s)."
       placeholder: "List steps here..."
     validations:
       required: true
@@ -76,11 +80,11 @@ body:
     id: lua_errors
     attributes:
       label: "Are you experiencing any lua errors?"
-      description: "These appear when using the BugSack+BugGrabber addons, or enabling script errors with `/console scriptErrors 1`."
+      description: "These errors appear when using the BugSack+BugGrabber addons or enabling script errors with `/console scriptErrors 1`."
       placeholder: "Paste any lua errors here..."
   - type: textarea
     id: additional_context
     attributes:
       label: "Anything else?"
-      description: "Add any additional information or context about the issue."
+      description: "Add any additional information or context about the bug."
       placeholder: "Provide additional details here..."
