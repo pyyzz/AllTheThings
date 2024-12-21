@@ -189,7 +189,7 @@ REAL_MONEY = createPhase({
 		ko = "",
 		cn = "",
 		]]--
-		tw = "這被鎖定在付費牆後面，例如遊戲内商店、另一個暴雪產品或招兵買馬召集令。",
+		tw = "這被鎖定在付費牆後面，例如遊戲內商店、另一個暴雪產品或招兵買馬召集令。",
 	},
 	lore = {
 		en = "The act of encouraging the use of real money in any version of the game is widely frowned upon. Participate in this content at your own risk.",

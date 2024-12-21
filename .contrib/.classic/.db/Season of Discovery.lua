@@ -2800,6 +2800,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 			ru = "Гравировка",
 			ko = "각인술",
 			cn = "铭刻",
+			tw = "紋刻",
 		},
 		description = {
 			en = "Rune Engraving is a new class system for Season of Discovery. It allows each class to tailor their gameplay experience by unlocking new unique abilities!",
@@ -2811,6 +2812,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 			ru = "Гравировка рун — это новая система, недавно анонсированная в сезоне «Открытие». Это позволяет каждому классу адаптировать свой игровой процесс, открывая новые уникальные способности!",
 			ko = "룬 각인은 최근 발견의 시즌에 발표된 새로운 시스템입니다. 이를 통해 각 클래스는 새로운 고유 능력을 잠금 해제하여 게임 플레이 경험을 맞춤화할 수 있습니다!",
 			cn = "铭刻是最近在发现季节宣布的一个新系统。它允许每个班级通过解锁新的独特能力来定制他们的游戏体验！",
+			tw = "紋刻是最近在探索賽季實現的一個新系統，它允許每個職業通過解鎖新的獨特能力來自訂他們的遊戲體驗！",
 		},
 	}), {
 		classHeader(DRUID, {
