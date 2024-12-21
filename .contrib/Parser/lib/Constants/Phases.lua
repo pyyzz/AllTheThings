@@ -273,7 +273,7 @@ TCG = createPhase({
 		ko = "",
 		]]--
 		cn = "最初通过不再印刷的 TCG 卡获得，但仍可通过黑市、游戏内或现实中的拍卖行获得。",
-		tw = "最初通過不再印刷的 TCG 卡獲得，但仍可通過黑市、遊戲内或現實中的拍賣行獲得。",
+		tw = "最初通過不再印刷的 TCG 卡獲得，但仍可通過黑市、遊戲內或現實中的拍賣行獲得。",
 	},
 });
 -- #endif
@@ -376,7 +376,7 @@ CONDITIONALLY_AVAILABLE = createPhase({
 		ko = "",
 		]]--
 		cn = "需要召唤物品",
-		tw = "需要召唤物品",
+		tw = "需要召喚物品",
 	},
 	description = {
 		en = "This is no longer available unless you know someone that has access to the items used to summon the boss.",
@@ -392,7 +392,7 @@ CONDITIONALLY_AVAILABLE = createPhase({
 		ko = "",
 		]]--
 		cn = "除非您认识可以使用用于召唤首领的物品的人，否则这将不再可用。",
-		tw = "除非您認識可以使用用於召唤首領的物品的人，否則這將不再可用。",
+		tw = "除非您認識可以使用用於召喚首領的物品的人，否則這將不再可用。",
 	},
 	lore = {
 		en = "Note: Most Summoning Items can be reobtained if you had them in the past by talking to the respective NPC.",
@@ -408,7 +408,7 @@ CONDITIONALLY_AVAILABLE = createPhase({
 		ko = "",
 		]]--
 		cn = "注意：如果过去拥有大多数召唤物品，则可以通过与相应的 NPC 交谈来重新获得它们。",
-		tw = "注意：如果過去擁有大多數召唤物品，則可以通過與相應的 NPC 交談來重新獲得它們。",
+		tw = "注意：如果過去擁有大多數召喚物品，則可以通過與相應的 NPC 交談來重新獲得它們。",
 	},
 });
 
