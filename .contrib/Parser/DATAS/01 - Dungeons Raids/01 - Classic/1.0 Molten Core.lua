@@ -53,12 +53,16 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			header(HEADERS.Item, 17182, {	-- Sulfuras, Hand of Ragnaros
 				["isRaid"] = true,
 				["groups"] = {
-					-- #IF NOT SEASON_OF_DISCOVERY
 					ach(429, {	-- Sulfuras, Hand of Ragnaros
-						["provider"] = { "i", 17182 },	-- Sulfuras, Hand of Ragnaros
+						["provider"] = { "i",
+							-- #if SEASON_OF_DISCOVERY
+							227683,	-- Sulfuras, Hand of Ragnaros
+							-- #else
+							17182,	-- Sulfuras, Hand of Ragnaros (Original)
+							-- #endif
+						},
 						["classes"] = { DEATHKNIGHT, DRUID, EVOKER, PALADIN, SHAMAN, WARRIOR },
 					}),
-					-- #ENDIF
 					i(17182, {	-- Sulfuras, Hand of Ragnaros
 						["classes"] = { DEATHKNIGHT, DRUID, EVOKER, PALADIN, SHAMAN, WARRIOR },
 						-- #if SEASON_OF_DISCOVERY
@@ -69,6 +73,16 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 							{ "i", 17193, 1 },	-- Sulfuron Hammer
 						},
 					}),
+					-- #if SEASON_OF_DISCOVERY
+					applyclassicphase(SOD_PHASE_FIVE, i(227683, {	-- Sulfuras, Hand of Ragnaros
+						["classes"] = { DEATHKNIGHT, DRUID, EVOKER, PALADIN, SHAMAN, WARRIOR },
+						["timeline"] = { "added 1.15.4" },
+						["cost"] = {
+							{ "i", 227728, 1 },	-- Eye of Sulfuras
+							{ "i", 227684, 1 },	-- Sulfuron Hammer
+						},
+					})),
+					-- #endif
 				},
 			}),
 			-- #if NOT SEASON_OF_DISCOVERY
@@ -1675,21 +1689,10 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					ach(686, {	-- Molten Core
 						-- #if BEFORE WRATH
 						["sourceQuests"] = {
-							7787,	-- Rise, Thunderfury!
+							85443,	-- Rise, Thunderfury!
 							8620,	-- The Only Prescription
 						},
 						-- #endif
-					}),
-					ach(429, {	-- Sulfuras, Hand of Ragnaros
-						["provider"] = { "i", 227683 },	-- Sulfuras, Hand of Ragnaros
-						["classes"] = { DEATHKNIGHT, DRUID, EVOKER, PALADIN, SHAMAN, WARRIOR },
-					}),
-					i(227683, {	-- Sulfuras, Hand of Ragnaros
-						["classes"] = { DEATHKNIGHT, DRUID, EVOKER, PALADIN, SHAMAN, WARRIOR },
-						["cost"] = {
-							{ "i", 227728, 1 },	-- Eye of Sulfuras
-							{ "i", 227684, 1 },	-- Sulfuron Hammer
-						},
 					}),
 					i(227728),	-- Eye of Sulfuras
 					i(17203),	-- Sulfuron Ingot
