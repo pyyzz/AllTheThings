@@ -4254,7 +4254,7 @@ i(229366, 4629);	-- Brrrgl
 i(228793, 4618);	-- Chillbot 9000
 i(224410, 4593);	-- Craggles
 i(222970, 4490);	-- Fuzzy
-i(230834, 4630);	-- Gill'el
+i(229368, 4630);	-- Gill'el
 i(228740, 4614);	-- Gizmo the Pure
 i(231365, 4689);	-- Karazhan Syphoner
 i(228781, 4678);	-- Lil'Doomy

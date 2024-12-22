@@ -200,7 +200,7 @@ root(ROOTS.Promotions, {
 				["u"] = REMOVED_FROM_GAME,	-- 19th December 2024
 			}),
 			i(95341, {	-- Armored Bloodwing (MOUNT!)
-				["description"] = "Requires an NVIDIA 10+ Series Graphics Card or streaming through GeForce NOW (free tier is enough).\nLogin to the NVIDIA app, GeForce Experience or GeForce NOW then play a GeForce LAN Mission for 50 continuous minutes starting January 4th at 4:30 p.m. PST lasting until an January 6th.",
+				["description"] = "Requires an NVIDIA 10+ Series Graphics Card or streaming through GeForce NOW (free tier is enough).\nLogin to the NVIDIA app, GeForce Experience or GeForce NOW then play a GeForce LAN Mission for 50 continuous minutes starting January 4th at 4:30 p.m. PST lasting until January 6th.",
 				["timeline"] = { ADDED_11_0_7, "removed 11.0.7.99999" },
 			}),
 
