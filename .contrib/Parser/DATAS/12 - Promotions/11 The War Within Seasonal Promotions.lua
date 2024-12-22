@@ -40,17 +40,17 @@ root(ROOTS.Promotions, {
 		["timeline"] = { ADDED_11_0_0 },
 		["groups"] = {
 			n(RAZER, sharedDataSelf({
-				["timeline"] = { ADDED_11_0_7 },
+				["timeline"] = { ADDED_11_0_7, "removed 11.1.7.99999" },
 				["u"] = REAL_MONEY,
 			}, {
 				i(190539, {	-- Coral-Stalker Waveray (MOUNT!)
-					["description"] = "Aquired alongside the purchase of a 150$ Razer Naga V2 Pro mouse, 200$ Razer BlackWidow V4 Pro keyboard or $100 RAZER FIREFLY V2 PRO mousepad as part of the Razer Gaming Peripherals World of Warcraft Collection.",
+					["description"] = "Aquired alongside the purchase of a 150$ Razer Naga V2 Pro mouse, 200$ Razer BlackWidow V4 Pro keyboard or $100 RAZER FIREFLY V2 PRO mousepad as part of the Razer Gaming Peripherals World of Warcraft Collection before 30th April 2025.",
 				}),
 				i(107951, {	-- Iron Skyreaver (MOUNT!)
-					["description"] = "Aquired alongside the purchase of a 150$ Razer Naga V2 Pro mouse, 200$ Razer BlackWidow V4 Pro keyboard or $100 RAZER FIREFLY V2 PRO mousepad as part of the Razer Gaming Peripherals World of Warcraft Collection.",
+					["description"] = "Aquired alongside the purchase of a 150$ Razer Naga V2 Pro mouse, 200$ Razer BlackWidow V4 Pro keyboard or $100 RAZER FIREFLY V2 PRO mousepad as part of the Razer Gaming Peripherals World of Warcraft Collection before 30th April 2025.",
 				}),
 				i(232519, {	-- Razeshi B. (PET!)
-					["description"] = "Aquired alongside the purchase of a 150$ Razer Naga V2 Pro mouse, 200$ Razer BlackWidow V4 Pro keyboard or $100 RAZER FIREFLY V2 PRO mousepad as part of the Razer Gaming Peripherals World of Warcraft Collection.",
+					["description"] = "Aquired alongside the purchase of a 150$ Razer Naga V2 Pro mouse, 200$ Razer BlackWidow V4 Pro keyboard or $100 RAZER FIREFLY V2 PRO mousepad as part of the Razer Gaming Peripherals World of Warcraft Collection before 30th April 2025.",
 				}),
 			}));
 			n(STEELSERIES, sharedDataSelf({
