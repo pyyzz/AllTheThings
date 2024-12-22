@@ -316,7 +316,6 @@ root(ROOTS.Unsorted, {
 			i(234424),	-- Keg-Leg's Bronze Spoils
 			i(234450),	-- Pirate's Booty
 			i(234453),	-- Swabbie's Lockbox
-			i(234455),	-- Storm-flecked Debris
 			i(234456),	-- Crystal-splintered Rubble
 			i(234470),	-- Forgemaster's Focus
 			i(234471),	-- Earthen Device
@@ -363,47 +362,6 @@ root(ROOTS.Unsorted, {
 			i(234665),	-- Awakened Archivist's Sandals
 			i(234666),	-- Awakened Archivist's Cord
 			i(234667),	-- Awakened Archivist's Cuffs
-			i(234668),	-- Stonebound Archivist Vestment
-			i(234669),	-- Stonebound Archivist's Robe
-			i(234670),	-- Stonebound Archivist's Hood
-			i(234671),	-- Stonebound Archivist's Sandals
-			i(234672),	-- Stonebound Archivist's Cord
-			i(234673),	-- Stonebound Archivist's Cuffs
-			i(234674),	-- Stonebound Explorer's Kilt
-			i(234675),	-- Stonebound Explorer's Visor
-			i(234676),	-- Stonebound Explorer's Treads
-			i(234677),	-- Stonebound Explorer's Waistcoat
-			i(234678),	-- Stonebound Explorer's Cinch
-			i(234679),	-- Stonebound Explorer's Handwraps
-			i(234680),	-- Stonebound Peacekeeper's Chassis
-			i(234681),	-- Stonebound Peacekeeper Warkilt
-			i(234682),	-- Stonebound Peacekeeper Waistguard
-			i(234683),	-- Stonebound Peacekeeper Waistcoat
-			i(234684),	-- Stonebound Peacekeeper Gauntlets
-			i(234685),	-- Stonebound Peacekeeper Pauldrons
-			i(234686),	-- Stonebound Peacekeeper Sabatons
-			i(234687),	-- Stonebound Peacekeeper Greathelm
-			i(234688),	-- Stonebound Artisan Toolbelt
-			i(234689),	-- Stonebound Artisan Waistcoat
-			i(234690),	-- Stonebound Artisan Kilt
-			i(234691),	-- Stonebound Artisan Handbraces
-			i(234692),	-- Stonebound Artisan Footwraps
-			i(234693),	-- Stonebound Artisan Collar
-			i(234694),	-- Stonebound Machinist Wristchains
-			i(234695),	-- Stonebound Machinist Robe
-			i(234696),	-- Stonebound Machinist Helmet
-			i(234697),	-- Stonebound Machinist Girdle
-			i(234698),	-- Stonebound Machinist Cog
-			i(234699),	-- Stonebound Machinist Chain
-			i(234700),	-- Stonebound Machinist Anklewraps
-			i(234701),	-- Stonebound Worker's Mantle
-			i(234702),	-- Stonebound Worker's Kilt
-			i(234703),	-- Stonebound Worker's Cuffs
-			i(234704),	-- Stonebound Worker's Boots
-			i(234705),	-- Stonebound Worker's Belt
-			i(234706),	-- Stonebound Worker's Vest
-			i(234707),	-- Stonebound Explorer's Tunic
-			i(234708),	-- Stonebound Worker's Waistcoat
 			i(234709),	-- Earthen Travel Kilt
 			i(234710),	-- Earthen Artisan Kilt
 			i(234711),	-- Earthen Peacekeeper Warkilt
