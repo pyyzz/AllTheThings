@@ -1,5 +1,5 @@
 -----------------------------------------------------
---   D U N G E O N S  &  R A I D S  M O D U L E    --
+--  D U N G E O N S  &  R A I D S  M O D U L E    --
 -----------------------------------------------------
 -- #if SEASON_OF_DISCOVERY
 local TOKENS = {
@@ -918,242 +918,242 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					["groups"] = {
 						cl(DRUID, {
 							-- DPS (Agility)
-							tokencost(TOKENS.SCORCHED_CORE.HELM, i(226659)),	--  Cenarion Horns
-							tokencost(TOKENS.SCORCHED_CORE.SHOULDERS, i(226665)),	--  Cenarion Shoulders
-							tokencost(TOKENS.SCORCHED_CORE.CHEST, i(226661)),	--  Cenarion Tunic
-							tokencost(TOKENS.SCORCHED_CORE.BRACERS, i(226662)),	--  Cenarion Bands
-							tokencost(TOKENS.SCORCHED_CORE.GLOVES, i(226664)),	--  Cenarion Fists
-							tokencost(TOKENS.SCORCHED_CORE.BELT, i(226660)),	--  Cenarion Girdle
-							tokencost(TOKENS.SCORCHED_CORE.LEGS, i(226666)),	--  Cenarion Trousers
-							tokencost(TOKENS.SCORCHED_CORE.BOOTS, i(226663)),	--  Cenarion Treads
+							tokencost(TOKENS.SCORCHED_CORE.HELM, i(226659)),	-- Cenarion Horns
+							tokencost(TOKENS.SCORCHED_CORE.SHOULDERS, i(226665)),	-- Cenarion Shoulders
+							tokencost(TOKENS.SCORCHED_CORE.CHEST, i(226661)),	-- Cenarion Tunic
+							tokencost(TOKENS.SCORCHED_CORE.BRACERS, i(226662)),	-- Cenarion Bands
+							tokencost(TOKENS.SCORCHED_CORE.GLOVES, i(226664)),	-- Cenarion Fists
+							tokencost(TOKENS.SCORCHED_CORE.BELT, i(226660)),	-- Cenarion Girdle
+							tokencost(TOKENS.SCORCHED_CORE.LEGS, i(226666)),	-- Cenarion Trousers
+							tokencost(TOKENS.SCORCHED_CORE.BOOTS, i(226663)),	-- Cenarion Treads
 
 							-- DPS (Intellect)
-							tokencost(TOKENS.SCORCHED_CORE.HELM, i(226658)),	--  Cenarion Antlers
-							tokencost(TOKENS.SCORCHED_CORE.SHOULDERS, i(226653)),	--  Cenarion Mantle
-							tokencost(TOKENS.SCORCHED_CORE.CHEST, i(226656)),	--  Cenarion Embrace
-							tokencost(TOKENS.SCORCHED_CORE.BRACERS, i(226655)),	--  Cenarion Wrists
-							tokencost(TOKENS.SCORCHED_CORE.GLOVES, i(226654)),	--  Cenarion Gauntlets
-							tokencost(TOKENS.SCORCHED_CORE.BELT, i(226657)),	--  Cenarion Cord
-							tokencost(TOKENS.SCORCHED_CORE.LEGS, i(226651)),	--  Cenarion Pants
-							tokencost(TOKENS.SCORCHED_CORE.BOOTS, i(226652)),	--  Cenarion Sandals
+							tokencost(TOKENS.SCORCHED_CORE.HELM, i(226658)),	-- Cenarion Antlers
+							tokencost(TOKENS.SCORCHED_CORE.SHOULDERS, i(226653)),	-- Cenarion Mantle
+							tokencost(TOKENS.SCORCHED_CORE.CHEST, i(226656)),	-- Cenarion Embrace
+							tokencost(TOKENS.SCORCHED_CORE.BRACERS, i(226655)),	-- Cenarion Wrists
+							tokencost(TOKENS.SCORCHED_CORE.GLOVES, i(226654)),	-- Cenarion Gauntlets
+							tokencost(TOKENS.SCORCHED_CORE.BELT, i(226657)),	-- Cenarion Cord
+							tokencost(TOKENS.SCORCHED_CORE.LEGS, i(226651)),	-- Cenarion Pants
+							tokencost(TOKENS.SCORCHED_CORE.BOOTS, i(226652)),	-- Cenarion Sandals
 
 							-- Healer
-							tokencost(TOKENS.SCORCHED_CORE.HELM, i(226647)),	--  Cenarion Helm
-							tokencost(TOKENS.SCORCHED_CORE.SHOULDERS, i(226644)),	--  Cenarion Spaulders
-							tokencost(TOKENS.SCORCHED_CORE.CHEST, i(221785)),	--  Cenarion Vestments
-							tokencost(TOKENS.SCORCHED_CORE.BRACERS, i(226649)),	--  Cenarion Bracers
-							tokencost(TOKENS.SCORCHED_CORE.GLOVES, i(226648)),	--  Cenarion Gloves
-							tokencost(TOKENS.SCORCHED_CORE.BELT, i(226650)),	--  Cenarion Belt
-							tokencost(TOKENS.SCORCHED_CORE.LEGS, i(226646)),	--  Cenarion Leggings
-							tokencost(TOKENS.SCORCHED_CORE.BOOTS, i(226645)),	--  Cenarion Boots
+							tokencost(TOKENS.SCORCHED_CORE.HELM, i(226647)),	-- Cenarion Helm
+							tokencost(TOKENS.SCORCHED_CORE.SHOULDERS, i(226644)),	-- Cenarion Spaulders
+							tokencost(TOKENS.SCORCHED_CORE.CHEST, i(221785)),	-- Cenarion Vestments
+							tokencost(TOKENS.SCORCHED_CORE.BRACERS, i(226649)),	-- Cenarion Bracers
+							tokencost(TOKENS.SCORCHED_CORE.GLOVES, i(226648)),	-- Cenarion Gloves
+							tokencost(TOKENS.SCORCHED_CORE.BELT, i(226650)),	-- Cenarion Belt
+							tokencost(TOKENS.SCORCHED_CORE.LEGS, i(226646)),	-- Cenarion Leggings
+							tokencost(TOKENS.SCORCHED_CORE.BOOTS, i(226645)),	-- Cenarion Boots
 
 							-- Tank
-							tokencost(TOKENS.SCORCHED_CORE.HELM, i(226670)),	--  Cenarion Crown
-							tokencost(TOKENS.SCORCHED_CORE.SHOULDERS, i(226674)),	--  Cenarion Pauldrons
-							tokencost(TOKENS.SCORCHED_CORE.CHEST, i(226675)),	--  Cenarion Armor
-							tokencost(TOKENS.SCORCHED_CORE.BRACERS, i(226668)),	--  Cenarion Wristguards
-							tokencost(TOKENS.SCORCHED_CORE.GLOVES, i(226669)),	--  Cenarion Grips
-							tokencost(TOKENS.SCORCHED_CORE.BELT, i(226667)),	--  Cenarion Waistguard
-							tokencost(TOKENS.SCORCHED_CORE.LEGS, i(226671)),	--  Cenarion Legguards
-							tokencost(TOKENS.SCORCHED_CORE.BOOTS, i(226673)),	--  Cenarion Walkers
+							tokencost(TOKENS.SCORCHED_CORE.HELM, i(226670)),	-- Cenarion Crown
+							tokencost(TOKENS.SCORCHED_CORE.SHOULDERS, i(226674)),	-- Cenarion Pauldrons
+							tokencost(TOKENS.SCORCHED_CORE.CHEST, i(226675)),	-- Cenarion Armor
+							tokencost(TOKENS.SCORCHED_CORE.BRACERS, i(226668)),	-- Cenarion Wristguards
+							tokencost(TOKENS.SCORCHED_CORE.GLOVES, i(226669)),	-- Cenarion Grips
+							tokencost(TOKENS.SCORCHED_CORE.BELT, i(226667)),	-- Cenarion Waistguard
+							tokencost(TOKENS.SCORCHED_CORE.LEGS, i(226671)),	-- Cenarion Legguards
+							tokencost(TOKENS.SCORCHED_CORE.BOOTS, i(226673)),	-- Cenarion Walkers
 						}),
 						cl(HUNTER, {
 							-- Melee
-							tokencost(TOKENS.MOLTEN_SCALED.HELM, i(226536)),	--  Giantstalker's Guise
-							tokencost(TOKENS.MOLTEN_SCALED.SHOULDERS, i(226543)),	--  Giantstalker's Spauldrons
-							tokencost(TOKENS.MOLTEN_SCALED.CHEST, i(226535)),	--  Giantstalker's Chainmail
-							tokencost(TOKENS.MOLTEN_SCALED.BRACERS, i(226541)),	--  Giantstalker's Wristguards
-							tokencost(TOKENS.MOLTEN_SCALED.GLOVES, i(226540)),	--  Giantstalker's Handguards
-							tokencost(TOKENS.MOLTEN_SCALED.BELT, i(226542)),	--  Giantstalker's Girdle
-							tokencost(TOKENS.MOLTEN_SCALED.LEGS, i(226537)),	--  Giantstalker's Chain Leggings
-							tokencost(TOKENS.MOLTEN_SCALED.BOOTS, i(226538)),	--  Giantstalker's Sabatons
+							tokencost(TOKENS.MOLTEN_SCALED.HELM, i(226536)),	-- Giantstalker's Guise
+							tokencost(TOKENS.MOLTEN_SCALED.SHOULDERS, i(226543)),	-- Giantstalker's Spauldrons
+							tokencost(TOKENS.MOLTEN_SCALED.CHEST, i(226535)),	-- Giantstalker's Chainmail
+							tokencost(TOKENS.MOLTEN_SCALED.BRACERS, i(226541)),	-- Giantstalker's Wristguards
+							tokencost(TOKENS.MOLTEN_SCALED.GLOVES, i(226540)),	-- Giantstalker's Handguards
+							tokencost(TOKENS.MOLTEN_SCALED.BELT, i(226542)),	-- Giantstalker's Girdle
+							tokencost(TOKENS.MOLTEN_SCALED.LEGS, i(226537)),	-- Giantstalker's Chain Leggings
+							tokencost(TOKENS.MOLTEN_SCALED.BOOTS, i(226538)),	-- Giantstalker's Sabatons
 
 							-- Ranged
-							tokencost(TOKENS.MOLTEN_SCALED.HELM, i(226533)),	--  Giantstalker's Helmet
-							tokencost(TOKENS.MOLTEN_SCALED.SHOULDERS, i(226527)),	--  Giantstalker's Epaulets
-							tokencost(TOKENS.MOLTEN_SCALED.CHEST, i(226534)),	--  Giantstalker's Breastplate
-							tokencost(TOKENS.MOLTEN_SCALED.BRACERS, i(226530)),	--  Giantstalker's Bracers
-							tokencost(TOKENS.MOLTEN_SCALED.GLOVES, i(226528)),	--  Giantstalker's Gloves
-							tokencost(TOKENS.MOLTEN_SCALED.BELT, i(226529)),	--  Giantstalker's Belt
-							tokencost(TOKENS.MOLTEN_SCALED.LEGS, i(226532)),	--  Giantstalker's Leggings
-							tokencost(TOKENS.MOLTEN_SCALED.BOOTS, i(226531)),	--  Giantstalker's Boots
+							tokencost(TOKENS.MOLTEN_SCALED.HELM, i(226533)),	-- Giantstalker's Helmet
+							tokencost(TOKENS.MOLTEN_SCALED.SHOULDERS, i(226527)),	-- Giantstalker's Epaulets
+							tokencost(TOKENS.MOLTEN_SCALED.CHEST, i(226534)),	-- Giantstalker's Breastplate
+							tokencost(TOKENS.MOLTEN_SCALED.BRACERS, i(226530)),	-- Giantstalker's Bracers
+							tokencost(TOKENS.MOLTEN_SCALED.GLOVES, i(226528)),	-- Giantstalker's Gloves
+							tokencost(TOKENS.MOLTEN_SCALED.BELT, i(226529)),	-- Giantstalker's Belt
+							tokencost(TOKENS.MOLTEN_SCALED.LEGS, i(226532)),	-- Giantstalker's Leggings
+							tokencost(TOKENS.MOLTEN_SCALED.BOOTS, i(226531)),	-- Giantstalker's Boots
 						}),
 						cl(MAGE, {
 							-- DPS
-							tokencost(TOKENS.INCANDESCENT.HELM, i(226562)),	--  Arcanist Crown
-							tokencost(TOKENS.INCANDESCENT.SHOULDERS, i(226560)),	--  Arcanist Mantle
-							tokencost(TOKENS.INCANDESCENT.CHEST, i(226559)),	--  Arcanist Robes
-							tokencost(TOKENS.INCANDESCENT.BRACERS, i(226558)),	--  Arcanist Bindings
-							tokencost(TOKENS.INCANDESCENT.GLOVES, i(226556)),	--  Arcanist Gloves
-							tokencost(TOKENS.INCANDESCENT.BELT, i(226555)),	--  Arcanist Belt
-							tokencost(TOKENS.INCANDESCENT.LEGS, i(226561)),	--  Arcanist Leggings
-							tokencost(TOKENS.INCANDESCENT.BOOTS, i(226557)),	--  Arcanist Boots
+							tokencost(TOKENS.INCANDESCENT.HELM, i(226562)),	-- Arcanist Crown
+							tokencost(TOKENS.INCANDESCENT.SHOULDERS, i(226560)),	-- Arcanist Mantle
+							tokencost(TOKENS.INCANDESCENT.CHEST, i(226559)),	-- Arcanist Robes
+							tokencost(TOKENS.INCANDESCENT.BRACERS, i(226558)),	-- Arcanist Bindings
+							tokencost(TOKENS.INCANDESCENT.GLOVES, i(226556)),	-- Arcanist Gloves
+							tokencost(TOKENS.INCANDESCENT.BELT, i(226555)),	-- Arcanist Belt
+							tokencost(TOKENS.INCANDESCENT.LEGS, i(226561)),	-- Arcanist Leggings
+							tokencost(TOKENS.INCANDESCENT.BOOTS, i(226557)),	-- Arcanist Boots
 
 							-- Healer
-							tokencost(TOKENS.INCANDESCENT.HELM, i(226564)),	--  Arcanist Headdress
-							tokencost(TOKENS.INCANDESCENT.SHOULDERS, i(226566)),	--  Arcanist Shoulders
-							tokencost(TOKENS.INCANDESCENT.CHEST, i(226563)),	--  Arcanist Garments
-							tokencost(TOKENS.INCANDESCENT.BRACERS, i(226567)),	--  Arcanist Wristwraps
-							tokencost(TOKENS.INCANDESCENT.GLOVES, i(226569)),	--  Arcanist Handguards
-							tokencost(TOKENS.INCANDESCENT.BELT, i(226570)),	--  Arcanist Cord
-							tokencost(TOKENS.INCANDESCENT.LEGS, i(226565)),	--  Arcanist Pants
-							tokencost(TOKENS.INCANDESCENT.BOOTS, i(226568)),	--  Arcanist Sandals
+							tokencost(TOKENS.INCANDESCENT.HELM, i(226564)),	-- Arcanist Headdress
+							tokencost(TOKENS.INCANDESCENT.SHOULDERS, i(226566)),	-- Arcanist Shoulders
+							tokencost(TOKENS.INCANDESCENT.CHEST, i(226563)),	-- Arcanist Garments
+							tokencost(TOKENS.INCANDESCENT.BRACERS, i(226567)),	-- Arcanist Wristwraps
+							tokencost(TOKENS.INCANDESCENT.GLOVES, i(226569)),	-- Arcanist Handguards
+							tokencost(TOKENS.INCANDESCENT.BELT, i(226570)),	-- Arcanist Cord
+							tokencost(TOKENS.INCANDESCENT.LEGS, i(226565)),	-- Arcanist Pants
+							tokencost(TOKENS.INCANDESCENT.BOOTS, i(226568)),	-- Arcanist Sandals
 						}),
 						cl(PALADIN, {
 							-- DPS
-							tokencost(TOKENS.MOLTEN_SCALED.HELM, i(226599)),	--  Lawbringer Crown
-							tokencost(TOKENS.MOLTEN_SCALED.SHOULDERS, i(221783)),	--  Lawbringer Spaulders
-							tokencost(TOKENS.MOLTEN_SCALED.CHEST, i(226602)),	--  Lawbringer Breastplate
-							tokencost(TOKENS.MOLTEN_SCALED.BRACERS, i(226596)),	--  Lawbringer Warbands
-							tokencost(TOKENS.MOLTEN_SCALED.GLOVES, i(226600)),	--  Lawbringer Grips
-							tokencost(TOKENS.MOLTEN_SCALED.BELT, i(226597)),	--  Lawbringer Girdle
-							tokencost(TOKENS.MOLTEN_SCALED.LEGS, i(226598)),	--  Lawbringer Leggings
-							tokencost(TOKENS.MOLTEN_SCALED.BOOTS, i(226601)),	--  Lawbringer Battleboots
+							tokencost(TOKENS.MOLTEN_SCALED.HELM, i(226599)),	-- Lawbringer Crown
+							tokencost(TOKENS.MOLTEN_SCALED.SHOULDERS, i(221783)),	-- Lawbringer Spaulders
+							tokencost(TOKENS.MOLTEN_SCALED.CHEST, i(226602)),	-- Lawbringer Breastplate
+							tokencost(TOKENS.MOLTEN_SCALED.BRACERS, i(226596)),	-- Lawbringer Warbands
+							tokencost(TOKENS.MOLTEN_SCALED.GLOVES, i(226600)),	-- Lawbringer Grips
+							tokencost(TOKENS.MOLTEN_SCALED.BELT, i(226597)),	-- Lawbringer Girdle
+							tokencost(TOKENS.MOLTEN_SCALED.LEGS, i(226598)),	-- Lawbringer Leggings
+							tokencost(TOKENS.MOLTEN_SCALED.BOOTS, i(226601)),	-- Lawbringer Battleboots
 
 							-- Healer
-							tokencost(TOKENS.MOLTEN_SCALED.HELM, i(226590)),	--  Lawbringer Helm
-							tokencost(TOKENS.MOLTEN_SCALED.SHOULDERS, i(226588)),	--  Lawbringer Spaulders
-							tokencost(TOKENS.MOLTEN_SCALED.CHEST, i(226610)),	--  Lawbringer Chestplate
-							tokencost(TOKENS.MOLTEN_SCALED.BRACERS, i(226589)),	--  Lawbringer Bracers
-							tokencost(TOKENS.MOLTEN_SCALED.GLOVES, i(226591)),	--  Lawbringer Gauntlets
-							tokencost(TOKENS.MOLTEN_SCALED.BELT, i(226592)),	--  Lawbringer Belt
-							tokencost(TOKENS.MOLTEN_SCALED.LEGS, i(226594)),	--  Lawbringer Legplates
-							tokencost(TOKENS.MOLTEN_SCALED.BOOTS, i(226593)),	--  Lawbringer Boots
+							tokencost(TOKENS.MOLTEN_SCALED.HELM, i(226590)),	-- Lawbringer Helm
+							tokencost(TOKENS.MOLTEN_SCALED.SHOULDERS, i(226588)),	-- Lawbringer Spaulders
+							tokencost(TOKENS.MOLTEN_SCALED.CHEST, i(226610)),	-- Lawbringer Chestplate
+							tokencost(TOKENS.MOLTEN_SCALED.BRACERS, i(226589)),	-- Lawbringer Bracers
+							tokencost(TOKENS.MOLTEN_SCALED.GLOVES, i(226591)),	-- Lawbringer Gauntlets
+							tokencost(TOKENS.MOLTEN_SCALED.BELT, i(226592)),	-- Lawbringer Belt
+							tokencost(TOKENS.MOLTEN_SCALED.LEGS, i(226594)),	-- Lawbringer Legplates
+							tokencost(TOKENS.MOLTEN_SCALED.BOOTS, i(226593)),	-- Lawbringer Boots
 
 							-- Tank
-							tokencost(TOKENS.MOLTEN_SCALED.HELM, i(226607)),	--  Lawbringer Headguard
-							tokencost(TOKENS.MOLTEN_SCALED.SHOULDERS, i(226605)),	--  Lawbringer Pauldrons
-							tokencost(TOKENS.MOLTEN_SCALED.CHEST, i(226595)),	--  Lawbringer Chestguard
-							tokencost(TOKENS.MOLTEN_SCALED.BRACERS, i(226603)),	--  Lawbringer Vambraces
-							tokencost(TOKENS.MOLTEN_SCALED.GLOVES, i(226608)),	--  Lawbringer Handguards
-							tokencost(TOKENS.MOLTEN_SCALED.BELT, i(226604)),	--  Lawbringer Battlebelt
-							tokencost(TOKENS.MOLTEN_SCALED.LEGS, i(226606)),	--  Lawbringer Legguards
-							tokencost(TOKENS.MOLTEN_SCALED.BOOTS, i(226609)),	--  Lawbringer Sabatons
+							tokencost(TOKENS.MOLTEN_SCALED.HELM, i(226607)),	-- Lawbringer Headguard
+							tokencost(TOKENS.MOLTEN_SCALED.SHOULDERS, i(226605)),	-- Lawbringer Pauldrons
+							tokencost(TOKENS.MOLTEN_SCALED.CHEST, i(226595)),	-- Lawbringer Chestguard
+							tokencost(TOKENS.MOLTEN_SCALED.BRACERS, i(226603)),	-- Lawbringer Vambraces
+							tokencost(TOKENS.MOLTEN_SCALED.GLOVES, i(226608)),	-- Lawbringer Handguards
+							tokencost(TOKENS.MOLTEN_SCALED.BELT, i(226604)),	-- Lawbringer Battlebelt
+							tokencost(TOKENS.MOLTEN_SCALED.LEGS, i(226606)),	-- Lawbringer Legguards
+							tokencost(TOKENS.MOLTEN_SCALED.BOOTS, i(226609)),	-- Lawbringer Sabatons
 						}),
 						cl(PRIEST, {
 							-- DPS
-							tokencost(TOKENS.INCANDESCENT.HELM, i(226584)),	--  Crown of Prophecy
-							tokencost(TOKENS.INCANDESCENT.SHOULDERS, i(226581)),	--  Shoulderpads of Prophecy
-							tokencost(TOKENS.INCANDESCENT.CHEST, i(226582)),	--  Garments of Prophecy
-							tokencost(TOKENS.INCANDESCENT.BRACERS, i(226579)),	--  Wristwraps of Prophecy
-							tokencost(TOKENS.INCANDESCENT.GLOVES, i(226585)),	--  Hands of Prophecy
-							tokencost(TOKENS.INCANDESCENT.BELT, i(226580)),	--  Belt of Prophecy
-							tokencost(TOKENS.INCANDESCENT.LEGS, i(226583)),	--  Leggings of Prophecy
-							tokencost(TOKENS.INCANDESCENT.BOOTS, i(226586)),	--  Sandals of Prophecy
+							tokencost(TOKENS.INCANDESCENT.HELM, i(226584)),	-- Crown of Prophecy
+							tokencost(TOKENS.INCANDESCENT.SHOULDERS, i(226581)),	-- Shoulderpads of Prophecy
+							tokencost(TOKENS.INCANDESCENT.CHEST, i(226582)),	-- Garments of Prophecy
+							tokencost(TOKENS.INCANDESCENT.BRACERS, i(226579)),	-- Wristwraps of Prophecy
+							tokencost(TOKENS.INCANDESCENT.GLOVES, i(226585)),	-- Hands of Prophecy
+							tokencost(TOKENS.INCANDESCENT.BELT, i(226580)),	-- Belt of Prophecy
+							tokencost(TOKENS.INCANDESCENT.LEGS, i(226583)),	-- Leggings of Prophecy
+							tokencost(TOKENS.INCANDESCENT.BOOTS, i(226586)),	-- Sandals of Prophecy
 
 							-- Healer
-							tokencost(TOKENS.INCANDESCENT.HELM, i(226573)),	--  Circlet of Prophecy
-							tokencost(TOKENS.INCANDESCENT.SHOULDERS, i(226576)),	--  Mantle of Prophecy
-							tokencost(TOKENS.INCANDESCENT.CHEST, i(226575)),	--  Robes of Prophecy
-							tokencost(TOKENS.INCANDESCENT.BRACERS, i(226578)),	--  Vambraces of Prophecy
-							tokencost(TOKENS.INCANDESCENT.GLOVES, i(226572)),	--  Gloves of Prophecy
-							tokencost(TOKENS.INCANDESCENT.BELT, i(226577)),	--  Girdle of Prophecy
-							tokencost(TOKENS.INCANDESCENT.LEGS, i(226574)),	--  Pants of Prophecy
-							tokencost(TOKENS.INCANDESCENT.BOOTS, i(226571)),	--  Boots of Prophecy
+							tokencost(TOKENS.INCANDESCENT.HELM, i(226573)),	-- Circlet of Prophecy
+							tokencost(TOKENS.INCANDESCENT.SHOULDERS, i(226576)),	-- Mantle of Prophecy
+							tokencost(TOKENS.INCANDESCENT.CHEST, i(226575)),	-- Robes of Prophecy
+							tokencost(TOKENS.INCANDESCENT.BRACERS, i(226578)),	-- Vambraces of Prophecy
+							tokencost(TOKENS.INCANDESCENT.GLOVES, i(226572)),	-- Gloves of Prophecy
+							tokencost(TOKENS.INCANDESCENT.BELT, i(226577)),	-- Girdle of Prophecy
+							tokencost(TOKENS.INCANDESCENT.LEGS, i(226574)),	-- Pants of Prophecy
+							tokencost(TOKENS.INCANDESCENT.BOOTS, i(226571)),	-- Boots of Prophecy
 						}),
 						cl(ROGUE, {
 							-- DPS
-							tokencost(TOKENS.SCORCHED_CORE.HELM, i(226446)),	--  Nightslayer Cover
-							tokencost(TOKENS.SCORCHED_CORE.SHOULDERS, i(226444)),	--  Nightslayer Shoulder Pads
-							tokencost(TOKENS.SCORCHED_CORE.CHEST, i(226447)),	--  Nightslayer Chestpiece
-							tokencost(TOKENS.SCORCHED_CORE.BRACERS, i(226442)),	--  Nightslayer Bracelets
-							tokencost(TOKENS.SCORCHED_CORE.GLOVES, i(226441)),	--  Nightslayer Gloves
-							tokencost(TOKENS.SCORCHED_CORE.BELT, i(226440)),	--  Nightslayer Belt
-							tokencost(TOKENS.SCORCHED_CORE.LEGS, i(226445)),	--  Nightslayer Pants
-							tokencost(TOKENS.SCORCHED_CORE.BOOTS, i(226443)),	--  Nightslayer Boots
+							tokencost(TOKENS.SCORCHED_CORE.HELM, i(226446)),	-- Nightslayer Cover
+							tokencost(TOKENS.SCORCHED_CORE.SHOULDERS, i(226444)),	-- Nightslayer Shoulder Pads
+							tokencost(TOKENS.SCORCHED_CORE.CHEST, i(226447)),	-- Nightslayer Chestpiece
+							tokencost(TOKENS.SCORCHED_CORE.BRACERS, i(226442)),	-- Nightslayer Bracelets
+							tokencost(TOKENS.SCORCHED_CORE.GLOVES, i(226441)),	-- Nightslayer Gloves
+							tokencost(TOKENS.SCORCHED_CORE.BELT, i(226440)),	-- Nightslayer Belt
+							tokencost(TOKENS.SCORCHED_CORE.LEGS, i(226445)),	-- Nightslayer Pants
+							tokencost(TOKENS.SCORCHED_CORE.BOOTS, i(226443)),	-- Nightslayer Boots
 
 							-- Tank
-							tokencost(TOKENS.SCORCHED_CORE.HELM, i(226480)),	--  Nightslayer Hood
-							tokencost(TOKENS.SCORCHED_CORE.SHOULDERS, i(226478)),	--  Nightslayer Pauldrons
-							tokencost(TOKENS.SCORCHED_CORE.CHEST, i(226473)),	--  Nightslayer Cuirass
-							tokencost(TOKENS.SCORCHED_CORE.BRACERS, i(226476)),	--  Nightslayer Bracers
-							tokencost(TOKENS.SCORCHED_CORE.GLOVES, i(226475)),	--  Nightslayer Handguards
-							tokencost(TOKENS.SCORCHED_CORE.BELT, i(226474)),	--  Nightslayer Waistguard
-							tokencost(TOKENS.SCORCHED_CORE.LEGS, i(226479)),	--  Nightslayer Legguards
-							tokencost(TOKENS.SCORCHED_CORE.BOOTS, i(226477)),	--  Nightslayer Tabi
+							tokencost(TOKENS.SCORCHED_CORE.HELM, i(226480)),	-- Nightslayer Hood
+							tokencost(TOKENS.SCORCHED_CORE.SHOULDERS, i(226478)),	-- Nightslayer Pauldrons
+							tokencost(TOKENS.SCORCHED_CORE.CHEST, i(226473)),	-- Nightslayer Cuirass
+							tokencost(TOKENS.SCORCHED_CORE.BRACERS, i(226476)),	-- Nightslayer Bracers
+							tokencost(TOKENS.SCORCHED_CORE.GLOVES, i(226475)),	-- Nightslayer Handguards
+							tokencost(TOKENS.SCORCHED_CORE.BELT, i(226474)),	-- Nightslayer Waistguard
+							tokencost(TOKENS.SCORCHED_CORE.LEGS, i(226479)),	-- Nightslayer Legguards
+							tokencost(TOKENS.SCORCHED_CORE.BOOTS, i(226477)),	-- Nightslayer Tabi
 						}),
 						cl(SHAMAN, {
 							-- DPS (Agility)
-							tokencost(TOKENS.MOLTEN_SCALED.HELM, i(226638)),	--  Earthfury Headpiece
-							tokencost(TOKENS.MOLTEN_SCALED.SHOULDERS, i(226640)),	--  Earthfury Spaulders
-							tokencost(TOKENS.MOLTEN_SCALED.CHEST, i(226635)),	--  Earthfury Chainmail
-							tokencost(TOKENS.MOLTEN_SCALED.BRACERS, i(226642)),	--  Earthfury Bindings
-							tokencost(TOKENS.MOLTEN_SCALED.GLOVES, i(226637)),	--  Earthfury Grips
-							tokencost(TOKENS.MOLTEN_SCALED.BELT, i(226641)),	--  Earthfury Girdle
-							tokencost(TOKENS.MOLTEN_SCALED.LEGS, i(226639)),	--  Earthfury Chain Leggings
-							tokencost(TOKENS.MOLTEN_SCALED.BOOTS, i(226636)),	--  Earthfury Battleboots
+							tokencost(TOKENS.MOLTEN_SCALED.HELM, i(226638)),	-- Earthfury Headpiece
+							tokencost(TOKENS.MOLTEN_SCALED.SHOULDERS, i(226640)),	-- Earthfury Spaulders
+							tokencost(TOKENS.MOLTEN_SCALED.CHEST, i(226635)),	-- Earthfury Chainmail
+							tokencost(TOKENS.MOLTEN_SCALED.BRACERS, i(226642)),	-- Earthfury Bindings
+							tokencost(TOKENS.MOLTEN_SCALED.GLOVES, i(226637)),	-- Earthfury Grips
+							tokencost(TOKENS.MOLTEN_SCALED.BELT, i(226641)),	-- Earthfury Girdle
+							tokencost(TOKENS.MOLTEN_SCALED.LEGS, i(226639)),	-- Earthfury Chain Leggings
+							tokencost(TOKENS.MOLTEN_SCALED.BOOTS, i(226636)),	-- Earthfury Battleboots
 
 							-- DPS (Intellect)
-							tokencost(TOKENS.MOLTEN_SCALED.HELM, i(226622)),	--  Earthfury Visor
-							tokencost(TOKENS.MOLTEN_SCALED.SHOULDERS, i(226624)),	--  Earthfury Mantle
-							tokencost(TOKENS.MOLTEN_SCALED.CHEST, i(226619)),	--  Earthfury Ringmail
-							tokencost(TOKENS.MOLTEN_SCALED.BRACERS, i(226626)),	--  Earthfury Wristbands
-							tokencost(TOKENS.MOLTEN_SCALED.GLOVES, i(226621)),	--  Earthfury Hands
-							tokencost(TOKENS.MOLTEN_SCALED.BELT, i(226625)),	--  Earthfury Cord
-							tokencost(TOKENS.MOLTEN_SCALED.LEGS, i(226623)),	--  Earthfury Leggings
-							tokencost(TOKENS.MOLTEN_SCALED.BOOTS, i(226620)),	--  Earthfury Walkers
+							tokencost(TOKENS.MOLTEN_SCALED.HELM, i(226622)),	-- Earthfury Visor
+							tokencost(TOKENS.MOLTEN_SCALED.SHOULDERS, i(226624)),	-- Earthfury Mantle
+							tokencost(TOKENS.MOLTEN_SCALED.CHEST, i(226619)),	-- Earthfury Ringmail
+							tokencost(TOKENS.MOLTEN_SCALED.BRACERS, i(226626)),	-- Earthfury Wristbands
+							tokencost(TOKENS.MOLTEN_SCALED.GLOVES, i(226621)),	-- Earthfury Hands
+							tokencost(TOKENS.MOLTEN_SCALED.BELT, i(226625)),	-- Earthfury Cord
+							tokencost(TOKENS.MOLTEN_SCALED.LEGS, i(226623)),	-- Earthfury Leggings
+							tokencost(TOKENS.MOLTEN_SCALED.BOOTS, i(226620)),	-- Earthfury Walkers
 
 							-- Healer
-							tokencost(TOKENS.MOLTEN_SCALED.HELM, i(226612)),	--  Earthfury Helmet
-							tokencost(TOKENS.MOLTEN_SCALED.SHOULDERS, i(226611)),	--  Earthfury Epaulets
-							tokencost(TOKENS.MOLTEN_SCALED.CHEST, i(226617)),	--  Earthfury Vestments
-							tokencost(TOKENS.MOLTEN_SCALED.BRACERS, i(226618)),	--  Earthfury Bracers
-							tokencost(TOKENS.MOLTEN_SCALED.GLOVES, i(226615)),	--  Earthfury Gauntlets
-							tokencost(TOKENS.MOLTEN_SCALED.BELT, i(226616)),	--  Earthfury Belt
-							tokencost(TOKENS.MOLTEN_SCALED.LEGS, i(226614)),	--  Earthfury Legguards
-							tokencost(TOKENS.MOLTEN_SCALED.BOOTS, i(226613)),	--  Earthfury Boots
+							tokencost(TOKENS.MOLTEN_SCALED.HELM, i(226612)),	-- Earthfury Helmet
+							tokencost(TOKENS.MOLTEN_SCALED.SHOULDERS, i(226611)),	-- Earthfury Epaulets
+							tokencost(TOKENS.MOLTEN_SCALED.CHEST, i(226617)),	-- Earthfury Vestments
+							tokencost(TOKENS.MOLTEN_SCALED.BRACERS, i(226618)),	-- Earthfury Bracers
+							tokencost(TOKENS.MOLTEN_SCALED.GLOVES, i(226615)),	-- Earthfury Gauntlets
+							tokencost(TOKENS.MOLTEN_SCALED.BELT, i(226616)),	-- Earthfury Belt
+							tokencost(TOKENS.MOLTEN_SCALED.LEGS, i(226614)),	-- Earthfury Legguards
+							tokencost(TOKENS.MOLTEN_SCALED.BOOTS, i(226613)),	-- Earthfury Boots
 
 							-- Tank
-							tokencost(TOKENS.MOLTEN_SCALED.HELM, i(226630)),	--  Earthfury Greathelm
-							tokencost(TOKENS.MOLTEN_SCALED.SHOULDERS, i(226632)),	--  Earthfury Pauldrons
-							tokencost(TOKENS.MOLTEN_SCALED.CHEST, i(226627)),	--  Earthfury Scalemail
-							tokencost(TOKENS.MOLTEN_SCALED.BRACERS, i(226634)),	--  Earthfury Wristguards
-							tokencost(TOKENS.MOLTEN_SCALED.GLOVES, i(226629)),	--  Earthfury Handguards
-							tokencost(TOKENS.MOLTEN_SCALED.BELT, i(226633)),	--  Earthfury Waistguard
-							tokencost(TOKENS.MOLTEN_SCALED.LEGS, i(226631)),	--  Earthfury Scaled Leggings
-							tokencost(TOKENS.MOLTEN_SCALED.BOOTS, i(226628)),	--  Earthfury Sabatons
+							tokencost(TOKENS.MOLTEN_SCALED.HELM, i(226630)),	-- Earthfury Greathelm
+							tokencost(TOKENS.MOLTEN_SCALED.SHOULDERS, i(226632)),	-- Earthfury Pauldrons
+							tokencost(TOKENS.MOLTEN_SCALED.CHEST, i(226627)),	-- Earthfury Scalemail
+							tokencost(TOKENS.MOLTEN_SCALED.BRACERS, i(226634)),	-- Earthfury Wristguards
+							tokencost(TOKENS.MOLTEN_SCALED.GLOVES, i(226629)),	-- Earthfury Handguards
+							tokencost(TOKENS.MOLTEN_SCALED.BELT, i(226633)),	-- Earthfury Waistguard
+							tokencost(TOKENS.MOLTEN_SCALED.LEGS, i(226631)),	-- Earthfury Scaled Leggings
+							tokencost(TOKENS.MOLTEN_SCALED.BOOTS, i(226628)),	-- Earthfury Sabatons
 						}),
 						cl(WARLOCK, {
 							-- DPS
-							tokencost(TOKENS.INCANDESCENT.HELM, i(226549)),	--  Felheart Horns
-							tokencost(TOKENS.INCANDESCENT.SHOULDERS, i(226550)),	--  Felheart Shoulder Pads
-							tokencost(TOKENS.INCANDESCENT.CHEST, i(226548)),	--  Felheart Robes
-							tokencost(TOKENS.INCANDESCENT.BRACERS, i(226553)),	--  Felheart Bracers
-							tokencost(TOKENS.INCANDESCENT.GLOVES, i(226552)),	--  Felheart Gloves
-							tokencost(TOKENS.INCANDESCENT.BELT, i(226551)),	--  Felheart Belt
-							tokencost(TOKENS.INCANDESCENT.LEGS, i(226547)),	--  Felheart Pants
-							tokencost(TOKENS.INCANDESCENT.BOOTS, i(226554)),	--  Felheart Slippers
+							tokencost(TOKENS.INCANDESCENT.HELM, i(226549)),	-- Felheart Horns
+							tokencost(TOKENS.INCANDESCENT.SHOULDERS, i(226550)),	-- Felheart Shoulder Pads
+							tokencost(TOKENS.INCANDESCENT.CHEST, i(226548)),	-- Felheart Robes
+							tokencost(TOKENS.INCANDESCENT.BRACERS, i(226553)),	-- Felheart Bracers
+							tokencost(TOKENS.INCANDESCENT.GLOVES, i(226552)),	-- Felheart Gloves
+							tokencost(TOKENS.INCANDESCENT.BELT, i(226551)),	-- Felheart Belt
+							tokencost(TOKENS.INCANDESCENT.LEGS, i(226547)),	-- Felheart Pants
+							tokencost(TOKENS.INCANDESCENT.BOOTS, i(226554)),	-- Felheart Slippers
 
 							-- Tank
-							tokencost(TOKENS.INCANDESCENT.HELM, i(216922)),	--  Felheart Crown
-							tokencost(TOKENS.INCANDESCENT.SHOULDERS, i(216925)),	--  Felheart Mantle
-							tokencost(TOKENS.INCANDESCENT.CHEST, i(216924)),	--  Felheart Embrace
-							tokencost(TOKENS.INCANDESCENT.BRACERS, i(216920)),	--  Felheart Bindings
-							tokencost(TOKENS.INCANDESCENT.GLOVES, i(216921)),	--  Felheart Grips
-							tokencost(TOKENS.INCANDESCENT.BELT, i(216919)),	--  Felheart Sash
-							tokencost(TOKENS.INCANDESCENT.LEGS, i(216923)),	--  Felheart Leggings
-							tokencost(TOKENS.INCANDESCENT.BOOTS, i(216918)),	--  Felheart Boots
+							tokencost(TOKENS.INCANDESCENT.HELM, i(216922)),	-- Felheart Crown
+							tokencost(TOKENS.INCANDESCENT.SHOULDERS, i(216925)),	-- Felheart Mantle
+							tokencost(TOKENS.INCANDESCENT.CHEST, i(216924)),	-- Felheart Embrace
+							tokencost(TOKENS.INCANDESCENT.BRACERS, i(216920)),	-- Felheart Bindings
+							tokencost(TOKENS.INCANDESCENT.GLOVES, i(216921)),	-- Felheart Grips
+							tokencost(TOKENS.INCANDESCENT.BELT, i(216919)),	-- Felheart Sash
+							tokencost(TOKENS.INCANDESCENT.LEGS, i(216923)),	-- Felheart Leggings
+							tokencost(TOKENS.INCANDESCENT.BOOTS, i(216918)),	-- Felheart Boots
 						}),
 						cl(WARRIOR, {
 							-- DPS
-							tokencost(TOKENS.SCORCHED_CORE.HELM, i(226495)),	--  Jaws of Might
-							tokencost(TOKENS.SCORCHED_CORE.SHOULDERS, i(226492)),	--  Pauldrons of Might
-							tokencost(TOKENS.SCORCHED_CORE.CHEST, i(226494)),	--  Hauberk of Might
-							tokencost(TOKENS.SCORCHED_CORE.BRACERS, i(226499)),	--  Armguards of Might
-							tokencost(TOKENS.SCORCHED_CORE.GLOVES, i(226497)),	--  Hands of Might
-							tokencost(TOKENS.SCORCHED_CORE.BELT, i(226498)),	--  Sash of Might
-							tokencost(TOKENS.SCORCHED_CORE.LEGS, i(226493)),	--  Leggings of Might
-							tokencost(TOKENS.SCORCHED_CORE.BOOTS, i(226496)),	--  Treads of Might
+							tokencost(TOKENS.SCORCHED_CORE.HELM, i(226495)),	-- Jaws of Might
+							tokencost(TOKENS.SCORCHED_CORE.SHOULDERS, i(226492)),	-- Pauldrons of Might
+							tokencost(TOKENS.SCORCHED_CORE.CHEST, i(226494)),	-- Hauberk of Might
+							tokencost(TOKENS.SCORCHED_CORE.BRACERS, i(226499)),	-- Armguards of Might
+							tokencost(TOKENS.SCORCHED_CORE.GLOVES, i(226497)),	-- Hands of Might
+							tokencost(TOKENS.SCORCHED_CORE.BELT, i(226498)),	-- Sash of Might
+							tokencost(TOKENS.SCORCHED_CORE.LEGS, i(226493)),	-- Leggings of Might
+							tokencost(TOKENS.SCORCHED_CORE.BOOTS, i(226496)),	-- Treads of Might
 
 							-- Tank
-							tokencost(TOKENS.SCORCHED_CORE.HELM, i(226488)),	--  Helm of Might
-							tokencost(TOKENS.SCORCHED_CORE.SHOULDERS, i(226491)),	--  Shoulderplates of Might
-							tokencost(TOKENS.SCORCHED_CORE.CHEST, i(226489)),	--  Breastplate of Might
-							tokencost(TOKENS.SCORCHED_CORE.BRACERS, i(226484)),	--  Bracers of Might
-							tokencost(TOKENS.SCORCHED_CORE.GLOVES, i(226486)),	--  Gauntlets of Might
-							tokencost(TOKENS.SCORCHED_CORE.BELT, i(226485)),	--  Belt of Might
-							tokencost(TOKENS.SCORCHED_CORE.LEGS, i(226490)),	--  Legplates of Might
-							tokencost(TOKENS.SCORCHED_CORE.BOOTS, i(226487)),	--  Sabatons of Might
+							tokencost(TOKENS.SCORCHED_CORE.HELM, i(226488)),	-- Helm of Might
+							tokencost(TOKENS.SCORCHED_CORE.SHOULDERS, i(226491)),	-- Shoulderplates of Might
+							tokencost(TOKENS.SCORCHED_CORE.CHEST, i(226489)),	-- Breastplate of Might
+							tokencost(TOKENS.SCORCHED_CORE.BRACERS, i(226484)),	-- Bracers of Might
+							tokencost(TOKENS.SCORCHED_CORE.GLOVES, i(226486)),	-- Gauntlets of Might
+							tokencost(TOKENS.SCORCHED_CORE.BELT, i(226485)),	-- Belt of Might
+							tokencost(TOKENS.SCORCHED_CORE.LEGS, i(226490)),	-- Legplates of Might
+							tokencost(TOKENS.SCORCHED_CORE.BOOTS, i(226487)),	-- Sabatons of Might
 						}),
 					},
 				}),
