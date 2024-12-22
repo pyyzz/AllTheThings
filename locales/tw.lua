@@ -717,7 +717,7 @@ for key,value in pairs({
 		MINI_LIST_SLIDER_LABEL = "小列表縮放";
 		MINI_LIST_SCALE_TOOLTIP = '使用此功能可以自訂所有小和小列表的縮放。\n\n預設：1';
 		ADHOC_UPDATES_CHECKBOX = "使用臨時視窗更新";
-		ADHOC_UPDATES_CHECKBOX_TOOLTIP = "如果你想只更新可見的 ATT 視窗請啟用此選項。\n\n這可以大大减少載入時間並防止在某些情況下出現瘋狂掉幀。";
+		ADHOC_UPDATES_CHECKBOX_TOOLTIP = "如果你想只更新可見的 ATT 視窗請啟用此選項。\n\n這可以大大減少載入時間並防止在某些情況下出現瘋狂掉幀。";
 		EXPAND_DIFFICULTY_CHECKBOX = "展開當前難度";
 		EXPAND_DIFFICULTY_CHECKBOX_TOOLTIP = "如果要在進入地城或團隊副本時自動最小化小列表中未啟動的難度標題，請啟用此選項。\n\n比如：在普通難度地城中最小化英雄標題。";
 		SHOW_ICON_PORTRAIT_CHECKBOX = "圖標頭像";
