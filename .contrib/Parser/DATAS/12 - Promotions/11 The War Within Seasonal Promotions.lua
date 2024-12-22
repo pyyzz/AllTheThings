@@ -92,7 +92,7 @@ root(ROOTS.Promotions, {
 			}),
 			-- Season 1
 			i(232305, {	-- Forged Champion's Prestigious Banner (TOY!)(PVP)
-				["description"] = "Arena World Championship: TWW Season 1\n\nSign up on Raider.io for any of the 4 Cups, available until October 13th 2024, and play in atleast two game series (best of 5)\n\nWinning not required, for more details & requirements checkout: Raider.io/tournaments/AWC",
+				["description"] = "Arena World Championship: TWW Season 1\n\nSign up on Raider.io for any of the 4 Cups, available until October 13th 2024, and play in at least two game series (best of 5)\n\nWinning not required, for more details & requirements checkout: Raider.io/tournaments/AWC",
 				["timeline"] = { ADDED_11_0_5, REMOVED_11_0_5 },
 			}),
 			i(232301, {	-- Tempered Banner of the Algari (TOY!)
@@ -101,27 +101,27 @@ root(ROOTS.Promotions, {
 			}),
 			i(228765, {	-- Gummi (PET!)
 				["description"] = "Trolli + Xbox promotional item. Available between 9/1/24 - 2/28/25 by purchasing Trolli Candy products in any retail store, photoing your receipt and uploading it as confirmation to trolli.com/xbox. Once processed, you should receive a code to your email to redeem on battle.net or in the launcher.\n\nYou must have a U.S. address and phone number to participate.\n\nThe code is usable in any region.",
-				["timeline"] = { ADDED_11_0_2 },
+				["timeline"] = { ADDED_11_0_2, "removed 11.1.0.99999" },
 				["u"] = REAL_MONEY,
 			}),
 			i(228761, {	-- Classic Brick Tabard
 				["description"] = "Trolli + Xbox promotional item. Available between 9/1/24 - 2/28/25 by purchasing Trolli Candy products in |CFFFF0000Walgreens|r, photoing your receipt and uploading it as confirmation to trolli.com/xbox. Once processed, you should receive a code to your email to redeem on battle.net or in the launcher.\n\nYou must have a U.S. address and phone number to participate.\n\nThe code is usable in any region.",
-				["timeline"] = { ADDED_11_0_2 },
+				["timeline"] = { ADDED_11_0_2, "removed 11.1.0.99999" },
 				["u"] = REAL_MONEY,
 			}),
 			i(228763, {	-- Classic Crimson Tabard
 				["description"] = "Trolli + Xbox promotional item. Available between 9/1/24 - 2/28/25 by purchasing Trolli Candy products in |CFFFF0000Circle K|r, photoing your receipt and uploading it as confirmation to trolli.com/xbox. Once processed, you should receive a code to your email to redeem on battle.net or in the launcher.\n\nYou must have a U.S. address and phone number to participate.\n\nThe code is usable in any region.",
-				["timeline"] = { ADDED_11_0_2 },
+				["timeline"] = { ADDED_11_0_2, "removed 11.1.0.99999" },
 				["u"] = REAL_MONEY,
 			}),
 			i(228762, {	-- Classic Lively Tabard
 				["description"] = "Trolli + Xbox promotional item. Available between 9/1/24 - 2/28/25 by purchasing Trolli Candy products in |CFFFF0000Dollar General|r, photoing your receipt and uploading it as confirmation to trolli.com/xbox. Once processed, you should receive a code to your email to redeem on battle.net or in the launcher.\n\nYou must have a U.S. address and phone number to participate.\n\nThe code is usable in any region.",
-				["timeline"] = { ADDED_11_0_2 },
+				["timeline"] = { ADDED_11_0_2, "removed 11.1.0.99999" },
 				["u"] = REAL_MONEY,
 			}),
 			i(228764, {	-- Classic Sunny Tabard
-				["description"] = "Krogers promotional item. Available for an unknown period. Can be redeemed for 1500 rewards points from pointsrewardsplus.com. With a referral link, just signing up will earn you enough points to redeem the tabard for free. Access the code from the account page and then redeem on battle.net or in the launcher.",
-				["timeline"] = { ADDED_11_0_2 },
+				["description"] = "Krogers promotional item. You have to earn points before Jan 7, 2025 and redeem before Feb 7, 2025. Can be redeemed for 1500 rewards points from pointsrewardsplus.com. With a referral link, just signing up will earn you enough points to redeem the tabard for free. Access the code from the account page and then redeem on battle.net or in the launcher.",
+				["timeline"] = { ADDED_11_0_2, "removed 11.0.7.99999" },
 				["u"] = REAL_MONEY,
 			}),
 			i(225250, {	-- Startouched Furline (MOUNT!)
@@ -140,38 +140,38 @@ root(ROOTS.Promotions, {
 				["u"] = REMOVED_FROM_GAME,	-- 5th November 2024
 			}),
 			i(228907, {	-- Bot Wrangler’s Belt
-				["description"] = "Available to redeem for 300 points at DoritosDewRockstar.com. Points can be earned from entering codes found in specially marked Mountain Dew, Doritos and Rockstar Energy Drink products.",
-				["timeline"] = { ADDED_11_0_5 },
+				["description"] = "Available to redeem for 300 points at DoritosDewRockstar.com before Jan 31, 2025. Points can be earned from entering codes found in specially marked Mountain Dew, Doritos and Rockstar Energy Drink products.",
+				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },
 				["u"] = REAL_MONEY,
 			}),
 			i(228909, {	-- Bot Wrangler’s Crimson Apron
-				["description"] = "Available to redeem for 300 points at DoritosDewRockstar.com. Points can be earned from entering codes found in specially marked Mountain Dew, Doritos and Rockstar Energy Drink products.",
-				["timeline"] = { ADDED_11_0_5 },
+				["description"] = "Available to redeem for 300 points at DoritosDewRockstar.com before Jan 31, 2025. Points can be earned from entering codes found in specially marked Mountain Dew, Doritos and Rockstar Energy Drink products.",
+				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },
 				["u"] = REAL_MONEY,
 			}),
 			i(228908, {	-- Bot Wrangler’s Violet Apron
-				["description"] = "Available to redeem for 300 points at DoritosDewRockstar.com. Points can be earned from entering codes found in specially marked Mountain Dew, Doritos and Rockstar Energy Drink products.",
-				["timeline"] = { ADDED_11_0_5 },
+				["description"] = "Available to redeem for 300 points at DoritosDewRockstar.com before Jan 31, 2025. Points can be earned from entering codes found in specially marked Mountain Dew, Doritos and Rockstar Energy Drink products.",
+				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },
 				["u"] = REAL_MONEY,
 			}),
 			i(228793, {	-- Chillbot 9000 (PET!)
-				["description"] = "Available to redeem for 400 points at DoritosDewRockstar.com. Points can be earned from entering codes found in specially marked Mountain Dew, Doritos and Rockstar Energy Drink products.",
-				["timeline"] = { ADDED_11_0_5 },
+				["description"] = "Available to redeem for 400 points at DoritosDewRockstar.com before Jan 31, 2025. Points can be earned from entering codes found in specially marked Mountain Dew, Doritos and Rockstar Energy Drink products.",
+				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },
 				["u"] = REAL_MONEY,
 			}),
 			i(228790, {	-- Thrillbot 9000 (PET!)
-				["description"] = "Available to redeem for 400 points at DoritosDewRockstar.com. Points can be earned from entering codes found in specially marked Mountain Dew, Doritos and Rockstar Energy Drink products.",
-				["timeline"] = { ADDED_11_0_5 },
+				["description"] = "Available to redeem for 400 points at DoritosDewRockstar.com before Jan 31, 2025. Points can be earned from entering codes found in specially marked Mountain Dew, Doritos and Rockstar Energy Drink products.",
+				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },
 				["u"] = REAL_MONEY,
 			}),
 			i(211087, {	-- Hateforged Blazecycle (MOUNT!)
-				["description"] = "Available to redeem for 600 points at DoritosDewRockstar.com. Points can be earned from entering codes found in specially marked Mountain Dew, Doritos and Rockstar Energy Drink products.",
-				["timeline"] = { ADDED_11_0_5 },
+				["description"] = "Available to redeem for 600 points at DoritosDewRockstar.com before Jan 31, 2025. Points can be earned from entering codes found in specially marked Mountain Dew, Doritos and Rockstar Energy Drink products.",
+				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },
 				["u"] = REAL_MONEY,
 			}),
 			i(68385, {	-- Lil' Ragnaros (PET!)
-				["description"] = "Available to redeem for 400 points at DoritosDewRockstar.com. Points can be earned from entering codes found in specially marked Mountain Dew, Doritos and Rockstar Energy Drink products.",
-				["timeline"] = { ADDED_11_0_5 },
+				["description"] = "Available to redeem for 400 points at DoritosDewRockstar.com before Jan 31, 2025. Points can be earned from entering codes found in specially marked Mountain Dew, Doritos and Rockstar Energy Drink products.",
+				["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },
 				["u"] = REAL_MONEY,
 			}),
 			i(229366, {	-- Brrrgl (PET!)
@@ -200,8 +200,8 @@ root(ROOTS.Promotions, {
 				["u"] = REMOVED_FROM_GAME,	-- 19th December 2024
 			}),
 			i(95341, {	-- Armored Bloodwing (MOUNT!)
-				["description"] = "Reportedly Windows only and requires an NVIDIA 10 Series or newer Graphics Card.\nLogin to the NVIDIA app, GeForce Experience or GeForce NOW then play a GeForce LAN Mission for 50 continuous minutes starting January 4th at 4:30 p.m. PST lasting until an January 6th.",
-				["timeline"] = { ADDED_11_0_7 },
+				["description"] = "Requires an NVIDIA 10+ Series Graphics Card or streaming through GeForce NOW (free tier is enough).\nLogin to the NVIDIA app, GeForce Experience or GeForce NOW then play a GeForce LAN Mission for 50 continuous minutes starting January 4th at 4:30 p.m. PST lasting until an January 6th.",
+				["timeline"] = { ADDED_11_0_7, "removed 11.0.7.99999" },
 			}),
 
 		--	i(500001, {    -- The PVE/PVP Banner temporary item -- TEMPLATE
