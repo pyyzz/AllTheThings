@@ -1,9 +1,7 @@
 UNIQUE_APPEARANCE = createHeader({
 	readable = "Unique Appearance",
 	constant = "UNIQUE_APPEARANCE",
-	-- #if AFTER CATA
 	export = true,
-	-- #endif
 	-- #if ANYCLASSIC
 	icon = 132873,
 	-- #else
