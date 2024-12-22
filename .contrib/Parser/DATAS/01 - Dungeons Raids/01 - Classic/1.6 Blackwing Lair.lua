@@ -86,12 +86,82 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 					
 				}),
 				cl(WARLOCK, {
+					q(85505, {	-- Soul of Devouring
+						["qg"] = 232802,	-- Doan Karhan
+						["sourceQuest"] = 85486,	-- Soul of Enthralling
+						["coord"] = { 81.2, 59.0, EASTERN_PLAGUELANDS },
+						["groups"] = {
+							objective(1, {	-- Find Felhunter Area
+								["provider"] = { "i", 231837 },	-- Shadow Carving
+								["coord"] = { 53.8, 51.6, EASTERN_PLAGUELANDS },
+								["cr"] = 232903,	-- Shadowmage <Cult of the Damned>
+							}),
+							i(231796, {	-- Depleted Scythe of Chaos (Devouring)
+								["description"] = "Use Drail Soul on the Ravenous Felhound once you've summoned it using the Shadow Carving.",
+								["cost"] = {
+									{ "i", 231799, 1 },	-- Soul of Devouring
+									{ "i", 231795, 1 },	-- Depleted Scythe of Chaos (Enthralling)
+								},
+								["coord"] = { 53.8, 51.6, EASTERN_PLAGUELANDS },
+								["cr"] = 232896,	-- Ravenous Felhound
+							}),
+						},
+					}),
+					q(85486, {	-- Soul of Enthralling
+						["qg"] = 232802,	-- Doan Karhan
+						["sourceQuest"] = 85485,	-- Soul of the Void
+						["coord"] = { 81.2, 59.0, EASTERN_PLAGUELANDS },
+						["groups"] = {
+							objective(1, {	-- 	Use Glowing Scroll of Spatial Mending on Fel Portal
+								["provider"] = { "i", 231836 },	-- Glowing Scroll of Spatial Mending
+								["coord"] = { 32.6, 30.9, EASTERN_PLAGUELANDS },
+								["cr"] = 232900,	-- Cursed Mage
+							}),
+							i(231795, {	-- Depleted Scythe of Chaos (Enthralling)
+								["description"] = "Use Drail Soul on the Fel Interloper once you've summoned it using the scroll of spatial mending.",
+								["cost"] = {
+									{ "i", 231798, 1 },	-- Soul of Enthralling
+									{ "i", 231794, 1 },	-- Depleted Scythe of Chaos (Void)
+								},
+								["coord"] = { 32.6, 30.9, EASTERN_PLAGUELANDS },
+								["cr"] = 230146,	-- Fel Interloper
+							}),
+						},
+					}),
 					q(85468, {	-- Soul of Mischief
 						["qg"] = 6247,	-- Doan Karhan
 						["sourceQuest"] = 85112,	-- The Depleted Scythe
 						["coord"] = { 49.2, 57.2, THE_BARRENS },
+						["maps"] = { EASTERN_PLAGUELANDS },
 						["groups"] = {
-							
+							objective(1, {	-- 0/5 Suspicious Supplies placed
+								["provider"] = { "i", 231732 },	-- Suspicious Supplies
+							}),
+							i(231793, {	-- Depleted Scythe of Chaos (Mischief)
+								["description"] = "Use Drail Soul on Xirath once you've completed his task to receive this.",
+								["cost"] = {
+									{ "i", 231792, 1 },	-- Soul of Mischief
+									{ "i", 231722, 1 },	-- Depleted Scythe of Chaos
+								},
+								["coord"] = { 69.6, 32.0, EASTERN_PLAGUELANDS },
+								["cr"] = 232731,	-- Xirath <Manathirst Imp>
+							}),
+						},
+					}),
+					q(85485, {	-- Soul of the Void
+						["qg"] = 232802,	-- Doan Karhan
+						["sourceQuest"] = 85468,	-- Soul of Mischief
+						["coord"] = { 81.2, 59.0, EASTERN_PLAGUELANDS },
+						["groups"] = {
+							i(231794, {	-- Depleted Scythe of Chaos (Void)
+								["description"] = "Use Drail Soul on the Voidwalker once you've used a Major Spellstone, Shadow Ward, and then Sacrifice to summon it.",
+								["cost"] = {
+									{ "i", 231797, 1 },	-- Soul of the Void
+									{ "i", 231793, 1 },	-- Depleted Scythe of Chaos (Mischief)
+								},
+								["coord"] = { 59.0, 67.0, EASTERN_PLAGUELANDS },
+								["cr"] = 232875,	-- Abandoned Voidwalker
+							}),
 						},
 					}),
 					q(85112, {	-- The Depleted Scythe
@@ -100,6 +170,28 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 							{ "n",   6247 },	-- Doan Karhan
 						},
 						["coord"] = { 49.2, 57.2, THE_BARRENS },
+					}),
+					q(85506, {	-- The Final Test
+						["qg"] = 232802,	-- Doan Karhan
+						["sourceQuest"] = 85505,	-- Soul of Devouring
+						["coord"] = { 81.2, 59.0, EASTERN_PLAGUELANDS },
+						["maps"] = { ASHENVALE },
+						["groups"] = {
+							objective(1, {	-- Speak to Doan Karhan
+								["provider"] = { "n", 232924 },	-- Doan Karhan
+								["coord"] = { 84.8, 70.6, ASHENVALE },
+							}),
+							n(232886, {	-- Des'Altek
+								["description"] = "Summon and defeat Des'Altek within Demon Fall Canyon to receive the soul.",
+								["cost"] = {
+									{ "i", 231800, 1 },	-- Soul of Des'Altek
+									{ "i", 231796, 1 },	-- Depleted Scythe of Chaos (Devouring)
+								},
+								["groups"] = {
+									i(229910),	-- Scythe of Chaos
+								},
+							}),
+						},
 					}),
 				}),
 				cl(WARRIOR, {
