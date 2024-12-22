@@ -977,10 +977,12 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 				o(495500, {	-- Shadowflame Cache
 					["description"] = "Appears after defeating Nefarian with three trials active, including the weekly trial alongside the two chests.\n\nContains 3-5 Elementium Ore and four other items. Weapons found in this chest will have a unique \"Shadowflame\" visual effect.",
 					["groups"] = {
+						i(232550),	-- Ashkandi, Greatsword of the Brotherhood [Shadowflame]
 						i(232606),	-- Ashjre'thul, Crossbow of Smiting [Shadowflame]
 						i(232558),	-- Chromatically Tempered Sword [Shadowflame]
 						i(232557),	-- Claw of Chromaggus [Shadowflame]
 						i(232561),	-- Claw of the Black Drake [Shadowflame]
+						i(232555),	-- Crul'shorukh, Edge of Chaos [Shadowflame]
 						i(232577),	-- Doom's Edge [Shadowflame]
 						i(232576),	-- Draconic Avenger [Shadowflame]
 						i(232551),	-- Draconic Maul [Shadowflame]
@@ -991,8 +993,10 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 						i(232559),	-- Herald of Woe [Shadowflame]
 						i(232552),	-- Lok'amir il Romathis [Shadowflame]
 						i(232564),	-- Maladath, Runed Blade of the Black Flight [Shadowflame]
+						i(232563),	-- Shadow Wing Focus Staff [Shadowflame]
 						i(232567),	-- Spineshatter [Shadowflame]
 						i(232556),	-- Staff of the Shadow Flame [Shadowflame]
+						i(232566),	-- The Untamed Blade [Shadowflame]
 					},
 				}),
 			}))),
