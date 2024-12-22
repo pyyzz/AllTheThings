@@ -101,12 +101,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					["coord"] = { 26.6, 23.9, 2375 },
 					["questID"] = 85859,
 				}),
-				o(500407, {	-- Runed Storm Cache
-					-- TODO: The Forgotten Vault + storm phase
-					-- TODO: I don't make screenshot for this one, so I'm unsure if it something in loot or it is related to treasure chest)
-					["coord"] = { 28.5, 73.5, 2375 },
-					["questID"] = 84843,
-				}),
 				-- seems like can be looted only in storm phase
 				n(230827, {	-- Stormtouched Pridetalon
 					i(234379),	-- Crackleroar (PET!)

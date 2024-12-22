@@ -5,6 +5,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 	m(SIREN_ISLE, {
 		n(TREASURES, {
 			o_repeated({	-- Runed Storm Cache
+				-- TBD if listing coords is viable or not, may be that these make for good iron farm
+				["coords"] = {
+					{ 42.3, 46.0, SIREN_ISLE },
+					{ 45.0, 62.6, SIREN_ISLE },
+					{ 49.1, 58.2, SIREN_ISLE },
+					{ 50.1, 12.5, SIREN_ISLE },
+					-- The Forgotten Vault
+					{ 28.5, 73.5, 2375 },
+					{ 64.1, 50.8, 2375 },
+				},
 				["g"] = {
 					o(474822),	-- Runed Storm Cache (non storm id)
 					o(500407),	-- Runed Storm Cache (storm id)

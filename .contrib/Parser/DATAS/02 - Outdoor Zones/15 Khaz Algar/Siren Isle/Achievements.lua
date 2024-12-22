@@ -27,7 +27,12 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				crit(70789),	-- Shuddering Hollow
 			}),
 			ach(41042),	-- Siren-ity Now! (automated!)
-			ach(41131),	-- Treasures of the Storm
+			ach(41131, {	-- Treasures of the Storm
+				["providers"] = {
+					{ "o", 474822 },	-- Runed Storm Cache (non storm id)
+					{ "o", 500407 },	-- Runed Storm Cache (storm id)
+				},
+			}),
 			ach(41185),	-- Siren's Squall (automated!)
 		}),
 	}),

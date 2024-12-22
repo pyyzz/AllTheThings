@@ -592,21 +592,22 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				--it seems like questID fire per item drop for slot now
 				--
 				--q(85839),	-- leather / mail Head slot
-				q(84839),	-- leather / plate Head slot
-				q(84840),	-- leather / mail / plate Shoulder slot
-				q(84841),	-- leather / mail / plate Legs slot
-				q(84842),	-- leather / mail Chest slot
-				q(84845),	-- leather / mail Waist slot
-				q(84847),	-- Back slot
-				q(84871),	-- MH weapon for current spec (2h?)
-				q(84872),	-- OH weapon (1h) or off-spec weapon
-				q(84874),	-- Neck slot
-				q(84875),	-- Ring slot
-				q(85956),	-- Trinket (agi/str) slot
-				q(85957),	-- Trinket (agi/int/str) slot
-				--q(84846),	-- Earthen Deckhand's Bindings (itemID 229026) drop (wrists?)
-				--q(84844),	-- Earthen Deckhand's Grips (itemID 229022) drop (hands?)
-				--q(84873),	-- Earthen Scallywag's Implement (itemID 229188) (oh for casters?)
+				q(84839, name(HEADERS.Global, "INVTYPE_HEAD")),	-- leather / plate Head slot
+				q(84840, name(HEADERS.Global, "INVTYPE_SHOULDER")),	-- leather / mail / plate Shoulder slot
+				q(84841, name(HEADERS.Global, "INVTYPE_LEGS")),	-- leather / mail / plate Legs slot
+				q(84842, name(HEADERS.Global, "INVTYPE_CHEST")),	-- leather / mail Chest slot
+				q(84843, name(HEADERS.Global, "INVTYPE_FEET")),	-- leather / mail Waist slot
+				q(84844, name(HEADERS.Global, "INVTYPE_HAND")),	-- leather / mail Waist slot
+				q(84845, name(HEADERS.Global, "INVTYPE_WAIST")),	-- leather / mail Waist slot
+				q(84846, name(HEADERS.Global, "INVTYPE_WRIST")),	-- leather / mail Wrist slot
+				q(84847, name(HEADERS.Global, "INVTYPE_CLOAK")),	-- Back slot
+				q(84871, name(HEADERS.Global, "INVTYPE_WEAPONMAINHAND")),	-- MH weapon for current spec (2h?)
+				q(84872, name(HEADERS.Global, "INVTYPE_WEAPONOFFHAND")),	-- OH weapon (1h) or off-spec weapon
+				q(84873, name(HEADERS.Global, "INVTYPE_HOLDABLE")),	-- OH weapon (Caster)
+				q(84874, name(HEADERS.Global, "INVTYPE_NECK")),	-- Neck slot
+				q(84875, name(HEADERS.Global, "INVTYPE_FINGER")),	-- Ring slot
+				q(85956, name(HEADERS.Global, "INVTYPE_TRINKET")),	-- Trinket (agi/str) slot
+				q(85957, name(HEADERS.Global, "INVTYPE_TRINKET")),	-- Trinket (agi/int/str) slot
 			}),
 		}),
 	}),
