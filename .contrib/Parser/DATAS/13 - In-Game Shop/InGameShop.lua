@@ -270,7 +270,7 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_10_2_0 },
 		}),
 		i(231294, {	-- Reven (PET!)
-			["timeline"] = { ADDED_11_0_5, "removed 11.0.5.99999" },	-- Available through January 7, 2025
+			["timeline"] = { ADDED_11_0_5, "removed 11.0.7.99999" },	-- Available through January 7, 2025
 		}),
 		i(151234, {	-- Shadow (PET!)
 			["timeline"] = { ADDED_7_3_0 },
