@@ -1,9 +1,7 @@
 SHARED_APPEARANCES = createHeader({
 	readable = "Shared Appearances",
 	constant = "SHARED_APPEARANCES",
-	-- #if AFTER CATA
 	export = true,
-	-- #endif
 	-- #if ANYCLASSIC
 	icon = 132874,
 	-- #else
