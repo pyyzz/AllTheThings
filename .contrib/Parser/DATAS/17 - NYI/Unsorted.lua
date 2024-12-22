@@ -300,14 +300,6 @@ root(ROOTS.Unsorted, {
 			i(234074),	-- Gold-Plated Cushioned Boots
 			i(234126),	-- Icicle Cupcake
 			i(234127),	-- Puntable Grumpling
-			i(234229),	-- Technique: Glyph of the Gilded Pistol Shot
-			i(234230),	-- Technique: Glyph of the Twilight Pistol Shot
-			i(234231),	-- Technique: Glyph of the Admiral's Pistol Shot
-			i(234232),	-- Technique: Glyph of the Ashvane Pistol Shot
-			i(234245),	-- Glyph of the Ashvane Pistol Shot
-			i(234246),	-- Glyph of the Admiral's Pistol Shot
-			i(234247),	-- Glyph of the Gilded Pistol Shot
-			i(234248),	-- Glyph of the Twilight Pistol Shot
 			i(234313),	-- [DNT] Item
 			i(234396),	-- Teatuft Tamer
 			i(234397),	-- Fullbelly Rollingpaw

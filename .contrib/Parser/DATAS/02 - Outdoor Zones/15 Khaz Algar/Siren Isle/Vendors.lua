@@ -181,13 +181,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					fbiron(750, i(234395)),	-- Skitterbite (PET!)
 					fbiron(750, i(234473)),	-- Soweezi's Comfy Lawn Chair (TOY!)
 					fbiron(10000, i(233058)),	-- Soweezi's Vintage Waveshredder (MOUNT!)
+					fbiron(350, i(234229)),	-- Technique: Glyph of the Gilded Pistol Shot (RECIPE!)
 					fbiron(1000, i(220655)),	-- Water Blaster P.K. (COSMETIC!)
 				},
 			}),
 			n(233259, {	-- Taljori
 				["coord"] = { 65.7, 41.7, SIREN_ISLE },
 				["g"] = {
-					--fbiron(350, i(233916)),	-- Ashvane Issued Workboots (TODO: was treasure, now it is not, again, and missing)
 					fbiron(350, i(233810)),	-- Barnacle Breaker's Falchion
 					fbiron(350, i(233912)),	-- Bilge Rat Pirate Hat
 					fbiron(350, i(233911)),	-- Bloodstained Rat Cap
@@ -209,14 +209,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					fbiron(350, i(233963)),	-- Myrmidon's Pearlwall
 					fbiron(350, i(233809)),	-- Myrmidon's Wave Slasher
 					fbiron(350, i(233830)),	-- Pincer of the Tidestalker
-					--fbiron(350, i(233915)),	-- Plated Sea Boots (TODO: now in crate)
 					fbiron(350, i(233845)),	-- Quilted Long-Sleeved Sea Tunic
 					fbiron(350, i(233844)),	-- Quilted Sea Vest
 					fbiron(350, i(233892)),	-- Quilted Waist Wrap
 					fbiron(350, i(234414)),	-- Runescribe's Ritual Tunic
-					--fbiron(350, i(233910)),	-- Salt-Stained Sweatcap (TODO: now treasure, same questID as it was for Ashvane boots)
 					fbiron(350, i(233819)),	-- Stormtouched Blacksmith's Gavel
 					fbiron(350, i(233902)),	-- Tattered Rat Hat
+					fbiron(350, i(234230)),	-- Technique: Glyph of the Twilight Pistol Shot (RECIPE!)
 					fbiron(350, i(233982)),	-- Tideflayer's Wave Piercer
 					fbiron(350, i(233832)),	-- Tidestalker's Gutter
 					fbiron(350, i(233818)),	-- Vrykul Blacksmith's Gavel

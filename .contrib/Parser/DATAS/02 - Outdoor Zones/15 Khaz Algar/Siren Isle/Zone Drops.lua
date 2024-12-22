@@ -16,6 +16,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["description"] = "Can be looted from nagas",
 				-- n: 229851 (debugger)
 			}),
+			i(234232, {	-- Technique: Glyph of the Ashvane Pistol Shot
+				["description"] = "Can belooted from pirates",
+			}),
 			n(228582, {	-- First Mate Shellshock
 				i(228621),	-- Bilge Rat Supply Key
 			}),

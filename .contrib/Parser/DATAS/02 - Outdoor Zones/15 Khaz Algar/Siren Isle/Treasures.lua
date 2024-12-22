@@ -32,6 +32,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			o_repeated({	-- Seafarer's Cache
 				["g"] = {
 					i(233501),	-- Sandy Snapdragon Treat
+					i(234231),	-- Technique: Glyph of the Admiral's Pistol Shot
 					o(494499),	-- Seafarer's Cache
 					o(500682),	-- Seafarer's Cache
 					o(500683),	-- Seafarer's Cache
