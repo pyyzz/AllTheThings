@@ -1,7 +1,7 @@
 -----------------------------------------------------
 --   D U N G E O N S  &  R A I D S  M O D U L E    --
 -----------------------------------------------------
-local SOD_REMOVED_1_15_4 = {	-- The Lord of Blackrock [A] (2/2)
+local SOD_REMOVED_1_15_4 = {
 	-- #if SEASON_OF_DISCOVERY
 	["timeline"] = { "removed 1.15.4" },
 	-- #endif
