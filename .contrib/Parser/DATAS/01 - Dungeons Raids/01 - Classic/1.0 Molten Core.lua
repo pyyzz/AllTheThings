@@ -1491,7 +1491,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 					i(228297),	-- Shard of the Flame
 				}),
 				n(227939, {	-- The Molten Core
-
+					["description"] = "Only available on Molten Heat difficulty.\n\nCan drop loot from any other Molten Core boss. It has no unique drops of its own.",
 				}),
 				spell(458843, {	-- Molten Heat [Heat Level 3]
 					["description"] = "You can opt into Heat Level 3 by speaking to Duke Hydraxis. Doing so will drop 'Molten' varients of the weapons that have a neat molten appearance despite providing no difference in quality. (Cosmetic only!)",
@@ -1559,23 +1559,6 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 						i(228511, {	-- Perdition's Blade [Molten]
 							["cr"] = 228438,	-- Ragnaros
 						}),
-						--[[
-						i(, {	--  [Molten]
-							["crs"] = {
-								,	--
-							},
-						}),
-						i(, {	--  [Molten]
-							["crs"] = {
-								,	--
-							},
-						}),
-						i(, {	--  [Molten]
-							["crs"] = {
-								,	--
-							},
-						}),
-						]]--
 						i(229380, {	-- Shadowstrike [Molten]
 							["cr"] = 228436,	-- Sulfuron Harbinger
 						}),
