@@ -65,25 +65,25 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 			-- #if SEASON_OF_DISCOVERY
 			n(QUESTS, applyclassicphase(SOD_PHASE_FIVE, bubbleDown({ ["timeline"] = { "added 1.15.4" }, }, {
 				cl(DRUID, {
-					
+
 				}),
 				cl(HUNTER, {
-					
+
 				}),
 				cl(MAGE, {
-					
+
 				}),
 				cl(PALADIN, {
-					
+
 				}),
 				cl(PRIEST, {
-					
+
 				}),
 				cl(ROGUE, {
-					
+
 				}),
 				cl(SHAMAN, {
-					
+
 				}),
 				cl(WARLOCK, {
 					q(85505, {	-- Soul of Devouring
@@ -195,7 +195,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 					}),
 				}),
 				cl(WARRIOR, {
-					
+
 				}),
 			}))),
 			-- #endif
@@ -798,7 +798,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 							tokencost(TOKENS.ANCIENT.BELT, i(231216)),	-- Cord of Ten Storms
 							tokencost(TOKENS.ANCIENT.LEGS, i(231218)),	-- Kilt of Ten Storms
 							tokencost(TOKENS.ANCIENT.BOOTS, i(231220)),	-- Boots of Ten Storms
-							
+
 							-- Healer
 							tokencost(TOKENS.ANCIENT.HELM, i(231203)),	-- Helmet of Ten Storms
 							tokencost(TOKENS.ANCIENT.SHOULDERS, i(231201)),	-- Epaulets of Ten Storms
@@ -1016,7 +1016,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 						i(21138),	-- Red Scepter Shard
 						i(19003),	-- Head of Nefarian (A)
 						i(19002),	-- Head of Nefarian (H)
-						
+
 						i(231728),	-- Ancient Helm
 						i(231726),	-- Ancient Shoulderpads
 						i(231724),	-- Ancient Bindings
@@ -1038,7 +1038,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 						i(231723),	-- Primeval Chest
 						i(231718),	-- Primeval Leggings
 						i(231721),	-- Primeval Boots
-						
+
 						i(230818),	-- Ashkandi, Greatsword of the Brotherhood
 						i(230837),	-- Crul'shorukh, Edge of Chaos
 						i(230838),	-- Lok'amir il Romathis
@@ -1092,6 +1092,7 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, applyclassicphase(PHASE_THREE
 					},
 				}),
 			}))),
+			-- #endif
 		},
 	}),
 })));

@@ -272,7 +272,6 @@ root(ROOTS.Unsorted, {
 			i(233931),	-- [PH] Shoulder
 			i(233933),	-- [PH] Tabard
 			i(233934),	-- [PH] Shield
-			i(233955),	-- [PH] Mining Pick
 			i(233976),	-- [PH] Cloak
 			i(234037),	-- Lunar Festival Slippers
 			i(234038),	-- Lunar Festival Slippers - Pink

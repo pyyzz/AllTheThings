@@ -29,7 +29,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				},
 			}),
 			n(212928, {	-- Dalaran Sewer Turtle
-				["description"] = "You will be able to loot the battle pet in Dornogal.",
+				["description"] = "5 min wait after turnin of the Dornish Pike until the Goldengill Trout is available. You will be able to loot the battle pet in Dornogal.",
 				["coord"] = { 40.9, 73.8, ISLE_OF_DORN },
 				["questID"] = 79586,
 				["cost"] = {
@@ -145,6 +145,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["cost"] = {{"i", 222906, 5}},	-- 5x Plump Snapcrab
 				["g"] = {
 					o(444022, {	-- Magical Treasure Chest
+						["coord"] = { 40.7, 59.7, ISLE_OF_DORN },
 						["questID"] = 83243,
 						["g"] = {
 							i(224579),	-- Sapphire Crab (PET!)

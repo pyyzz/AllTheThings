@@ -4,20 +4,29 @@
 root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, {
 	m(SIREN_ISLE, {
 		n(TREASURES, {
-			o_repeated({	-- Runed Storm Cache
-				-- TBD if listing coords is viable or not, may be that these make for good iron farm
-				["coords"] = {
-					{ 42.3, 46.0, SIREN_ISLE },
-					{ 45.0, 62.6, SIREN_ISLE },
-					{ 49.1, 58.2, SIREN_ISLE },
-					{ 50.1, 12.5, SIREN_ISLE },
-					-- The Forgotten Vault
-					{ 28.5, 73.5, 2375 },
-					{ 64.1, 50.8, 2375 },
-				},
+			o_repeated({	-- Runed Storm Cache:CollectedThings
 				["g"] = {
-					o(474822),	-- Runed Storm Cache (non storm id)
-					o(500407),	-- Runed Storm Cache (storm id)
+					o(474822, {	-- Runed Storm Cache (non storm id)
+						-- TBD if listing coords is viable or not, may be that these make for good iron farm
+						["coords"] = {
+							{ 39.2, 44.1, SIREN_ISLE },
+							{ 42.3, 46.0, SIREN_ISLE },
+							{ 45.0, 62.6, SIREN_ISLE },
+							{ 49.1, 58.2, SIREN_ISLE },
+							{ 49.3, 17.2, SIREN_ISLE },
+							{ 50.1, 12.5, SIREN_ISLE },
+							{ 51.9, 65.6, SIREN_ISLE },
+							{ 59.7, 20.6, SIREN_ISLE },
+						},
+					}),
+					o(500407, {	-- Runed Storm Cache (storm id)
+						-- TBD if listing coords is viable or not, may be that these make for good iron farm
+						["coords"] = {
+							-- The Forgotten Vault
+							{ 28.5, 73.5, 2375 },
+							{ 64.1, 50.8, 2375 },
+						},
+					}),
 				},
 			}),
 			o_repeated({	-- Seafarer's Cache
@@ -56,6 +65,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["coord"] = { 60.8, 62.9, SIREN_ISLE },
 				["g"] = {
 					i(228665),	-- Empty Kaja'Cola (QS!)
+				},
+			}),
+			o(505505, {	-- Iron Mining Pick
+				["description"] = "In cave.",
+				["coord"] = { 37.0, 53.1, SIREN_ISLE },
+				["questID"] = 87446,
+				["g"] = {
+					i(233955),	-- Iron Mining Pick (COSMETIC!)
 				},
 			}),
 			o(505504, {	-- Kul Tiran Lumberer's Hatchet

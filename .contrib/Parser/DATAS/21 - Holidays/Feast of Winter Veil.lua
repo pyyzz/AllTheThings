@@ -2204,8 +2204,14 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 			["isYearly"] = true,
 		}),
 		q(81561, {	-- Winter's Presents
-			["qg"] = 220307,	-- Holiday Enthusiast
-			["coord"] = { 46, 55.1, DORNOGAL },
+			["qgs"] = {
+				220307,	-- Holiday Enthusiast
+				220865,	-- Holiday Enthusiast
+			},
+			["coords"] = {
+				{ 46, 55.1, DORNOGAL },
+				{ 56.9, 28.7, DORNOGAL },
+			},
 			["races"] = HORDE_ONLY,
 			["timeline"] = { ADDED_11_0_7 },
 			["isYearly"] = true,

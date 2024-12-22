@@ -5,44 +5,60 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 	m(SIREN_ISLE, {
 		n(QUESTS, {
 			n(BONUS_OBJECTIVES, {
+				q(84836, {	-- Shuddering Hollow
+					["repeatable"] = true,
+					["coord"] = { 45.5, 41.6, SIREN_ISLE },
+				}),
 				q(84719, {	-- Shuddering Hollow
-					["repeatable"] = "true",
+					["repeatable"] = true,
 					["coord"] = { 68.3, 42.1, SIREN_ISLE },
 				}),
+				q(85763, {	-- Shuddering Hollow
+					["repeatable"] = true,
+					["coord"] = { 45.5, 41.6, SIREN_ISLE },
+				}),
 				q(85764, {	-- Shuddering Hollow
-					["repeatable"] = "true",
+					["repeatable"] = true,
 					-- TODO: I'm not sure which one of them is 'first'
 					["coord"] = { 45.5, 41.6, SIREN_ISLE },
 				}),
 				q(85765, {	-- Shuddering Hollow
-					["repeatable"] = "true",
+					["repeatable"] = true,
 					["coord"] = { 45.5, 41.6, SIREN_ISLE },
 				}),
+				q(84787, {	-- The Drain
+					["repeatable"] = true,
+					["coord"] = { 57.9, 69.3, SIREN_ISLE },
+				}),
 				q(85755, {	-- The Drain
-					["repeatable"] = "true",
+					["repeatable"] = true,
 					-- TODO: available one every time after 85753 version is completed
 					["coord"] = { 56.5, 66.3, SIREN_ISLE },
 				}),
 				q(85753, {	-- The Drain
-					["repeatable"] = "true",
+					["repeatable"] = true,
 					-- TODO: seems like this is first per week version
 					["coord"] = { 56.5, 66.3, SIREN_ISLE },
 				}),
 				q(85754, {	-- The Drain
-					["repeatable"] = "true",
+					["repeatable"] = true,
 					["coord"] = { 57.9, 69.3, SIREN_ISLE },
 				}),
+				q(84835, {	-- The Drowned Lair
+					["repeatable"] = true,
+					["coord"] = { 27.4, 62.5, SIREN_ISLE },
+				}),
 				q(85761, {	-- The Drowned Lair
-					["repeatable"] = "true",
+					["repeatable"] = true,
 					["coord"] = { 27.4, 62.5, SIREN_ISLE },
 				}),
 				q(85760, {	-- The Drowned Lair
-					["repeatable"] = "true",
+					["repeatable"] = true,
 					-- TODO: seems like this is first per week version
 					["coord"] = { 27.3, 65.5, SIREN_ISLE },
 				}),
 				q(85762, {	-- The Drowned Lair
-					["repeatable"] = "true",
+					["repeatable"] = true,
 					-- TODO: available one every time after 85760 version is completed
 					["coord"] = { 27.3, 65.5, SIREN_ISLE },
 				}),
@@ -550,7 +566,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["name"] = "Give Marmaduke the Well Loved Squeaky Toy",
 				["cost"] = {{ "i", 233027, 1 }},	-- Well Loved Squeaky Toy
 				["provider"] = { "n", 234172 },	-- Marmaduke
-				["coord"] = { 42.5, 47.4, SIREN_ISLE },
+				["coords"] = {
+					{ 42.5, 47.4, SIREN_ISLE },
+					-- not sure if multiple spawns?
+					{ 55.6, 47.0, SIREN_ISLE },	-- confirmed Runaway
+				},
 			}),
 		}),
 	}),
