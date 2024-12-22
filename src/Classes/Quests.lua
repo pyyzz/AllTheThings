@@ -1688,7 +1688,7 @@ app.CreateQuestObjective = app.CreateClass("Objective", "objectiveID", {
 			local objectives = C_QuestLog_GetQuestObjectives(questID);
 			if objectives then
 				local objective = objectives[t.objectiveID];
-				if objective then return objective.text; end
+				if objective and not IsRetrieving(objective.text) then return objective.text; end
 			end
 			return app.GetNameFromProviders(t)
 				or (t.spellID and GetSpellName(t.spellID))
