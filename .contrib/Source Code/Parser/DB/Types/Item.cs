@@ -26,7 +26,7 @@ namespace ATT.DB.Types
                 {
                     foreach (var xeffect in xeffects)
                     {
-                        if (Framework.TryGetTypeDBObject(xeffect.ItemEffectID, out ItemEffect effect))
+                        if (Framework.TryGetTypeDBObject(xeffect.ItemEffectID, out ItemEffect effect) && effect.IsKnownTriggerType())
                         {
                             _effects.Add(effect);
                         }

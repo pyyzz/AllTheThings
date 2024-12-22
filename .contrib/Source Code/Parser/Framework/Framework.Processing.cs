@@ -2510,6 +2510,11 @@ namespace ATT
                     Incorporate_Item_SpellEffect(data, spellEffect);
                 }
             }
+            else
+            {
+                data.TryGetValue("itemID", out long itemID);
+                LogWarn($"Ensemble Item {itemID} with Spell {spellID} missing Wago SpellEffect record(s)", data);
+            }
 
             if (data.TryGetValue("tmogSetID", out long tmogSetID) && TryGetTypeDBObject(tmogSetID, out TransmogSet tmogSet))
             {
