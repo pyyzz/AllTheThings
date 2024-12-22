@@ -22,12 +22,14 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Database Parser for Retail
+        timeout-minutes: 5
         run: |
           cd .contrib/Parser
           "Parser for Retail".bat
         shell: cmd
 
       - name: Database Parser for Classic
+        timeout-minutes: 5
         run: |
           cd .contrib/Parser
           "Parser for Classic".bat
