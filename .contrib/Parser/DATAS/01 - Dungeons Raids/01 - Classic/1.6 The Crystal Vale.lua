@@ -157,9 +157,9 @@ root(ROOTS.Instances, expansion(EXPANSION.CLASSIC, {
 			}),
 			n(231494, {	-- Prince Thunderaan <The Wind Seeker>
 				i(232018),	-- Dormant Wind Kissed Blade [TODO: Check if this drops without needing to the binding quests...]
+				i(231725),	-- Ancient Belt
 				i(231708),	-- Draconian Belt
 				i(231716),	-- Primeval Belt
-				i(231725),	-- Ancient Belt
 				i(231815),	-- Flashrend
 				i(231823),	-- Geddon's Glaive
 				i(231753),	-- Skywall's Solace
