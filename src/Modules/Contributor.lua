@@ -419,6 +419,7 @@ AddEventFunc("QUEST_COMPLETE", OnQUEST_DETAIL)
 
 -- PLAYER_SOFT_INTERACT_CHANGED
 local LastSoftInteract = {}
+local RegisterUNIT_SPELLCAST_START, UnregisterUNIT_SPELLCAST_START
 -- Allows automatically tracking nearby ObjectID's and running check functions on them for data verification
 local function OnPLAYER_SOFT_INTERACT_CHANGED(previousGuid, newGuid)
 	-- app.PrintDebug("PLAYER_SOFT_INTERACT_CHANGED",previousGuid,newGuid)
@@ -427,6 +428,7 @@ local function OnPLAYER_SOFT_INTERACT_CHANGED(previousGuid, newGuid)
 	if not newGuid or previousGuid ~= newGuid then
 		LastSoftInteract.GuidType = nil
 		LastSoftInteract.ID = nil
+		UnregisterUNIT_SPELLCAST_START()
 		return
 	end
 
@@ -439,6 +441,9 @@ local function OnPLAYER_SOFT_INTERACT_CHANGED(previousGuid, newGuid)
 
 	-- only check object soft-interact (for now)
 	if guidtype ~= "GameObject" then return end
+
+	-- close enough to an object to open, track potential looting via mouseclick for a few seconds
+	RegisterUNIT_SPELLCAST_START(10)
 
 	local objRef = app.SearchForObject("objectID", id, "field")
 	-- only check sourced objects
@@ -467,8 +472,7 @@ local SpellIDHandlers = {
 
 		-- Verify 'Opening' cast, report ObjectID if not Sourced
 		local id = LastSoftInteract.ID
-		-- likely not possible
-		if not id then return end
+		if not id or IgnoredChecksByType.GameObject.coord(id) then return end
 
 		local objRef = app.SearchForObject("objectID", id, "field")
 		-- if it's Sourced, we've already checked it via PLAYER_SOFT_INTERACT_CHANGED
@@ -476,6 +480,7 @@ local SpellIDHandlers = {
 
 		local tooltipName = GameTooltipTextLeft1:GetText()
 		objRef = app.CreateObject(id)
+		-- report openable object
 		AddReportData(objRef.__type,id,{
 			[objRef.key or "ID"] = id,
 			NotSourced = "Openable Object not Sourced!",
@@ -495,17 +500,17 @@ local function OnUNIT_SPELLCAST_START(...)
 
 	spellHandler(source)
 end
-local function UnregisterUNIT_SPELLCAST_START()
+UnregisterUNIT_SPELLCAST_START = function()
 	-- app.PrintDebug("Unregister.UNIT_SPELLCAST_START")
 	app:UnregisterEvent("UNIT_SPELLCAST_START")
 	RegisteredUNIT_SPELLCAST_START = nil
 end
-local function RegisterUNIT_SPELLCAST_START()
+RegisterUNIT_SPELLCAST_START = function(secTilRemove)
 	if RegisteredUNIT_SPELLCAST_START then return end
 	RegisteredUNIT_SPELLCAST_START = true
-	-- app.PrintDebug("Register.UNIT_SPELLCAST_START")
+	-- app.PrintDebug("Register.UNIT_SPELLCAST_START",secTilRemove)
 	app:RegisterFuncEvent("UNIT_SPELLCAST_START",OnUNIT_SPELLCAST_START)
-	app.CallbackHandlers.DelayedCallback(UnregisterUNIT_SPELLCAST_START, 0.5)
+	app.CallbackHandlers.DelayedCallback(UnregisterUNIT_SPELLCAST_START, secTilRemove or 0.5)
 end
 
 -- PLAYER_SOFT_TARGET_INTERACTION
