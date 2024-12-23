@@ -5,8 +5,6 @@
 root(ROOTS.Unsorted, {
 	expansion(EXPANSION.TWW, {
 		expansion(EXPANSION.TWW, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
-			i(17198),	-- Winter Veil Eggnog
-			i(17201),	-- Recipe: Winter Veil Eggnog
 			i(35953),	-- Mead-Basted Caribou
 			i(100739),	-- Superheated Oil
 			i(152858),	-- Cracked Crystalline Fruit Bowl
