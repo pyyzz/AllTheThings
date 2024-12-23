@@ -1031,6 +1031,14 @@ q(70758),	-- Ensemble: Bronze Valdrakken Clothing
 q(70755),	-- Ensemble: Crimson Valdrakken Clothing
 q(65738),	-- Ensemble: Dashing Buccaneer's Slops
 q(70759),	-- Ensemble: Green Valdrakken Clothing
+q(78913),	-- Ensemble: Heritage of the Darkspear
+q(80503),	-- Ensemble: Heritage of the Darkspear
+q(80542),	-- Ensemble: Heritage of the Darkspear
+q(80543),	-- Ensemble: Heritage of the Darkspear
+q(78841),	-- Ensemble: Heritage of the Draenei
+q(78843),	-- Ensemble: Heritage of the Draenei
+q(78844),	-- Ensemble: Heritage of the Draenei
+q(78845),	-- Ensemble: Heritage of the Draenei
 q(77884),	-- Ensemble: Kaldorei Protector's Adornment
 q(77783),	-- Traditionalist's Kaldorei Blades
 
@@ -1052,29 +1060,28 @@ q(78086),	-- Ensemble: Raiment of Amirdrassi
 --- The War Within
 q(85586),	-- Ensemble: Auchenai Priest's Raiment
 q(85580),	-- Ensemble: Boulderfist Mystic's Battlegear
-q(),		-- Ensemble: Broken Shore Battlemender's Gear
+q(NONE?),	-- Ensemble: Broken Shore Battlemender's Gear
 q(85575),	-- Ensemble: Cenarion Mender's Battlegear
 q(82261),	-- Ensemble: Cerulean Dredger
 q(85591),	-- Ensemble: Brunnhildar Scout's Kit
 q(85594),	-- Ensemble: Coldarra Spellbinder's Regalia
-q(),		-- Ensemble: Drake Hunter's Kit
+q(NONE?),	-- Ensemble: Drake Hunter's Kit
 q(85590),	-- Ensemble: Drakkari Stalker's Trappings
-q(),		-- Ensemble: Drekirjar Warrior's Battlegear
-q(),		-- Ensemble: Gorgrond Cragstalker's Hunting Gear
-q(),		-- Ensemble: Invasion Stalker's Guise
+q(NONE?),	-- Ensemble: Drekirjar Warrior's Battlegear
+q(NONE?),	-- Ensemble: Gorgrond Cragstalker's Hunting Gear
+q(NONE?),	-- Ensemble: Invasion Stalker's Guise
 q(85592),	-- Ensemble: Jotunheim Berserker's Battleplate
-q(),		-- Ensemble: Karabor Priest's Vestments
+q(NONE?),	-- Ensemble: Karabor Priest's Vestments
 q(85127),	-- Ensemble: Prowler's Faded Headgear
-q(),		-- Ensemble: Shadowmoon Anchorite's Guardplate
+q(NONE?),	-- Ensemble: Shadowmoon Anchorite's Guardplate
 q(85587),	-- Ensemble: Shadowmoon Warlock's Vestments
-q(),		-- Ensemble: Shattrath Artificer's Regalia
+q(NONE?),	-- Ensemble: Shattrath Artificer's Regalia
 q(85585),	-- Ensemble: Telhamat Anchorite's Raiment
 q(NONE?),	-- Ensemble: Twilight Acolyte's Regalia
 q(NONE?),	-- Ensemble: Twilight Hunter's Guise
 q(NONE?),	-- Ensemble: Twilight Zealot's Battleplate
 q(NONE?),	-- Ensemble: Vestments of the Twisted Grove
 q(85593),	-- Ensemble: Ymirjar Deathbringer's Battleplate
-
 
 -- Dornogal Ensemble Vendor
 q(81534),	-- Arcane Peddler's Trinkets
@@ -1125,6 +1132,7 @@ q(86525),	-- Ensemble: Sacred Wayfarer's Attire
 q(86532),	-- Ensemble: Salt-Stained Garb
 q(86506),	-- Ensemble: Salvage Rig Garments
 q(86505),	-- Ensemble: Southsea Cruise Loungewear
+q(86669),	-- Ensemble: Stonebound Earthen Regalia
 q(86508),	-- Ensemble: Sun-Soaked Clothing
 q(86501),	-- Ensemble: Tidecrasher Armor
 

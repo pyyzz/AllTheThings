@@ -4485,7 +4485,6 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_MISTS_O
 							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
 						}),
 						i(234756, {	-- Kor'kron Tabard
-							--["races"] = HORDE_ONLY,
 							--["cost"] = {{ "c", TIMEWARPED_BADGE, 50 }},
 						}),
 						i(234772, {	-- Kris of the Mogu Shaman
@@ -5212,6 +5211,9 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_WARLORD
 							--["cost"] = {{ "c", TIMEWARPED_BADGE, ??? }},
 						}),
 						i(234955, {	-- Hate-Sculpted Magma
+							--["cost"] = {{ "c", TIMEWARPED_BADGE, ??? }},
+						}),
+						i(234907, {	-- Tattered Iron Horde Tabard
 							--["cost"] = {{ "c", TIMEWARPED_BADGE, ??? }},
 						}),
 					})),

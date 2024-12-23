@@ -1619,16 +1619,6 @@ root(ROOTS.HiddenQuestTriggers, {
 	})),
 	expansion(EXPANSION.DF, bubbleDown({ ["timeline"] = { ADDED_10_2_7 } }, {
 		n(HERITAGE, {
-			-- (automated)
-			-- q(78841),	-- Ensemble: Heritage of the Draenei
-			-- q(78843),	-- Ensemble: Heritage of the Draenei
-			-- q(78844),	-- Ensemble: Heritage of the Draenei
-			-- q(78845),	-- Ensemble: Heritage of the Draenei
-			-- q(78913),	-- Ensemble: Heritage of the Darkspear
-			-- q(80503),	-- Ensemble: Heritage of the Darkspear
-			-- q(80542),	-- Ensemble: Heritage of the Darkspear
-			-- q(80543),	-- Ensemble: Heritage of the Darkspear
-
 			-- New Heritage questline start HQTs
 			q(78548),	-- Draenei Heritage (spellID 426497)
 			q(78549),	-- Troll Heritage (spellID 426505)

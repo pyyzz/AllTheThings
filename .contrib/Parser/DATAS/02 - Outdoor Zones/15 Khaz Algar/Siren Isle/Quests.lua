@@ -524,7 +524,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			}),
 			q(86485, {	-- A Loyal Friend
 				-- dialogs do nothing and didn't trigger additional hqts on ptr
-				["sourceQuests"] = { 86483 },	-- Snap To It
+				["sourceQuests"] = { 86484 },	-- Temper Like A Tempest
 				["provider"] = { "n", 235250 },	-- Mature Prismatic Snapdragon
 				["coord"] = { 70.9, 48.6, SIREN_ISLE },
 				["g"] = {
@@ -620,8 +620,6 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				q(86378),	-- Royal Snapdragon Treat
 				q(86380),	-- Sandy Snapdragon Treat
 				q(86377),	-- Storminfused Snapdragon Treat
-				-- Ensemble
-				-- q(86669),	-- Ensemble: Stonebound Earthen Regalia (automated)
 				--
 				--It went live:
 				--it seems like questID fire per item drop for slot now
