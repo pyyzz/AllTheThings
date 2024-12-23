@@ -1109,7 +1109,6 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isBreadcrumb"] = true,
-					["lockCriteria"] = { 1, "questID", 28531 },	 -- Hero's Call: Desolace!
 				}),
 				heroscall(q(28531, {    -- Hero's Call: Desolace!
 					["timeline"] = { ADDED_4_0_3 },
