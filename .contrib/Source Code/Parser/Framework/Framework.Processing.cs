@@ -1055,20 +1055,22 @@ namespace ATT
 
         private static void EnsembleCleanup(IDictionary<string, object> data)
         {
-            if (!(data.TryGetValue("ensembleID", out long ensembleID) || data.TryGetValue("ensembleSpellID", out ensembleID))) return;
-
-            if (!data.TryGetValue("_sourceIDs", out List<long> sourceIDs)) return;
-
-            //if (ensembleID == 215356)
-            //{
-
-            //}
+            if (!data.TryGetValue("spellID", out long spellID) && !data.TryGetValue("ensembleSpellID", out spellID))
+            {
+                LogWarn($"Ensemble Cleanup failed to contain spellID and will be empty when exported!", data);
+                return;
+            }
+            if (!data.TryGetValue("_sourceIDs", out List<object> sourceIDs))
+            {
+                LogWarn($"Ensemble Cleanup failed to contain _sourceIDs and will be empty when exported!", data);
+                return;
+            }
 
             // Ensembles will Source raw Items/Appearances which have no other currently-obtainable source
             // Or will generate a symlink for the duplicated Items/Appearances
             List<IDictionary<string, object>> symlinkSources = new List<IDictionary<string, object>>();
             List<IDictionary<string, object>> rawSources = new List<IDictionary<string, object>>();
-            foreach (long sourceID in sourceIDs)
+            foreach (long sourceID in sourceIDs.AsTypedEnumerable<long>())
             {
                 if (TryGetSOURCED("sourceID", sourceID, out List<IDictionary<string, object>> sources) && sources.AnyMatchingGroup(IsObtainableData))
                 {
@@ -1084,7 +1086,7 @@ namespace ATT
                     IDictionary<string, object> source = tmogSetItems.FirstOrDefault()?.AsData();
                     if (source == null)
                     {
-                        LogWarn($"Ensemble {ensembleID} sourcing SourceID {sourceID} which is not associated with a TransmogSetItem", data);
+                        LogWarn($"Ensemble via SpellID {spellID} sourcing SourceID {sourceID} which is not associated with a TransmogSetItem", data);
                         source = new TransmogSetItem { ItemModifiedAppearanceID = sourceID }.AsData();
                     }
                     source["_generated"] = true;
@@ -1097,7 +1099,8 @@ namespace ATT
                 }
             }
 
-            RemoveWrongFilterSources(data, ensembleID, symlinkSources, rawSources);
+            // as of later 2024, Blizz seems to have fixed their logic for granting all Appearances in Ensembles, even when Class/Armor restricted! Huzzah
+            //RemoveWrongFilterSources(data, spellID, symlinkSources, rawSources);
 
             // add the raw sources to the ensemble
             foreach (IDictionary<string, object> source in rawSources)
@@ -2507,13 +2510,13 @@ namespace ATT
             {
                 foreach (SpellEffect spellEffect in spellEffects)
                 {
-                    Incorporate_Item_SpellEffect(data, spellEffect);
+                    Incorporate_SpellEffect(data, spellEffect);
                 }
             }
             else
             {
                 data.TryGetValue("itemID", out long itemID);
-                LogWarn($"Ensemble Item {itemID} with Spell {spellID} missing Wago SpellEffect record(s)", data);
+                LogWarn($"Ensemble {itemID} with Spell {spellID} missing Wago SpellEffect record(s)", data);
             }
 
             if (data.TryGetValue("tmogSetID", out long tmogSetID) && TryGetTypeDBObject(tmogSetID, out TransmogSet tmogSet))
@@ -2560,23 +2563,17 @@ namespace ATT
             AddPostProcessing(EnsembleCleanup, data);
         }
 
-        private static void Incorporate_Item_TransmogSetItems(IDictionary<string, object> data)
+        private static void Incorporate_Item_TransmogSetItems(IDictionary<string, object> data, long tmogSetID)
         {
-            if (!data.TryGetValue("tmogSetID", out long tmogSetID))
-            {
-                LogWarn($"Ensemble Item cannot incorporate Transmog Set due to missing 'tmogSetID'", data);
-                return;
-            }
-
             if (!TryGetTypeDBObjectCollection(tmogSetID, out List<TransmogSetItem> transmogSetItems))
             {
-                LogDebugWarn($"Ensemble Type Item missing Wago TransmogSetItem record(s) for TransmogSetID {tmogSetID}", data);
+                LogDebugWarn($"Ensemble missing Wago TransmogSetItem record(s) for TransmogSetID {tmogSetID}", data);
                 return;
             }
 
             if (!data.TryGetValue("type", out string type) || !(type == "ensembleID" || type == "ensembleSpellID"))
             {
-                LogDebugWarn($"Item with valid Ensemble information not set as 'iensemble'", data);
+                LogDebugWarn($"Valid Ensemble information not set as 'iensemble'/'sensemble'", data);
                 return;
             }
 
@@ -2602,7 +2599,9 @@ namespace ATT
                 }
             }
 
-            data["_sourceIDs"] = allSourceIDs.Distinct().ToList();
+            Objects.Merge(data, "_sourceIDs", allSourceIDs);
+            LogDebug($"INFO: Ensemble {type} with TransmogSet {tmogSetID} merged {allSourceIDs.Count} SourceIDs", data);
+
             //foreach (long sourceID in )
             //{
             //    Items.DetermineItemID(itemData);
@@ -2630,12 +2629,12 @@ namespace ATT
 
                 foreach (SpellEffect spellEffect in spellEffects)
                 {
-                    Incorporate_Item_SpellEffect(data, spellEffect);
+                    Incorporate_SpellEffect(data, spellEffect);
                 }
             }
         }
 
-        private static void Incorporate_Item_SpellEffect(IDictionary<string, object> data, SpellEffect spellEffect)
+        private static void Incorporate_SpellEffect(IDictionary<string, object> data, SpellEffect spellEffect)
         {
             // TODO: sometimes 1 Item can trigger 1 ItemEffect leading to multiple IsQuest SpellEffects...
             // ref. /att i:181538 -> SpellID 336988
@@ -2682,13 +2681,14 @@ namespace ATT
             }
             if (spellEffect.IsLearnedTransmogSet())
             {
+                long tmogSetID = spellEffect.EffectMiscValue_0;
                 // don't override any custom data... sometimes blizz hotfixes ensembles but we don't get the updated data immediately from wago
                 if (!data.ContainsKey("tmogSetID"))
                 {
-                    Objects.Merge(data, "tmogSetID", spellEffect.EffectMiscValue_0);
-                    LogDebug($"INFO: Assigned Item 'tmogSetID' {spellEffect.EffectMiscValue_0}", data);
+                    Objects.Merge(data, "tmogSetID", tmogSetID);
+                    LogDebug($"INFO: Assigned 'tmogSetID' {tmogSetID}", data);
                 }
-                Incorporate_Item_TransmogSetItems(data);
+                Incorporate_Item_TransmogSetItems(data, tmogSetID);
             }
         }
 

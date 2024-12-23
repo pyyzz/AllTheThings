@@ -1423,6 +1423,11 @@ spell = function(id, t)									-- Create a SPELL Object
 end
 sp = spell;												-- Create a SPELL Object (alternative shortcut)
 title = function(id, t)									-- Create a TITLE Object
+sensemble = function(spellID, t)						-- Create an Ensemble directly from SpellID
+	local i = sp(spellID, t);
+	i.type = "ensembleSpellID"
+	return i
+end
 	return struct("titleID", id, t);
 end
 title_female = function(id, t)							-- Create a TITLE Object for Female Characters
