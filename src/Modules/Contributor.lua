@@ -474,10 +474,12 @@ local SpellIDHandlers = {
 		-- if it's Sourced, we've already checked it via PLAYER_SOFT_INTERACT_CHANGED
 		if objRef then return end
 
+		local tooltipName = GameTooltipTextLeft1:GetText()
 		objRef = app.CreateObject(id)
 		AddReportData(objRef.__type,id,{
 			[objRef.key or "ID"] = id,
 			NotSourced = "Openable Object not Sourced!",
+			Name = tooltipName or "(No Tooltip Text Available)",
 		})
 	end
 }
