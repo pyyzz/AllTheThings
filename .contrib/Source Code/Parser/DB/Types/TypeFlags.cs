@@ -9,6 +9,7 @@ namespace ATT.DB.Types
         DoNotDisplay = 0x2,
         Alliance = 0x200,
         Horde = 0x400,
+        IsGuild = 0x4000,
     }
 
     //public static implicit operator object(TypeFlags t) => (long)t;
