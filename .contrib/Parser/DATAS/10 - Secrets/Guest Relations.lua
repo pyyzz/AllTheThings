@@ -770,7 +770,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 						["g"] = { i(228223)	},	-- Nola's Last Wish (QI!)
 					}),
 					n(229103, {	-- Scrollsage Nola
-						["description"] = "Use Nola's Last Wish to summon and speak to at the underwater Tortollan wedding east of Atal'Dazar.",
+						["description"] = "Use Nola's Last Wish to summon and speak to at the underwater Tortollan wedding west of Atal'Dazar.",
 						["coord"] = { 24.4, 44.4, ZULDAZAR },
 					})
 				},
