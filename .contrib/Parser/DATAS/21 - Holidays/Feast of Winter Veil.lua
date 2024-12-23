@@ -130,11 +130,31 @@ local STOLEN_PRESENT_GROUPS = {
 	i(128636, {	-- Endothermic Blaster (TOY!)
 		["timeline"] = { ADDED_7_0_3 },
 	}),
+	i(191925, {	-- Falling Star Flinger (TOY!)
+		["timeline"] = { ADDED_10_2_0 },
+	}),
+	i(191937, {	-- Falling Star Catcher (TOY!)
+		["timeline"] = { ADDED_10_2_0 },
+	}),
+	i(209859, {	-- Festive Trans-Dimensional Bird Whistle (TOY!)
+		["timeline"] = { ADDED_10_2_0 },
+	}),
 	i(116692, {	-- Fuzzy Green Lounge Cushion (TOY!)
 		["timeline"] = { ADDED_6_0_2 },
 	}),
 	i(162973, {	-- Greatfather Winter's Hearthstone (TOY!)
 		["timeline"] = { ADDED_8_1_0 },	-- 8.0.1 it was added in the Gift, so will say 8.1 for this source
+	}),
+	i(151343, {	-- Hearthstation (A) (TOY!)
+		["timeline"] = { ADDED_8_2_5 },
+		["races"] = ALLIANCE_ONLY,
+	}),
+	i(151344, {	-- Hearthstation (H) (TOY!)
+		["timeline"] = { ADDED_8_2_5 },
+		["races"] = HORDE_ONLY,
+	}),
+	i(208825, {	-- Junior Timekeeper's Racing Belt (TOY!)
+		["timeline"] = { ADDED_11_0_7 },
 	}),
 	i(46709),	-- MiniZep Controller (TOY!)
 	i(116689, {	-- Pineapple Lounge Cushion (TOY!)
@@ -160,6 +180,14 @@ local STOLEN_PRESENT_GROUPS = {
 	}),
 	i(54438),	-- Tiny Blue Ragdoll (TOY!)
 	i(54437),	-- Tiny Green Ragdoll (TOY!)
+	i(162643, {	-- Toy Armor Set [A] (TOY!)
+		["timeline"] = { ADDED_9_1_5 },
+		["races"] = ALLIANCE_ONLY,
+	}),
+	i(162642, {	-- Toy Armor Set [H] (TOY!)
+		["timeline"] = { ADDED_9_1_5 },
+		["races"] = HORDE_ONLY,
+	}),
 	i(44606),	-- Toy Train Set (TOY!)
 	i(151349, {	-- Toy Weapon Set [A] (TOY!)
 		["timeline"] = { ADDED_7_3_0 },
@@ -176,34 +204,14 @@ local STOLEN_PRESENT_GROUPS = {
 	i(188680, {	-- Winter Veil Chorus Book (TOY!)
 		["timeline"] = { ADDED_9_1_5 },
 	}),
-	i(116691, {	-- Zhevra Lounge Cusion (TOY!)
-		["timeline"] = { ADDED_6_0_2 },
-	}),
-	i(151343, {	-- Hearthstation (A) (TOY!)
-		["timeline"] = { ADDED_8_2_5 },
-		["races"] = ALLIANCE_ONLY,
-	}),
-	i(151344, {	-- Hearthstation (H) (TOY!)
-		["timeline"] = { ADDED_8_2_5 },
-		["races"] = HORDE_ONLY,
+	i(210656, {	-- Winter Veil Socks (TOY!)
+		["timeline"] = { ADDED_11_0_7 },
 	}),
 	i(178530, {	-- Wreath-A-Rang (TOY!)
-		["timeline"] = { ADDED_9_1_5 }, -- Returned Christmas 2022
+		["timeline"] = { ADDED_9_1_5 },
 	}),
-	i(191925, {	-- Falling Star Flinger (TOY!)
-		["timeline"] = { ADDED_10_2_0 }, -- Returned Christmas 2023
-	}),
-	i(191937, {	-- Falling Star Catcher (TOY!)
-		["timeline"] = { ADDED_10_2_0 }, -- Returned Christmas 2023
-	}),
-	i(209859, {	-- Festive Trans-Dimensional Bird Whistle (TOY!)
-		["timeline"] = { ADDED_10_2_0 },
-	}),
-	i(208825, {	-- Junior Timekeeper's Racing Belt (TOY!)
-		["timeline"] = { ADDED_11_0_7 }, -- Returned Christmas 2024
-	}),
-	i(210656, {	-- Winter Veil Socks (TOY!)
-		["timeline"] = { ADDED_11_0_7 }, -- Returned Christmas 2024
+	i(116691, {	-- Zhevra Lounge Cusion (TOY!)
+		["timeline"] = { ADDED_6_0_2 },
 	}),
 	-- Mount Mods
 	i(210432, {	-- Highland Drake: Winter Veil Armor (MM!)
