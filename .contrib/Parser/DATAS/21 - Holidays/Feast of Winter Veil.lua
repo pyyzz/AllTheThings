@@ -2269,6 +2269,12 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 					["cr"] = 13602,	-- The Abominable Greench
 				}),
 				o(209497, {
+					["coords"] = {
+						{ 43.4, 38.8, HILLSBRAD_FOOTHILLS },
+						{ 43.5, 38.4, HILLSBRAD_FOOTHILLS },
+						{ 43.7, 38.8, HILLSBRAD_FOOTHILLS },
+						{ 45.3, 40.3, HILLSBRAD_FOOTHILLS },
+					},
 					["timeline"] = { ADDED_4_3_0 },
 					["groups"] = {
 						i(17662),	-- Stolen Treats
