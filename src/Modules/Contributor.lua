@@ -128,7 +128,7 @@ local function Check_coords(objRef, id, maxCoordDistance)
 			closest = round(closest, 1)
 			AddReportData(objRef.__type,id,{
 				[objRef.key or "ID"] = id,
-				WrongCoords = "Closest Coordinates are off by: "..tostring(closest).." on mapID: "..mapID,
+				VerifyOrAddCoords = "Closest existing Coordinates are off by: "..tostring(closest).." on mapID: "..mapID,
 			})
 			check = 1
 		end
@@ -223,12 +223,15 @@ MobileDB.Creature = {
 MobileDB.GameObject = {
 	[201615] = true,	-- Valve in ICC
 	[209287] = true,	-- Bit of Glass, quest:29516
+	[209506] = true,	-- Stolen Treats, q:6983
 	[281326] = true,	-- Falcon Cage (Quest Object in Drustvar)
 	[293351] = true,	-- Truffle
 	[293445] = true,	-- Truffle
 	[293446] = true,	-- Truffle
 	[293449] = true,	-- Truffle
 	[296855] = true,	-- Truffle
+	[310600] = true,	-- Ancient Kaldorei Tome @ 9.9, 13.9, 63 (q:53989)
+	[310603] = true,	-- "bow" @ 12, 15.4, 63 (q:53989)
 	[327230] = true,	-- Jelly Deposit
 	[350978] = true,	-- Queen's Conservatory Cache
 	[411930] = true,	-- Blackpowder Barrel
@@ -237,6 +240,7 @@ MobileDB.GameObject = {
 	[419696] = true,	-- Waxy Lump
 	[421070] = true,	-- Remnent Satchel
 	[433370] = true,	-- War Supply Chest
+	[437195] = true,	-- Titan Artifact @ 79.3, 29, 2248 (q:81465)
 	[444798] = true,	-- Arathi Treasure Hoard
 	[444799] = true,	-- Potent Concentrated Shadow
 	[444800] = true,	-- Sureki Strongbox
@@ -245,6 +249,14 @@ MobileDB.GameObject = {
 	[452706] = true,	-- Deep-Lost Satchel
 	[451579] = true,	-- Used Fuel Drum (Ringing Deeps)
 	[478443] = true,	-- Mislaid Curiosity (delve object)
+	[457181] = true,	-- Interesting Notes @ 39, 51.3, 2369 / 67.3, 61.1, 2369 (q:83932)
+	[499620] = true,	-- Runed Storm Cache @ 68.4, 73.8, 2369 (q:84726)
+	[499863] = true,	-- Runed Storm Cache @ 39.4, 20.1, 2369 (q:84726)
+	[507870] = true,	-- Weathered Journal Page @ 71, 59.2, 2369 (q:85571)
+	[506640] = true,	-- Faded Journal Page @ 39.3, 54.2, 2369 (q:85571)
+	[507867] = true,	-- Soggy Journal Page @ 51.4, 75.8, 2369 (q:85571)
+	[507868] = true,	-- Stained Journal Page @ 55.8, 14.7, 2369 (q:85571)
+	[507869] = true,	-- Torn Journal Page @ 46.1, 47.1, 2369 (q:85571)
 }
 
 local ReturnEmptyFunctionMeta = { __index = function() return app.ReturnFalse end}
