@@ -7,8 +7,10 @@ DRAGONS_OF_NIGHTMARE = createHeader({
 		fr = "Dragons du Cauchemar",
 		ru = "Драконы Кошмара",
 		cn = "梦魇之龙",
+		tw = "夢魘之龍",
 	},
 	lore = {
 		en = "One of these dragons will spawn randomly at the associated coordinates across Azeroth.",
+		tw = "這些龍中的一隻會在艾澤拉斯的相關座標隨機生成。",
 	},
 });
