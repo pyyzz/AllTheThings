@@ -9,6 +9,7 @@ COLLECTORS_EDITION = createHeader({
 		fr = "Edition Collector",
 		ru = "Коллекционное издание",
 		cn = "典藏版",
+		tw = "典藏版",
 	},
 });
 HEROIC_EDITION = createHeader({
@@ -17,6 +18,7 @@ HEROIC_EDITION = createHeader({
 	text = {
 		en = "Heroic Edition",
 		cn = "英雄礼包",
+		tw = "英雄版",
 	},
 });
 EPIC_EDITION = createHeader({
@@ -25,6 +27,7 @@ EPIC_EDITION = createHeader({
 	text = {
 		en = "Epic Edition",
 		cn = "史诗礼包",
+		tw = "史詩版",
 	},
 });
 TBC_CLASSIC_DELUXE_EDITION = createHeader({
@@ -34,6 +37,7 @@ TBC_CLASSIC_DELUXE_EDITION = createHeader({
 		en = "TBC Classic Deluxe Edition",
 		fr = "Édition BC Classic Deluxe",
 		cn = "燃烧的远征经典怀旧服典藏包",
+		tw = "燃燒的遠征：經典版 - 豪華版",
 	},
 });
 WOTLK_CLASSIC_NORTHREND_UPGRADE = createHeader({
@@ -41,6 +45,7 @@ WOTLK_CLASSIC_NORTHREND_UPGRADE = createHeader({
 	icon = [[~_.asset("Expansion_WOTLK")]],
 	text = {
 		en = "WotLK Classic Northrend Upgrade",
+		tw = "巫妖王之怒：經典版 - 北裂境升級",
 	},
 });
 CATA_CLASSIC_BLAZING_UPGRADE = createHeader({
@@ -48,6 +53,7 @@ CATA_CLASSIC_BLAZING_UPGRADE = createHeader({
 	icon = [[~_.asset("Expansion_CATA")]],
 	text = {
 		en = "Cata Classic Blazing Upgrade",
+		tw = "浩劫與重生：經典版 - 熾炎升級",
 	},
 });
 THE_WAR_WITHIN_TEMPORARY = createHeader({
@@ -56,6 +62,7 @@ THE_WAR_WITHIN_TEMPORARY = createHeader({
 	text = {
 		en = "The War Within",
 		cn = "地心之战",
+		tw = "地心之戰",
 	},
 	description = {
 		en = "The War Within is the tenth expansion for World of Warcraft and the beginning of the Worldsoul Saga. Journey through never-before-seen subterranean worlds filled with hidden wonders and lurking perils, down to the dark depths of the nerubian empire, where the malicious Harbinger of the Void is gathering arachnid forces to bring Azeroth to its knees.",
@@ -67,6 +74,7 @@ WOW_FIFTEENTH_ANNIVERSARY_COLLECTORS_EDITION = createHeader({
 	text = {
 		en = "WoW 15th Anniversary Collector's Edition",
 		cn = "魔兽世界15周年典藏版",
+		tw = "魔獸世界15週年典藏版",
 	},
 	description = {
 		en = "These rewards were made available to anyone who purchased a World of Warcraft 15th Anniversary Collector's Edition.",
@@ -78,6 +86,7 @@ DIABLO_III = createHeader({
 	text = {
 		en = "Diablo III",
 		cn = "暗黑破坏神III",
+		tw = "暗黑破壞神III",
 	},
 	description = {
 		en = "These rewards were made available to anyone who purchased a Collector's Edition of Diablo III.",
@@ -89,6 +98,7 @@ DIABLO_III_REAPER_OF_SOULS = createHeader({
 	text = {
 		en = "Diablo III: Reaper of Souls",
 		cn = "暗黑破坏神III：夺魂之镰",
+		tw = "暗黑破壞神III：奪魂之鐮",
 	},
 	description = {
 		en = "These rewards were made available to anyone who purchased the Collector's Edition of the Reaper of Souls expansion for Diablo III.",
@@ -100,6 +110,7 @@ DIABLO_IV = createHeader({
 	text = {
 		en = "Diablo IV",
 		cn = "暗黑破坏神IV",
+		tw = "暗黑破壞神IV",
 	},
 	description = {
 		en = "Granted to owners of Diablo IV Base Version.",
@@ -111,6 +122,7 @@ OVERWATCH_ORIGINS = createHeader({
 	text = {
 		en = "Overwatch: Origins",
 		cn = "守望先锋：起源",
+		tw = "鬥陣特攻：啟元版",
 	},
 	description = {
 		en = "These rewards are available to anyone who purchases the Collector's Edition for Overwatch: Origins.",
@@ -122,6 +134,7 @@ STARCRAFT_II_WINGS_OF_LIBERTY = createHeader({
 	text = {
 		en = "Starcraft II: Wings of Liberty",
 		cn = "星际争霸II：自由之翼",
+		tw = "星海爭霸II：自由之翼",
 	},
 	description = {
 		en = "These rewards are available to anyone who purchased the Collector's Edition for Starcraft II: Wings of Liberty.",
@@ -132,7 +145,8 @@ STARCRAFT_II_HEART_OF_THE_SWARM = createHeader({
 	icon = 656595,
 	text = {
 		en = "Starcraft II: Heart of the Swarm",
-		cn= "星际争霸II：虫群之心",
+		cn = "星际争霸II：虫群之心",
+		tw = "星海爭霸II：蟲族之心",
 	},
 	description = {
 		en = "These rewards are available to anyone who purchased the Collector's Edition for Starcraft II: Heart of the Swarm.",
@@ -144,6 +158,7 @@ STARCRAFT_II_LEGACY_OF_THE_VOID = createHeader({
 	text = {
 		en = "Starcraft II: Legacy of the Void",
 		cn = "星际争霸II：虚空之遗",
+		tw = "星海爭霸II：虛空之遺",
 	},
 	description = {
 		en = "These rewards are available to anyone who purchased the Collector's Edition for Starcraft II: Legacy of the Void.",
@@ -155,6 +170,7 @@ WARCRAFT_III_REFORGED_SPOILS_OF_WAR = createHeader({
 	text = {
 		en = "Warcraft III Spoils of War Edition",
 		cn = "魔兽争霸III战争嘉奖版",
+		tw = "魔獸爭霸III：淬鍊重生 - 數位戰利版",
 	},
 	description = {
 		en = "These rewards are available to anyone who purchased the Spoils of War Edition of Warcraft III: Reforged.",
