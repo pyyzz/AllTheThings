@@ -209,13 +209,16 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["coord"] = { 72.3, 42.9, SIREN_ISLE },
 				["g"] = {
 					o(500688, {	-- Seafarer's Cache
-						i(232860),	-- Singing Fragments (QI!)
-					}),
-					o(500690, {	-- Seafarer's Cache
-						i(232861),	-- Singing Fragments (QI!)
+						["coord"] = { 73.6, 52.4, SIREN_ISLE },
+						["g"] = { i(232860) },	-- Singing Fragments (QI!)
 					}),
 					o(500689, {	-- Seafarer's Cache
-						i(232862),	-- Singing Fragments (QI!)
+						["coord"] = { 33.4, 20.4, SIREN_ISLE },
+						["g"] = { i(232862) },	-- Singing Fragments (QI!)
+					}),
+					o(500690, {	-- Seafarer's Cache
+						-- ["coord"] = { xx, SIREN_ISLE },
+						["g"] = { i(232861) },	-- Singing Fragments (QI!)
 					}),
 					--spell(470197),	-- Blessing of the Seadweller
 					--
@@ -288,7 +291,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["coord"] = { 41.9, 68.0, SIREN_ISLE },
 				["isWeekly"] = true,
 				["g"] = {
-					i(229967),	-- Salvageable Scrap (QI!)
+					o_repeated({
+						i(229967),	-- Salvageable Scrap (QI!)
+						o(473943),	-- Salvageable Scrap
+						o(474030),	-- Salvageable Scrap
+						o(474033),	-- Salvageable Scrap
+						o(474084),	-- Salvageable Scrap
+						o(474086),	-- Salvageable Scrap
+					}),
 				},
 			}),
 			q(83753, {	-- Cannon Karma
