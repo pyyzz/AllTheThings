@@ -764,6 +764,7 @@ PHASE_SIX_CLASSICERA = createClassicPhase({
 CurrentClassicExpansion = {
 	text = {
 		en = "Season of Mastery",
+		tw = "大師賽季",
 	},
 };
 SOM_PHASE_ONE = createClassicPhase({
@@ -772,6 +773,7 @@ SOM_PHASE_ONE = createClassicPhase({
 	phaseID = 1604,
 	text = {
 		en = "Season of Mastery",
+		tw = "大師賽季",
 	},
 	description = {
 		en = "This was only available during Season of Mastery.",
@@ -803,6 +805,7 @@ SOD_PHASE_ONE = createClassicPhaseForSOD({
 	phaseID = 1605,
 	text = {
 		en = "Season of Discovery",
+		tw = "探索賽季",
 	},
 	description = {
 		en = "This was not available until Phase 1 of Season of Discovery.",
@@ -818,6 +821,7 @@ SOD_PHASE_TWO = createClassicPhaseForSOD({
 	phaseID = 1606,
 	text = {
 		en = "Phase 2",
+		tw = "第2階段",
 	},
 	lore = {
 		en = "Included the Gnomeregan raid, Stranglethorn Vale World PvP, and raised the level cap to 40.",
@@ -830,6 +834,7 @@ SOD_PHASE_THREE = createClassicPhaseForSOD({
 	phaseID = 1607,
 	text = {
 		en = "Phase 3",
+		tw = "第3階段",
 	},
 	lore = {
 		en = "Included the Sunken Temple raid and raised the level cap to 50.",
@@ -842,6 +847,7 @@ SOD_PHASE_FOUR = createClassicPhaseForSOD({
 	phaseID = 1608,
 	text = {
 		en = "Phase 4",
+		tw = "第4階段",
 	},
 	lore = {
 		en = "Included Molten Core, Onyxia's Lair, Demon Fall Canyon, the Storm Cliffs, the Tainted Scar, and raised the level cap to 60.",
@@ -854,6 +860,7 @@ SOD_PHASE_FIVE = createClassicPhaseForSOD({
 	phaseID = 1609,
 	text = {
 		en = "Phase 5",
+		tw = "第5階段",
 	},
 	lore = {
 		en = "Included Blackwing Lair, the new Crystal Vale raid, and Zul'Gurub.",
@@ -866,6 +873,7 @@ SOD_PHASE_SIX = createClassicPhaseForSOD({
 	phaseID = 1610,
 	text = {
 		en = "Phase 6",
+		tw = "第6階段",
 	},
 	lore = {
 		en = "Included Ahn'Qiraj.",
@@ -878,6 +886,7 @@ SOD_PHASE_SEVEN = createClassicPhaseForSOD({
 	phaseID = 1611,
 	text = {
 		en = "Phase 7",
+		tw = "第7階段",
 	},
 	lore = {
 		en = "Included Naxxramas.",
@@ -890,6 +899,7 @@ SOD_PHASE_EIGHT = createClassicPhaseForSOD({
 	phaseID = 1612,
 	text = {
 		en = "Phase 8",
+		tw = "第8階段",
 	},
 	lore = {
 		en = "Included Classic+?",
@@ -958,6 +968,7 @@ TBC_PHASE_ONE = createClassicPhase({
 	phaseID = 17,
 	text = {
 		en = "Phase 1",
+		tw = "第1階段",
 	},
 	lore = {
 		en = "Included Karazhan, Magtheridon's Lair, and Gruul's Lair.",
@@ -984,6 +995,7 @@ TBC_PHASE_TWO = createClassicPhase({
 	phaseID = 18,
 	text = {
 		en = "Phase 2",
+		tw = "第2階段",
 	},
 	lore = {
 		en = "Included Serpentshrine Cavern, Tempest Keep: The Eye, and Swift Druid Flight Forms.",
@@ -1027,6 +1039,7 @@ TBC_PHASE_THREE = createClassicPhase({
 	phaseID = 19,
 	text = {
 		en = "Phase 3",
+		tw = "第3階段",
 	},
 	lore = {
 		en = "Included Hyjal Summit and the Black Temple in addition to the vast majority of end game daily / faction content.",
@@ -1069,6 +1082,7 @@ TBC_PHASE_FOUR = createClassicPhase({
 	phaseID = 20,
 	text = {
 		en = "Phase 4",
+		tw = "第4階段",
 	},
 	lore = {
 		en = "Included Zul'Aman.",
@@ -1081,6 +1095,7 @@ TBC_PHASE_FIVE = createClassicPhase({
 	phaseID = 21,
 	text = {
 		en = "Phase 5",
+		tw = "第5階段"
 	},
 	lore = {
 		en = "Included Sunwell Plateau and the Isle of Quel'Danas daily content.",
@@ -1225,6 +1240,7 @@ WRATH_PHASE_ONE = createClassicPhase({
 	phaseID = 30,
 	text = {
 		en = "Phase 1",
+		tw = "第1階段",
 	},
 	lore = {
 		en = "Included Naxxramas, Obsidian Sanctum, and Eye of Eternity.",
@@ -1251,6 +1267,7 @@ WRATH_PHASE_TWO = createClassicPhase({
 	phaseID = 31,
 	text = {
 		en = "Phase 2",
+		tw = "第2階段",
 	},
 	lore = {
 		en = "Included Ulduar.",
@@ -1278,6 +1295,7 @@ WRATH_PHASE_THREE = createClassicPhase({
 	phaseID = 32,
 	text = {
 		en = "Phase 3",
+		tw = "第3階段",
 	},
 	lore = {
 		en = "Included Trial of the Crusader.",
@@ -1290,6 +1308,7 @@ WRATH_PHASE_FOUR = createClassicPhase({
 	phaseID = 33,
 	text = {
 		en = "Phase 4",
+		tw = "第4階段",
 	},
 	lore = {
 		en = "Included Icecrown Citadel.",
@@ -1375,6 +1394,7 @@ CATA_PHASE_ONE = createClassicPhase({
 	phaseID = 40,
 	text = {
 		en = "Phase 1",
+		tw = "第1階段",
 	},
 	lore = {
 		en = "Included Bastion of Twilight, Throne of the Four Winds, and Blackwing Descent.",
