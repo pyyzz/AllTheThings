@@ -195,6 +195,7 @@ _.HeaderConstants = {
 	TIER_ZERO_POINT_FIVE_SETS = -1000165,
 	TREASURES = -1000038,
 	UI_BOUNTY_WINDOW = -1000380,
+	UNIQUE_APPEARANCE = -1000163,
 	VENDORS = -1000039,
 	WEAPONS = -1000073,
 	WORLD_BOSSES = -1000042,
@@ -258,6 +259,7 @@ localize(L.HEADER_NAMES, {
 	[-1000142] = "Honor Titles",
 	[-1000144] = PVP,
 	[-1000162] = "Shared Appearances",
+	[-1000163] = "Unique Appearance",
 	[-1000164] = "Crieve's Never Implemented List",
 	[-1000165] = "Tier 0.5 Sets",
 	[-1000166] = "Captains",
@@ -351,6 +353,7 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-1000033] = "Contains Things which are rewarded or are available from other content within the containing section.\nThey are consolidated here in an effort to reduce duplication from many possible Sources.",
 	[-1000040] = "A weapon master is an NPC that offers characters the opportunity to learn specific weapon skills, the availability of which varies from one weapon master to another. All weapon skills can be trained at level 1, except for Polearms which require level 20.\n\nTraining with a weapon master became obsolete in Patch 4.0.1, as all class-appropriate weapon proficiencies are now learned by each class upon creation. Weapon masters were removed from the game shortly after.",
 	[-1000162] = "The items in this list are shared appearances for the above item. In Unique Appearance Mode, this list can help you understand why or why not a specific item would be marked Collected.",
+	[-1000163] = "This item has a Unique Appearance. You must collect this item specifically to earn the appearance.",
 	[-1000164] = "If the following are sorted somewhere, please delete them from this list. Thanks.",
 	[-1000171] = "Also known as 'Lower' Blackrock Spire.",
 	[-1000172] = "Also known as 'Upper' Blackrock Spire.",
@@ -445,6 +448,7 @@ localize(L.HEADER_ICONS, {
 	[-1000142] = 135358,
 	[-1000144] = _.asset("category_pvp"),
 	[-1000162] = 132874,
+	[-1000163] = 132873,
 	[-1000164] = 132738,
 	[-1000165] = 132738,
 	[-1000166] = 236623,
@@ -3858,6 +3862,7 @@ localize(L.HEADER_NAMES, {
 	[-1000040] = "Waffenmeisterin",
 	[-1000048] = "Drachen des Alptraums",
 	[-1000162] = "Geteilte Vorlagen",
+	[-1000163] = "Einzigartige Vorlagen",
 	[-1000168] = "Die Vier Reiter",
 	[-1000179] = "Friedhof",
 	[-1000180] = "Bibliothek",
@@ -3898,6 +3903,7 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-1000025] = "Es muss möglicherweise ein bestimmter Feiertag aktiv sein, um hier genannte Dinge abschließen zu können.",
 	[-1000040] = "Ein Waffenmeister ist ein NPC, der Charakteren die Möglichkeit bietet, bestimmte Waffenfertigkeiten zu erlernen, deren Verfügbarkeit von Waffenmeister zu Waffenmeister unterschiedlich ist. Alle Waffenfähigkeiten können auf Stufe 1 trainiert werden, mit Ausnahme von Stangenwaffen, für die Stufe 20 erforderlich ist.\n\nDas Training mit einem Waffenmeister wurde in Patch 4.0.1 obsolet, da nun alle klassengerechten Waffenfertigkeiten von jeder Klasse bei der Erstellung erlernt werden. Waffenmeister wurden kurz darauf aus dem Spiel entfernt.",
 	[-1000162] = "Die Gegenstände in dieser Liste teilen ihre Vorlage mit dem oben genannten Gegenstand. Im Modus für Einzigartige Vorlagen kann diese Liste Ihnen helfen zu verstehen, warum ein bestimmter Gegenstand als gesammelt markiert ist, oder ob nicht.",
+	[-1000163] = "Dieser Gegenstand hat eine einzigartige Vorlage. Ihr müsst diesen Gegenstand erhalten, um die Vorlage eurer Sammlung hinzuzufügen.",
 	[-1000273] = "Diese Saison bringt eine anfängliche Levelobergrenze von 25 und ein neues Level-25-Endspiel, einschließlich eines Blackfathom Deeps-Raids für 10 Spieler mit neuen Mechaniken, neuen und neu gestalteten Bossen, die die Taktiken und Strategien der Spieler herausfordern, und neuen Belohnungen.",
 	[-1000278] = "Runengravur ist ein neues System, das kürzlich für Season of Discovery angekündigt wurde. Es ermöglicht jeder Klasse, ihr Spielerlebnis individuell anzupassen, indem sie neue einzigartige Fähigkeiten freischaltet!",
 	[-1000279] = "Questgegenstände für „Weggelegte Vorräte“ fallen von Mobs der Stufe 6 und höher in ganz Azeroth. Diese Quests erfordern die Lieferung der Waylaid-Vorräte an einen Vertreter der Organisation als Gegenleistung für ein paar Silbermünzen, Erfahrung und Ansehen. Natürlich fehlen in der Versorgungslieferung Gegenstände, und Sie können sie ergänzen, um höhere Reputationsbelohnungen zu erhalten.",
@@ -5036,6 +5042,7 @@ localize(L.HEADER_NAMES, {
 	[-1000040] = "Maître d'armes",
 	[-1000048] = "Dragons du Cauchemar",
 	[-1000162] = "Apparences Partagées",
+	[-1000163] = "Apparence unique",
 	[-1000165] = "Ensembles Tier 0.5",
 	[-1000166] = "Capitaines",
 	[-1000168] = "Les quatre cavaliers",
@@ -5084,6 +5091,7 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-1000033] = "Contient des objets de récompenses ou disponibles dans d’autres contenus de la section qui les contient.\nIls sont regroupés ici dans le but de réduire la duplication de nombreuses sources possibles.",
 	[-1000040] = "Un maître d'armes est un PNJ qui offre aux personnages la possibilité d'apprendre des compétences d'armes spécifiques, dont la disponibilité varie d'un maître d'armes à l'autre. Toutes les compétences d'armes peuvent être entraînées au niveau 1, à l'exception des armes d'hast qui nécessitent le niveau 20.\n\nL'entraînement avec un maître d'armes est devenu obsolète dans le patch 4.0.1, car toutes les compétences d'armes appropriées à la classe sont désormais apprises par chaque classe lors de sa création. Les maîtres d'armes ont été retirés du jeu peu de temps après.",
 	[-1000162] = "Les éléments de cette liste sont des apparences partagées pour l'élément ci-dessus. En mode Apparence unique, cette liste peut vous aider à comprendre pourquoi ou pourquoi un élément spécifique serait marqué Collecté.",
+	[-1000163] = "Cet article a une apparence unique. Vous devez collecter cet objet spécifiquement pour gagner l’apparence.",
 	[-1000273] = "Cette saison apporte un niveau maximum initial de 25 et une nouvelle fin de partie de niveau 25, comprenant un raid Blackfathom Deeps à 10 joueurs avec de nouvelles mécaniques, des boss nouveaux et réinventés pour défier les tactiques et stratégies des joueurs, et de nouvelles récompenses.",
 	[-1000278] = "La gravure de runes est un nouveau système récemment annoncé pour Season of Discovery. Il permet à chaque classe d'adapter son expérience de jeu en débloquant de nouvelles capacités uniques!",
 	[-1000279] = "Les objets de quête Waylaid Supplies proviennent des foules de niveau 6 et surtout partout en Azeroth. Ces quêtes nécessitent la livraison des fournitures Waylaid à un représentant de l'organisation en échange de quelques pièces d'argent, d'expérience et de réputation. Bien sûr, il manque des articles dans la livraison de fournitures, et vous pouvez les compléter pour obtenir de plus grandes récompenses de réputation.",
@@ -6220,6 +6228,7 @@ end
 if simplifiedLocale == "it" then
 localize(L.HEADER_NAMES, {
 	[-1000162] = "Aspetti Condivisi",
+	[-1000163] = "Aspetto unico",
 	[-1000168] = "I Cavalieri dell'Apocalisse",
 	[-1000191] = "Sconfiggi un Tenente",
 	[-1000192] = "Vinci la Battaglia",
@@ -6249,6 +6258,7 @@ localize(L.HEADER_NAMES, {
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000162] = "Gli elementi in questo elenco sono aspetti condivisi per l'elemento precedente. Nella modalità Aspetto unico, questo elenco può aiutarti a capire perché o perché un oggetto specifico verrebbe contrassegnato come Raccolto.",
+	[-1000163] = "Questo oggetto ha un aspetto unico. Devi raccogliere questo oggetto appositamente per guadagnare l'aspetto.",
 	[-1000273] = "Questa stagione porta un limite di livello iniziale di 25 e un nuovo gioco finale di livello 25, incluso un raid di Blackfathom Deeps per 10 giocatori con nuove meccaniche, boss nuovi e reinventati per sfidare le tattiche e le strategie dei giocatori e nuove ricompense.",
 	[-1000278] = "L'incisione delle rune è un nuovo sistema recentemente annunciato per la Stagione delle Scoperte. Permette a ogni classe di personalizzare la propria esperienza di gioco sbloccando nuove abilità uniche!",
 	[-1000279] = "Gli oggetti della missione Waylaid Supplies vengono rilasciati dai mob di livello 6 e soprattutto su Azeroth. Queste missioni richiedono la consegna delle Forniture Waylaid a un rappresentante dell'organizzazione in cambio di argento, esperienza e reputazione. Naturalmente, ci sono degli articoli mancanti nella spedizione di rifornimenti e puoi integrarli per ottenere maggiori ricompense in termini di reputazione.",
@@ -6629,6 +6639,7 @@ localize(L.HEADER_NAMES, {
 	[-1000034] = "Treinamento de Montaria",
 	[-1000040] = "Mestre de Armas",
 	[-1000162] = "Aparências Compartilhadas",
+	[-1000163] = "Aparência Única",
 	[-1000168] = "Os Quatro Cavaleiros",
 	[-1000191] = "Derrote um Tenente",
 	[-1000192] = "Ganhe a Batalha",
@@ -6664,6 +6675,7 @@ localize(L.HEADER_NAMES, {
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000040] = "Um mestre de armas é um NPC que oferece aos personagens a oportunidade de aprender habilidades específicas com armas, cuja disponibilidade varia de um mestre de armas para outro. Todas as habilidades com armas podem ser treinadas no nível 1, exceto as armas de haste, que exigem nível 20.\n\nO treinamento com um mestre de armas tornou-se obsoleto no Patch 4.0.1, já que todas as proficiências de armas apropriadas à classe agora são aprendidas por cada classe após a criação. Os mestres de armas foram removidos do jogo logo depois.",
 	[-1000162] = "Os itens nesta lista são aparências compartilhadas do item acima. No Modo de Aparência Única, esta lista pode ajudá-lo a entender por que ou não um item específico seria marcado como Coletado.",
+	[-1000163] = "Este item tem uma aparência única. Você deve coletar este item especificamente para ganhar a aparência.",
 	[-1000273] = "Esta temporada traz um limite de nível inicial de 25 e um novo jogo final de nível 25, incluindo um ataque Blackfathom Deeps para 10 jogadores com novas mecânicas, chefes novos e reimaginados para desafiar as táticas e estratégias dos jogadores e novas recompensas.",
 	[-1000278] = "A gravação de runas é um novo sistema anunciado recentemente para a Temporada de Descobertas. Ele permite que cada classe personalize sua experiência de jogo, desbloqueando novas habilidades únicas!",
 	[-1000279] = "Itens de missão Waylaid Supplies são obtidos de mobs de nível 6 e acima de Azeroth. Essas missões exigem a entrega dos Suprimentos Waylaid a um representante da organização em troca de um pouco de prata, experiência e reputação. É claro que faltam itens na remessa de suprimentos e você pode complementá-los para obter maiores recompensas de reputação.",
@@ -7653,6 +7665,7 @@ localize(L.HEADER_NAMES, {
 	[-1000044] = "Добыча локации",
 	[-1000048] = "Драконы Кошмара",
 	[-1000162] = "Общие Облики",
+	[-1000163] = "Уникальный Облик",
 	[-1000165] = "Комплекты T0.5",
 	[-1000166] = "Капитаны",
 	[-1000168] = "Четыре Всадника",
@@ -7705,6 +7718,7 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-1000033] = "Штучки, которые можно получить в награду с разного контента в родительской секции.\nОни собраны здесь, чтобы уменьшить количество источников, когда Штучка доступна из многих мест.",
 	[-1000040] = "Мастер оружия - это NPC, который предлагает персонажам возможность изучить определенные навыки обращения с оружием, доступность которых варьируется от одного мастера к другому. Все навыки обращения с оружием можно изучить на уровне 1, кроме древкового оружия, для которого требуется уровень 20.\n\nОбучение с мастером оружия стало устаревшим в патче 4.0.1, так как все соответствующие классу навыки владения оружием теперь изучаются каждым классом при создании. Вскоре после этого из игры были удалены мастера оружия.",
 	[-1000162] = "Предметы из данного списка - общие облики для предмета выше. Для Режима Уникальных Обликов, этот список может помочь Вам разобраться, почему определённый предмт отмечен как Получен или нет.",
+	[-1000163] = "Этот предмет имеет Уникальный Облик. Вы должны получить именно этот предмет для открытия Облика.",
 	[-1000273] = "В этом сезоне начальный максимальный уровень равен 25, а также новый финал для 25-го уровня, включающий рейд в Непроглядную Пучину для 10 игроков с новой механикой, новыми и переосмысленными боссами, которые бросят вызов тактике и стратегии игроков, а также свежими наградами.",
 	[-1000278] = "Гравировка рун — это новая система, недавно анонсированная в сезоне «Открытие». Это позволяет каждому классу адаптировать свой игровой процесс, открывая новые уникальные способности!",
 	[-1000279] = "Квестовые предметы Waylaid Supplies падают с мобов 6-го уровня и выше по всему Азероту. Эти квесты требуют доставки Запасных припасов представителю организации в обмен на немного серебра, опыта и репутации. Конечно, в поставке припасов отсутствуют предметы, и вы можете дополнить их, чтобы получить больше репутации.",
@@ -8904,6 +8918,7 @@ localize(L.HEADER_NAMES, {
 	[-1000034] = "전문 기수",
 	[-1000040] = "무기 전문가",
 	[-1000162] = "공유된 모습",
+	[-1000163] = "독특한 외관",
 	[-1000168] = "4인 기사단",
 	[-1000191] = "중위를 처치하세요",
 	[-1000192] = "전투에서 승리하세요",
@@ -8939,6 +8954,7 @@ localize(L.HEADER_NAMES, {
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000040] = "웨폰 마스터는 캐릭터에게 특정 무기 기술을 배울 수 있는 기회를 제공하는 NPC로, 사용 가능 여부는 웨폰 마스터마다 다릅니다. 모든 무기 기술은 레벨 20이 필요한 폴암을 제외하고 레벨 1에서 훈련할 수 있습니다.\n\n4.0.1 패치에서는 각 병과가 생성 시 모든 병과에 적합한 무기 숙련도를 배우게 되므로 무기 전문가와의 훈련은 더 이상 필요하지 않게 되었습니다. 무기 마스터는 곧 게임에서 제거되었습니다.",
 	[-1000162] = "이 목록의 항목은 위 항목의 공유 모양입니다. 고유 외형 모드에서 이 목록은 특정 항목이 수집됨으로 표시되는 이유와 이유를 이해하는 데 도움이 될 수 있습니다.",
+	[-1000163] = "이 아이템은 독특한 외형을 가지고 있습니다. 외형을 획득하려면 이 아이템을 특별히 수집해야 합니다.",
 	[-1000273] = "이번 시즌에는 새로운 메커니즘이 포함된 10인 Blackfathom Deeps 레이드, 플레이어 전술과 전략에 도전할 수 있는 새롭고 재구성된 보스, 새로운 보상을 포함하여 초기 레벨 상한이 25이고 새로운 레벨 25 최종 게임이 제공됩니다.",
 	[-1000278] = "룬 각인은 최근 발견의 시즌에 발표된 새로운 시스템입니다. 이를 통해 각 클래스는 새로운 고유 능력을 잠금 해제하여 게임 플레이 경험을 맞춤화할 수 있습니다!",
 	[-1000279] = "길레이드 보급품 퀘스트 아이템은 아제로스 전역의 6레벨 이상의 몹에게서 드롭됩니다. 이 퀘스트는 약간의 은화, 경험치, 평판을 대가로 조직 대표에게 Waylaid 보급품을 전달하도록 요청합니다. 물론, 보급품 배송에 누락된 품목이 있으며, 이를 보완하여 더 큰 평판 보상을 받을 수 있습니다.",
@@ -9978,6 +9994,7 @@ localize(L.HEADER_NAMES, {
 	[-1000034] = "Instructora de equitación",
 	[-1000040] = "Maestro armero",
 	[-1000162] = "Apariciones Compartidas",
+	[-1000163] = "Apariencia única",
 	[-1000168] = "Los Cuatro Jinetes",
 	[-1000191] = "Derrota a un Teniente",
 	[-1000192] = "Gana la Batalla",
@@ -10013,6 +10030,7 @@ localize(L.HEADER_NAMES, {
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000040] = "Un maestro de armas es un PNJ que ofrece a los personajes la oportunidad de aprender habilidades específicas con armas, cuya disponibilidad varía de un maestro de armas a otro. Todas las habilidades con armas se pueden entrenar en el nivel 1, excepto las armas de asta que requieren el nivel 20.\n\nEl entrenamiento con un maestro de armas quedó obsoleto en el parche 4.0.1, ya que cada clase ahora aprende todas las competencias de armas apropiadas para la clase en el momento de la creación. Los maestros de armas se eliminaron del juego poco después.",
 	[-1000162] = "Los elementos de esta lista son apariencias compartidas del elemento anterior. En el modo de apariencia única, esta lista puede ayudarlo a comprender por qué o no un elemento específico se marcaría como recopilado.",
+	[-1000163] = "Este artículo tiene una apariencia única. Debes recolectar este artículo específicamente para ganar la apariencia.",
 	[-1000273] = "Esta temporada trae un límite de nivel inicial de 25 y un nuevo final de nivel 25, que incluye una incursión de 10 jugadores en Blackfathom Deeps con nuevas mecánicas, jefes nuevos y reinventados para desafiar las tácticas y estrategias de los jugadores, y nuevas recompensas.",
 	[-1000278] = "El grabado es un nuevo sistema anunciado recientemente para Season of Discovery. ¡Permite que cada clase adapte su experiencia de juego desbloqueando nuevas habilidades únicas!",
 	[-1000279] = "Los objetos de misión de Suministros Waylaid caen de mobs de nivel 6 y, sobre todo, en Azeroth. Estas misiones requieren la entrega de suministros Waylaid a un representante de la organización a cambio de algo de plata, experiencia y reputación. Por supuesto, faltan elementos en el envío de suministros y puedes complementarlos para obtener mayores recompensas de reputación.",
@@ -11153,6 +11171,7 @@ localize(L.HEADER_NAMES, {
 	[-1000048] = "梦魇之龙",
 	[-1000142] = "荣誉头衔",
 	[-1000162] = "共享外观",
+	[-1000163] = "独特外观",
 	[-1000165] = "T0.5套装",
 	[-1000166] = "船长",
 	[-1000168] = "四骑士",
@@ -11209,6 +11228,7 @@ localize(L.HEADER_DESCRIPTIONS, {
 	[-1000033] = "包含有奖励或可从包含部分中的其他内容获得的事物。\n在此处合并以减少来自许多可能重复来源。",
 	[-1000040] = "武器大师是一个 NPC，为角色提供学习特定武器技能的机会，不同武器大师的可用性各不相同。所有武器技能都可以在 1 级进行训练，长柄武器除外，需要 20 级。\n\n在补丁 4.0.1 中，武器大师的训练已经过时，因为现在每个班级在创建时都会学习所有适合班级的武器熟练程度。不久之后，武器大师就被从游戏中删除了。",
 	[-1000162] = "此列表中的物品是以下物品的共享外观。在唯一外观模式下，此列表可帮助了解特定物品被标记为已收藏的原因。",
+	[-1000163] = "此列表中的物品是独特外观。你必须专门收藏这个物品以获得外观。",
 	[-1000273] = "本赛季带来了 25 级的初始等级上限和新的 25 级终局游戏，包括 10 名玩家的 Blackfathom Deeps 突袭，其中包含新的机制、新的和重新设计的 Boss 来挑战玩家的战术和策略，以及新鲜的奖励。",
 	[-1000278] = "铭刻是最近在发现季节宣布的一个新系统。它允许每个班级通过解锁新的独特能力来定制他们的游戏体验！",
 	[-1000279] = "伏击补给品任务物品从艾泽拉斯 6 级及以上的小怪中掉落。这些任务要求将路障补给品交付给组织代表，以换取一些银币、经验和声望。当然，补给中也有缺少的物品，你可以补充以获得更大的声望奖励。",
@@ -12182,16 +12202,24 @@ for key,value in pairs({
 })
 do achievementCategories[key].name = value; end
 if GetLocale():sub(3,4):lower() == "tw" then
+localize(_.CategoryNames, {
+	[233] = "背包",
+	[250] = "背包",
+});
 localize(L.HEADER_NAMES, {
 	[-1000010] = "首領共通掉落",
+	[-1000015] = "惡魔訓練師",
 	[-1000021] = "飛行路線",
 	[-1000025] = "節慶用品",
 	[-1000038] = "寶箱",
 	[-1000040] = "武器大師",
 	[-1000042] = "世界首領",
 	[-1000044] = "地區掉落",
+	[-1000048] = "夢魘之龍",
 	[-1000165] = "T0.5套裝",
+	[-1000173] = DUNGEON_FLOOR_DIREMAUL5.." (東)",
 	[-1000201] = "暗月馬戲團",
+	[-1000234] = "安其拉之戰捐獻",
 	[-1000273] = "探索賽季",
 	[-1000275] = "等級 1",
 	[-1000276] = "等級 2",
@@ -12203,10 +12231,17 @@ localize(L.HEADER_NAMES, {
 	[-1001058] = "夢魘林地",
 });
 localize(L.HEADER_DESCRIPTIONS, {
+	[-1000015] = "術士可以教導他們的惡魔新技能，一些高等級的魔典只能從你陣營首都的惡魔訓練師那裡購買。",
 	[-1000025] = "你可能需要在特定節日的活動中才能完成本節中的事物。",
 	[-1000040] = "武器大師是一个 NPC，為角色提供學習特定武器技能的機會，不同武器大師的可用性各不相同。所有武器技能都可以在 1 级進行訓練，長柄武器除外，需要 20 级。\n\n在更新 4.0.1 中，武器大師的訓練已经過時，因為现在每个職業在創建时都會學習所有適合該職業的武器熟練度。不久之後，武器大師就被從遊戲中删除了。",
+	[-1000173] = "副本的這部分可以從最東邊的傳送門進入。（右側）",
+	[-1000174] = "副本的這部分可以從最北邊的傳送門進入。",
+	[-1000175] = "副本的這部分可以從最西邊的傳送門進入。（左側）",
 	[-1000273] = "這個賽季起初將會有 25 級的上限，還會帶來全新的 25 級終局內容，包括帶有全新機制的 10 人玩家黑澗深淵副本、全新設計的首領來挑戰玩家的戰術實力，同時還會給予新獎勵。",
 	[-1000278] = "紋刻是最近在探索賽季實現的一個新系統，它允許每個職業通過解鎖新的獨特能力來自訂他們的遊戲體驗！",
+});
+localize(L.HEADER_LORE, {
+	[-1000048] = "這些龍中的一隻會在艾澤拉斯的相關座標隨機生成。",
 });
 localize(ObjectNames, {
 	[405633] = "石齶置物箱",
@@ -12217,6 +12252,13 @@ for key,value in pairs({
 	[3] = "暴雪點數",
 	[4] = "PvP 精良/角鬥士",
 	[5] = "不可學",
+	[1605] = "探索賽季",
+	[1606] = "第2階段",
+	[1607] = "第3階段",
+	[1608] = "第4階段",
+	[1609] = "第5階段",
+	[1610] = "第6階段",
+	[1611] = "第7階段",
 })
 do phases[key].name = value; end
 for key,value in pairs({
@@ -12226,12 +12268,12 @@ for key,value in pairs({
 	[4] = "|cFFFFAAAA除非您擁有所需的 PvP 稱號、所需的 PvP 等級或處於該賽季的前 %，否則無法再購買或解鎖塑形。|r",
 	[5] = "|cFFFFAAAA這不能永久收集、學習或用於塑形。|r",
 	[11] = "|cFFAAFFAA該功能直到 Phase 1 的 WoW Classic 才可用。|r",
-	[1606] = "|cFFAAFFAA該功能直到 Phase 2 的 Season of Discovery 才可用。|r",
-	[1607] = "|cFFAAFFAA該功能直到 Phase 3 的 Season of Discovery 才可用。|r",
-	[1608] = "|cFFAAFFAA該功能直到 Phase 4 的 Season of Discovery 才可用。|r",
-	[1609] = "|cFFAAFFAA該功能直到 Phase 5 的 Season of Discovery 才可用。|r",
-	[1610] = "|cFFAAFFAA該功能直到 Phase 6 的 Season of Discovery 才可用。|r",
-	[1611] = "|cFFAAFFAA該功能直到 Phase 7 的 Season of Discovery 才可用。|r",
+	[1606] = "|cFFAAFFAA該功能直到 第2階段 的 Season of Discovery 才可用。|r",
+	[1607] = "|cFFAAFFAA該功能直到 第3階段 的 Season of Discovery 才可用。|r",
+	[1608] = "|cFFAAFFAA該功能直到 第4階段 的 Season of Discovery 才可用。|r",
+	[1609] = "|cFFAAFFAA該功能直到 第5階段 的 Season of Discovery 才可用。|r",
+	[1610] = "|cFFAAFFAA該功能直到 第6階段 的 Season of Discovery 才可用。|r",
+	[1611] = "|cFFAAFFAA該功能直到 第7階段 的 Season of Discovery 才可用。|r",
 })
 do phases[key].description = value; end
 for key,value in pairs({

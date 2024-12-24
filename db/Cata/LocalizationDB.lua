@@ -20017,7 +20017,7 @@ localize(_.CategoryNames, {
 	[3] = "塔罗牌",
 });
 localize(L.HEADER_NAMES, {
-	[-1000010] = "一般首领掉落",
+	[-1000010] = "首领共同掉落",
 	[-1000013] = "常规商人物品",
 	[-1000017] = "掉落",
 	[-1000019] = "探索",
@@ -21731,15 +21731,37 @@ for key,value in pairs({
 })
 do phases[key].lore = value; end
 if GetLocale():sub(3,4):lower() == "tw" then
+localize(_.CategoryNames, {
+	[233] = "背包",
+	[250] = "背包",
+	[904] = "背包",
+	[916] = "背包",
+	[929] = "背包",
+	[974] = "背包",
+	[987] = "背包",
+	[1002] = "背包",
+});
 localize(L.HEADER_NAMES, {
+	[-1000010] = "首領共通掉落",
 	[-1000021] = "飛行路線",
 	[-1000025] = "節慶用品",
 	[-1000038] = "寶箱",
+	[-1000042] = "世界首領",
 	[-1000044] = "地區掉落",
+	[-1000048] = "夢魘之龍",
+	[-1000165] = "T0.5套裝",
+	[-1000173] = DUNGEON_FLOOR_DIREMAUL5.." (東)",
 	[-1000201] = "暗月馬戲團",
+	[-1000234] = "安其拉之戰捐獻",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000025] = "你可能需要在特定節日的活動中才能完成本節中的事物。",
+	[-1000173] = "副本的這部分可以從最東邊的傳送門進入。（右側）",
+	[-1000174] = "副本的這部分可以從最北邊的傳送門進入。",
+	[-1000175] = "副本的這部分可以從最西邊的傳送門進入。（左側）",
+});
+localize(L.HEADER_LORE, {
+	[-1000048] = "這些龍中的一隻會在艾澤拉斯的相關座標隨機生成。",
 });
 for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "糖果桶"; end
 for key,value in pairs({
@@ -21748,35 +21770,47 @@ for key,value in pairs({
 	[3] = "暴雪點數",
 	[4] = "PvP 精良/角鬥士",
 	[5] = "不可學",
+	[6] = "需要召喚物品",
+	[1604] = "大師賽季",
+	[17] = "第1階段",
+	[18] = "第2階段",
+	[19] = "第3階段",
+	[20] = "第4階段",
+	[21] = "第5階段",
+	[30] = "第1階段",
+	[31] = "第2階段",
+	[32] = "第3階段",
+	[33] = "第4階段",
+	[40] = "第1階段",
 })
 do phases[key].name = value; end
 for key,value in pairs({
 	[1] = "|cFFFF0000此項玩家永遠無法獲得。|r",
 	[2] = "|cFFFF0000此項已從遊戲中刪除。|r",
-	[3] = "|cFFAAFFAA這被鎖定在付費牆後面，例如遊戲内商店、另一個暴雪產品或招兵買馬召集令。|r",
+	[3] = "|cFFAAFFAA這被鎖定在付費牆後面，例如遊戲內商店、另一個暴雪產品或招兵買馬召集令。|r",
 	[4] = "|cFFFFAAAA除非您擁有所需的 PvP 稱號、所需的 PvP 等級或處於該賽季的前 %，否則無法再購買或解鎖塑形。|r",
 	[5] = "|cFFFFAAAA這不能永久收集、學習或用於塑形。|r",
-	[6] = "|cFFFFAAAA除非您認識可以使用用於召唤首領的物品的人，否則這將不再可用。|r",
+	[6] = "|cFFFFAAAA除非您認識可以使用用於召喚首領的物品的人，否則這將不再可用。|r",
 	[11] = "|cFFAAFFAA該功能直到 Phase 1 的 WoW Classic 才可用。|r",
 	[12] = "|cFFAAFFAA該功能直到 Phase 2 的 WoW Classic 才可用。|r",
 	[13] = "|cFFAAFFAA該功能直到 Phase 3 的 WoW Classic 才可用。|r",
 	[14] = "|cFFAAFFAA該功能直到 Phase 4 的 WoW Classic 才可用。|r",
 	[15] = "|cFFAAFFAA該功能直到 Phase 5 的 WoW Classic 才可用。|r",
 	[16] = "|cFFAAFFAA該功能直到 Phase 6 的 WoW Classic 才可用。|r",
-	[17] = "|cFFAAFFAA該功能直到 Phase 1 的 TBC Classic 才可用。|r",
-	[18] = "|cFFAAFFAA該功能直到 Phase 2 的 TBC Classic 才可用。|r",
-	[19] = "|cFFAAFFAA該功能直到 Phase 3 的 TBC Classic 才可用。|r",
-	[20] = "|cFFAAFFAA該功能直到 Phase 4 的 TBC Classic 才可用。|r",
-	[21] = "|cFFAAFFAA該功能直到 Phase 5 的 TBC Classic 才可用。|r",
-	[30] = "|cFFAAFFAA該功能直到 Phase 1 的 Wrath Classic 才可用。|r",
-	[31] = "|cFFAAFFAA該功能直到 Phase 2 的 Wrath Classic 才可用。|r",
-	[32] = "|cFFAAFFAA該功能直到 Phase 3 的 Wrath Classic 才可用。|r",
-	[33] = "|cFFAAFFAA該功能直到 Phase 4 的 Wrath Classic 才可用。|r",
-	[40] = "|cFFAAFFAA該功能直到 Phase 1 的 Cataclysm Classic 才可用。|r",
+	[17] = "|cFFAAFFAA該功能直到 第1階段 的 TBC Classic 才可用。|r",
+	[18] = "|cFFAAFFAA該功能直到 第2階段 的 TBC Classic 才可用。|r",
+	[19] = "|cFFAAFFAA該功能直到 第3階段 的 TBC Classic 才可用。|r",
+	[20] = "|cFFAAFFAA該功能直到 第4階段 的 TBC Classic 才可用。|r",
+	[21] = "|cFFAAFFAA該功能直到 第5階段 的 TBC Classic 才可用。|r",
+	[30] = "|cFFAAFFAA該功能直到 第1階段 的 Wrath Classic 才可用。|r",
+	[31] = "|cFFAAFFAA該功能直到 第2階段 的 Wrath Classic 才可用。|r",
+	[32] = "|cFFAAFFAA該功能直到 第3階段 的 Wrath Classic 才可用。|r",
+	[33] = "|cFFAAFFAA該功能直到 第4階段 的 Wrath Classic 才可用。|r",
+	[40] = "|cFFAAFFAA該功能直到 第1階段 的 Cataclysm Classic 才可用。|r",
 })
 do phases[key].description = value; end
 for key,value in pairs({
-	[6] = "|cFFFFAAAA注意：如果過去擁有大多數召唤物品，則可以通過與相應的 NPC 交談來重新獲得它們。|r",
+	[6] = "|cFFFFAAAA注意：如果過去擁有大多數召喚物品，則可以通過與相應的 NPC 交談來重新獲得它們。|r",
 })
 do phases[key].lore = value; end
 end
