@@ -10,6 +10,7 @@ WARPWOOD_QUARTER = createHeader({
 		ru = [[~DUNGEON_FLOOR_DIREMAUL5.." (Восток)"]],
 		cn = [[~DUNGEON_FLOOR_DIREMAUL5.." (东)"]],
 		tw = [[~DUNGEON_FLOOR_DIREMAUL5.." (東)"]],
+	},
 	description = {
 		en = "This part of the instance can be accessed from the eastern-most portal. (right side)",
 		tw = "副本的這部分可以從最東邊的傳送門進入。（右側）",

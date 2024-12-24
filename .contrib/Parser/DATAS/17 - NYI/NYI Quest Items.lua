@@ -142,7 +142,6 @@ root(ROOTS.NeverImplemented, filter(QUEST_ITEMS, {
 			i(180626),	-- Cypher of Melody
 			i(175012),	-- Dancing Cricket
 			i(171967),	-- Dark Cowl
-			i(177818),	-- Dark Mojo
 			i(174357),	-- Death Lotus Petal
 			i(172970),	-- Debris Searched
 			i(172967),	-- Deciphering Lens
@@ -150,7 +149,6 @@ root(ROOTS.NeverImplemented, filter(QUEST_ITEMS, {
 			i(175253),	-- Desiccating Formula
 			i(171990),	-- Dormant Maldracite
 			i(174492),	-- Dripping Fangs
-			i(174923),	-- Duskmire Elixir
 			i(177894),	-- Earthen Jar
 			i(181699),	-- Echthra's Notes
 			i(175411),	-- Effused Powder

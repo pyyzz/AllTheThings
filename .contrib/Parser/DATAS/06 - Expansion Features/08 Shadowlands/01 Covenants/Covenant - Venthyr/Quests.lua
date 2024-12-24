@@ -541,6 +541,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				},
 				["provider"] = { "n", 159694 },	-- The Countess
 				["coord"] = { 58.0, 27.5, REVENDRETH },
+				["g"] = { i(174923) },	-- Duskmire Elixir (QI!)
 			}),
 			q(57893, {	-- Neither Enemy nor Ally
 				["sourceQuests"] = { 57892 },	-- Enacting Immediate Justice

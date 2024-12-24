@@ -39,7 +39,6 @@ root(ROOTS.Unsorted, {
 			i(228641),	-- Delete Me
 			i(228645),	-- Delete Me
 			i(228649),	-- Delete Me
-			i(229811),	-- Frost-Etched Dagger
 			i(230207),	-- N.U.K.U.L.A.R. Target Painter
 			i(230211),	-- Singing Citrine
 			i(231751),	-- Earthen Backpack

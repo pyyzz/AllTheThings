@@ -821,6 +821,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 				["sourceQuests"] = { 59732 },	-- Something Extra for the Winter Queen
 				["provider"] = { "n", 165968 },	-- Hanzabu
 				["coord"] = { 39.5, 24.7, NAZMIR },
+				["g"] = { i(177818) },	-- Dark Mojo (QI!)
 			}),
 			q(59742, {	-- Delaying the Other Side
 				["sourceQuests"] = { 59732 },	-- Something Extra for the Winter Queen
