@@ -939,13 +939,10 @@ root(ROOTS.Unsorted, {
 				--- Ringing ---
 				i(224913),	-- Radiant Fuel Cache
 				--- Winter Veil ---
-				i(218309),	-- Gently Shaken Gift
 				i(219291),	-- Puntable Baby Greench
 				i(219286),	-- Puntable Globe Yeti
 				i(219255),	-- Puntable Rotten Little Helper
 				i(219289),	-- Puntable Tiny Snowman
-				i(218308),	-- Winter Veil Cracker
-				i(218311),	-- Winter Veil Gift
 			}),
 			n(PROFESSIONS, {
 				i(211494),	-- Spark of Beginnings

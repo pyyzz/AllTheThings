@@ -1346,7 +1346,6 @@ i(204405);	-- Stuffed Bear
 -- #endif
 i(212174);	-- The Warband Map to Everywhere All At Once
 --- NYI ---
-i(218310);	-- Box of Puntables
 i(224809);	-- Earthen Plumber's Pipe
 i(216887);	-- Unknown
 
@@ -1410,8 +1409,10 @@ i(232308);	-- Unknown
 -- PATCH 11.0.7 --
 ------------------
 i(235015);	-- Awakened Supply Crate
+i(218310);	-- Box of Puntables
 i(235017);	-- Glittering Vault Shard
 i(233486);	-- Hallowfall Supply Cache
 i(234473);	-- Soweezi's Comfy Lawn Chair
+i(218308);	-- Winter Veil Cracker
 --- NYI ---
 i(235016);	-- Redeployment Module
