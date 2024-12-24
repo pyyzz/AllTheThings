@@ -9,6 +9,7 @@ THE_AHNQIRAJ_WAR_EFFORT = createHeader({
 		fr = "Effort de guerre d’Ahn'Qiraj",
 		ru = "Война в Ан'Кираже",
 		cn = "安其拉之战捐献",
+		tw = "安其拉之戰捐獻",
 	},
 	description = {
 		-- #if AFTER TBC
