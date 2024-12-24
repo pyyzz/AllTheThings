@@ -7,8 +7,7 @@ BLIZZCON = createHeader({
 	eventID = 1181,
 	text = {
 		en = "BlizzCon",
-		cn = "暴雪嘉年华 (BlizzCon)",
-		tw = "暴雪嘉年華 (BlizzCon)",
+		cn = "暴雪嘉年华",
 	},
 });
 root(ROOTS.Promotions, n(BLIZZCON, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {
