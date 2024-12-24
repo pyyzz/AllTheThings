@@ -433,6 +433,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Bags",
 			ko = "가방",
+			tw = "背包",
 		},
 	},
 	[234] = {
@@ -543,6 +544,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Bags",
 			ko = "가방",
+			tw = "背包",
 		},
 	},
 	[251] = {
@@ -894,6 +896,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Bags",
 			ko = "가방",
+			tw = "背包",
 		},
 	},
 	[388] = {
@@ -3580,6 +3583,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Bags",
 			ko = "가방",
+			tw = "背包",
 		},
 	},
 	[891] = {
@@ -3689,6 +3693,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Bags",
 			ko = "가방",
+			tw = "背包",
 		},
 	},
 	[905] = {
@@ -3784,6 +3789,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Bags",
 			ko = "가방",
+			tw = "背包",
 		},
 	},
 	[917] = {
@@ -3885,6 +3891,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Bags",
 			ko = "가방",
+			tw = "背包",
 		},
 	},
 	[930] = {
@@ -3984,6 +3991,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Bags",
 			ko = "가방",
+			tw = "背包",
 		},
 	},
 	[944] = {
@@ -4054,6 +4062,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Bags",
 			ko = "가방",
+			tw = "背包",
 		},
 	},
 	[962] = {
@@ -4147,6 +4156,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Bags",
 			ko = "가방",
+			tw = "背包",
 		},
 	},
 	[975] = {
@@ -4246,6 +4256,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Bags",
 			ko = "가방",
+			tw = "背包",
 		},
 	},
 	[988] = {
@@ -4359,6 +4370,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Bags",
 			ko = "가방",
+			tw = "背包",
 		},
 	},
 	[1003] = {
@@ -6010,6 +6022,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Bags",
 			ko = "가방",
+			tw = "背包",
 		},
 	},
 })
