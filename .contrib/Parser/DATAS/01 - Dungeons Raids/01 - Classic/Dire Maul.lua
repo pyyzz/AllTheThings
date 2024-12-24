@@ -9,9 +9,10 @@ WARPWOOD_QUARTER = createHeader({
 		fr = [[~DUNGEON_FLOOR_DIREMAUL5.." (Est)"]],
 		ru = [[~DUNGEON_FLOOR_DIREMAUL5.." (Восток)"]],
 		cn = [[~DUNGEON_FLOOR_DIREMAUL5.." (东)"]],
-	},
+		tw = [[~DUNGEON_FLOOR_DIREMAUL5.." (東)"]],
 	description = {
 		en = "This part of the instance can be accessed from the eastern-most portal. (right side)",
+		tw = "副本的這部分可以從最東邊的傳送門進入。（右側）",
 	},
 });
 GORDOK_COMMONS = createHeader({
@@ -22,9 +23,11 @@ GORDOK_COMMONS = createHeader({
 		fr = [[~DUNGEON_FLOOR_DIREMAUL1.." (Nord)"]],
 		ru = [[~DUNGEON_FLOOR_DIREMAUL1.." (Север)"]],
 		cn = [[~DUNGEON_FLOOR_DIREMAUL1.." (北)"]],
+		tw = [[~DUNGEON_FLOOR_DIREMAUL1.." (北)"]],
 	},
 	description = {
 		en = "This part of the instance can be accessed from the northern-most portal.",
+		tw = "副本的這部分可以從最北邊的傳送門進入。",
 	},
 });
 CAPITAL_GARDENS = createHeader({
@@ -35,9 +38,11 @@ CAPITAL_GARDENS = createHeader({
 		fr = [[~DUNGEON_FLOOR_DIREMAUL2.." (Ouest)"]],
 		ru = [[~DUNGEON_FLOOR_DIREMAUL2.." (Запад)"]],
 		cn = [[~DUNGEON_FLOOR_DIREMAUL2.." (西)"]],
+		tw = [[~DUNGEON_FLOOR_DIREMAUL2.." (西)"]],
 	},
 	description = {
 		en = "This part of the instance can be accessed from the western-most portal. (left side)",
+		tw = "副本的這部分可以從最西邊的傳送門進入。（左側）",
 	},
 });
 local DIREMAUL_SUBMAP = function(mapID, headerID, t)
