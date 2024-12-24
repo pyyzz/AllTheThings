@@ -8,6 +8,7 @@ BLIZZCON = createHeader({
 	text = {
 		en = "BlizzCon",
 		cn = "暴雪嘉年华",
+		tw = "暴雪嘉年華",
 	},
 });
 root(ROOTS.Promotions, n(BLIZZCON, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {
