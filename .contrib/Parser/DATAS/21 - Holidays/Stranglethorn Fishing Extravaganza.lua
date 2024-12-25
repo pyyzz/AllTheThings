@@ -15,6 +15,7 @@ STRANGLETHORN_FISHING_EXTRAVAGANZA_HEADER = createHeader({
 		pt = "Festerê de Pesca da Selva do Espinhaço",
 		ru = "Рыбомания Тернистой долины",
 		cn = "荆棘谷钓鱼大赛",
+		tw = "荊棘谷釣魚大賽",
 	},
 });
 
