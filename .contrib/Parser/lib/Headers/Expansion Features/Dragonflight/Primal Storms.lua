@@ -50,10 +50,10 @@ SANDSTORMS = createHeader({
 });
 
 SNOWSTORMS = createHeader({
-	readable = "Snowstorm",
+	readable = "Snowstorms",
 	icon = 135783,
 	text = {
-		en = "Snowstorm",
+		en = "Snowstorms",
 		es = "Tormentas de nieve",
 		de = "Schneestürme",
 		fr = "Tempêtes de neige",
