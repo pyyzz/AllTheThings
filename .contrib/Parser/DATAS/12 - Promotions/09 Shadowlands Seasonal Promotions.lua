@@ -8,6 +8,7 @@ SHADOWLANDS_SEASONAL_PROMOTIONS = createHeader({
 		en = "Shadowlands Seasonal Promotions",
 		ru = "Промо Shadowlands",
 		cn = "暗影国度季节性促销",
+		tw = "《暗影之境》季節性促銷",
 	},
 	description = {
 		en = "These promotions happened during the time Shadowlands was the most recent content between 13th October 2020 & 25th October 2022.\n\nThey are listed in the order of their first appearance.",
