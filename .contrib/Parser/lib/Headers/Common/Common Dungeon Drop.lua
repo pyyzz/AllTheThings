@@ -10,6 +10,7 @@ COMMON_DUNGEON_DROP = createHeader({
 		en = "Common Dungeon Drop",
 		fr = "Objet commun de donjon",
 		ru = "Обычная добыча с боссов",
-		cn = "一般地下城掉落",
+		cn = "地下城共同掉落",
+		tw = "地城共通掉落",
 	},
 });
