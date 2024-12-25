@@ -9,13 +9,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					["repeatable"] = true,
 					["coord"] = { 45.5, 41.6, SIREN_ISLE },
 				}),
-				-- questID is wrong here, it's from a one time quest The Expedition Awaits
-				-- I only see 4 Shuddering Hollow quests on Wowhead + this has different coord
-				-- not sure what this is supposed to be
-				-- q(84719, {	-- Shuddering Hollow
-				-- 	["repeatable"] = true,
-				-- 	["coord"] = { 68.3, 42.1, SIREN_ISLE },
-				-- }),
 				q(85763, {	-- Shuddering Hollow
 					["repeatable"] = true,
 					["coord"] = { 45.5, 41.6, SIREN_ISLE },
