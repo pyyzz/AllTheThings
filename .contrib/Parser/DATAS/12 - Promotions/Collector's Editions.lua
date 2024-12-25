@@ -579,7 +579,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 			},
 		}),
 	})),
-	n(THE_WAR_WITHIN_TEMPORARY, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {
+	expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_7 } }, {
 		n(HEROIC_EDITION, {
 			["description"] = "These rewards were made available to anyone who purchased The War Within Heroic Edition.",
 			["g"] = {
@@ -873,7 +873,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 })));
 
 root(ROOTS.HiddenQuestTriggers, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY }, {
-	n(THE_WAR_WITHIN_TEMPORARY, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 } }, {
+	expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 } }, {
 		n(HEROIC_EDITION, {
 			q(81991),	-- 3 Ensembles tints tied to single HQT
 						-- Ensemble: Champion Stormrider's Attire
