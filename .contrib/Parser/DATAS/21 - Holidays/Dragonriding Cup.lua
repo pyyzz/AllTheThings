@@ -10,6 +10,7 @@ DRAGONRIDING_CUP_ROOT = createHeader({
 		en = "Dragonriding Cup",
 		ru = "Кубок полётов на драконе",
 		cn = "驭龙术杯赛",
+		tw = "飛龍騎術競速",
 	},
 });
 BROKEN_ISLES_CUP_HEADER = createHeader({
@@ -21,6 +22,7 @@ BROKEN_ISLES_CUP_HEADER = createHeader({
 		en = "Broken Isles Cup",
 		ru = "Кубок Расколотых островов",
 		cn = "破碎群岛杯",
+		tw = "破碎群島杯",
 	},
 });
 EASTERN_KINGDOMS_CUP_HEADER = createHeader({
@@ -33,6 +35,7 @@ EASTERN_KINGDOMS_CUP_HEADER = createHeader({
 		de = "Der Pokal der Östlichen Königreiche",
 		ru = "Кубок Восточных королевств",
 		cn = "东部王国杯",
+		tw = "東部王國杯",
 	},
 });
 KALIMDOR_CUP_HEADER = createHeader({
@@ -45,6 +48,7 @@ KALIMDOR_CUP_HEADER = createHeader({
 		de = "Kalimdorpokal",
 		ru = "Кубок Калимдора",
 		cn = "卡利姆多杯",
+		tw = "卡林多杯",
 	},
 });
 NORTHREND_CUP_HEADER = createHeader({
@@ -56,6 +60,7 @@ NORTHREND_CUP_HEADER = createHeader({
 		en = "Northrend Cup",
 		ru = "Кубок Нордскола",
 		cn = "诺森德杯",
+		tw = "北裂境杯",
 	},
 });
 OUTLAND_CUP_HEADER = createHeader({
@@ -67,6 +72,7 @@ OUTLAND_CUP_HEADER = createHeader({
 		en = "Outland Cup",
 		ru = "Кубок Запределья",
 		cn = "外域杯",
+		tw = "外域杯",
 	},
 });
 PANDARIA_CUP_HEADER = createHeader({
@@ -78,6 +84,7 @@ PANDARIA_CUP_HEADER = createHeader({
 		en = "Pandaria Cup",
 		ru = "Кубок Пандарии",
 		cn = "潘达利亚杯",
+		tw = "潘達利亞杯",
 	},
 });
 -- These actually don't require any DF content
