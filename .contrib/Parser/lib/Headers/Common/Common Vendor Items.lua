@@ -12,6 +12,7 @@ COMMON_VENDOR_ITEMS = createHeader({
 		en = "Common Vendor Items",
 		fr = "Objets communs des vendeurs",
 		ru = "Обычные предметы у Торговцев",
-		cn = "常规商人物品",
+		cn = "商人共同物品",
+		tw = "商人共通物品",
 	},
 });
