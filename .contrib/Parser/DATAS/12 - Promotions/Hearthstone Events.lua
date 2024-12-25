@@ -7,6 +7,7 @@ HEARTHSTONE = createHeader({
 	text = {
 		en = "Hearthstone",
 		cn = "炉石传说",
+		tw = "爐石戰記",
 	},
 	description = {
 		en = "Win 3 games in Hearthstone to qualify for these rewards.\n\nThe game is free, go get it!\n\nNOTE: You can thank IceQ1337 for this!",
@@ -24,6 +25,7 @@ HEARTHSTONE_MERCENARIES_MODE = createHeader({
 		pt = "Hearthstone Mercenários",
 		ru = "Hearthstone Наемники",
 		cn = "炉石传说佣兵战纪",
+		tw = "《爐石戰記》傭兵戰隊",
 	},
 	description = {
 		en = "Complete the Mercenaries Mode tutorial in Hearthstone and send your party on a mission in order to receive this reward.",
@@ -41,6 +43,7 @@ HEARTHSTONE_10TH_ANNIVERSARY = createHeader({
 		pt = "10º Aniversário de Hearthstone",
 		ru = "10-я годовщина Hearthstone",
 		cn = "《炉石传说》10周年",
+		tw = "《爐石戰記》10週年"
 	},
 });
 root(ROOTS.Promotions, {
