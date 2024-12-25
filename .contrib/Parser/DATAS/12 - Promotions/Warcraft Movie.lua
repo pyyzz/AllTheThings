@@ -7,9 +7,11 @@ WARCRAFT_MOVIE = createHeader({
 	text = {
 		en = "Warcraft Movie",
 		cn = "魔兽电影",
+		tw = "魔獸電影",
 	},
 	description = {
 		en = "These were rewarded for logging in at least once per faction while the Warcraft movie was still in theaters.",
+		tw = "這些是在《魔獸：崛起》電影仍在上映期間，每個陣營至少登入一次所獲得的獎勵。",
 	},
 });
 root(ROOTS.Promotions, n(WARCRAFT_MOVIE, bubbleDown({ ["u"] = REMOVED_FROM_GAME }, {
