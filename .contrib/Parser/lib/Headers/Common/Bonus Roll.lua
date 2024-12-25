@@ -12,5 +12,6 @@ BONUS_ROLL = createHeader({
 		ru = "Бонусный бросок",
 		ko = "보너스 롤",
 		cn = "额外奖励",
+		tw = "額外擲骰",
 	},
 });
