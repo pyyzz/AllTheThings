@@ -45,7 +45,6 @@ root(ROOTS.Unsorted, {
 			i(232597),	-- Swabbie's Oar
 			i(232629),	-- Distilled Knowledge of Timeways
 			i(232645),	-- Celestial Barrage
-			i(232653),	-- Portentous Present
 			i(232654),	-- Compiled Tattered Journal
 			i(232901),	-- Lunar Launcher
 			i(232909),	-- Sky Witch's Heartfelt Shoulder Cape
@@ -64,7 +63,6 @@ root(ROOTS.Unsorted, {
 			i(232934),	-- Ensemble: Twilight Witch's Heartfelt Shoulders
 			i(232946),	-- Verus
 			i(232988),	-- Void Tear
-			i(233013),	-- Coal Cookie
 			i(233019),	-- Sky Witch's Sweeper
 			i(233020),	-- Twilight Witch's Sweeper
 			i(233023),	-- [PH]
@@ -295,8 +293,6 @@ root(ROOTS.Unsorted, {
 			i(234059),	-- Lunar Festival Attire - Purple
 			i(234060),	-- Lunar Festival Attire - Teal
 			i(234074),	-- Gold-Plated Cushioned Boots
-			i(234126),	-- Icicle Cupcake
-			i(234127),	-- Puntable Grumpling
 			i(234313),	-- [DNT] Item
 			i(234396),	-- Teatuft Tamer
 			i(234397),	-- Fullbelly Rollingpaw
@@ -938,11 +934,6 @@ root(ROOTS.Unsorted, {
 				i(213420),	-- Fungarian Mushroom Cap
 				--- Ringing ---
 				i(224913),	-- Radiant Fuel Cache
-				--- Winter Veil ---
-				i(219291),	-- Puntable Baby Greench
-				i(219286),	-- Puntable Globe Yeti
-				i(219255),	-- Puntable Rotten Little Helper
-				i(219289),	-- Puntable Tiny Snowman
 			}),
 			n(PROFESSIONS, {
 				i(211494),	-- Spark of Beginnings

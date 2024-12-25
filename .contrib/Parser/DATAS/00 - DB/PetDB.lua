@@ -4276,6 +4276,7 @@ i(232531, 4691);	-- Grunch
 i(233252, 4435);	-- Happy
 i(233056, 4708);	-- Marmaduke
 i(0, 4695);			-- Parley
+i(232653, 4694);	-- Portentous Present
 i(232519, 4690);	-- Razeshi B.
 i(234395, 4727);	-- Skitterbite
 i(233247, 4692);	-- Sparklesnap
@@ -4293,7 +4294,6 @@ n(230394, 4628);	-- Tidal Kroling
 i(234397, 4729);	-- Fullbelly Rollingpaw
 i(232923, 4704);	-- Living Rose
 i(234905, 4730);	-- Mech-Friend Maya
-i(232653, 4694);	-- Portentous Present
 i(233057, 4709);	-- Rock Hound Mica
 i(234396, 4728);	-- Teatuft Tamer
 i(233366, 4719);	-- Wind-Up Woofer
