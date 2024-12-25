@@ -7,6 +7,7 @@ HEROES_OF_THE_STORM = createHeader({
 	text = {
 		en = "Heroes of the Storm",
 		cn = "风暴英雄",
+		tw = "暴雪英霸",
 	},
 });
 root(ROOTS.Promotions, n(HEROES_OF_THE_STORM, {
