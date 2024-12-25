@@ -15,9 +15,11 @@ WOW_ANNIVERSARY_ROOT = createHeader({
 		en = "WoW's Anniversary",
 		ru = "Годовщина WoW",
 		cn = "魔兽世界周年庆",
+		tw = "《魔獸世界》週年紀念",
 	},
 	description = {
 		en = "This is a yearly recurring event that occurs between the beginning of November and the end of the year.",
+		tw = "這是一個每年重複的活動，發生在十一月初到年底之間。",
 	},
 });
 WOW_ANNIVERSARY_FOUR = createHeader({
