@@ -4,5 +4,6 @@ GROUP_FINDER = createHeader({
 	text = {
 		en = "Group Finder",
 		cn = "团队查找器",
+		tw = "團隊搜尋器",
 	},
 });
