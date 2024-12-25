@@ -15,6 +15,7 @@ KALUAK_FISHING_DERBY_HEADER = createHeader({
 		pt = "Campeonato de Pesca dos Kalu'ak",
 		ru = "Калуакское рыбоборье",
 		cn = "卡鲁亚克钓鱼大赛",
+		tw = "卡魯耶克釣魚大賽",
 	},
 });
 root(ROOTS.Holidays, applyclassicphase(WRATH_PHASE_ONE, applyevent(EVENTS.KALUAK_FISHING_DERBY, n(KALUAK_FISHING_DERBY_HEADER, {
