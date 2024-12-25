@@ -69,5 +69,6 @@ TRIAL_OF_STYLE_HEADER = createHeader({
 		en = "Trial of Style",
 		ru = "Наденьте это немедлено",
 		cn = "时尚试炼",
+		tw = "時尚大考驗",
 	},
 });
