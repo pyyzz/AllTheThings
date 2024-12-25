@@ -9,7 +9,8 @@ PRIMAL_STORMS = createHeader({
 		it = "Tempeste Primordiali",
 		pt = "Tempestades Primevas",
 		ru = "Изначальные Бури",
+		ko = "원시 폭풍",
 		cn = "原始风暴",
-		--zh = "洪荒風暴",
+		tw = "洪荒風暴",
 	},
 });
