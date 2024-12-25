@@ -16,7 +16,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 		["g"] = {
 			-- Storm-type based Achievement headers
 			n(ACHIEVEMENTS, {
-				header(HEADERS.Spell, 368847, {	-- Firestorm
+				n(FIRESTORMS, {
 					ach(16487, {	-- Firestorms in Thaldraszus
 						["maps"] = { THALDRASZUS },
 					}),
@@ -30,7 +30,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						["maps"] = { THE_WAKING_SHORES },
 					}),
 				}),
-				header(HEADERS.Spell, 252264, {	-- Sandstorm
+				n(SANDSTORMS, {
 					ach(16486, {	-- Sandstorms in Thaldraszus
 						["maps"] = { THALDRASZUS },
 					}),
@@ -44,7 +44,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						["maps"] = { THE_WAKING_SHORES },
 					}),
 				}),
-				header(HEADERS.Spell, 373198, {	-- Snowstorm
+				n(SNOWSTORMS, {
 					ach(16488, {	-- Snowstorms in Thaldraszus
 						["maps"] = { THALDRASZUS },
 					}),
@@ -58,7 +58,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						["maps"] = { THE_WAKING_SHORES },
 					}),
 				}),
-				header(HEADERS.Spell, 77556, {	-- Thunderstorm
+				n(THUNDERSTORMS, {
 					ach(16485, {	-- Thunderstorms in Thaldraszus
 						["maps"] = { THALDRASZUS },
 					}),
@@ -303,7 +303,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					-- #ENDIF
 				},
 			},{
-				header(HEADERS.Spell, 368847, sharedData({	-- Firestorm
+				n(FIRESTORMS, sharedData({
 					["isDaily"] = true,
 				},{
 					n(COMMON_BOSS_DROPS, sharedData({
@@ -345,7 +345,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						},
 					}),
 				})),
-				header(HEADERS.Spell, 252264, sharedData({	-- Sandstorm
+				n(SANDSTORMS, sharedData({
 					["isDaily"] = true,
 				},{
 					n(COMMON_BOSS_DROPS, sharedData({
@@ -385,7 +385,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						},
 					}),
 				})),
-				header(HEADERS.Spell, 373198, sharedData({	-- Snowstorm
+				n(SNOWSTORMS, sharedData({
 					["isDaily"] = true,
 				},{
 					n(COMMON_BOSS_DROPS, sharedData({
@@ -437,7 +437,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						},
 					}),
 				})),
-				header(HEADERS.Spell, 77556, sharedData({	-- Thunderstorm
+				n(THUNDERSTORMS, sharedData({
 					["isDaily"] = true,
 				},{
 					n(COMMON_BOSS_DROPS, sharedData({
