@@ -9,6 +9,7 @@ DIABLO_EVENTS = createHeader({
 		en = "Diablo Events",
 		ru = "События Diablo",
 		cn = "暗黑破坏神活动",
+		tw = "暗黑破壞神活動",
 	},
 });
 DIABLO_TWENTIETH_ANNIVERSARY = createHeader({
@@ -20,6 +21,7 @@ DIABLO_TWENTIETH_ANNIVERSARY = createHeader({
 		fr = "20e anniversaire de Diablo",
 		ru = "20-ая годовщина Diablo",
 		cn = "暗黑破坏神20周年庆",
+		tw = "《暗黑破壞神》20週年慶",
 	},
 });
 A_GREEDY_EMISSARY = 1382;
@@ -38,6 +40,7 @@ GREEDY_EMISSARY_EVENT = createHeader({
 		ru = "Алчный посланец",
 		ko = "탐욕의 사절",
 		cn = "贪婪的特使",
+		tw = "貪婪使者",
 	},
 });
 root(ROOTS.Promotions, n(DIABLO_EVENTS, {
