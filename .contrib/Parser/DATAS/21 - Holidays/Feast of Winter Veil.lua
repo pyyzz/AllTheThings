@@ -16,6 +16,7 @@ FEAST_OF_WINTER_VEIL_HEADER = createHeader({
 	text = {
 		en = WOWAPI_GetSpellName(21953),
 		cn = "冬幕节", -- WOWAPI_GetSpellName(21953) == 冬幕大餐
+		tw = "冬幕節",
 	},
 });
 local HUGE_SNOWBALL = i(35557);	-- Huge Snowball
