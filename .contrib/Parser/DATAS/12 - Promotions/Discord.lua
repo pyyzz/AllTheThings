@@ -7,6 +7,7 @@ DISCORD_PROMOTION = createHeader({
 	text = {
 		en = "Discord Promotion",
 		cn = "Discord推广",
+		tw = "Discord推廣",
 	},
 	description = {
 		en = "Promotion for streaming World of Warcraft in Discord.",
