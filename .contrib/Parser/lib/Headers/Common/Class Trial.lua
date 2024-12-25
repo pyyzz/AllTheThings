@@ -15,5 +15,6 @@ CLASS_TRIAL = createHeader({
 		ru = "Испытание класса",
 		ko = "학급 재판",
 		cn = "职业试玩",
+		tw = "職業試玩",
 	},
 });
