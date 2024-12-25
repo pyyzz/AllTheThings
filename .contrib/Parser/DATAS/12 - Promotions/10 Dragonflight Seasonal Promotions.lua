@@ -8,6 +8,7 @@ DRAGONFLIGHT_SEASONAL_PROMOTIONS = createHeader({
 		en = "Dragonflight Seasonal Promotions",
 		ru = "Промо Dragonflight",
 		cn = "巨龙时代季节性促销",
+		tw = "《巨龍崛起》季節性促銷",
 	},
 	description = {
 		en = "These promotions happened during the time Dragonflight was the most recent expansion between 25th October 2022 & 24th July 2024.\n\nThey are listed in the order of their first appearance.",
