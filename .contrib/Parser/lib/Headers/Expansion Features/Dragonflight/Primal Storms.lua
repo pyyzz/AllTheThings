@@ -17,7 +17,7 @@ PRIMAL_STORMS = createHeader({
 
 FIRESTORMS = createHeader({
 	readable = "Firestorms",
-	icon = 4622459,
+	icon = 460952,
 	text = {
 		en = "Firestorms",
 		-- es = "Tormentas Primigenias",
@@ -34,7 +34,7 @@ FIRESTORMS = createHeader({
 
 SANDSTORMS = createHeader({
 	readable = "Sandstorms",
-	icon = 236846,
+	icon = 451165,
 	text = {
 		en = "Sandstorms",
 		-- es = "Tormentas Primigenias",
@@ -51,7 +51,7 @@ SANDSTORMS = createHeader({
 
 SNOWSTORMS = createHeader({
 	readable = "Snowstorm",
-	icon = 135833,
+	icon = 135783,
 	text = {
 		en = "Snowstorm",
 		-- es = "Tormentas Primigenias",
@@ -68,7 +68,7 @@ SNOWSTORMS = createHeader({
  
 THUNDERSTORMS = createHeader({
 	readable = "Thunderstorms",
-	icon = 237589,
+	icon = 132845,
 	text = {
 		en = "Thunderstorms",
 		-- es = "Tormentas Primigenias",
