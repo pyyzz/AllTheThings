@@ -245,23 +245,9 @@ local STOLEN_PRESENT_GROUPS = {
 	-- Misc:
 	i(46725),	-- Red Rider Air Rifle
 	i(219291, {	-- Puntable Baby Greench
-		["questID"] = 81619,
-		["timeline"] = { ADDED_11_0_7 },
-	}),
-	i(219286, {	-- Puntable Globe Yeti
-		["questID"] = 81617,
-		["timeline"] = { ADDED_11_0_7 },
-	}),
-	i(234127, {	-- Puntable Grumpling
-		["questID"] = 86423,
 		["timeline"] = { ADDED_11_0_7 },
 	}),
 	i(219255, {	-- Puntable Rotten Little Helper
-		["questID"] = 81616,
-		["timeline"] = { ADDED_11_0_7 },
-	}),
-	i(219289, {	-- Puntable Tiny Snowman
-		["questID"] = 81618,
 		["timeline"] = { ADDED_11_0_7 },
 	}),
 };
@@ -1407,21 +1393,9 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 				i(218308, {	-- Winter Veil Cracker (TOY!)
 					i(233013),	-- Coal Cookie
 					i(234126),	-- Icicle Cupcake
-					i(219291, {	-- Puntable Baby Greench
-						["questID"] = 81619,
-					}),
-					i(219286, {	-- Puntable Globe Yeti
-						["questID"] = 81617,
-					}),
-					i(234127, {	-- Puntable Grumpling
-						["questID"] = 86423,
-					}),
-					i(219255, {	-- Puntable Rotten Little Helper
-						["questID"] = 81616,
-					}),
-					i(219289, {	-- Puntable Tiny Snowman
-						["questID"] = 81618,
-					}),
+					i(219286),	-- Puntable Globe Yeti
+					i(234127),	-- Puntable Grumpling
+					i(219289),	-- Puntable Tiny Snowman
 				}),
 			},
 		})),

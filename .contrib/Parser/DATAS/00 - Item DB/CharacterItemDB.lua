@@ -693,3 +693,8 @@ iq(233499, 86385);	-- Royal Snapdragon Treat
 iq(233501, 86387);	-- Sandy Snapdragon Treat
 iq(233498, 86384);	-- Storminfused Snapdragon Treat
 iq(233493, 86373);	-- Teal Snapdragon Treat
+iq(219291, 81619);	-- Puntable Baby Greench
+iq(219286, 81617);	-- Puntable Globe Yeti
+iq(234127, 86423);	-- Puntable Grumpling
+iq(219255, 81616);	-- Puntable Rotten Little Helper
+iq(219289, 81618);	-- Puntable Tiny Snowman
