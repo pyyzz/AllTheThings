@@ -175,6 +175,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(26720, {	-- A Curse We Cannot Lift
 					["qg"] = 43730,	-- Oliver Harris
 					["sourceQuest"] = 26719,	-- Delivery to Master Harris
+					["description"] = "High-level players may require |cff0070ddSoft Foam Sword|r to lower creature health to 10%.",
 					["coord"] = { 18.3, 57.6, DUSKWOOD },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
@@ -2161,6 +2162,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				n(91592, {	-- Forlorn Composer
 					["description"] = "Travel to the northeast corner of Raven Hill Cemetery. Getting this music roll requires speaking to Forlorn Composer while you are dead. The easiest way to do this is to fly up very high and dismount (removing armor first will avoid repair charges).",
+					["coord"] = { 23.7, 36.3, DUSKWOOD },
 					["timeline"] = { ADDED_6_1_0 },
 					["groups"] = {
 						i(122223, {	-- Music Roll: Ghost
