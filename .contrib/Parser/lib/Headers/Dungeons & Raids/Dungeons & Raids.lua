@@ -2,8 +2,7 @@ DUNGEONS_AND_RAIDS = createHeader({
 	readable = "Dungeons & Raids",
 	icon = [[~_.asset("Category_D&R")]],
 	text = {
-		en = "Dungeons & Raids",
-		cn = "地下城和团队副本",
+		en = [[~GROUP_FINDER]],
 	},
 });
 DUNGEONS = createHeader({
@@ -12,8 +11,7 @@ DUNGEONS = createHeader({
 	minilist_ignore = true,
 	icon = [[~_.asset("Category_D&R")]],
 	text = {
-		en = "Dungeons",
-		cn = "地下城",
+		en = [[~DUNGEONS]],
 	},
 });
 RAIDS = createHeader({
@@ -22,7 +20,6 @@ RAIDS = createHeader({
 	minilist_ignore = true,
 	icon = [[~_.asset("Category_D&R")]],
 	text = {
-		en = "Raids",
-		cn = "团队副本",
+		en = [[~RAIDS]],
 	},
 });
