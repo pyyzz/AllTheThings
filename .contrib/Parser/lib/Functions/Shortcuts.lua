@@ -875,7 +875,7 @@ cl = function(id, specc, t)								-- Create a CHARACTER CLASS Object
 	end;
 	return struct("classID", id, t);
 end
-clWithoutLock = function(id, t)							-- Create a CHARACTER CLASS Object without a Classi Lock
+clWithoutLock = function(id, t)							-- Create a CHARACTER CLASS Object without a Class Lock
 	t = struct("headerID", id, t);
 	t.type = HEADERS.Class;
 	return t;
@@ -1354,6 +1354,11 @@ objective = questobjective;								-- Create a QUEST OBJECTIVE Object (alternati
 qo = questobjective;									-- Create a QUEST OBJECTIVE Object (alternative shortcut)
 race = function(id, t)									-- Create a RACE Object
 	return struct("raceID", id, t);
+end
+raceWithoutLock = function(id, t)							-- Create a CHARACTER RACE Object without a Race Lock
+	t = struct("headerID", id, t);
+	t.type = HEADERS.Race;
+	return t;
 end
 recipe = function(id, t)								-- Create a RECIPE Object
 	return struct("recipeID", id, t);

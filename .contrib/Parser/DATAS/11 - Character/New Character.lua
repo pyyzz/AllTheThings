@@ -333,6 +333,26 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 	})),
 	cl(HUNTER, {
 		n(ARMOR, {
+			i(232279, {	-- Creche-Scout's Bracers
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
+			i(232284, {	-- Creche-Scout's Chausses
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
+			i(232285, {	-- Creche-Scout's Gauntlets
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
+			i(232286, {	-- Creche-Scout's Greaves
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
+			i(232287, {	-- Creche-Scout's Vest
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
 			i(49569, {	-- Gilnean Trapper's Boots
 				--["races"] = { WORGEN },
 				["timeline"] = { ADDED_4_0_3 },
@@ -441,6 +461,10 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			}),
 		}),
 		n(WEAPONS, {
+			i(232277, {	-- Creche-Scout's Rifle
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
 			i(2508),	-- Old Blunderbuss
 			i(20982, {	-- Sharp Dagger
 				["timeline"] = { ADDED_2_0_1, REMOVED_9_0_1 }	-- TODO: I am not sure when this got removed.
@@ -477,8 +501,8 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 				["description"] = "New Mechagnome Hunters start with this weapon. The 4 remaining Mechagnome players gatekept this from us for far too long.",
 			}),
 			i(157650, {	-- Tracker's Spear
-				["description"] = "New Highmountain Tauren Hunters start with this weapon in your inventory via the Wrapped Spear.",					
-			}),	
+				["description"] = "New Highmountain Tauren Hunters start with this weapon in your inventory via the Wrapped Spear.",
+			}),
 		})),
 	}),
 	cl(MONK, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 }, }, {
@@ -488,6 +512,40 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 		i(157696),	-- Ascetic's Cord
 		i(157694),	-- Ascetic's Legguards
 		i(157691),	-- Ascetic's Footpads
+		-- #if AFTER 11.0.0
+		i(204268, {	-- Gilnean Trainee's Cord
+			--["races"] = { WORGEN },
+			["timeline"] = { ADDED_10_0_7 },
+		}),
+		i(204267, {	-- Gilnean Trainee's Leggings
+			--["races"] = { WORGEN },
+			["timeline"] = { ADDED_10_0_7 },
+		}),
+		i(204266, {	-- Gilnean Trainee's Vest
+			--["races"] = { WORGEN },
+			["timeline"] = { ADDED_10_0_7 },
+		}),
+		i(204269, {	-- Gilnean Trainee's Wristwraps
+			--["races"] = { WORGEN },
+			["timeline"] = { ADDED_10_0_7 },
+		}),
+		i(204259, {	-- Goblin Trainee's Cord
+			--["races"] = { GOBLIN },
+			["timeline"] = { ADDED_10_0_7 },
+		}),
+		i(204260, {	-- Goblin Trainee's Leggings
+			--["races"] = { GOBLIN },
+			["timeline"] = { ADDED_10_0_7 },
+		}),
+		i(204261, {	-- Goblin Trainee's Vest
+			--["races"] = { GOBLIN },
+			["timeline"] = { ADDED_10_0_7 },
+		}),
+		i(204258, {	-- Goblin Trainee's Wristwraps
+			--["races"] = { GOBLIN },
+			["timeline"] = { ADDED_10_0_7 },
+		}),
+		-- #endif
 		i(157625),	-- Mash Tun Mixer
 		i(157627, {	-- Sword of Searing Winds
 			["timeline"] = { REMOVED_9_0_1 },	-- this appears to have been replaced with the staff in SL prepatch
@@ -538,6 +596,26 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			i(20893, {	-- Apprentice's Robe
 				--["races"] = { BLOODELF },
 				["timeline"] = { ADDED_2_0_1, REMOVED_9_1_5 }
+			}),
+			i(232337, {	-- Creche-Magus's Bindings
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
+			i(232341, {	-- Creche-Magus's Gloves
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
+			i(232340, {	-- Creche-Magus's Pants
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
+			i(232339, {	-- Creche-Magus's Regalia
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
+			i(232342, {	-- Creche-Magus's Shoes
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
 			}),
 			i(49401, {	-- Gilnean Apprentice's Boots
 				--["races"] = { WORGEN },
@@ -653,6 +731,10 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 				["timeline"] = { ADDED_3_0_2 }
 			}),
 			i(35),	-- Bent Staff
+			i(232336, {	-- Creche-Magus's Staff
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
 			i(3661),	-- Handcrafted Staff
 		}),
 		n(ALLIED_RACES, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 }, }, {
@@ -856,6 +938,26 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 				--["races"] = { DRAENEI },
 				["timeline"] = { ADDED_2_0_1, REMOVED_9_1_5 }
 			}),
+			i(232330, {	-- Creche-Weaver's Bangle
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
+			i(232333, {	-- Creche-Weaver's Leggings
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
+			i(232334, {	-- Creche-Weaver's Mitts
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
+			i(232332, {	-- Creche-Weaver's Robe
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
+			i(232335, {	-- Creche-Weaver's Slippers
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
 			i(49406, {	-- Gilnean Neophyte's Boots
 				--["races"] = { WORGEN },
 				["timeline"] = { ADDED_4_0_3 }
@@ -994,6 +1096,10 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 				["timeline"] = { ADDED_3_0_2 }
 			}),
 			i(35),	-- Bent Staff
+			i(232329, {	-- Creche-Weaver's Spire
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
 			i(3661),	-- Handcrafted Staff
 			i(20981, {	-- Neophyte's Mace
 				["timeline"] = { ADDED_2_0_1, REMOVED_3_0_2 }
@@ -1013,6 +1119,26 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 	}),
 	cl(ROGUE, {
 		n(ARMOR, {
+			i(232292, {	-- Creche-Talon's Bindings
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
+			i(232325, {	-- Creche-Talon's Breeches
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
+			i(232326, {	-- Creche-Talon's Gloves
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
+			i(232328, {	-- Creche-Talon's Jerkin
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
+			i(232327, {	-- Creche-Talon's Kickers
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
 			i(48, {	-- Footpad's Pants
 				--["races"] = { HUMAN, DWARF, GNOME, NIGHTELF, UNDEAD },
 				["timeline"] = { REMOVED_9_1_5 }
@@ -1134,6 +1260,14 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			}),
 		}),
 		n(WEAPONS, {
+			i(232289, {	-- Creche-Talon's Baselard
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
+			i(232288, {	-- Creche-Talon's Poniard
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
 			i(20977, {	-- Recruit's Shortsword
 				["timeline"] = { ADDED_4_0_1, REMOVED_9_0_1 }	-- TODO: I am not sure when this got removed.
 			}),
@@ -1427,6 +1561,26 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 				--["races"] = { HUMAN, DWARF, GNOME, UNDEAD, BLOODELF },
 				["timeline"] = { REMOVED_9_1_5 },
 			}),
+			i(232032, {	-- Creche-Binder's Gloves
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
+			i(232034, {	-- Creche-Binder's Leggings
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
+			i(232036, {	-- Creche-Binder's Robe
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
+			i(232035, {	-- Creche-Binder's Soles
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
+			i(232037, {	-- Creche-Binder's Wrappings
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
 			i(49407, {	-- Gilnean Acolyte's Boots
 				--["races"] = { WORGEN },
 				["timeline"] = { ADDED_4_0_3 },
@@ -1481,6 +1635,10 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 				["timeline"] = { ADDED_3_0_2 },
 			}),
 			i(35),		-- Bent Staff
+			i(232038, {	-- Creche-Binder's Rod
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
 		}),
 		n(ALLIED_RACES, bubbleDownSelf({ ["timeline"] = { ADDED_7_3_5 }, }, {
 			i(157734),	-- Felburner's Robe
@@ -1507,6 +1665,22 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			i(58245, {	-- Brawler's Vest
 				--["races"] = { ORC, TROLL, TAUREN },
 				["timeline"] = { ADDED_4_0_3, REMOVED_9_1_5 },
+			}),
+			i(232276, {	-- Creche-Guard's Brestplate
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
+			i(232274, {	-- Creche-Guard's Gauntlets
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
+			i(232272, {	-- Creche-Guard's Legplates
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
+			i(232275, {	-- Creche-Guard's Sabatons
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
 			}),
 			i(49577, {	-- Gilnean Recruit's Belt
 				--["races"] = { WORGEN },
@@ -1614,6 +1788,10 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			}),
 		}),
 		n(WEAPONS, {
+			i(232264, {	-- Creche-Guard's Greataxe
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
 			i(12282, {	-- Worn Battleaxe
 				["timeline"] = { REMOVED_9_0_1 },	-- TODO: I am not sure when this got removed.
 			}),
@@ -1645,6 +1823,10 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			["description"] = "Former Starter Cloak for Female Goblins",
 			["timeline"] = { ADDED_4_0_3, REMOVED_7_0_3 },
 		}),
+		i(232351, {	-- Creche-Waker's Cloak
+			["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+			["timeline"] = { ADDED_11_0_5 },
+		}),
 	}),
 	-- #endif
 	-- #if AFTER 7.0.3
@@ -1662,6 +1844,18 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 		i(142504, {["timeline"] = {ADDED_7_1_0}}),	-- Hidden Tabard
 	}),
 	-- #endif
+	-- #if AFTER 11.0.5
+	filter(FINGER_F, {
+		i(232348, {	-- Creche-Waker's Loop
+			["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+			["timeline"] = { ADDED_11_0_5 },
+		}),
+		i(232349, {	-- Creche-Waker's Ring
+			["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+			["timeline"] = { ADDED_11_0_5 },
+		}),
+	}),
+	-- #endif
 	filter(ILLUSIONS, bubbleDownSelf({ ["timeline"] = { ADDED_5_0_4 }, }, {
 		ill(5387),	-- Agility (ILLUSION!)
 		ill(5861),	-- Beastslayer (ILLUSION!)
@@ -1671,6 +1865,14 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 		ill(5389),	-- Striking (ILLUSION!)
 		ill(5862),	-- Titanguard (ILLUSION!)
 	})),
+	-- #if AFTER 11.0.5
+	filter(NECK_F, {
+		i(232350, {	-- Creche-Waker's Amulet
+			["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+			["timeline"] = { ADDED_11_0_5 },
+		}),
+	}),
+	-- #endif
 	filter(SHIRTS, {
 		i(6125, {	-- Brawler's Harness
 			["description"] = "Former Starter Shirt for Orc, Troll, Tauren & Undead Warriors",
@@ -1751,6 +1953,18 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			["timeline"] = { ADDED_2_0_1, REMOVED_4_0_3 },
 		}),
 	}),
+	-- #if AFTER 11.0.5
+	filter(TRINKET_F, {
+		i(232346, {	-- Creche-Waker's Figurine
+			["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+			["timeline"] = { ADDED_11_0_5 },
+		}),
+		i(232347, {	-- Creche-Waker's Insignia
+			["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+			["timeline"] = { ADDED_11_0_5 },
+		}),
+	}),
+	-- #endif
 	n(WEAPONS, {	-- These were used and changed so many times on different classes, that I leave them here.
 		i(23346, {	-- Battleworn Claymore
 			["timeline"] = { ADDED_2_0_1, REMOVED_9_0_1 },	-- TODO: I am not sure when this got removed.
@@ -1779,6 +1993,8 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 		}),
 	}),
 	-- #if AFTER 10.0.7
+	-- #if BEFORE 11.0.0
+	-- Fixed with TWW - you can collect any armor with any class
 	filter(CLOTH, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_7 } }, {
 		["g"] = sharedData({
 			["sharedDescription"] = "This item is obtained by a newly created worgen monk, but because it's soulbound cloth item, you can't learn it.",
@@ -1801,6 +2017,7 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			i(204258),	-- Goblin Trainee's Wristwraps
 		}),
 	})),
+	-- #endif
 	-- #endif
 	i(6948),	-- Hearthstone
 }));

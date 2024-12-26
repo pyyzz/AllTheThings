@@ -24900,9 +24900,6 @@ i(113630),	-- Poison Barrel \\ on Barrel
 i(113635),	-- Venomshiv's Secret Formula \\ mshiv's Secret Formula
 i(113663),	-- Petrified Flesh-Eating Spore \\ ified Flesh-Eating Spore
 i(113681),	-- Iron Horde Scraps \\ Horde Scraps
-i(113725),	-- Molten Slagstone Ring \\ en Slagstone Ring
-i(113726),	-- Burning Slagstone Ring \\ ing Slagstone Ring
-i(113736),	-- Rumbling Mountain Choker \\ ling Mountain Choker
 i(113821),	-- Battered Iron Horde Helmet \\ ered Iron Horde Helmet
 i(113822),	-- Ravaged Iron Horde Belt \\ ged Iron Horde Belt
 i(113823),	-- Crusted Iron Horde Pauldrons \\ ted Iron Horde Pauldrons

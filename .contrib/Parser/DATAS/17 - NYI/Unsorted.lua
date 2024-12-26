@@ -733,62 +733,20 @@ root(ROOTS.Unsorted, {
 				i(225667),	-- Ambassador Flamelash's Trident
 			}),
 			race(DRACTHYR_HORDE, {	-- New Dracthyr Starting Gear
-				i(232032),	-- Creche-Binder's Gloves
 				i(232033),	-- Creche-Binder's Cord
-				i(232034),	-- Creche-Binder's Leggings
-				i(232035),	-- Creche-Binder's Soles
-				i(232036),	-- Creche-Binder's Robe
-				i(232037),	-- Creche-Binder's Wrappings
-				i(232038),	-- Creche-Binder's Rod
-				i(232264),	-- Creche-Guard's Greataxe
 				i(232265),	-- Creche-Guard's Chopper
 				i(232266),	-- Creche-Guard's Bulwark
 				i(232267),	-- Creche-Guard's Axe
 				i(232268),	-- Creche-Guard's Vambraces
 				i(232269),	-- Creche-Guard's Girdle
 				i(232270),	-- Creche-Guard's Pauldrons
-				i(232272),	-- Creche-Guard's Legplates
-				i(232274),	-- Creche-Guard's Gauntlets
-				i(232275),	-- Creche-Guard's Sabatons
-				i(232276),	-- Creche-Guard's Brestplate
-				i(232277),	-- Creche-Scout's Rifle
 				i(232278),	-- Creche-Scout's Longspear
-				i(232279),	-- Creche-Scout's Bracers
 				i(232282),	-- Creche-Scout's Belt
 				i(232283),	-- Creche-Scout's Spaulders
-				i(232284),	-- Creche-Scout's Chausses
-				i(232285),	-- Creche-Scout's Gauntlets
-				i(232286),	-- Creche-Scout's Greaves
-				i(232287),	-- Creche-Scout's Vest
-				i(232288),	-- Creche-Talon's Poniard
-				i(232289),	-- Creche-Talon's Baselard
 				i(232290),	-- Creche-Talon's Blade
-				i(232292),	-- Creche-Talon's Bindings
 				i(232293),	-- Creche-Talon's Clasp
-				i(232325),	-- Creche-Talon's Breeches
-				i(232326),	-- Creche-Talon's Gloves
-				i(232327),	-- Creche-Talon's Kickers
-				i(232328),	-- Creche-Talon's Jerkin
-				i(232329),	-- Creche-Weaver's Spire
-				i(232330),	-- Creche-Weaver's Bangle
 				i(232331),	-- Creche-Weaver's Sash
-				i(232332),	-- Creche-Weaver's Robe
-				i(232333),	-- Creche-Weaver's Leggings
-				i(232334),	-- Creche-Weaver's Mitts
-				i(232335),	-- Creche-Weaver's Slippers
-				i(232336),	-- Creche-Magus's Staff
-				i(232337),	-- Creche-Magus's Bindings
 				i(232338),	-- Creche-Magus's Cinch
-				i(232339),	-- Creche-Magus's Regalia
-				i(232340),	-- Creche-Magus's Pants
-				i(232341),	-- Creche-Magus's Gloves
-				i(232342),	-- Creche-Magus's Shoes
-				i(232346),	-- Creche-Waker's Figurine
-				i(232347),	-- Creche-Waker's Insignia
-				i(232348),	-- Creche-Waker's Loop
-				i(232349),	-- Creche-Waker's Ring
-				i(232350),	-- Creche-Waker's Amulet
-				i(232351),	-- Creche-Waker's Cloak
 			}),
 			n(WEAPONS, {
 				-- Starter Weps or Boost/Trial Weps

@@ -331,13 +331,16 @@ applyclassicphase(WRATH_PHASE_FOUR, root(ROOTS.GroupFinder, {
 			["description"] = "Rewarded for completing a random cata dungeon during leveling or completing a random cata timewalking dungeon.\nBag contents might be slightly off due to 7.3.5 adjustments and still running for confirmation.",
 			-- #endif
 			["groups"] = {
+				i(113725),	-- Molten Slagstone Ring
+				i(113726),	-- Burning Slagstone Ring
+				i(113727),	-- Smoldering Slagstone Ring	— Confirmed by milotic on GitHub on August 24, 2020
+				i(113736),	-- Rumbling Mountain Choker
 				i(113760),	-- Smoldercloth Bracers*
 				i(113759),	-- Smoldercloth Cap*
 				i(113763),	-- Smoldercloth Gloves*
 				i(113761),	-- Smoldercloth Leggings*
 				i(113762),	-- Smoldercloth Robe*
 				i(113786),	-- Smoldercloth Slippers*
-				i(113727),	-- Smoldering Slagstone Ring	— Confirmed by milotic on GitHub on August 24, 2020
 				i(113769),	-- Ravaged Leather Boots*		— 01/18/22
 				i(113705, {	-- Ravaged Leather Bracers*
 					["timeline"] = { REMOVED_7_3_5 },
