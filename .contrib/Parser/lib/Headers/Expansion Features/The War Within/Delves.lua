@@ -6,9 +6,6 @@ DELVES = createHeader({
 	export = true,
 	-- #endif
 	text = {
-		en = "Delves",
-		cn = "地下堡",
-		tw = "探究",
-		ru = "Вылазки",
+		en = [[~DELVES_LABEL]],
 	},
 });
