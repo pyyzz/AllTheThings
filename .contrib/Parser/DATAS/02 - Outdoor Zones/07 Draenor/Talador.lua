@@ -1058,7 +1058,7 @@ root(ROOTS.Zones, {
 						["provider"] = { "n", 78534 },	-- Ageilaa
 						-- #if AFTER 7.0.3
 						["description"] = "High-level players may require |cff0070ddSoft Foam Sword|r to lower creature health to 10%.",
-						-- endif
+						-- #endif
 						["crs"] = { 78390 }, -- Frenzied Manafeeder NPC
 						["coord"] = { 49.8, 56.1, TALADOR },
 					}),

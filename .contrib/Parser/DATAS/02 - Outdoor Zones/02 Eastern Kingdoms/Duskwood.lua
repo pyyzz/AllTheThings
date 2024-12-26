@@ -177,7 +177,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					["sourceQuest"] = 26719,	-- Delivery to Master Harris
 					-- #if AFTER 7.0.3
 					["description"] = "High-level players may require |cff0070ddSoft Foam Sword|r to lower creature health to 10%.",
-					-- endif
+					-- #endif
 					["coord"] = { 18.3, 57.6, DUSKWOOD },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
