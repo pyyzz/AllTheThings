@@ -1629,6 +1629,12 @@ end
 chinaUnavailable = function(t)
 	return regionUnavailable("CN", t);
 end
+twONLY = function(t)
+	return regionExclusive("TW", t);
+end
+twUnavailable = function(t)
+	return regionUnavailable("TW", t);
+end
 euONLY = function(t)
 	return regionExclusive("EU", t);
 end
