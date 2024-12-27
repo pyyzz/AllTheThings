@@ -585,16 +585,7 @@ root(ROOTS.Promotions, n(COLLECTORS_EDITION, bubbleDownSelf({ ["u"] = REAL_MONEY
 			["g"] = {
 				mount(417888),	-- Algarian Stormrider (MOUNT!)
 				ach(19027),	-- Heroic Edition: Algarian Stormrider
-				i(209336, {	-- Ensemble: Stormrider's Attire
-					i(209330),	-- Stormrider's Buckle
-					i(209321),	-- Stormrider's Boots
-					i(209320),	-- Stormrider's Breastplate
-					i(209331),	-- Stormrider's Cape
-					i(209329),	-- Stormrider's Epaulettes
-					i(209325),	-- Stormrider's Grips
-					i(209327),	-- Stormrider's Helmet
-					i(209328),	-- Stormrider's Pants
-					i(209332),	-- Stormrider's Wristguards
+				iensemble(209336, {	-- Ensemble: Stormrider's Attire
 				}),
 				n(DRAGONRIDING_RACING, {
 					n(ACHIEVEMENTS, {
