@@ -623,7 +623,6 @@ root(ROOTS.Unsorted, {
 				i(228782),	-- PH - Sandbox Wolf
 				i(228783),	-- PH - Sandbox Horse
 				i(228910),	-- Cache of Nerubian Treasures
-				i(229165),	-- Quest Journal
 				i(229414),	-- Moira Thaurissan's Hammer
 				i(230283),	-- Weird Egg
 			}),
@@ -737,7 +736,6 @@ root(ROOTS.Unsorted, {
 				i(232265),	-- Creche-Guard's Chopper
 				i(232266),	-- Creche-Guard's Bulwark
 				i(232267),	-- Creche-Guard's Axe
-				i(232268),	-- Creche-Guard's Vambraces
 				i(232269),	-- Creche-Guard's Girdle
 				i(232270),	-- Creche-Guard's Pauldrons
 				i(232278),	-- Creche-Scout's Longspear

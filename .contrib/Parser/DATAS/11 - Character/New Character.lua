@@ -1682,6 +1682,10 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
 				["timeline"] = { ADDED_11_0_5 },
 			}),
+			i(232268, {	-- Creche-Guard's Vambraces
+				--["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+				["timeline"] = { ADDED_11_0_5 },
+			}),
 			i(49577, {	-- Gilnean Recruit's Belt
 				--["races"] = { WORGEN },
 				["timeline"] = { ADDED_4_0_3 },
@@ -2019,16 +2023,49 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 	})),
 	-- #endif
 	-- #endif
+	n(QUESTS, bubbleDownSelf({
+		["races"] = { DRACTHYR_ALLIANCE, DRACTHYR_HORDE },
+		["classes"] = { HUNTER, MAGE, PRIEST, ROGUE, WARLOCK, WARRIOR },
+		["timeline"] = { ADDED_11_0_5 },
+	}, {
+		q(84423, {	-- Shaking the Dust Off
+			["provider"] = { "n", 229075 },	-- Scalecommander Emberthal
+			["coord"] = { 43.0, 89.4, THE_WAR_CRECHE },
+		}),
+		q(84424, {	-- Forward, to Adventure!
+			["sourceQuests"] = { 84423 },	-- Shaking the Dust Off
+			["provider"] = { "n", 229075 },	-- Scalecommander Emberthal
+			["coord"] = { 43.0, 89.4, THE_WAR_CRECHE },
+			["g"] = {
+				o(467064, {	-- Quest Journal
+					i(229165),	-- Quest Journal (QI!)
+				}),
+			},
+		}),
+		q(85026, {	-- Where Legends are Made
+			["sourceQuests"] = { 84424 },	-- Forward, to Adventure!
+			["provider"] = { "n", 167032 },	-- Chromie
+			["coords"] = {
+				{ 40.8, 80.1, ORGRIMMAR },
+				{ 56.2, 17.2, STORMWIND_CITY },
+			},
+		}),
+	})),
 	i(6948),	-- Hearthstone
 }));
-
-root(ROOTS.HiddenQuestTriggers, n(NEW_CHARACTER, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_7 } }, {
-	cl(EVOKER, {
-		q(74891),	-- Triggeres on the first use of 'Soar' spell after 10.0.7 to get the 'Aerial Halt' spell (spellID 403092)
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.DF, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_7 } }, {
+	n(NEW_CHARACTER, {
+		cl(EVOKER, {
+			q(74891),	-- Triggeres on the first use of 'Soar' spell after 10.0.7 to get the 'Aerial Halt' (spellID 403092)
+		}),
+		cl(WARLOCK, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_5 } }, {
+			q(76444),	-- After completion of 'When Revenge Burns Green' (questID 75544)
+			q(77285),	-- After completion of 'When Revenge Burns Green' (questID 75544)
+		})),
 	}),
 })));
-
-root(ROOTS.HiddenQuestTriggers, n(NEW_CHARACTER, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_5 } }, {
-	q(76444),	-- After completion of quest 75544 (When Revenge Burns Green)
-	q(77285),	-- After completion of quest 75544 (When Revenge Burns Green)
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
+	n(NEW_CHARACTER, {
+		q(85023),	-- When accepting 'Forward, to Adventure!' (questID 84424)
+	}),
 })));
