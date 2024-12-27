@@ -2177,7 +2177,7 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(45433),	-- First Win of the Day (3v3)
 		q(45434),	-- First Win of the Day (10v10)
 		q(49847),	-- Selected Pandaria at level 80 Special Duty Assignment" on horde
-		q(57668),	-- Triggering when using a portal to Orgrimmar as Horde/to Ironforge as Alliance after Dec 25th during the Feast of Winter Veil 2019/2021
+		q(57668),	-- Triggering when using a portal to Orgrimmar as Horde/to Ironforge as Alliance after Dec 25th during the Feast of Winter Veil 2019/2021/2024
 		--- (seems to trigger only the first time you go there that day). Possibly used to determine loot eligibility?
 		q(31990),	-- seems to be some account wide version of Audrey Burnhep quest, triggers on login
 
