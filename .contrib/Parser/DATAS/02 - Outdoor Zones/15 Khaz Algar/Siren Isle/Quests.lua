@@ -620,9 +620,9 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				-- Another unlock for vendor (snapdragon treats)
 				-- account wide, don't forget to add new one after figure out questIDs
 				q(86379),	-- Crimson Snapdragon Treat
-				--q(),	-- Inky Snapdragon Treat
+				--q(86375),	-- Inky Snapdragon Treat
 				q(86376),	-- Kaja'Cola-braised Snapdragon Treat
-				q(86734),	-- Muddy Snapdragon Treat
+				q(86374),	-- Muddy Snapdragon Treat
 				q(86378),	-- Royal Snapdragon Treat
 				q(86380),	-- Sandy Snapdragon Treat
 				q(86377),	-- Storminfused Snapdragon Treat

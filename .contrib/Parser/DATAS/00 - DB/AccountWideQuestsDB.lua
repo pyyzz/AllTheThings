@@ -1680,6 +1680,7 @@ ExportDB.AccountWideQuestsDB = {
 	[85718] = true,	-- A Shining Stone
 	[85757] = true,
 	[85811] = true,	-- Thrayir, Eyes of the Siren
+	[86374] = true,	-- Muddy Snapdragon Treat
 	[86376] = true,	-- Kaja'Cola-braised Snapdragon Treat
 	[86378] = true,	-- Royal Snapdragon Treat
 	[86379]	= true,	-- Crimson Snapdragon Treat
@@ -1689,6 +1690,5 @@ ExportDB.AccountWideQuestsDB = {
 	[86483] = true,	-- Snap To It
 	[86484] = true,	-- Temper Like A Tempest
 	[86485] = true,	-- A Loyal Friend
-	[86734] = true,	-- Muddy Snapdragon Treat
 	-- #ENDIF
 }

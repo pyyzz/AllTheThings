@@ -659,11 +659,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 					["sourceQuests"] = { 83502 },	-- Lessons in Defensive Magic
 					["provider"] = { "n", 226895 },	-- Archmage Aethas Sunreaver
 					["coord"] = { 29.7, 57.9, ISLE_OF_DORN },
-					--["g"] = {
-					--	this quest unlock flypoint
-					--	n: 227029 (Flying Carpet) @ 29.7, 58.3
-					--	FlightPath Tranquil Strand, Isle of Dorn # 2970
-					--},
 				}),
 				q(83553, {	-- Magic-stealing Kobolds
 					["sourceQuests"] = { 83539 },	-- Feeling Blue
