@@ -618,14 +618,16 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.TWW, bubbleDown({ ["timeline
 				-- Treasure
 				q(85714, {["isWeekly"]=true,}),	-- Solving puzzle to unlock Rune-Sealed Coffer
 				-- Another unlock for vendor (snapdragon treats)
-				-- account wide, don't forget to add new one after figure out questIDs
-				q(86379),	-- Crimson Snapdragon Treat
-				--q(86375),	-- Inky Snapdragon Treat
-				q(86376),	-- Kaja'Cola-braised Snapdragon Treat
-				q(86374),	-- Muddy Snapdragon Treat
-				q(86378),	-- Royal Snapdragon Treat
-				q(86380),	-- Sandy Snapdragon Treat
-				q(86377),	-- Storminfused Snapdragon Treat
+				-- ^ moved into CharacterItemDB instead
+				-- color changes questID (otherwise it will block 100% for zone)
+				q(86386),	-- Crimson Snapdragon Treat
+				--q(86382),	-- Inky Snapdragon Treat
+				q(86383),	-- Kaja'Cola-braised Snapdragon Treat
+				q(86381),	-- Muddy Snapdragon Treat
+				q(86385),	-- Royal Snapdragon Treat
+				q(86387),	-- Sandy Snapdragon Treat
+				q(86384),	-- Storminfused Snapdragon Treat
+				q(86373),	-- Teal Snapdragon Treat
 				--
 				--It went live:
 				--it seems like questID fire per item drop for slot now

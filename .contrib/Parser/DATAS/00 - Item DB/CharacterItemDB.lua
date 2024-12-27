@@ -685,14 +685,13 @@ iq(230265, 85225);	-- Bronze Celebration Titles: Zuldazar Enthusiast
 ------------------
 -- PATCH 11.0.7 --
 ------------------
---iq(233500, 86386);	-- Crimson Snapdragon Treat
---iq(233495, 86382);	-- Inky Snapdragon Treat
-iq(233497, 86383);	-- Kaja'Cola-braised Snapdragon Treat
-iq(233494, 86381);	-- Muddy Snapdragon Treat
-iq(233499, 86385);	-- Royal Snapdragon Treat
-iq(233501, 86387);	-- Sandy Snapdragon Treat
-iq(233498, 86384);	-- Storminfused Snapdragon Treat
-iq(233493, 86373);	-- Teal Snapdragon Treat
+iq(233500, 86379);	-- Crimson Snapdragon Treat
+--iq(233495, 86375);	-- Inky Snapdragon Treat
+iq(233497, 86376);	-- Kaja'Cola-braised Snapdragon Treat
+iq(233494, 86374);	-- Muddy Snapdragon Treat
+iq(233499, 86378);	-- Royal Snapdragon Treat
+iq(233501, 86380);	-- Sandy Snapdragon Treat
+iq(233498, 86377);	-- Storminfused Snapdragon Treat
 iq(219291, 81619);	-- Puntable Baby Greench
 iq(219286, 81617);	-- Puntable Globe Yeti
 iq(234127, 86423);	-- Puntable Grumpling
