@@ -827,7 +827,7 @@ namespace ATT
         private static bool DataConsolidation(IDictionary<string, object> data, IDictionary<string, object> parentData)
         {
             // eariler in the processing we may realize that data is not useful, and can mark it to be removed
-            if (data.ContainsKey("_remove"))
+            if (data.TryGetValue("_remove", out bool remove) && remove)
                 return false;
 
             Objects.PerformWipes(data);
@@ -1220,6 +1220,9 @@ namespace ATT
             {
                 data["_unsorted"] = true;
             }
+
+            // Don't remove parsed data that contribs have specifically added
+            data["_remove"] = false;
         }
 
         private static bool TryGetSOURCED(string field, object idObj, out List<IDictionary<string, object>> sources)
@@ -2144,8 +2147,11 @@ namespace ATT
                 // only mark the criteria to remove if there was no other data added from it
                 if (!Incorporate_ModifierTree(data, modifierTreeID) && matchedCriteriaInfo == null && !incorporated)
                 {
-                    LogDebug($"INFO: No good ModifierTree {modifierTreeID} data for hidden Criteria {achID}:{criteriaID}. It will be removed.");
-                    data["_remove"] = true;
+                    if (!data.ContainsKey("_remove"))
+                    {
+                        LogDebug($"INFO: No good ModifierTree {modifierTreeID} data for hidden Criteria {achID}:{criteriaID}. It will be removed.");
+                        data["_remove"] = true;
+                    }
                 }
                 // -> modifiertree -> parent[collection] -> type=4(creature target) -> Asset
             }
