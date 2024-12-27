@@ -113,7 +113,7 @@ root(ROOTS.Zones, m(ZANDALAR, bubbleDown({ ["timeline"] = { ADDED_8_0_1_LAUNCH }
 			}),
 			prof(MINING, {
 				n(122694, {	-- Secott the Goldsmith <Mining Trainer>
-					["coord"] = { 75.2, 7.6, DAZARALOR },
+					["coord"] = { 44.1, 39.0, DAZARALOR },
 					["races"] = HORDE_ONLY,
 					["g"] = appendGroups(BFA_MINING, {
 						r(265853),	-- Mining (Zandalari)

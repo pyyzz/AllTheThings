@@ -31,7 +31,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 					follower(887),	-- Transformed Illidari Adepts
 					follower(888),	-- Transformed Illidari Adepts
 					follower(889),	-- Transformed Illidari Adepts
-					
+
 					-- TODO: itemID 143849
 					follower(991),	-- Coilskar Brute
 				})),
@@ -297,7 +297,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						["lvl"] = 110,
 					}),
 					q(42801, {	-- Back in Black
-						["sourceQuests"] = { 42593 },	-- The Arcane Way
+						["sourceQuests"] = { 42594 },	-- Move Like No Other
 						["provider"] = { "n", 108782 },	-- Belath Dawnblade
 						["coord"] = { 57.5, 52.3, 720 },
 						["lvl"] = 103,
