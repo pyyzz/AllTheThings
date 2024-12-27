@@ -284,6 +284,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 		i(160587, {	-- Whomper (PET!)
 			["timeline"] = { ADDED_8_0_1_LAUNCH },
 		}),
+		--chinaONLY(i(xxxxx, {	-- Xiao Liu
+		--	["timeline"] = { ADDED_11_0_7 },
+		--})),
 	}),
 	filter(BATTLE_PETS, bubbleDown({ ["u"] = REMOVED_FROM_GAME, }, {	-- REMOVED --
 		pet(156, {	-- Bananas (PET!)

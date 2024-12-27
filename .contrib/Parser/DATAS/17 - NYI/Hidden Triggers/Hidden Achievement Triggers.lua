@@ -3647,7 +3647,6 @@ root(ROOTS.HiddenAchievementTriggers, {
 		expansion(EXPANSION.TWW, patch(0,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
 			-- 11.0.5.56487
 			ach(40886),	-- <Hidden> Is Dracthyr For Soar Wingman
-			ach(40910),	-- Successfully Stress Test CN Realms
 		})),
 
 		-- 11.0.7
