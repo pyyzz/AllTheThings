@@ -6,6 +6,7 @@ ZULAMAN_TIMED_EVENT = createHeader({
 		fr = "Événement chronométré",
 		ru = "Временное Событие",
 		cn = "限时事件",
+		tw = "限時事件",
 	},
 });
 ZULAMAN_CHEST_1 = createHeader({
