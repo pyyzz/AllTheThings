@@ -7,6 +7,7 @@ FAITHFUL_DOG = createHeader({
 	text = {
 		en = "Faithful Dog Secret",
 		cn = "忠诚的狗",
+		tw = "忠實的狗",
 	},
 });
 
