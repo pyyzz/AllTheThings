@@ -161,6 +161,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		icon = 134492,
 		text = {
 			en = "Card",
+			tw = "卡片",
 		},
 	},
 	[107] = {
@@ -1011,6 +1012,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		readable = "Card",
 		text = {
 			en = "Card",
+			tw = "卡片",
 		},
 	},
 	[413] = {
