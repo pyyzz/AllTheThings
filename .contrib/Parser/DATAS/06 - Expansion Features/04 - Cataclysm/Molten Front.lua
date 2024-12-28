@@ -68,24 +68,27 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 					},
 				}),
 				ach(5874, {	-- Death From Above  (Mount Hyjal - The Molten Front)
-					crit(17857, {	-- Ragepyre
-						["cr"] = 54252,	-- Ragepyre <Firelord>
-					}),
-					crit(17858, {	-- Blazefury
-						["cr"] = 54253,	-- Blazefury <Firelord>
-					}),
-					crit(17859, {	-- Flashfire
-						["cr"] = 54254,	-- Flashfire <Firelord>
-					}),
-					crit(17860, {	-- Hatespark
-						["cr"] = 54255,	-- Hatespark <Firelord>
-					}),
-					crit(17861, {	-- Heatflayer
-						["cr"] = 54256,	-- Heatflayer <Firelord>
-					}),
-					crit(17862, {	-- Singeslayer
-						["cr"] = 54257,	-- Singeslayer <Firelord>
-					}),
+					["description"] = "You must choose 'Into the Fire' as the second stage of assault on Molten Front, and progress to the quests for Fireplume Ridge. Sometimes you will get the quest 'Fire in the Skies', which allows for progression on this achievement. Each time three random firelords will be up.",
+					["groups"] = {
+						crit(17857, {	-- Ragepyre
+							["cr"] = 54252,	-- Ragepyre <Firelord>
+						}),
+						crit(17858, {	-- Blazefury
+							["cr"] = 54253,	-- Blazefury <Firelord>
+						}),
+						crit(17859, {	-- Flashfire
+							["cr"] = 54254,	-- Flashfire <Firelord>
+						}),
+						crit(17860, {	-- Hatespark
+							["cr"] = 54255,	-- Hatespark <Firelord>
+						}),
+						crit(17861, {	-- Heatflayer
+							["cr"] = 54256,	-- Heatflayer <Firelord>
+						}),
+						crit(17862, {	-- Singeslayer
+							["cr"] = 54257,	-- Singeslayer <Firelord>
+						}),
+					},
 				}),
 				ach(5870, {	-- Fireside Chat (Mount Hyjal)
 					crit(17878, {	-- Malfurion Stormrage
@@ -134,6 +137,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 					["maps"] = { MOUNT_HYJAL },
 				}),
 				ach(5865, {	-- Have... Have We Met?
+					["description"] = "Progress is made during the quest 'The Protectors of Hyjal', where 4 druid NPCs are assigned as your protectors in Sethria's Roost for the day. One of the generic druids are often replaced by a named NPC. Only Alliance players can get Tharassian as a guard, and Mankrik will only spawn for Horde players.",
 					["maps"] = { MOUNT_HYJAL },
 					["groups"] = {
 						crit(17806, {	-- Linken
@@ -216,6 +220,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 				ach(5873, {	-- Ready for Raiding II
 					["sourceQuest"] = 29243,	-- Strike at the Heart
 					["coord"] = { 50.8, 23.0, THE_MOLTEN_FRONT },
+					["description"] = "Requires unlocking the presence of the Ancients on the Molten Front.",
 					["groups"] = {
 						crit(17840, {	-- Ancient Charscale slain
 							["cr"] = 53055,	-- Ancient Charscale <Lieutenant of Flame>
@@ -328,6 +333,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 					},
 					["sourceAchievement"] = 5859,	-- Legacy of Leyara
 					["maps"] = { MOONGLADE },
+					["groups"] = {
+						i(69854, { -- Smoke-Stained Locket
+							["description"] = "This item will be mailed to you after completing the achievement Legacy of Leyara.",
+						}),
+					},
 				}),
 				q(29281, {	-- Additional Armaments
 					["qg"] = 53214,	-- Damek Bloombeard
@@ -863,6 +873,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 					["qg"] = 53233,	-- Anren Shadowseeker
 					["sourceQuest"] = 29181,	-- Druids of the Talon
 					["coord"] = { 51.8, 31.0, THE_MOLTEN_FRONT },
+					["description"] = "Anren Shadowseeker is found inside The Molten Flow, which requires you to pick 'Into the Fire' as the second stage of assault on the Molten Front.",
 					["groups"] = {
 						objective(1, {	-- Escort Anren to the front of the cave
 							["provider"] = { "n", 53234 },	-- Anren Shadowseeker
@@ -1705,6 +1716,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 			n(VENDORS, {
 				n(53881, {	-- Ayla Shadowstorm <Treasures of Elune>
 					["sourceQuest"] = 29279,	-- Filling the Moonwell
+					["coord"] = { 44.1, 86.35, THE_MOLTEN_FRONT },
 					["groups"] = {
 						i(70160),	-- Crimson Lasher (PET!)
 						i(70161),	-- Mushroom Chair (TOY!)
@@ -1728,6 +1740,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 				}),
 				n(53214, {	-- Damek Bloombeard <Exceptional Equipment>
 					["sourceQuest"] = 29281,	-- Additional Armaments
+					["coord"] = { 46.9, 90.0, THE_MOLTEN_FRONT },
 					["groups"] = {
 						i(70117),	-- Belt of Living Obsidium
 						i(70115),	-- Fiery Treads
@@ -1752,6 +1765,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 				}),
 				n(53882, {	-- Varlan Highbough <Provisions of the Grove>
 					["sourceQuest"] = 29283,	-- Calling the Ancients
+					["coord"] = { 44.45, 88.8, THE_MOLTEN_FRONT },
 					["groups"] = {
 						i(70140),	-- Hyjal Bear Cub (PET!)
 						i(70159),	-- Mylune's Call (TOY!)
