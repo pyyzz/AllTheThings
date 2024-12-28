@@ -5,7 +5,7 @@ GEAR_UPDATE = createHeader({
 	readable = "Gear Update",
 	icon = 1391675,
 	text = {
-		en = "Gear Update",
+		en = [[~RPE_GEAR_UPDATE]],
 	},
 });
 root(ROOTS.Character, n(GEAR_UPDATE, bubbleDownSelf({ ["timeline"] = { ADDED_10_1_5 } }, {
