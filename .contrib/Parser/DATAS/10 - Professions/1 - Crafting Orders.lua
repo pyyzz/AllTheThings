@@ -14,6 +14,7 @@ PATRON_REWARDS = createHeader({
 	text = {
 		en = "Patron Rewards",
 		cn = "客人订单奖励",
+		tw = "贊助人訂單獎勵?",
 	},
 });
 root(ROOTS.Professions, n(CRAFTING_ORDERS, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_2_LAUNCH } }, {
