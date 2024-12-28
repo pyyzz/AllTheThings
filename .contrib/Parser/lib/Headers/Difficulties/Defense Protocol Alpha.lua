@@ -11,5 +11,6 @@ DEFENSE_PROTOCOL_ALPHA = createHeader({
 		ru = "Защитный протокол \"Альфа\"",
 		ko = "방어 프로토콜 알파",
 		cn = "防御协议阿尔法",
+		tw = "防禦系統阿爾法",
 	},
 });

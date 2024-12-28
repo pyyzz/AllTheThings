@@ -11,5 +11,6 @@ DEFENSE_PROTOCOL_GAMMA = createHeader({
 		ru = "Защитный протокол \"Гамма\"",
 		ko = "방어 프로토콜 감마",
 		cn = "防御协议伽马",
+		tw = "防禦系統伽瑪",
 	},
 });
