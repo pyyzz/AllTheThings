@@ -23,6 +23,7 @@ PIRATES_DAY_HEADER = createHeader({
 		ru = "День пирата",
 		ko = "해적의 날",
 		cn = "海盗日",
+		tw = "海盜節",
 	},
 });
 root(ROOTS.Holidays, applyevent(EVENTS.PIRATES_DAY, n(PIRATES_DAY_HEADER, {
