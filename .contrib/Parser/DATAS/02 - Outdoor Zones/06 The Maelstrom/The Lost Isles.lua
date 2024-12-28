@@ -681,7 +681,7 @@ root(ROOTS.Zones, {
 
 -- #if AFTER 4.0.3
 -- These quests never made it in.
-root(ROOTS.NeverImplemented, {
+root(ROOTS.NeverImplemented, n(QUESTS, {
 	expansion(EXPANSION.CATA, {
 		q(24936, {	-- Body And Soul
 			i(52911),	-- Yngwie's Vest
@@ -689,5 +689,5 @@ root(ROOTS.NeverImplemented, {
 			i(52935),	-- Pygmy Cloak
 		}),
 	}),
-});
+}));
 -- #endif

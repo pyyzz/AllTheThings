@@ -819,12 +819,6 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 			i(223460, {	-- [PH] Nightsaber Horde Mount White (MOUNT!)
 				["displayID"] = 119658,
 			}),
-			i(223459, {	-- Blackrock Warsaber
-				["displayID"] = 119657,
-			}),
-			i(223471, {	-- Kaldorei War Wolf
-				["displayID"] = 119661,
-			}),
 			i(223284, {	-- Underlight Shorestalker (MOUNT!)
 				["displayID"] = 119506,
 			}),
