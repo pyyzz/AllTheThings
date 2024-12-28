@@ -10,6 +10,7 @@ SECRETS_OF_AZEROTH_HEADER = createHeader({
 		en = "Secrets of Azeroth",
 		ru = "Тайны Азерота",
 		cn = "艾泽拉斯之秘",
+		tw = "艾澤拉斯秘聞",
 	},
 });
 COMMUNITY_CLUES_HEADER = createHeader({
