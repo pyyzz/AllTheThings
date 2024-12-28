@@ -1681,7 +1681,7 @@ i(0, 444186);	-- Algari Treatise on Tailoring
 ------------------
 -- PATCH 11.0.7 --
 ------------------
-i(234231, 1213561);	-- Glyph of the Admiral's Pistol Shot
-i(234232, 1213583);	-- Glyph of the Ashvane Pistol Shot
-i(234229, 1213582);	-- Glyph of the Gilded Pistol Shot
-i(234230, 1213581);	-- Glyph of the Twilight Pistol Shot
+i(234231, 1213515);	-- Glyph of the Admiral's Pistol Shot
+i(234232, 1213517);	-- Glyph of the Ashvane Pistol Shot
+i(234229, 1213514);	-- Glyph of the Gilded Pistol Shot
+i(234230, 1213512);	-- Glyph of the Twilight Pistol Shot
