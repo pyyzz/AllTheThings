@@ -6,5 +6,6 @@ EAST = createHeader({
 		fr = "Est",
 		ru = "Восток",
 		cn = "东部",
+		tw = "東部",
 	},
 });
