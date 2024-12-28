@@ -1142,11 +1142,13 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				},
 			}),
 			--
-			n(BONUS_OBJECTIVES, {
+			n(BONUS_OBJECTIVES, sharedData({
+				["lockCriteria"] = { 1, "lvl", 80 },
+			},{
 				q(81670, {	-- Shattered Silk
 					["coord"] = { 72.8, 55.0, AZJ_KAHET },
 				}),
-			}),
+			})),
 		}),
 	}),
 })));

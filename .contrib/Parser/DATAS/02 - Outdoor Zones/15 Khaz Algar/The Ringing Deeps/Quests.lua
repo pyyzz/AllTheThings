@@ -1352,7 +1352,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["provider"] = { "n", 226255 },	-- Chive
 				["coord"] = { 58.3, 32.1, THE_RINGING_DEEPS },
 			}),
-			n(BONUS_OBJECTIVES, {
+			n(BONUS_OBJECTIVES, sharedData({
+				["lockCriteria"] = { 1, "lvl", 80 },
+			},{
 				q(82615, {	-- Reclaiming the Waterworks
 					["coord"] = { 44.7, 44.5, THE_RINGING_DEEPS },
 					["g"] = {
@@ -1370,7 +1372,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					["sourceQuestNumRequired"] = 1,
 					["coord"] = { 70.7, 39.8, THE_RINGING_DEEPS },
 				}),
-			}),
+			})),
 		}),
 	}),
 })));

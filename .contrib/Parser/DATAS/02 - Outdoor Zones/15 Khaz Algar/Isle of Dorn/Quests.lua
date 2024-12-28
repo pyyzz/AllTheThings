@@ -1241,7 +1241,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					i(227918),	-- Wanted Nerubian's Bands
 				},
 			}),
-			n(BONUS_OBJECTIVES, {
+			n(BONUS_OBJECTIVES, sharedData({
+				["lockCriteria"] = { 1, "lvl", 80 },
+			},{
 				q(78618, {	-- Fungal Frenzy
 					["coord"] = { 53.5, 66.4, ISLE_OF_DORN },
 				}),
@@ -1255,7 +1257,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				q(81614, {	-- One Fin, Two Fin, Pearlfin, Dead Fin
 					["coord"] = { 50.6, 79.5, ISLE_OF_DORN },
 				}),
-			}),
+			})),
 		}),
 	}),
 })));

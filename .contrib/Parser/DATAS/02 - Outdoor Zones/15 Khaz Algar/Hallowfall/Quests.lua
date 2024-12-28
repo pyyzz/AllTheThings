@@ -1223,7 +1223,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					{ 58.0, 40.2, HALLOWFALL },
 				},
 			}),
-			n(BONUS_OBJECTIVES, {
+			n(BONUS_OBJECTIVES, sharedData({
+				["lockCriteria"] = { 1, "lvl", 80 },
+			},{
 				q(81568, {	-- Release the Beasts
 					["sourceQuests"] = {
 						78672,	-- A Lamplighter's Duty
@@ -1235,7 +1237,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						i(217352),	-- Gasping Fish (QI!)
 					},
 				}),
-			}),
+			})),
 			------ Stay awhile and listen ------
 			hqt(81635, {	-- Stay awhile and listen: Nalina Ironsong
 				["name"] = "Stay awhile and listen: Nalina Ironsong",
