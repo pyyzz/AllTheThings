@@ -9,6 +9,6 @@ COMMON_BOSS_DROPS = createHeader({
 		de = "Gemeinsame Bossbeute",
 		ru = "Общая добыча с боссов",
 		cn = "首领共同掉落",
-		tw = "首領共通掉落"
+		tw = "首領共通掉落",
 	},
 });
