@@ -30,6 +30,7 @@ i(147349);	-- Spiked Armor Set
 i(169294);	-- Resilient Soul
 i(173888);	-- Shard of Self Sacrifice \\ Lingering Soul
 -- SL
+i(187499);	-- Sculpted Elethium Orb
 i(187603);	-- The Mad Duke's Tea
 i(189560);	-- Deflectialic Crystallic Spheroid
 i(189722);	-- Alacrialic Crystallic Spheroid
@@ -79,6 +80,12 @@ i(232377);	-- Pappy Thunderbrew's Cough Syrup
 i(232378);	-- Jenkins' No Nonsense Fried Chicken
 i(232380);	-- Brivelthwerp's Sassafras Float
 i(232385);	-- Elekk Ear
+i(234733);	-- Ancient Runic Hilt
+i(234736);	-- Tar-Sealed Scroll
+i(234751);	-- Pearl-Adorned Tailband
+i(234752);	-- Coral-Pocked Scrying Stone
+i(234753);	-- Cracked Divining Scepter
+i(234754);	-- Bloodied Siren Pendant
 
 -------------------------------------------------------------------- LOADING DOCK --------------------------------------------------------------------
 

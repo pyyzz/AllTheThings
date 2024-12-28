@@ -534,7 +534,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_0 } }, 
 		}),
 		header(HEADERS.Achievement, 41052, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {	-- Lingering Shadows
 			q(82690, {	-- Lingering Shadows
-				["sourceQuest"] = 83503,	-- Return to Dornogal
 				["provider"] = { "n", 227758 },	-- Alleria Windrunner
 				["coord"] = { 42.3, 26.8, DORNOGAL },
 			}),

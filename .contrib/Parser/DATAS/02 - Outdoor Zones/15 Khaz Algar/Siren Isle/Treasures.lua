@@ -9,6 +9,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 					o(474822, {	-- Runed Storm Cache (non storm id)
 						-- TBD if listing coords is viable or not, may be that these make for good iron farm
 						["coords"] = {
+							{ 30.9, 72.3, SIREN_ISLE },
 							{ 39.2, 44.1, SIREN_ISLE },
 							{ 42.3, 46.0, SIREN_ISLE },
 							{ 45.0, 62.6, SIREN_ISLE },

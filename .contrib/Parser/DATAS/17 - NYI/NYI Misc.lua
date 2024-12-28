@@ -831,7 +831,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(186715),	-- Research Report: Improved Alloys
 			i(187137),	-- Research Report: Relic Finding Techniques
 			i(186720),	-- Rift Gate Attenuator
-			i(187499),	-- Sculpted Elethium Orb
 			i(186197),	-- Seal of Death's Unity
 			i(186585),	-- Shard of Domination - Grim Harvester - Rank 1
 			i(186586),	-- Shard of Domination - Grim Harvester - Rank 2
