@@ -23,6 +23,7 @@ MIDSUMMER_FIRE_FESTIVAL_HEADER = createHeader({
 		ru = "Огненный Солнцеворот",
 		ko = "한여름 불꽃축제",
 		cn = "仲夏火焰节",
+		tw = "仲夏火焰節慶",
 	},
 });
 local ALLIANCE_BONFIRE_OBJECT_DATA = {
