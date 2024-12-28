@@ -23,6 +23,7 @@ DAY_OF_THE_DEAD_HEADER = createHeader({
 		pt = "Dia dos Mortos",
 		ru = "День мертвых",
 		cn = "悼念日",
+		tw = "亡者節",
 	},
 });
 local COSTUME_PROVIDERS = {
