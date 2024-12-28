@@ -5,8 +5,16 @@ HOLIDAYS = createHeader({
 	icon = [[~_.asset("Category_Holidays")]],
 	text = {
 		-- #if ANYCLASSIC
-		en = "Holiday",
-		tw = "節慶用品",
+		en = "Holidays",
+		es = "Festividades",
+		de = "Feiertage",
+		fr = "Évènements saisonniers",
+		it = "Festività",
+		pt = "Feriados",
+		ru = "Праздники",
+		ko = "축제",
+		cn = "节日",
+		tw = "節慶",
 		-- #else
 		en = [[~CALENDAR_FILTER_HOLIDAYS]],
 		-- #endif
