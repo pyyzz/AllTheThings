@@ -8,7 +8,7 @@ HOLIDAYS = createHeader({
 		en = "Holiday",
 		tw = "節慶用品",
 		-- #else
-		en = WOWAPI_GetItemSubClassInfo(15,3),
+		en = [[~CALENDAR_FILTER_HOLIDAYS]],
 		-- #endif
 	},
 	description = {
