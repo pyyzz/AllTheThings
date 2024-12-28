@@ -18,6 +18,7 @@ local function FirstCraft(questID, recipeID, added, removed)
 end
 local function FirstSkin(questID, creatureID, added, group)
 	local t = hqt(questID, name(HEADERS.NPC, creatureID))
+	t.isWeekly = true;
 	if added then
 		t.timeline = { added };
 	end

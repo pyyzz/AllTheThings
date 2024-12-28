@@ -546,6 +546,10 @@ root(ROOTS.Character, n(NEW_CHARACTER, {
 			["timeline"] = { ADDED_10_0_7 },
 		}),
 		-- #endif
+		i(3661, {	-- Handcrafted Staff
+			--["races"] = { WORGEN, GOBLIN },
+			["timeline"] = { ADDED_10_0_7 },
+		}),
 		i(157625),	-- Mash Tun Mixer
 		i(157627, {	-- Sword of Searing Winds
 			["timeline"] = { REMOVED_9_0_1 },	-- this appears to have been replaced with the staff in SL prepatch
