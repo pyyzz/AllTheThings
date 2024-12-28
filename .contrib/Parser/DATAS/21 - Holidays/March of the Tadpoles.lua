@@ -10,6 +10,7 @@ MARCH_OF_THE_TADPOLES_HEADER = createHeader({
 		en = "March of the Tadpoles",
 		ru = "Марш головастиков",
 		cn = "蝌蚪远足日",
+		tw = "蝌蚪歷險節",
 	},
 });
 root(ROOTS.Holidays, applyevent(EVENTS.MARCH_OF_THE_TADPOLES, n(MARCH_OF_THE_TADPOLES_HEADER, bubbleDownSelf({ ["timeline"] = { ADDED_7_1_5 } }, {
