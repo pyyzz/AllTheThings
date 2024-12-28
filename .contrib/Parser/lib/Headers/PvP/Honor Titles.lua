@@ -5,9 +5,10 @@ HONOR_TITLES = createHeader({
 	text = {
 		-- #if ANYCLASSIC
 		en = "Honor Titles",
+		cn = "荣誉头衔",
+		tw = "榮譽頭銜",
 		-- #else
 		en = [[~HONOR .. " " .. PAPERDOLL_SIDEBAR_TITLES]],
 		-- #endif
-		cn = "荣誉头衔",
 	},
 });
