@@ -381,7 +381,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 					crit(41084),	-- Demon Hunter
 					crit(41085),	-- Druid
 					crit(57850),	-- Hunter
-					crit(41086),	-- Mage
+					crit(41088),	-- Mage
 					crit(41087),	-- Monk
 					crit(41089),	-- Paladin
 					crit(41090),	-- Priest
