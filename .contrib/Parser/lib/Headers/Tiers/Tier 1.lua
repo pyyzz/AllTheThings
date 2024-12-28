@@ -4,5 +4,6 @@ TIER_ONE = createHeader({
 	text = {
 		en = [[~string.format(COVENANT_SANCTUM_TIER, 1)]],
 		cn = "T1套装",
+		tw = "T1套裝",
 	},
 });
