@@ -7,6 +7,7 @@ SCENARIO_COMPLETION = createHeader({
 		en = "Scenario Completion",
 		ru = "Награда сценария",
 		cn = "场景战役完成",
+		tw = "戰役完成",
 	},
 	description = {
 		en = "Contains Things which are rewarded that upon completing that scenario.",
