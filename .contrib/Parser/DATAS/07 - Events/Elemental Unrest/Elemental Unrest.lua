@@ -8,6 +8,7 @@ ELEMENTAL_UNREST = createHeader({
 		en = "Elemental Unrest",
 		ru = "Буйство элементалей",
 		cn = "元素动荡",
+		tw = "元素入侵",
 	},
 	description = {
 		en = "The Elemental Unrest was a world event that heralded the Cataclysm. The event culminated in elementals attacking Stormwind, Orgrimmar, Ironforge, and Thunder Bluff. Players defeating these elementals and freeing trapped citizens within their entire city were granted access to two special boss encounters.",
