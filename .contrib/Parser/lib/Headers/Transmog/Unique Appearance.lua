@@ -18,6 +18,7 @@ UNIQUE_APPEARANCE = createHeader({
 		ru = "Уникальный Облик",
 		ko = "독특한 외관",
 		cn = "独特外观",
+		tw = "獨特外觀",
 	},
 	description = {
 		en = "This item has a Unique Appearance. You must collect this item specifically to earn the appearance.",

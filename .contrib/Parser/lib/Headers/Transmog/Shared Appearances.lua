@@ -18,6 +18,7 @@ SHARED_APPEARANCES = createHeader({
 		ru = "Общие Облики",
 		ko = "공유된 모습",
 		cn = "共享外观",
+		tw = "共享外觀",
 	},
 	description = {
 		en = "The items in this list are shared appearances for the above item. In Unique Appearance Mode, this list can help you understand why or why not a specific item would be marked Collected.",
