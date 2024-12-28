@@ -5,8 +5,7 @@ CRAFTING_ORDERS = createHeader({
 	readable = "Crafting Orders",
 	icon = 4557373,
 	text = {
-		en = "Crafting Orders",
-		cn = "制造订单",
+		en = [[~MAILFRAME_CRAFTING_ORDERS_TOOLTIP_TITLE]],
 	},
 });
 PATRON_REWARDS = createHeader({
