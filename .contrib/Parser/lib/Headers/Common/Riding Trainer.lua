@@ -10,5 +10,6 @@ RIDING_TRAINER = createHeader({
 		ru = "Учитель верховой езды",
 		ko = "전문 기수",
 		cn = "骑术训练师",
+		tw = "騎術訓練師",
 	},
 });
