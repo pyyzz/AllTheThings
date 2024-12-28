@@ -4,9 +4,9 @@ DELVE_COMPLETION = createHeader({
 	icon = [[~_.asset("Interface_Rewards")]],
 	text = {
 		en = "Delve Completion",
+		ru = "Награда Вылазки",
 		cn = "地下堡完成",
 		tw = "探究完成",
-		ru = "Награда Вылазки",
 	},
 	description = {
 		en = "Contains things that are rewarded upon completing that event.",
