@@ -43,7 +43,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				},
 			}),
 			n(222378, {	-- Kereke
-				--seems like rare in this spot have rotation?
 				["coord"] = { 30.9, 52.3, ISLE_OF_DORN },
 				["questID"] = 82204,
 				["g"] = {
@@ -130,7 +129,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				},
 			}),
 			n(219284, {	-- Zovex
-				--seems like rare in this spot have rotation?
 				["coord"] = { 30.9, 52.3, ISLE_OF_DORN },
 				["questID"] = 82203,
 				["g"] = {
@@ -139,17 +137,11 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					i(226117),	-- Dalaran Guardian's Arcanotool
 				},
 			}),
-
-			-- Alpha/Beta
-			--n(220846, {	-- Rowdy Rubble
-			--	["coord"] = { 46.0, 32.2, ISLE_OF_DORN },
-			--	["questID"] = 81515,
-			--}),
 		})),
 		n(RARES, {
 			n(219281, {	-- Alunira
 				["coord"] = { 23.1, 58.5, ISLE_OF_DORN },
-				--["questID"] = x,
+				["questID"] = 85158,
 				["cost"] = {{"i", 224026, 1}},	-- 1x Storm Vessel
 				["g"] = {
 					i(223270),	-- Alunira (MOUNT!)
