@@ -11,5 +11,6 @@ ALLIED_RACES = createHeader({
 		ru = "Союзные расы",
 		ko = "동맹 종족",
 		cn = "同盟种族",
+		tw = "同盟種族",
 	},
 });
