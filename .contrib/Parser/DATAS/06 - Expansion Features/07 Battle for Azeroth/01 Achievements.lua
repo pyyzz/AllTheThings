@@ -380,7 +380,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.BFA, {
 					crit(41083),	-- Death Knight
 					crit(41084),	-- Demon Hunter
 					crit(41085),	-- Druid
-					crit(57850),	-- Hunter
+				-- #if AFTER DF
+					crit(57850),	-- Evokers
+				-- #endif
+					crit(41086),	-- Hunter
 					crit(41088),	-- Mage
 					crit(41087),	-- Monk
 					crit(41089),	-- Paladin
