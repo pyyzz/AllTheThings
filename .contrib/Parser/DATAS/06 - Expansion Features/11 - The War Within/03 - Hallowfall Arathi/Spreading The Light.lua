@@ -280,7 +280,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 							i(211975),	-- Arathi Toolkit (QI!)
 							i(211968),	-- Blueprint Bundle (QI!)
 							i(211971),	-- Fallow Corn (QI!)
-							i(211970),	-- Harvest Wine (QI!)
+							o(416969, {	-- Harvest Wine
+								i(211970),	-- Harvest Wine (QI!)
+							}),
 							i(211972),	-- Hallowfall Farm Supplies (QI!)
 							i(211967),	-- Large Sealed Crate (QI!)
 							i(211966),	-- Nerubian Sealed Crate (QI!)
@@ -303,7 +305,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						["coord"] = { 64.5, 31.1, HALLOWFALL },
 						["g"] = {
 							i(211478),	-- Darkroot Persimmon (QI!)
-							i(219808),	-- Ethereal Sugar (QI!)
+							o(414700, {	-- Ethereal Sugar
+								["coord"] = { 64.2, 28.1, HALLOWFALL },
+								["g"] = { i(219808), },	-- Ethereal Sugar (QI!)
+							}),
 							i(211479),	-- Frog-Kissed Caviar (QI!)
 						},
 					}),

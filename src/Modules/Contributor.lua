@@ -238,6 +238,7 @@ MobileDB.GameObject = {
 	[413246] = true,	-- Elemental Silt Mound
 	[414699] = true,	-- Darkroot Persimmon
 	[415296] = true,	-- Repair Kit
+	[416969] = true,	-- Harvest Wine
 	[416970] = true,	-- Hallowfall Farm Supplies
 	[416973] = true,	-- Arathi Toolbox
 	[419696] = true,	-- Waxy Lump
@@ -254,8 +255,6 @@ MobileDB.GameObject = {
 	[452696] = true,	-- Machine Speaker's Reliquary
 	[452706] = true,	-- Deep-Lost Satchel
 	[452972] = true,	-- Fallow Corn
-	[465208] = true,	-- Crystal Chunk
-	[478443] = true,	-- Mislaid Curiosity (delve object)
 	[457181] = true,	-- Interesting Notes @ 39, 51.3, 2369 / 67.3, 61.1, 2369 (q:83932)
 	[465208] = true,	-- Crystal Chunk (q:84430)
 	[473943] = true,	-- Salvageable Scrap (q:85051)
@@ -263,6 +262,7 @@ MobileDB.GameObject = {
 	[474033] = true,	-- Salvageable Scrap (q:85051)
 	[474084] = true,	-- Salvageable Scrap (q:85051)
 	[474086] = true,	-- Salvageable Scrap (q:85051)
+	[478443] = true,	-- Mislaid Curiosity (delve object)
 	[487825] = true,	-- Ruffled Pages (q:85589)
 	[494499] = true,	-- Seafarer's Cache
 	[499620] = true,	-- Runed Storm Cache @ 68.4, 73.8, 2369 (q:84726)
@@ -272,11 +272,11 @@ MobileDB.GameObject = {
 	[500684] = true,	-- Seafarer's Cache
 	[500685] = true,	-- Seafarer's Cache
 	[500686] = true,	-- Seafarer's Cache
-	[507870] = true,	-- Weathered Journal Page @ 71, 59.2, 2369 (q:85571)
 	[506640] = true,	-- Faded Journal Page @ 39.3, 54.2, 2369 (q:85571)
 	[507867] = true,	-- Soggy Journal Page @ 51.4, 75.8, 2369 (q:85571)
 	[507868] = true,	-- Stained Journal Page @ 55.8, 14.7, 2369 (q:85571)
 	[507869] = true,	-- Torn Journal Page @ 46.1, 47.1, 2369 (q:85571)
+	[507870] = true,	-- Weathered Journal Page @ 71, 59.2, 2369 (q:85571)
 }
 
 local ReturnEmptyFunctionMeta = { __index = function() return app.ReturnFalse end}
