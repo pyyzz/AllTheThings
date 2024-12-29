@@ -11977,101 +11977,103 @@ root(ROOTS.NeverImplemented, n(SETS, {
 					}),
 				})),
 			}),
-			n(PVP_ELITE, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 }, ["bonusID"] = 7532 }, {
-				cl(DEATHKNIGHT, {
-					-- TODO
-				}),
-				cl(DEMONHUNTER, {
-					-- TODO
-				}),
-				cl(DRUID, {
-					i(218534),	-- Forged Gladiator's Drape
-					i(218522),	-- Forged Gladiator's Leather Grips
-					i(218526),	-- Forged Gladiator's Leather Legwraps
-					i(218524),	-- Forged Gladiator's Leather Mask
-					i(218528),	-- Forged Gladiator's Leather Shoulderpads
-					i(218530),	-- Forged Gladiator's Leather Strap
-					i(218520),	-- Forged Gladiator's Leather Treads
-					i(218518),	-- Forged Gladiator's Leather Vestments
-					i(218532),	-- Forged Gladiator's Leather Wristguards
-					i(218535),	-- Forged Gladiator's Shawl
-				}),
-				cl(EVOKER, {
-					-- TODO
-				}),
-				cl(HUNTER, {
-					-- TODO
-				}),
-				cl(MAGE, {
-					i(218477),	-- Forged Gladiator's Drape
-					i(218478),	-- Forged Gladiator's Shawl
-					i(218471),	-- Forged Gladiator's Silk Amice
-					i(218475),	-- Forged Gladiator's Silk Armbands
-					i(218473),	-- Forged Gladiator's Silk Belt
-					i(218461),	-- Forged Gladiator's Silk Blouse
-					i(218467),	-- Forged Gladiator's Silk Cap
-					i(218465),	-- Forged Gladiator's Silk Handwraps
-					i(218463),	-- Forged Gladiator's Silk Treads
-					i(218469),	-- Forged Gladiator's Silk Trousers
-				}),
-				cl(MONK, {
-					i(218572),	-- Forged Gladiator's Drape
-					i(218560),	-- Forged Gladiator's Leather Grips
-					i(218556),	-- Forged Gladiator's Leather Jerkin
-					i(218564),	-- Forged Gladiator's Leather Legwraps
-					i(218562),	-- Forged Gladiator's Leather Mask
-					i(218566),	-- Forged Gladiator's Leather Shoulderpads
-					i(218568),	-- Forged Gladiator's Leather Strap
-					i(218558),	-- Forged Gladiator's Leather Treads
-					i(218570),	-- Forged Gladiator's Leather Wristguards
-					i(218573),	-- Forged Gladiator's Leather Shawl
-				}),
-				cl(PALADIN, {
-					i(218670),	-- Forged Gladiator's Chestplate
-					i(218686),	-- Forged Gladiator's Drape
-					i(218682),	-- Forged Gladiator's Plate Greatbelt
-					i(218674),	-- Forged Gladiator's Plate Handguards
-					i(218676),	-- Forged Gladiator's Plate Helmet
-					i(218680),	-- Forged Gladiator's Plate Pauldrons
-					i(218672),	-- Forged Gladiator's Plate Stompers
-					i(218678),	-- Forged Gladiator's Plate Tasses
-					i(218684),	-- Forged Gladiator's Plate Vambraces
-					i(218687),	-- Forged Gladiator's Shawl
-				}),
-				cl(PRIEST, {
-					-- TODO
-				}),
-				cl(ROGUE, {
-					-- TODO
-				}),
-				cl(SHAMAN, {
-					i(218634),	-- Forged Gladiator's Chain Boots
-					i(218646),	-- Forged Gladiator's Chain Bracers
-					i(218640),	-- Forged Gladiator's Chain Breeches
-					i(218638),	-- Forged Gladiator's Chain Faceguard
-					i(218644),	-- Forged Gladiator's Chain Girdle
-					i(218636),	-- Forged Gladiator's Chain Handguards
-					i(218642),	-- Forged Gladiator's Chain Shoulderguard
-					i(218632),	-- Forged Gladiator's Chain Tunic
-					i(218648),	-- Forged Gladiator's Drape
-					i(218649),	-- Forged Gladiator's Shawl
-				}),
-				cl(WARLOCK, {
-					i(218515),	-- Forged Gladiator's Drape
-					i(218516),	-- Forged Gladiator's Shawl
-					i(218509),	-- Forged Gladiator's Silk Amice
-					i(218513),	-- Forged Gladiator's Silk Armbands
-					i(218511),	-- Forged Gladiator's Silk Belt
-					i(218505),	-- Forged Gladiator's Silk Guise
-					i(218503),	-- Forged Gladiator's Silk Handwraps
-					i(218501),	-- Forged Gladiator's Silk Treads
-					i(218507),	-- Forged Gladiator's Silk Trousers
-					i(218499),	-- Forged Gladiator's Silk Vestments
-				}),
-				cl(WARRIOR, {
-					-- TODO
-				}),
-			})),
+			n(SEASON_FORGED, {
+				n(PVP_ELITE, bubbleDownSelf({ ["bonusID"] = 7532 }, {
+					cl(DEATHKNIGHT, {
+						-- TODO
+					}),
+					cl(DEMONHUNTER, {
+						-- TODO
+					}),
+					cl(DRUID, {
+						i(218534),	-- Forged Gladiator's Drape
+						i(218522),	-- Forged Gladiator's Leather Grips
+						i(218526),	-- Forged Gladiator's Leather Legwraps
+						i(218524),	-- Forged Gladiator's Leather Mask
+						i(218528),	-- Forged Gladiator's Leather Shoulderpads
+						i(218530),	-- Forged Gladiator's Leather Strap
+						i(218520),	-- Forged Gladiator's Leather Treads
+						i(218518),	-- Forged Gladiator's Leather Vestments
+						i(218532),	-- Forged Gladiator's Leather Wristguards
+						i(218535),	-- Forged Gladiator's Shawl
+					}),
+					cl(EVOKER, {
+						-- TODO
+					}),
+					cl(HUNTER, {
+						-- TODO
+					}),
+					cl(MAGE, {
+						i(218477),	-- Forged Gladiator's Drape
+						i(218478),	-- Forged Gladiator's Shawl
+						i(218471),	-- Forged Gladiator's Silk Amice
+						i(218475),	-- Forged Gladiator's Silk Armbands
+						i(218473),	-- Forged Gladiator's Silk Belt
+						i(218461),	-- Forged Gladiator's Silk Blouse
+						i(218467),	-- Forged Gladiator's Silk Cap
+						i(218465),	-- Forged Gladiator's Silk Handwraps
+						i(218463),	-- Forged Gladiator's Silk Treads
+						i(218469),	-- Forged Gladiator's Silk Trousers
+					}),
+					cl(MONK, {
+						i(218572),	-- Forged Gladiator's Drape
+						i(218560),	-- Forged Gladiator's Leather Grips
+						i(218556),	-- Forged Gladiator's Leather Jerkin
+						i(218564),	-- Forged Gladiator's Leather Legwraps
+						i(218562),	-- Forged Gladiator's Leather Mask
+						i(218566),	-- Forged Gladiator's Leather Shoulderpads
+						i(218568),	-- Forged Gladiator's Leather Strap
+						i(218558),	-- Forged Gladiator's Leather Treads
+						i(218570),	-- Forged Gladiator's Leather Wristguards
+						i(218573),	-- Forged Gladiator's Leather Shawl
+					}),
+					cl(PALADIN, {
+						i(218670),	-- Forged Gladiator's Chestplate
+						i(218686),	-- Forged Gladiator's Drape
+						i(218682),	-- Forged Gladiator's Plate Greatbelt
+						i(218674),	-- Forged Gladiator's Plate Handguards
+						i(218676),	-- Forged Gladiator's Plate Helmet
+						i(218680),	-- Forged Gladiator's Plate Pauldrons
+						i(218672),	-- Forged Gladiator's Plate Stompers
+						i(218678),	-- Forged Gladiator's Plate Tasses
+						i(218684),	-- Forged Gladiator's Plate Vambraces
+						i(218687),	-- Forged Gladiator's Shawl
+					}),
+					cl(PRIEST, {
+						-- TODO
+					}),
+					cl(ROGUE, {
+						-- TODO
+					}),
+					cl(SHAMAN, {
+						i(218634),	-- Forged Gladiator's Chain Boots
+						i(218646),	-- Forged Gladiator's Chain Bracers
+						i(218640),	-- Forged Gladiator's Chain Breeches
+						i(218638),	-- Forged Gladiator's Chain Faceguard
+						i(218644),	-- Forged Gladiator's Chain Girdle
+						i(218636),	-- Forged Gladiator's Chain Handguards
+						i(218642),	-- Forged Gladiator's Chain Shoulderguard
+						i(218632),	-- Forged Gladiator's Chain Tunic
+						i(218648),	-- Forged Gladiator's Drape
+						i(218649),	-- Forged Gladiator's Shawl
+					}),
+					cl(WARLOCK, {
+						i(218515),	-- Forged Gladiator's Drape
+						i(218516),	-- Forged Gladiator's Shawl
+						i(218509),	-- Forged Gladiator's Silk Amice
+						i(218513),	-- Forged Gladiator's Silk Armbands
+						i(218511),	-- Forged Gladiator's Silk Belt
+						i(218505),	-- Forged Gladiator's Silk Guise
+						i(218503),	-- Forged Gladiator's Silk Handwraps
+						i(218501),	-- Forged Gladiator's Silk Treads
+						i(218507),	-- Forged Gladiator's Silk Trousers
+						i(218499),	-- Forged Gladiator's Silk Vestments
+					}),
+					cl(WARRIOR, {
+						-- TODO
+					}),
+				})),
+			}),
 		})),
 	}),
 }));
