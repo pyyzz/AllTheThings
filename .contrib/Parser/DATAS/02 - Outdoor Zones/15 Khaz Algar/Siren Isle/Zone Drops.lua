@@ -11,13 +11,15 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["description"] = "Can be looted from vrykuls",
 				-- n: 232324 / n: 232323
 			}),
-			i(234816),	-- Overflowing Bag of Iron
+			i(234816, {	-- Overflowing Bag of Iron
+				["description"] = "Contains around 550 Currency.",
+			}),
 			i(233499, {	-- Royal Snapdragon Treat
 				["description"] = "Can be looted from nagas",
 				-- n: 229851 (debugger)
 			}),
 			i(234232, {	-- Technique: Glyph of the Ashvane Pistol Shot
-				["description"] = "Can belooted from pirates",
+				["description"] = "Can be looted from pirates",
 			}),
 			n(228582, {	-- First Mate Shellshock
 				i(228621),	-- Bilge Rat Supply Key
