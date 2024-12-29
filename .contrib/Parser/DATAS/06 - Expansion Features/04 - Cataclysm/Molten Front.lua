@@ -1620,6 +1620,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 					["sourceQuest"] = 29147,	-- Call the Flock
 					["coord"] = { 27.1, 62.5, MOUNT_HYJAL },
 					["isDaily"] = true,
+					["description"] = "You have to quit your bird vehicle before you can use the Quill of the Bird-Queen to summon Millagazor.",
 					["groups"] = {
 						objective(1, {	-- 0/1 Millagazor slain
 							["providers"] = {
