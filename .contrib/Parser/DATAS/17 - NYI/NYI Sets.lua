@@ -6103,45 +6103,50 @@ root(ROOTS.NeverImplemented, n(SETS, {
 				i(191827),	-- Obsidian Dracthyr Battlegear Bracers
 				i(191828),	-- Obsidian Dracthyr Battlegear Cover
 			}),
-			-- Verdant Wing [Cloth]
-			i(201078),	-- Cord of the Verdant Wing
-			i(201064),	-- Gloves of the Verdant Wing
-			i(201066),	-- Hood of the Verdant Wing
-			i(201070),	-- Leggings of the Verdant Wing
-			i(201075),	-- Mantle of the Verdant Wing
-			i(201058),	-- Robes of the Verdant Wing
-			i(201086),	-- Slippers of the Verdant Wing
-			i(201081),	-- Wraps of the Verdant Wing
-
-			-- Green Draketracker [Leather]
-			i(201080),	-- Green Draketracker's Belt
-			i(201088),	-- Green Draketracker's Boots
-			i(201084),	-- Green Draketracker's Bracers
-			i(201072),	-- Green Draketracker's Britches
-			i(201068),	-- Green Draketracker's Cowl
-			i(201061),	-- Green Draketracker's Vest
-			i(201062),	-- Green Draketracker's Mitts
-			i(201073),	-- Green Draketracker's Shoulderpads
-
-			-- Emerald Scale [Mail]
-			i(201083),	-- Emerald Scale Armguards
-			i(201060),	-- Emerald Scale Chainmail
-			i(201067),	-- Emerald Scale Coif
-			i(201065),	-- Emerald Scale Grips
-			i(201071),	-- Emerald Scale Legguards
-			i(201079),	-- Emerald Scale Loop
-			i(201076),	-- Emerald Scale Spaulders
-			i(201087),	-- Emerald Scale Treads
-
-			-- Dreamfire [Plate]
-			i(201059),	-- Dreamfire Battleplate
-			i(201077),	-- Dreamfire Buckle
-			i(201063),	-- Dreamfire Gauntlets
-			i(201085),	-- Dreamfire Helm
-			i(201069),	-- Dreamfire Legplates
-			i(201074),	-- Dreamfire Pauldrons
-			i(201057),	-- Dreamfire Sabatons
-			i(201082),	-- Dreamfire Wristguards
+			filter(CLOTH, {
+				-- Verdant Wing [Cloth]
+				i(201078),	-- Cord of the Verdant Wing
+				i(201064),	-- Gloves of the Verdant Wing
+				i(201066),	-- Hood of the Verdant Wing
+				i(201070),	-- Leggings of the Verdant Wing
+				i(201075),	-- Mantle of the Verdant Wing
+				i(201058),	-- Robes of the Verdant Wing
+				i(201086),	-- Slippers of the Verdant Wing
+				i(201081),	-- Wraps of the Verdant Wing
+			}),
+			filter(LEATHER, {
+				-- Green Draketracker [Leather]
+				i(201080),	-- Green Draketracker's Belt
+				i(201088),	-- Green Draketracker's Boots
+				i(201084),	-- Green Draketracker's Bracers
+				i(201072),	-- Green Draketracker's Britches
+				i(201068),	-- Green Draketracker's Cowl
+				i(201061),	-- Green Draketracker's Vest
+				i(201062),	-- Green Draketracker's Mitts
+				i(201073),	-- Green Draketracker's Shoulderpads
+			}),
+			filter(MAIL, {
+				-- Emerald Scale [Mail]
+				i(201083),	-- Emerald Scale Armguards
+				i(201060),	-- Emerald Scale Chainmail
+				i(201067),	-- Emerald Scale Coif
+				i(201065),	-- Emerald Scale Grips
+				i(201071),	-- Emerald Scale Legguards
+				i(201079),	-- Emerald Scale Loop
+				i(201076),	-- Emerald Scale Spaulders
+				i(201087),	-- Emerald Scale Treads
+			}),
+			filter(PLATE, {
+				-- Dreamfire [Plate]
+				i(201059),	-- Dreamfire Battleplate
+				i(201077),	-- Dreamfire Buckle
+				i(201063),	-- Dreamfire Gauntlets
+				i(201085),	-- Dreamfire Helm
+				i(201069),	-- Dreamfire Legplates
+				i(201074),	-- Dreamfire Pauldrons
+				i(201057),	-- Dreamfire Sabatons
+				i(201082),	-- Dreamfire Wristguards
+			}),
 		})),
 
 		-- 10.0.2
@@ -11222,7 +11227,6 @@ root(ROOTS.NeverImplemented, n(SETS, {
 						i(212082),	-- Living Luster's Trousers
 						i(212084),	-- Living Luster's Touch
 						i(212085),	-- Living Luster's Boots
-						i(212086),	-- Living Luster's Raiment
 					}),
 					cl(ROGUE, {
 						i(212033),	-- K'areshi Phantom's Breeze
@@ -11826,7 +11830,7 @@ root(ROOTS.NeverImplemented, n(SETS, {
 					}),
 				})),
 			}),
-			n(SEASON_FORGED, {
+			header(HEADERS.Object, 456208, {	-- The Catalyst
 				n(PVP_ELITE, bubbleDown({ ["bonusID"] = 7532 }, {
 					cl(DEATHKNIGHT, {
 						i(211997),	-- Exhumed Centurion's Drape
@@ -11973,6 +11977,101 @@ root(ROOTS.NeverImplemented, n(SETS, {
 					}),
 				})),
 			}),
+			n(PVP_ELITE, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2, REMOVED_11_1_0 }, ["bonusID"] = 7532 }, {
+				cl(DEATHKNIGHT, {
+					-- TODO
+				}),
+				cl(DEMONHUNTER, {
+					-- TODO
+				}),
+				cl(DRUID, {
+					i(218534),	-- Forged Gladiator's Drape
+					i(218522),	-- Forged Gladiator's Leather Grips
+					i(218526),	-- Forged Gladiator's Leather Legwraps
+					i(218524),	-- Forged Gladiator's Leather Mask
+					i(218528),	-- Forged Gladiator's Leather Shoulderpads
+					i(218530),	-- Forged Gladiator's Leather Strap
+					i(218520),	-- Forged Gladiator's Leather Treads
+					i(218518),	-- Forged Gladiator's Leather Vestments
+					i(218532),	-- Forged Gladiator's Leather Wristguards
+					i(218535),	-- Forged Gladiator's Shawl
+				}),
+				cl(EVOKER, {
+					-- TODO
+				}),
+				cl(HUNTER, {
+					-- TODO
+				}),
+				cl(MAGE, {
+					i(218477),	-- Forged Gladiator's Drape
+					i(218478),	-- Forged Gladiator's Shawl
+					i(218471),	-- Forged Gladiator's Silk Amice
+					i(218475),	-- Forged Gladiator's Silk Armbands
+					i(218473),	-- Forged Gladiator's Silk Belt
+					i(218461),	-- Forged Gladiator's Silk Blouse
+					i(218467),	-- Forged Gladiator's Silk Cap
+					i(218465),	-- Forged Gladiator's Silk Handwraps
+					i(218463),	-- Forged Gladiator's Silk Treads
+					i(218469),	-- Forged Gladiator's Silk Trousers
+				}),
+				cl(MONK, {
+					i(218572),	-- Forged Gladiator's Drape
+					i(218560),	-- Forged Gladiator's Leather Grips
+					i(218556),	-- Forged Gladiator's Leather Jerkin
+					i(218564),	-- Forged Gladiator's Leather Legwraps
+					i(218562),	-- Forged Gladiator's Leather Mask
+					i(218566),	-- Forged Gladiator's Leather Shoulderpads
+					i(218568),	-- Forged Gladiator's Leather Strap
+					i(218558),	-- Forged Gladiator's Leather Treads
+					i(218570),	-- Forged Gladiator's Leather Wristguards
+					i(218573),	-- Forged Gladiator's Leather Shawl
+				}),
+				cl(PALADIN, {
+					i(218670),	-- Forged Gladiator's Chestplate
+					i(218686),	-- Forged Gladiator's Drape
+					i(218682),	-- Forged Gladiator's Plate Greatbelt
+					i(218674),	-- Forged Gladiator's Plate Handguards
+					i(218676),	-- Forged Gladiator's Plate Helmet
+					i(218680),	-- Forged Gladiator's Plate Pauldrons
+					i(218672),	-- Forged Gladiator's Plate Stompers
+					i(218678),	-- Forged Gladiator's Plate Tasses
+					i(218684),	-- Forged Gladiator's Plate Vambraces
+					i(218687),	-- Forged Gladiator's Shawl
+				}),
+				cl(PRIEST, {
+					-- TODO
+				}),
+				cl(ROGUE, {
+					-- TODO
+				}),
+				cl(SHAMAN, {
+					i(218634),	-- Forged Gladiator's Chain Boots
+					i(218646),	-- Forged Gladiator's Chain Bracers
+					i(218640),	-- Forged Gladiator's Chain Breeches
+					i(218638),	-- Forged Gladiator's Chain Faceguard
+					i(218644),	-- Forged Gladiator's Chain Girdle
+					i(218636),	-- Forged Gladiator's Chain Handguards
+					i(218642),	-- Forged Gladiator's Chain Shoulderguard
+					i(218632),	-- Forged Gladiator's Chain Tunic
+					i(218648),	-- Forged Gladiator's Drape
+					i(218649),	-- Forged Gladiator's Shawl
+				}),
+				cl(WARLOCK, {
+					i(218515),	-- Forged Gladiator's Drape
+					i(218516),	-- Forged Gladiator's Shawl
+					i(218509),	-- Forged Gladiator's Silk Amice
+					i(218513),	-- Forged Gladiator's Silk Armbands
+					i(218511),	-- Forged Gladiator's Silk Belt
+					i(218505),	-- Forged Gladiator's Silk Guise
+					i(218503),	-- Forged Gladiator's Silk Handwraps
+					i(218501),	-- Forged Gladiator's Silk Treads
+					i(218507),	-- Forged Gladiator's Silk Trousers
+					i(218499),	-- Forged Gladiator's Silk Vestments
+				}),
+				cl(WARRIOR, {
+					-- TODO
+				}),
+			})),
 		})),
 	}),
 }));
