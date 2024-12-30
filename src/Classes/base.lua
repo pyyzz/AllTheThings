@@ -553,12 +553,11 @@ app.CreateClass = function(className, classKey, fields, ...)
 		fields.key = function() return classKey; end;
 	end
 
-	-- If a Type is collectible via in-game Event, also enforce that it defines for itself: the CacheKey and SettingsKey
+	-- If a Type is collectible via in-game Event, also enforce that it defines for itself its CacheKey
 	-- for the common immediate collection handling logic
 	if fields.collectible and fields.collected and not fields.RefreshCollectionOnly then
 		if not fields.CACHE then
-			app.PrintDebug("Class",className,"is missing CACHE by which the collected Keys are stored in the Cache")
-			-- ClassError("Class",className,"is missing CacheKey by which the collected Keys are stored in the Cache");
+			ClassError("Class",className,"is missing CACHE by which the collected Keys are stored in the Cache");
 		end
 	end
 
