@@ -1647,7 +1647,8 @@ local SubroutineCache = {
 		push(finalized, searchResults, o, "push", "headerID", app.HeaderConstants.COMMON_BOSS_DROPS);	-- Push into 'Common Boss Drops' header
 		finalize(finalized, searchResults);	-- capture current results
 		select(finalized, searchResults, o, "select", "instanceID", instanceID);	-- select this instance
-		whereany(finalized, searchResults, o, "whereany", "e", 559, 562, 587, 643, 1056, 1263 );	-- Select the TIMEWALKING eventID
+		-- TODO: collect into an exportDB table to future-proof new TW eventIDs
+		whereany(finalized, searchResults, o, "whereany", "e", 1271, 1508, 559, 562, 587, 643, 1056, 1263 );	-- Select any TIMEWALKING eventID
 		if #searchResults > 0 then o.e = searchResults[1].e; end
 		pop(finalized, searchResults);	-- pop the instance header
 	end,
