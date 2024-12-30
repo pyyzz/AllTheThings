@@ -930,6 +930,7 @@ root(ROOTS.Secrets, n(GUEST_RELATIONS, bubbleDownSelf({ ["timeline"] = { ADDED_1
 				["qgs"] = {
 					226683,	-- Alyx <Volunteer Assistant Guest Relations Manager>
 					232408,	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager, Executive Associate Event Coordinator, and Temporary Service Agent>
+					232410,	-- Alyx <Volunteer Senior Assistant Lead Guest Relations Manager, Executive Associate Event Coordinator, and Chief Temporary Agent of Timelines and Services>
 				},
 				["coord"] = { 63.0, 50.2, TANARIS },
 			}),
