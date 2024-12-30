@@ -444,7 +444,7 @@ function candybucket(questID, t)
 	t = q(questID, t);
 	t._drop = { "g" };
 	t.isYearly = true;
-	t.g = { i(33226, { ["_drop"] = {"races"} }) };	-- Tricky Treat
+	t.g = { i(33226, { ["_drop"] = { "races" } }) };	-- Tricky Treat
 	if t.provider and t.provider[1] == "o" then
 		ObjectDB[t.provider[2]] = CANDY_BUCKET_OBJECT_DATA;
 	elseif t.providers then
@@ -1282,7 +1282,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 			}),
 			-- #endif
 			-- #endif
-			i(33226, {	-- Tricky Treats
+			i(33226, {	-- Tricky Treat
 				["timeline"] = { ADDED_2_4_3 },
 			}),
 			i(34068, {	-- Weighted Jack-o'-Lantern
@@ -4213,7 +4213,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.HALLOWS_END, n(HALLOWS_END_HEADER, {
 		i(37604, {	-- Tooth Pick
 			["timeline"] = { ADDED_2_4_3 },
 		}),
-		i(33226, {	-- Tricky Treats
+		i(33226, {	-- Tricky Treat
 			["timeline"] = { ADDED_2_4_3 },
 		}),
 	}))),
