@@ -7,6 +7,7 @@ BLIZZCON = createHeader({
 	eventID = 1181,
 	text = {
 		en = "BlizzCon",
+		ko = "블리즈컨",
 		cn = "暴雪嘉年华",
 		tw = "暴雪嘉年華",
 	},
