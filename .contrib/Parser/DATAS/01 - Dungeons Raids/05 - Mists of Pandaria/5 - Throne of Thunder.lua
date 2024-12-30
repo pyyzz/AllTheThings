@@ -706,81 +706,80 @@ root(ROOTS.Instances, expansion(EXPANSION.MOP, bubbleDown({ ["timeline"] = { ADD
 					},
 					["g"] = {
 						ach(8081, {	-- Ritualist Who?
-								crit(22765, {	-- Aridian
-									["cr"] = 69726,
-								}),
-								crit(22766, {	-- Auton
-									["cr"] = 69718,
-								}),
-								crit(22767, {	-- Bandril
-									["cr"] = 69728,
-								}),
-								crit(22768, {	-- Drahvin
-									["cr"] = 69727,
-								}),
-								crit(22769, {	-- Drashig
-									["cr"] = 69731,
-								}),
-								crit(22770, {	-- Fendahl
-									["cr"] = 69734,
-								}),
-								crit(22771, {	-- Gond
-									["cr"] = 69729,
-								}),
-								crit(22772, {	-- Jagaroth
-									["cr"] = 69721,
-								}),
-								crit(22773, {	-- Kroll
-									["cr"] = 69710,
-								}),
-								crit(22774, {	-- Kitling
-									["cr"] = 69716,
-								}),
-								crit(22775, {	-- Malus
-									["cr"] = 69733,
-								}),
-								crit(22776, {	-- Mandrel
-									["cr"] = 69737,
-								}),
-								crit(22777, {	-- Megara
-									["cr"] = 69719,
-								}),
-								crit(22778, {	-- Morok
-									["cr"] = 69722,
-								}),
-								crit(22779, {	-- Ogri
-									["cr"] = 69735,
-								}),
-								crit(22780, {	-- Ogron
-									["cr"] = 69730,
-								}),
-								crit(22781, {	-- Rill
-									["cr"] = 69725,
-								}),
-								crit(22782, {	-- Rutan
-									["cr"] = 69736,
-								}),
-								crit(22783, {	-- Sirian
-									["cr"] = 69720,
-								}),
-								crit(22784, {	-- Tetrap
-									["cr"] = 69738,
-								}),
-								crit(22785, {	-- Thal
-									["cr"] = 69709,
-								}),
-								crit(22786, {	-- Voord
-									["cr"] = 69723,
-								}),
-								crit(22787, {	-- Wirrn
-									["cr"] = 69732,
-								}),
-								crit(22789, {	-- Xeron
-									["cr"] = 69724,
-								}),
+							crit(22765, {	-- Aridian
+								["cr"] = 69726,
 							}),
-						i(94152, {	-- Son of Animus (PET!)
+							crit(22766, {	-- Auton
+								["cr"] = 69718,
+							}),
+							crit(22767, {	-- Bandril
+								["cr"] = 69728,
+							}),
+							crit(22768, {	-- Drahvin
+								["cr"] = 69727,
+							}),
+							crit(22769, {	-- Drashig
+								["cr"] = 69731,
+							}),
+							crit(22770, {	-- Fendahl
+								["cr"] = 69734,
+							}),
+							crit(22771, {	-- Gond
+								["cr"] = 69729,
+							}),
+							crit(22772, {	-- Jagaroth
+								["cr"] = 69721,
+							}),
+							crit(22773, {	-- Kroll
+								["cr"] = 69710,
+							}),
+							crit(22774, {	-- Kitling
+								["cr"] = 69716,
+							}),
+							crit(22775, {	-- Malus
+								["cr"] = 69733,
+							}),
+							crit(22776, {	-- Mandrel
+								["cr"] = 69737,
+							}),
+							crit(22777, {	-- Megara
+								["cr"] = 69719,
+							}),
+							crit(22778, {	-- Morok
+								["cr"] = 69722,
+							}),
+							crit(22779, {	-- Ogri
+								["cr"] = 69735,
+							}),
+							crit(22780, {	-- Ogron
+								["cr"] = 69730,
+							}),
+							crit(22781, {	-- Rill
+								["cr"] = 69725,
+							}),
+							crit(22782, {	-- Rutan
+								["cr"] = 69736,
+							}),
+							crit(22783, {	-- Sirian
+								["cr"] = 69720,
+							}),
+							crit(22784, {	-- Tetrap
+								["cr"] = 69738,
+							}),
+							crit(22785, {	-- Thal
+								["cr"] = 69709,
+							}),
+							crit(22786, {	-- Voord
+								["cr"] = 69723,
+							}),
+							crit(22787, {	-- Wirrn
+								["cr"] = 69732,
+							}),
+							crit(22788, {	-- Xeron
+								["cr"] = 69724,
+							}),
 						}),
+						i(94152),	-- Son of Animus (PET!)
 					},
 				}),
 				e(817, {	-- Iron Qon
