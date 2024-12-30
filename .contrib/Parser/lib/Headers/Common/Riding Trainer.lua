@@ -6,6 +6,7 @@ RIDING_TRAINER = createHeader({
 		es = "Instructora de equitación",
 		de = "Reitlehrerin",
 		fr = "Instructrice de monte",
+		it = "Istruttore di equitazione",
 		pt = "Treinamento de Montaria",
 		ru = "Учитель верховой езды",
 		ko = "전문 기수",
