@@ -603,6 +603,8 @@ local StoreWindowPosition = function(self)
 		if self.isLocked or self.lockPersistable then
 			local key = app.Settings:GetProfile();
 			local profile = AllTheThingsProfiles.Profiles[key];
+			-- not entirely sure how this is able to happen, but just ignore for now
+			if not profile then return end
 			if not profile.Windows then profile.Windows = {}; end
 			-- re-save the window position by point anchors
 			local points = {};
