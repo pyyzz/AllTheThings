@@ -953,7 +953,13 @@ app.CreateMap = app.CreateClass("Map", "mapID", {
 	["ignoreSourceLookup"] = function(t)
 		return true;
 	end,
-	isMinilistHeader = app.ReturnTrue,
+	isMinilistHeader = function(t)
+		local mapinfo = C_Map_GetMapInfo(t.mapID)
+		local mapType = mapinfo.mapType or 0
+		local isHeader = mapType > 2
+		t.isMinilistHeader = isHeader
+		return isHeader
+	end,
 },
 "WithHeader", {
 	["name"] = function(t)
