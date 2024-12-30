@@ -294,7 +294,9 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					i(180400),	-- Inquisitions Final Judgment
 					i(180395),	-- Nathrezim Crusader's Hauberk
 					i(180339),	-- Shadow-Lined Chalice
-					i(184225),	-- Small Posable Skeleton
+					i(184225, {	-- Small Posable Skeleton
+						["customCollect"] = "SL_COV_NEC",
+					}),
 				},
 			}),
 			o(357683, {	-- Outcast's Makeshift Muckpool
