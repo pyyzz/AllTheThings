@@ -7023,29 +7023,6 @@ customWindowUpdates.CurrentInstance = function(self, force, got)
 			"eventID",
 			"achievementID",
 		};
-		-- Keep a static collection of top-level groups in the list so they can just be referenced for adding new
-		local topHeaders = {
-			-- [app.HeaderConstants.ACHIEVEMENTS] = "achievementID",
-			-- [app.HeaderConstants.BONUS_OBJECTIVES] = true,
-			-- [app.HeaderConstants.BUILDINGS] = true,
-			-- [app.HeaderConstants.COMMON_BOSS_DROPS] = true,
-			-- [app.HeaderConstants.EMISSARY_QUESTS] = true,
-			-- [app.HeaderConstants.FACTIONS] = "factionID",
-			-- [app.HeaderConstants.FLIGHT_PATHS] = "flightpathID",
-			-- [app.HeaderConstants.HOLIDAYS] = "eventID",
-			-- [app.HeaderConstants.PROFESSIONS] = "professionID",
-			-- [app.HeaderConstants.PVP] = true,
-			-- [app.HeaderConstants.QUESTS] = "questID",
-			-- [app.HeaderConstants.RARES] = true,
-			-- [app.HeaderConstants.SECRETS] = true,
-			-- [app.HeaderConstants.SPECIAL] = true,
-			-- [app.HeaderConstants.TREASURES] = "objectID",
-			-- [app.HeaderConstants.VENDORS] = true,
-			-- [app.HeaderConstants.WEEKLY_HOLIDAYS] = true,
-			-- [app.HeaderConstants.WORLD_QUESTS] = true,
-			-- [app.HeaderConstants.ZONE_REWARDS] = true,
-			-- [app.HeaderConstants.ZONE_DROPS] = true,
-		};
 		-- Headers possible in a hierarchy that should just be ignored
 		local ignoredHeaders = app.HeaderData.IGNOREINMINILIST or app.EmptyTable;
 
@@ -7095,7 +7072,7 @@ customWindowUpdates.CurrentInstance = function(self, force, got)
 		end
 
 		(function()
-		local results, groups, nested, header, headerKeys, difficultyID, topHeader, nextParent, headerID, groupKey, typeHeaderID, isInInstance;
+		local results, groups, nested, header, headerKeys, difficultyID, nextParent, headerID, isInInstance
 		local rootGroups, mapGroups = {}, {};
 
 		self.MapCache = setmetatable({}, { __mode = "kv" })
@@ -7216,9 +7193,7 @@ customWindowUpdates.CurrentInstance = function(self, force, got)
 				end
 				-- then merge all mapped groups into the list
 				for _,group in ipairs(mapGroups) do
-					-- app.PrintDebug("Clone",group.hash)
-					-- app.PrintDebug("Done")
-					-- app.PrintDebug(group.hash,group.text)
+					-- app.PrintDebug("Mapping:",app:SearchLink(group))
 					nested = nil;
 
 					-- Get the header chain for the group
@@ -7228,18 +7203,11 @@ customWindowUpdates.CurrentInstance = function(self, force, got)
 					difficultyID = isInInstance and GetRelativeValue(nextParent, "difficultyID");
 
 					-- Building the header chain for each mapped Thing
-					topHeader = nil;
 					while nextParent do
 						headerID = nextParent.headerID
 						if headerID then
-							-- This matches a top-level header, track that top-level header at the highest point
-							if topHeaders[headerID] then
-								-- already found a matching header, then nest it before switching
-								if topHeader then
-									group = CreateHeaderData(group, topHeader);
-								end
-								topHeader = nextParent;
-							elseif not ignoredHeaders[headerID] then
+							-- all Headers implicitly are allowed as visual headers in minilist unless explicitly ignored
+							if not ignoredHeaders[headerID] then
 								group = CreateHeaderData(group, nextParent);
 								nested = true;
 							end
@@ -7258,41 +7226,16 @@ customWindowUpdates.CurrentInstance = function(self, force, got)
 						end
 						nextParent = nextParent.parent;
 					end
-					-- Create/match the header chain for the zone list assuming it matches one of the allowed top headers
-					if topHeader then
-						group = CreateHeaderData(group, topHeader);
-						-- app.PrintDebug("topHeader",group.text,group.hash)
-						nested = true;
-					end
 
-					-- couldn't nest this thing using a topheader header, try to use the key of the last nested group to figure out the topheader
-					if not topHeader then
-						groupKey = group.key;
-						typeHeaderID = nil;
-						-- determine the expected top header for this 'thing' based on its key
-						for headerID,key in pairs(topHeaders) do
-							if groupKey == key then
-								typeHeaderID = headerID;
-								break;
-							end
-						end
-						-- and based on the Type of the original Thing if it was never listed under any matching top headers
-						if typeHeaderID then
-							group = app.CreateNPC(typeHeaderID, CreateHeaderData(group));
-							nested = true;
-						end
-						-- really really special cases...
-						-- Battle Pets get a raw Filter group
-						if not nested and groupKey == "speciesID" then
-							group = app.CreateFilter(101, CreateHeaderData(group));
-						end
-						-- otherwise the group itself will be the topHeader in the minilist, and its content will be sorted since it may be merging with an existing group
-						nested = true;
+					-- really really special cases...
+					-- Battle Pets get an additional raw Filter nesting
+					if not nested and group.key == "speciesID" then
+						group = app.CreateFilter(101, CreateHeaderData(group));
 					end
 
 					-- If relative to a difficultyID, then merge it into one.
 					if difficultyID then group = app.CreateDifficulty(difficultyID, { g = { group } }); end
-					-- app.PrintDebug("Merge as Mapped",group.hash,group.__type)
+					-- app.PrintDebug("Merge as Mapped:",app:SearchLink(group))
 					MergeObject(groups, group);
 				end
 
