@@ -11,12 +11,6 @@ root(ROOTS.WorldDrops, bubbleDown({ ["timeline"] = ADDED_10_0_5, ["sharedDescrip
 	-- I AM HIDING THIS FOR NOW -Darkal
 	--[[
 	n(QUALITY_POOR, {
-		n(ARMOR, {
-			filter(FINGER_F, {
-				i(180352),	-- Cracked Inquisitor's Band	-- TODO Shadowlands
-				i(180350),	-- Simple Stone Loop	-- TODO Shadowlands
-			}),
-		}),
 		n(WEAPONS, {
 			filter(SHIELDS, {
 				i(128824),	-- Tome of the Silver Hand	-- TODO Legion

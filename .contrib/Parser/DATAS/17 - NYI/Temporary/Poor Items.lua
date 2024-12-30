@@ -4035,10 +4035,6 @@ root(ROOTS.NeverImplemented, {
 				filter(CLOAKS, {
 					i(192556),	-- 10.0.0 Armor Cloak - Cape_Cloth_Sindragosa_D_01
 				}),
-				filter(FINGER_F, {
-					i(180352),	-- Cracked Inquisitor's Band
-					i(180350),	-- Simple Stone Loop
-				}),
 			}),
 			n(WEAPONS, {
 				filter(FIST_WEAPONS, {

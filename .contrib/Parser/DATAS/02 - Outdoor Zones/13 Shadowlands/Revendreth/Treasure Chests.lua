@@ -261,6 +261,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDown({ ["timeline"] = { ADDED_9_0_2_LAUNC
 					{ 49.4, 66.8, REVENDRETH },
 					{ 50.1, 61.2, REVENDRETH },
 					{ 50.8, 69.9, REVENDRETH },
+					{ 51.2, 67.8, REVENDRETH },
 					{ 51.4, 71.8, REVENDRETH },
 					{ 51.4, 76.6, REVENDRETH },
 					{ 51.6, 64.5, REVENDRETH },
