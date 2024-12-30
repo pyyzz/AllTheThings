@@ -379,7 +379,6 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(213072),	-- Ruby Floral Staff
 				i(190891),	-- Shabby Battleaxe
 				i(190903),	-- Soulburner Warscythe
-				i(190818),	-- Steamwheedle Artifact Extractor
 				i(213067),	-- Violet Floral Edge
 				i(190902),	-- Will of the Titanforged
 				i(190889),	-- Woodsman's Hatchet

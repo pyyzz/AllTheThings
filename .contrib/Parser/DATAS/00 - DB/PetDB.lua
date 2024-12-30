@@ -4280,6 +4280,7 @@ i(232653, 4694);	-- Portentous Present
 i(232519, 4690);	-- Razeshi B.
 i(234395, 4727);	-- Skitterbite
 i(233247, 4692);	-- Sparklesnap
+i(233361, 4718);	-- Wind-Up Wuffi
 --- NPC ---
 n(234734, 4724);	-- Battleboar Piglet
 n(234101, 4703);	-- Cave Kroling
@@ -4297,6 +4298,5 @@ i(234905, 4730);	-- Mech-Friend Maya
 i(233057, 4709);	-- Rock Hound Mica
 i(234396, 4728);	-- Teatuft Tamer
 i(233366, 4719);	-- Wind-Up Woofer
-i(233361, 4718);	-- Wind-Up Wuffi
 --- NYI? ---
 --i(???, 4725);	-- Titan Orb

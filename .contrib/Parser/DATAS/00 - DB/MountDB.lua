@@ -1728,7 +1728,6 @@ i(212630, 432558);	-- Majestic Azure Peafowl
 i(212599, 432455);	-- Noble Flying Carpet
 i(212229, 431360);	-- Twilight Sky Prowler
 --- NYI ---
-i(212631, 432562);	-- Brilliant Sunburst Peafowl
 i(212632, 432564);	-- Starry Twilight Peafowl
 i(211486, 0);		-- Winding Slitherdrake
 
@@ -1927,6 +1926,7 @@ i(229418, 465235);	-- Trader's Gilded Brutosaur
 ------------------
 -- PATCH 11.0.7 --
 ------------------
+i(212631, 432562);	-- Brilliant Sunburst Peafowl
 i(234730, 1214946);	-- Broodling of Sinestra
 i(234740, 1214974);	-- Copper-Maned Quilen
 i(190539, 367620);	-- Coral-Stalker Waveray

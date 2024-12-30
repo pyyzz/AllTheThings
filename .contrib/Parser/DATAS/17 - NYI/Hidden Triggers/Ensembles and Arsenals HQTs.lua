@@ -626,6 +626,7 @@ q(65502),	-- Ensemble: Fel-Automaton Exoplate
 q(80172),	-- Ensemble: Gladiator's Battered Armor
 q(79708),	-- Ensemble: Gleaming Burden of Unrelenting Justice
 q(72070),	-- Ensemble: Glorious Dragonrider's Mail
+q(86335),	-- Ensemble: Green Clockwork Attire
 q(72133),	-- Ensemble: Helarjar Berserker Warplate
 q(72132),	-- Ensemble: Kvaldir Scout Leathers
 q(79209),	-- Ensemble: Love Witch's Attire

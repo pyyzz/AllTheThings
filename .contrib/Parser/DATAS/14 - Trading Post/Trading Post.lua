@@ -2304,6 +2304,36 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 			}),
 		})),
 	}),
+	n(YEAR2025, {
+		n(JANUARY, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7, "removed 11.0.7.99999" } }, {
+			n(FILLED_TRAVELERS_LOG, {
+			}),
+			filter(BATTLE_PETS, {
+				i(233361, {	-- Wind-Up Wuffi (PET!)
+					["cost"] = {{"c", TRADERS_TENDER, 300}},
+				}),
+			}),
+			filter(MOUNTS, {
+				i(212631, {	-- Reins of the Brilliant Sunburst Peafowl (MOUNT!)
+					["cost"] = {{"c", TRADERS_TENDER, 750}},
+				}),
+			}),
+			filter(COSMETIC, {
+				iensemble(233329, {	-- Ensemble: Green Clockwork Attire
+					["cost"] = {{"c", TRADERS_TENDER, 650}},
+				}),
+				i(233249, {	-- Golden Clockwork Power Hammer
+					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(233273, {	-- Steam-Powered Golden Cloak
+					["cost"] = {{"c", TRADERS_TENDER, 300}},
+				}),
+				i(190818, {	-- Steamwheedle Artifact Extractor
+					["cost"] = {{"c", TRADERS_TENDER, 60}},
+				}),
+			}),
+		})),
+	}),
 }));
 
 root(ROOTS.HiddenQuestTriggers, {
@@ -2603,7 +2633,6 @@ root(ROOTS.NeverImplemented, {
 					i(213072),	-- Ruby Floral Staff
 					i(190891),	-- Shabby Battleaxe
 					i(190903),	-- Soulburner Warscythe
-					i(190818),	-- Steamwheedle Artifact Extractor
 					i(213067),	-- Violet Floral Edge
 					i(190902),	-- Will of the Titanforged
 					i(190889),	-- Woodsman's Hatchet

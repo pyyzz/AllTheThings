@@ -196,7 +196,6 @@ root(ROOTS.Unsorted, {
 			i(233237),	-- Lively Pack of Lunar Explosives
 			i(233238),	-- Azure Pack of Lunar Explosives
 			i(233239),	-- Sunny Pack of Lunar Explosives
-			i(233249),	-- Golden Clockwork Mace
 			i(233253),	-- Purple Clockwork Mace
 			i(233254),	-- Blue Clockwork Mace
 			i(233255),	-- Green Clockwork Mace
@@ -209,7 +208,6 @@ root(ROOTS.Unsorted, {
 			i(233270),	-- Long-Range Golden Clockstopper
 			i(233271),	-- Long-Range Green Clockstopper
 			i(233272),	-- Steam-Powered Cobalt Clock Cloak
-			i(233273),	-- Steam-Powered Golden Clock Cloak
 			i(233274),	-- Steam-Powered Green Clock Cloak
 			i(233275),	-- Steam-Powered Violet Clock Cloak
 			i(233277),	-- Golden Clockwork Defender
@@ -218,46 +216,36 @@ root(ROOTS.Unsorted, {
 			i(233280),	-- Violet Clockwork Defender
 			i(233291),	-- Cobalt Clockwork Cap
 			i(233292),	-- Golden Clockwork Cap
-			i(233293),	-- Green Clockwork Cap
 			i(233294),	-- Violet Clockwork Cap
 			i(233295),	-- Cobalt Clockwork Pauldrons
 			i(233296),	-- Golden Clockwork Pauldrons
-			i(233300),	-- Green Clockwork Pauldrons
 			i(233301),	-- Violet Clockwork Pauldrons
 			i(233302),	-- Cobalt Clockwork Uniform
 			i(233303),	-- Golden Clockwork Uniform
-			i(233304),	-- Green Clockwork Uniform
 			i(233305),	-- Violet Clockwork Uniform
 			i(233306),	-- Cobalt Clockwork Leggings
 			i(233307),	-- Golden Clockwork Leggings
-			i(233308),	-- Green Clockwork Leggings
 			i(233309),	-- Violet Clockwork Leggings
 			i(233310),	-- Cobalt Clockwork Belt
 			i(233311),	-- Golden Clockwork Belt
-			i(233312),	-- Green Clockwork Belt
 			i(233313),	-- Violet Clockwork Belt
 			i(233314),	-- Cobalt Clockwork Bracer
 			i(233315),	-- Golden Clockwork Bracer
-			i(233316),	-- Green Clockwork Bracer
 			i(233317),	-- Violet Clockwork Bracer
 			i(233318),	-- Cobalt Clockwork Glove
 			i(233319),	-- Golden Clockwork Glove
-			i(233320),	-- Green Clockwork Glove
 			i(233321),	-- Violet Clockwork Glove
 			i(233322),	-- Cobalt Clockwork Boots
 			i(233323),	-- Golden Clockwork Boots
-			i(233324),	-- Green Clockwork Boots
 			i(233325),	-- Violet Clockwork Boots
 			i(233327),	-- Cobalt Clockwork Attire
 			i(233328),	-- Ensemble: Golden Clockwork Attire
-			i(233329),	-- Green Clockwork Attire
 			i(233330),	-- Violet Clockwork Attire
 			i(233331),	-- Aura of Zealotry
 			i(233354),	-- Savage Alabaster Battle Turtle
 			i(233355),	-- Bronze Helm of Righteousness
 			i(233359),	-- Green Clockwork Contraptions Collection
 			i(233360),	-- Gold-Reinforced Cushioned Boots
-			i(233361),	-- Wind-Up Wuffi
 			i(233366),	-- Wind-Up Woofer
 			i(233495),	-- [PH] Snapdragon Treat 03
 			i(233650),	-- Call Galefeather
@@ -360,7 +348,6 @@ root(ROOTS.Unsorted, {
 			i(235050),	-- Desk-In-A-Box
 			i(235330),	-- Steam-Pressed Cobalt Cloak
 			i(235331),	-- Steam-Pressed Golden Cloak
-			i(235332),	-- Steam-Pressed Green Cloak
 			i(235333),	-- Steam-Pressed Violet Cloak
 			i(235378),	-- Landro's Loot Box
 			i(231760),	-- Notes on Ancient Treasure

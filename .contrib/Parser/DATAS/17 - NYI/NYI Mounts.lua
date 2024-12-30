@@ -791,10 +791,6 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 
 		-- 10.2.5
 		expansion(EXPANSION.DF, patch(2,5), bubbleDownSelf({ ["timeline"] = { CREATED_10_2_5 } }, {
-			-- With MountID Attached
-			i(212631, {	-- Brilliant Sunburst Peafowl (MOUNT!)
-				-- ["displayID"] = ,
-			}),
 			i(212632, {	-- Starry Twilight Peafowl (MOUNT!)
 				-- ["displayID"] = ,
 			}),
