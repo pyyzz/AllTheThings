@@ -2022,6 +2022,7 @@ if app.IsRetail then
 				end
 			end
 
+			questRef.SortType = "Total"
 			refs[questID] = questRef;
 		end
 
@@ -2275,6 +2276,7 @@ if app.IsRetail then
 				-- sourceIgnored = true,
 				skipFill = true,
 				SortPriority = 1.0,	-- follow any raw content in group
+				SortType = "Total",
 				-- copy any sourceQuests into the header incase the root is not actually a quest
 				sourceQuests = group.sourceQuests,
 			});
@@ -2284,8 +2286,6 @@ if app.IsRetail then
 				NestSourceQuests(questChainHeader, group)
 			end
 			app.NestObject(group, questChainHeader);
-			-- Sort by the totals of the quest chain on the next game frame
-			app.CallbackHandlers.Callback(app.Sort, questChainHeader.g, app.SortDefaults.Total, true);
 			questChainHeader.sourceQuests = nil;
 		end
 	end
