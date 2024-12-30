@@ -4924,10 +4924,13 @@ AddInstancesToRotation(EXPANSION.MOP, {
 	302,	-- Stormstout Brewery
 	313,	-- Temple of the Jade Serpent
 
+	-- #if BEFORE 9.1.5
+	324,	-- Siege of Niuzao Temple
+	-- #endif
+});
+AddInstancesToRotation(EXPANSION.CLASSIC, {
 	-- #if AFTER 9.1.5
 	246,	-- Scholomance
-	-- #else
-	324,	-- Siege of Niuzao Temple
 	-- #endif
 });
 
