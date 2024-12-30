@@ -324,7 +324,7 @@ do
 		if itemID then
 			-- local heirloom = app.SearchForObject("heirloomID", itemID, "field")
 			-- TODO: Heirlooms aren't cached when collected so can't use typical logic
-			-- app.SetAccountCollected(heirloom, field, id, true, "Heirlooms")
+			-- app.SetThingCollected("itemID", itemID, true, true)
 			app.UpdateRawID("itemID", itemID);
 			app.HandleEvent("OnThingCollected", "Heirlooms")
 
