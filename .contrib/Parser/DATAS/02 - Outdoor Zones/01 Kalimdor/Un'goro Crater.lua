@@ -52,7 +52,13 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					405,	-- Tree Python (PET!)
 				}},
 				["groups"] = {
-					pet(632),	-- Ash Lizard (PET!)
+					pet(632, {	-- Ash Lizard (PET!)
+						["description"] = "Found around Fire Plum Ridge in Un'goro Crater and around fiery areas in lower Mount Hyjal.",
+						["coords"] = {
+							{ 50.0, 49.0, UNGORO_CRATER }, -- Fire Plum Ridge
+							{ 50.0, 65.0, MOUNT_HYJAL }, -- Fiery Mount Hyjal
+						},
+					}),
 					pet(504, {	-- Diemetradon Hatchling (PET!)
 						["description"] = "Can be found around Golakka Hot Springs, near Elder Diemetradons.",
 					}),
