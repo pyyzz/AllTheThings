@@ -10793,7 +10793,7 @@ app.SetupProfiles = function()
 		-- Unobtainable Filters
 		if AllTheThingsSettings.Unobtainable then
 			for k,v in pairs(AllTheThingsSettings.Unobtainable) do
-				default.Unobtainable[k] = v;
+				default.Unobtainable[k] = v and true or nil;
 			end
 		end
 	end
