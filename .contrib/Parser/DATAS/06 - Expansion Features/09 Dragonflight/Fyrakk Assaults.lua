@@ -312,7 +312,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 					["cost"] = { { "i", 203683, 5 } },	-- 5x Ward of Fyrakk
 					["coords"] = {
 						{ 74.3, 72.2, OHNAHRAN_PLAINS },
-						{ 55.0, 32.0, THE_AZURE_SPAN },
+						{ 55.4, 35.2, THE_AZURE_SPAN },
 					},
 					["g"] = {
 						n(203709, {	-- Forgemaster Algrin
