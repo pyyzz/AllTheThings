@@ -865,7 +865,6 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(186528),	-- The Mad Duke's Tea of Versatility
 			i(187515),	-- Theotar's Bottomless Teapot
 			i(186043),	-- Torghast Portal Manipulator
-			i(187501),	-- Understanding the Purpose
 			i(186658),	-- Ven'ari's Scavenged Supplies
 			i(187433),	-- Windcrystal Chimes
 			i(187921),	-- [PH] Core Currency

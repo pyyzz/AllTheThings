@@ -152,7 +152,6 @@ root(ROOTS.NeverImplemented, filter(QUEST_ITEMS, {
 			i(177894),	-- Earthen Jar
 			i(181699),	-- Echthra's Notes
 			i(175411),	-- Effused Powder
-			i(173532),	-- Elwynn Forest Scroll
 			i(180809),	-- Elysian Horn
 			i(174075),	-- Emeni's Magnificent Skin
 			i(168803),	-- Emergency Supplies

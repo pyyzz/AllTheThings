@@ -1107,6 +1107,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, {
 					i(140581),	-- Sturdy Hiking Boots
 					i(143850),	-- Summon Grimtotem Warrior (maybe put in Shaman class hall only)
 					i(139813),	-- Swift Boots
+					i(139841),	-- Totem of the Earth
 					i(139875),	-- Undead Token
 					i(139851),	-- Valarjar's Might
 					i(140583),	-- Vial of Timeless Breath

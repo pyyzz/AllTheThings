@@ -156,6 +156,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.LEGION, bubbleDown({ ["timelin
 						q(42568, {	-- Preparation
 							["sourceQuest"] = 42539,	-- Cloak and Dagger
 							["maps"] = { DUSKWOOD },
+							["g"] = { i(173532) },	-- Elwynn Forest Scroll
 						}),
 						q(42504, {	-- The Unseen Blade (A)
 							["sourceQuest"] = 42568,	-- Preparation
