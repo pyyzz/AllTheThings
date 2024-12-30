@@ -218,7 +218,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 					}),
 				}),
 				ach(5873, {	-- Ready for Raiding II
-					["sourceQuest"] = 29243,	-- Strike at the Heart
+					["sourceQuests"] = {
+						29243,	-- Strike at the Heart (Stage 2: The Forlorn Spire)
+						29305,	-- Strike at the Heart (Stage 2: Into the Fire)
+					},
 					["coord"] = { 50.8, 23.0, THE_MOLTEN_FRONT },
 					["description"] = "Requires unlocking the presence of the Ancients on the Molten Front.",
 					["groups"] = {
@@ -1216,7 +1219,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 						currency(416),	-- Mark of the World Tree (x1)
 					},
 				}),
-				q(29243, {	-- Strike at the Heart
+				q(29243, {	-- Strike at the Heart (Stage 2: The Forlorn Spire)
 					["qg"] = 52495,	-- Shalis Darkhunter
 					["sourceQuests"] = {
 						29283,	-- Calling the Ancients
@@ -1243,7 +1246,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 						currency(416),	-- Mark of the World Tree (x3)
 					},
 				}),
-				q(29305, {	-- Strike at the Heart
+				q(29305, {	-- Strike at the Heart (Stage 2: Into the Fire)
 					["qg"] = 52490,	-- Choluna
 					["sourceQuests"] = {
 						29283,	-- Calling the Ancients
