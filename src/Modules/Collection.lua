@@ -31,8 +31,17 @@ app.AddEventHandler("OnThingCollected", function(typeORt)
 		if not typeORt or not typeORt.collectible then return end
 
 		-- TODO: test base with Quests/Objects ...
-		local base = typeORt.base
-		local thingType = base and base.__type or typeORt.__type
+		local base = typeORt.base or typeORt
+
+		local thingType
+		-- TODO: why is 'base' a function in Classic, likely simpleMeta
+		if type(base) == "function" then
+			-- app.PrintDebug("use base func",base(typeORt, "__type"))
+			thingType = base(typeORt, "__type")
+		else
+			-- app.PrintDebug("use base class",base.__type)
+			thingType = base.__type
+		end
 		-- app.PrintDebug("BaseType",thingType)
 		if TooSpammyThings[thingType] then return end
 
