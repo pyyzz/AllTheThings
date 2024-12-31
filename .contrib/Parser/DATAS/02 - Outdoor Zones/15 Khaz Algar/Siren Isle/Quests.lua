@@ -367,16 +367,20 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						i(231809),	-- First Mate Dat-Dat's Key (QI!)
 					}),
 					o(477098, {	-- Bilge Rat Trunk
-						i(231786),	-- Ookler's Diary (QI!)
+						["coord"] = { 53.7, 88.8, SIREN_ISLE },
+						["g"] = { i(231786), },	-- Ookler's Diary (QI!)
 					}),
 					o(477366, {	-- Dat-Dat's Book Stash
-						i(231802),	-- Ashvane Co. Survey Report (QI!)
+						["coord"] = { 60.6, 97.6, SIREN_ISLE },
+						["g"] = { i(231802), },	-- Ashvane Co. Survey Report (QI!)
 					}),
 					o(477612, {	-- Siren Isle Manifest
-						i(231813),	-- Siren Isle Manifest (QI!)
+						["coord"] = { 68.3, 94.3, SIREN_ISLE },
+						["g"] = { i(231813), },	-- Siren Isle Manifest (QI!)
 					}),
 					o(477248, {	-- Songs of the Siren
-						i(231788),	-- Songs of the Siren (QI!)
+						["coord"] = { 62.8, 97.2, SIREN_ISLE },
+						["g"] = { i(231788), },	-- Songs of the Siren (QI!)
 					}),
 				},
 			}),
