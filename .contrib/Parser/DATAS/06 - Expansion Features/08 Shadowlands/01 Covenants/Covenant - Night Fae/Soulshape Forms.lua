@@ -175,9 +175,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.SL, bubbleDown({ ["customColle
 			q(62437, {	-- Tiger Soul
 				["provider"] = { "i", 182181 },	-- Tiger Soul
 			}),
-			q(65467, {	-- Turkey Soul
+			applyevent(EVENTS.PILGRIMS_BOUNTY, q(65467, {	-- Turkey Soul
 				["provider"] = { "i", 189705 },	-- Turkey Soul
-			}),
+			})),
 			q(62423, {	-- Ursine Soul
 				["provider"] = { "i", 182166 },	-- Ursine Soul
 			}),
