@@ -584,8 +584,8 @@ for key,value in pairs({
 		BATTLE_PETS_CHECKBOX_TOOLTIP = "啟用此選項可追蹤戰鬥寵物和同伴。這些可以在開放的世界中找到，也可以通過各種地城和團隊中的首領掉落，以及從供應商和聲望獲得。";
 		DEATHS_CHECKBOX = "死亡";
 		DEATHS_CHECKBOX_TOOLTIP = "啟用此選項可追蹤您的角色每次死亡的情況，並將其顯示為插件中的收藏品部分。\n\n注意：如果您關閉此選項，我們仍會追蹤它，但除非您處於偵錯模式，否則我們不會顯示統計資訊。";
-		EXPLORATION_CHECKBOX = "地圖探索";
-		EXPLORATION_CHECKBOX_TOOLTIP = "啟用此選項可以追蹤戶外地圖的探索完成情況。";
+		EXPLORATION_CHECKBOX = "地圖探索(不精準)";
+		EXPLORATION_CHECKBOX_TOOLTIP = "啟用此選項可以追蹤戶外地圖的探索完成情況。\n\n目前這個選項所提供的資訊並不準確，需要加強，請謹慎使用。";
 		FLIGHT_PATHS_CHECKBOX = "飛行路線";
 		FLIGHT_PATHS_CHECKBOX_TOOLTIP = "啟用此選項以追蹤飛行路線和飛艇。\n\n要收藏這些資訊，請與每個大陸的飛行點/飛艇船長對話。\n\n注意：由於分階段技術，你可能必須分階段到區域的其他敵方，以獲得這些興趣點的開啟。";
 		--TODO: HEIRLOOMS_CHECKBOX = HEIRLOOMS;
