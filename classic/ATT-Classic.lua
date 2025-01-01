@@ -3586,6 +3586,7 @@ local speciesFields = {
 		---@diagnostic disable-next-line: undefined-field
 		return ("p:%d:1:3"):format(t.speciesID);
 	end,
+	["RefreshCollectionOnly"] = true,
 };
 local mountFields = {
 	IsClassIsolated = true,
@@ -3651,7 +3652,6 @@ if C_PetJournal and app.GameBuildVersion > 30000 then
 	speciesFields.description = function(t)
 		return select(6, C_PetJournal.GetPetInfoBySpeciesID(t.speciesID));
 	end
-	speciesFields.RefreshCollectionOnly = true
 	speciesFields.collected = function(t)
 		local count = C_PetJournal.GetNumCollectedInfo(t.speciesID);
 		return SetBattlePetCollected(t, t.speciesID, count and count > 0);
