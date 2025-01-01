@@ -15,6 +15,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 			ru = "Железное вторжение",
 			ko = "강철의 침략",
 			cn = "钢铁入侵",
+			tw = "鋼鐵入侵",
 		},
 		description = {
 			en = "If you are phased into the Invasion Blasted Lands and need to go to the pre-Invasion Blasted Lands, then you need to speak with Zidormi, who is standing on a small hill near the entrance of the zone from Swamp of Sorrows.",
