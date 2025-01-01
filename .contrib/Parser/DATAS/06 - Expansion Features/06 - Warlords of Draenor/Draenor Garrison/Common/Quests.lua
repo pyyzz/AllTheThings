@@ -2934,8 +2934,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.WOD, {
 				["races"] = ALLIANCE_ONLY,
 			}),
 			q(34733, {    -- Services of Dagg
-				--["sourceQuests"] = { TODO },	-- You need to open 2 cages in Frostfire Ridge at 39.52, 28.06 and 65.85, 60.84., probably 2 HQT there.
-				["coords"] = { { 48.6, 17.2, FROSTWALL }, { 61.6, 74.8, LUNARFALL } },
+				["sourceQuests"] = { 34651 },	-- Dagg
+				["provider"] = { "n", 79492 },	-- Dagg
+				["aqd"] = {
+					["coord"] = { 61.6, 74.8, LUNARFALL },
+				},
+				["hqd"] = {
+					["coord"] = { 48.6, 17.2, FROSTWALL },
+				},
 				["g"] = {
 					follower(32),    -- Follower: Dagg
 				},

@@ -1775,8 +1775,15 @@ root(ROOTS.Zones, {
 						},
 					}),
 					n(79473, {	-- Dagg
+						["provider"] = { "o", 230498 },	-- Thunderlord Cage
+						["sourceQuest"] = 34654,	-- Dagg
 						["questID"] = 34651,
 						["coord"] = { 65.9, 60.8, FROSTFIRE_RIDGE },
+					}),
+					n(79488, {	-- Dagg
+						["provider"] = { "o", 230506 },	-- Thunderlord Cage
+						["questID"] = 34654,
+						["coord"] = { 39.6, 28.0, FROSTFIRE_RIDGE },
 					}),
 					o(232218, {	-- Doorog's Secret Stash
 						["questID"] = 35370,
@@ -2070,7 +2077,6 @@ root(ROOTS.HiddenQuestTriggers, {
 		q(34510),	-- Tracking Event: Catapuls 'n' Clefthoof - triggers after riding the wolf down Bladespire Citadel during "Moving In" (questID 33657)
 		q(34453),	-- Tracking Event: Gazlowe Arrived
 		q(34511),	-- Tracking Event: Ogre Drag - triggers after riding the wolf down Bladespire Citadel during "Moving In" (questID 33657)
-		q(34654),	-- Tracking Flag: Dagg Found at Daggermaw Ravine - triggers when you open Dagg's cage at 39.6, 28.1
 		q(34715),	-- Tracking Flag: Shamanstone Summons - appoach the frostwolf shaman stone in Wor'gol while on "Honor Has Its Rewards" to start the dialog (questID 33816)
 		q(34521),	-- Treasure: Glowing Obsidian Shard - secondary quest triggered when looting Burning Pearl in Frostfire Ridge
 		q(34968),	-- Treasure: Ice-Covered Supplies - secondary quest triggered when looting Forgotten Supplies in Frostfire Ridge
