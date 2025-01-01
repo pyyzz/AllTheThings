@@ -214,7 +214,7 @@ localize(L.HEADER_NAMES, {
 	[-1000019] = "Exploration",
 	[-1000020] = FACTION,
 	[-1000021] = "Flight Paths",
-	[-1000025] = "Holiday",
+	[-1000025] = "Holidays",
 	[-1000026] = MINIMAP_TRACKING_MAILBOX,
 	[-1000027] = BRAWL_TOOLTIP_MAPS,
 	[-1000030] = TRADE_SKILLS,
@@ -322,7 +322,7 @@ localize(L.HEADER_NAMES, {
 	[-1000377] = "Wild Polymorph",
 	[-1000378] = "Soul Brokers",
 	[-1000380] = "Bounty",
-	[-1000872] = "Plunderstorm",
+	[-1000872] = WOWLABS_GAMEMODE_HEADER,
 	[-1000904] = "Source IDs",
 	[-1000968] = "The Blood Moon",
 	[-1000969] = "Nightmare Incursions",
@@ -557,42 +557,41 @@ _.Modules.Events.SetEventInformation(446916, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=19,["weekday"]=3,["year"]=2024},{["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=30,["weekday"]=3,["year"]=2024})
 });
 _.Modules.Events.SetEventInformation(181, {
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=17,["weekday"]=2,["year"]=2023},{["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=18,["weekday"]=3,["year"]=2023}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=17,["weekday"]=4,["year"]=2024},{["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=18,["weekday"]=5,["year"]=2024}),
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=17,["weekday"]=5,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=18,["weekday"]=6,["year"]=2025})
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=17,["weekday"]=5,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=18,["weekday"]=6,["year"]=2025}),
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=17,["weekday"]=6,["year"]=2026},{["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=18,["weekday"]=7,["year"]=2026})
 });
 _.Modules.Events.SetEventInformation(341, {
-	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=6,["monthDay"]=21,["weekday"]=4,["year"]=2023},{["hour"]=10,["minute"]=0,["month"]=7,["monthDay"]=5,["weekday"]=4,["year"]=2023}),
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=6,["monthDay"]=21,["weekday"]=6,["year"]=2024},{["hour"]=10,["minute"]=0,["month"]=7,["monthDay"]=5,["weekday"]=6,["year"]=2024}),
-	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=6,["monthDay"]=21,["weekday"]=7,["year"]=2025},{["hour"]=10,["minute"]=0,["month"]=7,["monthDay"]=5,["weekday"]=7,["year"]=2025})
+	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=6,["monthDay"]=21,["weekday"]=7,["year"]=2025},{["hour"]=10,["minute"]=0,["month"]=7,["monthDay"]=5,["weekday"]=7,["year"]=2025}),
+	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=6,["monthDay"]=21,["weekday"]=1,["year"]=2026},{["hour"]=10,["minute"]=0,["month"]=7,["monthDay"]=5,["weekday"]=1,["year"]=2026})
 });
 _.Modules.Events.SetEventInformation(327, {
-	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=20,["weekday"]=6,["year"]=2023},{["hour"]=10,["minute"]=0,["month"]=2,["monthDay"]=3,["weekday"]=6,["year"]=2023}),
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=20,["weekday"]=7,["year"]=2024},{["hour"]=10,["minute"]=0,["month"]=2,["monthDay"]=3,["weekday"]=7,["year"]=2024}),
-	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=20,["weekday"]=2,["year"]=2025},{["hour"]=10,["minute"]=0,["month"]=2,["monthDay"]=3,["weekday"]=2,["year"]=2025})
+	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=20,["weekday"]=2,["year"]=2025},{["hour"]=10,["minute"]=0,["month"]=2,["monthDay"]=3,["weekday"]=2,["year"]=2025}),
+	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=20,["weekday"]=3,["year"]=2026},{["hour"]=10,["minute"]=0,["month"]=2,["monthDay"]=3,["weekday"]=3,["year"]=2026})
 });
 _.Modules.Events.SetEventInformation(423, {
-	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=2,["monthDay"]=6,["weekday"]=2,["year"]=2023},{["hour"]=10,["minute"]=0,["month"]=2,["monthDay"]=20,["weekday"]=2,["year"]=2023}),
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=2,["monthDay"]=6,["weekday"]=3,["year"]=2024},{["hour"]=10,["minute"]=0,["month"]=2,["monthDay"]=20,["weekday"]=3,["year"]=2024}),
-	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=2,["monthDay"]=6,["weekday"]=5,["year"]=2025},{["hour"]=10,["minute"]=0,["month"]=2,["monthDay"]=20,["weekday"]=5,["year"]=2025})
+	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=2,["monthDay"]=6,["weekday"]=5,["year"]=2025},{["hour"]=10,["minute"]=0,["month"]=2,["monthDay"]=20,["weekday"]=5,["year"]=2025}),
+	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=2,["monthDay"]=6,["weekday"]=6,["year"]=2026},{["hour"]=10,["minute"]=0,["month"]=2,["monthDay"]=20,["weekday"]=6,["year"]=2026})
 });
 _.Modules.Events.SetEventInformation(321, {
-	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=9,["monthDay"]=6,["weekday"]=4,["year"]=2023},{["hour"]=10,["minute"]=0,["month"]=9,["monthDay"]=13,["weekday"]=4,["year"]=2023}),
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=9,["monthDay"]=6,["weekday"]=6,["year"]=2024},{["hour"]=10,["minute"]=0,["month"]=9,["monthDay"]=13,["weekday"]=6,["year"]=2024}),
-	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=9,["monthDay"]=6,["weekday"]=7,["year"]=2025},{["hour"]=10,["minute"]=0,["month"]=9,["monthDay"]=13,["weekday"]=7,["year"]=2025})
+	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=9,["monthDay"]=6,["weekday"]=7,["year"]=2025},{["hour"]=10,["minute"]=0,["month"]=9,["monthDay"]=13,["weekday"]=7,["year"]=2025}),
+	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=9,["monthDay"]=6,["weekday"]=1,["year"]=2026},{["hour"]=10,["minute"]=0,["month"]=9,["monthDay"]=13,["weekday"]=1,["year"]=2026})
 });
 _.Modules.Events.SetEventInformation(324, {
-	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=18,["weekday"]=4,["year"]=2023},{["hour"]=11,["minute"]=0,["month"]=11,["monthDay"]=1,["weekday"]=4,["year"]=2023}),
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=18,["weekday"]=6,["year"]=2024},{["hour"]=11,["minute"]=0,["month"]=11,["monthDay"]=1,["weekday"]=6,["year"]=2024}),
-	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=18,["weekday"]=7,["year"]=2025},{["hour"]=11,["minute"]=0,["month"]=11,["monthDay"]=1,["weekday"]=7,["year"]=2025})
+	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=18,["weekday"]=7,["year"]=2025},{["hour"]=11,["minute"]=0,["month"]=11,["monthDay"]=1,["weekday"]=7,["year"]=2025}),
+	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=18,["weekday"]=1,["year"]=2026},{["hour"]=11,["minute"]=0,["month"]=11,["monthDay"]=1,["weekday"]=1,["year"]=2026})
 });
 _.Modules.Events.SetEventInformation(141, {
-	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=12,["monthDay"]=16,["weekday"]=7,["year"]=2023},{["hour"]=6,["minute"]=0,["month"]=1,["monthDay"]=2,["weekday"]=3,["year"]=2024}),
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=12,["monthDay"]=16,["weekday"]=2,["year"]=2024},{["hour"]=6,["minute"]=0,["month"]=1,["monthDay"]=2,["weekday"]=5,["year"]=2025}),
-	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=12,["monthDay"]=16,["weekday"]=3,["year"]=2025},{["hour"]=6,["minute"]=0,["month"]=1,["monthDay"]=2,["weekday"]=6,["year"]=2026})
+	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=12,["monthDay"]=16,["weekday"]=3,["year"]=2025},{["hour"]=6,["minute"]=0,["month"]=1,["monthDay"]=2,["weekday"]=6,["year"]=2026}),
+	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=12,["monthDay"]=16,["weekday"]=4,["year"]=2026},{["hour"]=6,["minute"]=0,["month"]=1,["monthDay"]=2,["weekday"]=7,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(479, {
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=16,["weekday"]=2,["year"]=2024},{["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=23,["weekday"]=2,["year"]=2024},{["remappedID"]=374}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=30,["weekday"]=2,["year"]=2024},{["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=6,["weekday"]=2,["year"]=2025},{["remappedID"]=375}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=13,["weekday"]=2,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=20,["weekday"]=2,["year"]=2025},{["remappedID"]=374}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=27,["weekday"]=2,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=2,["monthDay"]=3,["weekday"]=2,["year"]=2025},{["remappedID"]=375}),
@@ -618,22 +617,23 @@ _.Modules.Events.SetEventInformation(479, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=3,["weekday"]=2,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=10,["weekday"]=2,["year"]=2025},{["remappedID"]=375}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=17,["weekday"]=2,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=24,["weekday"]=2,["year"]=2025},{["remappedID"]=374}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=1,["weekday"]=2,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=8,["weekday"]=2,["year"]=2025},{["remappedID"]=375}),
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=15,["weekday"]=2,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=22,["weekday"]=2,["year"]=2025},{["remappedID"]=374})
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=15,["weekday"]=2,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=22,["weekday"]=2,["year"]=2025},{["remappedID"]=374}),
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=29,["weekday"]=2,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=5,["weekday"]=2,["year"]=2026},{["remappedID"]=375})
 });
 _.Modules.Events.SetEventInformation(201, {
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=1,["weekday"]=2,["year"]=2023},{["hour"]=23,["minute"]=59,["month"]=5,["monthDay"]=7,["weekday"]=1,["year"]=2023}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=1,["weekday"]=4,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=5,["monthDay"]=7,["weekday"]=3,["year"]=2024}),
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=1,["weekday"]=5,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=5,["monthDay"]=7,["weekday"]=4,["year"]=2025})
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=1,["weekday"]=5,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=5,["monthDay"]=7,["weekday"]=4,["year"]=2025}),
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=1,["weekday"]=6,["year"]=2026},{["hour"]=23,["minute"]=59,["month"]=5,["monthDay"]=7,["weekday"]=5,["year"]=2026})
 });
 _.Modules.Events.SetEventInformation(133899, {
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=7,["year"]=2023},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=3,["year"]=2024}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=2,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=4,["year"]=2025}),
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=3,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=5,["year"]=2026})
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=3,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=5,["year"]=2026}),
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=4,["year"]=2026},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=6,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133889, {
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=2,["year"]=2023},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=6,["year"]=2023}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=4,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=1,["year"]=2024}),
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=5,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=2,["year"]=2025})
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=5,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=2,["year"]=2025}),
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=6,["year"]=2026},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=3,["year"]=2026})
 });
 
 -- Filter Database Module
@@ -3858,6 +3858,7 @@ localize(L.HEADER_NAMES, {
 	[-1000010] = "Gemeinsame Bossbeute",
 	[-1000015] = "Dämonenausbilderin",
 	[-1000019] = "Erkundung",
+	[-1000025] = "Feiertage",
 	[-1000034] = "Reitlehrerin",
 	[-1000040] = "Waffenmeisterin",
 	[-1000048] = "Drachen des Alptraums",
@@ -5038,6 +5039,7 @@ if simplifiedLocale == "fr" then
 localize(L.HEADER_NAMES, {
 	[-1000013] = "Objets communs des vendeurs",
 	[-1000015] = "Maître des démons",
+	[-1000025] = "Évènements saisonniers",
 	[-1000034] = "Instructrice de monte",
 	[-1000040] = "Maître d'armes",
 	[-1000048] = "Dragons du Cauchemar",
@@ -6227,6 +6229,8 @@ do achievementCategories[key].name = value; end
 end
 if simplifiedLocale == "it" then
 localize(L.HEADER_NAMES, {
+	[-1000025] = "Festività",
+	[-1000034] = "Istruttore di equitazione",
 	[-1000162] = "Aspetti Condivisi",
 	[-1000163] = "Aspetto unico",
 	[-1000168] = "I Cavalieri dell'Apocalisse",
@@ -6636,6 +6640,7 @@ end
 if simplifiedLocale == "pt" then
 localize(L.HEADER_NAMES, {
 	[-1000015] = "Treinamento de Demônios",
+	[-1000025] = "Feriados",
 	[-1000034] = "Treinamento de Montaria",
 	[-1000040] = "Mestre de Armas",
 	[-1000162] = "Aparências Compartilhadas",
@@ -7657,6 +7662,7 @@ localize(L.HEADER_NAMES, {
 	[-1000015] = "Наставник демонов",
 	[-1000019] = "Исследование",
 	[-1000021] = "Точка полета",
+	[-1000025] = "Праздники",
 	[-1000032] = "Редкие",
 	[-1000034] = "Учитель верховой езды",
 	[-1000038] = "Сундук с сокровищами",
@@ -7704,7 +7710,6 @@ localize(L.HEADER_NAMES, {
 	[-1000377] = "Дикий полиморф",
 	[-1000378] = "Душевные брокеры",
 	[-1000380] = "Премия",
-	[-1000872] = "Пиратская буря",
 	[-1000970] = "Уровень 3",
 	[-1000996] = "Штормовые утесы",
 	[-1000998] = "Гниющий Шрам",
@@ -8915,6 +8920,7 @@ localize(_.CategoryNames, {
 });
 localize(L.HEADER_NAMES, {
 	[-1000015] = "악마 훈련사",
+	[-1000025] = "축제",
 	[-1000034] = "전문 기수",
 	[-1000040] = "무기 전문가",
 	[-1000162] = "공유된 모습",
@@ -8931,6 +8937,7 @@ localize(L.HEADER_NAMES, {
 	[-1000227] = "가시덤불 골짜기 낚시왕 선발대회",
 	[-1000235] = "어둠의 문 열기",
 	[-1000236] = "흐르는 모래의 홀",
+	[-1000243] = "블리즈컨",
 	[-1000273] = "발견의 계절",
 	[-1000274] = "이해력",
 	[-1000275] = "층 1",
@@ -9991,6 +9998,7 @@ end
 if simplifiedLocale == "es" then
 localize(L.HEADER_NAMES, {
 	[-1000015] = "Instructor de demonios",
+	[-1000025] = "Festividades",
 	[-1000034] = "Instructora de equitación",
 	[-1000040] = "Maestro armero",
 	[-1000162] = "Apariciones Compartidas",
@@ -11157,10 +11165,11 @@ localize(_.CategoryNames, {
 });
 localize(L.HEADER_NAMES, {
 	[-1000010] = "首领共同掉落",
-	[-1000013] = "常规商人物品",
+	[-1000013] = "商人共同物品",
 	[-1000015] = "恶魔训练师",
 	[-1000019] = "探索",
 	[-1000021] = "飞行路线",
+	[-1000025] = "节日",
 	[-1000032] = "稀有",
 	[-1000034] = "骑术训练师",
 	[-1000038] = "宝箱",
@@ -12203,23 +12212,36 @@ for key,value in pairs({
 do achievementCategories[key].name = value; end
 if GetLocale():sub(3,4):lower() == "tw" then
 localize(_.CategoryNames, {
+	[106] = "卡片",
 	[233] = "背包",
 	[250] = "背包",
 });
 localize(L.HEADER_NAMES, {
 	[-1000010] = "首領共通掉落",
+	[-1000013] = "商人共通物品",
 	[-1000015] = "惡魔訓練師",
 	[-1000021] = "飛行路線",
-	[-1000025] = "節慶用品",
+	[-1000025] = "節慶",
+	[-1000034] = "騎術訓練師",
 	[-1000038] = "寶箱",
 	[-1000040] = "武器大師",
 	[-1000042] = "世界首領",
 	[-1000044] = "地區掉落",
 	[-1000048] = "夢魘之龍",
+	[-1000142] = "榮譽頭銜",
+	[-1000162] = "共享外觀",
+	[-1000163] = "獨特外觀",
 	[-1000165] = "T0.5套裝",
 	[-1000173] = DUNGEON_FLOOR_DIREMAUL5.." (東)",
 	[-1000201] = "暗月馬戲團",
+	[-1000215] = "冬幕節",
+	[-1000218] = "收穫節",
+	[-1000223] = "仲夏火焰節慶",
+	[-1000227] = "荊棘谷釣魚大賽",
 	[-1000234] = "安其拉之戰捐獻",
+	[-1000236] = "流沙節杖",
+	[-1000237] = "天譴入侵",
+	[-1000243] = "暴雪嘉年華",
 	[-1000273] = "探索賽季",
 	[-1000275] = "等級 1",
 	[-1000276] = "等級 2",
@@ -12228,12 +12250,14 @@ localize(L.HEADER_NAMES, {
 	[-1000281] = "採集",
 	[-1000969] = "夢魘入侵",
 	[-1000970] = "等級 3",
+	[-1001035] = "季節性魚類：夏日鱸魚",
+	[-1001036] = "季節性魚類：冬魷魚",
 	[-1001058] = "夢魘林地",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000015] = "術士可以教導他們的惡魔新技能，一些高等級的魔典只能從你陣營首都的惡魔訓練師那裡購買。",
 	[-1000025] = "你可能需要在特定節日的活動中才能完成本節中的事物。",
-	[-1000040] = "武器大師是一个 NPC，為角色提供學習特定武器技能的機會，不同武器大師的可用性各不相同。所有武器技能都可以在 1 级進行訓練，長柄武器除外，需要 20 级。\n\n在更新 4.0.1 中，武器大師的訓練已经過時，因為现在每个職業在創建时都會學習所有適合該職業的武器熟練度。不久之後，武器大師就被從遊戲中删除了。",
+	[-1000040] = "武器大師是一個 NPC，為角色提供學習特定武器技能的機會，不同武器大師的可用性各不相同。所有武器技能都可以在 1 级進行訓練，長柄武器除外，需要 20 级。\n\n在更新 4.0.1 中，武器大師的訓練已经過時，因為现在每個職業在創建时都會學習所有適合該職業的武器熟練度。不久之後，武器大師就被從遊戲中删除了。",
 	[-1000173] = "副本的這部分可以從最東邊的傳送門進入。（右側）",
 	[-1000174] = "副本的這部分可以從最北邊的傳送門進入。",
 	[-1000175] = "副本的這部分可以從最西邊的傳送門進入。（左側）",
@@ -12244,6 +12268,9 @@ localize(L.HEADER_LORE, {
 	[-1000048] = "這些龍中的一隻會在艾澤拉斯的相關座標隨機生成。",
 });
 localize(ObjectNames, {
+	[179697] = "競技場寶箱",
+	[180456] = "次級風石",
+	[180461] = "風石",
 	[405633] = "石齶置物箱",
 });
 for key,value in pairs({
@@ -12265,7 +12292,7 @@ for key,value in pairs({
 	[1] = "|cFFFF0000此項玩家永遠無法獲得。|r",
 	[2] = "|cFFFF0000此項已從遊戲中刪除。|r",
 	[3] = "|cFFAAFFAA這被鎖定在付費牆後面，例如遊戲內商店、另一個暴雪產品或招兵買馬召集令。|r",
-	[4] = "|cFFFFAAAA除非您擁有所需的 PvP 稱號、所需的 PvP 等級或處於該賽季的前 %，否則無法再購買或解鎖塑形。|r",
+	[4] = "|cFFFFAAAA除非您擁有所需的 PvP 頭銜、所需的 PvP 等級或處於該賽季的前 %，否則無法再購買或解鎖塑形。|r",
 	[5] = "|cFFFFAAAA這不能永久收集、學習或用於塑形。|r",
 	[11] = "|cFFAAFFAA該功能直到 Phase 1 的 WoW Classic 才可用。|r",
 	[1606] = "|cFFAAFFAA該功能直到 第2階段 的 Season of Discovery 才可用。|r",

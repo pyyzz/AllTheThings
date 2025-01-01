@@ -477,7 +477,7 @@ localize(L.HEADER_NAMES, {
 	[-1000019] = "Exploration",
 	[-1000020] = FACTION,
 	[-1000021] = "Flight Paths",
-	[-1000025] = "Holiday",
+	[-1000025] = "Holidays",
 	[-1000026] = MINIMAP_TRACKING_MAILBOX,
 	[-1000027] = BRAWL_TOOLTIP_MAPS,
 	[-1000030] = TRADE_SKILLS,
@@ -616,7 +616,7 @@ localize(L.HEADER_NAMES, {
 	[-1000299] = select(2,GetAchievementInfo(15218)),
 	[-1000373] = "New Character",
 	[-1000380] = "Bounty",
-	[-1000872] = "Plunderstorm",
+	[-1000872] = WOWLABS_GAMEMODE_HEADER,
 	[-1000904] = "Source IDs",
 	[-1001035] = "Seasonal Fish: Summer Bass",
 	[-1001036] = "Seasonal Fish: Winter Squid",
@@ -857,19 +857,19 @@ _.Modules.Events.SetEventInformation(1262, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=6,["weekday"]=1,["year"]=2022},{["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=27,["weekday"]=1,["year"]=2022})
 });
 _.Modules.Events.SetEventInformation(590, {
-	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=1,["year"]=2023},{["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=1,["year"]=2024}),
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=3,["year"]=2024},{["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=3,["year"]=2025}),
-	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=4,["year"]=2025},{["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=4,["year"]=2026})
+	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=4,["year"]=2025},{["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=4,["year"]=2026}),
+	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=22,["weekday"]=5,["year"]=2026},{["hour"]=10,["minute"]=0,["month"]=1,["monthDay"]=7,["weekday"]=5,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133899, {
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=7,["year"]=2023},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=3,["year"]=2024}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=2,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=4,["year"]=2025}),
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=3,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=5,["year"]=2026})
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=3,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=5,["year"]=2026}),
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=4,["year"]=2026},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=6,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133889, {
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=2,["year"]=2023},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=6,["year"]=2023}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=4,["year"]=2024},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=1,["year"]=2024}),
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=5,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=2,["year"]=2025})
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=5,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=2,["year"]=2025}),
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=20,["weekday"]=6,["year"]=2026},{["hour"]=23,["minute"]=59,["month"]=9,["monthDay"]=22,["weekday"]=3,["year"]=2026})
 });
 
 -- Filter Database Module
@@ -4795,6 +4795,7 @@ if simplifiedLocale == "de" then
 localize(L.HEADER_NAMES, {
 	[-1000010] = "Gemeinsame Bossbeute",
 	[-1000019] = "Erkundung",
+	[-1000025] = "Feiertage",
 	[-1000040] = "Waffenmeisterin",
 	[-1000048] = "Drachen des Alptraums",
 	[-1000132] = "Hasserfüllten Gladiator",
@@ -6078,6 +6079,7 @@ end
 if simplifiedLocale == "fr" then
 localize(L.HEADER_NAMES, {
 	[-1000013] = "Objets communs des vendeurs",
+	[-1000025] = "Évènements saisonniers",
 	[-1000040] = "Maître d'armes",
 	[-1000048] = "Dragons du Cauchemar",
 	[-1000055] = "Événement chronométré",
@@ -7388,6 +7390,7 @@ do achievements[key].description = value; end
 end
 if simplifiedLocale == "it" then
 localize(L.HEADER_NAMES, {
+	[-1000025] = "Festività",
 	[-1000132] = "Gladiatore Perfido",
 	[-1000162] = "Aspetti Condivisi",
 	[-1000163] = "Aspetto unico",
@@ -8300,6 +8303,7 @@ do phases[key].description = value; end
 end
 if simplifiedLocale == "pt" then
 localize(L.HEADER_NAMES, {
+	[-1000025] = "Feriados",
 	[-1000040] = "Mestre de Armas",
 	[-1000132] = "Gladiador Odioso",
 	[-1000162] = "Aparências Compartilhadas",
@@ -9507,6 +9511,7 @@ localize(L.HEADER_NAMES, {
 	[-1000013] = "Обычные предметы у Торговцев",
 	[-1000019] = "Исследование",
 	[-1000021] = "Точка полета",
+	[-1000025] = "Праздники",
 	[-1000032] = "Редкие",
 	[-1000038] = "Сундук с сокровищами",
 	[-1000040] = "Эксперт по оружию",
@@ -9561,7 +9566,6 @@ localize(L.HEADER_NAMES, {
 	[-1000284] = "Годовщина WoW",
 	[-1000373] = "Новый персонаж",
 	[-1000380] = "Премия",
-	[-1000872] = "Пиратская буря",
 	[-1001035] = "Сезонная рыба: летний окунь",
 	[-1001036] = "Сезонная рыба: зимний кальмар",
 	[-1001051] = "Защитный протокол \"Альфа\"",
@@ -11018,6 +11022,7 @@ localize(_.CategoryNames, {
 	[1011] = "등",
 });
 localize(L.HEADER_NAMES, {
+	[-1000025] = "축제",
 	[-1000040] = "무기 전문가",
 	[-1000132] = "원한에 검투사",
 	[-1000162] = "공유된 모습",
@@ -11034,6 +11039,7 @@ localize(L.HEADER_NAMES, {
 	[-1000227] = "가시덤불 골짜기 낚시왕 선발대회",
 	[-1000235] = "어둠의 문 열기",
 	[-1000236] = "흐르는 모래의 홀",
+	[-1000243] = "블리즈컨",
 	[-1000373] = "새로운 캐릭터",
 	[-1000380] = "하사품",
 	[-1001035] = "제철 생선: 여름 농어",
@@ -12214,6 +12220,7 @@ do achievements[key].description = value; end
 end
 if simplifiedLocale == "es" then
 localize(L.HEADER_NAMES, {
+	[-1000025] = "Festividades",
 	[-1000040] = "Maestro armero",
 	[-1000132] = "Gladiador Odioso",
 	[-1000162] = "Apariciones Compartidas",
@@ -13485,9 +13492,10 @@ localize(_.CategoryNames, {
 });
 localize(L.HEADER_NAMES, {
 	[-1000010] = "首领共同掉落",
-	[-1000013] = "常规商人物品",
+	[-1000013] = "商人共同物品",
 	[-1000019] = "探索",
 	[-1000021] = "飞行路线",
+	[-1000025] = "节日",
 	[-1000032] = "稀有",
 	[-1000038] = "宝箱",
 	[-1000039] = "商人",
@@ -14657,6 +14665,7 @@ for key,value in pairs({
 do achievements[key].description = value; end
 if GetLocale():sub(3,4):lower() == "tw" then
 localize(_.CategoryNames, {
+	[106] = "卡片",
 	[233] = "背包",
 	[250] = "背包",
 	[916] = "背包",
@@ -14666,27 +14675,101 @@ localize(_.CategoryNames, {
 });
 localize(L.HEADER_NAMES, {
 	[-1000010] = "首領共通掉落",
+	[-1000013] = "商人共通物品",
 	[-1000021] = "飛行路線",
-	[-1000025] = "節慶用品",
+	[-1000025] = "節慶",
 	[-1000038] = "寶箱",
 	[-1000040] = "武器大師",
 	[-1000042] = "世界首領",
 	[-1000044] = "地區掉落",
 	[-1000048] = "夢魘之龍",
+	[-1000055] = "限時事件",
+	[-1000142] = "榮譽頭銜",
+	[-1000162] = "共享外觀",
+	[-1000163] = "獨特外觀",
 	[-1000165] = "T0.5套裝",
 	[-1000173] = DUNGEON_FLOOR_DIREMAUL5.." (東)",
 	[-1000201] = "暗月馬戲團",
+	[-1000207] = "亡者節",
+	[-1000215] = "冬幕節",
+	[-1000218] = "收穫節",
+	[-1000219] = "卡魯耶克釣魚大賽",
+	[-1000223] = "仲夏火焰節慶",
+	[-1000226] = "海盜節",
+	[-1000227] = "荊棘谷釣魚大賽",
+	[-1000232] = "元素入侵",
 	[-1000234] = "安其拉之戰捐獻",
+	[-1000236] = "流沙節杖",
+	[-1000237] = "天譴入侵",
+	[-1000243] = "暴雪嘉年華",
+	[-1000245] = "英雄版",
+	[-1000246] = "史詩版",
+	[-1000247] = "燃燒的遠征：經典版 - 豪華版",
+	[-1000248] = "巫妖王之怒：經典版 - 北裂境升級",
+	[-1000249] = "浩劫與重生：經典版 - 熾炎升級",
+	[-1000256] = "星海爭霸II：自由之翼",
+	[-1000284] = "《魔獸世界》週年紀念",
+	[-1001035] = "季節性魚類：夏日鱸魚",
+	[-1001036] = "季節性魚類：冬魷魚",
+	[-1001051] = "防禦系統阿爾法",
+	[-1001052] = "防禦系統 Beta",
+	[-1001053] = "防禦系統伽瑪",
 });
 localize(L.HEADER_DESCRIPTIONS, {
 	[-1000025] = "你可能需要在特定節日的活動中才能完成本節中的事物。",
-	[-1000040] = "武器大師是一个 NPC，為角色提供學習特定武器技能的機會，不同武器大師的可用性各不相同。所有武器技能都可以在 1 级進行訓練，長柄武器除外，需要 20 级。\n\n在更新 4.0.1 中，武器大師的訓練已经過時，因為现在每个職業在創建时都會學習所有適合該職業的武器熟練度。不久之後，武器大師就被從遊戲中删除了。",
+	[-1000040] = "武器大師是一個 NPC，為角色提供學習特定武器技能的機會，不同武器大師的可用性各不相同。所有武器技能都可以在 1 级進行訓練，長柄武器除外，需要 20 级。\n\n在更新 4.0.1 中，武器大師的訓練已经過時，因為现在每個職業在創建时都會學習所有適合該職業的武器熟練度。不久之後，武器大師就被從遊戲中删除了。",
 	[-1000173] = "副本的這部分可以從最東邊的傳送門進入。（右側）",
 	[-1000174] = "副本的這部分可以從最北邊的傳送門進入。",
 	[-1000175] = "副本的這部分可以從最西邊的傳送門進入。（左側）",
+	[-1000284] = "這是一個每年重複的活動，發生在十一月初到年底之間。",
 });
 localize(L.HEADER_LORE, {
 	[-1000048] = "這些龍中的一隻會在艾澤拉斯的相關座標隨機生成。",
+});
+localize(ObjectNames, {
+	[21581] = "第二次獸人戰爭的結局",
+	[21582] = "跨越黑暗之門",
+	[21583] = "卡多雷和永恆之井",
+	[175724] = "薩格拉斯的背叛",
+	[175725] = "上古諸神和艾澤拉斯的創世",
+	[175726] = "巨龍軍團",
+	[175727] = "先祖之戰",
+	[175729] = "海加爾山跟伊利丹的禮物",
+	[175730] = "世界之樹與翡翠夢境",
+	[175731] = "高等精靈的流放",
+	[175732] = "哨兵的漫長守望",
+	[175733] = "奎爾薩拉斯的建立",
+	[175734] = "阿拉索與食人妖戰爭",
+	[175735] = "提里斯法的守護者",
+	[175736] = "鐵爐堡 - 矮人的覺醒",
+	[175737] = "七大王國",
+	[175738] = "艾格文和獵龍之戰",
+	[175739] = "三錘之戰",
+	[175740] = "最後的守護者",
+	[175741] = "基爾加丹和暗影契約",
+	[175745] = "黑暗之門和暴風城的陷落",
+	[175746] = "羅德隆聯盟",
+	[175747] = "遠征德拉諾",
+	[175748] = "巫妖王的誕生",
+	[175749] = "寒冰皇冠與冰封王座",
+	[175750] = "格瑞姆巴托之戰",
+	[175751] = "獸人的消沉",
+	[175753] = "蜘蛛之戰",
+	[175754] = "科爾蘇加德和天譴軍團的建立",
+	[175756] = "羅德隆的天譴軍團",
+	[175757] = "太陽之井 - 奎爾薩拉斯的陷落",
+	[175758] = "阿克蒙德歸來以及逃亡卡林多",
+	[175759] = "背叛者的勝利",
+	[175760] = "血精靈的崛起",
+	[175761] = "瘟疫之地的內戰",
+	[175762] = "巫妖王的勝利",
+	[175763] = "古老的仇恨 - 卡林多殖民研究",
+	[175854] = "兩個帝國",
+	[175855] = "帝國殞落",
+	[175856] = "奪魂者之怒",
+	[179697] = "競技場寶箱",
+	[180456] = "次級風石",
+	[180461] = "風石",
 });
 for i,objectID in ipairs(CANDY_BUCKETS) do ObjectNames[objectID] = "糖果桶"; end
 for key,value in pairs({
@@ -14711,7 +14794,7 @@ for key,value in pairs({
 	[1] = "|cFFFF0000此項玩家永遠無法獲得。|r",
 	[2] = "|cFFFF0000此項已從遊戲中刪除。|r",
 	[3] = "|cFFAAFFAA這被鎖定在付費牆後面，例如遊戲內商店、另一個暴雪產品或招兵買馬召集令。|r",
-	[4] = "|cFFFFAAAA除非您擁有所需的 PvP 稱號、所需的 PvP 等級或處於該賽季的前 %，否則無法再購買或解鎖塑形。|r",
+	[4] = "|cFFFFAAAA除非您擁有所需的 PvP 頭銜、所需的 PvP 等級或處於該賽季的前 %，否則無法再購買或解鎖塑形。|r",
 	[5] = "|cFFFFAAAA這不能永久收集、學習或用於塑形。|r",
 	[11] = "|cFFAAFFAA該功能直到 Phase 1 的 WoW Classic 才可用。|r",
 	[12] = "|cFFAAFFAA該功能直到 Phase 2 的 WoW Classic 才可用。|r",
