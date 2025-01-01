@@ -9,6 +9,7 @@ local GARRISON_CAMPAIGN = createHeader({
 		de = "Garnisonskampagne",
 		ru = "Гарнизонная кампания",
 		cn = "要塞战役",
+		tw = "要塞戰役",
 	},
 })
 
