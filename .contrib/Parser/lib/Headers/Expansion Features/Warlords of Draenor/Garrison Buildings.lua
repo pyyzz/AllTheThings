@@ -10,5 +10,6 @@ BUILDINGS = createHeader({
 		de = "Gebäude",
 		ru = "Строения",
 		cn = "建筑",
+		tw = "建築",
 	},
 });
