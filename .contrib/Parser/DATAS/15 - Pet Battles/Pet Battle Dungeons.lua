@@ -10,6 +10,7 @@ PET_BATTLE_DUNGEONS = createHeader({
 		fr = "Mascotte des combat des donjons",
 		ru = "Подземелья Боевых питомцев",
 		cn = "宠物对战地下城",
+		tw = "寵物對戰挑戰",
 	},
 });
 root(ROOTS.PetBattles, bubbleDown({ ["timeline"] = { ADDED_7_2_0 } }, {
