@@ -1295,13 +1295,19 @@ root(ROOTS.Instances, expansion(EXPANSION.WOD, bubbleDown({ ["timeline"] = { ADD
 						["races"] = HORDE_ONLY,
 					}),
 				})),
-			})
+			}),
+			n(TREASURES, {
+				o(237452, {	-- Iron Horde Chest
+					["coord"] = { 51.8, 44.9, 599 },	-- Iron Assembly
+					["questID"] = 34405,
+				}),
+			}),
 		},
 	}),
 })));
 
-root(ROOTS.HiddenQuestTriggers, {
-	expansion(EXPANSION.WOD, {
-		q(34405),	-- DEPRECATED - REUSE - triggers after looting Blackrock Ore chest after Operator Thogar in LFR Blackrock Foundry
-	}),
-});
+-- root(ROOTS.HiddenQuestTriggers, {
+-- 	expansion(EXPANSION.WOD, {
+-- 		q(34405),	-- DEPRECATED - REUSE - triggers after looting Blackrock Ore chest after Operator Thogar in LFR Blackrock Foundry
+-- 	}),
+-- });
