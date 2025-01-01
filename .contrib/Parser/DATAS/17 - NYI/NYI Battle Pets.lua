@@ -947,9 +947,6 @@ root(ROOTS.NeverImplemented, filter(BATTLE_PETS, {
 				-- ["displayID"] = ,
 			}),
 			-- With SpeciesID Attached
-			i(166358, {	-- Proper Parrot (PET!)
-				["displayID"] = 80413,
-			}),
 			i(164629, {	-- Test Pet (PET!)
 				["displayID"] = 38484,
 			}),

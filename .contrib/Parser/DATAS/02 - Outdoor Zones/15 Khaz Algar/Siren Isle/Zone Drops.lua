@@ -14,6 +14,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 			i(234816, {	-- Overflowing Bag of Iron
 				["description"] = "Contains around 550 Currency.",
 			}),
+			i(166358, {	-- Proper Parrot (PET!)
+				["description"] = "Drops randomly from Pirates.",
+			}),
 			i(233499, {	-- Royal Snapdragon Treat
 				["description"] = "Can be looted from Naga",
 				-- n: 229851 (debugger)

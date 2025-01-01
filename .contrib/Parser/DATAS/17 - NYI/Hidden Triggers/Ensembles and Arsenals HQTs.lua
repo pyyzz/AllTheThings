@@ -591,6 +591,7 @@ q(65568),	-- Arsenal: Blades of Elune
 q(82247),	-- Arsenal: Blazing Felfire Armaments
 q(84828),	-- Arsenal: Crests of the Kingdom
 q(82319),	-- Arsenal: Fireborn Blades
+q(86344),	-- Arsenal: Green Clockwork Contraptions Collection
 q(82318),	-- Arsenal: Seaborn Blades
 q(79314),	-- Arsenal: Skyborn Blades
 q(81997),	-- Arsenal: Stormrider's Bronze Stormhammers
@@ -626,6 +627,7 @@ q(65502),	-- Ensemble: Fel-Automaton Exoplate
 q(80172),	-- Ensemble: Gladiator's Battered Armor
 q(79708),	-- Ensemble: Gleaming Burden of Unrelenting Justice
 q(72070),	-- Ensemble: Glorious Dragonrider's Mail
+q(86334)	-- Ensemble: Golden Clockwork Attire
 q(86335),	-- Ensemble: Green Clockwork Attire
 q(72133),	-- Ensemble: Helarjar Berserker Warplate
 q(72132),	-- Ensemble: Kvaldir Scout Leathers
@@ -633,6 +635,7 @@ q(79209),	-- Ensemble: Love Witch's Attire
 q(79709),	-- Ensemble: Moonlit Burden of Unrelenting Justice
 q(83712),	-- Ensemble: Plunderlord's Radiant Finery
 q(85119),	-- Ensemble: Prowler's Azure Headgear
+q(85130)	-- Ensemble: Prowler's Carrot Headgear
 q(85131),	-- Ensemble: Prowler's Crimson Headgear
 q(85128),	-- Ensemble: Prowler's Icy Headgear
 q(85134),	-- Ensemble: Prowler's Snowy Headgear

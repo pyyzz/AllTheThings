@@ -89,7 +89,6 @@ root(ROOTS.Unsorted, {
 			i(233092),	-- Short Violet War Skirt
 			i(233093),	-- Short Aquatic War Skirt
 			i(233094),	-- Short Snowy War Skirt
-			i(233095),	-- Short Sunny War Skirt
 			i(233096),	-- Long Midnight War Skirt
 			i(233097),	-- Long Azure War Skirt
 			i(233098),	-- Long Sepia War Skirt
@@ -106,7 +105,6 @@ root(ROOTS.Unsorted, {
 			i(233109),	-- Long Violet War Skirt
 			i(233110),	-- Long Aquatic War Skirt
 			i(233111),	-- Long Snowy War Skirt
-			i(233112),	-- Long Sunny War Skirt
 			i(233116),	-- Short Midnight War Skirt and Leg Wraps
 			i(233117),	-- Short Azure War Skirt and Leg Wraps
 			i(233120),	-- Short Sepia War Skirt and Leg Wraps
@@ -123,7 +121,6 @@ root(ROOTS.Unsorted, {
 			i(233131),	-- Short Violet War Skirt and Leg Wraps
 			i(233132),	-- Short Aquatic War Skirt and Leg Wraps
 			i(233133),	-- Short Snowy War Skirt and Leg Wraps
-			i(233134),	-- Short Sunny War Skirt and Leg Wraps
 			i(233135),	-- Long Midnight War Skirt and Leg Wraps
 			i(233136),	-- Long Azure War Skirt and Leg Wraps
 			i(233137),	-- Long Sepia War Skirt and Leg Wraps
@@ -140,7 +137,6 @@ root(ROOTS.Unsorted, {
 			i(233148),	-- Long Violet War Skirt and Leg Wraps
 			i(233149),	-- Long Aquatic War Skirt and Leg Wraps
 			i(233150),	-- Long Snowy War Skirt and Leg Wraps
-			i(233151),	-- Long Sunny War Skirt and Leg Wraps
 			i(233152),	-- Banded Midnight War Wraps
 			i(233153),	-- Banded Azure War Wraps
 			i(233154),	-- Banded Sepia War Wraps
@@ -157,7 +153,6 @@ root(ROOTS.Unsorted, {
 			i(233165),	-- Banded Violet War Wraps
 			i(233166),	-- Banded Aquatic War Wraps
 			i(233167),	-- Banded Snowy War Wraps
-			i(233168),	-- Banded Sunny War Wraps
 			i(233169),	-- Banded Midnight War Slippers
 			i(233170),	-- Banded Azure War Slippers
 			i(233171),	-- Banded Sepia War Slippers
@@ -174,7 +169,6 @@ root(ROOTS.Unsorted, {
 			i(233182),	-- Banded Violet War Slippers
 			i(233183),	-- Banded Aquatic War Slippers
 			i(233184),	-- Banded Snowy War Slippers
-			i(233185),	-- Banded Sunny War Slippers
 			i(233207),	-- The Coward's Azure Target
 			i(233218),	-- Crimson Lunar Lantern
 			i(233219),	-- Azure Lunar Lantern
@@ -198,55 +192,33 @@ root(ROOTS.Unsorted, {
 			i(233239),	-- Sunny Pack of Lunar Explosives
 			i(233253),	-- Purple Clockwork Mace
 			i(233254),	-- Blue Clockwork Mace
-			i(233255),	-- Green Clockwork Mace
 			i(233256),	-- Cobalt Clockwork Doomfist
-			i(233257),	-- Golden Clockwork Doomfist
-			i(233258),	-- Green Clockwork Doomfist
 			i(233259),	-- Purple Clockwork Doomfist
 			i(233268),	-- Long-Range Violet Clockstopper
 			i(233269),	-- Long-Range Cobalt Clockstopper
-			i(233270),	-- Long-Range Golden Clockstopper
-			i(233271),	-- Long-Range Green Clockstopper
 			i(233272),	-- Steam-Powered Cobalt Clock Cloak
-			i(233274),	-- Steam-Powered Green Clock Cloak
 			i(233275),	-- Steam-Powered Violet Clock Cloak
-			i(233277),	-- Golden Clockwork Defender
 			i(233278),	-- Cobalt Clockwork Defender
-			i(233279),	-- Green Clockwork Defender
 			i(233280),	-- Violet Clockwork Defender
 			i(233291),	-- Cobalt Clockwork Cap
-			i(233292),	-- Golden Clockwork Cap
 			i(233294),	-- Violet Clockwork Cap
 			i(233295),	-- Cobalt Clockwork Pauldrons
-			i(233296),	-- Golden Clockwork Pauldrons
 			i(233301),	-- Violet Clockwork Pauldrons
 			i(233302),	-- Cobalt Clockwork Uniform
-			i(233303),	-- Golden Clockwork Uniform
 			i(233305),	-- Violet Clockwork Uniform
 			i(233306),	-- Cobalt Clockwork Leggings
-			i(233307),	-- Golden Clockwork Leggings
 			i(233309),	-- Violet Clockwork Leggings
 			i(233310),	-- Cobalt Clockwork Belt
-			i(233311),	-- Golden Clockwork Belt
 			i(233313),	-- Violet Clockwork Belt
 			i(233314),	-- Cobalt Clockwork Bracer
-			i(233315),	-- Golden Clockwork Bracer
 			i(233317),	-- Violet Clockwork Bracer
 			i(233318),	-- Cobalt Clockwork Glove
-			i(233319),	-- Golden Clockwork Glove
 			i(233321),	-- Violet Clockwork Glove
 			i(233322),	-- Cobalt Clockwork Boots
-			i(233323),	-- Golden Clockwork Boots
 			i(233325),	-- Violet Clockwork Boots
 			i(233327),	-- Cobalt Clockwork Attire
-			i(233328),	-- Ensemble: Golden Clockwork Attire
 			i(233330),	-- Violet Clockwork Attire
 			i(233331),	-- Aura of Zealotry
-			i(233354),	-- Savage Alabaster Battle Turtle
-			i(233355),	-- Bronze Helm of Righteousness
-			i(233359),	-- Green Clockwork Contraptions Collection
-			i(233360),	-- Gold-Reinforced Cushioned Boots
-			i(233366),	-- Wind-Up Woofer
 			i(233495),	-- [PH] Snapdragon Treat 03
 			i(233650),	-- Call Galefeather
 			i(233913),	-- [PH] Shield
@@ -287,7 +259,6 @@ root(ROOTS.Unsorted, {
 			i(234424),	-- Keg-Leg's Bronze Spoils
 			i(234450),	-- Pirate's Booty
 			i(234453),	-- Swabbie's Lockbox
-			i(234456),	-- Crystal-splintered Rubble
 			i(234470),	-- Forgemaster's Focus
 			i(234471),	-- Earthen Device
 			i(234472),	-- Earthen Crystal
@@ -346,7 +317,6 @@ root(ROOTS.Unsorted, {
 			i(235041),	-- Cyrce's Circlet
 			i(235050),	-- Desk-In-A-Box
 			i(235330),	-- Steam-Pressed Cobalt Cloak
-			i(235331),	-- Steam-Pressed Golden Cloak
 			i(235333),	-- Steam-Pressed Violet Cloak
 			i(235378),	-- Landro's Loot Box
 			i(231760),	-- Notes on Ancient Treasure
@@ -546,7 +516,6 @@ root(ROOTS.Unsorted, {
 				i(230040),	-- Prowler's Camo Shoulder Cape
 				i(230041),	-- Prowler's Lively Shoulder Cape
 				i(230044),	-- Prowler's Pink Shoulder Cape
-				i(230045),	-- Prowler's Carrot Shoulder Cape
 				i(230046),	-- Prowler's Rosy Shoulder Cape
 				i(230047),	-- Prowler's Plum Shoulder Cape
 				i(230050),	-- Prowler's Aquatic Shoulder Cape
@@ -560,7 +529,6 @@ root(ROOTS.Unsorted, {
 				i(230061),	-- Prowler's Brick Cowl
 				i(230062),	-- Prowler's Lively Cowl
 				i(230065),	-- Prowler's Pink Cowl
-				i(230066),	-- Prowler's Carrot Cowl
 				i(230067),	-- Prowler's Rosy Cowl
 				i(230068),	-- Prowler's Plum Cowl
 				i(230069),	-- Prowler's Crimson Cowl
@@ -577,7 +545,6 @@ root(ROOTS.Unsorted, {
 				i(230081),	-- Prowler's Brick Mask
 				i(230082),	-- Prowler's Lively Mask
 				i(230085),	-- Prowler's Pink Mask
-				i(230086),	-- Prowler's Carrot Mask
 				i(230087),	-- Prowler's Rosy Mask
 				i(230088),	-- Prowler's Plum Mask
 				i(230089),	-- Prowler's Crimson Mask
@@ -593,7 +560,6 @@ root(ROOTS.Unsorted, {
 				i(230171),	-- Ensemble: Prowler's Brick Headgear
 				i(230172),	-- Ensemble: Prowler's Lively Headgear
 				i(230175),	-- Ensemble: Prowler's Pink Headgear
-				i(230176),	-- Ensemble: Prowler's Carrot Headgear
 				i(230177),	-- Ensemble: Prowler's Rosy Headgear
 				i(230178),	-- Ensemble: Prowler's Plum Headgear
 				i(230181),	-- Ensemble: Prowler's Aquatic Headgear

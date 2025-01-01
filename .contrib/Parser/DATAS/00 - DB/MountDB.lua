@@ -1938,6 +1938,7 @@ i(226042, 457656);	-- Plunderlord's Midnight Crocolisk
 i(233240, 437162);	-- Polly Roger
 i(233489, 474086);	-- Prismatic Snapdragon
 i(233242, 254812);	-- Royal Seafeather
+i(233354, 473861);	-- Savage Alabaster Battle Turtle
 i(223313, 448934);	-- Shadow of Doubt
 i(233243, 300154);	-- Silver Tidestallion
 i(233058, 473137);	-- Soweezi's Vintage Waveshredder
@@ -1948,6 +1949,5 @@ i(234721, 1214940);	-- Ur'zul Fleshripper
 --- UNSORTED ---
 i(232901, 472253);	-- Lunar Launcher
 i(232926, 472479);	-- Love Witch's Sweeper
-i(233354, 473861);	-- Savage Alabaster Battle Turtle
 i(233019, 472489);	-- Sky Witch's Sweeper
 i(233020, 472488);	-- Twilight Witch's Sweeper

@@ -2175,7 +2175,7 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				}),
 			}),
 		})),
-		n(DECEMBER, bubbleDownSelf({ ["timeline"] = { "added 11.0.5.57689", "removed 11.0.7.99999" } }, {	-- TODO: Timeline out correctly
+		n(DECEMBER, bubbleDownSelf({ ["timeline"] = { "added 11.0.5.57689", "removed 11.0.7.58238" } }, {
 			n(FILLED_TRAVELERS_LOG, {
 				iensemble(223486),	-- Ensemble: Purple Snugglefin Murloc Romper
 			}),
@@ -2305,25 +2305,95 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 		})),
 	}),
 	n(YEAR2025, {
-		n(JANUARY, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7, "removed 11.0.7.99999" } }, {
+		n(JANUARY, bubbleDownSelf({ ["timeline"] = { "added 11.0.7.58238", "removed 11.0.7.99999" } }, {	-- TODO: Timeline out correctly
 			n(FILLED_TRAVELERS_LOG, {
+				iensemble(233359),	-- Green Clockwork Contraptions Collection
 			}),
 			filter(BATTLE_PETS, {
+				i(193429, {	-- Time-Lost Salamanther (PET!)
+					["cost"] = {{"c", TRADERS_TENDER, 600}},
+				}),
+				i(233366, {	-- Wind-Up Woofer (PET!)
+					["cost"] = {{"c", TRADERS_TENDER, 300}},
+				}),
 				i(233361, {	-- Wind-Up Wuffi (PET!)
 					["cost"] = {{"c", TRADERS_TENDER, 300}},
 				}),
 			}),
 			filter(MOUNTS, {
+				i(211074, {	-- Copper Resonating Crystal (MOUNT!)
+					["cost"] = {{"c", TRADERS_TENDER, 800}},
+				}),
 				i(212631, {	-- Reins of the Brilliant Sunburst Peafowl (MOUNT!)
 					["cost"] = {{"c", TRADERS_TENDER, 750}},
 				}),
+				i(233354, {	-- Savage Alabaster Battle Turtle (MOUNT!)
+					["cost"] = {{"c", TRADERS_TENDER, 500}},
+				}),
+				i(112326, {	-- Warforged Nightmare (MOUNT!)
+					["cost"] = {{"c", TRADERS_TENDER, 700}},
+				}),
 			}),
 			filter(COSMETIC, {
+				i(221794, { -- Classic Carrot Tabard
+					["cost"] = {{"c", TRADERS_TENDER, 100}},
+				}),
+				i(233185, {	-- Banded Sunny War Slippers
+					["cost"] = {{"c", TRADERS_TENDER, 20}},
+				}),
+				i(233168, {	-- Banded Sunny War Wraps
+					["cost"] = {{"c", TRADERS_TENDER, 20}},
+				}),
+				i(233355, {	-- Bronze Helm of Righteousness
+					["cost"] = {{"c", TRADERS_TENDER, 140}},
+				}),
+				iensemble(233328, {	-- Ensemble: Golden Clockwork Attire
+					["cost"] = {{"c", TRADERS_TENDER, 650}},
+				}),
 				iensemble(233329, {	-- Ensemble: Green Clockwork Attire
 					["cost"] = {{"c", TRADERS_TENDER, 650}},
 				}),
+				iensemble(230176, {	-- Ensemble: Prowler's Carrot Headgear
+					["cost"] = {{"c", TRADERS_TENDER, 100}},
+				}),
+				iensemble(211122, {	-- Ensemble: Wastewander Tracker's Kit
+					["cost"] = {{"c", TRADERS_TENDER, 850}},
+				}),
+				i(233360,{	-- Gold-Reinforced Cushioned Boots
+					["cost"] = {{"c", TRADERS_TENDER, 40}},
+				}),
+				i(233277, {	-- Golden Clockwork Defender
+					["cost"] = {{"c", TRADERS_TENDER, 260}},
+				}),
+				i(233257, {	-- Golden Clockwork Doomfist
+					["cost"] = {{"c", TRADERS_TENDER, 300}},
+				}),
 				i(233249, {	-- Golden Clockwork Power Hammer
 					["cost"] = {{"c", TRADERS_TENDER, 325}},
+				}),
+				i(211066, {	-- Gossamer Desert Gown
+					["cost"] = {{"c", TRADERS_TENDER, 100}},
+				}),
+				i(233112, {	-- Long Sunny War Skirt
+					["cost"] = {{"c", TRADERS_TENDER, 40}},
+				}),
+				i(233151, {	-- Long Sunny War Skirt and Leg Wraps
+					["cost"] = {{"c", TRADERS_TENDER, 50}},
+				}),
+				i(233270, {	-- Long-Range Golden Clockstopper
+					["cost"] = {{"c", TRADERS_TENDER, 300}},
+				}),
+				i(230045, {	-- Prowler's Carrot Shoulder Cape
+					["cost"] = {{"c", TRADERS_TENDER, 75}},
+				}),
+				i(211129, {	-- Sand-Swept Soiree Gloves
+					["cost"] = {{"c", TRADERS_TENDER, 100}},
+				}),
+				i(233095, {	-- Short Sunny War Skirt
+					["cost"] = {{"c", TRADERS_TENDER, 40}},
+				}),
+				i(233134, {	-- Short Sunny War Skirt and Leg Wraps
+					["cost"] = {{"c", TRADERS_TENDER, 50}},
 				}),
 				i(233273, {	-- Steam-Powered Golden Cloak
 					["cost"] = {{"c", TRADERS_TENDER, 300}},

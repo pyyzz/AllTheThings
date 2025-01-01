@@ -3427,7 +3427,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						794,	-- Knitted Pants
 						792,	-- Knitted Sandals
 						795,	-- Knitted Tunic
-						1389,	-- Rough Leather Belt
+						1839,	-- Rough Leather Belt
 						796,	-- Rough Leather Boots
 						1840,	-- Rough Leather Bracers
 						797,	-- Rough Leather Gloves
