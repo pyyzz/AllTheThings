@@ -410,6 +410,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Weapons",
 			ko = "무기",
+			tw = "武器",
 		},
 	},
 	[228] = {
@@ -1541,6 +1542,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Weapons",
 			ko = "무기",
+			tw = "武器",
 		},
 	},
 	[549] = {
@@ -1653,6 +1655,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Weapons",
 			ko = "무기",
+			tw = "武器",
 		},
 	},
 	[567] = {
@@ -1681,6 +1684,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Weapons",
 			ko = "무기",
+			tw = "武器",
 		},
 	},
 	[572] = {
@@ -1744,6 +1748,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Weapons",
 			ko = "무기",
+			tw = "武器",
 		},
 	},
 	[582] = {
@@ -1778,6 +1783,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Weapons",
 			ko = "무기",
+			tw = "武器",
 		},
 	},
 	[590] = {
@@ -2593,6 +2599,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Weapons",
 			ko = "무기",
+			tw = "武器",
 		},
 	},
 	[724] = {
@@ -2719,6 +2726,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Weapons",
 			ko = "무기",
+			tw = "武器",
 		},
 	},
 	[741] = {
@@ -2771,6 +2779,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Weapons",
 			ko = "무기",
+			tw = "武器",
 		},
 	},
 	[748] = {
@@ -2824,6 +2833,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Weapons",
 			ko = "무기",
+			tw = "武器",
 		},
 	},
 	[755] = {
@@ -3151,6 +3161,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Weapons",
 			ko = "무기",
+			tw = "武器",
 		},
 	},
 	[821] = {
@@ -3549,6 +3560,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Weapons",
 			ko = "무기",
+			tw = "武器",
 		},
 	},
 	[886] = {
@@ -5330,6 +5342,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Weapons",
 			ko = "무기",
+			tw = "武器",
 		},
 	},
 	[1316] = {
@@ -5407,6 +5420,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Weapons",
 			ko = "무기",
+			tw = "武器",
 		},
 	},
 	[1338] = {
@@ -5574,6 +5588,7 @@ local CategoryDB = CategoryDB; for categoryID,categoryData in pairs({
 		text = {
 			en = "Weapons",
 			ko = "무기",
+			tw = "武器",
 		},
 	},
 	[1395] = {
