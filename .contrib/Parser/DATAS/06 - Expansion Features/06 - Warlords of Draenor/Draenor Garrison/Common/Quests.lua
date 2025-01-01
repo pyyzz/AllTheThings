@@ -6,9 +6,9 @@ local GARRISON_CAMPAIGN = createHeader({
 	icon = 1032149,
 	text = {
 		en = "Garrison Campaign",
-		cn = "要塞战役",
 		de = "Garnisonskampagne",
 		ru = "Гарнизонная кампания",
+		cn = "要塞战役",
 	},
 })
 
