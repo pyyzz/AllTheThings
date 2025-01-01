@@ -132,7 +132,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 206533 },	-- Chef Dinaire
 						["coord"] = { 64.5, 31.1, HALLOWFALL },
 						["g"] = {
-							i(218127),	-- Ever-Blossoming Fungi (QI!) TODO: remove from unsorted
+							i(218127),	-- Ever-Blossoming Fungi (QI!)
 						},
 					}),
 					q(79346, {	-- Chew On That
@@ -140,7 +140,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						["provider"] = { "n", 215956 },	-- Taerry Bligestone
 						["coord"] = { 65.8, 24.4, HALLOWFALL },
 						["g"] = {
-							i(215447),	-- Duskstem (QI!)
+							o(423714, {	-- Duskstem Stalk
+								i(215447),	-- Duskstem (QI!)
+							}),
 						},
 					}),
 					q(80004, {	-- Crab Grab
@@ -277,18 +279,96 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						["coord"] = { 63.2, 29.4, HALLOWFALL },
 						["g"] = {
 							i(211969),	-- Arathi-Locked Chest (QI!)
-							i(211975),	-- Arathi Toolkit (QI!)
-							i(211968),	-- Blueprint Bundle (QI!)
-							i(211971),	-- Fallow Corn (QI!)
-							o(416969, {	-- Harvest Wine
-								i(211970),	-- Harvest Wine (QI!)
+							o(416973, {	-- Arathi Toolbox
+								["coords"] = {
+									{ 61.4, 33.3, HALLOWFALL },
+									{ 62.6, 33.7, HALLOWFALL },
+									{ 63.2, 29.8, HALLOWFALL },
+									{ 63.9, 26.7, HALLOWFALL },
+									{ 63.9, 32.5, HALLOWFALL },
+									{ 64.0, 32.4, HALLOWFALL },
+									{ 64.6, 31.5, HALLOWFALL },
+									{ 64.8, 25.8, HALLOWFALL },
+									{ 65.2, 28.9, HALLOWFALL },
+									{ 65.2, 30.4, HALLOWFALL },
+									{ 65.4, 27.3, HALLOWFALL },
+									{ 65.8, 24.4, HALLOWFALL },
+								},
+								["g"] = { i(211975), },	-- Arathi Toolkit (QI!)
 							}),
-							i(211972),	-- Hallowfall Farm Supplies (QI!)
+							i(211968),	-- Blueprint Bundle (QI!)
+							o(416971, {	-- Fallow Corn
+								["coords"] = {
+									{ 62.1, 31.4, HALLOWFALL },
+									{ 64.0, 31.6, HALLOWFALL },
+									{ 64.0, 34.3, HALLOWFALL },
+									{ 64.1, 30.7, HALLOWFALL },
+									{ 64.7, 29.4, HALLOWFALL },
+									{ 64.8, 29.5, HALLOWFALL },
+									{ 65.0, 33.3, HALLOWFALL },
+									{ 65.5, 30.2, HALLOWFALL },
+									{ 66.2, 32.4, HALLOWFALL },
+								},
+								["g"] = { i(211971), },	-- Fallow Corn (QI!)
+							}),
+							o(416969, {	-- Harvest Wine
+								["coords"] = {
+									{ 61.6, 31.4, HALLOWFALL },
+									{ 63.3, 31.2, HALLOWFALL },
+									{ 64.1, 24.2, HALLOWFALL },
+									{ 64.9, 25.8, HALLOWFALL },
+									{ 65.4, 33.9, HALLOWFALL },
+									{ 66.9, 25.8, HALLOWFALL },
+									{ 67.8, 23.0, HALLOWFALL },
+								},
+							}),
+							o(416970, {	-- Hallowfall Farm Supplies
+								["coords"] = {
+									{ 62.4, 33.7, HALLOWFALL },
+									{ 63.4, 29.6, HALLOWFALL },
+									{ 63.4, 33.2, HALLOWFALL },
+									{ 63.5, 29.6, HALLOWFALL },
+									{ 64.0, 27.1, HALLOWFALL },
+									{ 64.2, 28.4, HALLOWFALL },
+									{ 65.1, 29.4, HALLOWFALL },
+									{ 65.1, 29.5, HALLOWFALL },
+									{ 65.4, 27.0, HALLOWFALL },
+									{ 65.4, 32.9, HALLOWFALL },
+									{ 65.5, 32.9, HALLOWFALL },
+									{ 66.4, 23.7, HALLOWFALL },
+									{ 66.5, 23.7, HALLOWFALL },
+								},
+								["g"] = { i(211972), },	-- Hallowfall Farm Supplies (QI!)
+							}),
 							i(211967),	-- Large Sealed Crate (QI!)
 							i(211966),	-- Nerubian Sealed Crate (QI!)
-							i(211974),	-- Rolled Arathi Rug (QI!)
+							o(416974, {	-- Rolled Arathi-Rug
+								["coords"] = {
+									{ 62.3, 30.3, HALLOWFALL },
+									{ 62.9, 25.1, HALLOWFALL },
+									{ 63.5, 29.6, HALLOWFALL },
+									{ 65.4, 27.1, HALLOWFALL },
+									{ 65.5, 27.2, HALLOWFALL },
+									{ 67.6, 29.4, HALLOWFALL },
+									{ 67.6, 29.5, HALLOWFALL },
+								},
+								["g"] = { i(211974), },	-- Rolled Arathi Rug (QI!)
+							}),
 							i(211973),	-- Spider-Touched Bag (QI!)
-							i(211964),	-- Stillstone Catch (QI!)
+							o(416968, {	-- Stillstone Catch
+								["coords"] = {
+									{ 64.4, 23.8, HALLOWFALL },
+									{ 66.1, 24.2, HALLOWFALL },
+									{ 66.2, 23.4, HALLOWFALL },
+									{ 66.7, 22.3, HALLOWFALL },
+									{ 66.9, 25.5, HALLOWFALL },
+									{ 66.9, 27.3, HALLOWFALL },
+									{ 67.1, 24.4, HALLOWFALL },
+									{ 67.1, 24.5, HALLOWFALL },
+									{ 67.2, 27.9, HALLOWFALL },
+								},
+								["g"] = { i(211964), },	-- Stillstone Catch (QI!)
+							}),
 						},
 					}),
 					q(76733, {	-- Tater Trawl
@@ -473,7 +553,11 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					}),
 					o(457246, {	-- Fieldhand Stash (TODO likely weekly)
 						["description"] = "Requires any source of light (e.g. torch, candelabra) to reveal this treasure.",
-						["coord"] = { 64.5, 28.8, HALLOWFALL },	-- TODO: new coords 64.9, 30.9 or additional?
+						["coords"] = {
+							{ 64.4, 27.0, HALLOWFALL },
+							{ 64.5, 28.8, HALLOWFALL },
+							{ 64.9, 30.9, HALLOWFALL },
+						},
 						["questID"] = 84337,
 						["g"] = {
 							i(226019),	-- Darkened Arathi Shoulderguards (COSMETIC!)
@@ -499,14 +583,24 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					}),
 					o(451993, {	-- Nerubian Device
 						["description"] = "Requires any source of light (e.g. torch, candelabra) to reveal this treasure in any area of farmland.",
-						["coord"] = { 62.3, 31.7, HALLOWFALL },	-- TODO: new coords 66.1, 32.6 or additional?
+						["coords"] = {
+							{ 62.3, 31.7, HALLOWFALL },
+							{ 64.6, 28.4, HALLOWFALL },
+							{ 64.6, 28.5, HALLOWFALL },
+							{ 65.7, 32.4, HALLOWFALL },
+							{ 66.1, 32.5, HALLOWFALL },
+							{ 67.8, 25.0, HALLOWFALL },
+						},
 						["g"] = {
 							i(224548),	-- Nerubian Device (QS!)
 						},
 					}),
 					o(457251, {	-- Old Rotting Crate (TODO likely weekly)
 						["description"] = "Requires any source of light (e.g. torch, candelabra) to reveal this treasure.",
-						["coord"] = { 64.5, 31.6, HALLOWFALL },	-- TODO: new coords 64.9, 33.3 or additional?
+						["coords"] = {
+							{ 64.5, 31.6, HALLOWFALL },
+							{ 64.9, 33.5, HALLOWFALL },
+						},
 						["questID"] = 84339,
 						["g"] = {
 							i(226016),	-- Darkened Tabard of the Arathi (COSMETIC!)
@@ -522,10 +616,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 							i(224465),	-- Unusual Potato
 						},
 					}),
-					n(207092, {	-- Shadowrooted Vine
-						["provider"] = { "i", 206670 },	-- Darkroot Grips
-						-- any specific drops for this ID??
-					}),
+					-- n(207092, {	-- Shadowrooted Vine
+					-- 	["provider"] = { "i", 206670 },	-- Darkroot Grips
+					-- 	-- any specific drops for this ID??
+					-- }),
 					n(225986, {	-- Shadowrooted Vine
 						["provider"] = { "i", 206670 },	-- Darkroot Grips
 						["g"] = {
@@ -566,7 +660,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					}),
 					o(435008, {	-- Farmhand Stash
 						["description"] = "Requires weekly quest with controlling Harvestbot Remy to spawn.",
-						["coord"] = { 61.6, 32.6, HALLOWFALL },	-- TODO: new coords 63, 30.7 or additional?
+						["coords"] = {
+							{ 61.6, 32.6, HALLOWFALL },
+							{ 63.1, 30.7, HALLOWFALL },
+						},
 						["questID"] = 80590,
 						["g"] = {
 							i(226016),	-- Darkened Tabard of the Arathi (COSMETIC!)
@@ -574,7 +671,13 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					}),
 					o(433377, {	-- Harvest Box
 						["description"] = "Requires any source of light (e.g. torch, candelabra) to reveal this treasure.",
-						["coord"] = { 65.6, 29.4, HALLOWFALL },	-- TODO: new coords 64.7, 29.5 or additional?
+						["coords"] = {
+							{ 64.8, 29.4, HALLOWFALL },
+							{ 64.8, 29.5, HALLOWFALL },
+							{ 64.9, 30.5, HALLOWFALL },
+							{ 65.6, 29.4, HALLOWFALL },
+							{ 65.6, 29.5, HALLOWFALL },
+						},
 						["questID"] = 80420,
 						["g"] = {
 							i(226019),	-- Darkened Arathi Shoulderguards (COSMETIC!)
@@ -582,7 +685,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					}),
 					o(453186, {	-- Nightfarm Growthling (may be daily)
 						["description"] = "Requires any source of light (e.g. torch, candelabra) to reveal this treasure in any area of farmland.",
-						["coord"] = { 61.3, 31.8, HALLOWFALL },	-- TODO: new coords 64.2, 31.6 or additional?
+						["coords"] = {
+							{ 61.4, 31.8, HALLOWFALL },
+							{ 63.3, 31.1, HALLOWFALL },
+							{ 64.2, 31.5, HALLOWFALL },
+							{ 65.2, 33.5, HALLOWFALL },
+						},
 						["questID"] = 83272,
 						["g"] = {
 							i(221546),	-- Nightfarm Growthling (PET!)
@@ -590,7 +698,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					}),
 					o(457270, {	-- Surveyor's Box
 						["description"] = "Requires any source of light (e.g. torch, candelabra) to reveal this treasure.",
-						["coord"] = { 63.8, 26.8, HALLOWFALL },	-- TODO: new coords 65.2, 27.7 or additional?
+						["coords"] = {
+							{ 63.8, 26.8, HALLOWFALL },
+							{ 65.2, 27.7, HALLOWFALL },
+							{ 65.4, 27.1, HALLOWFALL },
+							{ 65.5, 27.1, HALLOWFALL },
+						},
 						["questID"] = 84341,
 						["g"] = {
 							i(226019),	-- Darkened Arathi Shoulderguards (COSMETIC!)

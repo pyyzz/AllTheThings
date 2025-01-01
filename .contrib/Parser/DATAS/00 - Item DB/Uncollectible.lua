@@ -81,12 +81,6 @@ i(232377);	-- Pappy Thunderbrew's Cough Syrup
 i(232378);	-- Jenkins' No Nonsense Fried Chicken
 i(232380);	-- Brivelthwerp's Sassafras Float
 i(232385);	-- Elekk Ear
-i(234733);	-- Ancient Runic Hilt
-i(234736);	-- Tar-Sealed Scroll
-i(234751);	-- Pearl-Adorned Tailband
-i(234752);	-- Coral-Pocked Scrying Stone
-i(234753);	-- Cracked Divining Scepter
-i(234754);	-- Bloodied Siren Pendant
 
 -------------------------------------------------------------------- LOADING DOCK --------------------------------------------------------------------
 
@@ -2177,18 +2171,25 @@ i(228911);	-- Xalatath's Rusty Coin
 -- PATCH 11.0.7 --
 ------------------
 i(234718);	-- Ancient Runic Hilt
+i(234733);	-- Ancient Runic Hilt
 i(234735);	-- Battered Vrykul Lantern
 i(234732);	-- Bloodied Medallion
+i(234754);	-- Bloodied Siren Pendant
 i(234722);	-- Carved Stone Fragment
+i(234752);	-- Coral-Pocked Scrying Stone
+i(234753);	-- Cracked Divining Scepter
 i(232637);	-- Cracked Pirate Skull
+i(233800);	-- Decorated Gunpowder Flask
 i(232634);	-- Emptied Turtle Shell
 i(234723);	-- Hollow Sigil
 i(234734);	-- Inscribed Drinking Horn
 i(232638);	-- Loosened Naga Scales
 i(234720);	-- Memoric Residue
 i(234750);	-- Myrmidon's Osminium Bracer
+i(234751);	-- Pearl-Adorned Tailband
 i(232636);	-- Rum-Soaked Hankerchief
 i(232633);	-- Shiny Seaside Clam
 i(232632);	-- Spiral Mollusk Shell
 i(234719);	-- Storm-Etched Vambrace
+i(234736);	-- Tar-Sealed Scroll
 i(232635);	-- Torn Bilgewater Bandage

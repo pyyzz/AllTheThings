@@ -249,7 +249,6 @@ root(ROOTS.Unsorted, {
 			i(233366),	-- Wind-Up Woofer
 			i(233495),	-- [PH] Snapdragon Treat 03
 			i(233650),	-- Call Galefeather
-			i(233800),	-- [PH] Chris' Flavor Test Item
 			i(233913),	-- [PH] Shield
 			i(233931),	-- [PH] Shoulder
 			i(233933),	-- [PH] Tabard

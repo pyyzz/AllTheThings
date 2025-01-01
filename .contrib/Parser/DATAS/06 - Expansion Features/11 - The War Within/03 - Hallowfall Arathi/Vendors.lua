@@ -5,7 +5,10 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 	n(HALLOWFALL_ARATHI, {
 		n(VENDORS, {
 			n(213145, {	-- Auralia Steelstrike <Arathi Quartermaster>
-				["coord"] = { 41.2, 53.0, HALLOWFALL },
+				["coords"] = {
+					{ 42.4, 55.0, HALLOWFALL },
+					{ 41.3, 53.1, HALLOWFALL },
+				},
 				["g"] = bubbleDownRep(FACTION_HALLOWFALL_ARATHI, {
 					{		-- RENOWN 1 --
 					}, {	-- RENOWN 2 --
@@ -87,16 +90,16 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						}),
 					}, {	-- RENOWN 18 --
 						i(223311, {	-- Armguards of Dimming Fluorescence
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 3900}},
 						}),
 						i(223309, {	-- Bindings of Irradiating Imprisonment
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 3900}},
 						}),
 						i(223308, {	-- Bracers of Depleting Brilliance
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 3900}},
 						}),
 						i(223310, {	-- Wristwraps of Fading Luminescence
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 3900}},
 						}),
 					}, {	-- RENOWN 19 --
 					}, {	-- RENOWN 20 --
@@ -107,7 +110,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 					}, {	-- RENOWN 22 --
 					}, {	-- RENOWN 23 --
 						i(223314, {	-- Shackled Shadow (MOUNT!)
-							["cost"] = {{"c", RESONANCE_CRYSTALS, 8125}},
+							["cost"] = {{"c", RESONANCE_CRYSTALS, 11375}},
 						}),
 						i(224553, {	-- Beledar's Attunement (CI!)
 							["cost"] = {{"c", RESONANCE_CRYSTALS, 1000}},
