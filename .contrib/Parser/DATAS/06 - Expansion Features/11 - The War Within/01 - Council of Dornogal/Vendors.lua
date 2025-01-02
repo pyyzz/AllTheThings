@@ -32,7 +32,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						i(223290, {	-- Chiseled Boulder Pauldrons
 							["cost"] = {{"c", RESONANCE_CRYSTALS, 3900}},
 						}),
-						i(223292, {	-- Gem Waded Shoulderpads
+						i(223292, {	-- Gem-Waded Shoulderpads
 							["cost"] = {{"c", RESONANCE_CRYSTALS, 3900}},
 						}),
 						i(223289, {	-- Mineral-Sparkled Mantle
@@ -78,7 +78,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						i(223301, {	-- Chiseled Boulder Crushers
 							["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
 						}),
-						i(223303, {	-- Gem Waded Footwraps
+						i(223303, {	-- Gem-Waded Footwraps
 							["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
 						}),
 						i(223300, {	-- Mineral-Sparkled Sandals

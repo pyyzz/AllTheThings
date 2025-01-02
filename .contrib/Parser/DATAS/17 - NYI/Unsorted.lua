@@ -5,326 +5,342 @@
 root(ROOTS.Unsorted, {
 	expansion(EXPANSION.TWW, {
 		expansion(EXPANSION.TWW, patch(0,7), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_7 } }, {
+			-- Old
 			i(35953),	-- Mead-Basted Caribou
 			i(100739),	-- Superheated Oil
 			i(152858),	-- Cracked Crystalline Fruit Bowl
 			i(185739),	-- Crystalline Shard
-			i(206167),	-- Way of the Wondrous Wavewhisker
-			i(208887),	-- Erden's Notes
+
+			-- Name Change?
 			i(214504),	-- Emerald Necklace
-			i(217269),	-- Arcane-Suffused Organ
-			i(218113),	-- Sweet-Sting Venom
-			i(218738),	-- Bizarrely Shaped Stomach
-			i(222706),	-- Pan-Seared Mycobloom
-			i(222709),	-- Flashfire Fillet
-			i(222716),	-- Ginger-Glazed Fillet
-			i(222757),	-- Hearty Flashfire Fillet
-			i(222764),	-- Hearty Ginger-Glazed Fillet
-			i(222926),	-- Leg Chewer's Stomach
-			i(223292),	-- Gem-Wadded Shoulderpads
-			i(223295),	-- Slag-Accruing Mask
-			i(223303),	-- Gem-Wadded Footwraps
-			i(223304),	-- Slag-Accruing Waistguard
-			i(223956),	-- Recipe: Everything-on-a-Stick
-			i(223966),	-- Everything-on-a-Stick
 			i(224258),	-- [DNT] Flower
-			i(225484),	-- Technique: Algari Competitor's Lamp
 			i(226377),	-- Mining Journa - Page 1
-			i(226387),	-- Battle-Tested Warhammer
-			i(226388),	-- Battle-Tested Obsidian Warhammer
 			i(228095),	-- Scroll of Empowered Time Warp
-			i(228526),	-- Cyrce's Circlet
-			i(228637),	-- Delete Me
-			i(228641),	-- Delete Me
-			i(228645),	-- Delete Me
-			i(228649),	-- Delete Me
-			i(230207),	-- N.U.K.U.L.A.R. Target Painter
-			i(230211),	-- Singing Citrine
-			i(231751),	-- Earthen Backpack
-			i(232597),	-- Swabbie's Oar
-			i(232629),	-- Distilled Knowledge of Timeways
-			i(232645),	-- Celestial Barrage
-			i(232654),	-- Compiled Tattered Journal
-			i(232901),	-- Lunar Launcher
-			i(232909),	-- Sky Witch's Heartfelt Shoulder Cape
-			i(232910),	-- Vivid Heartfelt Shoulder Cape
-			i(232911),	-- Truly Heartfelt Shoulder Cape
-			i(232912),	-- Twilight Witch's Heartfelt Shoulder Cape
-			i(232913),	-- Sky Witch's Heartfelt Spaulders
-			i(232914),	-- Truly Heartfelt Spaulders
-			i(232915),	-- Twilight Witch's Heartfelt Spaulders
-			i(232916),	-- Vivid Heartfelt Spaulders
-			i(232923),	-- Living Rose
-			i(232924),	-- Sailor's Belt
-			i(232925),	-- Ensemble: Truly Heartfelt Shoulders
-			i(232926),	-- Love Witch's Sweeper
-			i(232933),	-- Ensemble: Sky Witch's Heartfelt Shoulders
-			i(232934),	-- Ensemble: Twilight Witch's Heartfelt Shoulders
-			i(232946),	-- Verus
-			i(232988),	-- Void Tear
-			i(233019),	-- Sky Witch's Sweeper
-			i(233020),	-- Twilight Witch's Sweeper
-			i(233023),	-- [PH]
-			i(233051),	-- G.R.A.V. Glove
-			i(233057),	-- Rock Hound Mica
-			i(233072),	-- Short Crimson War Skirt
-			i(233073),	-- Long Crimson War Skirt
-			i(233074),	-- Short Crimson War Skirt and Leg Wraps
-			i(233075),	-- Long Crimson War Skirt and Leg Wraps
-			i(233076),	-- Banded Crimson War Wraps
-			i(233078),	-- Banded Crimson War Slippers
-			i(233079),	-- Short Midnight War Skirt
-			i(233080),	-- Short Azure War Skirt
-			i(233081),	-- Short Sepia War Skirt
-			i(233082),	-- Short Grassy War Skirt
-			i(233083),	-- Short Cloudy War Skirt
-			i(233084),	-- Short Deep War Skirt
-			i(233085),	-- Short Camo War Skirt
-			i(233086),	-- Short Brick War Skirt
-			i(233087),	-- Short Lively War Skirt
-			i(233088),	-- Short Faded War Skirt
-			i(233089),	-- Short Carrot War Skirt
-			i(233090),	-- Short Rosy War Skirt
-			i(233091),	-- Short Plum War Skirt
-			i(233092),	-- Short Violet War Skirt
-			i(233093),	-- Short Aquatic War Skirt
-			i(233094),	-- Short Snowy War Skirt
-			i(233096),	-- Long Midnight War Skirt
-			i(233097),	-- Long Azure War Skirt
-			i(233098),	-- Long Sepia War Skirt
-			i(233099),	-- Long Grassy War Skirt
-			i(233100),	-- Long Cloudy War Skirt
-			i(233101),	-- Long Deep War Skirt
-			i(233102),	-- Long Camo War Skirt
-			i(233103),	-- Long Brick War Skirt
-			i(233104),	-- Long Lively War Skirt
-			i(233105),	-- Long Faded War Skirt
-			i(233106),	-- Long Carrot War Skirt
-			i(233107),	-- Long Rosy War Skirt
-			i(233108),	-- Long Plum War Skirt
-			i(233109),	-- Long Violet War Skirt
-			i(233110),	-- Long Aquatic War Skirt
-			i(233111),	-- Long Snowy War Skirt
-			i(233116),	-- Short Midnight War Skirt and Leg Wraps
-			i(233117),	-- Short Azure War Skirt and Leg Wraps
-			i(233120),	-- Short Sepia War Skirt and Leg Wraps
-			i(233121),	-- Short Grassy War Skirt and Leg Wraps
-			i(233122),	-- Short Cloudy War Skirt and Leg Wraps
-			i(233123),	-- Short Deep War Skirt and Leg Wraps
-			i(233124),	-- Short Camo War Skirt and Leg Wraps
-			i(233125),	-- Short Brick War Skirt and Leg Wraps
-			i(233126),	-- Short Lively War Skirt and Leg Wraps
-			i(233127),	-- Short Faded War Skirt and Leg Wraps
-			i(233128),	-- Short Carrot War Skirt and Leg Wraps
-			i(233129),	-- Short Rosy War Skirt and Leg Wraps
-			i(233130),	-- Short Plum War Skirt and Leg Wraps
-			i(233131),	-- Short Violet War Skirt and Leg Wraps
-			i(233132),	-- Short Aquatic War Skirt and Leg Wraps
-			i(233133),	-- Short Snowy War Skirt and Leg Wraps
-			i(233135),	-- Long Midnight War Skirt and Leg Wraps
-			i(233136),	-- Long Azure War Skirt and Leg Wraps
-			i(233137),	-- Long Sepia War Skirt and Leg Wraps
-			i(233138),	-- Long Grassy War Skirt and Leg Wraps
-			i(233139),	-- Long Cloudy War Skirt and Leg Wraps
-			i(233140),	-- Long Deep War Skirt and Leg Wraps
-			i(233141),	-- Long Camo War Skirt and Leg Wraps
-			i(233142),	-- Long Brick War Skirt and Leg Wraps
-			i(233143),	-- Long Lively War Skirt and Leg Wraps
-			i(233144),	-- Long Faded War Skirt and Leg Wraps
-			i(233145),	-- Long Carrot War Skirt and Leg Wraps
-			i(233146),	-- Long Rosy War Skirt and Leg Wraps
-			i(233147),	-- Long Plum War Skirt and Leg Wraps
-			i(233148),	-- Long Violet War Skirt and Leg Wraps
-			i(233149),	-- Long Aquatic War Skirt and Leg Wraps
-			i(233150),	-- Long Snowy War Skirt and Leg Wraps
-			i(233152),	-- Banded Midnight War Wraps
-			i(233153),	-- Banded Azure War Wraps
-			i(233154),	-- Banded Sepia War Wraps
-			i(233155),	-- Banded Grassy War Wraps
-			i(233156),	-- Banded Cloudy War Wraps
-			i(233157),	-- Banded Deep War Wraps
-			i(233158),	-- Banded Camo War Wraps
-			i(233159),	-- Banded Brick War Wraps
-			i(233160),	-- Banded Lively War Wraps
-			i(233161),	-- Banded Faded War Wraps
-			i(233162),	-- Banded Carrot War Wraps
-			i(233163),	-- Banded Rosy War Wraps
-			i(233164),	-- Banded Plum War Wraps
-			i(233165),	-- Banded Violet War Wraps
-			i(233166),	-- Banded Aquatic War Wraps
-			i(233167),	-- Banded Snowy War Wraps
-			i(233169),	-- Banded Midnight War Slippers
-			i(233170),	-- Banded Azure War Slippers
-			i(233171),	-- Banded Sepia War Slippers
-			i(233172),	-- Banded Grassy War Slilppers
-			i(233173),	-- Banded Cloudy War Slippers
-			i(233174),	-- Banded Deep War Slippers
-			i(233175),	-- Banded Camo War Slippers
-			i(233176),	-- Banded Brick War Slippers
-			i(233177),	-- Banded Lively War Slippers
-			i(233178),	-- Banded Faded War Slippers
-			i(233179),	-- Banded Carrot War Slippers
-			i(233180),	-- Banded Rosy War Slippers
-			i(233181),	-- Banded Plum War Slippers
-			i(233182),	-- Banded Violet War Slippers
-			i(233183),	-- Banded Aquatic War Slippers
-			i(233184),	-- Banded Snowy War Slippers
-			i(233207),	-- The Coward's Azure Target
-			i(233218),	-- Crimson Lunar Lantern
-			i(233219),	-- Azure Lunar Lantern
-			i(233220),	-- Lively Lunar Lantern
-			i(233221),	-- Violet Lunar Lantern
-			i(233223),	-- Jade Lunar Blade
-			i(233224),	-- Obsidian Lunar Blade
-			i(233225),	-- Cobalt Lunar Blade
-			i(233227),	-- Gold Lunar Blade
-			i(233228),	-- Jade Lunar Polearm
-			i(233229),	-- Silver Lunar Polearm
-			i(233230),	-- Gold Lunar Polearm
-			i(233231),	-- Steel Lunar Polearm
-			i(233232),	-- Crimson Lunar Firewhacker
-			i(233233),	-- Azure Lunar Firewhacker
-			i(233234),	-- Lively Lunar Firewhacker
-			i(233235),	-- Violet Lunar Firewhacker
-			i(233236),	-- Crimson Pack of Lunar Explosives
-			i(233237),	-- Lively Pack of Lunar Explosives
-			i(233238),	-- Azure Pack of Lunar Explosives
-			i(233239),	-- Sunny Pack of Lunar Explosives
-			i(233253),	-- Purple Clockwork Mace
-			i(233254),	-- Blue Clockwork Mace
-			i(233256),	-- Cobalt Clockwork Doomfist
-			i(233259),	-- Purple Clockwork Doomfist
-			i(233268),	-- Long-Range Violet Clockstopper
-			i(233269),	-- Long-Range Cobalt Clockstopper
-			i(233272),	-- Steam-Powered Cobalt Clock Cloak
-			i(233275),	-- Steam-Powered Violet Clock Cloak
-			i(233278),	-- Cobalt Clockwork Defender
-			i(233280),	-- Violet Clockwork Defender
-			i(233291),	-- Cobalt Clockwork Cap
-			i(233294),	-- Violet Clockwork Cap
-			i(233295),	-- Cobalt Clockwork Pauldrons
-			i(233301),	-- Violet Clockwork Pauldrons
-			i(233302),	-- Cobalt Clockwork Uniform
-			i(233305),	-- Violet Clockwork Uniform
-			i(233306),	-- Cobalt Clockwork Leggings
-			i(233309),	-- Violet Clockwork Leggings
-			i(233310),	-- Cobalt Clockwork Belt
-			i(233313),	-- Violet Clockwork Belt
-			i(233314),	-- Cobalt Clockwork Bracer
-			i(233317),	-- Violet Clockwork Bracer
-			i(233318),	-- Cobalt Clockwork Glove
-			i(233321),	-- Violet Clockwork Glove
-			i(233322),	-- Cobalt Clockwork Boots
-			i(233325),	-- Violet Clockwork Boots
-			i(233327),	-- Cobalt Clockwork Attire
-			i(233330),	-- Violet Clockwork Attire
-			i(233331),	-- Aura of Zealotry
-			i(233495),	-- [PH] Snapdragon Treat 03
-			i(233650),	-- Call Galefeather
-			i(233913),	-- [PH] Shield
-			i(233931),	-- [PH] Shoulder
-			i(233933),	-- [PH] Tabard
-			i(233934),	-- [PH] Shield
-			i(233976),	-- [PH] Cloak
-			i(234037),	-- Lunar Festival Slippers
-			i(234038),	-- Lunar Festival Slippers - Pink
-			i(234039),	-- Lunar Festival Slippers - Purple
-			i(234040),	-- Lunar Festival Slippers - Teal
-			i(234041),	-- Lunar Festival Belt
-			i(234042),	-- Lunar Festival Belt - Pink
-			i(234043),	-- Lunar Festival Belt - Purple
-			i(234044),	-- Lunar Festival Belt - Teal
-			i(234045),	-- Lunar Festival Robe
-			i(234046),	-- Lunar Festival Robe - Pink
-			i(234047),	-- Lunar Festival Robe - Purple
-			i(234048),	-- Lunar Festival Robe - Teal
-			i(234049),	-- Lunar Festival Spaulders
-			i(234050),	-- Lunar Festival Spaulders - Pink
-			i(234051),	-- Lunar Festival Spaulders - Purple
-			i(234052),	-- Lunar Festival Spaulders - Teal
-			i(234053),	-- Lunar Festival Crown
-			i(234054),	-- Lunar Festival Crown - Pink
-			i(234055),	-- Lunar Festival Crown - Purple
-			i(234056),	-- Lunar Festival Crown - Teal
-			i(234057),	-- Lunar Festival Attire
-			i(234058),	-- Lunar Festival Attire - Pink
-			i(234059),	-- Lunar Festival Attire - Purple
-			i(234060),	-- Lunar Festival Attire - Teal
-			i(234074),	-- Gold-Plated Cushioned Boots
-			i(234313),	-- [DNT] Item
-			i(234396),	-- Teatuft Tamer
-			i(234397),	-- Fullbelly Rollingpaw
-			i(234422),	-- Storm-Singed Plunder
-			i(234423),	-- Keg-Leg's Silver Spoils
-			i(234424),	-- Keg-Leg's Bronze Spoils
-			i(234450),	-- Pirate's Booty
-			i(234453),	-- Swabbie's Lockbox
-			i(234470),	-- Forgemaster's Focus
-			i(234471),	-- Earthen Device
-			i(234472),	-- Earthen Crystal
-			--
-			i(234626),	-- Awakened Archivist Vestment
-			i(234627),	-- Awakened Peacekeeper's Chassis
-			i(234628),	-- Awakened Machinist Chain
-			i(234629),	-- Awakened Artisan Collar
-			i(234630),	-- Awakened Worker's Vest
-			i(234631),	-- Awakened Explorer's Tunic
-			i(234632),	-- Awakened Artisan Bracelets
-			i(234633),	-- Awakened Artisan Toolbelt
-			i(234634),	-- Awakened Artisan Waistcoat
-			i(234635),	-- Awakened Artisan Kilt
-			i(234636),	-- Awakened Artisan Footwraps
-			i(234637),	-- Awakened Machinist Wristchains
-			i(234638),	-- Awakened Machinist Girdle
-			i(234639),	-- Awakened Machinist Robe
-			i(234640),	-- Awakened Machinist Helmet
-			i(234641),	-- Awakened Machinist Anklewraps
-			i(234642),	-- Awakened Machinist Cog
-			i(234643),	-- Awakened Worker's Kilt
-			i(234644),	-- Awakened Worker's Waistcoat
-			i(234645),	-- Awakened Worker's Belt
-			i(234646),	-- Awakened Worker's Cuffs
-			i(234647),	-- Awakened Worker's Mantle
-			i(234648),	-- Awakened Worker's Boots
-			i(234649),	-- Awakened Peacekeeper Warkilt
-			i(234651),	-- Awakened Peacekeeper Waistguard
-			i(234652),	-- Awakened Peacekeeper Waistcoat
-			i(234653),	-- Awakened Peacekeeper Gauntlets
-			i(234654),	-- Awakened Peacekeeper Pauldrons
-			i(234655),	-- Awakened Peacekeeper Sabatons
-			i(234656),	-- Awakened Peacekeeper Greathelm
-			i(234657),	-- Awakened Explorer's Kilt
-			i(234658),	-- Awakened Explorer's Visor
-			i(234659),	-- Awakened Explorer's Treads
-			i(234660),	-- Awakened Explorer's Waistcoat
-			i(234661),	-- Awakened Explorer's Cinch
-			i(234662),	-- Awakened Explorer's Handwraps
-			i(234663),	-- Awakened Archivist's Robe
-			i(234664),	-- Awakened Archivist's Hood
-			i(234665),	-- Awakened Archivist's Sandals
-			i(234666),	-- Awakened Archivist's Cord
-			i(234667),	-- Awakened Archivist's Cuffs
-			i(234709),	-- Earthen Travel Kilt
-			i(234710),	-- Earthen Artisan Kilt
-			i(234711),	-- Earthen Peacekeeper Warkilt
-			i(234712),	-- Earthen Explorer's Kilt
-			i(234713),	-- Dornogal Waistcoat
-			i(234714),	-- Gundargaz Waistcoat
-			i(234715),	-- Freywold Waistcoat
-			i(234905),	-- Mech-Friend Maya
-			i(234969),	-- Archivist Chassis
-			i(234982),	-- Spare Sailor's Short-Sleeved Tunic
-			i(235041),	-- Cyrce's Circlet
-			i(235050),	-- Desk-In-A-Box
-			i(235330),	-- Steam-Pressed Cobalt Cloak
-			i(235333),	-- Steam-Pressed Violet Cloak
-			i(235378),	-- Landro's Loot Box
-			i(231760),	-- Notes on Ancient Treasure
-			i(232005),	-- Cryptic Crostini
-			i(232006),	-- Detective's Delight
-			i(232007),	-- Sleuth's Sip
-			i(232009),	-- Riddle Wraps
-			i(232011),	-- Finder's Flare
+			n(ARMOR, {
+				-- Ring
+				i(228526),	-- Cyrce's Circlet
+
+				-- Back
+				i(231751),	-- Earthen Backpack
+			}),
+			filter(BATTLE_PETS, {
+				i(234397),	-- Fullbelly Rollingpaw (PET!) [Trading Post]
+				i(232923),	-- Living Rose (PET!)
+				i(234905),	-- Mech-Friend Maya (PET!)
+				i(233057),	-- Rock Hound Mica (PET!)
+				i(234396),	-- Teatuft Tamer (PET!) [Trading Post]
+			}),
+			filter(COSMETIC, {
+				i(233913),	-- [PH] Shield
+				i(233931),	-- [PH] Shoulder
+				i(233933),	-- [PH] Tabard
+				i(233934),	-- [PH] Shield
+				i(233976),	-- [PH] Cloak
+				i(235330),	-- Steam-Pressed Cobalt Cloak
+				i(235333),	-- Steam-Pressed Violet Cloak
+				i(234982),	-- Spare Sailor's Short-Sleeved Tunic
+
+				-- Plunderstorm?
+				i(232597),	-- Swabbie's Oar
+				i(232924),	-- Sailor's Belt
+				i(234074),	-- Gold-Plated Cushioned Boots
+
+
+				-- Trading Post?
+				i(232909),	-- Sky Witch's Heartfelt Shoulder Cape
+				i(232910),	-- Vivid Heartfelt Shoulder Cape
+				i(232911),	-- Truly Heartfelt Shoulder Cape
+				i(232912),	-- Twilight Witch's Heartfelt Shoulder Cape
+				i(232913),	-- Sky Witch's Heartfelt Spaulders
+				i(232914),	-- Truly Heartfelt Spaulders
+				i(232915),	-- Twilight Witch's Heartfelt Spaulders
+				i(232916),	-- Vivid Heartfelt Spaulders
+				i(232925),	-- Ensemble: Truly Heartfelt Shoulders
+
+				i(232933),	-- Ensemble: Sky Witch's Heartfelt Shoulders
+				i(232934),	-- Ensemble: Twilight Witch's Heartfelt Shoulders
+				i(233072),	-- Short Crimson War Skirt
+				i(233073),	-- Long Crimson War Skirt
+				i(233074),	-- Short Crimson War Skirt and Leg Wraps
+				i(233075),	-- Long Crimson War Skirt and Leg Wraps
+				i(233076),	-- Banded Crimson War Wraps
+				i(233078),	-- Banded Crimson War Slippers
+				i(233079),	-- Short Midnight War Skirt
+				i(233080),	-- Short Azure War Skirt
+				i(233081),	-- Short Sepia War Skirt
+				i(233082),	-- Short Grassy War Skirt
+				i(233083),	-- Short Cloudy War Skirt
+				i(233084),	-- Short Deep War Skirt
+				i(233085),	-- Short Camo War Skirt
+				i(233086),	-- Short Brick War Skirt
+				i(233087),	-- Short Lively War Skirt
+				i(233088),	-- Short Faded War Skirt
+				i(233089),	-- Short Carrot War Skirt
+				i(233090),	-- Short Rosy War Skirt
+				i(233091),	-- Short Plum War Skirt
+				i(233092),	-- Short Violet War Skirt
+				i(233093),	-- Short Aquatic War Skirt
+				i(233094),	-- Short Snowy War Skirt
+				i(233096),	-- Long Midnight War Skirt
+				i(233097),	-- Long Azure War Skirt
+				i(233098),	-- Long Sepia War Skirt
+				i(233099),	-- Long Grassy War Skirt
+				i(233100),	-- Long Cloudy War Skirt
+				i(233101),	-- Long Deep War Skirt
+				i(233102),	-- Long Camo War Skirt
+				i(233103),	-- Long Brick War Skirt
+				i(233104),	-- Long Lively War Skirt
+				i(233105),	-- Long Faded War Skirt
+				i(233106),	-- Long Carrot War Skirt
+				i(233107),	-- Long Rosy War Skirt
+				i(233108),	-- Long Plum War Skirt
+				i(233109),	-- Long Violet War Skirt
+				i(233110),	-- Long Aquatic War Skirt
+				i(233111),	-- Long Snowy War Skirt
+				i(233116),	-- Short Midnight War Skirt and Leg Wraps
+				i(233117),	-- Short Azure War Skirt and Leg Wraps
+				i(233120),	-- Short Sepia War Skirt and Leg Wraps
+				i(233121),	-- Short Grassy War Skirt and Leg Wraps
+				i(233122),	-- Short Cloudy War Skirt and Leg Wraps
+				i(233123),	-- Short Deep War Skirt and Leg Wraps
+				i(233124),	-- Short Camo War Skirt and Leg Wraps
+				i(233125),	-- Short Brick War Skirt and Leg Wraps
+				i(233126),	-- Short Lively War Skirt and Leg Wraps
+				i(233127),	-- Short Faded War Skirt and Leg Wraps
+				i(233128),	-- Short Carrot War Skirt and Leg Wraps
+				i(233129),	-- Short Rosy War Skirt and Leg Wraps
+				i(233130),	-- Short Plum War Skirt and Leg Wraps
+				i(233131),	-- Short Violet War Skirt and Leg Wraps
+				i(233132),	-- Short Aquatic War Skirt and Leg Wraps
+				i(233133),	-- Short Snowy War Skirt and Leg Wraps
+				i(233135),	-- Long Midnight War Skirt and Leg Wraps
+				i(233136),	-- Long Azure War Skirt and Leg Wraps
+				i(233137),	-- Long Sepia War Skirt and Leg Wraps
+				i(233138),	-- Long Grassy War Skirt and Leg Wraps
+				i(233139),	-- Long Cloudy War Skirt and Leg Wraps
+				i(233140),	-- Long Deep War Skirt and Leg Wraps
+				i(233141),	-- Long Camo War Skirt and Leg Wraps
+				i(233142),	-- Long Brick War Skirt and Leg Wraps
+				i(233143),	-- Long Lively War Skirt and Leg Wraps
+				i(233144),	-- Long Faded War Skirt and Leg Wraps
+				i(233145),	-- Long Carrot War Skirt and Leg Wraps
+				i(233146),	-- Long Rosy War Skirt and Leg Wraps
+				i(233147),	-- Long Plum War Skirt and Leg Wraps
+				i(233148),	-- Long Violet War Skirt and Leg Wraps
+				i(233149),	-- Long Aquatic War Skirt and Leg Wraps
+				i(233150),	-- Long Snowy War Skirt and Leg Wraps
+				i(233152),	-- Banded Midnight War Wraps
+				i(233153),	-- Banded Azure War Wraps
+				i(233154),	-- Banded Sepia War Wraps
+				i(233155),	-- Banded Grassy War Wraps
+				i(233156),	-- Banded Cloudy War Wraps
+				i(233157),	-- Banded Deep War Wraps
+				i(233158),	-- Banded Camo War Wraps
+				i(233159),	-- Banded Brick War Wraps
+				i(233160),	-- Banded Lively War Wraps
+				i(233161),	-- Banded Faded War Wraps
+				i(233162),	-- Banded Carrot War Wraps
+				i(233163),	-- Banded Rosy War Wraps
+				i(233164),	-- Banded Plum War Wraps
+				i(233165),	-- Banded Violet War Wraps
+				i(233166),	-- Banded Aquatic War Wraps
+				i(233167),	-- Banded Snowy War Wraps
+				i(233169),	-- Banded Midnight War Slippers
+				i(233170),	-- Banded Azure War Slippers
+				i(233171),	-- Banded Sepia War Slippers
+				i(233172),	-- Banded Grassy War Slilppers
+				i(233173),	-- Banded Cloudy War Slippers
+				i(233174),	-- Banded Deep War Slippers
+				i(233175),	-- Banded Camo War Slippers
+				i(233176),	-- Banded Brick War Slippers
+				i(233177),	-- Banded Lively War Slippers
+				i(233178),	-- Banded Faded War Slippers
+				i(233179),	-- Banded Carrot War Slippers
+				i(233180),	-- Banded Rosy War Slippers
+				i(233181),	-- Banded Plum War Slippers
+				i(233182),	-- Banded Violet War Slippers
+				i(233183),	-- Banded Aquatic War Slippers
+				i(233184),	-- Banded Snowy War Slippers
+				i(233207),	-- The Coward's Azure Target
+				i(233218),	-- Crimson Lunar Lantern
+				i(233219),	-- Azure Lunar Lantern
+				i(233220),	-- Lively Lunar Lantern
+				i(233221),	-- Violet Lunar Lantern
+				i(233223),	-- Jade Lunar Blade
+				i(233224),	-- Obsidian Lunar Blade
+				i(233225),	-- Cobalt Lunar Blade
+				i(233227),	-- Gold Lunar Blade
+				i(233228),	-- Jade Lunar Polearm
+				i(233229),	-- Silver Lunar Polearm
+				i(233230),	-- Gold Lunar Polearm
+				i(233231),	-- Steel Lunar Polearm
+				i(233232),	-- Crimson Lunar Firewhacker
+				i(233233),	-- Azure Lunar Firewhacker
+				i(233234),	-- Lively Lunar Firewhacker
+				i(233235),	-- Violet Lunar Firewhacker
+				i(233236),	-- Crimson Pack of Lunar Explosives
+				i(233237),	-- Lively Pack of Lunar Explosives
+				i(233238),	-- Azure Pack of Lunar Explosives
+				i(233239),	-- Sunny Pack of Lunar Explosives
+				i(233253),	-- Purple Clockwork Mace
+				i(233254),	-- Blue Clockwork Mace
+				i(233256),	-- Cobalt Clockwork Doomfist
+				i(233259),	-- Purple Clockwork Doomfist
+				i(233268),	-- Long-Range Violet Clockstopper
+				i(233269),	-- Long-Range Cobalt Clockstopper
+				i(233272),	-- Steam-Powered Cobalt Clock Cloak
+				i(233275),	-- Steam-Powered Violet Clock Cloak
+				i(233278),	-- Cobalt Clockwork Defender
+				i(233280),	-- Violet Clockwork Defender
+				i(233291),	-- Cobalt Clockwork Cap
+				i(233294),	-- Violet Clockwork Cap
+				i(233295),	-- Cobalt Clockwork Pauldrons
+				i(233301),	-- Violet Clockwork Pauldrons
+				i(233302),	-- Cobalt Clockwork Uniform
+				i(233305),	-- Violet Clockwork Uniform
+				i(233306),	-- Cobalt Clockwork Leggings
+				i(233309),	-- Violet Clockwork Leggings
+				i(233310),	-- Cobalt Clockwork Belt
+				i(233313),	-- Violet Clockwork Belt
+				i(233314),	-- Cobalt Clockwork Bracer
+				i(233317),	-- Violet Clockwork Bracer
+				i(233318),	-- Cobalt Clockwork Glove
+				i(233321),	-- Violet Clockwork Glove
+				i(233322),	-- Cobalt Clockwork Boots
+				i(233325),	-- Violet Clockwork Boots
+				i(233327),	-- Cobalt Clockwork Attire
+				i(233330),	-- Violet Clockwork Attire
+				i(234037),	-- Lunar Festival Slippers
+				i(234038),	-- Lunar Festival Slippers - Pink
+				i(234039),	-- Lunar Festival Slippers - Purple
+				i(234040),	-- Lunar Festival Slippers - Teal
+				i(234041),	-- Lunar Festival Belt
+				i(234042),	-- Lunar Festival Belt - Pink
+				i(234043),	-- Lunar Festival Belt - Purple
+				i(234044),	-- Lunar Festival Belt - Teal
+				i(234045),	-- Lunar Festival Robe
+				i(234046),	-- Lunar Festival Robe - Pink
+				i(234047),	-- Lunar Festival Robe - Purple
+				i(234048),	-- Lunar Festival Robe - Teal
+				i(234049),	-- Lunar Festival Spaulders
+				i(234050),	-- Lunar Festival Spaulders - Pink
+				i(234051),	-- Lunar Festival Spaulders - Purple
+				i(234052),	-- Lunar Festival Spaulders - Teal
+				i(234053),	-- Lunar Festival Crown
+				i(234054),	-- Lunar Festival Crown - Pink
+				i(234055),	-- Lunar Festival Crown - Purple
+				i(234056),	-- Lunar Festival Crown - Teal
+				i(234057),	-- Lunar Festival Attire
+				i(234058),	-- Lunar Festival Attire - Pink
+				i(234059),	-- Lunar Festival Attire - Purple
+				i(234060),	-- Lunar Festival Attire - Teal
+
+				-- Earthen?
+				i(234626),	-- Awakened Archivist Vestment
+				i(234627),	-- Awakened Peacekeeper's Chassis
+				i(234628),	-- Awakened Machinist Chain
+				i(234629),	-- Awakened Artisan Collar
+				i(234630),	-- Awakened Worker's Vest
+				i(234631),	-- Awakened Explorer's Tunic
+				i(234632),	-- Awakened Artisan Bracelets
+				i(234633),	-- Awakened Artisan Toolbelt
+				i(234634),	-- Awakened Artisan Waistcoat
+				i(234635),	-- Awakened Artisan Kilt
+				i(234636),	-- Awakened Artisan Footwraps
+				i(234637),	-- Awakened Machinist Wristchains
+				i(234638),	-- Awakened Machinist Girdle
+				i(234639),	-- Awakened Machinist Robe
+				i(234640),	-- Awakened Machinist Helmet
+				i(234641),	-- Awakened Machinist Anklewraps
+				i(234642),	-- Awakened Machinist Cog
+				i(234643),	-- Awakened Worker's Kilt
+				i(234644),	-- Awakened Worker's Waistcoat
+				i(234645),	-- Awakened Worker's Belt
+				i(234646),	-- Awakened Worker's Cuffs
+				i(234647),	-- Awakened Worker's Mantle
+				i(234648),	-- Awakened Worker's Boots
+				i(234649),	-- Awakened Peacekeeper Warkilt
+				i(234651),	-- Awakened Peacekeeper Waistguard
+				i(234652),	-- Awakened Peacekeeper Waistcoat
+				i(234653),	-- Awakened Peacekeeper Gauntlets
+				i(234654),	-- Awakened Peacekeeper Pauldrons
+				i(234655),	-- Awakened Peacekeeper Sabatons
+				i(234656),	-- Awakened Peacekeeper Greathelm
+				i(234657),	-- Awakened Explorer's Kilt
+				i(234658),	-- Awakened Explorer's Visor
+				i(234659),	-- Awakened Explorer's Treads
+				i(234660),	-- Awakened Explorer's Waistcoat
+				i(234661),	-- Awakened Explorer's Cinch
+				i(234662),	-- Awakened Explorer's Handwraps
+				i(234663),	-- Awakened Archivist's Robe
+				i(234664),	-- Awakened Archivist's Hood
+				i(234665),	-- Awakened Archivist's Sandals
+				i(234666),	-- Awakened Archivist's Cord
+				i(234667),	-- Awakened Archivist's Cuffs
+				i(234709),	-- Earthen Travel Kilt
+				i(234710),	-- Earthen Artisan Kilt
+				i(234711),	-- Earthen Peacekeeper Warkilt
+				i(234712),	-- Earthen Explorer's Kilt
+				i(234713),	-- Dornogal Waistcoat
+				i(234714),	-- Gundargaz Waistcoat
+				i(234715),	-- Freywold Waistcoat
+			}),
+			filter(MISC, {
+				i(228637),	-- Delete Me
+				i(228641),	-- Delete Me
+				i(228645),	-- Delete Me
+				i(228649),	-- Delete Me
+				i(230207),	-- N.U.K.U.L.A.R. Target Painter
+				i(233495),	-- [PH] Snapdragon Treat 03
+				i(234313),	-- [DNT] Item
+				i(234471),	-- Earthen Device
+				i(234472),	-- Earthen Crystal
+				i(234969),	-- Archivist Chassis
+				i(235050),	-- Desk-In-A-Box
+				i(232005),	-- Cryptic Crostini
+				i(232006),	-- Detective's Delight
+				i(232007),	-- Sleuth's Sip
+				i(232009),	-- Riddle Wraps
+				i(232011),	-- Finder's Flare
+				i(235378),	-- Landro's Loot Box
+
+				-- Plunderstorm?
+				i(234422),	-- Storm-Singed Plunder
+				i(234423),	-- Keg-Leg's Silver Spoils
+				i(234424),	-- Keg-Leg's Bronze Spoils
+				i(234450),	-- Pirate's Booty
+				i(234453),	-- Swabbie's Lockbox
+				i(234470),	-- Forgemaster's Focus
+
+				-- Plunderstorm Abilities?
+				i(232645),	-- Celestial Barrage
+				i(232988),	-- Void Tear
+				i(233051),	-- G.R.A.V. Glove
+				i(233331),	-- Aura of Zealotry
+				i(233650),	-- Call Galefeather
+
+				-- Turbulent Timeways??
+				i(232629),	-- Distilled Knowledge of Timeways
+			}),
+			filter(MOUNTS, {
+				i(232926),	-- Love Witch's Sweeper (MOUNT!) [Love in the Air]
+				i(232901),	-- Lunar Launcher (MOUNT!) [Love in the Air]
+				i(233023),	-- Silvermoon Sweeper (MOUNT!)
+				i(233019),	-- Sky Witch's Sweeper (MOUNT!) [Love in the Air]
+				i(233020),	-- Twilight Witch's Sweeper (MOUNT!) [Love in the Air]
+			}),
+			filter(QUEST_ITEMS, {
+				i(230211),	-- Singing Citrine
+				i(232654),	-- Compiled Tattered Journal
+				i(231760),	-- Notes on Ancient Treasure
+			}),
+			filter(TOYS, {
+				i(235041),	-- Cyrce's Circlet (TOY!) [Reward Week 6?]
+			}),
+			n(WEAPONS, {
+				-- Huuuhhh Weird
+				i(232946),	-- Verus
+			}),
 		})),
 		expansion(EXPANSION.TWW, patch(0,5), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_5 } }, {
 			filter(TOYS, {

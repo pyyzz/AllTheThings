@@ -1985,10 +1985,10 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				i(226370, {	-- Ashen Executioner
 					["cost"] = {{"c", TRADERS_TENDER, 150}},
 				}),
-				i(226388, {	-- Battle-tested Obsidian Warhammer
+				i(226388, {	-- Battle-Tested Obsidian Warhammer
 					["cost"] = {{"c", TRADERS_TENDER, 100}},
 				}),
-				i(226387, {	-- Battle-tested Warhammer
+				i(226387, {	-- Battle-Tested Warhammer
 					["cost"] = {{"c", TRADERS_TENDER, 100}},
 				}),
 				i(190710, {	-- Caged Eye of the Watcher

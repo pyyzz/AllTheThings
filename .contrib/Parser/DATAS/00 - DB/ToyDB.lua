@@ -1414,5 +1414,7 @@ i(235017);	-- Glittering Vault Shard
 i(233486);	-- Hallowfall Supply Cache
 i(234473);	-- Soweezi's Comfy Lawn Chair
 i(218308);	-- Winter Veil Cracker
+--- UNSORTED ---
+i(235041);	-- Cyrce's Circlet
 --- NYI ---
 i(235016);	-- Redeployment Module

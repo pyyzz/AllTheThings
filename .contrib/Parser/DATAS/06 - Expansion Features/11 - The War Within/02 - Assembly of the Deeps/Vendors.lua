@@ -36,7 +36,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						i(223294, {	-- Noncandescent Smithing Hood
 							["cost"] = {{"c", RESONANCE_CRYSTALS, 3900}},
 						}),
-						i(223295, {	-- Slag Accruing Mask
+						i(223295, {	-- Slag-Accruing Mask
 							["cost"] = {{"c", RESONANCE_CRYSTALS, 3900}},
 						}),
 						i(223293, {	-- Unmelting Ironworker Helmet
@@ -82,7 +82,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeli
 						i(223305, {	-- Noncandescent Smithing Cord
 							["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
 						}),
-						i(223304, {	-- Slag Accruing Waistguard
+						i(223304, {	-- Slag-Accruing Waistguard
 							["cost"] = {{"c", RESONANCE_CRYSTALS, 2600}},
 						}),
 						i(223307, {	-- Unmelting Ironworker Clasp

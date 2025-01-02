@@ -1395,7 +1395,7 @@ root(ROOTS.NeverImplemented, filter(MISC, {
 			i(210419),	-- Dream Wardens Insignia [Uncommon]
 			i(210786),	-- Dreaming Whiskerfish
 			i(208597),	-- Eadweard's Notes
-			i(208887),	-- Erdan's Notes
+			i(208887),	-- Erden's Notes
 			i(210027),	-- Extracted Ashen Dust
 			i(210028),	-- Extracted Ashen Dust
 			i(210450),	-- Flaming Orb

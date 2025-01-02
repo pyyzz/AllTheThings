@@ -903,7 +903,7 @@ i(223961, 447875);	-- Azj-Kahet Special
 i(225894, 445108);	-- Beledar's Bounty
 i(228424, 445479);	-- Cinder Nectar
 i(224152, 445109);	-- Empress' Farewell
-i(223956, 447870);	-- Everything-On-A-Stick
+i(223956, 447870);	-- Everything-on-a-Stick
 i(224418, 445115);	-- Everything Stew
 i(225639, 455424);	-- Exquisitely Eviscerated Muscle
 i(227283, 445112);	-- Feast of the Divine Day

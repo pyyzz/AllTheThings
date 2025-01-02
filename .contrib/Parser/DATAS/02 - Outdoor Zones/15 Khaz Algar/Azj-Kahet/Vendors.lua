@@ -149,14 +149,14 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["coord"] = { 49.6, 26.6, AZJ_KAHET },
 				["sym"] = {{"select","itemID",
 					221850,	-- Freshly Webbed Kebab (PET!)
-					223956,	-- Recipe: Everything-On-A-Stick (RECIPE!)
+					223956,	-- Recipe: Everything-on-a-Stick (RECIPE!)
 				}},
 			}),
 			n(218197, {	-- Kurth <Clerk>
 				["coord"] = { 49.0, 26.8, AZJ_KAHET },
 				["sym"] = {{"select","itemID",
 					221850,	-- Freshly Webbed Kebab (PET!)
-					223956,	-- Recipe: Everything-On-A-Stick (RECIPE!)
+					223956,	-- Recipe: Everything-on-a-Stick (RECIPE!)
 				}},
 			}),
 			n(218169, {	-- Llyot <Plant Sundries & Herbalism Supplies>
@@ -204,7 +204,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 						["cost"] = {{"c", KEJ, 2250}},
 						["isLimited"] = true,
 					}),
-					i(223956, {	-- Recipe: Everything-On-A-Stick (RECIPE!)
+					i(223956, {	-- Recipe: Everything-on-a-Stick (RECIPE!)
 						["cost"] = {{"c", KEJ, 1500}},
 					}),
 				},
@@ -330,7 +330,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					221850,	-- Freshly Webbed Kebab (PET!)
 					222973,	-- Fringe (PET!)
 					222968,	-- Itchbite (PET!)
-					223956,	-- Recipe: Everything-On-A-Stick (RECIPE!)
+					223956,	-- Recipe: Everything-on-a-Stick (RECIPE!)
 				}},
 			}),
 			n(218210, {	-- Tyro Whalekk <Organic Pet Food>
@@ -365,7 +365,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["coord"] = { 49.6, 26.2, AZJ_KAHET },
 				["sym"] = {{"select","itemID",
 					221850,	-- Freshly Webbed Kebab (PET!)
-					223956,	-- Recipe: Everything-On-A-Stick (RECIPE!)
+					223956,	-- Recipe: Everything-on-a-Stick (RECIPE!)
 				}},
 			}),
 			n(224337, {	-- Zara'azj the Magnificent <Alchemy Supplies>

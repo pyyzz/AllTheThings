@@ -449,7 +449,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					["provider"] = { "n", 217398 },	-- Sister Etna Blayze
 					["coord"] = { 40.5, 35.0, HALLOWFALL },
 					["g"] = {
-						i(218113),	-- Wasp Venom (QI!)
+						i(218113),	-- Sweet-Sting Venom (QI!)
 					},
 				}),
 				q(79647, {	-- Burning Reflections
@@ -744,7 +744,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					["provider"] = { "n", 219135 },	-- Wenren Althal
 					["coord"] = { 48.8, 64.5, HALLOWFALL },
 					["g"] = {
-						i(217269),	-- Arcane Suffused Organ (QI!)
+						i(217269),	-- Arcane-Suffused Organ (QI!)
 					},
 				}),
 				q(80177, {	-- Arcane Experiments

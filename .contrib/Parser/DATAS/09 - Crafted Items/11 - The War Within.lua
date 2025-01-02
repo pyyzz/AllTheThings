@@ -537,7 +537,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 		i(222708),	-- Coreway Kabob
 		i(222718),	-- Deepfin Patty
 		i(222729),	-- Empress' Farewell
-		i(223966),	-- Everything-On-A-Stick
+		i(223966),	-- Everything-on-a-Stick
 		i(222735),	-- Everything Stew
 		i(225592),	-- Exquisitely Eviscerated Muscle
 		i(222732),	-- Feast of the Divine Day
@@ -545,9 +545,9 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 		i(222715),	-- Fiery Fish Sticks
 		i(225876),	-- Fine Egg Powder
 		i(222721),	-- Fish and Chips
-		i(222709),	-- Flash Fire Fillet
+		i(222709),	-- Flashfire Fillet
 		i(225855),	-- Ghoulfish Delight
-		i(222716),	-- Ginger Glazed Fillet
+		i(222716),	-- Ginger-Glazed Fillet
 		i(222707),	-- Hallowfall Chili
 		i(222776),	-- Hearty Beledar's Bounty
 		i(222775),	-- Hearty Angler's Delight
@@ -560,8 +560,8 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 		i(222781),	-- Hearty Feast of the Midnight Masquerade
 		i(222763),	-- Hearty Fiery Fish Sticks
 		i(222769),	-- Hearty Fish and Chips
-		i(222757),	-- Hearty Flash Fire Fillet
-		i(222764),	-- Hearty Ginger Glazed Fillet
+		i(222757),	-- Hearty Flashfire Fillet
+		i(222764),	-- Hearty Ginger-Glazed Fillet
 		i(222755),	-- Hearty Hallowfall Chili
 		i(222778),	-- Hearty Jester's Board
 		i(222771),	-- Hearty Marinated Tenderloins
@@ -2451,7 +2451,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = 
 		}),
 		i(219005),	-- Arathor Hammerfish Lure
 		i(219019),	-- Beast Lure Scent
-		i(218738),	-- Bizarrely-Shaped Stomach
+		i(218738),	-- Bizarrely Shaped Stomach
 		i(219009),	-- Crystalline Creature Lure
 		i(219004),	-- Dornish Pike Lure
 		i(219007),	-- Elusive Creature Lure

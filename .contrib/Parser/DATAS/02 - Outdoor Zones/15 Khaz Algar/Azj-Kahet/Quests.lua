@@ -461,7 +461,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					["provider"] = { "n", 217565 },	-- Al'kubian
 					["coord"] = { 60.0, 66.2, AZJ_KAHET },
 					["g"] = {
-						i(222926),	-- Leg Chewers' Stomach (QI!)
+						i(222926),	-- Leg Chewer's Stomach (QI!)
 						i(222924),	-- Liverseeker's Intestines (QI!)
 					},
 				}),
