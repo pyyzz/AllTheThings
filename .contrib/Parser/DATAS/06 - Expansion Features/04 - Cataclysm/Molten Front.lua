@@ -223,7 +223,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.CATA, {
 						29305,	-- Strike at the Heart (Stage 2: Into the Fire)
 					},
 					["coord"] = { 50.8, 23.0, THE_MOLTEN_FRONT },
-					["description"] = "Requires unlocking the presence of the Ancients on the Molten Front.",
+					["description"] = "Requires unlocking the presence of the Ancients on the Molten Front.\n\nProtip: You can skip the entire daily questline by keeping the quest 'Strike at the Heart' in your quest log. The next day you can simply speak to the ancient on Ragnaros' Reach again to engage the Lieutenant of Flame.",
 					["groups"] = {
 						crit(17840, {	-- Ancient Charscale slain
 							["cr"] = 53055,	-- Ancient Charscale <Lieutenant of Flame>
