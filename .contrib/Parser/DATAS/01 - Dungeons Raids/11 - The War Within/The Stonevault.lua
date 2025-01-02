@@ -57,6 +57,7 @@ root(ROOTS.Instances, expansion(EXPANSION.TWW, bubbleDownSelf({ ["timeline"] = {
 					["g"] = {
 						ach(40643),	-- The Stonevault
 						i(221091),	-- Cutting-Edge Sermon
+						i(221093),	-- Deeply Corrupted Coil [Only Available as Warbound]
 						i(221090),	-- Eirich's Fist of Deception
 						i(219303),	-- High Speaker's Accretion
 						i(221092),	-- Legplates of Broken Trust

@@ -26,6 +26,15 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 					i(204632),	-- Tectonic Rock Fragment
 				})),
 			}),
+			expansion(EXPANSION.TWW, {
+				-- 11.0.0
+				expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
+					i(210942),	-- Byproduct 01 - Light
+					i(210943),	-- Byproduct 02 - Dark
+					i(210940),	-- Null Stone
+					i(210941),	-- Null Stone
+				})),
+			}),
 		}),
 		n(CRAFTABLES, {
 		}),

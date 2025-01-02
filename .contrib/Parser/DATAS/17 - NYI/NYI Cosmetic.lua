@@ -461,6 +461,7 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 		-- 11.0.0
 		expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
 			n(ARMOR, {
+				i(212170),	-- Bronzebeard's Spare Hat
 				i(224165),	-- Dornogal Tabard
 				i(224869),	-- Earthen Drape
 				i(224169),	-- Freywold Tabard
@@ -542,6 +543,8 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(226425),	-- Harvester's Claw
 				i(226426),	-- Harvester's Claw
 				i(217706),	-- Learn Warglaives Test Item (DNT)
+				i(227294),	-- Ravencrest's Wrath
+				i(227287),	-- Skovald's Resolve
 				i(225496),	-- Unhinged Vault-Hatch
 			}),
 		})),

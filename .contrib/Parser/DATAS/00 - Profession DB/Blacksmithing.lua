@@ -2284,6 +2284,7 @@ i(223055, 0);		-- Plans: Seasoned Skillet
 i(223021, 0);		-- Plans: Siphoning Stiletto
 i(217951, 0);		-- Plans: Sturdy Expedition Shovel
 i(223029, 0);		-- Plans: Webbed Fishing Line
+i(223056, 0);		-- Plans: Webbed Fishing Line
 i(223030, 0);		-- Plans: Weighted Lure
 i(223057, 0);		-- Plans: Weighted Lure
 i(218103, 0);		-- Plans: <Endgame Alloy C>

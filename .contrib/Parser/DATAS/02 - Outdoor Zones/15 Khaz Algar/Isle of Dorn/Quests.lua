@@ -1149,7 +1149,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					o(455170, {	-- Crumbling Ironwood Parchment
 						i(226015),	-- Petrified Ironwood Parchment (QI!)
 					}),
-					i(225888),	-- Titan Emitter (QI!)
+					i(225887),	-- Titan Emitter (QI!)
 				},
 			}),
 			q(83087, {	-- The Old Guard
@@ -1157,7 +1157,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 				["provider"] = { "n", 225472 },	-- Dagran Thaurissan II
 				["coord"] = { 44.9, 20.6, ISLE_OF_DORN },
 				["g"] = {
-					i(225888),	-- Titan Emitter (QI!)
+					i(225887),	-- Titan Emitter (QI!)
 					i(228369),	-- Reconstructed Ledger
 				},
 			}),

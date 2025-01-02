@@ -1217,6 +1217,14 @@ i(211588, 430055);	-- Draconic Combatant's Jeweled Amulet
 i(211589, 430056);	-- Draconic Combatant's Jeweled Signet
 
 ------------------
+-- PATCH 11.0.0 --
+------------------
+--- NYI ---
+i(223083, 0);	-- Design: Elemental Focusing Lens
+i(223084, 0);	-- Design: Prismatic Null Stone
+i(225431, 0);	-- Design: Vicious Jeweler's Setting
+
+------------------
 -- PATCH 11.0.2 --
 ------------------
 --- TRAINER ---
@@ -1288,6 +1296,3 @@ i(0, 435384);	-- Ring of Earthen Craftsmanship
 i(0, 434544);	-- Versatile Emerald
 i(0, 434548);	-- Versatile Onyx
 i(0, 434552);	-- Versatile Ruby
---- NYI ---
-i(223083, 0);	-- Design: Elemental Focusing Lens
-i(223084, 0);	-- Design: Prismatic Null Stone

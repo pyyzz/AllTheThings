@@ -62,26 +62,6 @@ i(194742);	-- Worn Book
 i(210438);	-- Wisp Dust
 i(211768);	-- Hastily Scrawled Satyr Ravings
 i(226037);	-- Timeless Neural Silencer
--- TWW
-i(221485);	-- Defias Gunpowder
-i(229371);	-- Companion Experience
-i(228392);	-- Corroded Pocket Watch [Fishing]
-i(228390);	-- Left Boot [Fishing]
-i(228395);	-- Mud Clump [Fishing]
-i(228393);	-- Shattered Lantern [Fishing]
-i(225833);	-- Weathered Skipping Stone [Enormous Pile of Refuse]
-i(228756);	-- Bonus Snuffling Experience [Wax Contribution]
-i(229829);	-- Light Blue Balloon
-i(229830);	-- Dark Blue Balloon
-i(229831);	-- Gold Balloon
-i(232374);	-- Greasy Links
-i(232375);	-- Moon Bread
-i(232376);	-- Cherry Bombs
-i(232377);	-- Pappy Thunderbrew's Cough Syrup
-i(232378);	-- Jenkins' No Nonsense Fried Chicken
-i(232380);	-- Brivelthwerp's Sassafras Float
-i(232385);	-- Elekk Ear
-
 -------------------------------------------------------------------- LOADING DOCK --------------------------------------------------------------------
 
 -- Dont add anything here /Braghe
@@ -1882,6 +1862,7 @@ i(220291);	-- Bioluminescent Thorax
 i(227321);	-- Blessed Brew
 i(225543);	-- Bloodied Idol
 i(228455);	-- Bolt of Bouldercloth
+i(228756);	-- Bonus Snuffling Experience
 i(227335);	-- Borer Blood Pudding
 i(223900);	-- Bottled Darkness
 i(228456);	-- Bouldercloth
@@ -1896,6 +1877,7 @@ i(225715);	-- Brax's To-Do List
 i(225826);	-- Broken Elevator Cog
 i(225853);	-- Broken Stirrup
 i(220447);	-- Broken Trident Prong
+i(220156);	-- Bubbling Wax
 i(227308);	-- Butterflied Deepstrider
 i(217171);	-- CANDLE KING DIARY
 i(227274);	-- Candle Rock Candy
@@ -1915,11 +1897,16 @@ i(217896);	-- Cinderbrew Mead
 i(225996);	-- Clam Digger
 i(217169);	-- Cloak of Beards
 i(220256);	-- Clump of Rotting Detritus
+i(228632);	-- Clutch of Wyrm's Awakened Crests
 i(227314);	-- Coffee, Light Ice
 i(220486);	-- Collection of Shiny Shells
 i(228454);	-- Collector's Commemorative Proscenium Playbill
 i(220267);	-- Combustible Gland
+i(229371);	-- Companion Experience
+i(232049);	-- Companion Experience
+i(232371);	-- Companion Experience
 i(225788);	-- Congratulatory Ascension Silk
+i(228392);	-- Corroded Pocket Watch
 i(225848);	-- Cracked Etheric Power Core
 i(228482);	-- Cracked Iridescent Pearl
 i(228496);	-- Cracked Lantern
@@ -1942,6 +1929,9 @@ i(228452);	-- Deepest, Darkest Black Ink
 i(224464);	-- Demonic Healthstone
 i(220280);	-- Dense Five-Pound Stone
 i(225795);	-- Dented Pocketwatch
+i(228624);	-- Depleted Awakened Flightstone
+i(228626);	-- Depleted Blackened Flightstone
+i(228625);	-- Depleted Ruby Flightstone
 i(220443);	-- Desecrated Arathi Tinderbox
 i(228509);	-- Diaphanous Webbing
 i(227311);	-- Digspresso
@@ -1968,8 +1958,10 @@ i(225846);	-- Fractured Command Matrix
 i(225829);	-- Fractured Interface Crystal
 i(228490);	-- Fresh Grazing Rocks
 i(228487);	-- Freshly Fallen Sticks
+i(224767);	-- Giant Candle Parts
 i(225677);	-- Gleaming Chaos
 i(225811);	-- Gleaming Deep-Pearl
+i(232492);	-- Gleaming Shatter
 i(227333);	-- Glimmering Delicacy
 i(225831);	-- Glittering Rock
 i(220444);	-- Gnawed Spine
@@ -2012,8 +2004,11 @@ i(217040);	-- Kobold Earwax
 i(227275);	-- Koboldatouille
 i(227319);	-- Koboldchino
 i(225812);	-- Kobyss Teeth-Sharpener
+i(228633);	-- Large Pouch of Whelpling's Awakened Crests
 i(227317);	-- Lava Cola
 i(220234);	-- Leaden Vial
+i(228390);	-- Left Boot
+i(228627);	-- Lively Clutch of Wyrm's Awakened Crests
 i(225849);	-- Long-Forgotten Glove
 i(223898);	-- Loose Bolts
 i(228394);	-- Lost Note
@@ -2032,6 +2027,7 @@ i(220285);	-- Moldy Rucksack
 i(227334);	-- Mole Mole
 i(220219);	-- Mound of Night Soil
 i(228430);	-- Mucky Rock
+i(228395);	-- Mud Clump
 i(225854);	-- Muddied Amulet
 i(227304);	-- Mushroom Cake
 i(227323);	-- Mushroom Tea
@@ -2052,6 +2048,7 @@ i(220220);	-- Ornate Pipe
 i(228099);	-- Oversized Chelicera
 i(220244);	-- Oversized Claw
 i(220251);	-- Pale Gills
+i(226524);	-- Partially-Charged Hologem
 i(225796);	-- Particularly Pungent Herbs
 i(225787);	-- Pheromone-Covered Missive
 i(220283);	-- Pileus Puff
@@ -2061,6 +2058,7 @@ i(225875);	-- Pitted Armor Plating
 i(222955);	-- Player Experience
 i(227300);	-- Poison Poached Eggs
 i(220247);	-- Polishing Powder
+i(228630);	-- Pouch of Whelpling's Awakened Crests
 i(225794);	-- Preserved Gold-Inlaid Chelicera
 i(220227);	-- Pristine Ventral Fin
 i(225816);	-- Profaned Pendant
@@ -2075,6 +2073,7 @@ i(220362);	-- Ragged Rope
 i(228491);	-- Ramolith Bedding Material
 i(220242);	-- Razored Tail-Blade
 i(228429);	-- Reflective Rock
+i(228629);	-- Restless Satchel of Drake's Awakened Crests
 i(228391);	-- Right Boot
 i(228510);	-- Ripped Swarmite Wing
 i(228431);	-- Rock Buddy
@@ -2093,10 +2092,12 @@ i(227331);	-- Saints' Delight
 i(227322);	-- Sanctified Sasparilla
 i(225824);	-- Sand Sculpting Comb
 i(220236);	-- Sanguineous Sac
+i(228631);	-- Satchel of Drake's Awakened Crests
 i(220239);	-- Severed Spiraled Tail
 i(223899);	-- Shadowed Appendage
 i(220266);	-- Sharpened Digging Claws
 i(220361);	-- Sharpened Steel Implement
+i(228393);	-- Shattered Lantern
 i(220273);	-- Shed Skin
 i(220237);	-- Shining Amethyst Cluster
 i(227332);	-- Sipping Aether
@@ -2119,6 +2120,7 @@ i(225823);	-- Split Bull-Horn
 i(213262);	-- Stained Glass Fragment
 i(227313);	-- Starfruit Puree
 i(227329);	-- Still-Twitching Gumbo
+i(211481);	-- Stomping Shoes
 i(225800);	-- Stone Singing Bowl
 i(227325);	-- Stone Soup
 i(220294);	-- Strangely Glowing Filament
@@ -2157,6 +2159,8 @@ i(227328);	-- Wax Fondue
 i(220263);	-- Wax Miner's Sack
 i(227303);	-- Waxy Cheese Snack
 i(220276);	-- Wax-Covered Helmet
+i(224650);	-- Wax-Sealed Pouch
+i(225833);	-- Weathered Skipping Stone
 i(220442);	-- Weighty Shovel
 i(225802);	-- Well-Worn Darning Needle
 i(217163);	-- Well-Worn Doll
@@ -2166,6 +2170,23 @@ i(220491);	-- Wicked Blade Shard
 i(227320);	-- Wicker Wisps
 i(220232);	-- Worm-Eaten Burlap Robe
 i(228911);	-- Xalatath's Rusty Coin
+i(228628);	-- Yawning Basket of Aspect's Awakened Crests
+
+------------------
+-- PATCH 11.0.5 --
+------------------
+i(232380);	-- Brivelthwerp's Sassafras Float
+i(232376);	-- Cherry Bombs
+i(229830);	-- Dark Blue Balloon
+i(221485);	-- Defias Gunpowder
+i(232385);	-- Elekk Ear
+i(229831);	-- Gold Balloon
+i(232374);	-- Greasy Links
+i(232378);	-- Jenkins' No Nonsense Fried Chicken
+i(229829);	-- Light Blue Balloon
+i(232375);	-- Moon Bread
+i(232377);	-- Pappy Thunderbrew's Cough Syrup
+
 
 ------------------
 -- PATCH 11.0.7 --

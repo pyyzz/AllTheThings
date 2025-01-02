@@ -49,8 +49,7 @@ root(ROOTS.Character, n(WARBAND, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 
 			["provider"] = { "n", 226658 },	-- Blue
 			["coord"] = { 48.5, 31.6, TANARIS },
 			["g"] = {
-				--  TODO: Now a spell? not an item
-				-- i(216665),	-- Warband Bank Distance Inhibitor (TOY!)
+				spell(465226),	-- Warband Bank Distance Inhibitor
 			},
 		}),
 	})),

@@ -1347,6 +1347,7 @@ i(204405);	-- Stuffed Bear
 i(212174);	-- The Warband Map to Everywhere All At Once
 --- NYI ---
 i(224809);	-- Earthen Plumber's Pipe
+i(216665);	-- Warband Bank Distance Inhibitor
 i(216887);	-- Unknown
 
 ------------------
@@ -1384,7 +1385,6 @@ i(228707);	-- Trial of Burning Light
 i(223312);	-- Trusty Hat
 i(227538);	-- Unbound Legend's Pennant
 i(227539);	-- Unbound Strategist's Pennant
-i(216665);	-- Warband Bank Distance Inhibitor
 i(226191);	-- Web Pet Leash
 i(225347);	-- Web-Vandal's Spinning Wheel
 i(221966);	-- Wormhole Generator: Khaz Algar

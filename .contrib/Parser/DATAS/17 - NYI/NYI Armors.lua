@@ -3162,6 +3162,24 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			i(208981),	-- 10.2 Monster - Merithra - Wrist
 			i(211132),	-- Omni Storm
 		})),
+
+		-- 10.2.7
+		expansion(EXPANSION.DF, patch(2,7), bubbleDown({ ["timeline"] = { CREATED_10_2_7 } }, {
+			filter(CLOTH, {
+				------ NYI or only in Ensembles ------
+				i(220967),	-- Spirit-Waker Shirt
+				i(220968),	-- Scrollkeeper Shirt
+				i(220969),	-- Passionsilk Vests
+				i(220970),	-- Mindbender Shirt
+				i(220971),	-- Mistwalker's Shirt
+				i(220972),	-- Shaded Wood Vest
+				i(225064),	-- Breezebinder's Shirt
+			}),
+			filter(LEATHER, {
+				------ NYI or only in Ensembles ------
+				i(220985),	-- Vest of the Shattered Vale
+			}),
+		})),
 	}),
 	expansion(EXPANSION.TWW, {
 		-- 11.0.0
@@ -3417,6 +3435,8 @@ root(ROOTS.NeverImplemented, n(ARMOR, {
 			i(225685),	-- Relic of Sentience
 			i(212412),	-- 11.0 Raid Template - Wand - RangedRight
 			i(212455),	-- 11.0 Raid Template - Physical DPS - Trinket
+			i(226695),	-- Cunning Advisor's Favor
+			i(226696),	-- Mighty Advisor's Favor
 		})),
 	}),
 }));

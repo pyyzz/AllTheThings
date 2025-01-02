@@ -151,6 +151,7 @@ root(ROOTS.NeverImplemented, filter(TOYS, {
 		-- 11.0.0
 		expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
 			i(224809),	-- Earthen Plumber's Pipe (TOY!)
+			i(216665),	-- Warband Bank Distance Inhibitor (TOY!)
 			i(216887),	-- Unknown (TOY!)
 		})),
 		-- 11.0.7

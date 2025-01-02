@@ -249,6 +249,7 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 					i(221617),	-- Jewelcrafting Bag
 					i(221717),	-- Jewelcrafting Bag
 					i(222383),	-- Jewelcrafting Bag
+					i(222788),	-- Khaz Algar Unraveling
 					i(221611),	-- Leatherworking Bag
 					i(221711),	-- Leatherworking Bag
 					i(222377),	-- Leatherworking Bag
@@ -288,6 +289,7 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 					i(222407),	-- Sunset Spellthread
 					i(222408),	-- Sunset Spellthread
 					i(222409),	-- Sunset Spellthread
+					i(222348),	-- Unraveling
 					i(221702),	-- Venerated Robes of the Eclipse
 					i(222368),	-- Venerated Robes of the Eclipse
 					i(221588),	-- Vicious Combatant's Weavercloth Cloak

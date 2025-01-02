@@ -630,14 +630,19 @@ root(ROOTS.NeverImplemented, filter(QUEST_ITEMS, {
 		expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
 			i(219939),	-- Alleria's Crystal
 			i(213193),	-- Arathi Army Medallion
+			i(223638),	-- Arathi Trade Goods
 			i(219197),	-- Black Blood Residue
 			i(211210),	-- Blacksmith Boss' Head
 			i(211304),	-- Bone Key
+			i(224252),	-- Calcified Journal
 			i(211963),	-- Ceiling Sweeper
+			i(212344),	-- Chest Key
+			i(220116),	-- Completed Market Audit
 			i(208957),	-- Conduit of the Southern Storm
 			i(219214),	-- Cooling Wax
 			i(213108),	-- Corrupted Oil
 			i(218084),	-- Crumpled Note
+			i(213163),	-- Cryptographic Glyph
 			i(211930),	-- Damaged Framework
 			i(211291),	-- Decorative Bones
 			i(221751),	-- DO NOT USE Prismatic Codex
@@ -682,7 +687,9 @@ root(ROOTS.NeverImplemented, filter(QUEST_ITEMS, {
 			i(217311),	-- The Foreman's Second Scroll
 			i(217312),	-- The Foreman's Third Scroll
 			i(216682),	-- The Vizier's Invitation
+			i(225888),	-- Titan Emitter
 			i(212224),	-- Titan Relics
+			i(209857),	-- Unusual Seeds
 			i(219215),	-- Wax Puddle
 			i(224182),	-- Webbed Ingots
 			i(224810),	-- Woodworm Elixir
@@ -692,6 +699,12 @@ root(ROOTS.NeverImplemented, filter(QUEST_ITEMS, {
 			i(222899),	-- [UNUSED] Faerin's Shield
 			i(216605),	-- [UNUSED] Vial of Aggression Pheromone
 			i(218104),	-- [UNUSED] Vial of Aggression Pheromone
+		})),
+
+		-- 11.0.2
+		expansion(EXPANSION.TWW, patch(0,02), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_2 } }, {
+			i(210873),	-- Earthen Identification Plaque
+			i(231019),	-- Hearthstone Invitation Letter
 		})),
 	}),
 }));

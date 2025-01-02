@@ -420,6 +420,9 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_2 } }, 
 					},
 					["provider"] = { "n", 215349 },	-- Great Hexer Ohodo
 					["coord"] = { 57.8, 19.8, AZJ_KAHET },
+					["g"] = {
+						i(213420),	-- Fungarian Mushroom Cap (QI!)
+					},
 				}),
 			}),
 			header(HEADERS.AchCriteria, 40636.03, {	-- Gutter Work

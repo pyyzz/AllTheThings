@@ -82,7 +82,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						["coord"] = { 58.1, 35.2, VALDRAKKEN },
 						--["timeline"] = { REMOVED_11_0_0 },	-- This one was not removed probably
 						["g"] = {
-							i(198868),	-- Small Valdrakken Accord Supply Pack
+							i(198868, {	-- Small Valdrakken Accord Supply Pack
+								["timeline"] = { ADDED_10_0_2_LAUNCH, REMOVED_11_0_0 },
+							}),
+							i(215359, {	-- Very Large Valdrakken Accord Supply Pack
+								["timeline"] = { ADDED_11_0_0 },
+							}),
 						},
 					}),
 				}, {	-- RENOWN 5 --
@@ -146,7 +151,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						["coord"] = { 58.1, 35.2, VALDRAKKEN },
 						--["timeline"] = { REMOVED_11_0_0 },	-- This one was not removed probably
 						["g"] = {
-							i(198868),	-- Small Valdrakken Accord Supply Pack
+							i(198868, {	-- Small Valdrakken Accord Supply Pack
+								["timeline"] = { ADDED_10_0_2_LAUNCH, REMOVED_11_0_0 },
+							}),
+							i(215359, {	-- Very Large Valdrakken Accord Supply Pack
+								["timeline"] = { ADDED_11_0_0 },
+							}),
 						},
 					}),
 				}, {	-- RENOWN 9 --
@@ -564,7 +574,12 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.DF, bubbleDown({ ["timeline"] 
 						["coord"] = { 58.1, 35.2, VALDRAKKEN },
 						--["timeline"] = { REMOVED_11_0_0 },	-- This one was not removed probably
 						["g"] = {
-							i(198869),	-- Large Valdrakken Accord Supply Pack
+							i(198868, {	-- Small Valdrakken Accord Supply Pack
+								["timeline"] = { ADDED_10_0_2_LAUNCH, REMOVED_11_0_0 },
+							}),
+							i(215359, {	-- Very Large Valdrakken Accord Supply Pack
+								["timeline"] = { ADDED_11_0_0 },
+							}),
 						},
 					}),
 				}, {	-- RENOWN 15 --

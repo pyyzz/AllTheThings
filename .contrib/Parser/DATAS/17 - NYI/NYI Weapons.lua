@@ -817,6 +817,30 @@ root(ROOTS.NeverImplemented, {
 			i(210533),	-- Timerunning Staff
 		})),
 
+		-- 10.2.7
+		expansion(EXPANSION.DF, patch(2,7), bubbleDown({ ["timeline"] = { CREATED_10_2_7 } }, {
+			i(215699),	-- Grand Imperial Rifle
+			i(215566),	-- Jinyu Blade
+			i(215568),	-- Jinyu Dagger
+			i(215567),	-- Jinyu Poker
+			i(215565),	-- Jinyu Slasher
+			i(215902),	-- Klaxxi Scimitar
+			i(215904),	-- Klaxxi Shortsword
+			i(215903),	-- Klaxxi Sword
+			i(216452),	-- Longstaff of the Monkey King
+			i(215569),	-- Norushen's Dagger
+			i(216478),	-- Pandaren Flamberge
+			i(216454),	-- Pandaren Longstaff
+			i(216455),	-- Pandaren Spire
+			i(216456),	-- Pandaren Staff
+			i(216457),	-- Pandaren Standard
+			i(216451),	-- Quarterstaff of the Monkey King
+			i(215508),	-- Shin'ka, the Tyrant's Greataxe
+			i(216450),	-- Staff of the Monkey King
+			i(216453),	-- Stick of the Monkey King
+			i(215810),	-- Warspear of Xuen
+		})),
+
 		-- 11.0.0
 		expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_0 } }, {
 			-- Leave this for Darkal //Braghe
@@ -938,6 +962,11 @@ root(ROOTS.NeverImplemented, {
 
 			-- Gun
 			i(216906),	-- Ol' Faithful
+		})),
+
+		-- 11.0.2
+		expansion(EXPANSION.TWW, patch(0,02), bubbleDownSelf({ ["timeline"] = { CREATED_11_0_2 } }, {
+			i(222905),	-- Faerin's Shield
 		})),
 	}),
 	n(WEAPONS, {

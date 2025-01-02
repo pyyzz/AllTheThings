@@ -563,6 +563,11 @@ i(211773);	-- Medal of Conquest (Season 4)
 i(211770);	-- Medal of Honor [A] (Season 4)
 i(211771);	-- Medal of Honor [H] (Season 4)
 
+------------------
+-- PATCH 11.0.2 --
+------------------
+i(225493);	-- Medal of Conquest (Season 1)
+
 -----------------
 -- TIER TOKENS --
 -----------------

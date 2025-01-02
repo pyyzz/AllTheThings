@@ -630,170 +630,21 @@ root(ROOTS.Unsorted, {
 			i(231773),	-- Lost & Found Chest
 		})),
 		expansion(EXPANSION.TWW, patch(0,2), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 } }, {
+			-- Remaining Left To Darkal --
 			explorationHeader({
 				exploration(15667),	-- Delves
 				exploration(15552),	-- The Undersea
 			}),
-			filter(MISC, {
-				i(228624),	-- Depleted Awakened Flightstone
-				i(228625),	-- Depleted Ruby Flightstone
-				i(228626),	-- Depleted Blackened Flightstone
-				i(228627),	-- Lively Clutch of Wyrm's Awakened Crests
-				i(228628),	-- Yawning Basket of Aspect's Awakened Crests
-				i(228629),	-- Restless Satchel of Drake's Awakened Crests
-				i(228630),	-- Pouch of Whelpling's Awakened Crests
-				i(228631),	-- Satchel of Drake's Awakened Crests
-				i(228632),	-- Clutch of Wyrm's Awakened Crests
-				i(228633),	-- Large Pouch of Whelpling's Awakened Crests
-				i(228742),	-- Unidentifiable Cloth
-				i(228743),	-- Damp Weavercloth
-				i(228744),	-- Golbin Twist-Rag
-				i(228745),	-- Aurora Strand
-				-- Have QuestID attached
-				i(228947),	-- Weaver's Lair Profession Table
-				---
-				i(228951),	-- Pact Treasure Map
-			}),
-			--
-			i(229005),	-- Cache of Earthen Treasures
-			i(229006),	-- Cache of Earthen Treasures
-			i(229130),	-- Cache of Delver's Spoils
-			i(229370),	-- Companion Experience
-			---
-			i(230202),	-- Add Keystone Affix: Xal'atath's Bargain: Ascendant
-			i(230204),	-- Add Keystone Affix: Xal'atath's Bargain: Voidbound
-			i(230205),	-- Add Keystone Affix: Xal'atath's Bargain: Oblivion
-			i(230206),	-- Add Keystone Affix: Xal'atath's Bargain: Devour
-			i(230208),	-- Add Keystone Affix: Xal'atath's Guile
-			i(230209),	-- Add Keystone Affix: Challenger's Peril
-			--
-			i(210873),	-- Earthen Identification Plaque
-			i(222905),	-- Faerin's Shield
-			--
-			i(232049),	-- Companion Experience
-			i(232371),	-- Companion Experience
-			--
-			i(226262),	-- Grizzly Hills Trail Mix
-			i(226274),	-- Grizzly Hills Spring Water
-			i(226275),	-- Grizzly Hills Granola
-			i(231019),	-- Hearthstone Invitation Letter
-			i(232492),	-- Gleaming Shatter
-			--
-			i(232575),	-- Tome of Town Portal
+			-- Have QuestID attached
+			i(228947),	-- Weaver's Lair Profession Table
 		})),
 		expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 } }, {
-			n(ARMOR, {
-				--- Might Exist ---
-				i(226695),	-- Cunning Advisor's Favor
-				i(226696),	-- Mighty Advisor's Favor
-				--- Probably NYI (Wowhead data corrupted with beta) ---
-				i(221093),	-- Deeply Corrupted Coil
-			}),
-			filter(COSMETIC, {
-				--- Might Exist ---
-				i(212170),	-- Bronzebeard's Spare Hat
-				--- M+ Weapons Cosmetic? ---
-				i(227287),	-- Skovald's Resolve
-				i(227294),	-- Ravencrest's Wrath
-			}),
-			f(MISC, {
-				--- Achievement: Gobblin' with Glublurp ---
+			-- Left To Myrhial --
+			n(ACHIEVEMENTS, {
+				--- Achievement: Gobblin' with Glublurp --
 				i(225930),	-- Glimmering Crystal
-				--- Not Sure ---
-				i(226257),	-- Delver's Pouch of Valorstones
-				i(226260),	-- Delver's Pouch of Gold
-				--- Books ---
-				i(226430),	-- Navigations of The Soul
-				i(228415),	-- Adelgonn's Journal
-				i(228416),	-- Steelvein's Manifesto
-				--- Draenei ---
-				i(226524),	-- Partially-Charged Hologem
-				--- Delves ---
-				--- Probably NYI ---
-				--- Kriegval ---
-				i(224767),	-- Giant Candle Parts
-				--- Waterworks ---
-				i(211481),	-- Stomping Shoes
-				--- Quest Rewards ---
-				i(220156),	-- Bubbling Wax
-				--- Renown Quest Rewards ---
-				i(226154),	-- Wax-Sealed Crafty Crest
-				i(226152),	-- Wax-sealed Crests
-				--- Attached to Quests via API ---
-				-- i(215359),	-- Very Large Valdrakken Accord Supply Pack
-				-- i(226151),	-- Wax-Coated Coffer Unlocker
-				--- Snuffling ---
-				i(224650),	-- Wax-Sealed Pouch
-				--- World Quests ---
-				--- Azj ---
-				i(213420),	-- Fungarian Mushroom Cap
-				--- Ringing ---
-				i(224913),	-- Radiant Fuel Cache
 			}),
-			n(PROFESSIONS, {
-				i(211494),	-- Spark of Beginnings
-				i(228224),	-- Spark of Legacies
-				-- NYI Profession --
-				i(219500),	-- Fang Adornments
-				i(213097),	-- Test Warbound until equipped (DNT)
-				-- Misc/armor
-				i(224716),	-- [PH] Skewered Slum Shark
-				i(224718),	-- [PH] Surface Tipper's Toes
-				i(224719),	-- [PH] Evasive Angler's Treads
-				i(224720),	-- [PH] Keen Angler's Eye
-				-- Misc
-				i(224728),	-- Rollin' Barrel \\ [PH] Rollin' Barrel
-				i(224729),	-- Slum Shark Tooth \\ [PH] Slum Shark Tooth
-				i(224730),	-- [PH] Derby Dashers
-				i(219632),	-- Scribe Water
-				prof(BLACKSMITHING, {
-					-- Should be Insc..
-					i(223032),	-- Technique: Lexicon of Mysteries
-					i(223033),	-- Technique: Patient Alchemist's Mixing Rod
-					i(223034),	-- Technique: Inscribed Rolling Pin
-					i(223056),	-- Plans: Webbed Fishing Line
-				}),
-				prof(JEWELCRAFTING, {
-					i(214043),	-- Glittering Gemdust
-					i(225431),	-- Design: Vicious Jeweler's Setting
-				}),
-				prof(MINING, {
-					i(210940),	-- Null Stone
-					i(210941),	-- Null Stone
-					i(210942),	-- Byproduct 01 - Light
-					i(210943),	-- Byproduct 02 - Dark
-				}),
-				prof(TAILORING, {
-					i(212677),	-- Underground Cloth 01
-					i(212678),	-- Underground Cloth 01
-					i(212679),	-- Underground Cloth 01
-					i(221750),	-- Shredded Weavercloth
-					i(222416),	-- Shredded Weavercloth
-					i(224823),	-- Shredded Weavercloth
-					i(222348),	-- Unraveling
-					i(222788),	-- Khaz Algar Unraveling
-				}),
-			}),
-			n(PVP, {
-				--- Typical Seasonal PvP Stuff ---
-				i(224557),	-- Field Medic's Hazard Payout
-				i(225493),	-- Medal of Conquest
-			}),
-			f(QUEST_ITEMS, {
-				-- Possibly Delves
-				i(212344),	-- Chest Key
-				i(209857),	-- Unusual Seeds
-				-- These might exist or just old Beta data
-				i(223638),	-- Arathi Trade Goods
-				i(224252),	-- Calcified Journal
-				i(220116),	-- Completed Market Audit
-				i(213163),	-- Cryptographic Glyph
-				i(225887),	-- Titan Emitter
-			}),
-			filter(TOYS, {
-				--- Gonna check this! Make spellID able to be isToy to make it collectible from the quest // Braghe
-				i(216665),	-- Warband Bank Distance Inhibitor
-			}),
+			-- Left to Darkal --
 			explorationHeader({
 				exploration(14484),	-- 10.2 Devland
 				exploration(14523),	-- 11 Zone3
@@ -943,57 +794,10 @@ root(ROOTS.Unsorted, {
 	}),
 	expansion(EXPANSION.DF, {
 		expansion(EXPANSION.DF, patch(2,7), bubbleDownSelf({ ["timeline"] = { ADDED_10_2_7 } }, {
+			-- Left Remaining To Darkal --
 			n(PVP, {
 				-- This is all broken as of 10.2.7. Currently added a placeholder data to the SL PvP vendor.
 				i(223769),	-- Eternal Aspirant's Cape
-			}),
-			n(SPECIAL, {	-- Timerunning
-				n(ARMOR, {
-					filter(CLOTH, {
-						------ NYI or only in Ensembles ------
-						i(220967),	-- Spirit-Waker Shirt
-						i(220968),	-- Scrollkeeper Shirt
-						i(220969),	-- Passionsilk Vests
-						i(220970),	-- Mindbender Shirt
-						i(220971),	-- Mistwalker's Shirt
-						i(220972),	-- Shaded Wood Vest
-						i(225064),	-- Breezebinder's Shirt
-					}),
-					filter(LEATHER, {
-						------ NYI or only in Ensembles ------
-						i(220985),	-- Vest of the Shattered Vale
-					}),
-				}),
-				filter(MISC, {
-					i(211932),	-- Cache of Infinite Treasure
-					i(216638),	-- Timerunner's Intro Kit
-					i(219218),	-- Timerunner's Starter Kit
-					i(219219),	-- Timerunner's Starter Kit
-					i(219220),	-- Catch Up Thread
-					i(224120),	-- Timerunner's Gem Box
-				}),
-				n(WEAPONS, {
-					i(215508),	-- Shin'ka, the Tyrant's Greataxe
-					i(215565),	-- Jinyu Slasher
-					i(215566),	-- Jinyu Blade
-					i(215567),	-- Jinyu Poker
-					i(215568),	-- Jinyu Dagger
-					i(215569),	-- Norushen's Dagger
-					i(215810),	-- Warspear of Xuen
-					i(215902),	-- Klaxxi Scimitar
-					i(215903),	-- Klaxxi Sword
-					i(215904),	-- Klaxxi Shortsword
-					i(216450),	-- Staff of the Monkey King
-					i(216451),	-- Quarterstaff of the Monkey King
-					i(216452),	-- Longstaff of the Monkey King
-					i(216453),	-- Stick of the Monkey King
-					i(216454),	-- Pandaren Longstaff
-					i(216455),	-- Pandaren Spire
-					i(216456),	-- Pandaren Staff
-					i(216457),	-- Pandaren Standard
-					i(216478),	-- Pandaren Flamberge
-					i(215699),	-- Grand Imperial Rifle (do not add this anywhere unless it is actually confirmed)
-				}),
 			}),
 		})),
 	}),

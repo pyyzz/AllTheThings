@@ -1207,6 +1207,7 @@ root(ROOTS.NeverImplemented, n(PROFESSIONS, {
 					i(223021),	-- Plans: Siphoning Stiletto
 					i(217951),	-- Plans: Sturdy Expedition Shovel
 					i(223029),	-- Plans: Webbed Fishing Line
+					i(223056),	-- Plans: Webbed Fishing Line
 					i(223030),	-- Plans: Weighted Lure
 					i(223057),	-- Plans: Weighted Lure
 					i(218103),	-- Plans: <Endgame Alloy C>
