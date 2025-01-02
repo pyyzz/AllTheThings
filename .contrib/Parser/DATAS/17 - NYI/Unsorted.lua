@@ -655,11 +655,6 @@ root(ROOTS.Unsorted, {
 			i(228947),	-- Weaver's Lair Profession Table
 		})),
 		expansion(EXPANSION.TWW, patch(0,01), bubbleDownSelf({ ["timeline"] = { ADDED_11_0_0 } }, {
-			-- Left To Myrhial --
-			n(ACHIEVEMENTS, {
-				--- Achievement: Gobblin' with Glublurp --
-				i(225930),	-- Glimmering Crystal
-			}),
 			-- Left to Darkal --
 			explorationHeader({
 				exploration(14484),	-- 10.2 Devland
