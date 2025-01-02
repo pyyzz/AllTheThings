@@ -120,7 +120,20 @@ root(ROOTS.Zones, {
 						["races"] = ALLIANCE_ONLY,
 						["sym"] = {{ "achievement_criteria" }},
 					}),
-					ach(9435),	-- Take From Them Everything (Socrethar's Rise)
+					ach(9435, {	-- Take From Them Everything (Socrethar's Rise)
+						["description"] = "Pickup the buff and then keep that same buff active for 10 minutes, make sure to only click Fruit Baskets.",
+						["provider"] = { "o" , 234457 },	-- Fruit Basket
+						["coords"] = {
+							{ 46.4, 81.4, DRAENOR_SHADOWMOON_VALLEY },
+							{ 47.5, 72.8, DRAENOR_SHADOWMOON_VALLEY },
+							{ 49.7, 72.8, DRAENOR_SHADOWMOON_VALLEY },
+							{ 50.4, 74.4, DRAENOR_SHADOWMOON_VALLEY },
+							{ 50.5, 75.8, DRAENOR_SHADOWMOON_VALLEY },
+							{ 50.7, 79.7, DRAENOR_SHADOWMOON_VALLEY },
+							{ 51.1, 77.4, DRAENOR_SHADOWMOON_VALLEY },
+							{ 51.3, 75.2, DRAENOR_SHADOWMOON_VALLEY },
+						},
+					}),
 					ach(9432),	-- Would You Like a Pamphlet? (Shadowmoon Enclave)
 					ach(9479),	-- You Can't Make a Giant Omelette... (Darktide Roost)
 					ach(9481),	-- You Have Been Rylakinated! (Darktide Roost)
