@@ -75,37 +75,84 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 			["isYearly"] = true,
 			["maps"] = { ORGRIMMAR, STORMWIND_CITY },
 		}),
-		q(76112, {	-- Report to the Trading Post -- Dec 2023
+		q(76112, {	-- Report to the Trading Post -- December 2023
 			["timeline"] = { ADDED_10_2_0 },
 			["isYearly"] = true,
 			["maps"] = { ORGRIMMAR, STORMWIND_CITY },
 		}),
-		q(76113, {	-- Report to the Trading Post -- Jan 2024
+		q(76113, {	-- Report to the Trading Post -- January 2024
 			["timeline"] = { ADDED_10_2_0 },
 			["isYearly"] = true,
 			["maps"] = { ORGRIMMAR, STORMWIND_CITY },
 		}),
-		q(76114, {	-- Report to the Trading Post -- Feb 2024
+		q(76114, {	-- Report to the Trading Post -- February 2024
 			["timeline"] = { ADDED_10_2_5 },
 			["isYearly"] = true,
 			["maps"] = { ORGRIMMAR, STORMWIND_CITY },
 		}),
-		q(81722, {	-- Report to the Trading Post -- ???
+		q(81722, {	-- Report to the Trading Post -- August 2024
 			["timeline"] = { ADDED_11_0_2 },
+			["isYearly"] = true,
 			["maps"] = { DORNOGAL },
 		}),
-		q(81723, {	-- Report to the Trading Post -- ???
+		q(81723, {	-- Report to the Trading Post -- September 2024
 			["timeline"] = { ADDED_11_0_2 },
+			["isYearly"] = true,
 			["maps"] = { DORNOGAL },
 		}),
 		q(81724, {	-- Report to the Trading Post -- October 2024
 			["timeline"] = { ADDED_11_0_2 },
+			["isYearly"] = true,
 			["maps"] = { DORNOGAL },
 		}),
 		q(81725, {	-- Report to the Trading Post -- November 2024
 			["timeline"] = { ADDED_11_0_5 },
+			["isYearly"] = true,
 			["maps"] = { DORNOGAL },
-		})
+		}),
+		q(81726, {	-- Report to the Trading Post -- December 2024
+			["timeline"] = { ADDED_11_0_5 },
+			["isYearly"] = true,
+			["maps"] = { DORNOGAL },
+		}),
+		q(81715, {	-- Report to the Trading Post -- January 2025
+			["timeline"] = { ADDED_11_0_7 },
+			["isYearly"] = true,
+			["maps"] = { DORNOGAL },
+		}),
+		q(81714, {	-- Report to the Trading Post -- February 2025
+			["timeline"] = { ADDED_11_0_7 },
+			["isYearly"] = true,
+			["maps"] = { DORNOGAL },
+		}),
+		-- Future trading post quests - unknown timeline
+		--[[
+		q(81717, {	-- Report to the Trading Post -- March 2025
+			["timeline"] = { TODO },
+			["isYearly"] = true,
+			["maps"] = { DORNOGAL },
+		}),
+		q(81718, {	-- Report to the Trading Post -- April 2025
+			["timeline"] = { TODO },
+			["isYearly"] = true,
+			["maps"] = { DORNOGAL },
+		}),
+		q(81719, {	-- Report to the Trading Post -- May 2025
+			["timeline"] = { TODO },
+			["isYearly"] = true,
+			["maps"] = { DORNOGAL },
+		}),
+		q(81720, {	-- Report to the Trading Post -- June 2025
+			["timeline"] = { TODO },
+			["isYearly"] = true,
+			["maps"] = { DORNOGAL },
+		}),
+		q(81721, {	-- Report to the Trading Post -- July 2025
+			["timeline"] = { TODO },
+			["isYearly"] = true,
+			["maps"] = { DORNOGAL },
+		}),
+		]]--
 	}),
 	n(YEAR2023, {
 		n(FEBRUARY, bubbleDownSelf({ ["timeline"] = { ADDED_10_0_5, REMOVED_10_0_5 } }, {
