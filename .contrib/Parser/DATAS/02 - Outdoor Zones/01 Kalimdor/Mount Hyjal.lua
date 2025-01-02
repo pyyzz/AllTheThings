@@ -108,6 +108,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 					pet(755, {	-- Death's Head Cockroach (PET!)
 						["description"] = "Can be found in areas where the Twilight Hammer have set up camp in Mount Hyjal, as well as common secondary pet to other critters.",
 						["coords"] = {
+							{ 57.0, 68.75, MOUNT_HYJAL }, -- Ascendant's Rise, north of
 							{ 58.4, 80.8, MOUNT_HYJAL }, -- Ascendant's Rise, south
 							{ 28.0, 35.6, MOUNT_HYJAL }, -- Gar'gol's Hovel
 							{ 29.0, 40.0, MOUNT_HYJAL }, -- Lightning Ledge
@@ -159,7 +160,7 @@ root(ROOTS.Zones, m(KALIMDOR, {
 						["description"] = "Can be found in areas where the Twilight Hammer have set up camp.",
 						["coords"] = {
 							{ 58.4, 80.8, MOUNT_HYJAL }, -- Ascendant's Rise
-							{ 57.0, 68.75, MOUNT_HYJAL }, -- Ascendant's Rise, north of.
+							{ 57.0, 68.75, MOUNT_HYJAL }, -- Ascendant's Rise, north of
 							{ 28.0, 35.6, MOUNT_HYJAL }, -- Gar'gol's Hovel
 							{ 29.0, 40.0, MOUNT_HYJAL }, -- Lightning Ledge
 							{ 43.7, 21.0, MOUNT_HYJAL }, -- Twilight Command Post
