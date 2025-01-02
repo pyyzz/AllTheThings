@@ -2332,6 +2332,11 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 } }, {
 				}),
 				i(112326, {	-- Warforged Nightmare (MOUNT!)
 					["cost"] = {{"c", TRADERS_TENDER, 700}},
+					["g"] = {
+						n(MAILBOX, {
+							i(112324),	-- Nightmarish Hitching Post (TOY!)
+						}),
+					},
 				}),
 			}),
 			filter(COSMETIC, {
