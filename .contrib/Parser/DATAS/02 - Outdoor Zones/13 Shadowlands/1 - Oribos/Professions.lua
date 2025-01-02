@@ -92,7 +92,7 @@ root(ROOTS.Zones, m(SHADOWLANDS, bubbleDownSelf({ ["timeline"] = { ADDED_9_0_2_L
 			}),
 			prof(ENGINEERING, {
 				n(156691, {	-- Machinist Au'gur <Engineering Trainer>
-					["coord"] = { 37.8, 44.6, VALDRAKKEN },
+					["coord"] = { 37.8, 44.6, ORIBOS },
 					["g"] = SL_ENGINEERING,
 				}),
 			}),
