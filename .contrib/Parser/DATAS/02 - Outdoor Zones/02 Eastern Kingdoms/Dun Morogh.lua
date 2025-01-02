@@ -3504,8 +3504,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(131209, {	-- Stonehallow's Pressed Cuffs
 							["timeline"] = { ADDED_7_0_3 },
 						}),
-						n(1977, {	-- Senator Mehr Stonehallow
-							-- Danny Donkey: Repeating the same description is not a perfect solution.
+						n(1977, {	-- Senator Mehr Stonehallow --
+							--	Danny Donkey:	Repeating the same description is not a perfect solution.
+							--					Assuming the quest resets yearly: it does NOT reset 1. January, whether it be at 00:00, server restart, or daily/weekly reset.
+							--					Could it be resetting with first major patch of the year?
 							-- #if AFTER 9.1.5
 							["description"] = "The quest 'A Public Servant' get flagged as not completed on a yearly basis, thus is unintentionally repeatable. This does not affect the collected state of the quest rewards.",
 							-- #elseif ANYCLASSIC
