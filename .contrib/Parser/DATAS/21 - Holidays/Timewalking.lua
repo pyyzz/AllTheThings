@@ -5,7 +5,7 @@
 -- Helper function to build a CRS list for the Timereaver Mount.
 -- Since this data is all in the same file, we no longer have to do this as part of a post-processor.
 local TIMEWALKING_DUNGEON_CREATURE_IDS = {};
-function inst_tw(id, t)
+local function inst_tw(id, t)
 	t = inst(id, t);
 	t.difficultyID = DIFFICULTY.DUNGEON.TIMEWALKING;
 
@@ -27,13 +27,20 @@ function inst_tw(id, t)
 	end
 	return t;
 end
-function AddInstancesToRotation(expansionTier, argument1, ...)
+local function AddInstancesToRotation(expansionTier, argument1, ...)
 	local instances = {};
-	for i,instanceID in ipairs(type(argument1) == "table" and argument1 or { argument1, ... }) do
-		if instanceID then
-			table.insert(instances, inst(instanceID, {
-				d(DIFFICULTY.DUNGEON.TIMEWALKING, { ["sym"] = {{"sub", "tw_instance", instanceID }}, }),
-			}));
+	for i,instanceInfo in ipairs(type(argument1) == "table" and argument1 or { argument1, ... }) do
+		if instanceInfo then
+			-- instanceInfo can also designate a sub-mapID within the instance group (Classic dungeons which were split)
+			if type(instanceInfo) == "table" then
+				table.insert(instances, inst(instanceInfo[1], {	m(instanceInfo[2], {
+					d(DIFFICULTY.DUNGEON.TIMEWALKING, { ["sym"] = {{"sub", "tw_instance", instanceInfo[1] }}, }),
+				})}));
+			else
+				table.insert(instances, inst(instanceInfo, {
+					d(DIFFICULTY.DUNGEON.TIMEWALKING, { ["sym"] = {{"sub", "tw_instance", instanceInfo }}, }),
+				}));
+			end
 		end
 	end
 	root(ROOTS.Instances, expansion(expansionTier, instances));
@@ -617,10 +624,10 @@ root(ROOTS.Holidays, n(TIMEWALKING_HEADER, applyevent(EVENTS.TIMEWALKING_CLASSIC
 AddInstancesToRotation(EXPANSION.CLASSIC, {
 	-- Dungeons
 	63,		-- Deadmines
-	230,	-- Dire Maul - Capital Gardens
-	1276,	-- Dire Maul - Warpwood Quarter
-	236,	-- Stratholme - Main Gate
-	1292,	-- Stratholme - Service Entrance
+	{230,236},	-- Dire Maul - Capital Gardens
+	{230,239},	-- Dire Maul - Warpwood Quarter
+	{236,STRATHOLME},	-- Stratholme - Main Gate
+	{236,318},	-- Stratholme - Service Entrance
 	241,	-- Zul'Farrak
 });
 
