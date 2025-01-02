@@ -221,7 +221,8 @@ MobileDB.Creature = {
 -- either by following the player or having player-based decisions that cause them to have any coordinates
 -- but also quests objects that are not sourced elsewhere..
 MobileDB.GameObject = {
-	[201615] = true,	-- Valve in ICC
+	[201615] = true,	-- Ooze Release Valve (Rotface)
+	[201616] = true,	-- Gas Release Valve (Festergut)
 	[209287] = true,	-- Bit of Glass, quest:29516
 	[209506] = true,	-- Stolen Treats, q:6983
 	[281326] = true,	-- Falcon Cage (Quest Object in Drustvar)

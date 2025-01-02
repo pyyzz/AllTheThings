@@ -245,7 +245,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(26148, {	-- A Decisive Strike
 					["qg"] = 1092,	-- Captain Rugelfuss
 					["sourceQuest"] = 26146,	-- In Defense of the King's Lands
-					["coord"] = { 23.3, 75.0, LOCH_MODAN },
+					["coord"] = { 23.4, 75.0, LOCH_MODAN },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -463,7 +463,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(26147, {	-- Bigger and Uglier
 					["qg"] = 1090,	-- Mountaineer Wallbang
 					["sourceQuest"] = 26146,	-- In Defense of the King's Lands
-					["coord"] = { 23.4, 74.9, LOCH_MODAN },
+					["coord"] = { 23.3, 75.1, LOCH_MODAN },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -650,13 +650,13 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(13655, {	-- Explorers' League Document (2 of 6)
 					["provider"] = { "o", 194378 },	-- Stolen Explorers' League Document
-					["coord"] = { 41.3, 38.9, LOCH_MODAN },
+					["coord"] = { 41.4, 39.0, LOCH_MODAN },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
 				q(13657, {	-- Explorers' League Document (3 of 6)
 					["provider"] = { "o", 194388 },	-- Stolen Explorers' League Document
-					["coord"] = { 61.6, 73.1, LOCH_MODAN },
+					["coord"] = { 61.7, 73.2, LOCH_MODAN },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -674,7 +674,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(13659, {	-- Explorers' League Document (6 of 6)
 					["provider"] = { "o", 194390 },	-- Stolen Explorers' League Document
-					["coord"] = { 73.1, 35.8, LOCH_MODAN },
+					["coord"] = { 73.2, 35.9, LOCH_MODAN },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -845,7 +845,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						13660,	-- Explorers' League Document (5 of 6)
 						13659,	-- Explorers' League Document (6 of 6)
 					},
-					["coord"] = { 37.1, 47.8, LOCH_MODAN },
+					["coord"] = { 37.3, 47.8, LOCH_MODAN },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -993,7 +993,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(26146, {	-- In Defense of the King's Lands
 					["qg"] = 1092,	-- Captain Rugelfuss
-					["coord"] = { 23.3, 75.0, LOCH_MODAN },
+					["coord"] = { 23.4, 75.0, LOCH_MODAN },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1060,7 +1060,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(25118, {	-- Looking for Lurkers
 					["qg"] = 1777,	-- Dakk Blunderblast
+					-- #if AFTER CATA
+					["coord"] = { 35.4, 42.8, LOCH_MODAN },
+					-- #else
 					["coord"] = { 36.0, 44.2, LOCH_MODAN },
+					-- #endif
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1107,7 +1111,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(26176, {	-- Onward to Thelsamar
 					["qg"] = 1092,	-- Captain Rugelfuss
 					["sourceQuest"] = 26148,	-- A Decisive Strike
-					["coord"] = { 23.4, 74.9, LOCH_MODAN },
+					["coord"] = { 23.4, 75.0, LOCH_MODAN },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["isBreadcrumb"] = true,
@@ -1115,7 +1119,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				q(26842, {	-- Out of Gnoll-where
 					["qg"] = 1340,	-- Mountaineer Kadrell
 					["sourceQuest"] = 26176,	-- Onward to Thelsamar
-					["coord"] = { 35.0, 46.5, LOCH_MODAN },
+					["coord"] = { 35.1, 46.6, LOCH_MODAN },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
@@ -1330,7 +1334,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				}),
 				q(13636, {	-- Stormpike's Orders [TODO: confirm if breadcrumb]
 					["qg"] = 1340,	-- Mountaineer Kadrell
-					["coord"] = { 35.0, 46.5, LOCH_MODAN },
+					["coord"] = { 35.1, 46.6, LOCH_MODAN },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -2033,8 +2037,8 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						}),
 					},
 				}),
-				n(1465, {	-- Drav Roughcut <Tradesman>
-					["coord"] = { 35.6, 49.0, LOCH_MODAN },
+				n(1465, {	-- Drac Roughcut <Tradesman>
+					["coord"] = { 35.6, 49.1, LOCH_MODAN },
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						i(6892),	-- Recipe: Smoked Bear Meat (RECIPE!)
@@ -2053,7 +2057,11 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 					},
 				}),
 				n(1684, {	-- Khara Deepwater <Fishing Supplies>
+					-- #if AFTER CATA
+					["coord"] = { 39.5, 39.2, LOCH_MODAN },
+					-- #else
 					["coord"] = { 40.4, 39.4, LOCH_MODAN },
+					-- #endif
 					["races"] = ALLIANCE_ONLY,
 					["groups"] = {
 						-- #if SEASON_OF_DISCOVERY
@@ -2066,6 +2074,18 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(6329),	-- Recipe: Loch Frenzy Delight (RECIPE!)
 						i(6328),	-- Recipe: Longjaw Mud Snapper (RECIPE!)
 					},
+				}),
+				n(1362, {	-- Gothor Brumn <Armorer>
+					["coord"] = { 24.1, 18.2, LOCH_MODAN },
+					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						847,	-- Chainmail Armor
+						1845,	-- Chainmail Belt
+						849,	-- Chainmail Boots
+						1846,	-- Chainmail Bracers
+						850,	-- Chainmail Gloves
+						848,	-- Chainmail Pants
+					}},
 				}),
 				-- #if SEASON_OF_DISCOVERY
 				n(3291, {	-- Greishan Ironstove <Traveling Merchant>
@@ -2095,6 +2115,14 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 				n(167, {	-- Morhan Coppertongue <Metalsmith>
 					["coord"] = { 34.0, 46.6, LOCH_MODAN },
 					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						847,	-- Chainmail Armor
+						1845,	-- Chainmail Belt
+						849,	-- Chainmail Boots
+						1846,	-- Chainmail Bracers
+						850,	-- Chainmail Gloves
+						848,	-- Chainmail Pants
+					}},
 					["groups"] = {
 						i(4765, {	-- Enamelled Broadsword
 							["isLimited"] = true,
@@ -2127,6 +2155,28 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["isLimited"] = true,
 						}),
 					},
+				}),
+				n(6030, {	-- Thorvald Deepforge
+					["coord"] = { 23.7, 74.3, LOCH_MODAN },
+					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						1198,	-- Claymore
+						851,	-- Cutlass
+						1197,	-- Giant Mace
+						853,	-- Hatchet
+						2207,	-- Jambiya
+						852,	-- Mace
+						854,	-- Quarter Staff
+						1196,	-- Tabar
+					}},
+				}),
+				n(1469, {	-- Vrok Blunderblast <Gunsmith>
+					["coord"] = { 25.3, 42.5, LOCH_MODAN },
+					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						2511,	-- Hunter's Boomstick
+						2509,	-- Ornate Blunderbuss
+					}},
 				}),
 				n(1685, {	-- Xandar Goodbeard <General Supplies>
 					["coord"] = { 82.6, 63.2, LOCH_MODAN },

@@ -2537,7 +2537,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						{ "i", 56823 },	-- Stonebreaker's Report
 					},
 					["sourceQuest"] = 26102,	-- Grimaxe's Demise
-					["coord"] = { 78.2, 20.4, IRONFORGE },
+					["coord"] = { 78.2, 20.4, DUN_MOROGH },
 					["timeline"] = { ADDED_4_0_3 },
 					["races"] = ALLIANCE_ONLY,
 				}),
@@ -4160,6 +4160,31 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 						i(2686),	-- Thunder Ale
 					},
 				}),
+				-- #if AFTER CATA
+				n(46996, {	-- Jade Ramalot <Weaponsmith>
+					["coord"] = { 78.6, 20.0, DUN_MOROGH },
+					["races"] = ALLIANCE_ONLY,
+					["sym"] = {{"select","itemID",
+						926,	-- Battle Axe
+						2025,	-- Bearded Axe
+						2029,	-- Cleaver
+						927,	-- Double Axe
+						925,	-- Flail
+						1197,	-- Giant Mace
+						2030,	-- Gnarled Staff
+						2028,	-- Hammer
+						853,	-- Hatchet
+						928,	-- Long Staff
+						852,	-- Mace
+						924,	-- Maul
+						20981,	-- Neophyte's Mace
+						854,	-- Quarter Staff
+						2026,	-- Rock Hammer
+						1196,	-- Tabar
+						37,		-- Worn Axe
+					}},
+				}),
+				-- #endif
 				n(7955, {	-- Milli Featherwhistle <Mechanostrider Merchant>
 					-- #if AFTER CATA
 					["coord"] = { 56.2, 46.3, DUN_MOROGH },

@@ -737,6 +737,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 			["timeline"] = { ADDED_4_3_0 },
 		}),
 		ach(7852, {	-- They're Both Footballs? (2012)
+			["description"] = "If you have obtained both items but you didn't earn the achievement, try throwing both balls to a friend.",
 			["providers"] = {
 				{ "i", 90888 },	-- Special Edition Foot Ball (TOY!)
 				{ "i", 90883 },	-- The Pigskin (TOY!)
@@ -2517,7 +2518,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.FEAST_OF_WINTER_VEIL, n(FEAST_OF_WINTER_V
 			},
 		}),
 		n(23064, {	-- Eebee Jinglepocket <Smokywood Pastures>
-			["coord"] = { 51.6, 30.6, SHATTRATH_CITY },
+			["coord"] = { 51.3, 29.7, SHATTRATH_CITY },
 			["timeline"] = { ADDED_2_3_0 },
 			-- #if AFTER CATA
 			["groups"] = HOLIDAY_VENDOR_GROUPS_GREEN,
