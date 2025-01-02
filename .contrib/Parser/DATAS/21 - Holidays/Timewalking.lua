@@ -1,7 +1,9 @@
 --------------------------------------------
 --     H O L I D A Y S  M O D U L E       --
 --------------------------------------------
--- #if AFTER 6.2.3.20601
+-- #if BEFORE 6.2.3.20601
+if true then return end
+-- #endif
 -- Helper function to build a CRS list for the Timereaver Mount.
 -- Since this data is all in the same file, we no longer have to do this as part of a post-processor.
 local TIMEWALKING_DUNGEON_CREATURE_IDS = {};
@@ -6624,4 +6626,3 @@ table.insert(POST_PROCESSING_FUNCTIONS, function()
 	root(ROOTS.Holidays, InfiniteTimereaver);
 end);
 ]]--
--- #endif
