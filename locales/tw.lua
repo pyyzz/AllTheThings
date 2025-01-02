@@ -86,9 +86,9 @@ local GetSpellName = app.WOWAPI.GetSpellName;
 	L.QUEST_MAY_BE_REMOVED = "擷取任務資訊失敗。這個任務可能已從遊戲中移除。";
 
 	L.FACTION_SPECIFIC_REP = "並非所有聲望都可以在單個角色上查看。例：聯盟玩家無法看到戰歌騎手，部落玩家無法查看銀翼哨兵。";
-	L.MINUMUM_STANDING_WITH_FACTION = "需要至少 %s 和 %s.";
-	L.MAXIMUM_STANDING_WITH_FACTION = "需要站立低於 %s 和 %s.";
-	L.MIN_MAX_STANDING_WITH_FACTION = "需要站在 %s 和 %s 和 %s.";
+	L.MINUMUM_STANDING_WITH_FACTION = "最低陣營聲望等級 %s 和 %s。";
+	L.MAXIMUM_STANDING_WITH_FACTION = "最高陣營聲望等級 %s 和 %s。";
+	L.MIN_MAX_STANDING_WITH_FACTION = "陣營聲望等級在 %s 與 %s 之間，和 %s。";
 
 	L.ADDED_WITH_PATCH = "隨更新加入";
 	L.REMOVED_WITH_PATCH = "隨更新移除";
