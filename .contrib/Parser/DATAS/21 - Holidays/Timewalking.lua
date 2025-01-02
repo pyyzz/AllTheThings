@@ -29,6 +29,8 @@ local function inst_tw(id, t)
 	end
 	return t;
 end
+-- Provide a table of the instanceID's which should have corresponding Timewalking headers built
+-- Additionally the instanceID can be a table itself containing the {Source instanceID, sub-mapID, [timewalking instanceID]}
 local function AddInstancesToRotation(expansionTier, argument1, ...)
 	local instances = {};
 	for i,instanceInfo in ipairs(type(argument1) == "table" and argument1 or { argument1, ... }) do
@@ -36,7 +38,7 @@ local function AddInstancesToRotation(expansionTier, argument1, ...)
 			-- instanceInfo can also designate a sub-mapID within the instance group (Classic dungeons which were split)
 			if type(instanceInfo) == "table" then
 				table.insert(instances, inst(instanceInfo[1], {	m(instanceInfo[2], {
-					d(DIFFICULTY.DUNGEON.TIMEWALKING, { ["sym"] = {{"sub", "tw_instance", instanceInfo[1] }}, }),
+					d(DIFFICULTY.DUNGEON.TIMEWALKING, { ["sym"] = {{"sub", "tw_instance", instanceInfo[3] or instanceInfo[1] }}, }),
 				})}));
 			else
 				table.insert(instances, inst(instanceInfo, {
@@ -627,9 +629,9 @@ AddInstancesToRotation(EXPANSION.CLASSIC, {
 	-- Dungeons
 	63,		-- Deadmines
 	{230,236},	-- Dire Maul - Capital Gardens
-	{230,239},	-- Dire Maul - Warpwood Quarter
+	{230,239,1276},	-- Dire Maul - Warpwood Quarter
 	{236,STRATHOLME},	-- Stratholme - Main Gate
-	{236,318},	-- Stratholme - Service Entrance
+	{236,318,1292},	-- Stratholme - Service Entrance
 	241,	-- Zul'Farrak
 });
 
