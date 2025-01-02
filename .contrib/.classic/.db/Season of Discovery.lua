@@ -947,6 +947,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 			ru = "Охота на монстров",
 			ko = "몬스터 사냥",
 			cn = "怪物狩猎",
+			tw = "怪物狩獵",
 		},
 	}), {
 		["classes"] = { WARRIOR },
@@ -3218,6 +3219,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 			ru = "Душевные брокеры",
 			ko = "소울 브로커",
 			cn = "灵魂经纪人",
+			tw = "靈魂仲介者",
 		},
 	}), {
 		["aqd"] = {
