@@ -603,7 +603,6 @@ root(ROOTS.Unsorted, {
 			i(232631),	-- Wrapped Spear
 			--
 			i(228911),	-- Xal'atath's Rusty Coin
-			i(234413),	-- Satchel of Exotic Mysteries
 			--
 			i(227698),	-- Torn Diary, Page 2
 			i(229198),	-- Ace of Air

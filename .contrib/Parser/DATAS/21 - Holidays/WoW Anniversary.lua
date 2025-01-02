@@ -2789,6 +2789,8 @@ root(ROOTS.Holidays, applyevent(EVENTS.WOW_ANNIVERSARY, n(WOW_ANNIVERSARY_ROOT, 
 				},
 				["skipFill"] = true,
 			}),
+			-- Satchel when under level 80 for Celebration Raid Finder (possibly codex?)
+			i(234413),	-- Satchel of Exotic Mysteries
 		})),
 		n(QUESTS, {
 			q(82672),	-- Another Timely Invitation
