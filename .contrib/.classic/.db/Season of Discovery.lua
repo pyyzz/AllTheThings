@@ -3218,7 +3218,7 @@ root(ROOTS.SeasonOfDiscovery, applyclassicphase(SOD_PHASE_ONE, n(SEASON_OF_DISCO
 			pt = "Corretores de Almas",
 			ru = "Душевные брокеры",
 			ko = "소울 브로커",
-			cn = "灵魂经纪人",
+			cn = "灵魂掮客",
 			tw = "靈魂仲介者",
 		},
 	}), {
