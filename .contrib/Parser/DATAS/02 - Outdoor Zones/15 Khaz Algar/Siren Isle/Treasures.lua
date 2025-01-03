@@ -26,6 +26,8 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 							-- The Forgotten Vault
 							{ 28.5, 73.5, 2375 },
 							{ 64.1, 50.8, 2375 },
+							-- Siren Isle
+							{ 61.6, 61.5, SIREN_ISLE },
 						},
 					}),
 				},

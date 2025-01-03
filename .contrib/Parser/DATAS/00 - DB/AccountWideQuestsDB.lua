@@ -1690,5 +1690,6 @@ ExportDB.AccountWideQuestsDB = {
 	[86483] = true,	-- Snap To It
 	[86484] = true,	-- Temper Like A Tempest
 	[86485] = true,	-- A Loyal Friend
+	[86931] = true,	-- triggered after turn in of any of the pact weeklies?
 	-- #ENDIF
 }

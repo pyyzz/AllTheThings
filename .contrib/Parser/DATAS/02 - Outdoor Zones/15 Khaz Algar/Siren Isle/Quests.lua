@@ -213,7 +213,7 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						["g"] = { i(232862) },	-- Singing Fragments (QI!)
 					}),
 					o(500690, {	-- Seafarer's Cache
-						-- ["coord"] = { xx, SIREN_ISLE },
+						["coord"] = { 46.2, 87.8, SIREN_ISLE },
 						["g"] = { i(232861) },	-- Singing Fragments (QI!)
 					}),
 					--spell(470197),	-- Blessing of the Seadweller
@@ -375,7 +375,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 						["g"] = { i(231802), },	-- Ashvane Co. Survey Report (QI!)
 					}),
 					o(477612, {	-- Siren Isle Manifest
-						["coord"] = { 68.3, 94.3, SIREN_ISLE },
+						["coords"] = {
+							{ 55.2, 93.1, SIREN_ISLE },
+							{ 68.3, 94.3, SIREN_ISLE },
+						},
 						["g"] = { i(231813), },	-- Siren Isle Manifest (QI!)
 					}),
 					o(477248, {	-- Songs of the Siren
@@ -504,7 +507,10 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, bubbleDown({ ["timeline"] = { ADDED_11_0_7 } }, 
 				["provider"] = { "n", 229716 },	-- Stellin Verasa
 				["coord"] = { 71.0, 39.6, SIREN_ISLE },
 				["g"] = {
-					i(232694),	-- Transcribed Kul Tiran Journal [book]
+					o(499466, {	-- Tattered Kul Tiran Journal
+						["coord"] = { 38.9, 54.8, SIREN_ISLE },
+						["g"] = { i(232694) },	-- Transcribed Kul Tiran Journal (QI!)
+					}),
 				},
 			}),
 			-- Snapdragon

@@ -1283,6 +1283,7 @@ i(208229);	-- Honor of the Forsaken
 ------------------
 -- PATCH 10.2.0 --
 ------------------
+i(211424);	-- Dreaming Banner of the Aspects
 i(210411);	-- Fast Growing Seed
 i(209035);	-- Hearthstone of the Flame
 i(210864);	-- Improvised Leafbed
@@ -1295,7 +1296,6 @@ i(210497);	-- Verdant Legend's Pennant
 i(209859);	-- Festive Trans-Dimensional Bird Whistle
 i(210656);	-- Winter Veil Socks
 --- NYI ---
-i(211424);	-- Dreaming Banner of the Aspects
 i(208087);	-- Unknown
 
 ------------------
