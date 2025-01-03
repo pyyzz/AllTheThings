@@ -49,7 +49,7 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, {
 							["timeline"] = { REMOVED_1_6_0, ADDED_10_1_7 },	-- 07.09.2023 ATT Discord
 						}),
 						i(18987, {	-- Blackhand's Command
-							["timeline"] = { REMOVED_4_0_3 },	-- 07.09.2023 ATT Discord
+							["timeline"] = { REMOVED_6_0_3 },	-- 07.09.2023 ATT Discord
 						}),
 					},
 				}),

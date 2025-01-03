@@ -111,7 +111,7 @@ BLACKROCK_SPIRE_INSTANCE = inst(229, {	-- Blackrock Spire
 					{ "o", 179880 },	-- Drakkisath's Brand
 				},
 				["coord"] = { 34.9, 27.9, BURNING_STEPPES },
-				["timeline"] = { REMOVED_4_0_3 },
+				["timeline"] = { REMOVED_6_0_3 },
 				["maps"] = { BLACKROCK_MOUNTAIN },
 				["lvl"] = 55,
 			}),
